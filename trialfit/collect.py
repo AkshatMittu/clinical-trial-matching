@@ -42,6 +42,11 @@ class Scope:
     tags: dict[str, list[str]] = field(default_factory=dict)
     # tags that must ALL be true for `in_scope` (the tight subtype match)
     require_tags: tuple[str, ...] = ()
+    # Tags describing what the trial IS (its setting), read from the title,
+    # conditions and summary ONLY — never eligibility. Eligibility text is full
+    # of exclusions ("no metastatic disease"), so matching it there tags an
+    # adjuvant trial as metastatic. That mislabelled 106 of 187 trials.
+    headline_tags: tuple[str, ...] = ()
     # trials we always want present regardless of score: nct -> label
     anchors: dict[str, str] = field(default_factory=dict)
 
@@ -71,6 +76,7 @@ BREAST_HR_POS = Scope(
         "metastatic": ["metastatic", "stage iv", "advanced breast", " mbc"],
     },
     require_tags=("hr_pos", "her2_neg", "early_adjuvant"),
+    headline_tags=("early_adjuvant", "metastatic"),
     anchors={"NCT05952557": "CAMBRIA-2", "NCT02513394": "PALLAS"},
 )
 
@@ -88,11 +94,28 @@ class Limits:
 # ----------------------------------------------------------------------------
 # Metadata extraction — one flat row per trial
 # ----------------------------------------------------------------------------
-def tag_text(text: str, scope: Scope) -> dict:
-    """Keyword-tag a trial's text. Heuristic — confirm borderline cases by hand."""
-    low = text.lower()
-    flags = {k: any(kw in low for kw in kws) for k, kws in scope.tags.items()}
+def tag_text(headline: str, full: str, scope: Scope) -> dict:
+    """Keyword-tag a trial. Heuristic — confirm borderline cases by hand.
+
+    `headline` is title + conditions + summary; `full` adds eligibility. Tags in
+    `scope.headline_tags` read only the headline, because eligibility states what
+    a trial *excludes* as often as what it studies.
+    """
+    low_head, low_full = headline.lower(), full.lower()
+    flags = {}
+    for k, kws in scope.tags.items():
+        blob = low_head if k in scope.headline_tags else low_full
+        flags[k] = any(kw in blob for kw in kws)
     flags["in_scope"] = all(flags.get(t, False) for t in scope.require_tags)
+    # One readable setting label for downstream tiering.
+    if flags.get("metastatic") and not flags.get("early_adjuvant"):
+        flags["setting"] = "metastatic"
+    elif flags.get("early_adjuvant") and not flags.get("metastatic"):
+        flags["setting"] = "early_adjuvant"
+    elif flags.get("early_adjuvant") and flags.get("metastatic"):
+        flags["setting"] = "mixed"
+    else:
+        flags["setting"] = "unspecified"
     return flags
 
 
@@ -139,17 +162,24 @@ def extract_meta(record: dict, scope: Scope) -> dict:
     locations = contacts.get("locations", []) or []
     conditions = conds.get("conditions", []) or []
 
-    # Tag against everything the trial says about itself, not just the title.
-    taggable = " ".join([
+    # What the trial says it IS ...
+    headline = " ".join([
         ident.get("briefTitle", "") or "",
         ident.get("officialTitle", "") or "",
         desc.get("briefSummary", "") or "",
-        elig_text,
         " ".join(conditions),
     ])
+    # ... versus everything it says, criteria included.
+    full = headline + " " + elig_text
 
     inc, exc = count_criteria(elig_text)
     purl = ctgov.protocol_url(record)
+
+    # Intervention types drive specialty alignment: a DRUG trial wants a medical
+    # oncologist, a PROCEDURE/RADIATION trial wants a surgeon or rad-onc.
+    interventions = dig(ps, "armsInterventionsModule", "interventions", default=[])
+    iv_types = sorted({(iv.get("type") or "").upper()
+                       for iv in interventions if iv.get("type")})
 
     meta = {
         "nct_id": nct,
@@ -181,8 +211,10 @@ def extract_meta(record: dict, scope: Scope) -> dict:
         "has_results": bool(record.get("hasResults")),
 
         "conditions": "|".join(conditions),
+        "intervention_types": "|".join(iv_types),
+        "n_interventions": len(interventions),
     }
-    meta.update(tag_text(taggable, scope))
+    meta.update(tag_text(headline, full, scope))
     return meta
 
 
@@ -220,6 +252,7 @@ def phase_ok(m: dict, scope: Scope) -> bool:
 
 
 def assign_bucket(m: dict, scope: Scope) -> str:
+    """gold = deep grounding · demo = live story · broad = investigator mining."""
     if m["study_type"] != scope.keep_study_type or not phase_ok(m, scope):
         return "other"
     if m["in_scope"] and m["has_protocol"] and m["elig_chars"] > 600:
@@ -283,6 +316,35 @@ def collect(scope: Scope, limits: Limits, data_dir: Path,
             print(f"  + anchor {nct} ({label}) added, bucket={m['bucket']}")
 
     metas.sort(key=lambda m: (-m["quality_score"], m["nct_id"]))
+    return metas
+
+
+def rebuild_from_cache(scope: Scope, data_dir: Path,
+                       verbose: bool = True) -> list[dict]:
+    """Re-derive the manifest from cached raw records, with no API calls.
+
+    Tagging and scoring rules change more often than the underlying records do;
+    this replays them over what's already on disk.
+    """
+    raw_dir = data_dir / "trials_raw"
+    paths = sorted(raw_dir.glob("NCT*.json"))
+    metas: list[dict] = []
+    for path in paths:
+        try:
+            record = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            if verbose:
+                print(f"  ! unreadable: {path.name}")
+            continue
+        m = extract_meta(record, scope)
+        if not m["nct_id"]:
+            continue
+        m["quality_score"] = quality_score(m)
+        m["bucket"] = assign_bucket(m, scope)
+        metas.append(m)
+    metas.sort(key=lambda m: (-m["quality_score"], m["nct_id"]))
+    if verbose:
+        print(f"  rebuilt {len(metas)} trials from {raw_dir} (no API calls)")
     return metas
 
 
