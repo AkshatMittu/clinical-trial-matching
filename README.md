@@ -248,53 +248,10 @@ only thing that reads the held-out tier labels.
 **Current: AUC 0.812** across 6 pairs — both `known` trials above both
 negatives. Small n; treat as directional.
 
-AUC is the pairwise (Mann-Whitney) form — verified identical to the ROC-curve
+AUC is the pairwise (Mann-Whitney) form, verified identical to the ROC-curve
 area and to `sklearn.roc_auc_score`.
 
 No LLM judge: the most expensive layer and the least informative.
-
----
-
-## Four ideas that recur
-
-**1 · Python owns the arithmetic.** The model emits labels and prose; weights,
-gates, coverage, thresholds and composites are computed in code. The model is
-schema-forbidden from emitting a score, so it can't decide an answer and
-reverse-engineer the reasoning.
-
-**2 · Agents have no tools.** Both the rubric agent and the matcher receive a
-brief built deterministically by Python. They can't fetch, so they can't invent.
-
-**3 · Absence is a first-class answer.** `unknown` verdicts, `not_found`
-resolutions, `insufficient_evidence` recommendations, `self_report` sources.
-Coverage below 50% overrides a good score.
-
-**4 · Provenance is set from the record, not asserted.** Whether burden came
-from a real protocol, which refs are citable, what was excluded — determined by
-code inspecting artifacts, never by the model claiming it.
-
----
-
-## Honest limitations
-
-- **PubMed author search matches surname + initial**, so it can include
-  namesakes. The query is recorded beside the results.
-- **Abstracts cover the 10 most recent publications only**, capped at 700 chars.
-- **Medicare underestimates practice volume** — Medicare claims only.
-- **CT.gov investigator matching is full-text**; `confirmed` roles are separated
-  from weaker `mentioned` hits.
-- **The eligibility split is a keyword heuristic.** On PALLAS, 16 of 36 criteria
-  land in `unclear` and are withheld from the rubric rather than guessed at.
-- **The primary/secondary distinction is underspecified** — the model gets one
-  adjective each ("strongly load-bearing" vs "helpful but not decisive"). The
-  observed mix is balanced (61:60 across 121 criteria), but nothing validates
-  that the *right* criteria are primary.
-- **Expected-fit tiers are predictions, not ground truth.** Only `known` is
-  factual.
-- **Perturbation has never been run**, so it isn't yet proven that each evidence
-  source is load-bearing rather than decorative.
-- Public data only, no PHI. A research prototype — not medical advice, not
-  investigator advice.
 
 ---
 
