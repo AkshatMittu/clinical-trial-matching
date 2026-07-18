@@ -7,12 +7,11 @@ Built step by step. This is where we are:
 
 - [x] **Step 1 — trial pool** (`scripts/collect_trials.py`)
 - [x] **Step 2 — physicians + their trial buckets** (`scripts/collect_physicians.py`)
-- [ ] Step 3 — trial agent → RequirementProfile
-- [ ] Step 4 — physician agent → EvidenceDossier
-- [ ] Step 5 — matcher → MatchReport
-- [ ] Step 6 — gap-closing interview
-- [ ] Step 7 — evaluation harness
-- [ ] Step 8 — orchestrator + demo UI
+- [x] **Step 3 — evidence, both sides** (`scripts/collect_evidence.py`)
+- [x] **Step 4 — evaluator agent → per-trial rubric** (`scripts/build_rubrics.py`)
+- [x] **Step 5 — match, interview, precedent, report** (`scripts/run_match.py`)
+- [ ] Step 6 — evaluation harness (does the scorer actually discriminate?)
+- [ ] Step 7 — web UI (optional; the HTML report may be enough)
 
 ## Step 1 — the sample trial set
 
@@ -190,6 +189,320 @@ data/
 └── buckets_summary.json       tier totals
 ```
 
+## Step 3 — the evidence both sides need
+
+```bash
+python scripts/collect_evidence.py               # both sides
+python scripts/collect_evidence.py --physicians  # physician side only
+python scripts/collect_evidence.py --trials      # trial side only
+```
+
+No API key, no LLM. This is deterministic collection — the agents in later steps
+reason over what's gathered here and may only cite what appears in it.
+
+### Physician side — five sources
+
+| Source | Question it answers |
+|---|---|
+| NPPES | who they are, what they're licensed as |
+| PubMed | do they publish in the disease area, and recently |
+| ClinicalTrials.gov | have they held investigator roles before |
+| CMS Open Payments | has industry paid them for *research* before |
+| CMS Medicare | how much clinical volume is visible |
+
+Collected, and genuinely differentiating:
+
+| Physician | PubMed (5y) | CT.gov roles | Open Payments | Medicare |
+|---|---|---|---|---|
+| Erica Mayer | 117 (60) | 11 confirmed | $2,883 / 4 records | 206 svc, 5 codes |
+| Coral Omene | 20 (12) | 2 confirmed | none | 192 svc, 4 codes |
+| Laura Esserman | 370 (90) | 5 confirmed | none | 118 svc, 6 codes |
+
+Every record carries a ref that resolves to a public entry — `PMID:41812623`,
+`NCT02513394`, `OpenPayments:1040131905`. **A claim with no ref is not evidence.**
+
+This layer is a **collector, not a judge**: it records what each source returned,
+including when a source returned nothing, and never forms a view on fit.
+
+**Both CMS dataset ids are discovered at runtime** from the CMS metastore rather
+than pinned in `.env`. They change every program year, so configuration would go
+stale silently. One gotcha worth recording: the Open Payments query path is
+`/datastore/query/{distribution_id}` with **no** trailing `/0` — the indexed form
+404s for these datasets.
+
+### Trial side — what a requirement can be derived from
+
+Step 1's manifest is a *selection* index. Matching needs full text that a
+requirement can cite: eligibility, arms, interventions, outcomes, sites,
+officials, and the protocol's Schedule of Assessments.
+
+**The eligibility split** is the judgment that matters here. Eligibility mixes
+two different kinds of criteria, and only one bears on physician fit:
+
+- *population-defining* — "histologically confirmed ER+/PR+, HER2−, Stage II".
+  What patients the practice must already treat. **These become requirements.**
+- *per-patient screening* — ECOG status, lab thresholds, washout, consent.
+  Checked per enrolled patient; says nothing about whether a physician is a good
+  site. **These are excluded.**
+
+On PALLAS: 10 population-defining, 10 screening, 16 unclear. The split is a
+heuristic and is recorded as such, so a later stage can review it rather than
+inherit it silently.
+
+### Operational burden, and how confident we are about it
+
+**12 of 19** trials have a posted protocol. For those, burden comes from the
+Schedule of Assessments; for the rest it can only be inferred from phase and
+design, and is flagged `inferred` rather than presented as read from source.
+
+Locating the grid is harder than it looks. Matching the heading text finds the
+*words* "Schedule of Assessments" — which appear in cross-references throughout
+a protocol's body text. In PALLAS that put the extractor on page 49, a paragraph
+mentioning the schedule, while the actual grid was on page 58.
+
+So pages are ranked by **grid structure** — density of standalone `X` marks
+crossed with visit-column vocabulary (Screening, Cycle *n*, Day *n*, End of
+Treatment) — not by heading text. Results carry their confidence:
+
+| Confidence | n | Meaning |
+|---|---|---|
+| `grid` | 6 | page is structurally a visit table |
+| `heading_only` | 5 | heading matched, no table structure — may be a reference |
+| absent | 1 | protocol posted, no schedule located |
+
+`heading_only` usually means the table's marks didn't survive PDF text
+extraction. Labelling it beats silently passing prose off as a visit schedule.
+
+### Output
+
+```
+data/
+├── evidence/{NPI}.json      per-physician dossier — 5 sources, refs, gaps
+├── trial_info/{NCT}.json    eligibility split, arms, outcomes, sites, SoA
+├── protocols/{NCT}_protocol.pdf   downloaded protocols (git-ignored)
+└── cache/{NCT}_pages.json         extracted page text (git-ignored)
+```
+
+### The gap public data cannot close
+
+Public sources are good at *"is this person a researcher"* and bad at *"does this
+person treat THIS patient population"*. Medicare volume is the only population
+signal available and it is Medicare-only — a floor, not a total. Each dossier
+records this in `gaps` rather than papering over it. Closing it needs the
+physician's own attestation, which is what the interview step is for.
+
+## Step 4 — the evaluator agent
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+python scripts/build_rubrics.py --dry-run          # show the brief, no API call
+python scripts/build_rubrics.py --only NCT02513394
+python scripts/build_rubrics.py                    # all 19 trials
+```
+
+The first LLM stage. In: one trial record. Out: a **rubric tailored to that
+trial** — the criteria a physician should be scored against for *this* study.
+
+### Why per-trial and not one checklist
+
+A first-in-human dose-escalation study needs a site that can handle intensive PK
+sampling and DLT review. A 400-site adjuvant phase 3 needs throughput and a large
+eligible population. Scoring both against one fixed checklist would measure the
+checklist, not the fit. **A rubric that would apply equally well to any oncology
+trial has failed** — every criterion must name what in the record produced it, in
+`derived_from`.
+
+### Three constraints, each load-bearing
+
+**1. The agent has no tools.** Step 3 already assembled the trial record; the
+agent gets a brief built deterministically by `build_brief()` and nothing else.
+It cannot fetch, and therefore cannot invent, a fact mid-generation. (PALLAS's
+brief is ~2,700 tokens.)
+
+**2. Python owns every number.** The model assigns each criterion a *criticality
+label* — `hard_gate` / `primary` / `secondary` — and `WEIGHTS` turns labels into
+points (`primary=3`, `secondary=1`). The model never emits a weight or a total,
+so it cannot tune the arithmetic to reach a score it likes. A hard gate carries
+no weight at all: failing it caps the match outright, which a large negative
+weight would only approximate.
+
+**3. Provenance is set from the record, not asserted by the model.** Whether
+burden was read from a real Schedule of Assessments or inferred from phase and
+design comes from `trial_info` — the rubric doesn't get to claim it read a
+protocol that wasn't there. When step 3 flagged an SoA as `heading_only`, the
+brief says so and asks the agent to treat it as weak evidence.
+
+### The eligibility split, enforced
+
+The brief presents population-defining and screening criteria in **separate
+labelled sections**, and the agent must list every screening criterion it
+declined to use in `excluded_screening`, with a reason. Requirements come from
+"histologically confirmed ER+/PR+, HER2−, Stage II"; ECOG status and pregnancy
+tests do not — they're checked per enrolled patient and say nothing about
+whether a physician is a good site.
+
+### Validation, and fix-and-resubmit
+
+Output shape is guaranteed by structured outputs against a Pydantic schema
+(`extra="forbid"`). Python then checks what a JSON schema can't express:
+
+| Check | Why |
+|---|---|
+| 6–12 criteria | fewer is thin, more is unfocused |
+| ≥1 criterion per dimension | a rubric missing `patient_population` isn't measuring fit |
+| exactly 1–2 `hard_gate` | gates cap the whole match; they must stay rare |
+| no duplicate criterion ids | ids are join keys for the scoring stage |
+| `satisfies_if` ≥4 words | "has relevant experience" is not checkable |
+| every criterion names ≥1 data source | otherwise nothing can verify it |
+
+Failures go **back to the model with the specific problems** and it resubmits
+(up to 3 attempts) — a mostly-good rubric gets fixed rather than discarded over
+one bad criterion. Every attempt is recorded in the trace.
+
+### `self_report` is a first-class answer
+
+Each criterion names which of the five sources could verify it. When none can,
+the honest answer is `self_report` rather than pointing at a source that only
+weakly gestures at the question. `public_coverage` in the output reports what
+fraction of the rubric public data can actually settle — the number that predicts
+how often a truthful match lands at `insufficient_evidence` before an interview.
+
+### Output
+
+```
+data/rubrics/{NCT}.json    rubric + scoring math + provenance + attempt trace
+```
+
+### Model and cost
+
+**Default: `claude-sonnet-5`**, adaptive thinking, `effort: high`. Override with
+`--model` or `TRIALFIT_MODEL` / `TRIALFIT_EFFORT`.
+
+Measured cost per trial (~2.7k in, ~4k out including thinking):
+
+| Model | $/trial | 19 trials | 34 pairs |
+|---|---|---|---|
+| `claude-sonnet-5` | $0.045 | **$0.86** | $1.54 |
+| `claude-opus-4-8` | $0.114 | $2.16 | $3.86 |
+| `claude-opus-4-7` | $0.114 | $2.16 | $3.86 |
+| `claude-haiku-4-5` | $0.023 | $0.43 | $0.77 |
+
+**Opus 4.7 and 4.8 are the same price** ($5/$25 per MTok) — stepping down a
+version saves nothing. The saving comes from the Sonnet tier: Sonnet 5 is
+$2/$10 at intro pricing (through 2026-08-31, $3/$15 after), 2.5× cheaper than
+Opus at near-Opus quality on this kind of judgment work.
+
+Every rubric records its own `trace.cost_usd`, the CLI prints a running total,
+and `--budget 5.00` stops the run once that much has been spent.
+
+## Step 5 — match, interview, precedent, report
+
+```bash
+# live (needs a key, ~30-90s/pair)
+python scripts/run_match.py --nct NCT02513394 --npi 1336121789 --open
+python scripts/run_match.py --prebuild --budget 3.00     # record every demo pair
+
+# demo (no key, no network, instant)
+python scripts/run_match.py --list
+python scripts/run_match.py --replay --nct NCT02513394 --npi 1336121789 --open
+```
+
+Five stages: **rubric → adjudicate → precedent → interview → report.**
+
+### The matcher has no tools
+
+Its entire world is two artifacts already on disk — the rubric and the evidence
+dossier. It cannot fetch, so it cannot introduce a fact mid-judgment that nothing
+else in the pipeline has seen. Same division of labour as step 4: the model does
+the semantic work (does this evidence meet this `satisfies_if`?), Python does the
+arithmetic (gate, weighted score, coverage, recommendation).
+
+Two guards make the output falsifiable rather than merely plausible:
+
+- **Ref validation.** Every `evidence_refs` entry is checked against the refs the
+  dossier actually contains. A rationale citing `PMID:99999999` when no such
+  record was collected fails validation instead of shipping as a citation.
+- **`unknown` is a real verdict.** The prompt draws the line between
+  `not_satisfied` (evidence shows the criterion is *not* met) and `unknown`
+  (nothing was collected either way), and forbids upgrading an absence into a
+  charitable `partial`. Coverage below 50% forces `insufficient_evidence` no
+  matter how well the answered criteria scored.
+
+### The gap-closing interview
+
+Public data answers *"is this a researcher"* well and *"does this person treat
+THIS population"* badly. So the high-weight `patient_population` criteria come
+back `unknown` and a genuinely good match lands at `insufficient_evidence`. That
+verdict is correct — the fix is to ask the physician, then say plainly that the
+answer came from them.
+
+Measured on PALLAS × Erica Mayer with two criteria attested:
+
+| | Before | After |
+|---|---|---|
+| Recommendation | possible fit | **strong fit** |
+| Score | 7.5 / 14 | 13.5 / 14 |
+| Coverage | 71% | 100% |
+
+Self-report is never laundered: every attested record carries
+`ref="attestation:<criterion_id>"`, a `[SELF-REPORTED]` summary prefix, and a
+badge everywhere it appears in the report. A `not_satisfied` verdict is
+deliberately **not** treated as a gap — re-asking would invite the subject to
+overturn a finding. Answering `skip` leaves a criterion unresolved, which is
+often the more honest demo.
+
+### Precedent — what comparable trials did
+
+No LLM, so it costs nothing. Finds terminal-status trials matching on condition +
+phase + intervention type and tallies what happened to them. On PALLAS: **81
+comparable trials, 83% completed, 17% stopped early, 6% specifically for failure
+to enrol.**
+
+That last number is the one a prospective site actually wants, and it comes from
+classifying ClinicalTrials.gov's free-text `whyStopped` into accrual / efficacy /
+safety / funding buckets.
+
+**This is operational success, not efficacy.** CT.gov records whether a trial
+finished and enrolled, not whether the treatment worked — a completed trial with
+a negative result counts as completed. The caveat ships attached to the numbers,
+and a sample under 30 trials is flagged as directional rather than statistical.
+
+### The report
+
+One **self-contained HTML file** — no CDN, no webfont, no image host (verified:
+zero external resource requests). Opens from `file://`, survives being emailed,
+and prints to PDF via the header button or Cmd/Ctrl-P. That beats generating a
+PDF directly: no extra dependency, and the same artifact is both the on-screen
+view and the download.
+
+It carries the rubric it was scored against, every verdict with its rationale,
+and **evidence refs rendered as links to the actual public record** — PubMed,
+CT.gov, NPPES — so a reader can check any claim rather than trusting it. A score
+without its rubric and its evidence is just an opinion.
+
+### Trajectories — for the 3-minute demo
+
+A live run makes 3–4 model calls and several API round trips. That's most of a
+short demo spent watching a terminal.
+
+Every run writes a **trajectory**: the finished artifacts plus the per-step
+timings the live run actually took. `--replay` re-emits those steps from disk
+with **zero API calls**, paced so the audience sees the pipeline progress
+(`--pace 0.15` by default; `0` is instant, `1.0` is original speed).
+
+What's replayed is the real run's output, not a mock — if the demo shows a score,
+that score came from a model call that genuinely happened.
+
+```
+data/
+├── match_reports/{NCT}__{NPI}.json            adjudication + scoring
+│   └── ...__interviewed.json                  re-scored after the interview
+├── precedent/{NCT}.json                       comparable-trial outcomes
+├── reports/{NCT}__{NPI}.html                  the deliverable
+├── trajectories/{NCT}__{NPI}.json             recorded run, for replay
+└── demo_answers.json                          scripted interview answers
+```
+
 ## Scope is a parameter
 
 `Scope` in [collect.py](trialfit/collect.py) holds the condition, the narrowing
@@ -204,10 +517,24 @@ trialfit/
 ├── collect.py     scope presets, metadata extraction, scoring, bucketing
 ├── nppes.py       NPPES client + identity resolution (refuses to guess)
 ├── physicians.py  seed harvesting, roster building, demo selection
-└── buckets.py     per-physician graded trial buckets + expected-fit tiers
+├── buckets.py     per-physician graded trial buckets + expected-fit tiers
+├── pubmed.py      NCBI E-utilities publication search
+├── cms.py         Open Payments + Medicare, with runtime dataset discovery
+├── protocol.py    protocol PDF fetch, text extraction, visit-grid location
+├── trialinfo.py   full trial detail + the eligibility split
+├── evidence.py    per-physician dossier assembly across all five sources
+├── rubric.py      evaluator agent — per-trial rubric, validation, scoring math
+├── matcher.py     adjudicator — verdicts + ref validation; Python owns the score
+├── interview.py   gap-closing interview — self-report evidence, re-score
+├── precedent.py   comparable-trial outcomes from CT.gov (no LLM)
+├── report.py      self-contained printable HTML report
+└── pipeline.py    end-to-end run + trajectory record/replay
 scripts/
 ├── collect_trials.py       step-1 CLI
-└── collect_physicians.py   step-2 CLI
+├── collect_physicians.py   step-2 CLI
+├── collect_evidence.py     step-3 CLI
+├── build_rubrics.py        step-4 CLI (needs ANTHROPIC_API_KEY)
+└── run_match.py            step-5 CLI — live run, --prebuild, --replay
 data/                       generated
 ```
 
@@ -219,6 +546,14 @@ data/                       generated
   Eligibility text states what a trial *excludes* as often as what it studies, so
   matching "metastatic" there tagged 131 of 187 trials metastatic when only 8
   actually are. Adjuvant trials like `NCT02040857` were mislabelled.
+- **PubMed author search is fuzzy.** `Mayer E[Author]` also matches other
+  E. Mayers. The query is recorded next to the results so the ambiguity stays
+  visible instead of being laundered into a clean count.
+- **CT.gov investigator search is full text.** `confirmed` (listed in
+  overallOfficials) is separated from `mentioned` (name appears somewhere in the
+  record); the second is weak evidence.
+- **Medicare underestimates practice volume** — Medicare claims only. A floor,
+  never a total.
 - **Expected-fit tiers are predictions, not ground truth.** Only `known` is
   factual (the physician is a listed official). The rest are heuristics to be
   validated against real scores, not trusted.
