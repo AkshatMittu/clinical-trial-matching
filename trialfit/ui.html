@@ -116,6 +116,24 @@ code{background:#f3f3f7;padding:1px 4px;border-radius:3px;font-size:11.5px}
  padding:18px 20px;margin-top:16px;display:flex;justify-content:space-between;
  align-items:center;gap:20px;flex-wrap:wrap}
 .final .n{font-size:27px;font-weight:650;letter-spacing:-.02em}
+.legend{margin-top:14px;padding-top:13px;border-top:1px solid var(--line)}
+.legend h5{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;
+ color:var(--mut);margin:0 0 8px;font-weight:600}
+.legend .row{display:flex;align-items:baseline;gap:9px;margin:5px 0;font-size:12px}
+.legend .row .lab{min-width:132px}
+.legend .row .def{color:var(--mut)}
+.legend .row.on{background:#f7f7fa;border-radius:5px;padding:4px 7px;margin:3px -7px}
+.legend .rule{font-size:11.5px;color:var(--mut);margin-top:9px;padding-top:8px;
+ border-top:1px dashed var(--line)}
+.auc{background:var(--pan);border:1px solid var(--line);border-radius:9px;
+ padding:16px 20px;margin-top:12px}
+.auc .top{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.auc .num{font-size:26px;font-weight:650;letter-spacing:-.02em}
+.auc .cap{font-size:12px;color:var(--mut)}
+.auc details{margin-top:10px}
+.auc summary{cursor:pointer;font-size:12px;color:var(--accent)}
+.auc .work{font-size:12px;color:var(--mut);margin-top:8px;line-height:1.6}
+.auc code{font-size:11px}
 </style></head><body>
 <div class="app">
 <aside>
@@ -149,6 +167,43 @@ let physicians = [], sel = {npi:null, nct:null}, es = null;
 
 function kpi(v, k){ return `<div class="kpi"><div class="v">${esc(v)}</div><div class="k">${esc(k)}</div></div>`; }
 function pill(v){ return `<span class="pill p-${esc(v)}">${esc(String(v).replace(/_/g,' '))}</span>`; }
+
+// System-level, not pair-level: how well the scorer separates pairs we EXPECTED
+// to score well from ones we didn't. Shown once, below the per-pair result, so
+// nobody mistakes it for this physician's score.
+async function renderAUC(){
+  let e;
+  try { e = await (await fetch('/api/evaluation')).json() } catch(_) { return '' }
+  if(!e.available) return `<div class="auc"><div class="cap">Evaluation harness: ${esc(e.reason||'no data yet')}</div></div>`;
+  return `<div class="auc">
+    <div class="top">
+      <div>
+        <div style="font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut)">Does the scorer discriminate?</div>
+        <div class="num">AUC ${e.auc_strong_vs_weak ?? '\u2014'}</div>
+      </div>
+      <div class="cap" style="flex:1;min-width:220px">${esc(e.verdict)}</div>
+    </div>
+    <details>
+      <summary>how this number is generated</summary>
+      <div class="work">
+        Pairwise <b>Mann-Whitney AUC</b> — identical to the area under the ROC
+        curve, computed without building one.
+        <br><br>
+        Each pair carries an expected-fit tier assigned <b>before any scoring</b>.
+        <code>known</code>+<code>strong</code> are positives,
+        <code>moderate</code>+<code>weak</code> are negatives. Compare every
+        positive <code>p</code> against every negative <code>n</code>:
+        <br><br>
+        <code>wins = \u03a3 (p &gt; n) + 0.5 \u00d7 (p == n)</code><br>
+        <code>AUC&nbsp; = wins / (len(pos) \u00d7 len(neg))</code>
+        <br><br>
+        <b>0.5 is a coin flip</b> — the score carries no information.
+        1.0 is perfect separation. Based on ${e.n_pairs} scored pairs;
+        small n, treat as directional.
+      </div>
+    </details>
+  </div>`;
+}
 
 async function boot(){
   physicians = await (await fetch('/api/physicians')).json();
@@ -373,6 +428,24 @@ function renderAsk(d){
   };
 }
 
+const FIT_DEFS = [
+  ['strong_fit',            'score \u2265 70% of available points, gate passed'],
+  ['possible_fit',          'score 40\u201369%'],
+  ['poor_fit',              'score < 40%, OR a hard gate failed'],
+  ['insufficient_evidence', 'fewer than 50% of criteria could be adjudicated'],
+];
+
+function legend(current){
+  return `<div class="legend">
+    <h5>How these are decided</h5>
+    ${FIT_DEFS.map(([k,d]) => `<div class="row${k===current?' on':''}">
+      <span class="lab">${pill(k)}</span><span class="def">${esc(d)}</span></div>`).join('')}
+    <div class="rule"><b>Order matters.</b> A failed gate outranks a good score,
+      and thin coverage outranks a confident-looking one. <b>poor fit</b> means
+      no; <b>insufficient evidence</b> means we don't know.</div>
+  </div>`;
+}
+
 function renderFinal(f){
   const s = f.scoring || {};
   const b = f.before;   // set only when an interview actually re-scored
@@ -402,7 +475,20 @@ function renderFinal(f){
       ${f.live_seconds?`<div style="font-size:11.5px;color:var(--mut);margin-bottom:7px">live run took ${f.live_seconds}s and cost $${(f.live_cost_usd||0).toFixed(3)} · this replay cost nothing</div>`:''}
       <a href="${f.report_url}" target="_blank"><button class="pri">Open full report ↗</button></a>
       <div style="font-size:11.5px;color:var(--mut);margin-top:6px">rubric · every verdict · evidence links · print to PDF</div>
-    </div></div>`;
+      <div style="margin-top:10px"><button id="act">Take action</button></div>
+      <div id="actHint" style="font-size:11.5px;color:var(--mut);margin-top:5px"></div>
+    </div></div>
+    ${legend(s.recommendation)}
+    <div id="aucSlot"></div>`;
+  renderAUC().then(html => { const el = document.getElementById('aucSlot'); if(el) el.innerHTML = html; });
+  // Placeholder — this is where a real deployment would open a site-qualification
+  // packet or a CTMS record. It intentionally does nothing yet, and says so
+  // rather than pretending to have worked.
+  const act = document.getElementById('act');
+  if(act) act.onclick = () => {
+    document.getElementById('actHint').textContent =
+      'Not wired up — a real deployment would start site qualification here.';
+  };
 }
 boot();
 </script></body></html>
