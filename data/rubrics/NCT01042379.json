@@ -1,0 +1,203 @@
+{
+  "nct_id": "NCT01042379",
+  "trial_label": "I-SPY",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Adult women (and rarely men) newly diagnosed with locally advanced breast cancer (Stage II/III, T4 any N M0, inflammatory, or regional Stage IV with only supraclavicular nodal spread) who have received no prior chemotherapy or ipsilateral radiation, have measurable disease \u22652.5cm, and whose tumor is being molecularly profiled (MammaPrint, ER, HER2/TargetPrint) at trial entry to assign them adaptively to one of several neoadjuvant experimental-plus-standard-chemotherapy arms ahead of definitive breast surgery.",
+    "site_burden": "No formal Schedule of Assessments was provided, so burden is inferred from the adaptive platform design and interventions: this requires an academic breast oncology infrastructure capable of pre-treatment core biopsy for biomarker assay (MammaPrint/ER/HER2/TargetPrint), serial breast MRI for response prediction, coordination of a 12-week weekly paclitaxel backbone followed by anthracycline-based therapy (weeks 13-16) prior to surgery, multi-arm IV drug administration and toxicity monitoring across several experimental agents (some with cardiac and infusion-reaction risk profiles, e.g. trastuzumab/pertuzumab combinations), tissue/blood banking logistics for correlative science, close coordination with breast surgery for post-neoadjuvant resection and pCR determination, and participation in a Bayesian adaptive randomization scheme requiring rapid, accurate biomarker reporting back to a central statistical hub. This is substantially more operationally complex than a fixed two-arm neoadjuvant trial.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "Investigator must be a medical oncologist (or breast surgical/radiation oncologist functioning as PI) with a breast cancer-focused practice, not a general oncologist without breast subspecialization.",
+        "satisfies_if": "NPPES taxonomy lists Hematology/Oncology, Medical Oncology, or Surgical Oncology with a documented breast cancer focus (publication or trial history), or self-attestation of a dedicated breast oncology practice.",
+        "data_sources": [
+          "nppes",
+          "pubmed",
+          "self_report"
+        ],
+        "derived_from": "Conditions list (Breast Neoplasms, TNBC, HER2+/HER2- BC) and neoadjuvant chemotherapy design targeting breast cancer subtypes"
+      },
+      {
+        "id": "neoadjuvant_experience",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "Investigator should have documented experience managing neoadjuvant chemotherapy regimens (anthracycline/taxane-based) in breast cancer prior to surgery.",
+        "satisfies_if": "PubMed record includes at least one publication on neoadjuvant breast cancer chemotherapy, or investigator has served as PI/sub-I on a neoadjuvant breast cancer trial per ClinicalTrials.gov.",
+        "data_sources": [
+          "pubmed",
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "derived_from": "Standard Therapy arm: paclitaxel weeks 1-12, doxorubicin/cyclophosphamide weeks 13-16 pre-surgery"
+      },
+      {
+        "id": "biomarker_driven_trial_familiarity",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "Investigator should understand molecular subtyping tools (MammaPrint, IHC/FISH HER2, TargetPrint) used to assign adaptive treatment arms.",
+        "satisfies_if": "Publication record or self-report indicates familiarity with genomic assay-based breast cancer stratification (e.g., MammaPrint, HER2 testing methods).",
+        "data_sources": [
+          "pubmed",
+          "self_report"
+        ],
+        "derived_from": "Tumor assay profile eligibility requiring MammaPrint High/Low, ER, HER2 status via IHC/FISH/TargetPrint"
+      },
+      {
+        "id": "locally_advanced_bc_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "Practice must regularly see and treat women with newly diagnosed Stage II-III or T4/inflammatory breast cancer eligible for neoadjuvant therapy, in sufficient volume to contribute to a 5000-patient multi-site adaptive platform.",
+        "satisfies_if": "Medicare claims or self-report indicate a baseline volume of newly diagnosed locally advanced (Stage II-III/T4/inflammatory) breast cancer patients seen annually consistent with an active breast oncology referral practice.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "Eligible tumors: Stage II or III, T4 any N M0, inflammatory or regional Stage IV with supraclavicular-only mets"
+      },
+      {
+        "id": "biopsy_naive_patient_access",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Site must have access to chemotherapy- and radiation-naive breast cancer patients at first diagnosis, prior to any systemic treatment.",
+        "satisfies_if": "Self-report confirms the practice typically enrolls patients at initial diagnosis prior to any cytotoxic or radiation therapy, consistent with a primary breast cancer referral or tumor board pathway.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "No prior cytotoxic regimens or ipsilateral radiation therapy allowed for this malignancy"
+      },
+      {
+        "id": "molecular_subtype_diversity",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Practice must see breast cancer patients across the full receptor/HER2 spectrum (TNBC, HR+/HER2-, HER2+) to populate the trial's multiple biomarker signature arms.",
+        "satisfies_if": "Self-report or practice profile confirms routine treatment of TNBC, HER2-positive, and hormone receptor-positive breast cancer patients, not a single-subtype-limited practice.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Conditions list spanning TNBC, HER2-positive, HER2-negative, HR-positive, HR-negative tumors"
+      },
+      {
+        "id": "mri_core_biopsy_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have on-site or closely coordinated access to serial breast MRI imaging and image-guided core biopsy for baseline and on-treatment biomarker assessment.",
+        "satisfies_if": "Self-report confirms institutional access to breast MRI and core needle biopsy services integrated with the research team's workflow.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Willingness to undergo core biopsy of primary lesion and imaging-based response prediction central to trial design"
+      },
+      {
+        "id": "multiarm_iv_infusion_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to administer and monitor multiple concurrent/sequential IV investigational and standard agents (paclitaxel, doxorubicin/cyclophosphamide, trastuzumab, pertuzumab, and other targeted agents) with associated toxicity management (e.g., cardiac monitoring for HER2-targeted therapy).",
+        "satisfies_if": "Self-report confirms an infusion center with capacity for multi-agent IV chemotherapy/biologic administration and cardiac monitoring (echocardiogram/MUGA access) for HER2-targeted regimens.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Interventions list including Paclitaxel, Doxorubicin/Cyclophosphamide, Trastuzumab, Pertuzumab, T-DM1, and other closed experimental arms requiring IV infusion infrastructure"
+      },
+      {
+        "id": "surgical_coordination",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must coordinate neoadjuvant treatment completion with breast surgical resection for pathologic complete response assessment.",
+        "satisfies_if": "Self-report confirms established referral or co-located relationship with breast surgical oncology for post-neoadjuvant surgery and pathology review.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Primary outcome: pathologic complete response (pCR) assessed post-surgery"
+      },
+      {
+        "id": "prior_investigator_role_oncology_trials",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience as PI or sub-investigator on interventional oncology (ideally breast cancer neoadjuvant) trials, given the complexity of this adaptive multi-arm platform.",
+        "satisfies_if": "ClinicalTrials.gov record lists the physician as PI or sub-I on at least one completed or active breast cancer interventional trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Phase 2 adaptive multi-arm platform trial design (I-SPY 2) with rotating experimental arms"
+      },
+      {
+        "id": "industry_sponsor_relationship",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator should have a track record of industry-sponsored research funding/payments consistent with active clinical trial conduct, given the multiple pharma-supplied agents in this platform.",
+        "satisfies_if": "Open Payments database shows research payment records to the investigator or affiliated institution from oncology drug sponsors.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Multiple sponsor drug arms (AMG 386, AMG 479, MK-2206, T-DM1, Pertuzumab, Ganetespib, ABT-888, Neratinib, PLX3397, Pembrolizumab) indicating a pharma-collaborative, multi-sponsor platform"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG performance status 0-1 \u2014 per-patient fitness check, not a physician-fit signal",
+      "Willingness to undergo core biopsy \u2014 a per-patient consent/willingness item, not a site capability (site MRI/biopsy infrastructure is captured separately)",
+      "Non-pregnant and non-lactating \u2014 per-patient eligibility, irrelevant to investigator qualification",
+      "Ability to understand and sign informed consent (Screening Consent) \u2014 per-patient consent capacity",
+      "Normal organ and marrow function labs (leukocytes, ANC, platelets, bilirubin, AST/ALT, creatinine) \u2014 per-patient lab thresholds checked at enrollment",
+      "No uncontrolled cardiac disease / baseline EF \u226550% \u2014 per-patient cardiac fitness screening",
+      "No clinical/imaging evidence of distant metastases (CXR, bone scan, LFTs) \u2014 per-patient staging workup, not a site-level requirement",
+      "Ability to understand and sign I-SPY 2 Consent #2 \u2014 per-patient consent capacity"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 20,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 3,
+        "max_points": 5
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 7
+      },
+      "trial_execution": {
+        "n_criteria": 2,
+        "max_points": 4
+      }
+    },
+    "n_publicly_verifiable": 6,
+    "n_self_report_only": 5,
+    "public_coverage": 0.55
+  },
+  "provenance": {
+    "burden_source": "inferred",
+    "soa_confidence": null,
+    "soa_page": null,
+    "protocol_available": false,
+    "n_population_criteria": 5,
+    "n_screening_criteria": 8
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 4520,
+      "output_tokens": 3666
+    },
+    "cost_usd": 0.0457
+  }
+}

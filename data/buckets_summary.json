@@ -1,0 +1,45 @@
+{
+  "n_physicians": 3,
+  "n_pairs": 34,
+  "tier_totals": {
+    "known": 7,
+    "strong": 9,
+    "moderate": 9,
+    "weak": 9
+  },
+  "physicians": [
+    {
+      "npi": "1336121789",
+      "name": "Erica Mayer",
+      "specialty": "medical_oncology",
+      "tier_counts": {
+        "known": 4,
+        "strong": 3,
+        "moderate": 3,
+        "weak": 3
+      }
+    },
+    {
+      "npi": "1861688988",
+      "name": "Coral Omene",
+      "specialty": "hematology_oncology",
+      "tier_counts": {
+        "known": 2,
+        "strong": 3,
+        "moderate": 3,
+        "weak": 3
+      }
+    },
+    {
+      "npi": "1679537971",
+      "name": "Laura Esserman",
+      "specialty": "surgical_oncology",
+      "tier_counts": {
+        "known": 1,
+        "strong": 3,
+        "moderate": 3,
+        "weak": 3
+      }
+    }
+  ]
+}

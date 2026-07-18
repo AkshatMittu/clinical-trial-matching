@@ -1,0 +1,852 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04869943",
+      "orgStudyIdInfo": {
+        "id": "V3002401"
+      },
+      "organization": {
+        "fullName": "Veru Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy Evaluation of Enobosarm Monotherapy in Treatment of AR+/ER+/HER2- Metastatic Breast Cancer",
+      "officialTitle": "Randomized Crossover Ph3 to Evaluate Efficacy/Safety of Enobosarm Monotherapy vs Active Control for Treatment of AR+/ER+/HER2- MBC With AR Staining Previously Treated w/Nonsteroidal Aromatase Inhibitor, SERD & CDK 4/6 Inhibitor",
+      "acronym": "ARTEST"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Business decision",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-01-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-01-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-04-27",
+      "studyFirstSubmitQcDate": "2021-04-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Veru Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To demonstrate the efficacy of enobosarmin the treatment of androgen receptor positive (AR+) and estrogen receptor positive (ER+) metastatic breast cancer (MBC) as measured by radiographic progression free survival (rPFS).",
+      "detailedDescription": "This study is a multicenter, randomized, open-label, two treatment arm, efficacy and safety study, comprised of two sections, the main study and the post-study extension period. Subjects will be randomized to the two treatment arms in a 1:1 fashion (into the main study), with the opportunity for subjects initially randomized to the Control Treatment Group to cross over to receive the investigational treatment in the post-study extension period.\n\nThe primary efficacy endpoint of the study will be the median rPFS. Subjects will continue study treatment until disease progression confirmed by blinded independent central reader (BICR) is observed. A safety follow up visit will occur approximately 30 days after last dose of study drug. Thereafter, survival follow up will be completed monthly for one year. Survival follow up may be completed by phone or records review. After one year, survival follow up will be completed every 90 days.\n\nAfter radiographic progression (by RECIST 1.1) is confirmed by blinded independent central reader (BICR) and have received approval from Medical Monitor, subjects in the Control Treatment Group may be crossed over to receive enobosarm treatment (9mg per day). Treatment will continue in this population (Enobosarm Post-study Group (EPG)) until radiographic progression (by RECIST 1.1), confirmed by BICR, is observed. The efficacy database for this crossover group will be completely separate from the main portion of the study and the data will be analyzed separately."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "keywords": [
+        "Third line",
+        "3rd line",
+        "Androgen Receptor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Subjects in the Enobosarm Treatment Group will receive enobosarm 9mg each day by mouth until disease progression or an unacceptable adverse event is observed. Subjects in the Control Treatment Group will receive a ER targeted therapy limited to exemestane monotherapy, exemestane plus everolimus or selective estrogen receptor modulator(SERM) approved for the treatment of breast cancer and is part of the standard of care at the clinical study site. The decision of which comparator treatment will be used will be made prior to randomization.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 52,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Enobosarm Treatment Group",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects in the Enobosarm Treatment Group will receive enobosarm 9mg each day by mouth until disease progression or an unacceptable adverse event is observed. The total duration of the study for a subject in the study from screening to follow-up visit is not standardized and will be different for each subject.",
+          "interventionNames": [
+            "Drug: Enobosarm"
+          ]
+        },
+        {
+          "label": "Control Treatment Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Subjects in the Control Treatment Group will receive an ER targeted therapy limited to exemestane monotherapy, exemestane plus everolimus or selective estrogen receptor modulator (SERM) approved for the treatment of breast cancer and is part of the standard of care at the clinical study site. The decision of which comparator treatment will be used will be made prior to randomization. After radiographic progression, subjects randomized to the Control Treatment Group may be crossed over to receive enobosarm 9mg.",
+          "interventionNames": [
+            "Drug: Exemestane"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Enobosarm",
+          "description": "Oral Enobosarm 9mg per day",
+          "armGroupLabels": [
+            "Enobosarm Treatment Group"
+          ],
+          "otherNames": [
+            "VERU-024"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane",
+          "description": "Exemestane monotherapy, exemestane plus everolimus, or selective estrogen receptor modulator (SERM)",
+          "armGroupLabels": [
+            "Control Treatment Group"
+          ],
+          "otherNames": [
+            "Mestane"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To demonstrate the efficacy of Enobosarm in the treatment of androgen receptor positive (AR+) and estrogen receptor positive (ER+) metastatic breast cancer (MBC) as measured by radiographic progression free survival (rPFS).",
+          "description": "The primary endpoint for the study is the median radiographic progression free survival (rPFS) in the Enobosarm Treatment Group compared to the Control Treatment Group.\n\nProgression will be defined based on RECIST 1.1.",
+          "timeFrame": "Day 120"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "Objective Response Rate (ORR), proportion of subjects with a best tumor response of ORR (PR or CR) on study",
+          "timeFrame": "Day 180"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Provide informed consent\n* Be able to communicate effectively with the study personnel\n* Aged \u226518 years\n* For Female Subjects\n\n  * Menopausal status\n* Be postmenopausal as defined by the National Comprehensive Cancer Network as either:\n\n  * Age \u226555 years and one year or more of amenorrhea\n  * Age \\<55 years and one year or more of amenorrhea, with an estradiol assay \\<20 pg/mL\n  * Age \\<55 years and surgical menopause with bilateral oophorectomy\n* Be premenopausal or perimenopausal on ovarian suppression with LHRH agonist for at least 4 months, with an estradiol assay \\<20 pg/mL and a negative urine pregnancy test.\n* If subject is of child bearing potential, the subject must agree to use acceptable methods of contraception:\n\n  * If female study participant could become pregnant, use acceptable methods of contraception from the time of the first administration of study medication until 6 months following administration of the last dose of study medication. Acceptable methods of contraception are as follows: Condom with spermicidal foam/gel/film/cream/suppository \\[i.e., barrier method of contraception\\], surgical sterilization of male partner (vasectomy with documentation of azoospermia) and a barrier method {condom used with spermicidal foam/gel/film/cream/suppository}\n  * If female study participant has undergone documented tubal ligation (female sterilization), a barrier method (condom used with spermicidal foam/gel/film/cream/suppository) should also be used\n  * If female study participant has undergone documented placement of an intrauterine device (IUD) or intrauterine system (IUS), a barrier method (condom with spermicidal foam/gel/film/cream/suppository) should also be used\n* For Male Subjects\n\n  * Subject must agree to use acceptable methods of contraception:\n* If the study subject's partner could become pregnant, use acceptable methods of contraception from the time of the first administration of study medication until 6 months following administration of the last dose of study medication. Acceptable methods of contraception are as follows: Condom with spermicidal foam/gel/ film/cream/suppository \\[i.e., barrier method of contraception\\], surgical sterilization (vasectomy with documentation of azoospermia) and a barrier method {condom used with spermicidal foam/gel/film/cream/suppository}, the female partner uses oral contraceptives (combination estrogen/progesterone pills), injectable progesterone or subdermal implants and a barrier method (condom used with spermicidal foam/gel/film/cream/suppository)\n* If female partner of a study subject has undergone documented tubal ligation (female sterilization), a barrier method (condom used with spermicidal foam/gel/film/cream/suppository) should also be used\n* If female partner of a study subject has undergone documented placement of an intrauterine device (IUD) or intrauterine system (IUS), a barrier method (condom with spermicidal foam/gel/film/cream/suppository) should also be used\n* Eastern Cooperative Oncology Group (ECOG) performance status of \u22642\n* Documented evidence of ER+/HER2- metastatic breast cancer\n* Measurable disease is required as per RECIST 1.1 (NOTE: Bone only metastatic disease is acceptable but requires a measurable component\n* Have androgen receptor nuclei staining \u226540% as assessed by central laboratory\n* Received at least 2 prior lines of treatment in MBC setting which must have included both an AI (monotherapy or combination) and fulvestrant (monotherapy or combination); at least one must have been given in combination with a CDK 4/6 inhibitor.\n* Previously responded (without disease progression for at least 6 months) to one of the following treatments: fulvestrant monotherapy or fulvestrant plus CDK 4/6 inhibitor or nonsteroidal aromatase inhibitor monotherapy or nonsteroidal aromatase inhibitor plus CDK 4/6 inhibitor for metastatic breast cancer.\n* Subject is willing to comply with the requirements of the protocol through the end of the study\n\nExclusion Criteria:\n\n* Known hypersensitivity or allergy to enobosarm\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>2.5 X upper limit of normal (ULN) or total bilirubin \\>ULN (an elevated total bilirubin up to 1.5 X ULN attributed to a previously confirmed diagnosis of Gilbert's disease is acceptable if all other eligibility criteria are met). In patients with documented metastases to the liver, the limits for inclusion are ALT or AST \\>5.0 X ULN or total bilirubin \\>1.5 X ULN.\n* Patients with biliary catheter.\n* Creatinine clearance \\< 30 mL/min as measured using the Cockcoft Gault formula (patients with mild and moderate renal failure are not excluded from participation in this study)\n* Previously received \\>1 course of systemic chemotherapy (not including immunotherapies or targeted therapies) for the treatment of metastatic breast cancer.\n\nNote: Subjects may have received 1 course of chemotherapy in the adjuvant or neoadjuvant setting would not count as a line of therapy.\n\n* Subjects with radiographic evidence of central nervous system (CNS) metastases as assessed by CT or MRI that are not well-controlled (symptomatic or requiring control with continuous corticosteroid therapy \\[e.g., dexamethasone\\]) Note: Subjects with CNS metastases are permitted to participate in the study if the CNS metastases are medically well-controlled and stable for at least 30 days after receiving local therapy (irradiation, surgery, etc.)\n* Radiotherapy within 14 days prior to randomization except in case of localized radiotherapy for analgesic purpose or for lytic lesions at risk of fracture, which can then be completed within 7 days prior to randomization. Subjects must have recovered from radiotherapy toxicities prior to randomization\n* Any comorbid disease or condition (medical or surgical) which might compromise the hematologic, cardiovascular, endocrine, pulmonary, severe renal impairment, gastrointestinal, hepatic, or central nervous system; or other conditions that may interfere with the absorption, distribution, metabolism or excretion of study drug, or would place the subject at increased risk\n* Treatment with any investigational product within \\< 4 half-lives for each individual investigational product OR within 30 days prior to randomization\n* Major surgery within 30 days prior to randomization\n* Treatment with testosterone, methyltestosterone, oxandrolone (Oxandrin\u00ae), oxymetholone, danazol, fluoxymesterone (Halotestin\u00ae), testosterone-like agents (such as dehydroepiandrosterone, androstenedione, and other androgenic compounds, including herbals), or antiandrogens (enzalutamide, abiraterone, bicalutamide, apalutamide, or darolutamide). Previous therapy with testosterone and testosterone-like agents is acceptable with a 30-day washout (if previous testosterone therapy was long term depot within the past 6 months, the site should contact the Medical Monitor) or any other androgenic agent.\n* Treatment with any of the following hormone replacement therapies for metastatic breast cancer. Prior use in the adjuvant or neoadjuvant setting is allowed if the treatment is, discontinued greater than 30 days prior to randomization\n\n  * Estrogens\n  * Megesterol acetate\n  * Testosterone\n* All other concurrent anticancer treatments (including, but not limited to, all SERMs unless randomized to the Control Treatment Group with a SERM as the control treatment, AIs unless randomized to Control Treatment Group (exemestane or exemestane plus everolimus) with the AI containing treatment as the control treatment, and all CDK 4/6 inhibitors)\n* An abnormal ECG result which, based on the investigator's clinical judgment, would place the subject at increased risk\n* Has a known additional, invasive, malignancy that is progressing or required active treatment in the last 5 years \\[note: subjects with basal cell carcinoma of the skin, squamous cell carcinoma of the skin, ductal breast carcinoma in situ, bladder cancer (superficial treated), or cervical carcinoma in situ that have undergone potentially curative therapy are not excluded\\]\n* Pregnant, lactating, or breastfeeding, or intending to become pregnant during the study or within 60 days after the final dose of study treatment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Barnette",
+          "affiliation": "Veru Inc.",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ironwood Cancer and Research Centers",
+          "city": "Chandler",
+          "state": "Arizona",
+          "zip": "85224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          }
+        },
+        {
+          "facility": "Banner Health/ Banner MD Anderson Cancer Center",
+          "city": "Gilbert",
+          "state": "Arizona",
+          "zip": "85234",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.35283,
+            "lon": -111.78903
+          }
+        },
+        {
+          "facility": "The Oncology Insitute of Hope and Innovation",
+          "city": "Glendale",
+          "state": "California",
+          "zip": "91204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14251,
+            "lon": -118.25508
+          }
+        },
+        {
+          "facility": "Marin Cancer Care, Inc.",
+          "city": "Greenbrae",
+          "state": "California",
+          "zip": "94904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.94854,
+            "lon": -122.5247
+          }
+        },
+        {
+          "facility": "California Research Institute (CRI)",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90027",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "University of California San Francisco Comprehensive Cancer Center",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94158",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Providence Medical Group",
+          "city": "Santa Rosa",
+          "state": "California",
+          "zip": "95043",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.44047,
+            "lon": -122.71443
+          }
+        },
+        {
+          "facility": "Rocky Mountain Cancer Centers",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "81008",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Morton Plant Hospital/ BayCare Health System, Inc",
+          "city": "Clearwater",
+          "state": "Florida",
+          "zip": "33756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.96585,
+            "lon": -82.8001
+          }
+        },
+        {
+          "facility": "University of Miami- Sylvester Comprehensive Cancer Center",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33146",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Miami Cancer Institute",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33176",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Woodlands Medical Specialists, PA",
+          "city": "Pensacola",
+          "state": "Florida",
+          "zip": "32503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.42131,
+            "lon": -87.21691
+          }
+        },
+        {
+          "facility": "Miami Cancer Institute, Plantation MCIP",
+          "city": "Plantation",
+          "state": "Florida",
+          "zip": "33324",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.13421,
+            "lon": -80.23184
+          }
+        },
+        {
+          "facility": "University Cancer & Blood Center",
+          "city": "Athens",
+          "state": "Georgia",
+          "zip": "30607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.96095,
+            "lon": -83.37794
+          }
+        },
+        {
+          "facility": "Blessing Corporate Services",
+          "city": "Quincy",
+          "state": "Illinois",
+          "zip": "62301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.9356,
+            "lon": -91.40987
+          }
+        },
+        {
+          "facility": "MBCCOP - LSU Health Sciences Center",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute Breast Oncology",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Comprehensive Cancer Centers of Nevada",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89169",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "Astera Cancer Care",
+          "city": "East Brunswick",
+          "state": "New Jersey",
+          "zip": "08816",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.42788,
+            "lon": -74.41598
+          }
+        },
+        {
+          "facility": "Inspira Medical Center Mullica Hill",
+          "city": "Mullica Hill",
+          "state": "New Jersey",
+          "zip": "08062",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73928,
+            "lon": -75.22407
+          }
+        },
+        {
+          "facility": "Inspira Medical Center",
+          "city": "Vineland",
+          "state": "New Jersey",
+          "zip": "08360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.48623,
+            "lon": -75.02573
+          }
+        },
+        {
+          "facility": "The Lindner Center for Research and Education at the Christ Hospital",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Magee-Women's Hospital",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Tidelands Health",
+          "city": "Murrells Inlet",
+          "state": "South Carolina",
+          "zip": "29576",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.551,
+            "lon": -79.04143
+          }
+        },
+        {
+          "facility": "Tennessee Cancer Specialists",
+          "city": "Knoxville",
+          "state": "Tennessee",
+          "zip": "37909",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          }
+        },
+        {
+          "facility": "Baptist Clinical Research Institute",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "38102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Texas Oncology Sammons Cancer Center",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75246",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Texas Oncology - Tyler",
+          "city": "Tyler",
+          "state": "Texas",
+          "zip": "75702",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.35126,
+            "lon": -95.30106
+          }
+        },
+        {
+          "facility": "Virginia Cancer Specialists",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Virginia Oncology Associates",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Oncology and Hematology Associates of Southwest Virginia, Inc.",
+          "city": "Roanoke",
+          "state": "Virginia",
+          "zip": "24014",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.27097,
+            "lon": -79.94143
+          }
+        },
+        {
+          "facility": "MultiCare Institute for Research and Innovation",
+          "city": "Puyallup",
+          "state": "Washington",
+          "zip": "98372",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.18538,
+            "lon": -122.2929
+          }
+        },
+        {
+          "facility": "Cancer Care Northwest",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        },
+        {
+          "facility": "MultiCare Institute for Research and Innovation",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        },
+        {
+          "facility": "Wojew\u00f3dzka Przychodnia Onkologiczna, Wojew\u00f3dzkie Wielospecjalistyczne Centrum Onkologii i Traumatologii im. M. Kopernika w \u0141odzi",
+          "city": "Lodz",
+          "zip": "91-211",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Instytut Centrum Zdrowia Matki Polki",
+          "city": "Lodz",
+          "zip": "93-338",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Centrum Onkologii Ziemi Lubelskiej im. \u015bw. Jana z Dukli",
+          "city": "Lublin",
+          "zip": "20-090",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Specjalistyczny Szpital Onkologiczny NU-MED",
+          "city": "Mak\u00f3w Mazowiecki",
+          "zip": "97-200",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.86493,
+            "lon": 21.10053
+          }
+        },
+        {
+          "facility": "\"Oddzia\u0142 Onkologii Klinicznej i Chemioterapii Europejskie Centrum Zdrowia Otwock\"",
+          "city": "Otwock",
+          "zip": "05-400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.10577,
+            "lon": 21.26129
+          }
+        },
+        {
+          "facility": "Klinika Nowotwor\u00f3w Piersi i Chirurgii Rekonstrukcyjnej, Narodowy Instytut Onkologii im. Marii Sk\u0142odowskiej-Curie Pa\u0144stwowy Instytut Badawczy",
+          "city": "Warsaw",
+          "zip": "02-781",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "A Coru\u00f1a University Hospital",
+          "city": "A Coru\u00f1a",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Hospital Universitari Dexeus",
+          "city": "Barcelona",
+          "zip": "08028",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebron - Vall d'Hebron Institut d'Oncologia (VHIO)",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Institut Catala d'Oncologia (ICO)",
+          "city": "Barcelona",
+          "zip": "08908",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari Arnau de Vilanova de Lleida",
+          "city": "Lleida",
+          "zip": "25198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital Ruber Internacional",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre (H12O)",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario HM Sanchinarro",
+          "city": "Madrid",
+          "zip": "28050",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Valencia (CHUV)",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Municipal Institution \"Dnipropetrovsk City Multi-field Clinical Hospital #4\", Dnepropetrovsk state m",
+          "city": "Dnipro",
+          "zip": "49000",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 48.46664,
+            "lon": 35.04066
+          }
+        },
+        {
+          "facility": "State institution \"V.T. Zaycev Institute of general and urgent surgery of National academy medical sciences of Ukraine\"",
+          "city": "Kharkiv",
+          "zip": "61103",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.98177,
+            "lon": 36.25475
+          }
+        },
+        {
+          "facility": "Khmelnytsky Regional Antitumor Center, Department of Breast, Skin, Soft Tissues and Bones Tumorsa",
+          "city": "Khmelnytskyi",
+          "zip": "29000",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 49.41835,
+            "lon": 26.97936
+          }
+        },
+        {
+          "facility": "Kyiv City Clinical Oncology Center",
+          "city": "Kyiv",
+          "zip": "03115",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        },
+        {
+          "facility": "Odessa Regional Oncological Dispensary",
+          "city": "Odesa",
+          "zip": "65000",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 46.48572,
+            "lon": 30.74383
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Puerto Rico"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D055534",
+          "term": "Bulbo-Spinal Atrophy, X-Linked"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D009134",
+          "term": "Muscular Atrophy, Spinal"
+        },
+        {
+          "id": "D013118",
+          "term": "Spinal Cord Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D020271",
+          "term": "Heredodegenerative Disorders, Nervous System"
+        },
+        {
+          "id": "D019636",
+          "term": "Neurodegenerative Diseases"
+        },
+        {
+          "id": "D016472",
+          "term": "Motor Neuron Disease"
+        },
+        {
+          "id": "D009468",
+          "term": "Neuromuscular Diseases"
+        },
+        {
+          "id": "D040181",
+          "term": "Genetic Diseases, X-Linked"
+        },
+        {
+          "id": "D030342",
+          "term": "Genetic Diseases, Inborn"
+        },
+        {
+          "id": "D009358",
+          "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C547106",
+          "term": "ostarine"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

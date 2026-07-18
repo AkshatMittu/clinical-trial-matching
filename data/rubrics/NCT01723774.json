@@ -1,0 +1,208 @@
+{
+  "nct_id": "NCT01723774",
+  "trial_label": "PD 0332991 and Anastrozole for Stage 2 or 3 Estrogen Recepto",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "A postmenopausal (or ovarian-suppressed premenopausal) woman with newly diagnosed, treatment-naive clinical Stage II-III (T2-T4c, any N, M0) invasive ER-positive (Allred 6-8), HER2-negative breast cancer, who is a surgical candidate and has not yet received any therapy for this cancer, being considered for neoadjuvant endocrine therapy prior to definitive breast/axillary surgery.",
+    "site_burden": "This is a research-biopsy-intensive neoadjuvant window-of-opportunity trial requiring: pre-registration mammogram/US within 12 weeks, baseline and mandatory C1D15 (+/- up to C1D20) tumor core biopsies with rapid central Ki67 turnaround from the Washington University AMP lab, mandatory research blood draws (including PK sampling, germline/ctDNA), serial CBC/chemistry roughly every cycle over 4-5 monthly cycles, EKG monitoring for QTc, coordination of surgery timing to a precise post-treatment window (C5D11-13 or 3-5 weeks post last dose), and shipment of pathology slides to Washington University for central review. The site must be able to schedule a biopsy strictly at C1D15 and act on central Ki67 results to make real-time treatment/eligibility decisions, plus support an optional adjuvant PD 0332991 phase (23 cycles) with continued monitoring. This is a multi-year, multi-cycle protocol requiring tight coordination among surgery, radiology, pathology, and medical oncology at a single site.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a medical oncologist, hematologist-oncologist, or breast surgical oncologist with a focus on breast cancer management, as this trial requires expertise in neoadjuvant endocrine therapy decision-making and CDK4/6 inhibitor management.",
+        "satisfies_if": "NPPES taxonomy lists Hematology & Oncology, Medical Oncology, or Surgical Oncology with a breast cancer practice focus.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "Conditions: Breast Neoplasms; population is ER+/HER2- Stage II-III breast cancer managed with neoadjuvant endocrine therapy and CDK4/6 inhibition prior to surgery"
+      },
+      {
+        "id": "neoadjuvant_endocrine_experience",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "The investigator should have documented clinical or research experience specifically with neoadjuvant endocrine therapy and/or CDK4/6 inhibitors (e.g., palbociclib) in ER+/HER2- breast cancer.",
+        "satisfies_if": "PubMed record includes at least one publication as author on neoadjuvant endocrine therapy, Ki67-based response, or CDK4/6 inhibitor trials in breast cancer.",
+        "data_sources": [
+          "pubmed"
+        ],
+        "derived_from": "Trial mechanism: PD 0332991 (CDK4/6 inhibitor) plus anastrozole in the neoadjuvant setting, with Ki67-based complete cell cycle arrest as primary endpoint"
+      },
+      {
+        "id": "surgical_coordination_infrastructure",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "The investigator's practice must have established multidisciplinary coordination with breast surgery for precisely timed post-neoadjuvant surgical excision.",
+        "satisfies_if": "Self-reported confirmation of an established multidisciplinary breast cancer tumor board or formal referral pathway to breast surgical oncology at the same institution or affiliated site.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Protocol requirement that surgery occur in a precise window (C5D11-13 or 3-5 weeks post last dose) following completion of neoadjuvant treatment"
+      },
+      {
+        "id": "stage2_3_er_positive_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must regularly diagnose and manage treatment-naive clinical Stage II-III ER+/HER2- breast cancer patients who are surgical candidates, since the trial enrolls only pre-treatment patients meeting this specific stage/biomarker profile.",
+        "satisfies_if": "Self-reported practice volume of at least several newly diagnosed Stage II-III ER+/HER2- breast cancer patients per year prior to any treatment initiation.",
+        "data_sources": [
+          "self_report",
+          "medicare"
+        ],
+        "derived_from": "Inclusion: Clinical T2-T4c, any N, M0 invasive ER+ (Allred 6-8), HER2-negative breast cancer, treatment-naive at study entry"
+      },
+      {
+        "id": "treatment_naive_referral_pathway",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The site must be positioned early in the diagnostic pathway to identify patients before any surgery, radiation, chemotherapy, or hormonal therapy is initiated, since prior treatment of any kind is exclusionary.",
+        "satisfies_if": "Self-reported description of referral relationships with radiology/breast imaging centers or surgeons that route newly diagnosed, untreated patients to the investigator prior to any intervention.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Exclusion: prior treatment of this cancer including surgery, radiation, chemotherapy, biotherapy, hormonal therapy, or investigational agent prior to study entry"
+      },
+      {
+        "id": "endocrine_resistant_cohort_capacity",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "The site should have access to patients already on neoadjuvant endocrine therapy who could be assessed for the endocrine-resistant cohort (Ki67 >10% after >=2 weeks of endocrine therapy).",
+        "satisfies_if": "Self-reported ability to identify and refer patients currently receiving neoadjuvant endocrine therapy for on-treatment biopsy and central Ki67 assessment.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Endocrine resistant cohort exclusion criterion requiring Ki67 >10% by central testing after at least 2 weeks of neoadjuvant endocrine therapy"
+      },
+      {
+        "id": "onsite_biopsy_and_imaging",
+        "dimension": "operational_capacity",
+        "criticality": "hard_gate",
+        "requirement": "The site must have on-site or tightly coordinated capability to perform scheduled core tumor biopsies (baseline and mandatory C1D15, +/- up to C1D20) and breast/axillary mammogram and ultrasound imaging per protocol windows.",
+        "satisfies_if": "Self-reported on-site or formally contracted image-guided breast biopsy service and breast imaging (mammography/ultrasound) capability able to meet fixed protocol day windows.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: mandatory tumor biopsies at baseline and C1D15 (+/-1 to C1D20), mammogram/US within 12 weeks prior to registration and at end of Cycle 4"
+      },
+      {
+        "id": "central_lab_shipping_capability",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must be able to process and rapidly ship fresh tumor biopsy and pathology slides to the Washington University AMP laboratory for central Ki67 testing and turn around treatment decisions based on results.",
+        "satisfies_if": "Self-reported established process for specimen processing, slide preparation, and expedited shipment to a central reference laboratory within protocol-specified timeframes.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Protocol requirement for Ki67 by central testing at Washington University AMP laboratory, with slide shipment process for external patients"
+      },
+      {
+        "id": "research_blood_pk_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must be equipped to collect and process timed research blood draws including pharmacokinetic samples (pre-dose and 90 minutes post-dose) and germline/ctDNA collections.",
+        "satisfies_if": "Self-reported research pharmacy/lab capability to draw, process, and ship timed PK and correlative research blood samples per protocol.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments footnotes U/V: PK blood draws pre- and 90 minutes post-dose of anastrozole/PD 0332991, plus germline DNA and ctDNA collection"
+      },
+      {
+        "id": "prior_investigator_role",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "The investigator should have prior experience serving as a site investigator on an interventional breast cancer or oncology drug trial, given the complexity of coordinating a multi-cycle neoadjuvant window-of-opportunity design across sites.",
+        "satisfies_if": "ClinicalTrials.gov record lists the physician as a listed investigator (PI or sub-I) on at least one completed or active interventional breast cancer trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Multi-site (4 US academic centers) Phase II cooperative design sponsored by Washington University requiring protocol-compliant investigator conduct"
+      },
+      {
+        "id": "industry_trial_relationship",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Some history of industry-sponsored research payments or trial engagement is a useful proxy for experience managing investigational CDK4/6 inhibitor or endocrine therapy protocols.",
+        "satisfies_if": "Open Payments record shows research-related payments associated with breast cancer or CDK4/6 inhibitor-related studies.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Investigational drug PD 0332991 (palbociclib) combined with anastrozole under Phase II sponsor-managed protocol"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG performance status 0-2 \" assessed per patient at enrollment, not a property of the investigator's practice",
+      "Life expectancy > 4 months \" per-patient clinical judgment at screening",
+      "Adequate organ and marrow function (ANC, bilirubin, AST/ALT, creatinine) \" standard per-patient lab eligibility thresholds",
+      "Serum pregnancy test / contraception compliance / premenopausal pregnancy requirements \" per-patient reproductive status checks",
+      "Serum estradiol in postmenopausal range \" per-patient biochemical confirmation of menopausal status",
+      "Informed consent ability \" per-patient administrative/ethical requirement, not physician-fit",
+      "Known HIV-positive on antiretroviral therapy exclusion \" per-patient medical history exclusion",
+      "Known metastatic disease exclusion \" per-patient staging confirmation at screening",
+      "Prior Cdk4 inhibitor exposure exclusion \" per-patient treatment history check"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 19,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty",
+      "onsite_biopsy_and_imaging"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 3,
+        "max_points": 7
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "trial_execution": {
+        "n_criteria": 2,
+        "max_points": 4
+      }
+    },
+    "n_publicly_verifiable": 5,
+    "n_self_report_only": 6,
+    "public_coverage": 0.45
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "grid",
+    "soa_page": 77,
+    "protocol_available": true,
+    "n_population_criteria": 23,
+    "n_screening_criteria": 42
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [
+          "3 hard gates; at most 2 allowed (breast_onc_specialty, stage2_3_er_positive_volume, onsite_biopsy_and_imaging)"
+        ],
+        "stop_reason": "end_turn"
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 20103,
+      "output_tokens": 7558
+    },
+    "cost_usd": 0.1158
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "nct_id": "NCT02437318",
+  "trial_label": "SOLAR-1",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "A postmenopausal woman (or man) with HR-positive, HER2-negative advanced/metastatic breast cancer whose disease has progressed on or after aromatase inhibitor therapy, with no more than one prior line of endocrine therapy for metastatic disease and no prior chemotherapy for advanced disease, no prior fulvestrant, and no prior PI3K/mTOR/AKT inhibitor exposure. A meaningful subset of these patients must carry a PIK3CA mutation, as the primary endpoint is PFS in the PIK3CA-mutant cohort, meaning the site must be able to identify and enroll molecularly-selected HR+/HER2- advanced breast cancer patients.",
+    "site_burden": "Per the posted Schedule of Assessments, the site must support an extended screening window (up to 35 days) with tumor tissue/mutation workup, frequent early on-treatment visits (Cycle 1 Day 1, 8, 15; Cycle 2 Day 1, 15), then monthly visits through subsequent cycles, with fasting labs (chemistry, glucose, HbA1c, lipids, lipase/amylase), coagulation panels, serial ECGs, periodic cardiac imaging (MUGA/ECHO) through 36 months, and imaging-based tumor assessments every 8 weeks for 18 months then every 12 weeks \u2014 a substantial, multi-year infusion (fulvestrant IM) plus oral drug administration and safety-monitoring burden requiring both infusion/injection capacity and close metabolic/cardiac monitoring infrastructure (relevant given alpelisib's hyperglycemia risk).",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a medical oncologist or hematology-oncology specialist managing breast cancer, not a general practitioner or unrelated subspecialist.",
+        "satisfies_if": "NPPES record lists taxonomy code for Medical Oncology or Hematology/Oncology.",
+        "data_sources": [
+          "nppes"
+        ],
+        "derived_from": "Conditions: Breast Cancer; Title specifies HR+/HER2- advanced breast cancer population requiring oncology management of endocrine therapy and targeted agent"
+      },
+      {
+        "id": "hr_positive_advanced_bc_experience",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "The investigator should have demonstrated clinical or research experience specifically in HR-positive, HER2-negative advanced/metastatic breast cancer treated with endocrine therapy.",
+        "satisfies_if": "PubMed record shows authorship on >=1 publication concerning HR+ or endocrine-therapy-treated breast cancer, or ClinicalTrials.gov shows investigator role on a prior HR+ breast cancer trial.",
+        "data_sources": [
+          "pubmed",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Eligibility restricts to HR+/HER2- disease progressed on aromatase inhibitor, requiring familiarity with endocrine therapy sequencing"
+      },
+      {
+        "id": "pik3ca_biomarker_familiarity",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "The investigator should have familiarity with PIK3CA mutation testing and its role in treatment selection, given the trial's primary endpoint is defined within the PIK3CA-mutant cohort.",
+        "satisfies_if": "PubMed record shows authorship on a publication referencing PIK3CA mutation in breast cancer, or self-attestation of routine use of PIK3CA/ctDNA testing in practice.",
+        "data_sources": [
+          "pubmed",
+          "self_report"
+        ],
+        "derived_from": "Primary Outcome: PFS Per Investigator Assessment in the PIK3CA Mutant Cohort"
+      },
+      {
+        "id": "postmenopausal_advanced_bc_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a regular volume of postmenopausal (or male) patients with HR+/HER2- advanced breast cancer who have progressed on an aromatase inhibitor.",
+        "satisfies_if": "Medicare claims data show a floor volume of breast cancer diagnosis codes and AI/endocrine therapy billing under the physician's NPI consistent with an active advanced breast cancer practice, OR self-report of monthly count of such patients.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "Inclusion: postmenopausal HR+/HER2- patients relapsed on/after AI therapy with no more than one prior endocrine line for metastatic disease"
+      },
+      {
+        "id": "limited_prior_line_population",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "The practice must be able to identify patients early in their metastatic treatment course (0-1 prior lines of endocrine therapy, no prior chemotherapy for advanced disease), not only heavily pretreated referrals.",
+        "satisfies_if": "Self-report describing typical referral timing/line of therapy at which patients are seen by this physician.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Exclusion: no prior chemotherapy for advanced disease, no prior fulvestrant/PI3K/mTOR/AKT inhibitor; only one prior endocrine line for metastatic disease allowed"
+      },
+      {
+        "id": "male_bc_access",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Given the trial enrolls men as well as postmenopausal women, the site should have some capacity or referral pathway to identify male breast cancer patients with HR+/HER2- disease.",
+        "satisfies_if": "Self-report confirming the practice has treated or can refer male breast cancer patients.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Demographics: ALL; Title specifies 'Men and Postmenopausal Women'"
+      },
+      {
+        "id": "infusion_and_oral_drug_admin_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must have infrastructure to administer IM fulvestrant injections on a recurring monthly schedule alongside dispensing and monitoring compliance with daily oral alpelisib/placebo.",
+        "satisfies_if": "Self-report confirming on-site infusion/injection suite and oral chemotherapy dispensing/monitoring program.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Interventions: Fulvestrant 500mg IM Day1/Day15 Cycle1 then Day1 each 28-day cycle; Alpelisib 300mg oral daily"
+      },
+      {
+        "id": "cardiac_metabolic_monitoring_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must be able to perform serial ECGs, periodic cardiac imaging (MUGA or ECHO), and close fasting glucose/HbA1c/lipid monitoring required by the protocol's safety schedule for alpelisib-related hyperglycemia and cardiac risk.",
+        "satisfies_if": "Self-report confirming access to on-site or closely affiliated ECG, echocardiography/MUGA, and fasting lab services per the posted schedule of assessments.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: 12-Lead ECG, Cardiac imaging (MUGA/ECHO) every 4 cycles until 36 months, Fasting Plasma Glucose and HbA1c monitoring"
+      },
+      {
+        "id": "imaging_tumor_assessment_cadence",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must support tumor imaging assessments every 8 weeks for the first 18 months, then every 12 weeks until 36 months, with confirmatory response scans.",
+        "satisfies_if": "Self-report confirming on-site or closely affiliated CT/MRI/bone scan imaging capability supporting this cadence.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: Tumor Assessment every 8 weeks first 18 months then every 12 weeks until 36 months"
+      },
+      {
+        "id": "phase3_industry_trial_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "The investigator should have prior experience serving as an investigator on industry-sponsored Phase III oncology trials, reflecting capability to run a large multi-year randomized protocol like SOLAR-1.",
+        "satisfies_if": "ClinicalTrials.gov record lists the physician/site as an investigator on >=1 completed Phase III industry-sponsored oncology trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Study is PHASE3, industry-sponsored (Novartis), 572 enrollment across 197 sites, long-duration randomized double-blind design"
+      },
+      {
+        "id": "sponsor_relationship_evidence",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "The investigator ideally has a documented research relationship with pharmaceutical sponsors (e.g., Novartis or peer oncology sponsors), suggesting established trial-conduct relationships and GCP compliance history.",
+        "satisfies_if": "Open Payments record shows research-related payments to the physician from a pharmaceutical company within the oncology space.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Sponsor: Novartis Pharmaceuticals (INDUSTRY); trial requires established sponsor-site relationship for a global 197-site Phase III program"
+      }
+    ],
+    "excluded_screening": [
+      "Adequate bone marrow function \u2014 a per-patient lab threshold checked at enrollment, not a property of the investigator or site.",
+      "ECOG performance status <2 exclusion \u2014 assessed per patient at screening, irrelevant to physician capability.",
+      "Prior investigational study participation within 30 days/5 half-lives \u2014 a per-patient washout/eligibility timing check, not a site-level attribute.",
+      "Postmenopausal status determination \u2014 a per-patient biological/clinical status check at enrollment, not a site capability question.",
+      "Absence of uncontrolled diabetes or CNS involvement per protocol exclusions \u2014 patient-level medical history screening, not investigator fit.",
+      "Histologic/cytologic confirmation of ER+/HER2- status by local lab \u2014 a per-patient diagnostic confirmation step, not a measure of physician or practice suitability."
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 20,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 3,
+        "max_points": 5
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 7
+      },
+      "trial_execution": {
+        "n_criteria": 2,
+        "max_points": 4
+      }
+    },
+    "n_publicly_verifiable": 6,
+    "n_self_report_only": 5,
+    "public_coverage": 0.55
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "grid",
+    "soa_page": 96,
+    "protocol_available": true,
+    "n_population_criteria": 9,
+    "n_screening_criteria": 3
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 5543,
+      "output_tokens": 3561
+    },
+    "cost_usd": 0.0467
+  }
+}

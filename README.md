@@ -10,8 +10,9 @@ Built step by step. This is where we are:
 - [x] **Step 3 — evidence, both sides** (`scripts/collect_evidence.py`)
 - [x] **Step 4 — evaluator agent → per-trial rubric** (`scripts/build_rubrics.py`)
 - [x] **Step 5 — match, interview, precedent, report** (`scripts/run_match.py`)
-- [ ] Step 6 — evaluation harness (does the scorer actually discriminate?)
-- [ ] Step 7 — web UI (optional; the HTML report may be enough)
+- [x] **Step 6 — evaluation harness** (`trialfit/evaluate.py`)
+- [x] **Step 7 — patient-experience proxy** (`trialfit/patient.py`)
+- [x] **Step 8 — demo UI** (`scripts/serve_demo.py`)
 
 ## Step 1 — the sample trial set
 
@@ -503,6 +504,102 @@ data/
 └── demo_answers.json                          scripted interview answers
 ```
 
+## Steps 6-8 — evaluation, patient proxy, UI
+
+```bash
+python scripts/serve_demo.py         # http://127.0.0.1:8765 — stdlib only
+```
+
+### Why evidence about the target trial is excluded
+
+The dossier is built per *physician*, so for someone genuinely on a trial it
+contains that trial. Left in, the question is circular: *"is this person a
+plausible investigator for PALLAS?"* gets answered by *"they are an investigator
+on PALLAS."*
+
+It leaks through **two** routes, and both had to close:
+
+| Route | Mayer × PALLAS |
+|---|---|
+| CT.gov investigator role | 1 record |
+| PubMed **results papers** | **5 papers** |
+
+The second is the subtle one — an investigator publishes the trial's outcomes,
+so removing the role but leaving five papers titled *"…in the PALLAS randomized
+trial"* is not an exclusion. Publications are filtered on **acronym or NCT id
+only**, never drug or disease: "has published on palbociclib in early breast
+cancer" is exactly the expertise the rubric should credit.
+
+**In production this is a no-op.** A newly posted trial has no investigator
+history and no results papers, so there is nothing to exclude. It only fires on
+our retrospective set — which is the point: it makes the validation behave like
+the deployment it's meant to predict. The control confirms it: a `weak` pair
+loses 0 roles and 0 publications.
+
+### Evaluation harness — three layers
+
+**Tier separation (free).** Step 2 assigned every pair a tier from public signals
+and nothing downstream reads it — a held-out label. If real scores rank the tiers
+in order, the scorer tracks something real; if they overlap, it doesn't, and
+every individual score is suspect. Reports mean/median per tier, monotonicity,
+and AUC of `known+strong` vs `moderate+weak`.
+
+**Perturbation (a few calls).** Delete one evidence source and re-adjudicate. If
+the score doesn't move, the matcher is scoring the physician's name, not their
+record.
+
+**Integrity (free).** Recompute each stored score from its stored verdicts;
+confirm one verdict per criterion and no phantom refs.
+
+No LLM judge — most expensive layer, least informative.
+
+### Patient-experience proxy
+
+**No public dataset records whether trial participants were satisfied.** So this
+composes what they *did*: voluntary withdrawal (40%), retention (35%), serious
+AEs (15%), visit burden (10%). Simple weighted arithmetic, no fitting — a reader
+can recompute it by hand from the components shown beside it.
+
+Two honest corrections found in the data:
+
+- **Treat-until-progression designs** record `COMPLETED = 0` because
+  discontinuation *is* the endpoint. Scoring that as 0% retention punishes the
+  design, not the experience — retention is marked uninterpretable and dropped
+  from the composite. NALA went 34.7 → 56.9, EMBRACA 16.6 → 27.2.
+- **Only trials that posted results can be scored**, which biases the cohort
+  toward trials that finished. Reported, not corrected — correcting it would mean
+  inventing numbers.
+
+PALLAS scores 93.7 (99% retention, 0.6% voluntary withdrawal); its comparable
+cohort medians 56.9 across a 27–89 range.
+
+### The UI — replay and live
+
+Two modes, and **live is a real run**, not a dressed-up replay:
+
+| | Replay | Live |
+|---|---|---|
+| Rubric | loads from disk | **generates it if missing** |
+| Match | loads | **adjudicates** |
+| Precedent / patient | loads | **searches CT.gov and scores** |
+| Interview | shows recorded Q&A | **asks, waits for you to type answers, re-scores** |
+| Needs a key | no | yes |
+
+The live interview is a genuine two-phase exchange: the run pauses at the
+questions, because the answers have to come from a person. You type them in the
+browser, hit re-score, and the matcher runs again on the augmented evidence —
+then the report is rebuilt and a trajectory is written, so a live run becomes
+replayable afterwards.
+
+
+Physicians on the left; pick one and every trial in their bucket is listed with
+its expected tier. Pick a trial and the stages stream in over SSE — trial
+information, rubric, **the evidence the matcher may actually use**, the score
+with every verdict and citation, comparable trials, the patient proxy, the
+interview, the re-score. Each stage opens to show its own working.
+
+Replay mode needs no key and no network. Live mode runs it for real.
+
 ## Scope is a parameter
 
 `Scope` in [collect.py](trialfit/collect.py) holds the condition, the narrowing
@@ -528,13 +625,18 @@ trialfit/
 ├── interview.py   gap-closing interview — self-report evidence, re-score
 ├── precedent.py   comparable-trial outcomes from CT.gov (no LLM)
 ├── report.py      self-contained printable HTML report
-└── pipeline.py    end-to-end run + trajectory record/replay
+├── pipeline.py    end-to-end run + trajectory record/replay
+├── patient.py     patient-experience proxy from posted results (no LLM)
+├── evaluate.py    tier separation · perturbation · integrity
+├── server.py      stdlib demo server, SSE stage streaming
+└── ui.html        the demo UI
 scripts/
 ├── collect_trials.py       step-1 CLI
 ├── collect_physicians.py   step-2 CLI
 ├── collect_evidence.py     step-3 CLI
 ├── build_rubrics.py        step-4 CLI (needs ANTHROPIC_API_KEY)
-└── run_match.py            step-5 CLI — live run, --prebuild, --replay
+├── run_match.py            step-5 CLI — live run, --prebuild, --replay
+└── serve_demo.py           the demo UI
 data/                       generated
 ```
 

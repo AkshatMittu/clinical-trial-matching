@@ -1,0 +1,194 @@
+{
+  "npi": "1679537971",
+  "physician": "Laura Esserman",
+  "specialty": "surgical_oncology",
+  "taxonomy": "Surgery, Surgical Oncology",
+  "city": "San Francisco",
+  "state": "CA",
+  "tier_counts": {
+    "known": 1,
+    "strong": 3,
+    "moderate": 3,
+    "weak": 3
+  },
+  "n_trials": 10,
+  "trials": [
+    {
+      "nct_id": "NCT01042379",
+      "label": "I-SPY",
+      "tier": "known",
+      "expected_score": "high",
+      "reasons": [
+        "listed as an overall official on this trial"
+      ],
+      "setting": "mixed",
+      "in_scope": true,
+      "has_protocol": false,
+      "quality_score": 5.5,
+      "intervention_types": "DRUG",
+      "trial_bucket": "demo"
+    },
+    {
+      "nct_id": "NCT01723774",
+      "label": "PD 0332991 and Anastrozole for Stage 2 or 3 Estrogen Recepto",
+      "tier": "strong",
+      "expected_score": "high",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: early_adjuvant",
+        "specialty matches interventions (50%)",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 8.0,
+      "intervention_types": "DRUG|PROCEDURE",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT03366844",
+      "label": "Breast Cancer Study of Preoperative Pembrolizumab + Radiatio",
+      "tier": "strong",
+      "expected_score": "high",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: early_adjuvant",
+        "specialty matches interventions (50%)",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 8.0,
+      "intervention_types": "DRUG|RADIATION",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT03916744",
+      "label": "A Study of Giredestrant (GDC-9545) in Postmenopausal Women W",
+      "tier": "strong",
+      "expected_score": "high",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: early_adjuvant",
+        "specialty matches interventions (50%)",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 8.0,
+      "intervention_types": "DRUG|PROCEDURE",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT02437318",
+      "label": "SOLAR-1",
+      "tier": "moderate",
+      "expected_score": "mid",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: mixed",
+        "specialty does not match interventions",
+        "protocol PDF available"
+      ],
+      "setting": "mixed",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT02513394",
+      "label": "PALLAS",
+      "tier": "moderate",
+      "expected_score": "mid",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: early_adjuvant",
+        "specialty does not match interventions",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT04191499",
+      "label": "INAVO120",
+      "tier": "moderate",
+      "expected_score": "mid",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: mixed",
+        "specialty does not match interventions",
+        "protocol PDF available"
+      ],
+      "setting": "mixed",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT01101438",
+      "label": "A Phase III Randomized Trial of Metformin vs Placebo in Earl",
+      "tier": "weak",
+      "expected_score": "low",
+      "reasons": [
+        "subtype out of scope",
+        "setting: unspecified",
+        "specialty does not match interventions",
+        "protocol PDF available"
+      ],
+      "setting": "unspecified",
+      "in_scope": false,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG|OTHER",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT01272037",
+      "label": "Tamoxifen Citrate, Letrozole, Anastrozole, or Exemestane Wit",
+      "tier": "weak",
+      "expected_score": "low",
+      "reasons": [
+        "subtype out of scope",
+        "setting: early_adjuvant",
+        "specialty does not match interventions",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": false,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG|OTHER",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT01674140",
+      "label": "e3",
+      "tier": "weak",
+      "expected_score": "low",
+      "reasons": [
+        "subtype out of scope",
+        "setting: early_adjuvant",
+        "specialty does not match interventions",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": false,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG|OTHER",
+      "trial_bucket": "other"
+    }
+  ]
+}

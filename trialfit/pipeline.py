@@ -24,7 +24,7 @@ from pathlib import Path
 from typing import Callable, Iterator, Optional
 
 from . import interview as iv
-from . import matcher, precedent, report
+from . import matcher, patient, precedent, report
 from .rubric import cost_usd
 
 
@@ -43,6 +43,7 @@ STEPS = [
     ("rubric", "Build the trial's rubric"),
     ("adjudicate", "Score the physician against it"),
     ("precedent", "Look up what comparable trials did"),
+    ("patient", "Score participant experience in those trials"),
     ("interview", "Close the gaps public data left"),
     ("report", "Render the report"),
 ]
@@ -107,6 +108,26 @@ def run(nct_id: str, npi: str, data_dir: Path,
         precedent.write(prec, nct_id, data_dir)
     mark("precedent", "done", precedent.headline(prec), t0)
 
+    # --- patient-experience proxy (no model call) -------------------------
+    t0 = time.monotonic()
+    mark("patient", "running")
+    cohort = None if refresh_precedent else patient.load(nct_id, data_dir)
+    if cohort is None:
+        info = _load(data_dir / "trial_info" / f"{nct_id}.json") or {}
+        # Retention is only comparable within a setting, so match on it.
+        setting = ""
+        manifest = _load(data_dir / "trials_manifest.json")
+        if isinstance(manifest, list):
+            setting = next((r.get("setting", "") for r in manifest
+                            if r.get("nct_id") == nct_id), "")
+        cohort = patient.build_cohort(prec, data_dir, setting=setting,
+                                      verbose=False)
+        patient.write(cohort, nct_id, data_dir)
+    mark("patient", "done",
+         (f"median proxy {cohort['median_proxy']}/100 across "
+          f"{cohort['n_scored']} trials with posted results")
+         if cohort.get("available") else cohort.get("reason", ""), t0)
+
     # --- interview ---------------------------------------------------------
     interview_rec = None
     if skip_interview:
@@ -131,7 +152,7 @@ def run(nct_id: str, npi: str, data_dir: Path,
     t0 = time.monotonic()
     mark("report", "running")
     html = report.render(match, rubric_rec, dossier, precedent=prec,
-                         interview=interview_rec)
+                         patient_cohort=cohort, interview=interview_rec)
     path = report.write(html, nct_id, npi, data_dir)
     mark("report", "done", str(path), t0)
 
@@ -158,6 +179,7 @@ def run(nct_id: str, npi: str, data_dir: Path,
                                   if interview_rec and interview_rec.get("rescored")
                                   else None),
             "precedent": f"precedent/{nct_id}.json",
+            "patient_proxy": f"patient_proxy/{nct_id}.json",
         },
         "interview": ({"gaps": interview_rec["gaps"],
                        "questions": interview_rec["questions"],

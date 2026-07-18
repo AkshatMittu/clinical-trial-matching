@@ -1,0 +1,188 @@
+{
+  "available": true,
+  "query": {
+    "condition": "Breast Neoplasms",
+    "phases": [
+      "PHASE2"
+    ],
+    "intervention_types": [
+      "DRUG"
+    ],
+    "pool_scanned": 250
+  },
+  "n_similar": 81,
+  "n_completed": 63,
+  "n_stopped_early": 18,
+  "completion_rate": 0.778,
+  "stopped_early_rate": 0.222,
+  "accrual_failure_rate": 0.136,
+  "n_accrual_failures": 11,
+  "stop_reasons": {
+    "accrual": 11,
+    "other": 4,
+    "unspecified": 1,
+    "business_or_funding": 1,
+    "efficacy_or_futility": 1
+  },
+  "results_posted_rate": 0.346,
+  "median_enrollment_completed": 87.5,
+  "median_enrollment_stopped": 34,
+  "median_sites_completed": 3.0,
+  "examples_stopped": [
+    {
+      "nct_id": "NCT03901469",
+      "title": "A Study of ZEN003694 and Talazoparib in Patients With Triple Negative Breast Cancer",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 115,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 19,
+      "has_results": true,
+      "why_stopped": "Parts 1 and 2 and Expansion Cohort C were completed. Expansion Cohorts A and B were discontinued based on results from an interim futility analysis and not due to safety concerns.",
+      "stop_reason": "efficacy_or_futility",
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT00121420",
+      "title": "Study of Motexafin Gadolinium With Whole Brain Radiation Therapy Followed by Stereotactic Radiosurge",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 45,
+      "enrollment_type": "",
+      "n_sites": 12,
+      "has_results": false,
+      "why_stopped": "",
+      "stop_reason": "unspecified",
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT02000375",
+      "title": "A Phase II Study Evaluating the Role of Androgen Receptors as Targets for Therapy of Pre-treated Pos",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 20,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 8,
+      "has_results": false,
+      "why_stopped": "Due to slow recruitment and recent new published data",
+      "stop_reason": "accrual",
+      "sponsor_class": "OTHER"
+    },
+    {
+      "nct_id": "NCT04243837",
+      "title": "LYT-100 in Patients With BCRL",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 50,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 8,
+      "has_results": true,
+      "why_stopped": "Primary objective/endpoint has been established, will not pursue development of the disease indication further",
+      "stop_reason": "other",
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT01985841",
+      "title": "Bevacizumab in Combination With Chemotherapy in the Neo-adjuvant Setting for HER2 (-) Breast Cancer",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 34,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 6,
+      "has_results": false,
+      "why_stopped": "Due to poor accrual",
+      "stop_reason": "accrual",
+      "sponsor_class": "OTHER"
+    },
+    {
+      "nct_id": "NCT03384095",
+      "title": "Trial of Oral Hyaluronic Acid for the Prevention of Aromatase Inhibitor-Associated Arthralgias",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 0,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 4,
+      "has_results": false,
+      "why_stopped": "study abandoned prior to opening to accrual or study start",
+      "stop_reason": "accrual",
+      "sponsor_class": "OTHER"
+    }
+  ],
+  "examples_completed": [
+    {
+      "nct_id": "NCT01712009",
+      "title": "NOLAN: Naproxen or Loratadine and Neulasta",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 600,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 83,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT01565083",
+      "title": "A Study to Assess Efficacy and Safety of Pertuzumab Given in Combination With Trastuzumab and Vinore",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 213,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 80,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT02756364",
+      "title": "Sapanisertib in Combination With Fulvestrant in Women With Advanced or Metastatic Breast Cancer Afte",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 141,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 53,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT05549505",
+      "title": "A Trial Using ARV-471 or Anastrozole in Post-Menopausal Women With Breast Cancer Prior to Surgery",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "enrollment": 152,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 49,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    }
+  ],
+  "sample_adequate": true,
+  "sample_note": null,
+  "caveat": "Operational outcome only. ClinicalTrials.gov records whether a trial finished and enrolled, not whether the treatment worked \u2014 a completed trial with a negative result counts as completed. Similarity is condition + phase + intervention type, so the comparison set is broad."
+}

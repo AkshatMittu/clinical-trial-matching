@@ -1,0 +1,192 @@
+{
+  "nct_id": "NCT01101438",
+  "trial_label": "A Phase III Randomized Trial of Metformin vs Placebo in Earl",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "A newly diagnosed (within 12 months of first histologic diagnosis) early-stage invasive breast cancer patient, adjuvant or neoadjuvant, with early-stage pT/pN combinations (e.g., pT1c pN0 triple-negative, or node-limited disease undergoing breast-conserving surgery with sentinel node biopsy), who has undergone axillary staging and is being considered for a 5-year systemic therapy trial layered on standard care. This is a general early-stage breast cancer population, not a niche molecular subtype, seen in routine breast oncology practice.",
+    "site_burden": "This is a long-duration (5-year treatment, with extended follow-up) placebo-controlled oral drug trial requiring randomization, blinded drug dispensation with formal pill counts at each dispensation, compliance tracking, and mandatory tumour block banking/shipment to a central tissue bank (mandatory for site participation even though patient tissue donation is optional). The posted schedule-of-assessments page was heading-only and not a structured visit grid, so exact visit cadence cannot be confirmed from the record; burden here is inferred from discontinuation/follow-up and tissue-banking sections rather than a stated visit schedule. Sites must sustain long-term follow-up even after subjects discontinue treatment or leave the institution, implying durable patient retention infrastructure and multi-year study coordination capacity.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "Investigator must be a breast cancer treating specialist (medical oncology, surgical oncology, or hematology-oncology with a breast focus) capable of managing adjuvant/neoadjuvant systemic therapy decisions.",
+        "satisfies_if": "NPPES taxonomy lists Hematology & Oncology, Medical Oncology, or Surgical Oncology, or self-report confirms a breast cancer-focused oncology practice.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "Population: invasive breast cancer, adjuvant/neoadjuvant systemic therapy staging (pT/pN eligibility) requiring oncologic management"
+      },
+      {
+        "id": "early_stage_breast_case_volume",
+        "dimension": "patient_population",
+        "criticality": "hard_gate",
+        "requirement": "The site must have a steady volume of newly diagnosed, early-stage invasive breast cancer patients presenting within 12 months of diagnosis, since eligibility requires enrollment in that narrow post-diagnosis window.",
+        "satisfies_if": "Medicare claims data or self-report show recurring breast cancer diagnosis/treatment volume consistent with a dedicated breast oncology practice (e.g., multiple new invasive breast cancer patients per year).",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "Inclusion: enrollment within 12 months after first histologic diagnosis of invasive breast cancer"
+      },
+      {
+        "id": "surgical_staging_access",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have access to sentinel lymph node biopsy and/or axillary lymph node dissection services, either in-house or via tightly coordinated referral, since all subjects require this staging.",
+        "satisfies_if": "Self-report confirms surgical oncology/breast surgery partnership or in-house capability for SLNB/ALND at the enrolling site or affiliated institution.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Inclusion: All subjects must have sentinel lymph node biopsy and/or axillary lymph node dissection"
+      },
+      {
+        "id": "imaging_staging_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to obtain or coordinate baseline staging imaging (chest X-ray/CT chest, bone scan, abdominal imaging) prior to randomization.",
+        "satisfies_if": "Self-report confirms on-site or readily accessible imaging services (radiology/nuclear medicine) for staging workup.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Inclusion: staging investigations (chest imaging, bone scan, abdominal imaging) performed between diagnosis and randomization"
+      },
+      {
+        "id": "long_term_followup_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have infrastructure to maintain patient follow-up and blinded drug dispensation with pill-count compliance tracking over a 5-year treatment period, including after treatment discontinuation.",
+        "satisfies_if": "Self-report confirms dedicated research coordinator/pharmacy support for long-duration blinded drug trials with compliance monitoring and extended follow-up.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Section 12: pill counts, compliance tracking, and continued follow-up after treatment discontinuation over the 5-year intervention"
+      },
+      {
+        "id": "tissue_banking_capability",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to identify, retrieve, and ship diagnostic tumour blocks to the central CCTG tissue bank, as this is mandatory for site participation.",
+        "satisfies_if": "Self-report confirms pathology department cooperation and established process for tumour block retrieval/shipment for research use.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Section 13.2: tissue collection mandatory for site participation, tumour blocks banked at Queen's University"
+      },
+      {
+        "id": "prior_investigator_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience serving as an investigator on breast cancer or oncology clinical trials, given the complexity of a long-term blinded randomized cooperative-group trial.",
+        "satisfies_if": "ClinicalTrials.gov lists the physician as an investigator (PI or sub-I) on at least one completed breast cancer or oncology interventional trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Trial sponsored by Canadian Cancer Trials Group (cooperative group network trial), Phase III randomized, 344 sites"
+      },
+      {
+        "id": "cooperative_group_network_participation",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator/site should have an existing relationship with a cooperative oncology trials network (e.g., NCIC CTG/CCTG or affiliated US cooperative groups) given this is a network-sponsored trial.",
+        "satisfies_if": "ClinicalTrials.gov or self-report shows the site/investigator participated in other CCTG- or NCI cooperative group-sponsored trials.",
+        "data_sources": [
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "derived_from": "Sponsor: Canadian Cancer Trials Group (NETWORK), 344 sites including 280 US sites"
+      },
+      {
+        "id": "industry_research_payment_history",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Some history of receiving research-related payments (a proxy for active clinical trial conduct) supports capacity to run a multi-year randomized drug trial.",
+        "satisfies_if": "Open Payments record shows research payments to the physician or affiliated institution in oncology-related research categories.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Phase III randomized multi-site drug trial requiring sustained trial infrastructure"
+      },
+      {
+        "id": "gcp_blinded_drug_trial_experience",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator should have experience running blinded, placebo-controlled drug trials with unblinding procedures for medical emergencies, given the blinding-integrity requirements described in the protocol.",
+        "satisfies_if": "Self-report confirms prior experience as investigator on a blinded placebo-controlled trial with documented unblinding procedures.",
+        "data_sources": [
+          "self_report",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Section 12.2: blinding critical to integrity, procedures for breaking blind in emergencies"
+      }
+    ],
+    "excluded_screening": [
+      "Histologic confirmation of invasive breast cancer and specific pT/pN eligibility combinations \u2014 verified per patient at enrollment, not a site characteristic",
+      "Bilateral mammogram within 12 months / physical exam of chest wall \u2014 per-patient imaging requirement, not physician-fit",
+      "Hematology and biochemistry lab values (WBC, platelets, AST/ALT, creatinine, bilirubin) \u2014 per-patient lab thresholds for drug safety, unrelated to site capability",
+      "ECOG Performance Status 0-2 \u2014 per-patient functional status check at baseline",
+      "Age 18 to <75 and life expectancy \u22655 years \u2014 per-patient eligibility bound",
+      "Ability and willingness to complete QOL questionnaires in English/French \u2014 per-patient consent/compliance item, sub-study now closed",
+      "Ability and willingness to complete physical activity/diet questionnaires \u2014 per-patient sub-study consent item, now closed",
+      "Pregnancy/lactation status and contraception use \u2014 per-patient safety screening for drug exposure",
+      "Staging investigations (bone scan, abdominal imaging) required only if signs/symptoms present \u2014 conditional per-patient workup, not a site infrastructure requirement per se beyond general imaging access already captured"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 16,
+    "n_criteria": 10,
+    "hard_gates": [
+      "breast_onc_specialty",
+      "early_stage_breast_case_volume"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 1,
+        "max_points": 0
+      },
+      "patient_population": {
+        "n_criteria": 1,
+        "max_points": 0
+      },
+      "operational_capacity": {
+        "n_criteria": 4,
+        "max_points": 10
+      },
+      "trial_execution": {
+        "n_criteria": 4,
+        "max_points": 6
+      }
+    },
+    "n_publicly_verifiable": 6,
+    "n_self_report_only": 4,
+    "public_coverage": 0.6
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "heading_only",
+    "soa_page": 53,
+    "protocol_available": true,
+    "n_population_criteria": 10,
+    "n_screening_criteria": 9
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 7141,
+      "output_tokens": 3120
+    },
+    "cost_usd": 0.0455
+  }
+}

@@ -171,10 +171,18 @@ def apply_answers(dossier: dict, gaps: list[dict],
     by_id = {g["criterion_id"]: g for g in gaps}
     records = []
 
+    unmatched = []
     for cid, answer in answers.items():
         if not answer or not answer.strip() or answer.strip().lower() == "skip":
             continue
-        g = by_id.get(cid, {})
+        if cid not in by_id:
+            # A scripted answer for a criterion that isn't actually a gap —
+            # usually a stale demo_answers.json after the rubric changed.
+            # Attesting to it would inject evidence for a criterion nothing
+            # asked about, so drop it and say so rather than failing silently.
+            unmatched.append(cid)
+            continue
+        g = by_id[cid]
         records.append({
             "ref": f"attestation:{cid}",
             "criterion_id": cid,
@@ -200,6 +208,8 @@ def apply_answers(dossier: dict, gaps: list[dict],
         augmented["sources_with_data"] = list(augmented.get("sources_with_data", [])) \
             + [ATTESTATION_SOURCE]
         augmented["interview_applied"] = True
+    if unmatched:
+        augmented["unmatched_answers"] = unmatched
     return augmented, records
 
 

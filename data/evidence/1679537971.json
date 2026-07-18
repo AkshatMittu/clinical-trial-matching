@@ -1,0 +1,502 @@
+{
+  "npi": "1679537971",
+  "physician": "Laura Esserman",
+  "specialty": "surgical_oncology",
+  "taxonomy": "Surgery, Surgical Oncology",
+  "city": "San Francisco",
+  "state": "CA",
+  "collected_at": "2026-07-18T11:54:13",
+  "elapsed_s": 5.3,
+  "sources_queried": [
+    "NPPES",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "CMS Open Payments",
+    "CMS Medicare"
+  ],
+  "sources_with_data": [
+    "NPPES",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "CMS Medicare"
+  ],
+  "coverage": "4/5",
+  "entries": [
+    {
+      "source": "NPPES",
+      "status": "found",
+      "summary": "Surgery, Surgical Oncology in San Francisco, CA",
+      "n_records": 1,
+      "records": [
+        {
+          "ref": "NPI:1679537971",
+          "npi": "1679537971",
+          "taxonomy": "Surgery, Surgical Oncology",
+          "all_taxonomies": [
+            "Surgery",
+            "Surgery, Surgical Oncology"
+          ],
+          "city": "San Francisco",
+          "state": "CA"
+        }
+      ],
+      "specialty": "surgical_oncology"
+    },
+    {
+      "source": "PubMed",
+      "status": "found",
+      "summary": "370 publications in topic (90 in the last 5 years)",
+      "n_records": 25,
+      "records": [
+        {
+          "pmid": "42018670",
+          "ref": "PMID:42018670",
+          "title": "Peripheral blood transcriptional profiling predicts tumor subtype and neoadjuvant chemoimmunotherapy outcomes in human breast cancer.",
+          "journal": "Sci Transl Med",
+          "pubdate": "2026 Apr 22",
+          "year": "2026",
+          "n_authors": 19,
+          "first_author": "Sun X",
+          "last_author": "Balko JM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42018670/"
+        },
+        {
+          "pmid": "41965734",
+          "ref": "PMID:41965734",
+          "title": "A prospective single-arm pilot study evaluating [F-18]fluoroestradiol dedicated breast PET in invasive lobular carcinoma after neoadjuvant endocrine therapy.",
+          "journal": "Breast Cancer Res",
+          "pubdate": "2026 Apr 11",
+          "year": "2026",
+          "n_authors": 22,
+          "first_author": "Switalla KM",
+          "last_author": "Mukhtar RA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41965734/"
+        },
+        {
+          "pmid": "41604043",
+          "ref": "PMID:41604043",
+          "title": "Breast cancer risk level and prediction of tumor aggressiveness in the Athena Breast Health Network.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2026 Jan 28",
+          "year": "2026",
+          "n_authors": 24,
+          "first_author": "Leggat-Barr K",
+          "last_author": "Van't Veer L",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41604043/"
+        },
+        {
+          "pmid": "41579861",
+          "ref": "PMID:41579861",
+          "title": "Systematic annotation of orphan RNAs reveals blood-accessible molecular barcodes of cancer identity and cancer-emergent oncogenic drivers.",
+          "journal": "Cell Rep Med",
+          "pubdate": "2026 Feb 17",
+          "year": "2026",
+          "n_authors": 15,
+          "first_author": "Wang J",
+          "last_author": "Goodarzi H",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41579861/"
+        },
+        {
+          "pmid": "41493489",
+          "ref": "PMID:41493489",
+          "title": "RISE UP for breast cancer 2024: conference highlights & takeaways.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2026 Jan 6",
+          "year": "2026",
+          "n_authors": 25,
+          "first_author": "Glatt T",
+          "last_author": "Esserman L",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41493489/"
+        },
+        {
+          "pmid": "41410930",
+          "ref": "PMID:41410930",
+          "title": "Enhancing Clinical Cancer Research Through Sharing of Data and Biospecimens.",
+          "journal": "JAMA Oncol",
+          "pubdate": "2026 Feb 1",
+          "year": "2026",
+          "n_authors": 53,
+          "first_author": "Wildiers H",
+          "last_author": "Desmedt C",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41410930/"
+        },
+        {
+          "pmid": "41385723",
+          "ref": "PMID:41385723",
+          "title": "Germline Pathogenic Variants Among Women Without a History of Breast Cancer: A Secondary Analysis of the WISDOM Randomized Clinical Trial.",
+          "journal": "JAMA Intern Med",
+          "pubdate": "2026 Mar 1",
+          "year": "2026",
+          "n_authors": 37,
+          "first_author": "Fergus KB",
+          "last_author": "Madlensky L",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41385723/"
+        },
+        {
+          "pmid": "41385349",
+          "ref": "PMID:41385349",
+          "title": "Risk-Based vs Annual Breast Cancer Screening: The WISDOM Randomized Clinical Trial.",
+          "journal": "JAMA",
+          "pubdate": "2026 Mar 3",
+          "year": "2026",
+          "n_authors": 39,
+          "first_author": "Esserman LJ",
+          "last_author": "Eklund M",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41385349/"
+        },
+        {
+          "pmid": "41365872",
+          "ref": "PMID:41365872",
+          "title": "Circulating tumor DNA refines risk stratification of neoadjuvant therapy-resistant breast tumors.",
+          "journal": "Nat Commun",
+          "pubdate": "2025 Dec 9",
+          "year": "2025",
+          "n_authors": 25,
+          "first_author": "Magbanua MJM",
+          "last_author": "van 't Veer L",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41365872/"
+        },
+        {
+          "pmid": "41137194",
+          "ref": "PMID:41137194",
+          "title": "Progesterone receptor (PR) intra-tumor heterogeneity in premenopausal breast cancer: A secondary analysis of a randomized trial.",
+          "journal": "Int J Cancer",
+          "pubdate": "2026 Feb 15",
+          "year": "2026",
+          "n_authors": 14,
+          "first_author": "Danielsson O",
+          "last_author": "Lindstr\u00f6m LS",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41137194/"
+        },
+        {
+          "pmid": "41066221",
+          "ref": "PMID:41066221",
+          "title": "FNA biopsy of breast specimens effectively harvests cells for patient-derived organoids modeling ductal carcinoma in situ.",
+          "journal": "Cancer Cytopathol",
+          "pubdate": "2025 Nov",
+          "year": "2025",
+          "n_authors": 17,
+          "first_author": "Ye J",
+          "last_author": "Rosenbluth JM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41066221/"
+        },
+        {
+          "pmid": "40905691",
+          "ref": "PMID:40905691",
+          "title": "Immune and Growth Factor Signaling Pathways Are Associated with Pathologic Complete Response to an Anti-Type I Insulin-like Growth Factor Receptor Regimen in Patients with Breast Cancer.",
+          "journal": "Clin Cancer Res",
+          "pubdate": "2025 Oct 15",
+          "year": "2025",
+          "n_authors": 11,
+          "first_author": "Petricoin EF",
+          "last_author": "I-SPY2 Trial Consortium",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40905691/"
+        },
+        {
+          "pmid": "40877879",
+          "ref": "PMID:40877879",
+          "title": "Integrating breast cancer polygenic risk scores at scale in the WISDOM Study: a national randomized personalized screening trial.",
+          "journal": "Genome Med",
+          "pubdate": "2025 Aug 28",
+          "year": "2025",
+          "n_authors": 26,
+          "first_author": "Fergus KB",
+          "last_author": "Athena/WISDOM Network Collaborators and Advocate Partners",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40877879/"
+        },
+        {
+          "pmid": "40849380",
+          "ref": "PMID:40849380",
+          "title": "Impact of Time to Surgery Post Neoadjuvant Chemotherapy on Breast Cancer Outcomes: A Retrospective Study of Patients Enrolled in the I-SPY\u00a02 Clinical Trial.",
+          "journal": "Ann Surg Oncol",
+          "pubdate": "2025 Oct",
+          "year": "2025",
+          "n_authors": 33,
+          "first_author": "Van Hassel J",
+          "last_author": "Rao R",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40849380/"
+        },
+        {
+          "pmid": "40705266",
+          "ref": "PMID:40705266",
+          "title": "Impact of Neoadjuvant Chemotherapy on Surgical Outcomes and Conversion to Node-Negativity in Invasive Lobular Breast Cancer: Analysis of Molecularly High-Risk Tumors by Histologic Subtype on the I-SPY2 Clinical Trial.",
+          "journal": "Ann Surg Oncol",
+          "pubdate": "2025 Oct",
+          "year": "2025",
+          "n_authors": 36,
+          "first_author": "Mukhtar RA",
+          "last_author": "Boughey JC",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40705266/"
+        },
+        {
+          "pmid": "40699532",
+          "ref": "PMID:40699532",
+          "title": "Disparities in the Surgical Management of the Axilla by Self-Identified Race in the Multicenter Neoadjuvant I-SPY2 Trial.",
+          "journal": "Ann Surg Oncol",
+          "pubdate": "2025 Oct",
+          "year": "2025",
+          "n_authors": 39,
+          "first_author": "Kaur M",
+          "last_author": "Mukhtar RA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40699532/"
+        },
+        {
+          "pmid": "40569506",
+          "ref": "PMID:40569506",
+          "title": "Socioeconomic status impacts tumor biology, treatment, and outcomes in over 200,000 patients with invasive lobular carcinoma of the breast: an analysis of the National Cancer Database.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2025 Aug",
+          "year": "2025",
+          "n_authors": 9,
+          "first_author": "Kaur M",
+          "last_author": "Mukhtar RA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40569506/"
+        },
+        {
+          "pmid": "40551254",
+          "ref": "PMID:40551254",
+          "title": "Combined prognostic impact of initial clinical stage and residual cancer burden after neoadjuvant systemic therapy in triple-negative and HER2-positive breast cancer: an analysis of the I-SPY2 randomized clinical trial.",
+          "journal": "Breast Cancer Res",
+          "pubdate": "2025 Jun 23",
+          "year": "2025",
+          "n_authors": 16,
+          "first_author": "Leon-Ferre RA",
+          "last_author": "Boughey JC",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40551254/"
+        },
+        {
+          "pmid": "40526879",
+          "ref": "PMID:40526879",
+          "title": "Immune Subtyping Identifies Patients With Hormone Receptor-Positive Early-Stage Breast Cancer Who Respond to Neoadjuvant Immunotherapy (IO): Results From Five IO Arms of the I-SPY2 Trial.",
+          "journal": "JCO Precis Oncol",
+          "pubdate": "2025 Jun",
+          "year": "2025",
+          "n_authors": 36,
+          "first_author": "Wolf DM",
+          "last_author": "van 't Veer L",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40526879/"
+        },
+        {
+          "pmid": "40137566",
+          "ref": "PMID:40137566",
+          "title": "MRI-Based Model for Personalizing Neoadjuvant Treatment in Breast Cancer.",
+          "journal": "Tomography",
+          "pubdate": "2025 Feb 27",
+          "year": "2025",
+          "n_authors": 17,
+          "first_author": "Li W",
+          "last_author": "Hylton NM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40137566/"
+        },
+        {
+          "pmid": "39961709",
+          "ref": "PMID:39961709",
+          "title": "National yearly cost of breast cancer screening in the USA and projected cost of advocated guidelines: a simulation study with life table modelling.",
+          "journal": "BMJ Open",
+          "pubdate": "2025 Feb 17",
+          "year": "2025",
+          "n_authors": 12,
+          "first_author": "Badal K",
+          "last_author": "Esserman LJ",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39961709/"
+        },
+        {
+          "pmid": "39946078",
+          "ref": "PMID:39946078",
+          "title": "Oncologic Outcomes with De-Escalation of Axillary Surgery After Neoadjuvant Chemotherapy for Breast Cancer: Results from > 1500 Patients on the I-SPY2 Clinical Trial.",
+          "journal": "Ann Surg Oncol",
+          "pubdate": "2025 May",
+          "year": "2025",
+          "n_authors": 22,
+          "first_author": "Boughey JC",
+          "last_author": "I-SPY2 Locoregional Working Group",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39946078/"
+        },
+        {
+          "pmid": "39821301",
+          "ref": "PMID:39821301",
+          "title": "Intratumoral Injection of mRNA-2752 and Pembrolizumab for High-Risk Ductal Carcinoma In Situ: A Phase 1 Nonrandomized Clinical Trial.",
+          "journal": "JAMA Oncol",
+          "pubdate": "2025 Mar 1",
+          "year": "2025",
+          "n_authors": 14,
+          "first_author": "Ramalingam K",
+          "last_author": "Esserman LJ",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39821301/"
+        },
+        {
+          "pmid": "39656627",
+          "ref": "PMID:39656627",
+          "title": "Differential long-term tamoxifen therapy benefit by menopausal status in breast cancer patients: secondary analysis of a controlled randomized clinical trial.",
+          "journal": "J Natl Cancer Inst",
+          "pubdate": "2025 May 1",
+          "year": "2025",
+          "n_authors": 13,
+          "first_author": "Johansson A",
+          "last_author": "Lindstr\u00f6m LS",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39656627/"
+        },
+        {
+          "pmid": "39625569",
+          "ref": "PMID:39625569",
+          "title": "Pexidartinib and standard neoadjuvant therapy in the adaptively randomized I-SPY2 trial for early breast cancer.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2025 Feb",
+          "year": "2025",
+          "n_authors": 23,
+          "first_author": "Rugo HS",
+          "last_author": "Esserman LJ",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39625569/"
+        }
+      ],
+      "query": "Esserman L[Author] AND (breast neoplasms[MeSH Terms])",
+      "total": 370,
+      "recent_5y": 90,
+      "caveat": "Author search matches surname+initial; may include namesakes."
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "status": "found",
+      "summary": "5 trials list this name as an overall official (2 weaker text-only mentions)",
+      "n_records": 5,
+      "records": [
+        {
+          "ref": "NCT01042379",
+          "nct_id": "NCT01042379",
+          "title": "I-SPY TRIAL: Neoadjuvant and Personalized Adaptive Novel Agents to Treat Breast Cancer",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Laura Esserman, MD, MBA"
+        },
+        {
+          "ref": "NCT00788112",
+          "nct_id": "NCT00788112",
+          "title": "Vorinostat in Treating Women With Ductal Carcinoma in Situ of the Breast",
+          "status": "COMPLETED",
+          "phases": [
+            "PHASE1"
+          ],
+          "officials": "Laura Esserman, MD, MBA"
+        },
+        {
+          "ref": "NCT02872025",
+          "nct_id": "NCT02872025",
+          "title": "Immunotherapy in High-risk Ductal Carcinoma in Situ (DCIS)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phases": [
+            "EARLY_PHASE1"
+          ],
+          "officials": "Laura Esserman, MD"
+        },
+        {
+          "ref": "NCT06075953",
+          "nct_id": "NCT06075953",
+          "title": "DCIS: RECAST Trial Ductal Carcinoma In Situ: Re-Evaluating Conditions for Active Surveillance Suitability as T",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Laura Esserman, MD, MBA | (Co-PI) Kelly Hewitt, MD, FACS"
+        },
+        {
+          "ref": "NCT02620852",
+          "nct_id": "NCT02620852",
+          "title": "Women Informed to Screen Depending on Measures of Risk (Wisdom Study)",
+          "status": "RECRUITING",
+          "phases": [
+            "NA"
+          ],
+          "officials": "Laura Esserman, MD, MBA"
+        }
+      ],
+      "mentioned": [
+        {
+          "ref": "NCT00914017",
+          "nct_id": "NCT00914017",
+          "title": "Statins and Breast Cancer Biomarkers",
+          "status": "UNKNOWN",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Marie E Wood, MD"
+        },
+        {
+          "ref": "NCT03053193",
+          "nct_id": "NCT03053193",
+          "title": "MammaPrint, BluePrint, and Full-genome Data Linked With Clinical Data to Evaluate New Gene EXpression Profiles",
+          "status": "RECRUITING",
+          "phases": [],
+          "officials": "William Audeh, MD | Joyce O'Shaughnessy, MD"
+        }
+      ],
+      "caveat": "Full-text search; 'mentioned' rows are weak evidence."
+    },
+    {
+      "source": "CMS Open Payments",
+      "status": "not_found",
+      "summary": "no research payments in 2025",
+      "n_records": 0,
+      "records": []
+    },
+    {
+      "source": "CMS Medicare",
+      "status": "found",
+      "summary": "118 services for 104 beneficiaries across 6 codes; listed as General Surgery",
+      "n_records": 6,
+      "records": [
+        {
+          "ref": "HCPCS:99215",
+          "hcpcs": "99215",
+          "description": "Established patient office or other outpatient visit with high level of medical decision making, if using time, 40 minut",
+          "n_beneficiaries": 25.0,
+          "n_services": 29.0
+        },
+        {
+          "ref": "HCPCS:99214",
+          "hcpcs": "99214",
+          "description": "Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes o",
+          "n_beneficiaries": 21.0,
+          "n_services": 27.0
+        },
+        {
+          "ref": "HCPCS:99213",
+          "hcpcs": "99213",
+          "description": "Established patient office or other outpatient visit with low level od decision making, if using time, 20 minutes or mor",
+          "n_beneficiaries": 17.0,
+          "n_services": 19.0
+        },
+        {
+          "ref": "HCPCS:19301",
+          "hcpcs": "19301",
+          "description": "Partial removal of breast",
+          "n_beneficiaries": 17.0,
+          "n_services": 18.0
+        },
+        {
+          "ref": "HCPCS:38900",
+          "hcpcs": "38900",
+          "description": "Imaging of lymph nodes during surgery",
+          "n_beneficiaries": 13.0,
+          "n_services": 14.0
+        },
+        {
+          "ref": "HCPCS:38525",
+          "hcpcs": "38525",
+          "description": "Biopsy or removal of deep lymph nodes of underarm",
+          "n_beneficiaries": 11.0,
+          "n_services": 11.0
+        }
+      ],
+      "provider_type": "General Surgery",
+      "total_services": 118.0,
+      "total_beneficiaries": 104.0,
+      "caveat": "Medicare claims only \u2014 a floor on volume, not a total."
+    }
+  ],
+  "gaps": [
+    "patient-population fit (does this physician treat THIS population, at what volume) is not verifiable from public data"
+  ],
+  "note": "Collector only \u2014 no fit judgments here. Every record carries a public ref."
+}

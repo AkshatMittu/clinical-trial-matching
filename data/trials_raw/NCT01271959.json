@@ -1,0 +1,540 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01271959",
+      "orgStudyIdInfo": {
+        "id": "PT-207"
+      },
+      "organization": {
+        "fullName": "Precision Therapeutics",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of ChemoFx\u00ae Chemoresponse Assay in Solid Tumors - ChemoFx\u00ae Registry Study",
+      "officialTitle": "A Multicenter, Post-Market Follow-up Study of ChemoFx\u00ae Chemoresponse Assay in Solid Tumors - ChemoFx\u00ae Registry Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-10",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-11"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-01-05",
+      "studyFirstSubmitQcDate": "2011-01-06",
+      "studyFirstPostDateStruct": {
+        "date": "2011-01-07",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2012-10-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2012-10-05",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Precision Therapeutics",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to collect information from patient's medical records that had a test called ChemoFx\u00ae ordered and to understand how doctors may have used the results of the ChemoFx\u00ae to treat patients with cancer.",
+      "detailedDescription": "While studies support the clinical use of ChemoFx\u00ae in cancer patients, additional data are needed to further assess the utilization of this product in clinical practice. Such post-market data and information could be employed for product improvement as well as for the development of standards and regulations. This is a multicenter registry study of 3,000 patients with solid tumors. The study is not randomized, nor is it interventional in that the treating physician is free to choose how to employ ChemoFx\u00ae results in the clinical management of individual patients. Sites will be selected by Precision's clinical trials team based on past commercial usage of ChemoFx\u00ae.\n\nSubjects who may be enrolled in this study are those who have been diagnosed with a solid tumor malignancy and for whom ChemoFx\u00ae has been ordered. ChemoFx\u00ae is ordered through the normal commercial process and is therefore billed to the patient's medical insurance.\n\nAll subjects will be appropriately consented before any study-specific data are collected. A limited dataset of patient demographics, oncology history, and therapeutic intervention will be collected in addition to ChemoFx\u00ae assay usage. Subjects will be treated based on the medical judgment of their treating physician(s). Patient survival data will be collected up to five years following the ChemoFx\u00ae commercial order. Additional disease progression data may be collected by Precision's CRAs at participating sites.\n\nOptional Cell Research\n\nInformed consent will be obtained to document subject's consent to use excess cells remaining in Precisions' commercial laboratory for additional research. This portion of the study may involve DNA, RNA, and proteomic research. To ensure the anonymity of each subject, any identifiers that would link the sample to the subject will be removed. The samples would then have gene expression profiling and or quantitative protein expression analysis performed. The goal of the research would be to identify a set of informative genes, intermediaries, and proteins and develop predictive algorithm(s) that seek to link the expression level of the gene, gene signature, intermediary, or protein to the clinical outcome of the patient. This portion of the study does not require any additional subject procedures. Neither physicians nor their patients will receive the results of the research performed. Results will not be placed in the subjects health care records and will not affect their medical care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Solid Organ Tumors"
+      ],
+      "keywords": [
+        "Ovarian",
+        "Fallopian Tube",
+        "Peritoneal",
+        "Uterine Neoplasms",
+        "Vulva",
+        "Endometrial",
+        "Cervical",
+        "Lung",
+        "Carcinoid",
+        "Sarcoma",
+        "Mesothelioma",
+        "Adenocarcinoma",
+        "Colorectal",
+        "Breast",
+        "Assay",
+        "Chemotherapy",
+        "Recurrent",
+        "Refractory",
+        "Persistent",
+        "Chemoresponse"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "DNA, RNA, and proteomic research will be conducted on excess tissue cells."
+      },
+      "enrollmentInfo": {
+        "count": 167,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "To determine physicians' rate of compliance with ChemoFx assay results in the treatment of subjects with solid tumors.",
+          "timeFrame": "Analysis of assay-directed compliance will be conducted immediately after information is collected."
+        },
+        {
+          "measure": "To investigate the association between the results of Precision's ChemoFx assay results and overall survival in subjects with solid tumors.",
+          "timeFrame": "From date of first dose of on-study chemotherapy to date of death or last known alive."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pathologically confirmed diagnosis of solid tumor malignancy;\n* Medically indicated to receive chemotherapy;\n* Fresh tissue submitted from the solid tumor malignancy for testing with the ChemoFx\u00ae assay after August, 2006;\n* Final ChemoFx\u00ae assay report is available;\n* Subject must be at least 18 years of age;\n* Subject must sign and date an IRB approved ICF.\n\nExclusion Criteria:\n\n* Enrolled in PT-103, PT-106, PT-206, PT-301, or PT-304;\n* Pregnant or lactating subjects;\n* Subjects are not indicated to receive chemotherapy for their disease;\n* Subjects with psychiatric or addictive disorders that would preclude obtaining informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Subjects with solid tumor malignancies",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Karl Williams, M.D.",
+          "affiliation": "Precision Therapeutics, Inc.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cardio-Thoracic Surgeons, P.C.",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Hematology Oncology Associates",
+          "city": "Oakland",
+          "state": "California",
+          "zip": "94609",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.80437,
+            "lon": -122.2708
+          }
+        },
+        {
+          "facility": "Collaborative Research Group",
+          "city": "Boynton Beach",
+          "state": "Florida",
+          "zip": "33435",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.52535,
+            "lon": -80.06643
+          }
+        },
+        {
+          "facility": "Broward Oncology Associates, P.A.",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "The Center For Gynecologic Oncology",
+          "city": "Hollywood",
+          "state": "Florida",
+          "zip": "33021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          }
+        },
+        {
+          "facility": "GYN Oncology of Miami",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Miami International Surgical Services",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33173",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Orlando Cardiovascular Institute PA",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32804",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Edward H. Kaplan, M.D. & Associates",
+          "city": "Skokie",
+          "state": "Illinois",
+          "zip": "60076",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.03336,
+            "lon": -87.73339
+          }
+        },
+        {
+          "facility": "Iowa Clinic",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "Central Baptist Hospital Clinical Research Center",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Oncology Associates of West Kentucky",
+          "city": "Paducah",
+          "state": "Kentucky",
+          "zip": "42003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.08339,
+            "lon": -88.60005
+          }
+        },
+        {
+          "facility": "Grand Blanc Surgical Specialist",
+          "city": "Grand Blanc",
+          "state": "Michigan",
+          "zip": "48439",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.92753,
+            "lon": -83.62995
+          }
+        },
+        {
+          "facility": "Albany Thoracic & Esophageal Surgery",
+          "city": "Albany",
+          "state": "New York",
+          "zip": "12208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.65258,
+            "lon": -73.75623
+          }
+        },
+        {
+          "facility": "North Shore Hematology Oncology",
+          "city": "East Setauket",
+          "state": "New York",
+          "zip": "11733",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.94149,
+            "lon": -73.10594
+          }
+        },
+        {
+          "facility": "The New York Hospital Medical Center of Queens",
+          "city": "Flushing",
+          "state": "New York",
+          "zip": "11355",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76538,
+            "lon": -73.81736
+          }
+        },
+        {
+          "facility": "Winthrop University Hospital",
+          "city": "Mineola",
+          "state": "New York",
+          "zip": "11501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.74927,
+            "lon": -73.64068
+          }
+        },
+        {
+          "facility": "Center for Clinical Research and Technology University Hospitals of Cleveland",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "The Regional Cancer Center",
+          "city": "Erie",
+          "state": "Pennsylvania",
+          "zip": "16505",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.12922,
+            "lon": -80.08506
+          }
+        },
+        {
+          "facility": "Barry S Siller MD",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77024",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Colorectal Surgical Associates",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77054",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Northwest Cancer Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77090",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Cancer Care Centers of South Texas",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Cancer Care Northwest",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        },
+        {
+          "facility": "Heiskell, King, Burns & Tallman Surgical Associates, Inc.",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26508",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014594",
+          "term": "Uterine Neoplasms"
+        },
+        {
+          "id": "D002276",
+          "term": "Carcinoid Tumor"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D008654",
+          "term": "Mesothelioma"
+        },
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D012008",
+          "term": "Recurrence"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D005833",
+          "term": "Genital Neoplasms, Female"
+        },
+        {
+          "id": "D014565",
+          "term": "Urogenital Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D014591",
+          "term": "Uterine Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D018358",
+          "term": "Neuroendocrine Tumors"
+        },
+        {
+          "id": "D017599",
+          "term": "Neuroectodermal Tumors"
+        },
+        {
+          "id": "D009373",
+          "term": "Neoplasms, Germ Cell and Embryonal"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009380",
+          "term": "Neoplasms, Nerve Tissue"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D000236",
+          "term": "Adenoma"
+        },
+        {
+          "id": "D018301",
+          "term": "Neoplasms, Mesothelial"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

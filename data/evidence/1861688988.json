@@ -1,0 +1,432 @@
+{
+  "npi": "1861688988",
+  "physician": "Coral Omene",
+  "specialty": "hematology_oncology",
+  "taxonomy": "Internal Medicine, Medical Oncology",
+  "city": "New York",
+  "state": "NY",
+  "collected_at": "2026-07-18T11:54:08",
+  "elapsed_s": 5.4,
+  "sources_queried": [
+    "NPPES",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "CMS Open Payments",
+    "CMS Medicare"
+  ],
+  "sources_with_data": [
+    "NPPES",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "CMS Medicare"
+  ],
+  "coverage": "4/5",
+  "entries": [
+    {
+      "source": "NPPES",
+      "status": "found",
+      "summary": "Internal Medicine, Medical Oncology in New York, NY",
+      "n_records": 1,
+      "records": [
+        {
+          "ref": "NPI:1861688988",
+          "npi": "1861688988",
+          "taxonomy": "Internal Medicine, Medical Oncology",
+          "all_taxonomies": [
+            "Internal Medicine",
+            "Internal Medicine, Hematology & Oncology",
+            "Internal Medicine",
+            "Internal Medicine, Medical Oncology"
+          ],
+          "city": "New York",
+          "state": "NY"
+        }
+      ],
+      "specialty": "hematology_oncology"
+    },
+    {
+      "source": "PubMed",
+      "status": "found",
+      "summary": "20 publications in topic (12 in the last 5 years)",
+      "n_records": 20,
+      "records": [
+        {
+          "pmid": "40739524",
+          "ref": "PMID:40739524",
+          "title": "Real-world treatment patterns among patients diagnosed with hormone receptor-positive metastatic breast cancer in the USA.",
+          "journal": "Br J Clin Pharmacol",
+          "pubdate": "2025 Dec",
+          "year": "2025",
+          "n_authors": 5,
+          "first_author": "Zhu K",
+          "last_author": "Khosrow-Khavar F",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40739524/"
+        },
+        {
+          "pmid": "40193223",
+          "ref": "PMID:40193223",
+          "title": "Associations between experiences of discrimination and quality of life in Black breast cancer survivors.",
+          "journal": "Cancer",
+          "pubdate": "2025 Apr 15",
+          "year": "2025",
+          "n_authors": 10,
+          "first_author": "Zeinomar N",
+          "last_author": "Bandera EV",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40193223/"
+        },
+        {
+          "pmid": "40178939",
+          "ref": "PMID:40178939",
+          "title": "Reproducibility of Plasma Metabolome over 1 Year in a Population-Based Cohort of Black Breast Cancer Survivors.",
+          "journal": "Cancer Epidemiol Biomarkers Prev",
+          "pubdate": "2025 Jun 3",
+          "year": "2025",
+          "n_authors": 11,
+          "first_author": "Qin B",
+          "last_author": "Bandera EV",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40178939/"
+        },
+        {
+          "pmid": "39277672",
+          "ref": "PMID:39277672",
+          "title": "Datopotamab-deruxtecan plus durvalumab in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial.",
+          "journal": "Nat Med",
+          "pubdate": "2024 Dec",
+          "year": "2024",
+          "n_authors": 60,
+          "first_author": "Shatsky RA",
+          "last_author": "Esserman LJ",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39277672/"
+        },
+        {
+          "pmid": "39277671",
+          "ref": "PMID:39277671",
+          "title": "Datopotamab-deruxtecan in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial.",
+          "journal": "Nat Med",
+          "pubdate": "2024 Dec",
+          "year": "2024",
+          "n_authors": 57,
+          "first_author": "Khoury K",
+          "last_author": "Esserman LJ",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39277671/"
+        },
+        {
+          "pmid": "38305992",
+          "ref": "PMID:38305992",
+          "title": "Ovarian Suppression: Early Menopause, Late Effects.",
+          "journal": "Curr Oncol Rep",
+          "pubdate": "2024 May",
+          "year": "2024",
+          "n_authors": 7,
+          "first_author": "Goldberg C",
+          "last_author": "George MA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38305992/"
+        },
+        {
+          "pmid": "38220259",
+          "ref": "PMID:38220259",
+          "title": "The Present and Future of Postmastectomy Radiation.",
+          "journal": "Int J Radiat Oncol Biol Phys",
+          "pubdate": "2024 Feb 1",
+          "year": "2024",
+          "n_authors": 4,
+          "first_author": "Ohri N",
+          "last_author": "Haffty B",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38220259/"
+        },
+        {
+          "pmid": "37647068",
+          "ref": "PMID:37647068",
+          "title": "Neighborhood Disadvantage, African Genetic Ancestry, Cancer Subtype, and Mortality Among Breast Cancer Survivors.",
+          "journal": "JAMA Netw Open",
+          "pubdate": "2023 Aug 1",
+          "year": "2023",
+          "n_authors": 13,
+          "first_author": "Iyer HS",
+          "last_author": "Qin B",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37647068/"
+        },
+        {
+          "pmid": "37129747",
+          "ref": "PMID:37129747",
+          "title": "Clinical efficacy of PARP inhibitors in breast cancer.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2023 Jul",
+          "year": "2023",
+          "n_authors": 10,
+          "first_author": "Pandya K",
+          "last_author": "George MA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37129747/"
+        },
+        {
+          "pmid": "36846985",
+          "ref": "PMID:36846985",
+          "title": "Uveitis, a rare but important complication of adjuvant zoledronic acid for early-stage breast cancer.",
+          "journal": "Anticancer Drugs",
+          "pubdate": "2023 Apr 1",
+          "year": "2023",
+          "n_authors": 8,
+          "first_author": "Chacko G",
+          "last_author": "George MA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36846985/"
+        },
+        {
+          "pmid": "36692882",
+          "ref": "PMID:36692882",
+          "title": "Association of Cigarette Smoking and Alcohol Consumption With Subsequent Mortality Among Black Breast Cancer Survivors in New Jersey.",
+          "journal": "JAMA Netw Open",
+          "pubdate": "2023 Jan 3",
+          "year": "2023",
+          "n_authors": 12,
+          "first_author": "Zeinomar N",
+          "last_author": "Bandera EV",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36692882/"
+        },
+        {
+          "pmid": "35846306",
+          "ref": "PMID:35846306",
+          "title": "Greater Body Fatness Is Associated With Higher Protein Expression of LEPR in Breast Tumor Tissues: A Cross-Sectional Analysis in the Women's Circle of Health Study.",
+          "journal": "Front Endocrinol (Lausanne)",
+          "pubdate": "2022",
+          "year": "2022",
+          "n_authors": 15,
+          "first_author": "Llanos AAM",
+          "last_author": "Demissie K",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35846306/"
+        },
+        {
+          "pmid": "33591798",
+          "ref": "PMID:33591798",
+          "title": "Receptor-Defined Breast Cancer in Five East African Countries and Its Implications for Treatment: Systematic Review and Meta-Analysis.",
+          "journal": "JCO Glob Oncol",
+          "pubdate": "2021 Feb",
+          "year": "2021",
+          "n_authors": 6,
+          "first_author": "Popli P",
+          "last_author": "Marlink R",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33591798/"
+        },
+        {
+          "pmid": "33067778",
+          "ref": "PMID:33067778",
+          "title": "Gene expression of adipokines and adipokine receptors in the tumor microenvironment: associations of lower expression with more aggressive breast tumor features.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2021 Feb",
+          "year": "2021",
+          "n_authors": 16,
+          "first_author": "Llanos AAM",
+          "last_author": "Demissie K",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33067778/"
+        },
+        {
+          "pmid": "32046756",
+          "ref": "PMID:32046756",
+          "title": "Immunohistochemical analysis of adipokine and adipokine receptor expression in the breast tumor microenvironment: associations of lower leptin receptor expression with estrogen receptor-negative status and triple-negative subtype.",
+          "journal": "Breast Cancer Res",
+          "pubdate": "2020 Feb 11",
+          "year": "2020",
+          "n_authors": 17,
+          "first_author": "Llanos AAM",
+          "last_author": "Demissie K",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32046756/"
+        },
+        {
+          "pmid": "31719063",
+          "ref": "PMID:31719063",
+          "title": "Prediagnostic Allostatic Load as a Predictor of Poorly Differentiated and Larger Sized Breast Cancers among Black Women in the Women's Circle of Health Follow-Up Study.",
+          "journal": "Cancer Epidemiol Biomarkers Prev",
+          "pubdate": "2020 Jan",
+          "year": "2020",
+          "n_authors": 11,
+          "first_author": "Xing CY",
+          "last_author": "Llanos AAM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31719063/"
+        },
+        {
+          "pmid": "29695750",
+          "ref": "PMID:29695750",
+          "title": "Anti-VEGF therapy - a role in obesity-related breast cancer.",
+          "journal": "Nat Rev Endocrinol",
+          "pubdate": "2018 Jun",
+          "year": "2018",
+          "n_authors": 2,
+          "first_author": "Omene C",
+          "last_author": "Bandera EV",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29695750/"
+        },
+        {
+          "pmid": "24684785",
+          "ref": "PMID:24684785",
+          "title": "Phase 2 trial of everolimus and carboplatin combination in patients with triple negative metastatic breast cancer.",
+          "journal": "Breast Cancer Res",
+          "pubdate": "2014 Mar 31",
+          "year": "2014",
+          "n_authors": 17,
+          "first_author": "Singh J",
+          "last_author": "Tiersten A",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24684785/"
+        },
+        {
+          "pmid": "21570765",
+          "ref": "PMID:21570765",
+          "title": "Caffeic acid phenethyl ester (CAPE), derived from a honeybee product propolis, exhibits a diversity of anti-tumor effects in pre-clinical models of human breast cancer.",
+          "journal": "Cancer Lett",
+          "pubdate": "2011 Sep 1",
+          "year": "2011",
+          "n_authors": 7,
+          "first_author": "Wu J",
+          "last_author": "Frenkel K",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21570765/"
+        },
+        {
+          "pmid": "21537887",
+          "ref": "PMID:21537887",
+          "title": "Caffeic Acid Phenethyl Ester (CAPE) derived from propolis, a honeybee product, inhibits growth of breast cancer stem cells.",
+          "journal": "Invest New Drugs",
+          "pubdate": "2012 Aug",
+          "year": "2012",
+          "n_authors": 3,
+          "first_author": "Omene CO",
+          "last_author": "Frenkel K",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21537887/"
+        }
+      ],
+      "query": "Omene C[Author] AND (breast neoplasms[MeSH Terms])",
+      "total": 20,
+      "recent_5y": 12,
+      "caveat": "Author search matches surname+initial; may include namesakes."
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "status": "found",
+      "summary": "2 trials list this name as an overall official (5 weaker text-only mentions)",
+      "n_records": 2,
+      "records": [
+        {
+          "ref": "NCT05736367",
+          "nct_id": "NCT05736367",
+          "title": "Investigating the Metabolic Pathways in Hormone Receptor Positive/HER2 Negative Breast Cancer",
+          "status": "RECRUITING",
+          "phases": [
+            "NA"
+          ],
+          "officials": "Coral Omene, MD, PhD"
+        },
+        {
+          "ref": "NCT06518837",
+          "nct_id": "NCT06518837",
+          "title": "Tirzepatide for Weight Loss Intervention in Early-Stage Hormone Receptor Positive/HER2 Negative Breast Cancer",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Coral Omene, MD., PhD"
+        }
+      ],
+      "mentioned": [
+        {
+          "ref": "NCT01042379",
+          "nct_id": "NCT01042379",
+          "title": "I-SPY TRIAL: Neoadjuvant and Personalized Adaptive Novel Agents to Treat Breast Cancer",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Laura Esserman, MD, MBA"
+        },
+        {
+          "ref": "NCT05696626",
+          "nct_id": "NCT05696626",
+          "title": "Evaluation of Lasofoxifene Combined With Abemaciclib Compared With Fulvestrant Combined With Abemaciclib in Lo",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE3"
+          ],
+          "officials": ""
+        },
+        {
+          "ref": "NCT05467891",
+          "nct_id": "NCT05467891",
+          "title": "Ribociclib And Endocrine Treatment of Physician's Choice for Locoregional Recurrent, Resected Hormone Receptor",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Oana Danciu, MD"
+        },
+        {
+          "ref": "NCT05559164",
+          "nct_id": "NCT05559164",
+          "title": "Statins for Reduction of Cardiac Toxicity in Patients Receiving HER2 Targeted",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Mridula George, MD"
+        },
+        {
+          "ref": "NCT06492616",
+          "nct_id": "NCT06492616",
+          "title": "A Study of Elacestrant Versus Standard Endocrine Therapy in Women and Men With ER+,HER2-, Early Breast Cancer ",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE3"
+          ],
+          "officials": "Medical Director"
+        }
+      ],
+      "caveat": "Full-text search; 'mentioned' rows are weak evidence."
+    },
+    {
+      "source": "CMS Open Payments",
+      "status": "not_found",
+      "summary": "no research payments in 2025",
+      "n_records": 0,
+      "records": []
+    },
+    {
+      "source": "CMS Medicare",
+      "status": "found",
+      "summary": "192 services for 129 beneficiaries across 4 codes; listed as Medical Oncology",
+      "n_records": 4,
+      "records": [
+        {
+          "ref": "HCPCS:99215",
+          "hcpcs": "99215",
+          "description": "Established patient office or other outpatient visit with high level of medical decision making, if using time, 40 minut",
+          "n_beneficiaries": 67.0,
+          "n_services": 126.0
+        },
+        {
+          "ref": "HCPCS:G2211",
+          "hcpcs": "G2211",
+          "description": "Visit complexity inherent to evaluation and management associated with medical care services that serve as the continuin",
+          "n_beneficiaries": 22.0,
+          "n_services": 26.0
+        },
+        {
+          "ref": "HCPCS:99205",
+          "hcpcs": "99205",
+          "description": "New patient office or other outpatient visit with a high level of medical decision making, if using time, 60 minutes or ",
+          "n_beneficiaries": 22.0,
+          "n_services": 22.0
+        },
+        {
+          "ref": "HCPCS:99214",
+          "hcpcs": "99214",
+          "description": "Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes o",
+          "n_beneficiaries": 18.0,
+          "n_services": 18.0
+        }
+      ],
+      "provider_type": "Medical Oncology",
+      "total_services": 192.0,
+      "total_beneficiaries": 129.0,
+      "caveat": "Medicare claims only \u2014 a floor on volume, not a total."
+    }
+  ],
+  "gaps": [
+    "patient-population fit (does this physician treat THIS population, at what volume) is not verifiable from public data"
+  ],
+  "note": "Collector only \u2014 no fit judgments here. Every record carries a public ref."
+}

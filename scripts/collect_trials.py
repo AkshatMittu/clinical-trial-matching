@@ -18,7 +18,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from trialfit.collect import SCOPES, Limits, collect, recon, write_outputs
+from trialfit.collect import (SCOPES, Limits, collect, rebuild_from_cache, recon,
+                              write_outputs)
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -36,6 +37,8 @@ def main() -> int:
     p.add_argument("--broad", type=int, default=250, help="cap on the broad set")
     p.add_argument("--no-focused", action="store_true",
                    help="query the condition only, without the subtype term")
+    p.add_argument("--from-cache", action="store_true",
+                   help="re-derive the manifest from cached records, no API calls")
     p.add_argument("--data", default=str(ROOT / "data"), help="output directory")
     args = p.parse_args()
 
@@ -43,6 +46,16 @@ def main() -> int:
     data_dir = Path(args.data)
 
     print(f"scope: {scope.name}  (condition={scope.condition!r})")
+
+    if args.from_cache:
+        limits = Limits(max_records=args.max_records, n_gold=args.gold,
+                        n_demo=args.demo, n_broad=args.broad)
+        metas = rebuild_from_cache(scope, data_dir)
+        if not metas:
+            print("  no cached records — run without --from-cache first")
+            return 1
+        write_outputs(metas, scope, limits, data_dir)
+        return 0
 
     print("\nrecon —")
     funnel = recon(scope)

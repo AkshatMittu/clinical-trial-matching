@@ -1,0 +1,201 @@
+{
+  "nct_id": "NCT02513394",
+  "trial_label": "PALLAS",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Adult men and women (pre- or postmenopausal) with newly diagnosed Stage II (with a cap on Stage IIA) or Stage III HR+ (ER+/PR+) / HER2-negative early invasive breast cancer, who are within 12 months of diagnosis, either about to start or already up to 6 months into adjuvant endocrine therapy, and who have completed any neo/adjuvant chemo or biologic therapy with resolved toxicity. This is a mainstream adjuvant early breast cancer population seen broadly in breast oncology practice, not a rare or heavily pretreated subgroup \u2014 the differentiator for site selection is volume and infrastructure, not niche disease expertise.",
+    "site_burden": "This is a long-duration adjuvant trial: 2 years of active oral IP (palbociclib, 28-day cycles) with on-site Cycle Day 1 dispensing/compliance visits at a defined cadence (C1, C2, then every 3 cycles), followed by a multi-year follow-up phase (Q6-month then annual contacts) extending out to 10 years with periodic blood/plasma/cfDNA collection at protocol-specified long-term timepoints (e.g., years 5, 7, 10). Requires mandatory submission of an FFPE tumor tissue block to a central repository before randomization, serial hematology/chemistry monitoring (relevant to palbociclib-associated neutropenia), PRO and adherence questionnaires at multiple cycles, and long-term retention of patients across a decade of follow-up. Site must support drug accountability/IP dispensing infrastructure and long-term specimen/data logistics as part of a large multinational cooperative group study (AFT/ABCSG/BIG/PrECOG/NSABP).",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "Investigator must be a practicing breast oncology specialist (medical oncologist or hematologist-oncologist with a breast cancer focus) capable of managing adjuvant endocrine therapy and CDK4/6 inhibitor toxicities.",
+        "satisfies_if": "NPPES taxonomy lists Hematology/Oncology or Medical Oncology as primary specialty, or self-reported subspecialty focus in breast cancer.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "eligibility population: HR+/HER2- early invasive breast cancer requiring adjuvant endocrine therapy management; interventions: Palbociclib + endocrine therapy"
+      },
+      {
+        "id": "early_breast_cancer_pub_record",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "Investigator should have a demonstrated publication or academic record in early-stage/adjuvant breast cancer treatment or endocrine therapy/CDK4-6 inhibitor research.",
+        "satisfies_if": "PubMed search returns >=1 peer-reviewed publication authored by the physician on early breast cancer, adjuvant endocrine therapy, or CDK4/6 inhibitors.",
+        "data_sources": [
+          "pubmed"
+        ],
+        "derived_from": "trial mechanism: adjuvant endocrine therapy +/- palbociclib in HR+/HER2- early breast cancer; correlative genomic subgroup analyses"
+      },
+      {
+        "id": "adjuvant_ebc_patient_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a steady volume of newly diagnosed Stage II-III HR+/HER2- early breast cancer patients within 12 months of diagnosis to support recruitment into a long adjuvant trial.",
+        "satisfies_if": "Medicare claims data show the physician bills for a meaningful volume of breast cancer E&M/chemotherapy administration codes annually, consistent with an active breast oncology practice (floor estimate), or self-reported annual new HR+/HER2- Stage II-III diagnosis count.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "eligibility: Stage II (capped IIA) or Stage III HR+/HER2- early invasive breast cancer, enrolled within 12 months of diagnosis"
+      },
+      {
+        "id": "multidisciplinary_staging_access",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Site must have access to pathology and staging services capable of confirming ER/PR/HER2 status and Stage II-III disease, including for multicentric/multifocal/bilateral tumors, prior to enrollment.",
+        "satisfies_if": "Self-report confirms on-site or affiliated pathology capable of ER/PR/HER2 IHC/FISH testing and tumor staging workup.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "eligibility: histologically confirmed ER+/PR+, HER2-negative disease; multicentric/multifocal/bilateral tumor eligibility criteria requiring pathologic confirmation of all lesions"
+      },
+      {
+        "id": "central_repository_specimen_logistics",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have the pathology/logistics infrastructure to retrieve, prepare, and ship FFPE tumor tissue blocks to a central sample repository prior to randomization for every enrolled patient.",
+        "satisfies_if": "Self-report confirms established process/experience shipping FFPE tissue blocks to central cooperative group repositories.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "inclusion: FFPE tumor tissue block must be confirmed received at central sample repository prior to randomization"
+      },
+      {
+        "id": "long_term_followup_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to retain and follow patients for a multi-year treatment period (2 years of IP) plus long-term follow-up extending to 10 years, including periodic blood/plasma/cfDNA collection at years 5, 7, and 10.",
+        "satisfies_if": "Self-report confirms site has an active long-term oncology follow-up program and has retained patients on a prior trial for >=5 years, or is listed as a site on other cooperative group trials with multi-year follow-up phases per clinicaltrials.gov.",
+        "data_sources": [
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: Follow-Up Phase I (Q6-month) and Follow-Up Phase II (annual) extending to 10 years with blood/plasma collection at years 5, 7, 10"
+      },
+      {
+        "id": "oral_iv_drug_dispensing_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must have infrastructure for on-site oral investigational product dispensing, drug accountability, and compliance monitoring at each Cycle Day 1 visit over a 2-year treatment phase.",
+        "satisfies_if": "Self-report confirms site has a pharmacy or dispensing process for oral IP with drug accountability logs, as used in prior oral oncology drug trials.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: IP Dispensing; IP and Non-IP Drug Compliance recorded at each Cycle Day 1 onsite visit for 26 cycles"
+      },
+      {
+        "id": "hematology_monitoring_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to perform frequent on-site hematology and liver function monitoring (including mid-cycle Day 14 draws in early cycles) to manage palbociclib-related neutropenia risk.",
+        "satisfies_if": "Self-report confirms on-site or rapid-turnaround lab capability for CBC and LFTs at the visit cadence specified (C1/C2 Day 1 and Day 14, then subsequent cycles).",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: Hematology and Blood Chemistry with LFTs at Visits 1-4 including Day 14 sub-visits in Cycles 1-2"
+      },
+      {
+        "id": "cooperative_group_investigator_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience as a site investigator on cooperative group or industry-sponsored Phase III oncology trials, ideally in breast cancer.",
+        "satisfies_if": "clinicaltrials.gov lists the physician or their site as an investigator/contact on >=1 completed or active Phase III breast cancer trial sponsored by a cooperative group (e.g., Alliance, NSABP, AFT, BIG, ABCSG, PrECOG) or industry sponsor.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "sponsor: Alliance Foundation Trials with multi-group participation (AFT, ABCSG, BIG, PrECOG, NSABP); Phase III, 437-site multicenter design"
+      },
+      {
+        "id": "industry_research_engagement",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator should show a track record of receiving industry research payments consistent with active participation in sponsored clinical trials.",
+        "satisfies_if": "Open Payments database shows research payment records (general or associated research) to the physician from pharmaceutical sponsors in oncology within the past 5 years.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "trial sponsorship structure: multi-consortium Phase III trial (Alliance Foundation Trials/AFT-05) requiring GCP-compliant investigator engagement"
+      },
+      {
+        "id": "gcp_compliance_track_record",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator must have a track record of GCP-compliant trial conduct suitable for a large international registration-intent Phase III trial with correlative biomarker analyses.",
+        "satisfies_if": "Self-report confirms no unresolved FDA Form 483 findings or GCP violations, and clinicaltrials.gov shows a history of completed trial roles without termination for cause.",
+        "data_sources": [
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "derived_from": "Phase III design with genomic correlative analyses and 5796-patient international enrollment requiring rigorous protocol adherence"
+      }
+    ],
+    "excluded_screening": [
+      "Signed informed consent \u2014 a per-patient procedural step, not a physician qualification.",
+      "ECOG performance status 0-1 \u2014 assesses individual patient fitness, not site capability.",
+      "Ability to swallow and retain oral medication \u2014 patient-specific physical capacity.",
+      "Serum/urine pregnancy test \u2014 per-patient safety screening irrelevant to investigator fit.",
+      "Absolute neutrophil count, hemoglobin, bilirubin, AST/ALT, creatinine thresholds \u2014 individual lab eligibility gates, not site-level criteria.",
+      "Prior CDK inhibitor exposure exclusion \u2014 patient treatment history, not physician qualification.",
+      "Stage I or IV exclusion \u2014 defines per-patient eligibility boundary, not something about the treating physician.",
+      "Prior endocrine therapy within 5 years of diagnosis exclusion \u2014 patient-specific treatment history screen."
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 18,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 2,
+        "max_points": 1
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 4
+      },
+      "operational_capacity": {
+        "n_criteria": 4,
+        "max_points": 8
+      },
+      "trial_execution": {
+        "n_criteria": 3,
+        "max_points": 5
+      }
+    },
+    "n_publicly_verifiable": 7,
+    "n_self_report_only": 4,
+    "public_coverage": 0.64
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "grid",
+    "soa_page": 58,
+    "protocol_available": true,
+    "n_population_criteria": 10,
+    "n_screening_criteria": 10
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 6726,
+      "output_tokens": 3821
+    },
+    "cost_usd": 0.0517
+  }
+}

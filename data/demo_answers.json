@@ -1,0 +1,9 @@
+{
+  "_README": "Scripted interview answers, keyed '{NCT}__{NPI}' -> {criterion_id: answer}. Criterion ids come from data/rubrics/{NCT}.json. Use 'skip' to leave a criterion unresolved on purpose — a report where one gap stays open is more honest, and more interesting, than one where every question got a perfect answer. Without an entry here the interview still runs and shows its questions, but nothing is re-scored.",
+
+  "NCT02513394__1336121789": {
+    "_note": "PALLAS x Erica Mayer — fill criterion ids from the real rubric once built",
+    "hrpos_volume": "We start roughly 60-70 HR+/HER2- early-stage patients on adjuvant endocrine therapy each year across the breast group.",
+    "visit_capacity": "Two dedicated research coordinators and on-site infusion; we have run multi-year adjuvant protocols before."
+  }
+}

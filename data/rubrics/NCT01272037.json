@@ -1,0 +1,190 @@
+{
+  "nct_id": "NCT01272037",
+  "trial_label": "Tamoxifen Citrate, Letrozole, Anastrozole, or Exemestane Wit",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Women 18+ with histologically confirmed, node-positive (1-3 nodes) invasive breast carcinoma that is HR-positive (ER and/or PR \u22651%) and HER2-negative by ASCO/CAP criteria, with a commercial Oncotype DX Recurrence Score of 25 or less, post definitive breast surgery, without inflammatory or metastatic disease. This is a common early-stage, node-positive HR+/HER2- breast cancer population seen in general breast oncology practices, not a rare or biomarker-ultra-selected cohort.",
+    "site_burden": "Based on the posted SWOG S1007 study calendar (weak evidence \u2014 heading-only match, not a structured visit grid, per the operational burden note), the trial requires: baseline history/physical with breast exam, weight/performance status, disease assessment, and HER2/hormone receptor confirmation prior to registration; central submission of tumor tissue for Oncotype DX assay (if not already done) and blood/tissue for correlative science specimens after Step 2 consent but before treatment start; assignment to chemotherapy-then-endocrine or endocrine-alone arms with site-determined visit frequency for labs/toxicity during chemotherapy; annual mammography for patients with an intact breast; and long-term structured follow-up for recurrence/survival every 3 months in year 1, every 6 months years 2-5, then annually to 15 years. This implies the site must support long-horizon longitudinal follow-up (up to 15 years), central specimen shipping logistics (Genomic Health, correlative science kits), coordination with a treating surgeon/pathologist for eligibility confirmation, and multi-year regulatory/data submission via SWOG mechanisms \u2014 but the exact visit-by-visit burden could not be confirmed from the excerpt provided.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a practicing breast oncology specialist (medical oncologist, surgical oncologist, or hematologist-oncologist with a breast focus) capable of managing HR+/HER2- adjuvant treatment decisions.",
+        "satisfies_if": "NPPES taxonomy lists the physician under Medical Oncology, Hematology & Oncology, or Surgical Oncology with an active practice location.",
+        "data_sources": [
+          "nppes"
+        ],
+        "derived_from": "Population: node-positive invasive breast carcinoma requiring adjuvant endocrine +/- chemotherapy decision-making"
+      },
+      {
+        "id": "her2_receptor_testing_familiarity",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "Investigator must be fluent in ASCO/CAP 2013 HER2 and hormone receptor testing guidelines to correctly interpret local pathology and confirm eligibility.",
+        "satisfies_if": "Self-attestation of routine use of ASCO/CAP HER2/HR testing algorithms in practice, or documented affiliation with a CAP-accredited pathology lab used for these determinations.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Inclusion criterion: ER/PR and HER2 status must be assessed per ASCO/CAP 2013 guidelines with specific IHC/ISH thresholds"
+      },
+      {
+        "id": "genomic_assay_experience",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "Investigator should have working knowledge of Oncotype DX Recurrence Score interpretation and its role in adjuvant treatment decisions.",
+        "satisfies_if": "Self-report of prior clinical use of Oncotype DX testing in adjuvant treatment planning, or PubMed-indexed authorship on genomic assay-guided breast cancer treatment.",
+        "data_sources": [
+          "self_report",
+          "pubmed"
+        ],
+        "derived_from": "Inclusion criterion requiring Recurrence Score of 25 or less via Oncotype DX Breast Cancer Assay"
+      },
+      {
+        "id": "node_positive_hr_her2neg_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must regularly see and surgically/medically manage node-positive (1-3 nodes), HR+/HER2- invasive breast cancer patients in sufficient volume to recruit into this trial.",
+        "satisfies_if": "Self-reported estimate of >=5 newly diagnosed node-positive HR+/HER2- breast cancer patients per year, or Medicare claims showing a floor of breast cancer-related E&M/chemotherapy administration visits consistent with an active breast oncology caseload.",
+        "data_sources": [
+          "self_report",
+          "medicare"
+        ],
+        "derived_from": "Eligibility: node positive (1-3 nodes), ER/PR+, HER2- invasive breast carcinoma"
+      },
+      {
+        "id": "post_surgical_referral_pipeline",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "The site must have a referral pathway from breast surgeons within the 84-day post-definitive-surgery registration window, since eligibility requires prompt Step 2 registration after surgery.",
+        "satisfies_if": "Self-report of an established referral relationship or shared-care arrangement with breast surgical oncology within the same institution or network.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Inclusion: registration for Oncotype DX no later than 56 days, and Step 2 registration within 84 days after definitive surgery"
+      },
+      {
+        "id": "long_term_followup_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to maintain structured patient follow-up for recurrence/survival endpoints for up to 15 years post-randomization.",
+        "satisfies_if": "Self-attestation that the site has an active long-term oncology follow-up/tracking system (e.g., tumor registry or dedicated research coordinator) capable of sustaining multi-year protocol-mandated visit schedules.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Study calendar: follow-up every 3 months year 1, every 6 months years 2-5, annually to 15 years after randomization"
+      },
+      {
+        "id": "central_specimen_logistics",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have capability to collect, process, and ship tumor tissue and blood specimens to central labs (Genomic Health for Oncotype DX, correlative science repository) within protocol-specified windows.",
+        "satisfies_if": "Self-report of existing specimen processing/shipping infrastructure (e.g., pathology block retrieval, blood draw and cold-chain shipping) used in prior cooperative group trials.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Specimens section: tissue block/unstained sections sent to Genomic Health; correlative tissue/blood collected after Step 2 consent, prior to treatment"
+      },
+      {
+        "id": "chemo_endocrine_infusion_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to administer and monitor IV systemic chemotherapy regimens alongside oral endocrine therapy (tamoxifen or aromatase inhibitors) for enrolled patients randomized to Arm 1.",
+        "satisfies_if": "Self-report of on-site or affiliated infusion center capable of administering standard adjuvant chemotherapy regimens with toxicity monitoring.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Interventions: Systemic Chemotherapy given IV; Treatment arms - chemotherapy followed by endocrine therapy vs endocrine therapy alone"
+      },
+      {
+        "id": "cooperative_group_trial_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience serving as investigator on NCI cooperative group (e.g., SWOG, NRG, ECOG-ACRIN) oncology trials, given this is an NCI/SWOG-sponsored phase III cooperative group study with complex multi-step registration.",
+        "satisfies_if": "ClinicalTrials.gov lists the physician or their site as a participating investigator/site on >=1 other NCI cooperative group-sponsored oncology trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Sponsor: National Cancer Institute (NCI); protocol identifier S1007 (SWOG); multi-step Step 1/Step 2/Step 3 registration structure"
+      },
+      {
+        "id": "gcp_regulatory_track_record",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator's site should demonstrate a track record of GCP-compliant conduct on industry- or NIH-sponsored interventional trials, given the trial's long follow-up and data submission requirements per SWOG guidelines.",
+        "satisfies_if": "Open Payments records show research-related payments to the physician or affiliated institution from pharmaceutical/device sponsors, or ClinicalTrials.gov lists the physician as PI/sub-I on completed interventional trials with results reported.",
+        "data_sources": [
+          "open_payments",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Operational burden: SWOG Best Practices document, data submission guidelines (Section 14.0), and multi-year protocol compliance requirements"
+      }
+    ],
+    "excluded_screening": [
+      "Histologic confirmation of node-positive HR+/HER2- status per ASCO/CAP thresholds \u2014 a per-patient pathology determination, not a site attribute",
+      "Oncotype DX Recurrence Score \"25 or less\" \u2014 a per-patient lab result gating eligibility, not investigator fitness",
+      "Timing windows for Oncotype DX submission (56 days) and Step 2 registration (84 days after surgery) \u2014 administrative per-patient deadlines",
+      "Complete history and physical within 28 days prior to registration \u2014 routine per-patient screening exam",
+      "Zubrod performance status 0-2 \u2014 per-patient functional status assessment",
+      "Informed consent (Step 1/Step 2 forms) \u2014 per-patient regulatory requirement, not a site qualification",
+      "Pregnancy/contraception requirements \u2014 per-patient reproductive status screening",
+      "Exclusion of inflammatory or metastatic breast cancer \u2014 per-patient diagnostic exclusion criterion",
+      "Synchronous bilateral disease and prior contralateral DCIS eligibility nuances \u2014 per-patient disease history adjudication, not physician capability"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 19,
+    "n_criteria": 10,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 4
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 7
+      },
+      "trial_execution": {
+        "n_criteria": 2,
+        "max_points": 4
+      }
+    },
+    "n_publicly_verifiable": 5,
+    "n_self_report_only": 5,
+    "public_coverage": 0.5
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "heading_only",
+    "soa_page": 36,
+    "protocol_available": true,
+    "n_population_criteria": 4,
+    "n_screening_criteria": 6
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 7374,
+      "output_tokens": 3553
+    },
+    "cost_usd": 0.0503
+  }
+}

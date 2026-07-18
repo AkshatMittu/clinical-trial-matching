@@ -36,6 +36,7 @@ from typing import Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field
 
+from .evidence import STATUS_NOT_FOUND
 from .rubric import EFFORT, MAX_TOKENS, MODEL, WEIGHTS, cost_usd
 
 # How much a verdict is worth, as a fraction of the criterion's weight.
@@ -90,6 +91,93 @@ def collect_refs(dossier: dict) -> set[str]:
             if rec.get("ref"):
                 refs.add(str(rec["ref"]))
     return refs
+
+
+def exclude_target_trial(dossier: dict, nct_id: str,
+                         acronym: str = "") -> tuple[dict, dict]:
+    """Strip evidence *about the trial being scored* from the physician's dossier.
+
+    The dossier is built per physician, so for someone who really is on this
+    trial it contains the trial itself. Left in, the question becomes circular:
+    "is this person a plausible investigator for PALLAS?" gets answered by "they
+    are an investigator on PALLAS."
+
+    That breaks the score in both directions it's used. Prospectively it inflates
+    anyone already attached to the study; as validation it makes the `known` tier
+    trivially easy, so tier separation looks better than it is.
+
+    The trial leaks in through **two** routes, and both have to close:
+
+      1. **The investigator role.** The NCT id appears in their CT.gov roles.
+      2. **The results papers.** An investigator publishes the trial's outcomes,
+         so their PubMed record contains titles like "...in the PALLAS
+         randomized trial". Removing the role but leaving five papers about it
+         is not an exclusion.
+
+    Publications are matched on the trial's **acronym or NCT id only** — never on
+    the drug or disease. "Has published on palbociclib in early breast cancer" is
+    exactly the domain expertise we want to credit; only papers about *this
+    study* are the leak. Short acronyms (<4 chars) are skipped rather than risk
+    matching a common word.
+
+    Returns (filtered copy, {"roles": n, "publications": n}).
+    """
+    import copy
+    out = copy.deepcopy(dossier)
+    removed = {"roles": 0, "publications": 0}
+
+    acro_re = None
+    if acronym and len(acronym) >= 4:
+        acro_re = re.compile(rf"\b{re.escape(acronym)}\b", re.I)
+
+    for entry in out.get("entries", []) or []:
+        source = entry.get("source")
+
+        if source == "ClinicalTrials.gov":
+            for key in ("records", "mentioned"):
+                rows = entry.get(key) or []
+                kept = [r for r in rows if r.get("ref") != nct_id
+                        and r.get("nct_id") != nct_id]
+                removed["roles"] += len(rows) - len(kept)
+                entry[key] = kept
+            entry["n_records"] = len(entry.get("records") or [])
+            if removed["roles"]:
+                entry["summary"] = (
+                    f"{len(entry.get('records') or [])} OTHER trials list this "
+                    f"name as an overall official "
+                    f"({len(entry.get('mentioned') or [])} weaker text-only "
+                    f"mentions). The trial being scored ({nct_id}) was excluded.")
+                if not entry["records"]:
+                    entry["status"] = STATUS_NOT_FOUND
+
+        elif source == "PubMed":
+            rows = entry.get("records") or []
+            kept = []
+            for r in rows:
+                blob = f"{r.get('title', '')} {r.get('ref', '')}"
+                about_target = (nct_id.lower() in blob.lower()
+                                or (acro_re is not None and acro_re.search(blob)))
+                if not about_target:
+                    kept.append(r)
+            removed["publications"] += len(rows) - len(kept)
+            entry["records"] = kept
+            entry["n_records"] = len(kept)
+            if removed["publications"]:
+                entry["summary"] = (
+                    f"{entry.get('total', len(kept))} publications in topic; "
+                    f"{removed['publications']} reporting the trial being scored "
+                    f"({acronym or nct_id}) were excluded as circular.")
+                entry["caveat"] = (
+                    (entry.get("caveat", "") + " ").strip()
+                    + " Papers about the target trial itself were removed; "
+                      "remaining publications reflect general domain expertise.")
+
+    total = removed["roles"] + removed["publications"]
+    if total:
+        out["target_trial_excluded"] = nct_id
+        out["n_excluded_records"] = total
+        out["excluded_breakdown"] = removed
+    return out, removed
 
 
 def build_brief(rubric_rec: dict, dossier: dict) -> str:
@@ -299,6 +387,16 @@ def match(rubric_rec: dict, dossier: dict, max_attempts: int = 3,
 
     model = model or MODEL
     client = anthropic.Anthropic()
+
+    # Never let a physician's own attachment to this trial answer the question
+    # of whether they'd suit it.
+    dossier, excluded = exclude_target_trial(
+        dossier, rubric_rec["nct_id"], rubric_rec.get("trial_label", "") or "")
+    if any(excluded.values()) and verbose:
+        print(f"    excluded {excluded['roles']} role(s) and "
+              f"{excluded['publications']} publication(s) about the target "
+              f"trial {rubric_rec['nct_id']} from the dossier")
+
     valid_refs = collect_refs(dossier)
     brief = build_brief(rubric_rec, dossier)
     messages: list[dict] = [{"role": "user", "content":
@@ -369,6 +467,8 @@ def assemble(rubric_rec: dict, dossier: dict, adj: dict, usage: dict,
         "scoring": score(rubric_rec, adj["verdicts"]),
         "verdicts": detailed,
         "narrative": adj.get("narrative", ""),
+        "target_trial_excluded": dossier.get("target_trial_excluded"),
+        "n_excluded_records": dossier.get("n_excluded_records", 0),
         "trace": {"attempts": attempts, "usage": usage,
                   "cost_usd": round(cost_usd(usage, model), 4)},
     }

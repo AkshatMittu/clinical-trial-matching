@@ -1,0 +1,122 @@
+{
+  "available": true,
+  "n_scored": 5,
+  "n_skipped_no_results": 5,
+  "n_skipped_other_setting": 0,
+  "setting": "early_adjuvant",
+  "median_proxy": 56.9,
+  "min_proxy": 27.2,
+  "max_proxy": 89.0,
+  "trials": [
+    {
+      "nct_id": "NCT00601900",
+      "label": "Tamoxifen Citrate or Letrozole With or Without Bevacizumab i",
+      "status": "COMPLETED",
+      "experience_proxy": 89.0,
+      "components": {
+        "retention": 99.2,
+        "voluntary_withdrawal": 92.4,
+        "serious_ae": 56.0
+      },
+      "participant_flow": {
+        "started": 394,
+        "completed": 391,
+        "voluntary_withdrawals": 3,
+        "other_discontinuations": 0,
+        "retention_rate": 0.9924,
+        "retention_interpretable": true,
+        "retention_note": null,
+        "voluntary_withdrawal_rate": 0.0076
+      }
+    },
+    {
+      "nct_id": "NCT00038467",
+      "label": "IES",
+      "status": "COMPLETED",
+      "experience_proxy": 61.0,
+      "components": {
+        "retention": 77.0,
+        "voluntary_withdrawal": 45.6,
+        "serious_ae": 64.7
+      },
+      "participant_flow": {
+        "started": 4724,
+        "completed": 3640,
+        "voluntary_withdrawals": 257,
+        "other_discontinuations": 827,
+        "retention_rate": 0.7705,
+        "retention_interpretable": true,
+        "retention_note": null,
+        "voluntary_withdrawal_rate": 0.0544
+      }
+    },
+    {
+      "nct_id": "NCT01808573",
+      "label": "NALA",
+      "status": "COMPLETED",
+      "experience_proxy": 56.9,
+      "components": {
+        "voluntary_withdrawal": 64.6,
+        "serious_ae": 36.2
+      },
+      "participant_flow": {
+        "started": 621,
+        "completed": 0,
+        "voluntary_withdrawals": 22,
+        "other_discontinuations": 599,
+        "retention_rate": null,
+        "retention_interpretable": false,
+        "retention_note": "No participant is recorded as completing \u2014 this is a treat-until-progression design, where discontinuation is the expected endpoint. Retention is not meaningful here and is excluded from the composite.",
+        "voluntary_withdrawal_rate": 0.0354
+      }
+    },
+    {
+      "nct_id": "NCT04251533",
+      "label": "EPIK-B3",
+      "status": "TERMINATED",
+      "experience_proxy": 56.1,
+      "components": {
+        "retention": 19.0,
+        "voluntary_withdrawal": 100.0,
+        "serious_ae": 25.5
+      },
+      "participant_flow": {
+        "started": 137,
+        "completed": 26,
+        "voluntary_withdrawals": 0,
+        "other_discontinuations": 111,
+        "retention_rate": 0.1898,
+        "retention_interpretable": true,
+        "retention_note": null,
+        "voluntary_withdrawal_rate": 0.0
+      }
+    },
+    {
+      "nct_id": "NCT01945775",
+      "label": "EMBRACA",
+      "status": "COMPLETED",
+      "experience_proxy": 27.2,
+      "components": {
+        "voluntary_withdrawal": 25.8,
+        "serious_ae": 31.1
+      },
+      "participant_flow": {
+        "started": 431,
+        "completed": 0,
+        "voluntary_withdrawals": 32,
+        "other_discontinuations": 399,
+        "retention_rate": null,
+        "retention_interpretable": false,
+        "retention_note": "No participant is recorded as completing \u2014 this is a treat-until-progression design, where discontinuation is the expected endpoint. Retention is not meaningful here and is excluded from the composite.",
+        "voluntary_withdrawal_rate": 0.0742
+      }
+    }
+  ],
+  "weights": {
+    "retention": 0.35,
+    "voluntary_withdrawal": 0.4,
+    "serious_ae": 0.15,
+    "visit_burden": 0.1
+  },
+  "caveat": "A PROXY, not satisfaction. No public dataset records how trial participants felt. This composes what they DID \u2014 voluntary withdrawal, retention, serious adverse events, visit cadence \u2014 into one number. Only trials that posted results can be scored, which biases the cohort toward trials that finished. Retention is excluded for treat-until-progression designs, where discontinuation is the expected endpoint rather than a failure."
+}

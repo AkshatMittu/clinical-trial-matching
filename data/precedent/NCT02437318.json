@@ -1,0 +1,185 @@
+{
+  "available": true,
+  "query": {
+    "condition": "Breast Cancer",
+    "phases": [
+      "PHASE3"
+    ],
+    "intervention_types": [
+      "DRUG"
+    ],
+    "pool_scanned": 250
+  },
+  "n_similar": 50,
+  "n_completed": 43,
+  "n_stopped_early": 7,
+  "completion_rate": 0.86,
+  "stopped_early_rate": 0.14,
+  "accrual_failure_rate": 0.08,
+  "n_accrual_failures": 4,
+  "stop_reasons": {
+    "accrual": 4,
+    "efficacy_or_futility": 1,
+    "other": 1,
+    "business_or_funding": 1
+  },
+  "results_posted_rate": 0.2,
+  "median_enrollment_completed": 345,
+  "median_enrollment_stopped": 106.5,
+  "median_sites_completed": 5.0,
+  "examples_stopped": [
+    {
+      "nct_id": "NCT04251533",
+      "title": "Study Assessing the Efficacy and Safety of Alpelisib + Nab-paclitaxel in Subjects With Advanced TNBC",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 137,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 78,
+      "has_results": true,
+      "why_stopped": "The study was terminated following a strategic decision to halt recruitment due to persistently slow enrollment. This decision was not driven by any new or unexpected safety concerns.",
+      "stop_reason": "accrual",
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT04869943",
+      "title": "Efficacy Evaluation of Enobosarm Monotherapy in Treatment of AR+/ER+/HER2- Metastatic Breast Cancer",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 52,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 54,
+      "has_results": false,
+      "why_stopped": "Business decision",
+      "stop_reason": "business_or_funding",
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT01200212",
+      "title": "A Randomized Study to Determine the Efficacy of a Taxane and Bevacizumab With or Without Capecitabin",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 432,
+      "enrollment_type": "ESTIMATED",
+      "n_sites": 1,
+      "has_results": false,
+      "why_stopped": "A planed interim analysis shows no benefits, but higher adverse event rates for the experimental arm.",
+      "stop_reason": "efficacy_or_futility",
+      "sponsor_class": "OTHER"
+    },
+    {
+      "nct_id": "NCT04973930",
+      "title": "Feasibility Trial of Tele-IPT and Tele-Pharmacotherapy for Patients With Depression and Non-Metastat",
+      "status": "SUSPENDED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 20,
+      "enrollment_type": "ESTIMATED",
+      "n_sites": 1,
+      "has_results": false,
+      "why_stopped": "NYSPI paused human subjects research (HSR) 6/23. The US Dept. of Health and Human Services Office of Human Research Protections issued an FWA restriction pausing such research 6/23/23. The IO and IRB paused HSR 6/12/23. Hence no current enr",
+      "stop_reason": "accrual",
+      "sponsor_class": "OTHER"
+    },
+    {
+      "nct_id": "NCT01542203",
+      "title": "Impact of Body Weight on Pharmacokinetic Analysis of Doxorubicin + Cyclophosphamide in Breast Cancer",
+      "status": "WITHDRAWN",
+      "phases": [],
+      "enrollment": 0,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 1,
+      "has_results": false,
+      "why_stopped": "study is classified as ancillary / correlative",
+      "stop_reason": "other",
+      "sponsor_class": "OTHER"
+    },
+    {
+      "nct_id": "NCT05239663",
+      "title": "GM1 Prophylaxis for Post-chemotherapy Cognitive Impairment in Patients With Early Operable Breast Ca",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 76,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 1,
+      "has_results": false,
+      "why_stopped": "Difficulty accruing subjects the study accrual was closed",
+      "stop_reason": "accrual",
+      "sponsor_class": "OTHER"
+    }
+  ],
+  "examples_completed": [
+    {
+      "nct_id": "NCT01808573",
+      "title": "A Study of Neratinib Plus Capecitabine Versus Lapatinib Plus Capecitabine in Patients With HER2+ Met",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 621,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 252,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT02278120",
+      "title": "Study of Efficacy and Safety in Premenopausal Women With Hormone Receptor Positive, HER2-negative Ad",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 672,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 183,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT01007942",
+      "title": "Daily Everolimus in Combination With Trastuzumab and Vinorelbine in HER2/Neu Positive Women With Loc",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 569,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 161,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    },
+    {
+      "nct_id": "NCT01250379",
+      "title": "A Study of Avastin (Bevacizumab) in Combination With Chemotherapy in Patients With Breast Cancer Pro",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": 494,
+      "enrollment_type": "ACTUAL",
+      "n_sites": 132,
+      "has_results": true,
+      "why_stopped": "",
+      "stop_reason": null,
+      "sponsor_class": "INDUSTRY"
+    }
+  ],
+  "sample_adequate": true,
+  "sample_note": null,
+  "caveat": "Operational outcome only. ClinicalTrials.gov records whether a trial finished and enrolled, not whether the treatment worked \u2014 a completed trial with a negative result counts as completed. Similarity is condition + phase + intervention type, so the comparison set is broad."
+}

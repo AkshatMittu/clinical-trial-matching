@@ -1,0 +1,206 @@
+{
+  "npi": "1861688988",
+  "physician": "Coral Omene",
+  "specialty": "hematology_oncology",
+  "taxonomy": "Internal Medicine, Medical Oncology",
+  "city": "New York",
+  "state": "NY",
+  "tier_counts": {
+    "known": 2,
+    "strong": 3,
+    "moderate": 3,
+    "weak": 3
+  },
+  "n_trials": 11,
+  "trials": [
+    {
+      "nct_id": "NCT06518837",
+      "label": "FITWISE",
+      "tier": "known",
+      "expected_score": "high",
+      "reasons": [
+        "listed as an overall official on this trial"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": true,
+      "has_protocol": false,
+      "quality_score": 4.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "demo"
+    },
+    {
+      "nct_id": "NCT05736367",
+      "label": "Investigating the Metabolic Pathways in Hormone Receptor Pos",
+      "tier": "known",
+      "expected_score": "high",
+      "reasons": [
+        "listed as an overall official on this trial"
+      ],
+      "setting": "unspecified",
+      "in_scope": false,
+      "has_protocol": false,
+      "quality_score": 2.5,
+      "intervention_types": "DRUG",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT02437318",
+      "label": "SOLAR-1",
+      "tier": "strong",
+      "expected_score": "high",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: mixed",
+        "specialty matches interventions (100%)",
+        "protocol PDF available"
+      ],
+      "setting": "mixed",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT02513394",
+      "label": "PALLAS",
+      "tier": "strong",
+      "expected_score": "high",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: early_adjuvant",
+        "specialty matches interventions (100%)",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT04191499",
+      "label": "INAVO120",
+      "tier": "strong",
+      "expected_score": "high",
+      "reasons": [
+        "subtype in scope (HR+/HER2-)",
+        "setting: mixed",
+        "specialty matches interventions (100%)",
+        "protocol PDF available"
+      ],
+      "setting": "mixed",
+      "in_scope": true,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG",
+      "trial_bucket": "gold"
+    },
+    {
+      "nct_id": "NCT01101438",
+      "label": "A Phase III Randomized Trial of Metformin vs Placebo in Earl",
+      "tier": "moderate",
+      "expected_score": "mid",
+      "reasons": [
+        "subtype out of scope",
+        "setting: unspecified",
+        "specialty matches interventions (50%)",
+        "protocol PDF available"
+      ],
+      "setting": "unspecified",
+      "in_scope": false,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG|OTHER",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT01272037",
+      "label": "Tamoxifen Citrate, Letrozole, Anastrozole, or Exemestane Wit",
+      "tier": "moderate",
+      "expected_score": "mid",
+      "reasons": [
+        "subtype out of scope",
+        "setting: early_adjuvant",
+        "specialty matches interventions (50%)",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": false,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG|OTHER",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT01674140",
+      "label": "e3",
+      "tier": "moderate",
+      "expected_score": "mid",
+      "reasons": [
+        "subtype out of scope",
+        "setting: early_adjuvant",
+        "specialty matches interventions (50%)",
+        "protocol PDF available"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": false,
+      "has_protocol": true,
+      "quality_score": 10.0,
+      "intervention_types": "DRUG|OTHER",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT01781338",
+      "label": "ADAPT",
+      "tier": "weak",
+      "expected_score": "low",
+      "reasons": [
+        "subtype out of scope",
+        "setting: early_adjuvant",
+        "specialty does not match interventions"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": false,
+      "has_protocol": false,
+      "quality_score": 5.5,
+      "intervention_types": "OTHER",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT00651976",
+      "label": "Letrozole in Treating Postmenopausal Women With Stage I, II ",
+      "tier": "weak",
+      "expected_score": "low",
+      "reasons": [
+        "subtype out of scope",
+        "setting: early_adjuvant",
+        "partial specialty match (33%)"
+      ],
+      "setting": "early_adjuvant",
+      "in_scope": false,
+      "has_protocol": false,
+      "quality_score": 4.5,
+      "intervention_types": "DRUG|OTHER|PROCEDURE",
+      "trial_bucket": "other"
+    },
+    {
+      "nct_id": "NCT06867484",
+      "label": "BRASIL",
+      "tier": "weak",
+      "expected_score": "low",
+      "reasons": [
+        "subtype out of scope",
+        "setting: unspecified",
+        "specialty does not match interventions"
+      ],
+      "setting": "unspecified",
+      "in_scope": false,
+      "has_protocol": false,
+      "quality_score": 4.5,
+      "intervention_types": "RADIATION",
+      "trial_bucket": "other"
+    }
+  ]
+}

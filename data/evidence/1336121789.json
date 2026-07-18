@@ -1,0 +1,641 @@
+{
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "taxonomy": "Internal Medicine, Medical Oncology",
+  "city": "Boston",
+  "state": "MA",
+  "collected_at": "2026-07-18T11:54:02",
+  "elapsed_s": 8.3,
+  "sources_queried": [
+    "NPPES",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "CMS Open Payments",
+    "CMS Medicare"
+  ],
+  "sources_with_data": [
+    "NPPES",
+    "PubMed",
+    "ClinicalTrials.gov",
+    "CMS Open Payments",
+    "CMS Medicare"
+  ],
+  "coverage": "5/5",
+  "entries": [
+    {
+      "source": "NPPES",
+      "status": "found",
+      "summary": "Internal Medicine, Medical Oncology in Boston, MA",
+      "n_records": 1,
+      "records": [
+        {
+          "ref": "NPI:1336121789",
+          "npi": "1336121789",
+          "taxonomy": "Internal Medicine, Medical Oncology",
+          "all_taxonomies": [
+            "Internal Medicine, Medical Oncology"
+          ],
+          "city": "Boston",
+          "state": "MA"
+        }
+      ],
+      "specialty": "medical_oncology"
+    },
+    {
+      "source": "PubMed",
+      "status": "found",
+      "summary": "117 publications in topic (60 in the last 5 years)",
+      "n_records": 25,
+      "records": [
+        {
+          "pmid": "42258966",
+          "ref": "PMID:42258966",
+          "title": "Scalp cooling outcomes in patients receiving trastuzumab deruxtecan for metastatic breast cancer.",
+          "journal": "ESMO Open",
+          "pubdate": "2026 Jun",
+          "year": "2026",
+          "n_authors": 18,
+          "first_author": "Salehi E",
+          "last_author": "Tolaney SM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42258966/"
+        },
+        {
+          "pmid": "41812623",
+          "ref": "PMID:41812623",
+          "title": "TBCRC 035: randomized phase II pharmacodynamic study of standard and reduced-dose palbociclib with endocrine therapy in hormone receptor (HR)-positive previously treated metastatic breast cancer.",
+          "journal": "ESMO Open",
+          "pubdate": "2026 Apr",
+          "year": "2026",
+          "n_authors": 22,
+          "first_author": "Jacob S",
+          "last_author": "Rugo HS",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41812623/"
+        },
+        {
+          "pmid": "41793510",
+          "ref": "PMID:41793510",
+          "title": "A phase II study of atezolizumab in combination with stereotactic radiation for patients with triple-negative breast cancer and brain metastasis.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2026 Mar 7",
+          "year": "2026",
+          "n_authors": 14,
+          "first_author": "Giordano A",
+          "last_author": "Lin NU",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41793510/"
+        },
+        {
+          "pmid": "41781620",
+          "ref": "PMID:41781620",
+          "title": "A glucocorticoid-FAS axis controls immune evasion during metastatic seeding.",
+          "journal": "Nature",
+          "pubdate": "2026 May",
+          "year": "2026",
+          "n_authors": 22,
+          "first_author": "Cassandras M",
+          "last_author": "Agudo J",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41781620/"
+        },
+        {
+          "pmid": "41672025",
+          "ref": "PMID:41672025",
+          "title": "Circulating tumor DNA in neoadjuvant endocrine therapy for early breast cancer.",
+          "journal": "ESMO Open",
+          "pubdate": "2026 Mar",
+          "year": "2026",
+          "n_authors": 15,
+          "first_author": "Grinshpun A",
+          "last_author": "Jeselsohn R",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41672025/"
+        },
+        {
+          "pmid": "41125211",
+          "ref": "PMID:41125211",
+          "title": "Patient-reported outcomes in the SERENA-6 trial of camizestrant plus CDK4/6 inhibitor in patients with advanced breast cancer and emergent ESR1 mutations during first-line endocrine-based therapy.",
+          "journal": "Ann Oncol",
+          "pubdate": "2026 Feb",
+          "year": "2026",
+          "n_authors": 25,
+          "first_author": "Mayer EL",
+          "last_author": "Turner N",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41125211/"
+        },
+        {
+          "pmid": "41110701",
+          "ref": "PMID:41110701",
+          "title": "Palbociclib with adjuvant endocrine therapy in early breast cancer: 5-year follow-up analysis of the global multicenter, open-label, randomized phase III PALLAS trial (ABCSG-42/AFT-05/PrE0109/BIG-14-13).",
+          "journal": "Ann Oncol",
+          "pubdate": "2026 Feb",
+          "year": "2026",
+          "n_authors": 40,
+          "first_author": "Mayer EL",
+          "last_author": "DeMichele A",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41110701/"
+        },
+        {
+          "pmid": "41110695",
+          "ref": "PMID:41110695",
+          "title": "TRADE: a phase II trial to assess the tolerability of abemaciclib dose escalation in early-stage HR-positive/HER2-negative breast cancer.",
+          "journal": "Ann Oncol",
+          "pubdate": "2026 Jan",
+          "year": "2026",
+          "n_authors": 20,
+          "first_author": "Mayer EL",
+          "last_author": "Tolaney SM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41110695/"
+        },
+        {
+          "pmid": "41075163",
+          "ref": "PMID:41075163",
+          "title": "Prognostic value of visually and computationally assessed tumor-infiltrating lymphocytes in early-stage triple-negative breast cancer (TBCRC-030).",
+          "journal": "J Natl Cancer Inst",
+          "pubdate": "2026 Jan 1",
+          "year": "2026",
+          "n_authors": 21,
+          "first_author": "Nader-Marta G",
+          "last_author": "Mayer EL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41075163/"
+        },
+        {
+          "pmid": "40839373",
+          "ref": "PMID:40839373",
+          "title": "Impact of a Weight Loss Intervention on 1-Year Weight Change in Women With Stage II/III Breast Cancer: Secondary Analysis of the Breast Cancer Weight Loss (BWEL) Trial.",
+          "journal": "JAMA Oncol",
+          "pubdate": "2025 Oct 1",
+          "year": "2025",
+          "n_authors": 28,
+          "first_author": "Ligibel JA",
+          "last_author": "Carey LA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40839373/"
+        },
+        {
+          "pmid": "40853871",
+          "ref": "PMID:40853871",
+          "title": "Circulating Tumor Cell Dynamics after CDK4/6 Inhibitor for Hormone Receptor-Positive Metastatic Breast Cancer: A Biomarker Analysis from the PACE Phase II Study.",
+          "journal": "Clin Cancer Res",
+          "pubdate": "2025 Nov 3",
+          "year": "2025",
+          "n_authors": 23,
+          "first_author": "Gerratana L",
+          "last_author": "Mayer EL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40853871/"
+        },
+        {
+          "pmid": "40794365",
+          "ref": "PMID:40794365",
+          "title": "Combined intermittent fasting and exercise intervention in patients with metastatic, hormone receptor-positive breast cancer (FastER): a pilot study.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2025 Nov",
+          "year": "2025",
+          "n_authors": 11,
+          "first_author": "Gonzalo-Encabo P",
+          "last_author": "Ligibel JA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40794365/"
+        },
+        {
+          "pmid": "40759832",
+          "ref": "PMID:40759832",
+          "title": "Assessing racial disparities in disease outcomes of patients with high-risk, triple-negative breast cancer and residual disease after neoadjuvant therapy: a post-hoc analysis of the ECOG-ACRIN 1131 clinical trial.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2025 Nov",
+          "year": "2025",
+          "n_authors": 10,
+          "first_author": "Lloyd K",
+          "last_author": "Kantor O",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40759832/"
+        },
+        {
+          "pmid": "40714513",
+          "ref": "PMID:40714513",
+          "title": "Circulating tumor DNA mutational landscape and dynamics after progression on a CDK4/6 inhibitor in the PACE phase II trial for metastatic HR-positive/HER2-negative breast cancer.",
+          "journal": "ESMO Open",
+          "pubdate": "2025 Aug",
+          "year": "2025",
+          "n_authors": 22,
+          "first_author": "Jeselsohn R",
+          "last_author": "Mayer EL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40714513/"
+        },
+        {
+          "pmid": "40714511",
+          "ref": "PMID:40714511",
+          "title": "Impact of the Prosigna assay on neoadjuvant treatment decision-making in patients with early-stage HR-positive/HER2-negative breast cancer: a single-center prospective observational study.",
+          "journal": "ESMO Open",
+          "pubdate": "2025 Aug",
+          "year": "2025",
+          "n_authors": 19,
+          "first_author": "Corti C",
+          "last_author": "Tolaney SM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40714511/"
+        },
+        {
+          "pmid": "40472660",
+          "ref": "PMID:40472660",
+          "title": "Quality-of-life and symptom severity in the PALLAS randomized trial of palbociclib with adjuvant endocrine therapy in early breast cancer (AFT-05, ABCSG-42, BIG-14-03, PrE0109).",
+          "journal": "ESMO Open",
+          "pubdate": "2025 Jun",
+          "year": "2025",
+          "n_authors": 42,
+          "first_author": "Naughton MJ",
+          "last_author": "Mayer EL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40472660/"
+        },
+        {
+          "pmid": "40454637",
+          "ref": "PMID:40454637",
+          "title": "First-Line Camizestrant for Emerging ESR1-Mutated Advanced Breast Cancer.",
+          "journal": "N Engl J Med",
+          "pubdate": "2025 Aug 7",
+          "year": "2025",
+          "n_authors": 26,
+          "first_author": "Bidard FC",
+          "last_author": "SERENA-6 Study Group",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40454637/"
+        },
+        {
+          "pmid": "40434676",
+          "ref": "PMID:40434676",
+          "title": "Management of Metastatic Hormone Receptor-Positive Breast Cancer Beyond CDK4/6 Inhibitors.",
+          "journal": "Curr Oncol Rep",
+          "pubdate": "2025 Jul",
+          "year": "2025",
+          "n_authors": 9,
+          "first_author": "Tracy PD",
+          "last_author": "Schlam I",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40434676/"
+        },
+        {
+          "pmid": "40263706",
+          "ref": "PMID:40263706",
+          "title": "DirectHRD enables sensitive scar-based classification of homologous recombination deficiency.",
+          "journal": "Nucleic Acids Res",
+          "pubdate": "2025 Apr 22",
+          "year": "2025",
+          "n_authors": 11,
+          "first_author": "Liu R",
+          "last_author": "Adalsteinsson VA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40263706/"
+        },
+        {
+          "pmid": "40140172",
+          "ref": "PMID:40140172",
+          "title": "Impact of adding palbociclib on treatment adherence to ongoing adjuvant endocrine treatment in the global randomized PALLAS randomized trial in patients with early breast cancer.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2025 Jun",
+          "year": "2025",
+          "n_authors": 43,
+          "first_author": "Shinn E",
+          "last_author": "Gnant M",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40140172/"
+        },
+        {
+          "pmid": "39915434",
+          "ref": "PMID:39915434",
+          "title": "Patient preferences for CDK4/6 inhibitor treatments in HR+/HER2-\u2009early breast cancer: a discrete choice survey study.",
+          "journal": "Breast Cancer Res Treat",
+          "pubdate": "2025 May",
+          "year": "2025",
+          "n_authors": 12,
+          "first_author": "Mayer EL",
+          "last_author": "Lustberg MB",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39915434/"
+        },
+        {
+          "pmid": "39890560",
+          "ref": "PMID:39890560",
+          "title": "Optimizing Postneoadjuvant Treatment of Residual Breast Cancer With Adjuvant Bevacizumab Alone, With Metronomic or Standard-Dose Chemotherapy: A Combined Analysis of DFCI 05-055 and DFCI 09-134/TBCRC 012/ABCDE Clinical Trials.",
+          "journal": "Clin Breast Cancer",
+          "pubdate": "2025 Jun",
+          "year": "2025",
+          "n_authors": 18,
+          "first_author": "Trapani D",
+          "last_author": "Mayer EL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39890560/"
+        },
+        {
+          "pmid": "39849600",
+          "ref": "PMID:39849600",
+          "title": "Outcomes in stage IIA versus stage IIB/III in the PALLAS trial [ABCSG-42/AFT-05/PrE0109/BIG-14-13]).",
+          "journal": "Breast Cancer Res",
+          "pubdate": "2025 Jan 23",
+          "year": "2025",
+          "n_authors": 35,
+          "first_author": "DeMichele A",
+          "last_author": "Gnant M",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39849600/"
+        },
+        {
+          "pmid": "39754986",
+          "ref": "PMID:39754986",
+          "title": "Drug-drug interactions between palbociclib and proton pump inhibitors in\u00a0early breast cancer: an exploratory analysis of PALLAS (ABCSG-42/AFT-05/BIG-14-13/PrE0109).",
+          "journal": "ESMO Open",
+          "pubdate": "2025 Jan",
+          "year": "2025",
+          "n_authors": 20,
+          "first_author": "Agostinetto E",
+          "last_author": "DeMichele A",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39754986/"
+        },
+        {
+          "pmid": "39703168",
+          "ref": "PMID:39703168",
+          "title": "Incidence of patient-reported fatigue developing on palbociclib and endocrine therapy for advanced HR+ HER2- breast cancer.",
+          "journal": "Oncologist",
+          "pubdate": "2025 Aug 4",
+          "year": "2025",
+          "n_authors": 11,
+          "first_author": "Rahman SA",
+          "last_author": "Joffe H",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39703168/"
+        }
+      ],
+      "query": "Mayer E[Author] AND (breast neoplasms[MeSH Terms])",
+      "total": 117,
+      "recent_5y": 60,
+      "caveat": "Author search matches surname+initial; may include namesakes."
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "status": "found",
+      "summary": "11 trials list this name as an overall official (6 weaker text-only mentions)",
+      "n_records": 11,
+      "records": [
+        {
+          "ref": "NCT00496665",
+          "nct_id": "NCT00496665",
+          "title": "ZD6474 (Zactima) and Metronomic Chemotherapy in Advanced Breast Cancer",
+          "status": "COMPLETED",
+          "phases": [
+            "PHASE1"
+          ],
+          "officials": "Erica Mayer, MD, MPH"
+        },
+        {
+          "ref": "NCT00674011",
+          "nct_id": "NCT00674011",
+          "title": "Hypertension in Breast Cancer Patients Receiving Bevacizumab",
+          "status": "TERMINATED",
+          "phases": [],
+          "officials": "Erica Mayer, MD MPH"
+        },
+        {
+          "ref": "NCT06001762",
+          "nct_id": "NCT06001762",
+          "title": "TRADE: Dose Escalation Tolerability of Abemaciclib in HR+ HER2- Early Stage Breast Cancer",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica Mayer, MD, MPH"
+        },
+        {
+          "ref": "NCT02513394",
+          "nct_id": "NCT02513394",
+          "title": "PALbociclib CoLlaborative Adjuvant Study",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phases": [
+            "PHASE3"
+          ],
+          "officials": "Evanthia Galanis, MD | Erica Mayer, MD | Angela DeMichele, MD | Michael Gnant, MD"
+        },
+        {
+          "ref": "NCT00925652",
+          "nct_id": "NCT00925652",
+          "title": "Bevacizumab, Metronomic Chemotherapy (CM), Diet and Exercise After Preoperative Chemotherapy for Breast Cancer",
+          "status": "TERMINATED",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica Mayer, MD"
+        },
+        {
+          "ref": "NCT01982448",
+          "nct_id": "NCT01982448",
+          "title": "Cisplatin vs Paclitaxel for Triple Negative Breast Cancer",
+          "status": "COMPLETED",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica Mayer, MD"
+        },
+        {
+          "ref": "NCT01827787",
+          "nct_id": "NCT01827787",
+          "title": "Eribulin in HER2 Negative Metastatic BrCa",
+          "status": "COMPLETED",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica Mayer, MD, MPH"
+        },
+        {
+          "ref": "NCT04584255",
+          "nct_id": "NCT04584255",
+          "title": "Niraparib + Dostarlimab In BRCA Mutated Breast Cancer",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica L. Mayer, MD, MPH"
+        },
+        {
+          "ref": "NCT00717340",
+          "nct_id": "NCT00717340",
+          "title": "A Phase 1b/2a, Open-Label, Multi-Center Study of Tivozanib (AV-951) in Combination With Paclitaxel in Subjects",
+          "status": "COMPLETED",
+          "phases": [
+            "PHASE1"
+          ],
+          "officials": "Joshua Zhang, M.D. | Erica Mayer, M.D. | Max E. Scheulen, M.D. | Maura Dickler, M.D."
+        },
+        {
+          "ref": "NCT03147287",
+          "nct_id": "NCT03147287",
+          "title": "Palbociclib After CDK and Endocrine Therapy (PACE)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica L Mayer, MD MPH"
+        },
+        {
+          "ref": "NCT02040857",
+          "nct_id": "NCT02040857",
+          "title": "Palbociclib in Combination With Adjuvant Endocrine Therapy for Hormone Receptor Positive, HER2 Negative Invasi",
+          "status": "COMPLETED",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Erica Mayer, MD, MPH"
+        }
+      ],
+      "mentioned": [
+        {
+          "ref": "NCT05827081",
+          "nct_id": "NCT05827081",
+          "title": "Phase IIIb Study of Ribociclib + ET in Early Breast Cancer",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE3"
+          ],
+          "officials": "Novartis Pharmaceuticals"
+        },
+        {
+          "ref": "NCT07287098",
+          "nct_id": "NCT07287098",
+          "title": "A Study of Imlunestrant (LY3484356) in Premenopausal Women With Estrogen Receptor-Positive (ER+) Human Epiderm",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Call 1-877-CTLILLY (1-877-285-4559) or 1-317-615-4559 Mon - Fri 8 AM - 8 PM Eastern time (UTC/GMT - 5 hours, EST)"
+        },
+        {
+          "ref": "NCT05696626",
+          "nct_id": "NCT05696626",
+          "title": "Evaluation of Lasofoxifene Combined With Abemaciclib Compared With Fulvestrant Combined With Abemaciclib in Lo",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE3"
+          ],
+          "officials": ""
+        },
+        {
+          "ref": "NCT06377852",
+          "nct_id": "NCT06377852",
+          "title": "The CDK4/6 Inhibitor Dosing Knowledge (CDK) Study",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE3"
+          ],
+          "officials": "Julie Gralow, MD"
+        },
+        {
+          "ref": "NCT06099769",
+          "nct_id": "NCT06099769",
+          "title": "A Study of Enzalutamide, Enzalutamide in Combination With Mifepristone, or Chemotherapy in People With Metasta",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Tiffany Traina, MD"
+        },
+        {
+          "ref": "NCT04841148",
+          "nct_id": "NCT04841148",
+          "title": "Avelumab or Hydroxychloroquine With or Without Palbociclib to Eliminate Dormant Breast Cancer",
+          "status": "RECRUITING",
+          "phases": [
+            "PHASE2"
+          ],
+          "officials": "Angela DeMichele, MD"
+        }
+      ],
+      "caveat": "Full-text search; 'mentioned' rows are weak evidence."
+    },
+    {
+      "source": "CMS Open Payments",
+      "status": "found",
+      "summary": "$2,883 across 4 research payments from 2 sponsors (2025)",
+      "n_records": 4,
+      "records": [
+        {
+          "record_id": "1211535676",
+          "ref": "OpenPayments:1211535676",
+          "amount_usd": 1225.57,
+          "payer": "F. Hoffmann-La Roche AG",
+          "study": "Phase III study of giredestrant everolimus vs everolimus exemestane in ER HER2 locally adv or mBC",
+          "program_year": "2025",
+          "date": "10/18/2025"
+        },
+        {
+          "record_id": "1211535681",
+          "ref": "OpenPayments:1211535681",
+          "amount_usd": 503.68,
+          "payer": "F. Hoffmann-La Roche AG",
+          "study": "Phase III study of giredestrant everolimus vs everolimus exemestane in ER HER2 locally adv or mBC",
+          "program_year": "2025",
+          "date": "12/12/2025"
+        },
+        {
+          "record_id": "1211535685",
+          "ref": "OpenPayments:1211535685",
+          "amount_usd": 292.89,
+          "payer": "F. Hoffmann-La Roche AG",
+          "study": "Phase III study of giredestrant everolimus vs everolimus exemestane in ER HER2 locally adv or mBC",
+          "program_year": "2025",
+          "date": "12/12/2025"
+        },
+        {
+          "record_id": "1236002143",
+          "ref": "OpenPayments:1236002143",
+          "amount_usd": 860.76,
+          "payer": "E.R. Squibb & Sons, L.L.C.",
+          "study": "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or",
+          "program_year": "2025",
+          "date": "03/28/2025"
+        }
+      ],
+      "program_year": 2025,
+      "payers": [
+        "E.R. Squibb & Sons, L.L.C.",
+        "F. Hoffmann-La Roche AG"
+      ],
+      "studies": [
+        "Phase 1b/2 Open-label Trial of 225Ac-DOTATATE (RYZ101) in Subjects With Estrogen Receptor-positive (ER+), Human Epidermal Growth Factor Receptor 2 (HER2)-Negative, Locally Advanced and Unresectable or",
+        "Phase III study of giredestrant everolimus vs everolimus exemestane in ER HER2 locally adv or mBC"
+      ]
+    },
+    {
+      "source": "CMS Medicare",
+      "status": "found",
+      "summary": "206 services for 134 beneficiaries across 5 codes; listed as Medical Oncology",
+      "n_records": 5,
+      "records": [
+        {
+          "ref": "HCPCS:99214",
+          "hcpcs": "99214",
+          "description": "Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes o",
+          "n_beneficiaries": 44.0,
+          "n_services": 59.0
+        },
+        {
+          "ref": "HCPCS:99214",
+          "hcpcs": "99214",
+          "description": "Established patient office or other outpatient visit with moderate level of decision making, if using time, 30 minutes o",
+          "n_beneficiaries": 49.0,
+          "n_services": 58.0
+        },
+        {
+          "ref": "HCPCS:99232",
+          "hcpcs": "99232",
+          "description": "Subsequent hospital care with moderate levelof medical decision making, if using time, at least 35 minutes",
+          "n_beneficiaries": 11.0,
+          "n_services": 47.0
+        },
+        {
+          "ref": "HCPCS:99215",
+          "hcpcs": "99215",
+          "description": "Established patient office or other outpatient visit with high level of medical decision making, if using time, 40 minut",
+          "n_beneficiaries": 16.0,
+          "n_services": 24.0
+        },
+        {
+          "ref": "HCPCS:99215",
+          "hcpcs": "99215",
+          "description": "Established patient office or other outpatient visit with high level of medical decision making, if using time, 40 minut",
+          "n_beneficiaries": 14.0,
+          "n_services": 18.0
+        }
+      ],
+      "provider_type": "Medical Oncology",
+      "total_services": 206.0,
+      "total_beneficiaries": 134.0,
+      "caveat": "Medicare claims only \u2014 a floor on volume, not a total."
+    }
+  ],
+  "gaps": [
+    "patient-population fit (does this physician treat THIS population, at what volume) is not verifiable from public data"
+  ],
+  "note": "Collector only \u2014 no fit judgments here. Every record carries a public ref."
+}

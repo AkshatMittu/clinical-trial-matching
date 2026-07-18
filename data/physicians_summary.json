@@ -1,0 +1,44 @@
+{
+  "n_roster": 17,
+  "resolution_funnel": {
+    "not_found": 27,
+    "resolved": 18,
+    "merged": 1
+  },
+  "demo": [
+    {
+      "npi": "1336121789",
+      "name": "Erica Mayer",
+      "specialty": "medical_oncology",
+      "taxonomy": "Internal Medicine, Medical Oncology",
+      "city": "Boston",
+      "state": "MA",
+      "n_source_trials": 4,
+      "gold_trials": [
+        "NCT02040857",
+        "NCT02513394",
+        "NCT06001762"
+      ]
+    },
+    {
+      "npi": "1861688988",
+      "name": "Coral Omene",
+      "specialty": "hematology_oncology",
+      "taxonomy": "Internal Medicine, Medical Oncology",
+      "city": "New York",
+      "state": "NY",
+      "n_source_trials": 2,
+      "gold_trials": []
+    },
+    {
+      "npi": "1679537971",
+      "name": "Laura Esserman",
+      "specialty": "surgical_oncology",
+      "taxonomy": "Surgery, Surgical Oncology",
+      "city": "San Francisco",
+      "state": "CA",
+      "n_source_trials": 1,
+      "gold_trials": []
+    }
+  ]
+}

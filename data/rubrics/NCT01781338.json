@@ -1,0 +1,199 @@
+{
+  "nct_id": "NCT01781338",
+  "trial_label": "ADAPT",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Adult women (18+, including a dedicated elderly subgroup \u226570) newly diagnosed with unilateral, histologically confirmed primary invasive breast carcinoma at an early stage, who are candidates for biomarker-guided induction therapy (endocrine, neoadjuvant chemotherapy, or targeted therapy) as part of a personalized, risk-adapted treatment strategy rather than metastatic or recurrent disease management.",
+    "site_burden": "No schedule of assessments was provided in the record, so burden is inferred rather than read from protocol detail. The design implies: (1) upfront biomarker-based risk/response assessment (e.g., Ki-67 or equivalent) driving assignment to one of several sub-protocols (endocrine, chemo, targeted), requiring coordinated pathology/biomarker sample handling; (2) management of patients across multiple concurrent treatment arms with distinct monitoring needs; (3) an 8-year outcome horizon implying sustained longitudinal follow-up infrastructure; and (4) very high per-site enrollment load, since 4936 patients were enrolled across only 2 sites (~2400 patients/site), implying a large, high-throughput breast cancer practice or academic breast center rather than a low-volume community site.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must specialize in breast cancer diagnosis and multi-modality treatment (surgical oncology, medical oncology, or gynecologic oncology with a breast focus) to appropriately manage assignment across endocrine, chemotherapy, and targeted-therapy sub-protocols.",
+        "satisfies_if": "NPPES taxonomy lists hematology/oncology, medical oncology, surgical oncology, or gynecologic oncology, AND the physician practices within a designated breast center/program.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "Intervention description: sub-protocols including endocrine therapy, neoadjuvant chemotherapy, or targeted therapy; site footprint shows both sites are dedicated Brustzentren (breast centers)."
+      },
+      {
+        "id": "biomarker_driven_therapy_expertise",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "Investigator should have demonstrated expertise in biomarker-based risk stratification and response prediction in breast cancer (e.g., Ki-67, genomic recurrence scores) consistent with the trial's core scientific aim.",
+        "satisfies_if": "PubMed record includes authored/co-authored publications on breast cancer biomarkers, risk assessment, or therapy response prediction (e.g., Ki-67, recurrence score).",
+        "data_sources": [
+          "pubmed",
+          "self_report"
+        ],
+        "derived_from": "Primary outcome: identification of a responder subpopulation with outcome comparable to HR+/RS\u226411 using biomarker-driven risk assessment."
+      },
+      {
+        "id": "early_stage_breast_ca_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a high volume of newly diagnosed early-stage invasive breast cancer patients spanning adult and elderly age ranges, sufficient to support the trial's very high per-site enrollment.",
+        "satisfies_if": "Medicare claims show breast cancer diagnostic/treatment billing (biopsy, mastectomy, chemo administration) at or above comparable breast-center benchmarks, OR self-report confirms an annual new breast cancer diagnosis volume adequate for large-scale trial enrollment.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "Enrollment of 4936 patients across only 2 sites; inclusion of age 18+ with a distinct ADAPT Elderly (\u226570) subgroup."
+      },
+      {
+        "id": "female_early_stage_unilateral_ca",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Practice must regularly diagnose and treat female patients with unilateral, primary (non-recurrent, non-metastatic) invasive breast carcinoma at the point of initial treatment decision-making.",
+        "satisfies_if": "Self-report confirms that the majority of the physician's breast cancer caseload consists of newly diagnosed, early-stage, unilateral disease rather than recurrent/metastatic referrals.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Inclusion criteria: female patients with histologically confirmed unilateral primary invasive carcinoma of the breast."
+      },
+      {
+        "id": "certified_breast_center_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must function as, or be embedded within, a multidisciplinary certified breast center capable of coordinating surgery, chemotherapy, endocrine therapy, and targeted therapy under a single induction-therapy decision pathway.",
+        "satisfies_if": "Site is a named/certified Brustzentrum or equivalent multidisciplinary breast center, confirmed by site listing or self-report describing integrated surgical/medical/radiation oncology services.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Both listed sites (LMU Breast Center, Ev. Krankenhaus Bethesda Brustzentrum Niederrhein) are designated breast centers."
+      },
+      {
+        "id": "long_term_followup_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must maintain infrastructure for sustained patient follow-up and outcome tracking over an 8-year horizon as required by the primary endpoint.",
+        "satisfies_if": "Self-report confirms an established longitudinal tumor registry/follow-up program capable of tracking breast cancer patients for 8+ years.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Primary outcome timeframe of 8 years for identifying a responder subpopulation."
+      },
+      {
+        "id": "central_biomarker_sample_logistics",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must have tissue/biomarker sample collection and shipping workflows to support centralized biomarker assessment used to stratify induction therapy assignment.",
+        "satisfies_if": "Self-report confirms an established pathology workflow for biopsy/tissue processing and shipment to a reference lab for biomarker testing.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Brief summary: use of biomarkers in advance of therapy decision-making to personalize treatment."
+      },
+      {
+        "id": "multi_arm_subprotocol_management",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to manage patients across multiple concurrent treatment sub-protocols (endocrine, chemotherapy, targeted therapy) with distinct monitoring pathways within a single trial.",
+        "satisfies_if": "Self-report confirms operational capability to run three or more concurrent treatment arms/sub-studies simultaneously.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Intervention description: therapy dependent on respective sub-protocol, spanning endocrine, chemo, and targeted therapy."
+      },
+      {
+        "id": "cooperative_group_trial_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience serving as a site investigator within academic cooperative group breast cancer trials, consistent with sponsorship by an academic study group.",
+        "satisfies_if": "Physician is listed as an investigator/site contact on at least one completed breast cancer trial sponsored by an academic cooperative group in ClinicalTrials.gov.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Sponsor: West German Study Group (OTHER), an academic cooperative research group."
+      },
+      {
+        "id": "large_scale_enrollment_track_record",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Site should demonstrate a track record of contributing large patient numbers to prior trials, consistent with this trial's extremely high per-site enrollment.",
+        "satisfies_if": "ClinicalTrials.gov records show the site/investigator contributing enrollment in the hundreds or more on a prior trial, or self-report confirms comparable historical enrollment capacity.",
+        "data_sources": [
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "derived_from": "4936 total enrollment concentrated across only 2 sites (~2400 patients per site)."
+      },
+      {
+        "id": "industry_academic_research_engagement",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator should show an active pattern of clinical research engagement in breast oncology, evidencing ongoing trial participation beyond routine clinical practice.",
+        "satisfies_if": "Open Payments records show research-related payments associated with breast cancer therapeutics tied to the physician or their institution.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Phase 2/3 multi-sub-protocol design sponsored by an academic cooperative group, implying active trial research infrastructure at participating sites."
+      }
+    ],
+    "excluded_screening": [
+      "ECOG <=1 or KI >=80% performance status \u2014 a per-patient eligibility check at enrollment, not a property of the site or physician.",
+      "Negative pregnancy test within 7 days prior to induction treatment \u2014 per-patient screening logistics, unrelated to physician/site fit.",
+      "Written informed consent documentation \u2014 a per-patient procedural requirement of trial conduct, not a site qualification.",
+      "Exclusion for concurrent participation in another interventional trial within 30 days \u2014 a per-patient eligibility/washout rule.",
+      "Exclusion for concurrent pregnancy and requirement for non-hormonal contraception \u2014 per-patient eligibility criteria.",
+      "Exclusion for breastfeeding \u2014 a per-patient eligibility criterion with no bearing on investigator suitability."
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 20,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 2,
+        "max_points": 3
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 4
+      },
+      "operational_capacity": {
+        "n_criteria": 4,
+        "max_points": 8
+      },
+      "trial_execution": {
+        "n_criteria": 3,
+        "max_points": 5
+      }
+    },
+    "n_publicly_verifiable": 6,
+    "n_self_report_only": 5,
+    "public_coverage": 0.55
+  },
+  "provenance": {
+    "burden_source": "inferred",
+    "soa_confidence": null,
+    "soa_page": null,
+    "protocol_available": false,
+    "n_population_criteria": 2,
+    "n_screening_criteria": 6
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 3222,
+      "output_tokens": 6485
+    },
+    "cost_usd": 0.0713
+  }
+}

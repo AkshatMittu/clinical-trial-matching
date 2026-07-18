@@ -234,8 +234,39 @@ testimony, not as public evidence.</p>
 {delta}{banner}{qa}"""
 
 
+def _patient_block(pc: Optional[dict]) -> str:
+    if not pc or not pc.get("available"):
+        return ('<div class="note">No participant-experience data available '
+                f'({e((pc or {}).get("reason", "not collected"))}).</div>')
+    rows = ""
+    for t in pc["trials"]:
+        f = t.get("participant_flow") or {}
+        ret = ('<span class="meta">n/a — treat-until-progression</span>'
+               if f.get("retention_interpretable") is False
+               else (f"{f['retention_rate']:.0%}"
+                     if f.get("retention_rate") is not None else "—"))
+        rows += (f"<tr><td><code>{e(t['nct_id'])}</code> {e(t['label'])}"
+                 f"<div class='meta'>{e(t['status'])}</div></td>"
+                 f"<td><b>{e(t['experience_proxy'])}</b></td><td>{ret}</td>"
+                 f"<td>{f.get('voluntary_withdrawal_rate', 0):.1%}</td></tr>")
+    weights = ", ".join(f"{k.replace('_', ' ')} {v:.0%}"
+                        for k, v in (pc.get("weights") or {}).items())
+    return f"""
+<div class="grid">
+  {_stat(pc['median_proxy'], "median proxy /100")}
+  {_stat(pc['n_scored'], "trials scored")}
+  {_stat(f"{pc['min_proxy']}-{pc['max_proxy']}", "range")}
+  {_stat(pc.get('n_skipped_no_results', 0), "skipped: no results")}
+</div>
+<table><thead><tr><th>Trial</th><th>Proxy</th><th>Retention</th>
+ <th>Voluntary withdrawal</th></tr></thead><tbody>{rows}</tbody></table>
+<div class="note warn"><b>A proxy, not satisfaction.</b> {e(pc['caveat'])}
+ Weights: {e(weights)}.</div>"""
+
+
 def render(match: dict, rubric_rec: dict, dossier: dict,
            precedent: Optional[dict] = None,
+           patient_cohort: Optional[dict] = None,
            interview: Optional[dict] = None) -> str:
     """Build the full HTML report for one adjudicated pair."""
     final = interview["rescored"] if (interview and interview.get("rescored")) \
@@ -305,6 +336,9 @@ def render(match: dict, rubric_rec: dict, dossier: dict,
 
 <h2>What comparable trials did</h2>
 {_precedent_block(precedent)}
+
+<h2>Participant experience in those trials</h2>
+{_patient_block(patient_cohort)}
 
 {_interview_block(interview)}
 

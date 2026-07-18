@@ -1,0 +1,200 @@
+{
+  "nct_id": "NCT02273973",
+  "trial_label": "A Study of Neoadjuvant Letrozole + Taselisib Versus Letrozol",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Postmenopausal women with newly diagnosed, untreated ER+/HER2- invasive breast cancer, Stage I to operable Stage III, with a primary tumor \u22652cm by MRI, unilateral and non-metastatic, who are surgical candidates for definitive resection after 16 weeks of neoadjuvant endocrine +/- PI3K-inhibitor therapy. This is a pre-surgical window-of-opportunity population requiring close coordination between medical oncology and breast surgery, not a metastatic or heavily pre-treated population.",
+    "site_burden": "Per the Schedule of Assessments, this is a 16-week neoadjuvant treatment phase with visits at baseline, W1, W3, W5, W9, W13, a presurgical visit at W16, surgery at W17-18, and post-surgical follow-up ~4 weeks later \u2014 roughly 8+ on-site visits over ~22 weeks per patient. Procedures include serial fasting labs (chemistry, insulin/glucose, lipid/amylase, coagulation, HbA1c, urinalysis), repeated core needle biopsies (FFPE x2 + fresh-frozen OCT core) pretreatment and on Day 15, a surgical resection tumor block, serial breast MRI centrally read via mRECIST, axillary ultrasound at baseline, serial blood draws for ctDNA/plasma protein biomarkers/NGS/pharmacogenomics/pharmacokinetics, triplicate ECGs, and drug accountability/dispensation for both letrozole and taselisib/placebo. This requires an integrated multidisciplinary infrastructure: medical oncology, breast surgery, radiology (MRI capability with central image transfer), a research pharmacy for double-blind IP dispensation, phlebotomy/lab processing capable of same-day fasting and specialized biomarker samples, and a tissue-handling pathway feeding a central histopathology lab for PIK3CA mutation testing.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a breast medical oncologist or oncologist with a dedicated breast cancer treatment practice, not a general oncologist with incidental breast cases.",
+        "satisfies_if": "NPPES taxonomy lists hematology/oncology or medical oncology specialty AND the physician has a documented focus on breast cancer (e.g., publications, prior breast cancer trial roles, or affiliation with a named breast cancer program).",
+        "data_sources": [
+          "nppes",
+          "pubmed",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Conditions: Breast Cancer; population defined entirely by ER+/HER2- invasive breast carcinoma"
+      },
+      {
+        "id": "neoadjuvant_endocrine_experience",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "The investigator should have demonstrated familiarity with neoadjuvant endocrine therapy strategies for ER+/HER2- breast cancer, since this trial is a pre-surgical window study built entirely around neoadjuvant letrozole +/- taselisib.",
+        "satisfies_if": "Physician has authored or co-authored at least one PubMed-indexed publication on neoadjuvant endocrine therapy, aromatase inhibitors, or PI3K-pathway targeted therapy in breast cancer, or has served as investigator on a prior neoadjuvant breast cancer trial per ClinicalTrials.gov.",
+        "data_sources": [
+          "pubmed",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Study design: neoadjuvant letrozole plus GDC-0032/taselisib vs letrozole plus placebo for 16 weeks pre-surgery"
+      },
+      {
+        "id": "er_her2_pik3ca_familiarity",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "The investigator should be knowledgeable about biomarker-driven trial designs, specifically PIK3CA mutation stratification in ER+/HER2- breast cancer, given the trial's co-primary endpoints in PIK3CA-mutant subgroups.",
+        "satisfies_if": "Physician has co-authored a publication involving PIK3CA, PI3K pathway inhibitors, or molecular subtyping in breast cancer.",
+        "data_sources": [
+          "pubmed"
+        ],
+        "derived_from": "Primary outcomes stratified by PIK3CA mutant (MT) status; inclusion requires tumor tissue evaluable for PIK3CA mutation by central lab"
+      },
+      {
+        "id": "postmenopausal_er_positive_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a regular volume of postmenopausal women with newly diagnosed, untreated ER+/HER2- Stage I-III operable breast cancer suitable for neoadjuvant therapy prior to surgery.",
+        "satisfies_if": "Physician attests to treating multiple newly diagnosed postmenopausal ER+/HER2- early-stage breast cancer patients per year, or Medicare data shows a floor volume of breast cancer E&M/chemotherapy administration claims consistent with an active breast oncology practice.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "Inclusion: postmenopausal status; ER+/HER2- untreated; Stage I to operable Stage III; primary tumor >=2cm by MRI"
+      },
+      {
+        "id": "treatment_naive_surgical_candidates",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "The practice must have access to treatment-naive breast cancer patients who are surgical candidates, excluding those already treated or with bilateral/metastatic disease.",
+        "satisfies_if": "Physician self-reports regularly identifying and referring newly diagnosed, untreated, unilateral, non-metastatic breast cancer patients for neoadjuvant trial consideration prior to any therapy.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Exclusion: any prior treatment for primary invasive breast cancer; bilateral, multicentric, or metastatic disease excluded"
+      },
+      {
+        "id": "surgical_oncology_integration",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must have an integrated breast surgery pathway able to schedule definitive surgical resection at Weeks 17-18 following the 16-week treatment phase, coordinated with the treating oncologist.",
+        "satisfies_if": "Site attests to having a formal collaboration or shared clinic with breast surgical oncology, evidenced by a documented breast surgeon visit occurring per protocol timeline (Week 13+) and surgery within Weeks 17-18.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: 'Visit with breast surgeon (may occur from Week 13)'; Surgery at Weeks 17-18"
+      },
+      {
+        "id": "serial_biopsy_and_mri_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must be able to perform serial core needle biopsies (FFPE x2 plus fresh-frozen OCT) at baseline and Day 15, obtain breast MRI at multiple timepoints, and transmit imaging/tissue to central labs.",
+        "satisfies_if": "Site attests to having on-site or contracted image-guided core biopsy capability, breast MRI access, and established workflows for shipping specimens/scans to a central histopathology and imaging reading facility.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments footnote h: 'Two FFPE core needle biopsies and one freshly frozen OCT core needle biopsy required prior to treatment and on Day 15'; central MRI review via mRECIST"
+      },
+      {
+        "id": "complex_lab_biomarker_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must support frequent fasting serum labs and specialized biomarker blood draws (ctDNA, plasma protein biomarkers, NGS, pharmacogenomics, pharmacokinetics) across at least 8 visits over ~18 weeks.",
+        "satisfies_if": "Site attests to having research phlebotomy/lab processing capacity for fasting draws and specialized sample handling/shipping per a central lab manual.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: fasting serum chemistry, fasting insulin/glucose, lipid/amylase, coagulation, plasma protein biomarkers, ctDNA, NGS, pharmacogenomic and PK samples at multiple visits"
+      },
+      {
+        "id": "double_blind_ip_dispensation",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must have a research pharmacy capable of managing double-blind investigational product (letrozole open-label plus taselisib/placebo blinded) accountability and dispensation across 6 visits.",
+        "satisfies_if": "Site attests to having a research pharmacy or designated staff experienced in blinded IP accountability and dispensation.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Schedule of Assessments: 'Letrozole accountability/dispensation' and 'GDC-0032/placebo accountability/dispensation' at W1, W3, W5, W9, W13, W16"
+      },
+      {
+        "id": "prior_investigator_role_oncology_trials",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "The investigator should have prior experience as a site investigator on industry-sponsored oncology clinical trials, given this is a Genentech Phase II multicenter randomized double-blind study.",
+        "satisfies_if": "Physician is listed as principal investigator or sub-investigator on at least one completed industry-sponsored oncology trial in ClinicalTrials.gov.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Sponsor: Genentech, Inc. (INDUSTRY); Phase 2 multicenter randomized double-blind design across 117 sites"
+      },
+      {
+        "id": "sponsor_relationship_experience",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "The investigator should have a documented research relationship with pharmaceutical sponsors, indicating familiarity with industry trial conduct and reporting requirements.",
+        "satisfies_if": "Open Payments records show research payments to the physician from a pharmaceutical company within the past several years.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Sponsor: Genentech, Inc. (INDUSTRY)"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG performance status 0-1 \u2014 assessed per patient at screening, not a site characteristic",
+      "Adequate hematological, renal, and hepatic function \u2014 per-patient lab eligibility check, not physician fit",
+      "Significant traumatic injury within 3 weeks prior to treatment initiation \u2014 per-patient timing exclusion unrelated to site capability",
+      "Major surgical procedure within 4 weeks prior to treatment initiation \u2014 per-patient timing exclusion unrelated to site capability",
+      "History of other malignancy within 5 years (with exceptions) \u2014 per-patient medical history exclusion, not a site-level criterion",
+      "Postmenopausal status confirmation \u2014 per-patient demographic/lab determination at enrollment",
+      "Documented absence of distant metastases (M0) \u2014 per-patient staging workup at screening"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 20,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 4
+      },
+      "operational_capacity": {
+        "n_criteria": 4,
+        "max_points": 8
+      },
+      "trial_execution": {
+        "n_criteria": 2,
+        "max_points": 4
+      }
+    },
+    "n_publicly_verifiable": 6,
+    "n_self_report_only": 5,
+    "public_coverage": 0.55
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "grid",
+    "soa_page": 562,
+    "protocol_available": true,
+    "n_population_criteria": 6,
+    "n_screening_criteria": 4
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 6644,
+      "output_tokens": 3909
+    },
+    "cost_usd": 0.0524
+  }
+}
