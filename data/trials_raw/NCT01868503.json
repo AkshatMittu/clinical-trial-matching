@@ -1,0 +1,812 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01868503",
+      "orgStudyIdInfo": {
+        "id": "BRS0027"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2013-01065",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "P30CA124435",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30CA124435"
+        }
+      ],
+      "organization": {
+        "fullName": "Stanford University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Lapatinib Ditosylate and Radiation Therapy in Treating Patients With Locally Advanced or Locally Recurrent Breast Cancer",
+      "officialTitle": "Phase II Study to Investigate Concurrent Lapatinib and Radiotherapy in Locally Advanced or Locally Recurrent Breast Cancer and the Impact on Breast Cancer Stem Cells"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-06",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Protocol modification",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-05-30",
+      "studyFirstSubmitQcDate": "2013-05-30",
+      "studyFirstPostDateStruct": {
+        "date": "2013-06-04",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2016-11-21",
+      "resultsFirstSubmitQcDate": "2016-11-21",
+      "resultsFirstPostDateStruct": {
+        "date": "2017-01-19",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-06-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-06-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Kathleen Horst",
+        "investigatorTitle": "Assistant Professor of Radiation Oncology",
+        "investigatorAffiliation": "Stanford University"
+      },
+      "leadSponsor": {
+        "name": "Stanford University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase II trial studies how well lapatinib ditosylate and radiation therapy work in treating patients with locally advanced or locally recurrent breast cancer. Lapatinib ditosylate may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Radiation therapy uses high energy x rays to kill tumor cells. Giving lapatinib ditosylate together with radiation therapy may be an effective treatment for breast cancer.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To assess the clinical complete response rate (CR) after concurrent lapatinib (lapatinib ditosylate) and radiotherapy in patients with locally advanced or locally recurrent breast cancer that is refractory to chemotherapy.\n\nSECONDARY OBJECTIVES:\n\nI. To evaluate the feasibility of assessing breast cancer stem cells (BCSCs) using flow cytometry and single cell gene expression profiling (SCGEP).\n\nII. To determine the change in the proportion of BCSCs after combined modality therapy.\n\nIII. To evaluate the safety and efficacy of the combination of lapatinib and radiotherapy.\n\nIV. To assess the pathologic complete response rate (pCR) in those undergoing surgical resection.\n\nOUTLINE:\n\nPatients receive lapatinib ditosylate orally (PO) once daily (QD) on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nAfter completion of study treatment, patients are followed up at 2-4 weeks and then at 6-12 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Male Breast Cancer",
+        "Recurrent Breast Cancer",
+        "Stage IIIA Breast Cancer",
+        "Stage IIIB Breast Cancer",
+        "Stage IIIC Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 7,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Lapatinib Plus Radiation Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks and will have their blood banked for laboratory biomarker analysis.",
+          "interventionNames": [
+            "Drug: lapatinib ditosylate",
+            "Radiation: radiation therapy",
+            "Other: laboratory biomarker analysis"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "lapatinib ditosylate",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Lapatinib Plus Radiation Therapy"
+          ],
+          "otherNames": [
+            "GSK572016",
+            "GW-572016",
+            "GW2016",
+            "Lapatinib",
+            "Tykerb"
+          ]
+        },
+        {
+          "type": "RADIATION",
+          "name": "radiation therapy",
+          "description": "Undergo radiation therapy",
+          "armGroupLabels": [
+            "Lapatinib Plus Radiation Therapy"
+          ],
+          "otherNames": [
+            "irradiation",
+            "radiotherapy",
+            "therapy, radiation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "laboratory biomarker analysis",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Lapatinib Plus Radiation Therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Patients Achieving Complete Clinical Response",
+          "description": "Complete clinical response will be defined as the absence of tumor on the chest wall, in the treated breast, or in the nodal regions as assessed by clinical examination +/- radiographic imaging (if clinically indicated).",
+          "timeFrame": "Up to 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Feasibility of Assessing the Effects of Lapatinib and Radiation Therapy on BCSCs Using Flow Cytometry and SCGEP",
+          "description": "Defined as the percentage of biopsy specimens for which the SCGEP assay achieves a non-zero number.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Change in the Proportion of BCSCs",
+          "description": "Defined as the difference between the percentage of BCSCs before and after treatment. Proportion of biopsy samples that are evaluable for BCSCs will be estimated along with 95% exact confidence intervals. BCSC results will be summarized using medians and interquartile ranges. Changes in BCSCs will be assessed using the Wilcoxon signed rank test.",
+          "timeFrame": "Baseline to 12 weeks"
+        },
+        {
+          "measure": "Incidence of Adverse Events Graded According to Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0",
+          "description": "Adverse events will be tabulated by organ system and severity.",
+          "timeFrame": "Up to 12 weeks"
+        },
+        {
+          "measure": "Pathologic Complete Response Rate for Those Patients Undergoing Surgical Resection Defined as no Evidence of Residual Tumor in the Breast and Lymph Nodes",
+          "description": "Proportion of patients who achieve a pathological complete response will be estimated with 95% exact confidence intervals.",
+          "timeFrame": "Up to 12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with histologically or cytologically confirmed locally advanced breast cancer that is refractory to chemotherapy or other therapeutic agents or with a history of breast cancer with new evidence of a local recurrence (defined as a chest wall or breast recurrence and/or nodal recurrence); the diagnosis will be made based on clinical and pathologic features\n* Patients must be \\>18 years of age.\n* Karnofsky Performance Status (KPS) score \\> 70\n* Patts must have normal organ function as defined below:\n\n  * total bilirubin \\< 1.5 x institutional upper limit of normal\n  * AST(SGOT)/ALT(SGPT) \\< 2.5 x institutional upper limit of normal\n  * creatinine \\< 1.5 x institutional upper limit of normal\n* Patients must have left-ventricular ejection fraction \\> 50% at baseline.\n\nExclusion Criteria:\n\n* Patients who have contraindications to radiotherapy, such as scleroderma, dermatomyositis, or severe cutaneous manifestations of systemic lupus erythematosus (SLE)\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to lapatinib\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, or psychiatric illness/social situations that would limit compliance with study requirements\n* Women who are pregnant or lactating, as well as women of child-bearing potential who are unwilling or unable to use an acceptable method of birth control to avoid pregnancy for the duration of the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Kathleen Horst",
+          "affiliation": "Stanford University Hospitals and Clinics",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Stanford University Cancer Institute",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment (Lapatinib Ditosylate, Radiation Therapy)",
+          "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment (Lapatinib Ditosylate, Radiation Therapy)",
+          "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "7"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Patients Achieving Complete Clinical Response",
+          "description": "Complete clinical response will be defined as the absence of tumor on the chest wall, in the treated breast, or in the nodal regions as assessed by clinical examination +/- radiographic imaging (if clinically indicated).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Lapatinib Plus Radiation Therapy",
+              "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks and will have their blood banked for laboratory biomarker analysis.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Feasibility of Assessing the Effects of Lapatinib and Radiation Therapy on BCSCs Using Flow Cytometry and SCGEP",
+          "description": "Defined as the percentage of biopsy specimens for which the SCGEP assay achieves a non-zero number.",
+          "populationDescription": "Data were not collected and the outcome measure was not analyzed.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in the Proportion of BCSCs",
+          "description": "Defined as the difference between the percentage of BCSCs before and after treatment. Proportion of biopsy samples that are evaluable for BCSCs will be estimated along with 95% exact confidence intervals. BCSC results will be summarized using medians and interquartile ranges. Changes in BCSCs will be assessed using the Wilcoxon signed rank test.",
+          "populationDescription": "This outcome was not analyzed due to lack of funding. It may be re-evaluated in the future. Data were not collected and the outcome measure was not analyzed.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline to 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Lapatinib Ditosylate, Radiation Therapy)",
+              "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Incidence of Adverse Events Graded According to Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0",
+          "description": "Adverse events will be tabulated by organ system and severity.",
+          "populationDescription": "Participants enrolled in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "incidencts",
+          "timeFrame": "Up to 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Lapatinib Ditosylate, Radiation Therapy)",
+              "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Grade 3 Events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 4 Events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pathologic Complete Response Rate for Those Patients Undergoing Surgical Resection Defined as no Evidence of Residual Tumor in the Breast and Lymph Nodes",
+          "description": "Proportion of patients who achieve a pathological complete response will be estimated with 95% exact confidence intervals.",
+          "populationDescription": "Of the patients in the treatment arm, only 1 received surgery.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 12 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Lapatinib Ditosylate, Radiation Therapy)",
+              "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment (Lapatinib Ditosylate, Radiation Therapy)",
+          "description": "Patients receive lapatinib ditosylate PO QD on day 1 until completion of radiation therapy. Beginning on day 7, patients undergo radiation therapy for 5-7 weeks.\n\nlapatinib ditosylate: Given PO\n\nradiation therapy: Undergo radiation therapy\n\nlaboratory biomarker analysis: Correlative studies",
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 7,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 7
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Blood and lymphatic system disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Fever-Possible sepsis",
+          "organSystem": "Infections and infestations",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        },
+        {
+          "term": "Chest Pain",
+          "organSystem": "Vascular disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Endocrine disorders",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 7
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. Kathleen Horst",
+        "organization": "Stanford University",
+        "email": "kateh@stanford.edu",
+        "phone": "6507360921"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018567",
+          "term": "Breast Neoplasms, Male"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077341",
+          "term": "Lapatinib"
+        },
+        {
+          "id": "C470405",
+          "term": "N-(3-chloro-4-((3-fluorobenzyl)oxy)phenyl-6-(5-((methylsulfonyl)ethyl)aminomethyl)-2-furyl)-4-quinazolinamine"
+        },
+        {
+          "id": "D011878",
+          "term": "Radiotherapy"
+        },
+        {
+          "id": "D011827",
+          "term": "Radiation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011799",
+          "term": "Quinazolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D055585",
+          "term": "Physical Phenomena"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

@@ -1,0 +1,245 @@
+{
+  "nct_id": "NCT02513394",
+  "trial_label": "PALLAS",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "variant": "public_only",
+  "model": "claude-sonnet-5",
+  "scoring": {
+    "score": 10.0,
+    "max_score": 18.0,
+    "score_pct": 0.556,
+    "coverage": 0.636,
+    "n_criteria": 11,
+    "n_answered": 7,
+    "verdict_counts": {
+      "satisfied": 5,
+      "partial": 2,
+      "unknown": 4
+    },
+    "gate_failures": [],
+    "recommendation": "possible_fit",
+    "reason": "scored 56% of available points",
+    "by_dimension": {
+      "expertise": {
+        "earned": 1.0,
+        "possible": 1.0,
+        "n": 2,
+        "pct": 1.0
+      },
+      "patient_population": {
+        "earned": 1.5,
+        "possible": 4.0,
+        "n": 2,
+        "pct": 0.375
+      },
+      "operational_capacity": {
+        "earned": 3.0,
+        "possible": 8.0,
+        "n": 4,
+        "pct": 0.375
+      },
+      "trial_execution": {
+        "earned": 4.5,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 0.9
+      }
+    },
+    "thresholds": {
+      "strong": 0.7,
+      "possible": 0.4,
+      "min_coverage": 0.5
+    }
+  },
+  "verdicts": [
+    {
+      "criterion_id": "breast_onc_specialty",
+      "verdict": "satisfied",
+      "rationale": "NPPES taxonomy lists Internal Medicine, Medical Oncology as primary specialty, and the extensive breast cancer-focused publication record and trial roles corroborate a breast oncology focus capable of managing endocrine therapy and CDK4/6 inhibitor toxicity.",
+      "evidence_refs": [
+        "NPI:1336121789"
+      ],
+      "dimension": "expertise",
+      "criticality": "hard_gate",
+      "requirement": "Investigator must be a practicing breast oncology specialist (medical oncologist or hematologist-oncologist with a breast cancer focus) capable of managing adjuvant endocrine therapy and CDK4/6 inhibitor toxicities.",
+      "satisfies_if": "NPPES taxonomy lists Hematology/Oncology or Medical Oncology as primary specialty, or self-reported subspecialty focus in breast cancer.",
+      "data_sources": [
+        "nppes",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "early_breast_cancer_pub_record",
+      "verdict": "satisfied",
+      "rationale": "Multiple peer-reviewed publications directly address early/adjuvant HR+/HER2- breast cancer, endocrine therapy, and CDK4/6 inhibitors, including neoadjuvant endocrine ctDNA work and adjuvant abemaciclib/palbociclib studies.",
+      "evidence_refs": [
+        "PMID:41672025",
+        "PMID:41110695",
+        "PMID:41812623"
+      ],
+      "dimension": "expertise",
+      "criticality": "secondary",
+      "requirement": "Investigator should have a demonstrated publication or academic record in early-stage/adjuvant breast cancer treatment or endocrine therapy/CDK4-6 inhibitor research.",
+      "satisfies_if": "PubMed search returns >=1 peer-reviewed publication authored by the physician on early breast cancer, adjuvant endocrine therapy, or CDK4/6 inhibitors.",
+      "data_sources": [
+        "pubmed"
+      ]
+    },
+    {
+      "criterion_id": "adjuvant_ebc_patient_volume",
+      "verdict": "partial",
+      "rationale": "Medicare claims show a substantial floor of oncology E&M volume (206 services, 134 beneficiaries) consistent with an active oncology practice, but the codes are general E&M/hospital care, not breast-cancer-specific, and no self-reported new HR+/HER2- Stage II-III diagnosis count is available to confirm fit to this exact population.",
+      "evidence_refs": [
+        "HCPCS:99214",
+        "HCPCS:99215",
+        "HCPCS:99232"
+      ],
+      "dimension": "patient_population",
+      "criticality": "primary",
+      "requirement": "The practice must see a steady volume of newly diagnosed Stage II-III HR+/HER2- early breast cancer patients within 12 months of diagnosis to support recruitment into a long adjuvant trial.",
+      "satisfies_if": "Medicare claims data show the physician bills for a meaningful volume of breast cancer E&M/chemotherapy administration codes annually, consistent with an active breast oncology practice (floor estimate), or self-reported annual new HR+/HER2- Stage II-III diagnosis count.",
+      "data_sources": [
+        "medicare",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "multidisciplinary_staging_access",
+      "verdict": "unknown",
+      "rationale": "No self-report data on pathology/staging infrastructure is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "secondary",
+      "requirement": "Site must have access to pathology and staging services capable of confirming ER/PR/HER2 status and Stage II-III disease, including for multicentric/multifocal/bilateral tumors, prior to enrollment.",
+      "satisfies_if": "Self-report confirms on-site or affiliated pathology capable of ER/PR/HER2 IHC/FISH testing and tumor staging workup.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "central_repository_specimen_logistics",
+      "verdict": "unknown",
+      "rationale": "No self-report evidence regarding FFPE tissue block shipping processes to central repositories is present.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must have the pathology/logistics infrastructure to retrieve, prepare, and ship FFPE tumor tissue blocks to a central sample repository prior to randomization for every enrolled patient.",
+      "satisfies_if": "Self-report confirms established process/experience shipping FFPE tissue blocks to central cooperative group repositories.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "long_term_followup_capacity",
+      "verdict": "satisfied",
+      "rationale": "ClinicalTrials.gov confirms overall official roles on other cooperative/industry breast cancer trials including an adjuvant palbociclib/endocrine therapy trial (NCT02040857, completed) and a long-running adjuvant abemaciclib trial (NCT03147287, active), indicating experience with multi-year adjuvant oncology trial follow-up structures.",
+      "evidence_refs": [
+        "NCT02040857",
+        "NCT03147287"
+      ],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must be able to retain and follow patients for a multi-year treatment period (2 years of IP) plus long-term follow-up extending to 10 years, including periodic blood/plasma/cfDNA collection at years 5, 7, and 10.",
+      "satisfies_if": "Self-report confirms site has an active long-term oncology follow-up program and has retained patients on a prior trial for >=5 years, or is listed as a site on other cooperative group trials with multi-year follow-up phases per clinicaltrials.gov.",
+      "data_sources": [
+        "clinicaltrials_gov",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "oral_iv_drug_dispensing_infrastructure",
+      "verdict": "unknown",
+      "rationale": "No self-report data on pharmacy/dispensing infrastructure for oral IP is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must have infrastructure for on-site oral investigational product dispensing, drug accountability, and compliance monitoring at each Cycle Day 1 visit over a 2-year treatment phase.",
+      "satisfies_if": "Self-report confirms site has a pharmacy or dispensing process for oral IP with drug accountability logs, as used in prior oral oncology drug trials.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "hematology_monitoring_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report data on on-site CBC/LFT monitoring cadence is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must be able to perform frequent on-site hematology and liver function monitoring (including mid-cycle Day 14 draws in early cycles) to manage palbociclib-related neutropenia risk.",
+      "satisfies_if": "Self-report confirms on-site or rapid-turnaround lab capability for CBC and LFTs at the visit cadence specified (C1/C2 Day 1 and Day 14, then subsequent cycles).",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "cooperative_group_investigator_experience",
+      "verdict": "satisfied",
+      "rationale": "ClinicalTrials.gov lists this physician as overall official (confirmed role) on multiple Phase II/III breast cancer trials, including an adjuvant palbociclib/endocrine therapy trial (NCT02040857) and other cooperative/industry-sponsored studies, demonstrating prior site investigator experience.",
+      "evidence_refs": [
+        "NCT02040857",
+        "NCT03147287"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "primary",
+      "requirement": "Investigator should have prior experience as a site investigator on cooperative group or industry-sponsored Phase III oncology trials, ideally in breast cancer.",
+      "satisfies_if": "clinicaltrials.gov lists the physician or their site as an investigator/contact on >=1 completed or active Phase III breast cancer trial sponsored by a cooperative group (e.g., Alliance, NSABP, AFT, BIG, ABCSG, PrECOG) or industry sponsor.",
+      "data_sources": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "industry_research_engagement",
+      "verdict": "satisfied",
+      "rationale": "Open Payments records show multiple 2025 research payments from Roche and Bristol-Myers Squibb tied to named ER+/HER2- breast cancer studies, indicating recent active industry-sponsored trial participation.",
+      "evidence_refs": [
+        "OpenPayments:1211535676",
+        "OpenPayments:1211535681",
+        "OpenPayments:1211535685",
+        "OpenPayments:1236002143"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Investigator should show a track record of receiving industry research payments consistent with active participation in sponsored clinical trials.",
+      "satisfies_if": "Open Payments database shows research payment records (general or associated research) to the physician from pharmaceutical sponsors in oncology within the past 5 years.",
+      "data_sources": [
+        "open_payments"
+      ]
+    },
+    {
+      "criterion_id": "gcp_compliance_track_record",
+      "verdict": "partial",
+      "rationale": "ClinicalTrials.gov shows a majority of trials as completed or active without noted for-cause termination, supporting a generally clean track record, but two trials (NCT00674011, NCT00925652) are listed as TERMINATED with cause unspecified, and no self-report attestation on Form 483/GCP compliance is available to fully confirm the criterion.",
+      "evidence_refs": [
+        "NCT00674011",
+        "NCT00925652"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Investigator must have a track record of GCP-compliant trial conduct suitable for a large international registration-intent Phase III trial with correlative biomarker analyses.",
+      "satisfies_if": "Self-report confirms no unresolved FDA Form 483 findings or GCP violations, and clinicaltrials.gov shows a history of completed trial roles without termination for cause.",
+      "data_sources": [
+        "clinicaltrials_gov",
+        "self_report"
+      ]
+    }
+  ],
+  "narrative": "This physician presents a strong academic and clinical fit for a breast oncology adjuvant trial: NPPES confirms medical oncology specialty, PubMed shows deep engagement with early breast cancer, adjuvant endocrine therapy, and CDK4/6 inhibitor research, and ClinicalTrials.gov confirms overall-official roles on multiple relevant Phase II/III trials including adjuvant palbociclib and abemaciclib studies, plus recent industry research payments tied to ER+/HER2- studies. The weakest area is operational/self-report infrastructure \u2014 nothing in the dossier speaks to pathology staging access, FFPE specimen shipping logistics, oral IP dispensing/accountability, or hematology monitoring cadence, all of which depend on data this dossier simply doesn't contain. Patient volume is only indirectly supported by general Medicare E&M billing rather than breast-cancer-specific counts. A site self-report addressing specimen logistics, drug dispensing, and long-term retention experience would most change this picture.",
+  "target_trial_excluded": "NCT02513394",
+  "n_excluded_records": 6,
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 9331,
+      "output_tokens": 3985
+    },
+    "cost_usd": 0.0585
+  }
+}

@@ -1,0 +1,3598 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00171704",
+      "orgStudyIdInfo": {
+        "id": "CFEM345D2407"
+      },
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Effect of Letrozole and Tamoxifen on Bone and Lipids in Postmenopausal Women With Breast Cancer",
+      "officialTitle": "A Study to Evaluate the Effect of Letrozole and Tamoxifen on Bone and Lipids in Postmenopausal Women With Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2012-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-04"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-09-13",
+      "studyFirstSubmitQcDate": "2005-09-13",
+      "studyFirstPostDateStruct": {
+        "date": "2005-09-15",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2012-02-27",
+      "resultsFirstSubmitQcDate": "2012-05-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2012-06-04",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-03-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-03-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Danish Breast Cancer Cooperative Group",
+          "class": "OTHER"
+        },
+        {
+          "name": "University of Sheffield",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "Estrogen is known to be a regulator of bone and lipid metabolism. Letrozole is a potent inhibitor of estrogen synthesis.\n\nThis study evaluated the effects of letrozole and tamoxifen on bone and lipid metabolism in postmenopausal women with resected, receptor positive early breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Sensitive Resected Primary Breast Cancer in Postmenopausal Women"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Letrozole",
+        "Bone Mineral Density",
+        "Bone Markers",
+        "Serum lipid",
+        "Postmenopausal"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 263,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "2.5 mg once daily (q.d.)orally for 5 years",
+          "interventionNames": [
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Tam-Let",
+          "type": "EXPERIMENTAL",
+          "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years.",
+          "interventionNames": [
+            "Drug: Letrozole",
+            "Drug: Tamoxifen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "2.5 mg tablets and supplied in bottles with 6-monthly supplies.",
+          "armGroupLabels": [
+            "Letrozole",
+            "Tam-Let"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen",
+          "description": "20 mg tablets in bottles as 6-monthly supplies (supplied to Novartis as Tamofen from Schering Oy, Subsidiary of Schering AG, Pansiontie 47, FIN-2010 Turku, Finland)",
+          "armGroupLabels": [
+            "Tam-Let"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent Change From Baseline of Bone Mineral Density of the Lumbar Spine (L2-l4)",
+          "description": "Lumbar spine (L2-L4) BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. The primary scanning site was the lumbar spine (L2 to L4) and the secondary scanning site was the total hip. All DXA scans were evaluated by a central reader.",
+          "timeFrame": "Baseline, 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percent Change From Baseline of Bone Mineral Density of the Lumbar Spine",
+          "description": "Lumbar spine (L2-L4)BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. The primary scanning site was the lumbar spine (L2 to L4) and the secondary scanning site was the total hip. All DXA scans were evaluated by a central reader.",
+          "timeFrame": "Baseline, 60 months"
+        },
+        {
+          "measure": "Percent Change From Baseline of Bone Mineral Density (BMD) of Total Hip",
+          "description": "Total hip BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. All DXA scans were evaluated by a central reader.",
+          "timeFrame": "Baseline, 60 months"
+        },
+        {
+          "measure": "Median Percent Change From Baseline of Serum Markers of Bone Turnover",
+          "description": "Bone turnover markers (fasting serum procollagen-I extension peptide \\[P1NP\\], C-telopeptide \\[CTX\\], skeletal bone-specific alkaline phosphatase \\[BSAP, N-telopeptide \\[NTX\\]) were measured at baseline/screening and at each visit thereafter. A central laboratory was used to analyze the samples. The analysis of bone markers was based on analysis of variance of the regression slopes calculated for each individual patient and each bone marker over time. In the following summary, only the median treatment group percent change from baseline (and range) at 5 years is presented for each bone marker.",
+          "timeFrame": "Baseline, 60 months"
+        },
+        {
+          "measure": "Percentage Change From Baseline in Serum Lipids at 5 Years",
+          "description": "Serum lipid profile (fasting serum cholesterol \\[total, HDL and calculated LDL\\], triglycerides, and lipoprotein \\[a\\]) were measured at baseline/screening and at each visit thereafter. A central laboratory was used to analyze the samples. The analysis of serum lipids was on the treatment group median percent change from baseline (and range) at 5 years.",
+          "timeFrame": "Baseline, 60 months"
+        },
+        {
+          "measure": "Number of Participants With Clinically Relevant Changes From Baseline in Cholesterol",
+          "description": "Serum lipid profile (fasting serum cholesterol \\[total, HDL and calculated LDL\\], triglycerides, and lipoprotein \\[a\\]) were measured at baseline/screening and at each visit thereafter. A central laboratory was used to analyze the samples. Numbers are not additive, as patients could be included in multiple rows.",
+          "timeFrame": "Baseline, 60 months"
+        },
+        {
+          "measure": "Time to Disease Recurrence or Death",
+          "description": "Disease-free survival was defined as the interval between randomization and earliest confirmed event of loco-regional recurrence, distant metastases, invasive contralateral breast cancer, or death from any cause.",
+          "timeFrame": "60 months"
+        },
+        {
+          "measure": "Time to Overall Survival Events",
+          "description": "Overall survival was measured from date of randomization to date of death.",
+          "timeFrame": "60 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n* Female\n* Post-menopausal hormone status defined as:\n* Patients with menostasis (amenorrhea) \\> 12 months or history of oophorectomy.\n* Patients \u2265 55 years with history of hysterectomy or having continued/renewed menstruation on cyclic hormone treatment.\n* Patients of 50-54 years: Menopausal status was determined on the basis of follicle-stimulating hormone (FSH)/luteinizing hormone (LH) values.\n* Histologically confirmed resected breast cancer and eligible for adjuvant endocrine therapy. As a minimum, patients had to have receptor-positive tumors, which were defined either as estrogen receptor (ER) and/or progesterone receptor (PgR) \u2265 10 fmol/mg cytosol protein; or \u2265 10% of the tumor cells positive by immunocytochemical evaluation.\n* Adequate bone marrow function (white blood cell count \\[WBC\\] \\> 3.0 x 109 /L, platelets \u2265 100.0 x 109 /L, and hemoglobin \\> 10 g/dL).\n* Documented evidence of adequate renal function (creatinine \\< 180 \u00b5mol/L) and hepatic function (bilirubin \\< 30 \u00b5mol/L, alanine aminotransferase (ALT) \\< 1.5 x upper normal limit of the laboratory).\n* Life expectancy of at least 24 months at the time of enrollment.\n* Written voluntary informed consent prior to initiation of any study procedure.\n* Willingness to undergo all scheduled tests and examinations for evaluation of bone density and bone metabolism, and lipid profiles in addition to the standard assessments for monitoring their breast cancer status.\n\nExclusion Criteria\n\n* Patients with distant metastases as defined by the criteria of the Danish Breast Cancer Co-operative Group (DBCCOG).\n* Pre-existing bone disease (e.g. osteomalacia, osteogenesis imperfecta, Paget's disease).\n* Patients receiving bisphosphonates for more than 3 months before randomization.\n* Chronic treatment with drugs known to interfere with bone metabolism, e.g.\n* Anti-convulsants within the past year.\n* Corticosteroids at doses greater than the equivalent of 5 mg/day prednisone for more than two weeks in the past 6 months (prior to randomization).\n* Any previous treatment with sodium fluoride at daily doses \u2265 5 mg/day for a period exceeding 1 month.\n* Anabolic steroids in the past 12 months.\n* Long term use of coumarin derivatives and heparin at the time of randomization.\n* Metabolic diseases known to interfere with bone metabolism (e.g., Hyperparathyroidism, hypoparathyroidism, uncontrolled thyroid disease, Cushing's disease, vitamin D deficiency, malabsorption syndrome, etc.).\n* Treatment with lipid-lowering agents within the 3 months prior to randomization (this exclusion criterion did not apply to patients randomized in the United Kingdom).\n* Patients receiving other anti-cancer treatment.\n* Previous neoadjuvant / adjuvant chemotherapy and /or previous adjuvant endocrine therapy (e.g., anti-estrogens, AIs).\n* History of previous or concomitant malignancy within the past 5 years other than adequately treated basal or squamous cell carcinoma of the skin or in situ carcinoma of the cervix. Patients who had a previous other malignancy must have been disease free for five years. Patients with endometrial cancer and/or invasive breast cancer at any time in their medical history were excluded. Patients with invasive bilateral breast cancer were excluded. Patients with vaginal discharge/ vaginal bleeding with evidence of malignancy were excluded.\n* Any other non-malignant systemic diseases (cardiovascular, renal, hepatic, lung embolism, etc.) which would prevent prolonged follow-up.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis",
+          "affiliation": "Novartis",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Aalborg",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 57.048,
+            "lon": 9.9187
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Aarhus",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 56.15674,
+            "lon": 10.21076
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Copenhagen",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Esbjerg",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.47028,
+            "lon": 8.45187
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Herlev",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.72366,
+            "lon": 12.43998
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Herning",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 56.13615,
+            "lon": 8.97662
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hiller\u00f8d",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.92791,
+            "lon": 12.30081
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kl\u00f8verv\u00e6nget",
+          "country": "Denmark"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Roskilde",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.64152,
+            "lon": 12.08035
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "S\u00f8nderborg",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 54.90896,
+            "lon": 9.78917
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vejle",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.70927,
+            "lon": 9.5357
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Viborg",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 56.45319,
+            "lon": 9.40201
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sheffield",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.38297,
+            "lon": -1.4659
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Letrozole",
+          "description": "2.5 mg once daily (q.d.)orally for 5 years"
+        },
+        {
+          "id": "FG001",
+          "title": "Tam-Let",
+          "description": "Tamoxifen 20 mg once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "133"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "130"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "89"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "81"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "44"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "49"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "33"
+                }
+              ]
+            },
+            {
+              "type": "Disease Progression",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            },
+            {
+              "type": "New therapy for 2nd non-breast prim canc",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Administrative Problems",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Letrozole",
+          "description": "2.5 mg once daily (q.d.)orally for 5 years"
+        },
+        {
+          "id": "BG001",
+          "title": "Tam-Let",
+          "description": "Tamoxifen 20 mg once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "133"
+            },
+            {
+              "groupId": "BG001",
+              "value": "130"
+            },
+            {
+              "groupId": "BG002",
+              "value": "263"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61.4",
+                      "spread": "6.1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "61.8",
+                      "spread": "6.2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "61.6",
+                      "spread": "6.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "133"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "130"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "263"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percent Change From Baseline of Bone Mineral Density of the Lumbar Spine (L2-l4)",
+          "description": "Lumbar spine (L2-L4) BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. The primary scanning site was the lumbar spine (L2 to L4) and the secondary scanning site was the total hip. All DXA scans were evaluated by a central reader.",
+          "populationDescription": "The safety population consisted of only patients who took randomized therapy for at least one day. The number of patients in each treatment arm who had completed 2 years of the study and had centrally assessed measurements of lumbar spine or total hip BMD.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "Percent Change",
+          "timeFrame": "Baseline, 24 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "63"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "68"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-4.63",
+                      "lowerLimit": "-14.21",
+                      "upperLimit": "4.32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.37",
+                      "lowerLimit": "-6.98",
+                      "upperLimit": "15.21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percent Change From Baseline of Bone Mineral Density of the Lumbar Spine",
+          "description": "Lumbar spine (L2-L4)BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. The primary scanning site was the lumbar spine (L2 to L4) and the secondary scanning site was the total hip. All DXA scans were evaluated by a central reader.",
+          "populationDescription": "The safety population consisted of only patients who took randomized therapy for at least one day. The analysis at 5 years included all patients enrolled and who had centrally assessed measurements of lumbar spine and/or total hip BMD.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "Percent change",
+          "timeFrame": "Baseline, 60 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "56"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "53"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.66",
+                      "lowerLimit": "-15.06",
+                      "upperLimit": "5.11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.3",
+                      "lowerLimit": "-13.48",
+                      "upperLimit": "4.92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percent Change From Baseline of Bone Mineral Density (BMD) of Total Hip",
+          "description": "Total hip BMD measurements by dual energy X-ray absorptiometry (DXA) were performed after surgery and within 2 weeks prior to randomization and repeated every 6 months for the first 2 years and annually thereafter until 5 years after enrollment. All DXA scans were evaluated by a central reader.",
+          "populationDescription": "The safety population consisted of only patients who took randomized therapy for at least one day. The analysis of BMD at 5 years included all patients enrolled with centrally assessed measurements of total hip BMD.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "Percent Change",
+          "timeFrame": "Baseline, 60 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "62"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "65"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-5.77",
+                      "lowerLimit": "-22.53",
+                      "upperLimit": "12.53"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.98",
+                      "lowerLimit": "-13.6",
+                      "upperLimit": "5.57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Median Percent Change From Baseline of Serum Markers of Bone Turnover",
+          "description": "Bone turnover markers (fasting serum procollagen-I extension peptide \\[P1NP\\], C-telopeptide \\[CTX\\], skeletal bone-specific alkaline phosphatase \\[BSAP, N-telopeptide \\[NTX\\]) were measured at baseline/screening and at each visit thereafter. A central laboratory was used to analyze the samples. The analysis of bone markers was based on analysis of variance of the regression slopes calculated for each individual patient and each bone marker over time. In the following summary, only the median treatment group percent change from baseline (and range) at 5 years is presented for each bone marker.",
+          "populationDescription": "The safety population consisted of only patients who took randomized therapy for at least one day. During different time points, participants with observations at that time point were included in the analysis. The analysis of bone markers over time consisted of patients with measurements of specific markers at each time point.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "Percent Change",
+          "timeFrame": "Baseline, 60 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "133"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "130"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Procollagen-I (PINP) (n=86, 78)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-14.15",
+                      "lowerLimit": "-78.5",
+                      "upperLimit": "177.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.5",
+                      "lowerLimit": "-84.8",
+                      "upperLimit": "200"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Bone Specific alkaline Phosphatase (n=87,78)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.2",
+                      "lowerLimit": "-53.6",
+                      "upperLimit": "192.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "19.15",
+                      "lowerLimit": "-58.00",
+                      "upperLimit": "237.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "C-telopeptide (CTX) (n=88, 78)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.05",
+                      "lowerLimit": "-80.9",
+                      "upperLimit": "130.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.55",
+                      "lowerLimit": "-81.2",
+                      "upperLimit": "236.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "N-telopeptide (NTX) (n=-88, 77)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-53.05",
+                      "lowerLimit": "-86.3",
+                      "upperLimit": "20.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-50.7",
+                      "lowerLimit": "-100",
+                      "upperLimit": "39"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage Change From Baseline in Serum Lipids at 5 Years",
+          "description": "Serum lipid profile (fasting serum cholesterol \\[total, HDL and calculated LDL\\], triglycerides, and lipoprotein \\[a\\]) were measured at baseline/screening and at each visit thereafter. A central laboratory was used to analyze the samples. The analysis of serum lipids was on the treatment group median percent change from baseline (and range) at 5 years.",
+          "populationDescription": "The safety population consisted of only patients who took randomized therapy for at least one day. During different time points, participants with observations at that time point were included in the analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "Percent Change",
+          "timeFrame": "Baseline, 60 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "133"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "130"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Total Cholesterol (n=91, 82)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7.3",
+                      "spread": "17.64",
+                      "lowerLimit": "-45.2",
+                      "upperLimit": "34.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.45",
+                      "spread": "16.63",
+                      "lowerLimit": "-55.7",
+                      "upperLimit": "24.5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LDL Cholesterol (n=91, 82)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.7",
+                      "spread": "24.947",
+                      "lowerLimit": "-63.9",
+                      "upperLimit": "58.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-11.05",
+                      "spread": "23.958",
+                      "lowerLimit": "-65",
+                      "upperLimit": "48.4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "HDL Cholesterol (n=91, 82)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.7",
+                      "spread": "16.388",
+                      "lowerLimit": "-40",
+                      "upperLimit": "60"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8.9",
+                      "spread": "-38.5",
+                      "lowerLimit": "-38.5",
+                      "upperLimit": "68.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Clinically Relevant Changes From Baseline in Cholesterol",
+          "description": "Serum lipid profile (fasting serum cholesterol \\[total, HDL and calculated LDL\\], triglycerides, and lipoprotein \\[a\\]) were measured at baseline/screening and at each visit thereafter. A central laboratory was used to analyze the samples. Numbers are not additive, as patients could be included in multiple rows.",
+          "populationDescription": "The safety population consisted of only patients who took randomized therapy for at least one day. The number of patients with pre-defined clinically relevant changes in serum lipids over the course of 5 years in each treatment arm is presented.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline, 60 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "133"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "130"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Patients with one or more change",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "\u22658 mmol/L total (T) cholesterol",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "\u22657 mmol/L T.choles. & \u22651 risk for cardiac disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "\u22656 mmol/L T. choles. & \u22652 risk for cardiac disease",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Disease Recurrence or Death",
+          "description": "Disease-free survival was defined as the interval between randomization and earliest confirmed event of loco-regional recurrence, distant metastases, invasive contralateral breast cancer, or death from any cause.",
+          "populationDescription": "Analysis of disease-free survival was based on the ITT principle, with all enrolled (and randomized) patients included. The Kaplan-Meier product-limit approach was used.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "Days",
+          "timeFrame": "60 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "133"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "130"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Median time to disease recurrence or death was not achieved, nor was it possible to estimate 25% or 75th percentile for disease free survival."
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Median time to disease recurrence or death was not achieved, nor was it possible to estimate 25% or 75th percentile for disease free survival."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Overall Survival Events",
+          "description": "Overall survival was measured from date of randomization to date of death.",
+          "populationDescription": "All randomized patients constituted the ITT Population, unless withdrawal of consent occurred after randomization but before the start of study treatment assigned.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "days",
+          "timeFrame": "60 Months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "2.5 mg once daily (q.d.)orally for 5 years"
+            },
+            {
+              "id": "OG001",
+              "title": "Tam-Let",
+              "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "133"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "130"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Median time to death was not achieved; nor was it possible to estimate 25th or 75th percentile for overall survival."
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "NA",
+                      "lowerLimit": "NA",
+                      "upperLimit": "NA",
+                      "comment": "Median time to death was not achieved; nor was it possible to estimate 25th or 75th percentile for overall survival."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Letrozole",
+          "description": "2.5 mg once daily q.d. orally for 5 years",
+          "seriousNumAffected": 50,
+          "seriousNumAtRisk": 133,
+          "otherNumAffected": 113,
+          "otherNumAtRisk": 133
+        },
+        {
+          "id": "EG001",
+          "title": "Tam-Let",
+          "description": "20 mg Tamoxifen once daily (q.d.) orally for 2 years followed by Letrozole 2.5 mg q.d. orally for 3 years.",
+          "seriousNumAffected": 41,
+          "seriousNumAtRisk": 130,
+          "otherNumAffected": 110,
+          "otherNumAtRisk": 130
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Acute myocardial infarction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Angina pectoris",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Angina unstable",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Atrial fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Atrial flutter",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Bundle branch block left",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Myocardial infarction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pericarditis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Sinus bradycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Goitre",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Retinal detachment",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Abdominal hernia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Ascites",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Diverticulum",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pancreatitis acute",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Medical device complication",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Cholelithiasis",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Breast infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Bronchitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Cystitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Diverticulitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Encephalitis herpes",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Erysipelas",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Herpes zoster",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Skin infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Ankle fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Femoral neck fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Femur fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Humerus fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Lower limb fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Lumbar vertebral fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Radius fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Rib fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Spinal compression fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Subdural haematoma",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Tendon rupture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Traumatic haematoma",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Blood alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Hypovolaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Intervertebral disc protrusion",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Osteoarthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Basal cell carcinoma",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Benign breast neoplasm",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Benign salivary gland neoplasm",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Breast cancer in situ",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Cervix carcinoma",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Colon cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Gastrooesophageal cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Hypopharyngeal cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Lung neoplasm malignant",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Malignant melanoma",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Malignant pleural effusion",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Metastases to bone",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Metastases to lung",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Ovarian cancer",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Thyroid adenoma",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Cerebral infarction",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Cerebrovascular accident",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Calculus ureteric",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Colpocele",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Cystocele",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Ovarian cyst",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Rectocele",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Uterine polyp",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Uterine prolapse",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Uterovaginal prolapse",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Vaginal haemorrhage",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Chronic obstructive pulmonary disease",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Nasal polyps",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary embolism",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Scar",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Skin irritation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Social problem",
+          "organSystem": "Social circumstances",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Social stay hospitalisation",
+          "organSystem": "Social circumstances",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Breast reconstruction",
+          "organSystem": "Surgical and medical procedures",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Deep vein thrombosis",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Orthostatic hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 130
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 15,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 17,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 15,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Radiation skin injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Weight decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Weight increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Hypercholesterolaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 23,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 21,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 44,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 43,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 25,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 16,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Osteopenia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Osteoporosis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 21,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Vaginal discharge",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Vulvovaginal dryness",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Hot flush",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 18,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 25,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 17,
+              "numAtRisk": 130
+            }
+          ]
+        },
+        {
+          "term": "Lymphoedema",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 14.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 133
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 130
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The study was designed to investigate the effects of letrozole compared with tamoxifen for 2 years on BMD spine (L2-L4). The study was too small to investigate the comparative efficacy of treatments on disease-free survival or on overall survival."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Principal Investigators are NOT employed by the organization sponsoring the study. Other disclosure agreement that restricts the right of the PI to discuss or publish trial results after the trial is completed. The terms and conditions of Novartis' agreements with its investigators may vary. However, Novartis does not prohibit any investigator from publishing. Any publications from a single-site are postponed until the publication of the pooled data (i.e., data from all sites) in clinical trial."
+      },
+      "pointOfContact": {
+        "title": "Novartis Pharmaceuticals",
+        "organization": "Novartis Pharmaceuticals",
+        "phone": "862-778-8300"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

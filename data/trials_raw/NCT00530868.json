@@ -1,0 +1,1051 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00530868",
+      "orgStudyIdInfo": {
+        "id": "F061229006"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UAB 0648",
+          "type": "OTHER",
+          "domain": "Institutional protocol study number"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Alabama at Birmingham",
+        "class": "OTHER"
+      },
+      "briefTitle": "Comparing Letrozole Given Alone to Letrozole Given With Avastin in Post-Menopausal Women Breast Cancer",
+      "officialTitle": "A Phase II, Randomized, Open Label Trial of Pre-operative (Neoadjuvant)Letrozole (Femara) vs. Letrozole in Combination With Avastin in Post Menopausal Women With Newly Diagnosed Operable Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-10-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-09-14",
+      "studyFirstSubmitQcDate": "2007-09-17",
+      "studyFirstPostDateStruct": {
+        "date": "2007-09-18",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-01-31",
+      "resultsFirstSubmitQcDate": "2022-09-23",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-10-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-09-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lisle Nabell",
+        "investigatorTitle": "Professor, Med-Hematology & Oncology",
+        "investigatorAffiliation": "University of Alabama at Birmingham"
+      },
+      "leadSponsor": {
+        "name": "University of Alabama at Birmingham",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Genentech, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Breast Cancer Research Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This purpose of this trial is to show that the combination of Avastin and hormone therapy should be more effective than hormone therapy alone for the treatment of breast cancer.",
+      "detailedDescription": "Preclinical and clinical data have demonstrated that up-regulation of tumor cell VEGF is an important mechanism to subvert estrogen dependence in hormone responsive breast cancer resulting in reduced therapy response or tumor resistance to hormonal therapy; thus, it is hypothesized that the combination of an anti-VEGF agent (Avastin, an anti-VEGF monoclonal antibody) and hormonal therapy should be more effective than hormonal therapy alone for the treatment of breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Cancer of the Breast",
+        "Breast Neoplasm"
+      ],
+      "keywords": [
+        "Hormonal and antibody therapy for breast cancer",
+        "Hormonal therapy for breast cancer",
+        "Antibody therapy for breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Letrozole + Avastin",
+          "type": "EXPERIMENTAL",
+          "description": "50 evaluable patients received the combination therapy of 2.5 gm daily oral Letrozole and Avastin 15 mg/kg IV every 3 weeks for 24 weeks.",
+          "interventionNames": [
+            "Drug: Letrozole; Avastin"
+          ]
+        },
+        {
+          "label": "Letrozole alone",
+          "type": "EXPERIMENTAL",
+          "description": "25 evaluable patients received daily oral 2.5 mg letrozole as a single agent",
+          "interventionNames": [
+            "Other: Letrozole (Femara)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Letrozole (Femara)",
+          "description": "Letrozole 2.5 mg PO a day for 24 weeks",
+          "armGroupLabels": [
+            "Letrozole alone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole; Avastin",
+          "description": "Letrozole 2.5 mg PO a day and Avastin 15 mg/kg IV every 3 weeks",
+          "armGroupLabels": [
+            "Letrozole + Avastin"
+          ],
+          "otherNames": [
+            "Femara (Letrozole)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The Percentage of Participants With Pathologic Complete Response",
+          "description": "Pathological complete response is defined as the absence of residual invasive tumor in the breast or axillary lymph nodes or if only residual ductal carcinoma in-situ was seen on review of the surgical specimen.",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Letrozole +Avastin",
+          "description": "Radiographic objective response to the therapy are reported. Radiographic response was assessed using RECIST criteria by ultrasound or breast MRI through the study and are reported as complete radiographic response below.",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAll patients must meet the following criteria to be eligible for study entry:\n\n* Pathologically confirmed invasive ductal carcinoma or invasive lobular carcinoma of the breast, T2-T3 / T4a-c / N0-2 / M0, with positive estrogen and/or progesterone receptors, and Her-2-neu negative. Patients with inflammatory breast cancer will not be included (T4d). Patients previously treated patients with no measurable disease or patients with metastatic disease will be excluded.\n* Give written informed consent prior to study specific screening procedures, with the understanding that the patient has the right to withdraw from the study at any time, without prejudice.\n* Patients must be postmenopausal, defined as one of the following:\n\n  * Patients \\> 50 years of age with no spontaneous menses for at least 12 months,\n  * Bilateral oophorectomy\n* Be ambulatory (outpatient) and have an ECOG PS \\<1.\n* Patients must have measurable disease by mammogram and/or breast ultrasound (in special cases a dedicated breast MRI may be clinically indicated). The target lesion must not have been previously irradiated.\n* No prior chemotherapy.\n* Patients must have adequate organ and marrow function as defined as follows: absolute neutrophil count \\> 1,500/mm3, hemoglobin \\> 8.0 g/dl, platelets \\> 75,000/mm3, total bilirubin \\< 2 mg/dl, serum creatinine \\< 2 mg/dl, Transaminases (AST, ALT) may be up to 2 x institutional upper limit of normal. In addition \\< 1 gr of protein in 24 hr urine collection and urine protein/creatinine ratio \\< 1.0.\n* No life threatening parenchymal disease or rapidly progressing disease warranting cytotoxic chemotherapy.\n* Hypertension must be controlled (\\<150/100 mmHg).\n* Ejection Fraction \\> 50% by echocardiogram. (LVEF greater than 75% at baseline should be reviewed and/or the test repeated as it may be falsely elevated).\n* No history of thrombosis during the previous 12 months.\n\nExclusion Criteria:\n\n* Current, recent (within 4 weeks of the first infusion of this study), or planned participation in an experimental drug study other than this sponsor-investigator Bevacizumab cancer study.\n* Uncontrolled high blood pressure (\\>150/100 mmHg).\n* Unstable angina\n* New York Heart Association (NYHA) Grade III or greater congestive heart failure\n* History of myocardial infarction or unstable angina within 12 months\n* History of stroke or TIA within 12 months\n* Clinically significant peripheral vascular disease\n* History of a bleeding disorder\n* Presence of central nervous system or brain metastases\n* Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to Day 0, anticipation of need for major surgical procedure during the course of the study\n* Minor surgical procedures (excluding fine needle aspirations or core biopsies) within 5 days prior to Day 0\n* Pregnant (positive pregnancy test) or lactating\n* Urine protein: creatinine ratio greater than or equal to 1.0 at screening or patients demonstrating \\> 1 gr of protein in 24 hr urine collection within 4 weeks prior to study entry will not participate in the trial.\n* History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to Day 0\n* Serious, non-healing wound, ulcer, or bone fracture\n* Unwilling or unable to comply with the protocol for the duration of the study.\n* Psychiatric illness/social situations that would limit compliance with study requirements.\n* History of another malignancy within the last five years except non-melanoma skin cancer and carcinoma in-situ of uterine cervix.\n* Patients with metastatic disease.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "19 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lisle Nabell, M.D.",
+          "affiliation": "University of Alabama at Birmingham",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294 - 0104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "University of California, San Francisco Comprehensive Cancer Center",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Georgetown University Medical Center",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Georgia Cancer Specialists",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30341",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "University of Chicago Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Dana Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of of North Carolina at Chapel Hill",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599-7600",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "availIpds": [
+        {
+          "type": "Clinical Study Report",
+          "url": "https://doi.org/10.1186/s13058-020-01258-x",
+          "comment": "Bevacizumab and Letrozole"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Letrozole + Avastin",
+          "description": "Letrozole; Avastin: Letrozole 2.5 mg PO a day and Avastin 15 mg/kg IV every 3 weeks"
+        },
+        {
+          "id": "FG001",
+          "title": "Letrozole Alone",
+          "description": "Letrozole (Femara): Letrozole 2.5 mg PO a day for 24 weeks"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "50"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Postmenopausal women with newly diagnosed stage 2 or 3 estrogen and/or progesterone receptor-positive, HER2-negative breast cancer were randomly assigned (2:1) between letrozole 2.5 mg PO daily plus bevacizumab 15 mg/ kg IV every 3 weeks (Let/Bev) and letrozole 2.5 mg PO daily (Let) for 24 weeks prior to definitive surgery.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Letrozole + Avastin",
+          "description": "Letrozole; Avastin: Letrozole 2.5 mg PO a day and Avastin 15 mg/kg IV every 3 weeks"
+        },
+        {
+          "id": "BG001",
+          "title": "Letrozole Alone",
+          "description": "Letrozole (Femara): Letrozole 2.5 mg PO a day for 24 weeks"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "50"
+            },
+            {
+              "groupId": "BG001",
+              "value": "25"
+            },
+            {
+              "groupId": "BG002",
+              "value": "75"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "58",
+                      "spread": "0.5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "58",
+                      "spread": "0.5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "58",
+                      "spread": "0.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "60"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Study Participant",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "75"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "The Percentage of Participants With Pathologic Complete Response",
+          "description": "Pathological complete response is defined as the absence of residual invasive tumor in the breast or axillary lymph nodes or if only residual ductal carcinoma in-situ was seen on review of the surgical specimen.",
+          "populationDescription": "Patients with postmenopausal hormone receptor positive breast cancer T2-4,N0-2 and M0 were randomized 2:1 to receive letrozole 2.5 mg PO daily and bevacizumab 15 mg/kg IV for 24 weeks or daily treatment with letrozole 2.5 mg PO alone (control arm). The duration of each cycle was 3 weeks for a total of 24 weeks. The pCR was defined as the absence of any residual invasive cancer in the resected breast specimen and lymph nodes. Data below is representative of the raw data.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole + Avastin",
+              "description": "Letrozole; Avastin: Letrozole 2.5 mg PO a day and Avastin 15 mg/kg IV every 3 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Letrozole Alone",
+              "description": "Letrozole (Femara): Letrozole 2.5 mg PO a day for 24 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11",
+                      "lowerLimit": "3.7",
+                      "upperLimit": "24.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "lowerLimit": "0",
+                      "upperLimit": "14.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Letrozole +Avastin",
+          "description": "Radiographic objective response to the therapy are reported. Radiographic response was assessed using RECIST criteria by ultrasound or breast MRI through the study and are reported as complete radiographic response below.",
+          "populationDescription": "This was a single arm study to test the feasibility of Letrozole with Avastin in the neoadjuvant setting.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "participants",
+          "timeFrame": "24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole + Avastin",
+              "description": "50 evaluable patients received the combination therapy of 2.5 gm daily oral Letrozole and Avastin 15 mg/kg IV every 3 weeks for 24 weeks.\n\nLetrozole; Avastin: Letrozole 2.5 mg PO a day and Avastin 15 mg/kg IV every 3 weeks"
+            },
+            {
+              "id": "OG001",
+              "title": "Letrozole Alone",
+              "description": "25 evaluable patients received daily oral 2.5 mg letrozole as a single agent\n\nLetrozole (Femara): Letrozole 2.5 mg PO a day for 24 weeks"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "50"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10",
+                      "lowerLimit": "3.4",
+                      "upperLimit": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4",
+                      "lowerLimit": "0",
+                      "upperLimit": "20.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "2",
+      "timeFrame": "24 weeks of active treatment",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Letrozole + Avastin",
+          "description": "Letrozole; Avastin: Letrozole 2.5 mg PO a day and Avastin 15 mg/kg IV every 3 weeks.\n\nAdverse events typically associated with letrozole (hot flashes, arthralgias, fatigue, myalgias) occurred in similar frequencies in the two arms. Hypertension, headache, and proteinuria were seen exclusively in the Let/Bev arm.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 50,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 50,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 50
+        },
+        {
+          "id": "EG001",
+          "title": "Letrozole Alone",
+          "description": "Letrozole (Femara): Letrozole 2.5 mg PO a day for 24 weeks Adverse events typically associated with letrozole (hot flashes, arthralgias, fatigue, myalgias) occurred in similar frequencies in the two arms. Hypertension, headache, and proteinuria were seen exclusively in the Let/Bev arm.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 25
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Proteinuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "other",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "proteinuria 4%",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "other",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Headache",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 2,
+              "numAtRisk": 50
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Lisle Nabell",
+        "organization": "UAB",
+        "email": "Lnabell@uabmc.edu",
+        "phone": "205 934-3061"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2011-03-14",
+          "uploadDate": "2022-01-20T14:32",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 556643
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000068258",
+          "term": "Bevacizumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

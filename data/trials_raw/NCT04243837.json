@@ -1,0 +1,1065 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04243837",
+      "orgStudyIdInfo": {
+        "id": "LYT-100-2020-US-02"
+      },
+      "organization": {
+        "fullName": "PureTech",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "LYT-100 in Patients With BCRL",
+      "officialTitle": "A Phase 2a Double-Blind, Placebo-Controlled Study to Determine the Safety, Tolerability, Pharmacokinetics, and Efficacy of Deupirfenidone (LYT-100) in Patients With Breast Cancer-Related Upper Limb Secondary Lymphoedema"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Primary objective/endpoint has been established, will not pursue development of the disease indication further",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-09-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-09-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-01-21",
+      "studyFirstSubmitQcDate": "2020-01-24",
+      "studyFirstPostDateStruct": {
+        "date": "2020-01-28",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-01-30",
+      "resultsFirstSubmitQcDate": "2024-03-26",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-04-23",
+        "type": "ACTUAL"
+      },
+      "dispFirstSubmitDate": "2023-09-07",
+      "dispFirstPostDateStruct": {
+        "date": "2024-04-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "PureTech",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Novotech (Australia) Pty Limited",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a trial of up to 6-months duration for safety, tolerability, clinical efficacy assessments, PK and biomarkers analysis in breast carcinoma patients with secondary lymphoedema",
+      "detailedDescription": "This trial will utilize a randomised, double-blinded, placebo controlled design that will assess the safety, tolerability, and secondarily clinical efficacy of LYT-100 over a period of up to 6-months of dosing in breast carcinoma patients with secondary lymphoedema following sentinel lymph node biopsy and/or axillary node dissection, with or without radiation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Related Lymphoedema",
+        "Lymphoedema"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Consists of 1 cohort with 2 arms: active treatment or placebo patients",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Double-blinded",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "LYT-100 in patients with BCRL",
+          "type": "EXPERIMENTAL",
+          "description": "LYT-100 BID for 6 months",
+          "interventionNames": [
+            "Drug: LYT-100 BCRL"
+          ]
+        },
+        {
+          "label": "Placebo in patients with BCRL",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo BID for 6 months",
+          "interventionNames": [
+            "Drug: Placebo BCRL"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LYT-100 BCRL",
+          "description": "BCRL patients will receive LYT-100 BID for 6 months",
+          "armGroupLabels": [
+            "LYT-100 in patients with BCRL"
+          ],
+          "otherNames": [
+            "Deupirfenidone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo BCRL",
+          "description": "BCRL patients will receive Placebo BID for 6 months",
+          "armGroupLabels": [
+            "Placebo in patients with BCRL"
+          ],
+          "otherNames": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability: Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+          "description": "Evaluate the safety and tolerability of LYT-100 as measured by TEAEs",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Main Inclusion Criteria:\n\n1. Female or male between 18 and 80 years old (inclusive) at the time of informed consent.\n2. At least 6 months since any type of breast cancer surgery (excluding fine needle aspiration biopsy \\[FNA\\]), at the time of study screening. No intention to have breast reconstructive surgery, nipple reconstruction and/or tattooing during the course of the study.\n3. At least 3 months since completion of all types of treatment for breast cancer, including but not limited to neoadjuvant, radiotherapy, chemotherapy and immunotherapy, at the time of study screening.\n4. At least 3 months treatment of stable adjuvant treatment with hormonal or anti-HER2 therapy at the time of screening, with no planned changes to this therapy throughout the duration of the study.\n5. Diagnosis of primary breast cancer, and without evidence of recurrence of breast cancer and/or metastasis for at least 6 months since breast cancer surgery, as determined at screening and baseline.\n6. Documented evidence of Stage 1 or 2 lymphedema.\n7. Receiving standard of care compression or agreeable to using care compression, or no compression at all \u2265 4 weeks prior to screening and throughout the study.\n\nMain Exclusion Criteria:\n\n1. Bilateral lymphoedema or history of bilateral axillary lymph node removal (i.e., sentinel lymph node or axillary lymph node dissection), or primary lymphoedema or lymphatic or vascular malformation, determined at screening.\n2. Chronic administration (defined as more than 14 consecutive days) of immunosuppressants or other immune-modifying drugs within 3 months prior to study drug administration; corticosteroids are permitted at the discretion of the PI.\n3. Recent history (in the 8 weeks prior to screening) of cellulitis, lymphangitis, dermatitis, necrotizing fasciitis, or current open wounds or sores in the affected extremity.\n4. Stage III lymphoedema, or history of clinically diagnosed secondary lymphoedema greater than 4 years, determined at screening.\n5. Initiated use of compression or manual lymphatic drainage or other lymphoedema therapies at the start of the study within 4 weeks of the screening visit. Rescreening is allowed following a course of stable compression regimen of \\> 4 weeks.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "City of Hope National Medical Center",
+          "city": "Duarte",
+          "state": "California",
+          "zip": "91010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.13945,
+            "lon": -117.97729
+          }
+        },
+        {
+          "facility": "MACRO Trials",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "91105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Accel Research Network",
+          "city": "Maitland",
+          "state": "Florida",
+          "zip": "32751",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.62778,
+            "lon": -81.36312
+          }
+        },
+        {
+          "facility": "Accel Research Network",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30342",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "University of the Sunshine Coast",
+          "city": "Sippy Downs",
+          "state": "Queensland",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -26.71793,
+            "lon": 153.05475
+          }
+        },
+        {
+          "facility": "Ballarat Health Services",
+          "city": "Ballarat",
+          "state": "Victoria",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.56622,
+            "lon": 143.84957
+          }
+        },
+        {
+          "facility": "Flinders University",
+          "city": "Adelaide",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Macquarie University Health Sciences Centre",
+          "city": "Sydney",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.86785,
+            "lon": 151.20732
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "34779583",
+          "type": "DERIVED",
+          "citation": "Chen MC, Korth CC, Harnett MD, Elenko E, Lickliter JD. A Randomized Phase 1 Evaluation of Deupirfenidone, a Novel Deuterium-Containing Drug Candidate for Interstitial Lung Disease and Other Inflammatory and Fibrotic Diseases. Clin Pharmacol Drug Dev. 2022 Feb;11(2):220-234. doi: 10.1002/cpdd.1040. Epub 2021 Nov 15."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "LYT-100 in Patients With BCRL",
+          "description": "LYT-100 BID for 6 months\n\nLYT-100 BCRL: BCRL patients will receive LYT-100 500 mg BIDX3 days followed by LYT-100 750 mg BID for 6 months"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo in Patients With BCRL",
+          "description": "Placebo BID for 6 months\n\nPlacebo BCRL: BCRL patients will receive Placebo BID for 6 months"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "28"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "15"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Covid-19 lock down",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Study Terminated by Sponsor",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "11"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "LYT-100 in Patients With BCRL",
+          "description": "LYT-100 BID for 6 months\n\nLYT-100 BCRL: BCRL patients will receive LYT-100 500mg BID x3 days followed by LYT-100 750mg BID for 6 months"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo in Patients With BCRL",
+          "description": "Placebo BID for 6 months\n\nPlacebo BCRL: BCRL patients will receive Placebo BID for 6 months"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "28"
+            },
+            {
+              "groupId": "BG001",
+              "value": "22"
+            },
+            {
+              "groupId": "BG002",
+              "value": "50"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "39"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Australia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Safety and Tolerability: Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+          "description": "Evaluate the safety and tolerability of LYT-100 as measured by TEAEs",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "LYT-100 in Patients With BCRL",
+              "description": "LYT-100 BID for 6 months\n\nLYT-100 BCRL: BCRL patients will receive LYT-100 BID for 6 months"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo in Patients With BCRL",
+              "description": "Placebo BID for 6 months\n\nPlacebo BCRL: BCRL patients will receive Placebo BID for 6 months"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "6 months",
+      "description": "Systemic Assessment methods were used to routinely evaluate if any adverse events have occurred. Examples of these methods include: regular investigator assessments through physical exams and laboratory testing.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "LYT-100 in Patients With BCRL",
+          "description": "LYT-100 BID for 6 months\n\nLYT-100 BCRL: BCRL patients will receive LYT-100 BID for 6 months",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 28,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 28,
+          "otherNumAffected": 22,
+          "otherNumAtRisk": 28
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo in Patients With BCRL",
+          "description": "Placebo BID for 6 months\n\nPlacebo BCRL: BCRL patients will receive Placebo BID for 6 months",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 22,
+          "seriousNumAffected": 2,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 13,
+          "otherNumAtRisk": 22
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Pyelonephritis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Radius Fracture",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Urinary Tract Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Dry Skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 22
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA 23.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 28
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 22
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Director of Clinical Trials",
+        "organization": "PureTech Health, Inc",
+        "email": "ckorth@puretechhealth.com",
+        "phone": "6034982261"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-11-02",
+          "uploadDate": "2024-03-13T10:28",
+          "filename": "Prot_SAP_001.pdf",
+          "size": 1894677
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-03-01",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008209",
+          "term": "Lymphedema"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008206",
+          "term": "Lymphatic Diseases"
+        },
+        {
+          "id": "D006425",
+          "term": "Hemic and Lymphatic Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C093844",
+          "term": "pirfenidone"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

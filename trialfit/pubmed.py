@@ -15,6 +15,8 @@ import os
 import time
 from typing import Optional
 
+import xml.etree.ElementTree as ET
+
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -36,6 +38,60 @@ def _session() -> requests.Session:
 SESSION = _session()
 
 
+# How many publications get an abstract, and how much of each we keep.
+# Titles are cheap; abstracts are not. Ten recent papers at ~700 chars is about
+# 1.7k tokens into the matcher's brief — enough to settle "has this person
+# worked on PIK3CA" without drowning the evidence that decides everything else.
+ABSTRACT_LIMIT = 10
+ABSTRACT_CHARS = 700
+
+
+def _get_xml(path: str, params: dict) -> Optional[ET.Element]:
+    """efetch returns XML, not JSON — esummary has no abstract field."""
+    params = dict(params)
+    if API_KEY:
+        params["api_key"] = API_KEY
+    try:
+        r = SESSION.get(f"{EUTILS}/{path}", params=params, timeout=45)
+        r.raise_for_status()
+        time.sleep(POLITE_DELAY)
+        return ET.fromstring(r.content)
+    except Exception:
+        return None
+
+
+def fetch_abstracts(pmids: list[str]) -> dict[str, str]:
+    """PMID -> abstract text. Missing or unparseable ones are simply absent.
+
+    Structured abstracts split into labelled sections (BACKGROUND, METHODS,
+    RESULTS); those labels carry real meaning for judging a paper's relevance,
+    so they are kept rather than flattened away.
+    """
+    if not pmids:
+        return {}
+    root = _get_xml("efetch.fcgi", {"db": "pubmed", "id": ",".join(pmids),
+                                    "retmode": "xml", "rettype": "abstract"})
+    if root is None:
+        return {}
+    out: dict[str, str] = {}
+    for art in root.iter("PubmedArticle"):
+        pid_el = art.find(".//PMID")
+        if pid_el is None or not pid_el.text:
+            continue
+        parts = []
+        for ab in art.iter("AbstractText"):
+            text = "".join(ab.itertext()).strip()
+            if not text:
+                continue
+            label = ab.get("Label") or ab.get("NlmCategory")
+            parts.append(f"{label}: {text}" if label else text)
+        if parts:
+            joined = " ".join(parts)
+            out[pid_el.text] = (joined[:ABSTRACT_CHARS] + "…"
+                                if len(joined) > ABSTRACT_CHARS else joined)
+    return out
+
+
 def _get(path: str, params: dict) -> dict:
     params = dict(params)
     params.setdefault("retmode", "json")
@@ -54,7 +110,8 @@ def author_query(first_name: str, last_name: str) -> str:
 
 
 def search(first_name: str, last_name: str, topic: str = "",
-           recent_years: int = 0, max_results: int = 25) -> dict:
+           recent_years: int = 0, max_results: int = 25,
+           with_abstracts: bool = True) -> dict:
     """Publications for an author, optionally narrowed by topic and recency."""
     term = author_query(first_name, last_name)
     if topic:
@@ -74,8 +131,20 @@ def search(first_name: str, last_name: str, topic: str = "",
     pmids = res.get("idlist", []) or []
     total = int(res.get("count", 0) or 0)
     records = summarize(pmids) if pmids else []
+
+    if with_abstracts and records:
+        # Only the most recent handful — results come back date-sorted, and an
+        # abstract for every one of 25 papers would crowd out the rest of the
+        # dossier without adding much.
+        abstracts = fetch_abstracts([r["pmid"] for r in records[:ABSTRACT_LIMIT]])
+        for r in records:
+            if r["pmid"] in abstracts:
+                r["abstract"] = abstracts[r["pmid"]]
+
     return {"available": True, "query": term, "count": total,
-            "returned": len(records), "records": records}
+            "returned": len(records),
+            "n_abstracts": sum(1 for r in records if r.get("abstract")),
+            "records": records}
 
 
 def summarize(pmids: list[str]) -> list[dict]:

@@ -210,6 +210,11 @@ def build_brief(rubric_rec: dict, dossier: dict) -> str:
                 if rec.get(k):
                     bits.append(f"{k}={str(rec[k])[:110]}")
             parts.append("    " + " | ".join(bits))
+            # Abstracts go on their own line — inline they'd swamp the fields
+            # around them, and an indented block reads as detail rather than
+            # another attribute.
+            if rec.get("abstract"):
+                parts.append(f"        abstract: {str(rec['abstract'])[:700]}")
         extra = entry.get("mentioned") or []
         if extra:
             parts.append(f"    ({len(extra)} weaker text-only mentions, "

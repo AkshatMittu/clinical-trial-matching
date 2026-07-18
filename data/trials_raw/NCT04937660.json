@@ -1,0 +1,4567 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04937660",
+      "orgStudyIdInfo": {
+        "id": "A5481150"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "PRECIOUS",
+          "type": "OTHER",
+          "domain": "Alias Study Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Pfizer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Treatment Patterns & Clinical Outcomes of Palbociclib Combinations in HR+HER2-MBC",
+      "officialTitle": "Palbociclib Combinations in HR+/HER2- Metastatic Breast Cancer Patients: A Non-Interventional Prospective Study on the Treatment Patterns & Clinical Outcomes in Africa Middle East (PRECIOUS)",
+      "acronym": "PRECIOUS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-06-08",
+      "studyFirstSubmitQcDate": "2021-06-23",
+      "studyFirstPostDateStruct": {
+        "date": "2021-06-24",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2026-04-29",
+      "resultsFirstSubmitQcDate": "2026-06-09",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-06-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pfizer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this non-interventional multicenter study is to provide prospective, observational data on patients initiating treatment with palbociclib combination to contribute to the knowledge of HR+ HER2-metastatic/locally advanced Breast Cancer (BC) disease management, its treatment pattern, clinical outcomes and quality of life (QoL) in the routine clinical practice in Africa and Middle East countries .",
+      "detailedDescription": "Patients with HR+/HER2- metastatic/locally advanced BC whose treatment decision with palbociclib has been made by their treating physician and who meet the eligibility criteria will be invited to participate in the study. Patients who initiate treatment with palbociclib plus letrozole/aromatase inhibitor or palbociclib plus fulvestrant in line with the licensed indication(s), as first or second line therapy for metastatic/locally advanced BC at enrollment may be included in the study.\n\nThe variables assessed in this study will be patient demographics, clinical characteristics, comorbid conditions and concomitant medications, HR+ HER2-locally advanced and metastatic BC treatment history, current BC treatment, performance status (Eastern Cooperative Oncology Group (ECOG), clinical outcomes, and QoL. All assessments described in this protocol are performed as part of normal clinical practice or standard practice guidelines for the patient population and healthcare provider specialty in the countries where this non-interventional study is being conducted. All data collected in this study are intended to capture the real-world treatment patterns and outcomes for patients with HR+/HER2- metastatic/locally advanced BC. An electronic case report form (eCRF) will be used for data collection. Investigators will be trained with an initial on-site visit to the clinic on the protocol, electronic data capture (EDC) system (i.e., eCRF), investigator site master file (ISMF), documentation, and any applicable study processes. Any new information relevant to the performance of this non-interventional study (NIS) will be forwarded to the medical staff during the study. Remote data monitoring will be conducted during the life of the study to ensure timely reporting of safety data, data integrity and consistency."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "keywords": [
+        "Palbociclib",
+        "Africa",
+        "Middle East"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 185,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Who Were Progression Free at 6 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the electronic case report form (e-CRF). Kaplan-Meier method was used.",
+          "timeFrame": "At 6 months from the date of palbociclib initiation in routine clinical practice"
+        },
+        {
+          "measure": "Percentage of Participants Who Were Progression Free at 12 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the e-CRF. Kaplan-Meier method was used.",
+          "timeFrame": "At 12 months from the date of palbociclib initiation in routine clinical practice"
+        },
+        {
+          "measure": "Percentage of Participants Who Were Progression Free at 18 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the e-CRF. Kaplan-Meier method was used.",
+          "timeFrame": "At 18 months from the date of palbociclib initiation in routine clinical practice"
+        },
+        {
+          "measure": "Percentage of Participants Who Were Progression Free at 24 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the e-CRF. Kaplan-Meier method was used.",
+          "timeFrame": "At 24 months from the date of palbociclib initiation in routine clinical practice"
+        },
+        {
+          "measure": "Percentage of Participants Who Were Alive at 1 Year Post Palbociclib Initiation",
+          "description": "Percentage of participants who were alive at 1 year post palbociclib initiation were reported in this outcome measure.",
+          "timeFrame": "At 1 year from the date of palbociclib initiation in routine clinical practice"
+        },
+        {
+          "measure": "Percentage of Participants Who Were Alive at 2 Years Post Palbociclib Initiation",
+          "description": "Percentage of participants who were alive at 2 years post palbociclib initiation were reported in this outcome measure.",
+          "timeFrame": "At 2 year from the date of palbociclib initiation in routine clinical practice"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "ORR was defined as the percentage of participants with an overall tumor response of complete response (CR) or partial response (PR) or stable disease. Complete response was defined as complete reduction of all visible disease; partial response was defined as partial reduction in size of visible disease in some or all areas without any areas of increase in visible disease; stable disease was defined as no change in overall size of visible disease, also including cases where some lesions increased in size and some lesions decreased in size. The responses were evaluated as per local guidelines by the clinician and were collected in the e-CRF.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Time From Initial Breast Cancer Diagnosis to Recurrence of Breast Cancer",
+          "description": "Data for time from initial breast cancer diagnosis to recurrence of breast cancer was collected at baseline from participants medical records.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Stage of Breast Cancer",
+          "description": "Breast cancer stages included Stage I,IIA,IIB,IIIA,IIIB,IIIC as determined using Tumor Node Metastasis (TNM) classification system. Stage I: cancer is small and only in breast tissue or may be found in lymph nodes close to breast. Stage 2: there is cancer in breast or nearby lymph nodes or both. Stage IIA: no tumor found in breast, but cancer is found in one to three axillary lymph nodes, tumor measures 2 centimeter (cm) or smaller; IIB: tumor is larger than 2 cm. Stage 3: cancer is found in lymph nodes close to breast, skin of breast, or chest wall. Stage IIIA: any size tumor; spread to four to nine lymph nodes. Stage IIIB: any size tumor and has spread to chest wall and/or skin of breast and may have spread to up to nine axilliary lymph nodes or near breastbone. Stage IIIC: any size tumor and may have spread to chest wall or skin of breast and ten or more lymph nodes. Higher stage indicates more advanced disease.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Node Status",
+          "description": "Number of participants classified according to node status were reported in this outcome measure. Node status included: N0, N1, N2, N3, NX. N0: there is no cancer in nearby lymph nodes, N1, N2 and N3: number and location of lymph nodes that contained cancer and NX: cancer is nearby lymph nodes cannot be measured.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Menopausal Status",
+          "description": "Number of participants classified according to menopausal status were reported in this outcome measure. Menopausal status included: pre-menopausal and post-menopausal.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Prescribed Palbociclib Combination",
+          "description": "Number of participants classified according to palbociclib combination prescribed (palbociclib plus letrozole/aromatase inhibitor and palbociclib plus fulvestrant) at palbociclib treatment initiation were reported in this outcome measure.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Sites of Metastases",
+          "description": "Number of participants classified according to sites of metastases (visceral and non-visceral) were reported in this outcome measure.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Metastatic Status",
+          "description": "Number of participants classified according to metastatic status (denovo advanced BC and recurrent/relapse advanced BC) were reported in this outcome measure.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Mean Weight of the Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants Categorized According to Family History of Breast Cancer",
+          "description": "Number of participants categorized according to family history of breast cancer (Yes/No) were reported in this outcome measure.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants Categorized According to Treatment Schedule",
+          "description": "Number of participants categorized according to treatment schedule of 3 weeks on, 1 week off (Yes) were reported in this outcome measure.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants Categorized According to Palbociclib Dose",
+          "description": "Number of participants categorized according to palbociclib dose (75 milligram \\[mg\\], 100 mg and 125 mg) were reported in this outcome measure.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants Categorized According to Accompanying Endocrine Treatments",
+          "description": "Number of participants categorized according to accompanying endocrine treatments were reported in this outcome measure. Accompanying endocrine treatments included: tamoxifen/NOLVADEX , toremifene / FARESTON, raloxifene / EVISTA, anastrozole / ARIMIDEX, letrozole / FEMARA, exemestane / AROMASIN, fulvestrant / FASLODEX, goserlin acetate / Zoaldex, leuprorelin /Lupron, triptorelin / Decapeptyl, degarelix / Firmagon. One participant may have received more than one endocrine treatment accompanying palbociclib treatment.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants With Dose Interruption",
+          "description": "Number of participants with palbociclib dose interruption were reported in this outcome measure.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants With Dose Delays",
+          "description": "Number of participants with dose delays were reported in this outcome measure.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants Who Discontinued Palbociclib Treatment",
+          "description": "Number of participants who discontinued palbociclib treatment were reported in this outcome measure.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Duration of Palbociclib Treatment",
+          "description": "Duration of palbociclib treatment was defined as time (in days) from first to last day in palbociclib treatment.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants According to Supportive Therapies Received During Palbociclib Combination Treatment",
+          "description": "Number of participants according to supportive therapies received during palbociclib combination treatment were reported in this outcome measure. Supportive therapies included: zoledronic acid, calcium supplement, alfacalcidol, letrozole, vitamin D, gabapentin, tramadol, denosumab, granisetron, morphine, filgrastim, metoclopramide, dexamethasone, domperidone, duloxetine, fulvestrant, ondansetron, prednisolone, citalopram, itopride, oxycodone, pregabalin, sertraline. One participant may have received more than one supportive therapy.",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "Number of Participants Categorized According to Adjuvant Therapies",
+          "description": "Number of participants categorized according to adjuvant therapies were reported in this outcome measure. Adjuvant therapies included: adjuvant chemotherapy, adjuvant hormonal therapy, experimental adjuvant therapy, neoadjuvant chemotherapy, neoadjuvant hormonal therapy, radiotherapy and surgery. One participant may have received more than one type of adjuvant therapy.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Time Between Start of Palbociclib Treatment and End of Adjuvant Therapy for Early/Locally Advanced Breast Cancer",
+          "description": "Time between start of palbociclib treatment and end of therapy for early/locally advanced BC was calculated as date of initiation of palbociclib treatment - date of end of therapy for early/locally advanced therapy. Time between start of palbociclib treatment and end of adjuvant therapy for early/locally advanced breast cancer was collected at baseline from participant's medical records.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to Therapies Received Before Palbociclib Treatment",
+          "description": "Number of participants according to therapies received before palbociclib treatment were reported in this outcome measure. Therapies included: MBC chemotherapy, MBC hormonal therapy (other than Palbociclib combination), combination therapy, other therapy, radiotherapy and surgery. One participant may have received more than one type of therapy. Therapies for which non-zero data were available have been reported below.",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Duration of Therapy for Treatment Received Before Palbociclib Treatment",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)"
+        },
+        {
+          "measure": "Number of Participants According to First Subsequent Therapy Received After Palbociclib Treatment Discontinuation",
+          "description": "Number of participants according to first subsequent therapy received after palbociclib treatment discontinuation were reported in this outcome measure. Subsequent therapies included systemic therapy, radiotherapy, surgery and other therapy. Subsequent therapies for which non-zero data were available have been reported below.",
+          "timeFrame": "From palbociclib treatment discontinuation until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)"
+        },
+        {
+          "measure": "European Organization for the Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) Scale Scores",
+          "description": "EORTC QLQ-30 included five functional scales (physical functioning, role, emotional, cognitive and social functioning), nine symptom scales (fatigue, nausea or vomiting, pain, dyspnea, insomnia, appetite loss, constipation, diarrhea and financial difficulties, and a global health status scale (GHS). The GHS/QoL scale ranged from 1=very poor to 7=excellent. All other items ranged from 1=not at all to 4=very much. A linear transformation was applied to the raw scores so that all transformed scores lie between 0 to 100, with 0 being the worst and 100 being the best for GHS and functional scales, and 0 being the best and 100 being the worst for symptom scales.",
+          "timeFrame": "At 6, 12, 18 and 24 months post palbociclib treatment initiation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. \u226518 years or older with diagnosis of adenocarcinoma of the breast with evidence of metastatic /locally advanced disease not amenable to treatment with curative intent.\n2. Documented HR+ (ER+ and/or PR+) tumor based on local standards\n3. Documented HER2- tumor based on local standards\n4. Will initiate treatment with palbociclib plus letrozole/aromatase inhibitor or palbociclib plus fulvestrant in line with the licensed indication(s), as first or second line therapy for metastatic/locally advanced BC at enrollment\n5. Patients who in the opinion of the investigator are willing and able to comply with regular clinic visits\n6. Evidence of a personally signed and dated informed consent document indicating that the patient (or a legally acceptable representative) has been informed of all pertinent aspects of the study\n\nExclusion Criteria:\n\n1. Patients participating in any interventional clinical trial\n2. Patients on active treatment for malignancies other than metastatic/locally advanced BC at the time of enrollment\n3. Patients who are unable to understand the nature of the study and are unwilling to sign an informed consent",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with HR+/HER2- metastatic/locally advanced Breast Cancer",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pfizer CT.gov Call Center",
+          "affiliation": "Pfizer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Alexandria School of Medicine/Clinical Research Center CRC",
+          "city": "Alexandria",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 31.20176,
+            "lon": 29.91582
+          }
+        },
+        {
+          "facility": "Dar El Salam Oncology Hospital",
+          "city": "Cairo",
+          "zip": "11745",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        },
+        {
+          "facility": "National Cancer Institute",
+          "city": "Cairo",
+          "zip": "11796",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        },
+        {
+          "facility": "Ain Shams University Hospital",
+          "city": "Cairo",
+          "country": "Egypt",
+          "geoPoint": {
+            "lat": 30.06263,
+            "lon": 31.24967
+          }
+        },
+        {
+          "facility": "King Hussein Cancer Center",
+          "city": "Amman",
+          "zip": "11941",
+          "country": "Jordan",
+          "geoPoint": {
+            "lat": 31.95522,
+            "lon": 35.94503
+          }
+        },
+        {
+          "facility": "American University of Beirut Medical Center",
+          "city": "Beirut",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.89332,
+            "lon": 35.50157
+          }
+        },
+        {
+          "facility": "H\u00f4tel Dieu de France (HDF)",
+          "city": "Beirut",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.89332,
+            "lon": 35.50157
+          }
+        },
+        {
+          "facility": "Saint Joseph Hospital - Cancer Centers of Colorado",
+          "city": "Jdeid\u00e9 - Metn",
+          "country": "Lebanon"
+        },
+        {
+          "facility": "Hammoud Hospital University Medical Center (HHUMC)",
+          "city": "Sidon",
+          "country": "Lebanon",
+          "geoPoint": {
+            "lat": 33.55751,
+            "lon": 35.37148
+          }
+        },
+        {
+          "facility": "Hamad Medical Corporation",
+          "city": "Doha",
+          "country": "Qatar",
+          "geoPoint": {
+            "lat": 25.28545,
+            "lon": 51.53096
+          }
+        },
+        {
+          "facility": "King Fahad Specialist Hospital KFSH-Dammam",
+          "city": "Dammam",
+          "country": "Saudi Arabia",
+          "geoPoint": {
+            "lat": 26.43442,
+            "lon": 50.10326
+          }
+        },
+        {
+          "facility": "National Guard Hospital, Riyadh",
+          "city": "Riyadh",
+          "country": "Saudi Arabia",
+          "geoPoint": {
+            "lat": 24.68773,
+            "lon": 46.72185
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "To obtain contact information for a study center near you, click here.",
+          "url": "https://pmiform.com/clinical-trial-info-request?StudyID=A5481150"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical\\_trials/trial\\_data\\_and\\_results/data\\_requests."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "A total of 185 participants were enrolled in the study. Of these, 183 participants initiated palbociclib treatment and constituted the full analysis set (Full analysis set included all participants who fulfilled the eligibility criteria).",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Palbociclib Combination Therapy",
+          "description": "Eligible participants with hormone receptor positive (HR+) and human epidermal growth factor receptor 2 negative (HER2-) locally advanced/metastatic breast cancer (ABC/MBC) in Africa Middle East (AfME) countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "183"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "183"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Palbociclib Combination Therapy",
+          "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "183"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Less than (<) 55 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "76"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "55-64 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Greater than equal to (>=) 65 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "179"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Ethnicity",
+              "categories": [
+                {
+                  "title": "Middle Eastern",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "113"
+                    }
+                  ]
+                },
+                {
+                  "title": "Caucasian/White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "68"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian / Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Were Progression Free at 6 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the electronic case report form (e-CRF). Kaplan-Meier method was used.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "At 6 months from the date of palbociclib initiation in routine clinical practice",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.7",
+                      "lowerLimit": "72.6",
+                      "upperLimit": "85.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Were Progression Free at 12 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the e-CRF. Kaplan-Meier method was used.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "At 12 months from the date of palbociclib initiation in routine clinical practice",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "61.2",
+                      "lowerLimit": "52.9",
+                      "upperLimit": "68.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Were Progression Free at 18 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the e-CRF. Kaplan-Meier method was used.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "At 18 months from the date of palbociclib initiation in routine clinical practice",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45.4",
+                      "lowerLimit": "37.1",
+                      "upperLimit": "53.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Were Progression Free at 24 Months Post Palbociclib Initiation",
+          "description": "Percentage of participants who were progression free was defined as percentage of participants who were alive and for whom no progression of disease was reported. Progression of disease was defined as an increase in visible disease and/or presence of any new lesions, which were evaluated as per local guidelines by the clinician and were collected in the e-CRF. Kaplan-Meier method was used.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "At 24 months from the date of palbociclib initiation in routine clinical practice",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36.7",
+                      "lowerLimit": "27.9",
+                      "upperLimit": "45.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Were Alive at 1 Year Post Palbociclib Initiation",
+          "description": "Percentage of participants who were alive at 1 year post palbociclib initiation were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "At 1 year from the date of palbociclib initiation in routine clinical practice",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96.2",
+                      "lowerLimit": "92.3",
+                      "upperLimit": "98.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Who Were Alive at 2 Years Post Palbociclib Initiation",
+          "description": "Percentage of participants who were alive at 2 years post palbociclib initiation were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "At 2 year from the date of palbociclib initiation in routine clinical practice",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96.2",
+                      "lowerLimit": "92.3",
+                      "upperLimit": "98.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Objective Response Rate (ORR)",
+          "description": "ORR was defined as the percentage of participants with an overall tumor response of complete response (CR) or partial response (PR) or stable disease. Complete response was defined as complete reduction of all visible disease; partial response was defined as partial reduction in size of visible disease in some or all areas without any areas of increase in visible disease; stable disease was defined as no change in overall size of visible disease, also including cases where some lesions increased in size and some lesions decreased in size. The responses were evaluated as per local guidelines by the clinician and were collected in the e-CRF.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here, \"Overall Number of Participants Analyzed\" signifies number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Percentage of participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "124"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time From Initial Breast Cancer Diagnosis to Recurrence of Breast Cancer",
+          "description": "Data for time from initial breast cancer diagnosis to recurrence of breast cancer was collected at baseline from participants medical records.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. All participants reported under \"Overall number of Participants Analyzed\" signifies number of participants evaluable for this outcome measures and contributed data to table but may not have evaluable data for every row and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Days",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "93"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First Line Therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2448",
+                      "spread": "2092"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second Line Therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2111",
+                      "spread": "2007"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Stage of Breast Cancer",
+          "description": "Breast cancer stages included Stage I,IIA,IIB,IIIA,IIIB,IIIC as determined using Tumor Node Metastasis (TNM) classification system. Stage I: cancer is small and only in breast tissue or may be found in lymph nodes close to breast. Stage 2: there is cancer in breast or nearby lymph nodes or both. Stage IIA: no tumor found in breast, but cancer is found in one to three axillary lymph nodes, tumor measures 2 centimeter (cm) or smaller; IIB: tumor is larger than 2 cm. Stage 3: cancer is found in lymph nodes close to breast, skin of breast, or chest wall. Stage IIIA: any size tumor; spread to four to nine lymph nodes. Stage IIIB: any size tumor and has spread to chest wall and/or skin of breast and may have spread to up to nine axilliary lymph nodes or near breastbone. Stage IIIC: any size tumor and may have spread to chest wall or skin of breast and ten or more lymph nodes. Higher stage indicates more advanced disease.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. All participants reported under \"Overall number of Participants Analyzed\" signifies number of participants evaluable for this outcome measures and contributed data to table but may not have evaluable data for every row and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "61"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First line of therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "I",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIA",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIB",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIIA",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIIB",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIIC",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second line of therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "I",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIA",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIB",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIIA",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIIB",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "IIIC",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Node Status",
+          "description": "Number of participants classified according to node status were reported in this outcome measure. Node status included: N0, N1, N2, N3, NX. N0: there is no cancer in nearby lymph nodes, N1, N2 and N3: number and location of lymph nodes that contained cancer and NX: cancer is nearby lymph nodes cannot be measured.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. All participants reported under \"Overall number of Participants Analyzed\" signifies number of participants evaluable for this outcome measures and contributed data to table but may not have evaluable data for every row and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "79"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First line of therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "N0",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "N1",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "N2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "N3",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "NX",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second line of therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "N0",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "N1",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    }
+                  ]
+                },
+                {
+                  "title": "N2",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "N3",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "NX",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Menopausal Status",
+          "description": "Number of participants classified according to menopausal status were reported in this outcome measure. Menopausal status included: pre-menopausal and post-menopausal.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. All participants reported under \"Overall number of Participants Analyzed\" signifies number of participants evaluable for this outcome measures and contributed data to table but may not have evaluable data for every row and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "178"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First line of therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "95"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Post-menopausal",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pre-menopausal",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second line of therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Post-menopausal",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "64"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pre-menopausal",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Prescribed Palbociclib Combination",
+          "description": "Number of participants classified according to palbociclib combination prescribed (palbociclib plus letrozole/aromatase inhibitor and palbociclib plus fulvestrant) at palbociclib treatment initiation were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Palbociclib plus letrozole/aromatase inhibitor",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Palbociclib plus fulvestrant",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Sites of Metastases",
+          "description": "Number of participants classified according to sites of metastases (visceral and non-visceral) were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "179"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Visceral",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "96"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Non-visceral",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Metastatic Status",
+          "description": "Number of participants classified according to metastatic status (denovo advanced BC and recurrent/relapse advanced BC) were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Number Analyzed\" refers to the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First line therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Denovo advanced BC",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    }
+                  ]
+                },
+                {
+                  "title": "Recurrent/relapse advanced BC",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second line therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "85"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Denovo advanced BC",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "Recurrent/relapse advanced BC",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "66"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Mean Weight of the Participants",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. All participants reported under \"Overall number of Participants Analyzed\" signifies number of participants evaluable for this outcome measures and contributed data to table but may not have evaluable data for every row and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Kilogram (kg)",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "164"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First line therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "93"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "73.18",
+                      "spread": "15.76"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second line therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.15",
+                      "spread": "16.36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Categorized According to Family History of Breast Cancer",
+          "description": "Number of participants categorized according to family history of breast cancer (Yes/No) were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. All participants reported under \"Overall number of Participants Analyzed\" signifies number of participants evaluable for this outcome measures and contributed data to table but may not have evaluable data for every row and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "166"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "First line therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Second line therapy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Categorized According to Treatment Schedule",
+          "description": "Number of participants categorized according to treatment schedule of 3 weeks on, 1 week off (Yes) were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "183"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Categorized According to Palbociclib Dose",
+          "description": "Number of participants categorized according to palbociclib dose (75 milligram \\[mg\\], 100 mg and 125 mg) were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "75 mg",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "100 mg",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "125 mg",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "181"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Categorized According to Accompanying Endocrine Treatments",
+          "description": "Number of participants categorized according to accompanying endocrine treatments were reported in this outcome measure. Accompanying endocrine treatments included: tamoxifen/NOLVADEX , toremifene / FARESTON, raloxifene / EVISTA, anastrozole / ARIMIDEX, letrozole / FEMARA, exemestane / AROMASIN, fulvestrant / FASLODEX, goserlin acetate / Zoaldex, leuprorelin /Lupron, triptorelin / Decapeptyl, degarelix / Firmagon. One participant may have received more than one endocrine treatment accompanying palbociclib treatment.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Tamoxifen/NOLVADEX",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Toremifene / FARESTON",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Raloxifene / EVISTA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Anastrozole / ARIMIDEX",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Letrozole / FEMARA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "78"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Exemestane / AROMASIN",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fulvestrant / FASLODEX",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Goserlin Acetate / Zoaldex",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Leuprorelin / Lupron",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Triptorelin / Decapeptyl",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Degarelix / Firmagon",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Dose Interruption",
+          "description": "Number of participants with palbociclib dose interruption were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "121"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Dose Delays",
+          "description": "Number of participants with dose delays were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "124"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Who Discontinued Palbociclib Treatment",
+          "description": "Number of participants who discontinued palbociclib treatment were reported in this outcome measure.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "183"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Duration of Palbociclib Treatment",
+          "description": "Duration of palbociclib treatment was defined as time (in days) from first to last day in palbociclib treatment.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Days",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "92"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "275.1",
+                      "spread": "169.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Supportive Therapies Received During Palbociclib Combination Treatment",
+          "description": "Number of participants according to supportive therapies received during palbociclib combination treatment were reported in this outcome measure. Supportive therapies included: zoledronic acid, calcium supplement, alfacalcidol, letrozole, vitamin D, gabapentin, tramadol, denosumab, granisetron, morphine, filgrastim, metoclopramide, dexamethasone, domperidone, duloxetine, fulvestrant, ondansetron, prednisolone, citalopram, itopride, oxycodone, pregabalin, sertraline. One participant may have received more than one supportive therapy.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "126"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Zoledronic Acid",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Calcium Supplement",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Alfacalcidol",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Letrozole",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Vitamin D",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Gabapentin",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tramadol",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Denosumab",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Granisetron",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Morphine",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Filgrastim",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Metoclopramide",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dexamethasone",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Domperidone",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Duloxetine",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fulvestrant",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ondansetron",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Prednisolone",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Citalopram",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Itopride",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Oxycodone",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pregabalin",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Sertraline",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Categorized According to Adjuvant Therapies",
+          "description": "Number of participants categorized according to adjuvant therapies were reported in this outcome measure. Adjuvant therapies included: adjuvant chemotherapy, adjuvant hormonal therapy, experimental adjuvant therapy, neoadjuvant chemotherapy, neoadjuvant hormonal therapy, radiotherapy and surgery. One participant may have received more than one type of adjuvant therapy.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "42"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Adjuvant chemotherapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Adjuvant hormonal therapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Experimental adjuvant therapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Neoadjuvant chemotherapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Neoadjuvant hormonal therapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Radiotherapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Surgery",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time Between Start of Palbociclib Treatment and End of Adjuvant Therapy for Early/Locally Advanced Breast Cancer",
+          "description": "Time between start of palbociclib treatment and end of therapy for early/locally advanced BC was calculated as date of initiation of palbociclib treatment - date of end of therapy for early/locally advanced therapy. Time between start of palbociclib treatment and end of adjuvant therapy for early/locally advanced breast cancer was collected at baseline from participant's medical records.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Days",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1355",
+                      "spread": "1106"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to Therapies Received Before Palbociclib Treatment",
+          "description": "Number of participants according to therapies received before palbociclib treatment were reported in this outcome measure. Therapies included: MBC chemotherapy, MBC hormonal therapy (other than Palbociclib combination), combination therapy, other therapy, radiotherapy and surgery. One participant may have received more than one type of therapy. Therapies for which non-zero data were available have been reported below.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "MBC chemotherapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "MBC hormonal therapy (other than palbociclib combination)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Combination therapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other therapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Radiotherapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Duration of Therapy for Treatment Received Before Palbociclib Treatment",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Days",
+          "timeFrame": "At baseline (prior to initiation of palbociclib treatment)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "364.7",
+                      "spread": "573.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants According to First Subsequent Therapy Received After Palbociclib Treatment Discontinuation",
+          "description": "Number of participants according to first subsequent therapy received after palbociclib treatment discontinuation were reported in this outcome measure. Subsequent therapies included systemic therapy, radiotherapy, surgery and other therapy. Subsequent therapies for which non-zero data were available have been reported below.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From palbociclib treatment discontinuation until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "44"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Systemic therapy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Surgery",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "European Organization for the Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) Scale Scores",
+          "description": "EORTC QLQ-30 included five functional scales (physical functioning, role, emotional, cognitive and social functioning), nine symptom scales (fatigue, nausea or vomiting, pain, dyspnea, insomnia, appetite loss, constipation, diarrhea and financial difficulties, and a global health status scale (GHS). The GHS/QoL scale ranged from 1=very poor to 7=excellent. All other items ranged from 1=not at all to 4=very much. A linear transformation was applied to the raw scores so that all transformed scores lie between 0 to 100, with 0 being the worst and 100 being the best for GHS and functional scales, and 0 being the best and 100 being the worst for symptom scales.",
+          "populationDescription": "Full analysis set included all participants who fulfilled the eligibility criteria. Here \"Overall Number of Participants Analyzed\" signifies the number of participants evaluable for this outcome measure and \"Number Analyzed\" signifies the number of participants evaluable for the specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Units on a scale",
+          "timeFrame": "At 6, 12, 18 and 24 months post palbociclib treatment initiation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib Combination Therapy",
+              "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "103"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Global health status: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "59.63",
+                      "spread": "23.74"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Global health status: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.07",
+                      "spread": "23.53"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Global health status: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.47",
+                      "spread": "25.01"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Global health status: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70.40",
+                      "spread": "22.78"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Physical functioning: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "99"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70.10",
+                      "spread": "26.28"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Physical functioning: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.43",
+                      "spread": "24.90"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Physical functioning: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.71",
+                      "spread": "25.24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Physical functioning: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "74.25",
+                      "spread": "27.47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Role functioning: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "95"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "75.61",
+                      "spread": "25.36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Role functioning: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "68"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "74.75",
+                      "spread": "26.15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Role functioning: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77.63",
+                      "spread": "26.64"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Role functioning: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80.36",
+                      "spread": "24.87"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Emotional functioning: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "98"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "65.39",
+                      "spread": "24.94"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Emotional functioning: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67.29",
+                      "spread": "25.92"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Emotional functioning: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72.01",
+                      "spread": "24.52"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Emotional functioning: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "75.60",
+                      "spread": "22.79"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cognitive functioning: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "102"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81.54",
+                      "spread": "22.48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cognitive functioning: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77.93",
+                      "spread": "22.50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cognitive functioning: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "41"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80.89",
+                      "spread": "24.03"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cognitive functioning: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "86.21",
+                      "spread": "20.45"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Social functioning: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "94"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "73.76",
+                      "spread": "25.46"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Social functioning: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "66"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "71.97",
+                      "spread": "26.98"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Social functioning: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "78.95",
+                      "spread": "27.86"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Social functioning:24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83.33",
+                      "spread": "25.26"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fatigue: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40.02",
+                      "spread": "27.41"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fatigue: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39.81",
+                      "spread": "25.96"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fatigue: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.37",
+                      "spread": "30.17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fatigue: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.75",
+                      "spread": "25.84"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nausea or vomiting: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16.50",
+                      "spread": "23.04"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nausea or vomiting: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.88",
+                      "spread": "19.00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nausea or vomiting: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.24",
+                      "spread": "18.08"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nausea or vomiting: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.05",
+                      "spread": "16.44"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pain: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.85",
+                      "spread": "31.31"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pain: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40.74",
+                      "spread": "31.63"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pain: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.66",
+                      "spread": "34.04"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pain: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.71",
+                      "spread": "29.42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dyspnea: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.92",
+                      "spread": "29.04"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dyspnea: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.61",
+                      "spread": "27.66"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dyspnea: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.81",
+                      "spread": "30.07"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Dyspnea: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14.94",
+                      "spread": "21.06"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Insomnia: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.66",
+                      "spread": "34.77"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Insomnia: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.33",
+                      "spread": "32.14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Insomnia: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33.33",
+                      "spread": "34.88"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Insomnia: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.29",
+                      "spread": "31.69"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Appetite loss: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28.16",
+                      "spread": "30.16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Appetite loss: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.76",
+                      "spread": "30.72"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Appetite loss: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.81",
+                      "spread": "34.19"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Appetite loss: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.79",
+                      "spread": "24.43"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Constipation: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.24",
+                      "spread": "33.49"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Constipation: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "18.98",
+                      "spread": "28.43"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Constipation: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.05",
+                      "spread": "28.52"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Constipation: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.49",
+                      "spread": "24.03"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diarrhea: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7.77",
+                      "spread": "16.96"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diarrhea: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.33",
+                      "spread": "18.34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diarrhea: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.88",
+                      "spread": "10.81"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Diarrhea: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.45",
+                      "spread": "10.33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Financial difficulties: 6 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "103"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.37",
+                      "spread": "38.73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Financial difficulties: 12 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39.81",
+                      "spread": "38.21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Financial difficulties: 18 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.41",
+                      "spread": "40.85"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Financial difficulties: 24 months",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40.23",
+                      "spread": "40.22"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "For all-cause mortality: From initiation of palbociclib treatment until end of follow up, or until participant's withdrawal from the study or death, whichever came first (maximum up to 24 months); For SAEs and other AEs: Not applicable as adverse events were not collected in this study.",
+      "description": "As pre-specified, data for adverse events were not collected as part of the protocol. Hence, no AE-specific case report form (CRF) was developed, and safety reconciliation was not included within the scope of the study. As AEs were neither collected nor evaluated, the number of participants at risk for serious adverse events (SAEs) and non-serious adverse events is reported as 0.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Palbociclib Combination Therapy",
+          "description": "Eligible participants with HR+ and HER2- locally ABC/MBC in AfME countries and initiated treatment with palbociclib combination therapies in routine clinical practice were included. Participants were followed for up to 24 months or until participant's withdrawal from the study or death, whichever came first.",
+          "deathsNumAffected": 7,
+          "deathsNumAtRisk": 183,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days. Investigator will postpone single center publication until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results."
+      },
+      "pointOfContact": {
+        "title": "Pfizer ClinicalTrials.gov Call Center",
+        "organization": "Pfizer Inc.",
+        "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+        "phone": "1-800-718-1021"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2022-11-08",
+          "uploadDate": "2026-04-29T15:43",
+          "filename": "Prot_000.pdf",
+          "size": 2037227
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2022-02-15",
+          "uploadDate": "2026-04-29T15:44",
+          "filename": "SAP_001.pdf",
+          "size": 3384414
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

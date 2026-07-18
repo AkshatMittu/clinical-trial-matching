@@ -1,0 +1,288 @@
+{
+  "nct_id": "NCT02040857",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "trial_label": "Palbociclib in Combination With Adjuvant Endocrine Therapy f",
+  "recommendation": "possible_fit",
+  "score": 9.0,
+  "max_score": 18.0,
+  "coverage": 0.545,
+  "report_path": "data/reports/NCT02040857__1336121789.html",
+  "total_seconds": 35.64,
+  "total_cost_usd": 0.059,
+  "steps": [
+    {
+      "key": "rubric",
+      "label": "Build the trial's rubric",
+      "status": "done",
+      "detail": "11 criteria, max 18 pts",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "adjudicate",
+      "label": "Score the physician against it",
+      "status": "done",
+      "detail": "possible_fit \u2014 9.0/18.0 (55% coverage)",
+      "seconds": 26.8,
+      "cost_usd": 0.0476
+    },
+    {
+      "key": "precedent",
+      "label": "Look up what comparable trials did",
+      "status": "done",
+      "detail": "Of 135 comparable trials that reached a terminal status, 76% completed and 24% stopped early \u2014 11% of all of them specifically for failure to enrol.",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "patient",
+      "label": "Score participant experience in those trials",
+      "status": "done",
+      "detail": "median proxy 81.8/100 across 12 trials with posted results",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "interview",
+      "label": "Close the gaps public data left",
+      "status": "done",
+      "detail": "7 gaps, 6 questions, no answers supplied",
+      "seconds": 8.84,
+      "cost_usd": 0.0114
+    },
+    {
+      "key": "report",
+      "label": "Render the report",
+      "status": "done",
+      "detail": "/Users/akshatdasula/Documents/GitHub/hackathon/data/reports/NCT02040857__1336121789.html",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    }
+  ],
+  "artifacts": {
+    "rubric": "rubrics/NCT02040857.json",
+    "dossier": "evidence/1336121789.json",
+    "match": "match_reports/NCT02040857__1336121789.json",
+    "match_interviewed": null,
+    "precedent": "precedent/NCT02040857.json",
+    "patient_proxy": "patient_proxy/NCT02040857.json"
+  },
+  "interview": {
+    "gaps": [
+      {
+        "criterion_id": "serial_monitoring_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must be able to perform serial CBC with differential and 12-lead ECG monitoring on a recurring multi-year visit schedule (monthly initially, tapering to every 8-12 weeks over 2 years), including QTc assessment.",
+        "satisfies_if": "Physician/site self-attests to on-site or networked access to CBC lab draws and ECG equipment capable of supporting the described 2-year visit cadence with local result turnaround before dosing decisions.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "adjuvant_stage_ii_iii_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The site must see a regular volume of Stage II-III HR+/HER2-negative breast cancer patients in the adjuvant setting to support feasible enrollment.",
+        "satisfies_if": "Medicare claims data show the physician bills for a floor volume of breast cancer diagnosis/treatment E&M or infusion codes consistent with an active breast oncology practice (or physician self-attests to monthly volume of new adjuvant HR+ breast cancer patients).",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "endocrine_tolerant_pipeline",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "The practice must have a pipeline of patients already on or recently started on tamoxifen/AI therapy who have tolerated at least one month without significant adverse events, since enrollment requires prior demonstrated endocrine tolerance.",
+        "satisfies_if": "Physician self-attests that their practice routinely initiates and monitors adjuvant endocrine therapy in HR+ breast cancer patients as standard of care.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "male_breast_cancer_capability",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Since the trial enrolls both men and women, the site should have at least occasional experience managing male breast cancer patients or be prepared to do so.",
+        "satisfies_if": "Physician self-attests to having evaluated or treated at least one male breast cancer patient, or practice is a comprehensive cancer center handling rare presentations.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "biospecimen_shipping_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must be equipped to process, aliquot, freeze (-80C), and ship research blood specimens on dry ice per the CaTissue-tracked coordinating center protocol.",
+        "satisfies_if": "Physician/site self-attests to having -80C freezer storage, dry ice shipping capability, and research staff trained in specimen aliquoting and CaTissue-linked sample tracking.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "long_term_adherence_support_staff",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site needs research staff to maintain drug diaries, perform pill counts, and administer paper QOL surveys at every visit across a 2-year treatment course.",
+        "satisfies_if": "Physician/site self-attests to dedicated research coordinator or nursing staff responsible for adherence tracking (pill counts, drug diaries) and QOL survey administration at scheduled visits.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "academic_cancer_center_affiliation",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Given the trial ran through a Dana-Farber-affiliated multi-site network (DF/HCC), the investigator should be affiliated with an academic cancer center or a network site linked to a major cooperative group.",
+        "satisfies_if": "NPPES practice address matches one of the trial's listed site institutions or an affiliated satellite/community site within the same health system.",
+        "data_sources": [
+          "nppes"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": false
+      }
+    ],
+    "questions": [
+      {
+        "criterion_id": "serial_monitoring_infrastructure",
+        "question": "Do you have on-site or networked access to CBC lab draws and 12-lead ECG equipment (including QTc measurement) with results available before dosing decisions, on a recurring visit schedule over 2 years?",
+        "why": "Public records don't show your lab/ECG infrastructure or turnaround times for repeated dosing visits."
+      },
+      {
+        "criterion_id": "adjuvant_stage_ii_iii_volume",
+        "question": "Approximately how many new Stage II-III HR+/HER2-negative adjuvant breast cancer patients do you see per month in your practice?",
+        "why": "Billing data suggests some breast oncology volume, but we need your current monthly count of this specific adjuvant population."
+      },
+      {
+        "criterion_id": "endocrine_tolerant_pipeline",
+        "question": "Does your practice routinely initiate and monitor tamoxifen or aromatase inhibitor therapy as standard adjuvant care for HR+ breast cancer patients?",
+        "why": "We can't confirm from public data whether your practice regularly manages endocrine therapy initiation and monitoring."
+      },
+      {
+        "criterion_id": "male_breast_cancer_capability",
+        "question": "Have you personally evaluated or treated at least one male breast cancer patient, or does your practice regularly handle rare cancer presentations?",
+        "why": "Public records don't indicate whether you have experience managing male breast cancer cases."
+      },
+      {
+        "criterion_id": "biospecimen_shipping_capacity",
+        "question": "Does your site have -80C freezer storage, dry ice shipping capability, and staff trained in specimen aliquoting with CaTissue-linked tracking?",
+        "why": "This lab/logistics infrastructure isn't visible in public data and is required for research specimen handling."
+      },
+      {
+        "criterion_id": "long_term_adherence_support_staff",
+        "question": "Do you have a dedicated research coordinator or nursing staff who can perform pill counts, maintain drug diaries, and administer paper QOL surveys at each visit over a 2-year study period?",
+        "why": "Staffing capacity for long-term adherence tracking and survey administration isn't captured in public records."
+      }
+    ],
+    "answers": {},
+    "attestations": [],
+    "before": {
+      "score": 9.0,
+      "max_score": 18.0,
+      "score_pct": 0.5,
+      "coverage": 0.545,
+      "n_criteria": 11,
+      "n_answered": 6,
+      "verdict_counts": {
+        "satisfied": 4,
+        "partial": 2,
+        "unknown": 5
+      },
+      "gate_failures": [],
+      "recommendation": "possible_fit",
+      "reason": "scored 50% of available points",
+      "by_dimension": {
+        "expertise": {
+          "earned": 3.0,
+          "possible": 3.0,
+          "n": 2,
+          "pct": 1.0
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.3
+        },
+        "operational_capacity": {
+          "earned": 0.0,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.0
+        },
+        "trial_execution": {
+          "earned": 4.5,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.9
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    },
+    "after": {
+      "score": 9.0,
+      "max_score": 18.0,
+      "score_pct": 0.5,
+      "coverage": 0.545,
+      "n_criteria": 11,
+      "n_answered": 6,
+      "verdict_counts": {
+        "satisfied": 4,
+        "partial": 2,
+        "unknown": 5
+      },
+      "gate_failures": [],
+      "recommendation": "possible_fit",
+      "reason": "scored 50% of available points",
+      "by_dimension": {
+        "expertise": {
+          "earned": 3.0,
+          "possible": 3.0,
+          "n": 2,
+          "pct": 1.0
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.3
+        },
+        "operational_capacity": {
+          "earned": 0.0,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.0
+        },
+        "trial_execution": {
+          "earned": 4.5,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.9
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    }
+  }
+}

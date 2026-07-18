@@ -1,0 +1,239 @@
+{
+  "nct_id": "NCT02040857",
+  "trial_label": "Palbociclib in Combination With Adjuvant Endocrine Therapy f",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "variant": "public_only",
+  "model": "claude-sonnet-5",
+  "scoring": {
+    "score": 9.0,
+    "max_score": 18.0,
+    "score_pct": 0.5,
+    "coverage": 0.545,
+    "n_criteria": 11,
+    "n_answered": 6,
+    "verdict_counts": {
+      "satisfied": 4,
+      "partial": 2,
+      "unknown": 5
+    },
+    "gate_failures": [],
+    "recommendation": "possible_fit",
+    "reason": "scored 50% of available points",
+    "by_dimension": {
+      "expertise": {
+        "earned": 3.0,
+        "possible": 3.0,
+        "n": 2,
+        "pct": 1.0
+      },
+      "patient_population": {
+        "earned": 1.5,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 0.3
+      },
+      "operational_capacity": {
+        "earned": 0.0,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 0.0
+      },
+      "trial_execution": {
+        "earned": 4.5,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 0.9
+      }
+    },
+    "thresholds": {
+      "strong": 0.7,
+      "possible": 0.4,
+      "min_coverage": 0.5
+    }
+  },
+  "verdicts": [
+    {
+      "criterion_id": "breast_onc_specialty",
+      "verdict": "satisfied",
+      "rationale": "NPPES taxonomy lists Internal Medicine, Medical Oncology in Boston, MA, directly matching the required specialty designation.",
+      "evidence_refs": [
+        "NPI:1336121789"
+      ],
+      "dimension": "expertise",
+      "criticality": "hard_gate",
+      "requirement": "The investigator must be a medical oncologist or breast cancer specialist qualified to manage adjuvant HR+/HER2- breast cancer treatment decisions, including endocrine therapy and CDK4/6 inhibitor toxicity management.",
+      "satisfies_if": "NPPES taxonomy lists the physician as Medical Oncology, Hematology/Oncology, or Internal Medicine with an oncology subspecialty designation.",
+      "data_sources": [
+        "nppes"
+      ]
+    },
+    {
+      "criterion_id": "hr_positive_breast_experience",
+      "verdict": "satisfied",
+      "rationale": "Multiple PubMed publications directly address HR+/HER2- breast cancer, adjuvant endocrine therapy, and CDK4/6 inhibitors, including palbociclib-specific trials (TBCRC 035, PALLAS 5-year follow-up).",
+      "evidence_refs": [
+        "PMID:41812623",
+        "PMID:41110701",
+        "PMID:41672025",
+        "PMID:41125211"
+      ],
+      "dimension": "expertise",
+      "criticality": "primary",
+      "requirement": "The investigator should have demonstrated clinical or research familiarity with HR+/HER2-negative breast cancer management, given the trial's focus on endocrine-therapy-based adjuvant treatment.",
+      "satisfies_if": "PubMed search returns at least 1 publication by the physician on hormone receptor positive breast cancer, endocrine therapy, or CDK4/6 inhibitors.",
+      "data_sources": [
+        "pubmed"
+      ]
+    },
+    {
+      "criterion_id": "adjuvant_stage_ii_iii_volume",
+      "verdict": "partial",
+      "rationale": "Medicare claims show a meaningful floor of oncology E&M visit volume (206 services/134 beneficiaries) consistent with an active oncology practice, but the codes are general office/hospital E&M rather than breast-cancer-specific, and no self-attestation of adjuvant HR+ breast cancer volume is present.",
+      "evidence_refs": [
+        "HCPCS:99214",
+        "HCPCS:99215",
+        "HCPCS:99232"
+      ],
+      "dimension": "patient_population",
+      "criticality": "primary",
+      "requirement": "The site must see a regular volume of Stage II-III HR+/HER2-negative breast cancer patients in the adjuvant setting to support feasible enrollment.",
+      "satisfies_if": "Medicare claims data show the physician bills for a floor volume of breast cancer diagnosis/treatment E&M or infusion codes consistent with an active breast oncology practice (or physician self-attests to monthly volume of new adjuvant HR+ breast cancer patients).",
+      "data_sources": [
+        "medicare",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "endocrine_tolerant_pipeline",
+      "verdict": "unknown",
+      "rationale": "This criterion requires self-report data on routine adjuvant endocrine therapy initiation/monitoring, which is absent from the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "secondary",
+      "requirement": "The practice must have a pipeline of patients already on or recently started on tamoxifen/AI therapy who have tolerated at least one month without significant adverse events, since enrollment requires prior demonstrated endocrine tolerance.",
+      "satisfies_if": "Physician self-attests that their practice routinely initiates and monitors adjuvant endocrine therapy in HR+ breast cancer patients as standard of care.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "male_breast_cancer_capability",
+      "verdict": "unknown",
+      "rationale": "No self-attestation or other evidence regarding experience with male breast cancer patients is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "secondary",
+      "requirement": "Since the trial enrolls both men and women, the site should have at least occasional experience managing male breast cancer patients or be prepared to do so.",
+      "satisfies_if": "Physician self-attests to having evaluated or treated at least one male breast cancer patient, or practice is a comprehensive cancer center handling rare presentations.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "serial_monitoring_infrastructure",
+      "verdict": "unknown",
+      "rationale": "This criterion requires self-reported attestation of CBC/ECG monitoring infrastructure, which is not present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "The site must be able to perform serial CBC with differential and 12-lead ECG monitoring on a recurring multi-year visit schedule (monthly initially, tapering to every 8-12 weeks over 2 years), including QTc assessment.",
+      "satisfies_if": "Physician/site self-attests to on-site or networked access to CBC lab draws and ECG equipment capable of supporting the described 2-year visit cadence with local result turnaround before dosing decisions.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "biospecimen_shipping_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report data on -80C storage, dry ice shipping, or CaTissue-linked specimen tracking capability is present.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "The site must be equipped to process, aliquot, freeze (-80C), and ship research blood specimens on dry ice per the CaTissue-tracked coordinating center protocol.",
+      "satisfies_if": "Physician/site self-attests to having -80C freezer storage, dry ice shipping capability, and research staff trained in specimen aliquoting and CaTissue-linked sample tracking.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "long_term_adherence_support_staff",
+      "verdict": "unknown",
+      "rationale": "No self-report data on dedicated research coordinator/nursing staff for drug diaries, pill counts, or QOL survey administration is present.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "The site needs research staff to maintain drug diaries, perform pill counts, and administer paper QOL surveys at every visit across a 2-year treatment course.",
+      "satisfies_if": "Physician/site self-attests to dedicated research coordinator or nursing staff responsible for adherence tracking (pill counts, drug diaries) and QOL survey administration at scheduled visits.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "prior_investigator_role",
+      "verdict": "satisfied",
+      "rationale": "ClinicalTrials.gov lists this physician as overall official on 10 interventional oncology trials, including NCT02513394 (PALLAS, a palbociclib adjuvant breast cancer trial) and NCT03147287 (PACE), demonstrating prior investigator experience on multi-year protocol-driven oncology trials.",
+      "evidence_refs": [
+        "NCT02513394",
+        "NCT03147287",
+        "NCT06001762"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "primary",
+      "requirement": "The investigator should have prior experience serving as a site investigator on an interventional oncology trial, demonstrating capacity to run multi-year protocol-driven treatment and monitoring.",
+      "satisfies_if": "ClinicalTrials.gov lists the physician as Principal Investigator or Sub-Investigator on at least 1 completed or ongoing interventional oncology trial.",
+      "data_sources": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "industry_research_relationship",
+      "verdict": "satisfied",
+      "rationale": "Open Payments records show multiple research payments from F. Hoffmann-La Roche AG and E.R. Squibb & Sons for oncology trials (giredestrant/everolimus and RYZ101 studies), indicating prior sponsor-monitored trial relationships in the breast cancer oncology space.",
+      "evidence_refs": [
+        "OpenPayments:1211535676",
+        "OpenPayments:1236002143"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Given palbociclib is an industry-developed CDK4/6 inhibitor, prior research relationships with pharmaceutical sponsors (e.g., Pfizer) suggest familiarity with sponsor-monitored trial conduct and GCP compliance.",
+      "satisfies_if": "Open Payments database shows at least 1 research payment record associated with the physician from a pharmaceutical company within the oncology space in the years surrounding trial conduct.",
+      "data_sources": [
+        "open_payments"
+      ]
+    },
+    {
+      "criterion_id": "academic_cancer_center_affiliation",
+      "verdict": "partial",
+      "rationale": "NPPES lists the practice location as Boston, MA, consistent with the DF/HCC network area, and a PubMed abstract notes a related trial was 'Conducted at Dana-Farber Cancer Institute,' but the dossier lacks an explicit NPPES address match to a specific DF/HCC site institution.",
+      "evidence_refs": [
+        "NPI:1336121789",
+        "PMID:42258966"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Given the trial ran through a Dana-Farber-affiliated multi-site network (DF/HCC), the investigator should be affiliated with an academic cancer center or a network site linked to a major cooperative group.",
+      "satisfies_if": "NPPES practice address matches one of the trial's listed site institutions or an affiliated satellite/community site within the same health system.",
+      "data_sources": [
+        "nppes"
+      ]
+    }
+  ],
+  "narrative": "This physician presents a strong expertise and trial-execution profile: clear medical oncology credentials, a substantial and topically relevant publication record in HR+ breast cancer and CDK4/6 inhibitor therapy (including palbociclib-specific trials), a confirmed history as an overall official on multiple interventional oncology trials (notably the PALLAS palbociclib adjuvant trial), and documented industry research payments spanning relevant oncology sponsors. The weakest area is operational/logistical readiness for this specific protocol's heavy monitoring burden (serial CBC/ECG, biospecimen shipping, adherence tracking) and self-reported patient population specifics (male breast cancer experience, endocrine tolerance pipeline) \u2014 none of these self-report-dependent criteria have any attestation in the dossier, leaving them entirely unknown rather than negative. Medicare volume data confirms an active oncology practice but doesn't isolate breast-cancer-specific adjuvant volume. A short self-attestation covering monitoring infrastructure, staff support, and population specifics would substantially clarify feasibility.",
+  "target_trial_excluded": "NCT02040857",
+  "n_excluded_records": 1,
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 9445,
+      "output_tokens": 2873
+    },
+    "cost_usd": 0.0476
+  }
+}

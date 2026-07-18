@@ -1,0 +1,2257 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00821964",
+      "orgStudyIdInfo": {
+        "id": "6578"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2010-00040",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "R01CA138521",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01CA138521"
+        },
+        {
+          "id": "131",
+          "type": "OTHER",
+          "domain": "Tumor Vaccine Group"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Washington",
+        "class": "OTHER"
+      },
+      "briefTitle": "Topical Imiquimod and Abraxane in Treating Patients With Advanced Breast Cancer",
+      "officialTitle": "Phase II Study of Topical Imiquimod and Weekly Abraxane for the Treatment of Breast Cancer Cutaneous Metastases"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2012-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-11-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-01-13",
+      "studyFirstSubmitQcDate": "2009-01-13",
+      "studyFirstPostDateStruct": {
+        "date": "2009-01-14",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2017-04-14",
+      "resultsFirstSubmitQcDate": "2017-05-25",
+      "resultsFirstPostDateStruct": {
+        "date": "2017-06-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-12-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-01-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mary (Nora) Disis",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "University of Washington"
+      },
+      "leadSponsor": {
+        "name": "University of Washington",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase II trial is studying the side effects of giving topical imiquimod together with Abraxane (paclitaxel albumin-stabilized nanoparticle formulation) to see how well it works in treating patients with advanced breast cancer. Biological therapies, such as imiquimod, may stimulate the immune system to kill tumor cells. Drugs used in chemotherapy, such as Abraxane, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving imiquimod together with Abraxane may kill more tumor cells.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To evaluate the safety of chemoimmunotherapy with topical imiquimod and Abraxane in breast cancer patients with recurrent chest wall disease or cutaneous metastasis.\n\nII. To evaluate the anti-tumor effects of chemoimmunotherapy with topical imiquimod and Abraxane in breast cancer patients with recurrent chest wall disease or cutaneous metastasis.\n\nSECONDARY OBJECTIVES:\n\nI. To examine whether treatment with chemoimmunotherapy consisting of topical imiquimod and Abraxane augments endogenous tumor specific immunity.\n\nII. To assess the effect of chemoimmunotherapy on circulating transforming growth factor (TGF)-beta levels.\n\nOUTLINE:\n\nPatients receive Abraxane intravenously (IV) over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions once daily (QD) on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up at 1, 4, 8, and 12 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Male Breast Cancer",
+        "Recurrent Breast Cancer",
+        "Skin Metastases",
+        "Stage IV Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Stage IV",
+        "cream",
+        "topical"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment (biological therapy, chemo)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Drug: imiquimod",
+            "Drug: Abraxane",
+            "Other: laboratory biomarker analysis",
+            "Genetic: RNA analysis",
+            "Other: immunoenzyme technique"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "imiquimod",
+          "description": "Given topically",
+          "armGroupLabels": [
+            "Treatment (biological therapy, chemo)"
+          ],
+          "otherNames": [
+            "Aldara",
+            "IMQ",
+            "R 837"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Abraxane",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Treatment (biological therapy, chemo)"
+          ],
+          "otherNames": [
+            "Albumin-Stabilized Nanoparticle Paclitaxel",
+            "nab paclitaxel",
+            "nab-paclitaxel",
+            "nanoparticle albumin-bound paclitaxel",
+            "Nanoparticle Paclitaxel",
+            "paclitaxel albumin-stabilized nanoparticle formulation"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "laboratory biomarker analysis",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Treatment (biological therapy, chemo)"
+          ]
+        },
+        {
+          "type": "GENETIC",
+          "name": "RNA analysis",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Treatment (biological therapy, chemo)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "immunoenzyme technique",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Treatment (biological therapy, chemo)"
+          ],
+          "otherNames": [
+            "immunoenzyme techniques"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Anti-tumor Effects of Imiquimod as Assessed by Modified World Health Organization (WHO) Criteria",
+          "description": "Tumor responses will be determined using the sum of the products of the largest perpendicular dimensions. Target lesions will be evaluated by the following response criteria: complete response (CR), partial response (PR), stable disease (SD), or progressive disease (PD).\n\nEvaluation of target lesions per modified WHO response criteria:\n\n* Complete response (CR): complete clearance (100%) of target lesion(s)\n* Partial response (PR): \u2265 50% decrease in target lesion size\n* Stable disease (SD): \\< 50% decrease in target lesion size\n* Progressive (PD): \u2265 25% increase in target lesion size Overall Response Rate (ORR) determined at end of study treatment which was 1 week after cycle #3, unless patient was withdrawn from study. If patient was withdrawn from study, then ORR was determined after their last cycle of treatment received.",
+          "timeFrame": "Baseline and then every 4 weeks until week 24"
+        },
+        {
+          "measure": "Safety and Systemic Toxicity as Assessed by a Review of Medical History, Physical Exam, Systems, Performance Status, and Clinical Labs (CBC and CMP)",
+          "description": "Evaluated according to the Cancer Therapy Evaluation Program (CTEP) Common Terminology Criteria for Adverse Events (CTCAE) v3.0 and monitoring of adverse events will be done per Food and Drug Administration (FDA) and National Cancer Institute (NCI) guidelines for the time frame below.\n\nNumber of Participants with at Least 1 Adverse Event as Assessed by a Review of Medical History, Physical Exam, Systems, Performance Status, and Clinical Labs (CBC and CMP) under the following CTCAE categories:\n\nConstitutional (Fatigue) Neurological (Neuropathy (sensory or motor)) Cardiac (Arrhythemia) Pulmonary (Cough, Pharyngitis) GI (Constipation, Diarrhea, Mucositis, Vomiting) Dermatology (Ulceration, Hairloss/alopecia) Pain (Headache, other pain) Syndrome (Flu-like) Visual Changes Hearing/Auditory Edema Other (General)\n\nIn addition they were asked the severity of the event so that a clinician could grade the event.",
+          "timeFrame": "Baseline and weeks 5, 9 13, 16, 20, and 24"
+        },
+        {
+          "measure": "Pathologic Response by Immunohistochemical (IHC)as Assessed by Skin Punch Biopsy of the Target Lesion",
+          "description": "This is done by IHC staining reviewed by a pathologist. This is done by comparing the baseline to the post-treatment biopsy tissue. Yes equals absence of residual disease.",
+          "timeFrame": "Pre-and post-treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Endogenous Immunity to Common Breast Tumor Antigens (HER2, IGFBP-2, Topoisomerase II-alpha, and p53) in Peripheral Blood as Assessed by IFN-gamma and ELISPOT Assay",
+          "description": "Peripheral blood will be obtained at baseline, after cycle 3 (end of study treatment) and at week 24 (end of study) to assess the immune response. A positive antigen-specific T cell immune response will be defined as a T cell precursor frequency more robust than 1:20,000 PBMC if the patients did not have a detectable response prior to treatment. In patients with a pre-existent immune response, the development of an immune response twice baseline will constitute augmentation.",
+          "timeFrame": "Baseline and at weeks 13 and 24"
+        },
+        {
+          "measure": "Incidence of Reduction of Serum TGF-beta Levels as Assessed by ELISA and Correlation With Th1 Adaptive Immunity and Clinical Response",
+          "description": "Incidence of reduction of serum TGF-beta levels as assessed by ELISA and correlation with Th1 adaptive immunity and clinical response is defined as a reduction of at least 25% from baseline value to the value measured at week 13.",
+          "timeFrame": "Baseline and at weeks 13"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with advanced stage refractory breast cancer\n* Progressive or relapsed disease following standard therapy with chemotherapy and/or surgery, and/or radiation\n* Patients must have measurable (bi-dimensional) chest wall disease and/or cutaneous metastatic lesions\n* Patients must be at least 7 days from last chemotherapy and 30 days from local radiotherapy and/or systemic steroids\n* Patients on bisphosphonates, trastuzumab, lapatinib and/or hormonal therapy are eligible\n* White blood cell count \\>= 1000/ul\n* Absolute neutrophil count (ANC) \\>= 1200/ul\n* Platelets \\> 75,000/ul\n* Serum creatinine =\\< 2.0 mg/dL, a creatinine clearance \\> 60 ml/min\n* Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \\< 2 X upper limit normal (ULN)\n* Total bilirubin \\< 2 X ULN\n* Patients must have a Performance Status Score (Eastern Cooperative Oncology Group \\[ECOG\\] Scale) =\\< 2\n* Patients must have recovered from major infections and/or surgical procedures and, in the opinion of the investigator, not have a significant active concurrent medical illness precluding protocol treatment\n* Men and women of reproductive ability must agree to contraceptive use during the study and for 1 month after imiquimod/Abraxane treatment is discontinued\n\nExclusion Criteria:\n\n* Patients with prior allergic reaction to taxanes\n* Patients with any clinically significant active autoimmune disease requiring active treatment with systemic steroids or other immunomodulators\n* Pregnant or breast-feeding women\n* Patients with peripheral neuropathy \\>= Grade 2",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lupe Salazar",
+          "affiliation": "Fred Hutchinson Cancer Research Center/University of Washington Cancer Consortium",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fred Hutchinson Cancer Research Center/University of Washington Cancer Consortium",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28114604",
+          "type": "DERIVED",
+          "citation": "Salazar LG, Lu H, Reichow JL, Childs JS, Coveler AL, Higgins DM, Waisman J, Allison KH, Dang Y, Disis ML. Topical Imiquimod Plus Nab-paclitaxel for Breast Cancer Cutaneous Metastases: A Phase 2 Clinical Trial. JAMA Oncol. 2017 Jul 1;3(7):969-973. doi: 10.1001/jamaoncol.2016.6007."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment (Biological Therapy, Chemo)",
+          "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nimiquimod: Given topically\n\nAbraxane: Given IV\n\nlaboratory biomarker analysis: Correlative studies\n\nRNA analysis: Correlative studies\n\nimmunoenzyme technique: Correlative studies"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "15"
+                }
+              ]
+            },
+            {
+              "type": "Evaluable for Clinical Response",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "Evaluable for Pathologic Response",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment (Biological Therapy, Chemo)",
+          "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nimiquimod: Given topically\n\nAbraxane: Given IV\n\nlaboratory biomarker analysis: Correlative studies\n\nRNA analysis: Correlative studies\n\nimmunoenzyme technique: Correlative studies"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Anti-tumor Effects of Imiquimod as Assessed by Modified World Health Organization (WHO) Criteria",
+          "description": "Tumor responses will be determined using the sum of the products of the largest perpendicular dimensions. Target lesions will be evaluated by the following response criteria: complete response (CR), partial response (PR), stable disease (SD), or progressive disease (PD).\n\nEvaluation of target lesions per modified WHO response criteria:\n\n* Complete response (CR): complete clearance (100%) of target lesion(s)\n* Partial response (PR): \u2265 50% decrease in target lesion size\n* Stable disease (SD): \\< 50% decrease in target lesion size\n* Progressive (PD): \u2265 25% increase in target lesion size Overall Response Rate (ORR) determined at end of study treatment which was 1 week after cycle #3, unless patient was withdrawn from study. If patient was withdrawn from study, then ORR was determined after their last cycle of treatment received.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline and then every 4 weeks until week 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Biological Therapy, Chemo)",
+              "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nimiquimod: Given topically\n\nAbraxane: Given IV\n\nlaboratory biomarker analysis: Correlative studies\n\nRNA analysis: Correlative studies\n\nimmunoenzyme technique: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Total Evaluated in this Outcome Measure",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Response (CR)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Partial Response (PR)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stable Disease (SD)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Progressive Disease (PD)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Safety and Systemic Toxicity as Assessed by a Review of Medical History, Physical Exam, Systems, Performance Status, and Clinical Labs (CBC and CMP)",
+          "description": "Evaluated according to the Cancer Therapy Evaluation Program (CTEP) Common Terminology Criteria for Adverse Events (CTCAE) v3.0 and monitoring of adverse events will be done per Food and Drug Administration (FDA) and National Cancer Institute (NCI) guidelines for the time frame below.\n\nNumber of Participants with at Least 1 Adverse Event as Assessed by a Review of Medical History, Physical Exam, Systems, Performance Status, and Clinical Labs (CBC and CMP) under the following CTCAE categories:\n\nConstitutional (Fatigue) Neurological (Neuropathy (sensory or motor)) Cardiac (Arrhythemia) Pulmonary (Cough, Pharyngitis) GI (Constipation, Diarrhea, Mucositis, Vomiting) Dermatology (Ulceration, Hairloss/alopecia) Pain (Headache, other pain) Syndrome (Flu-like) Visual Changes Hearing/Auditory Edema Other (General)\n\nIn addition they were asked the severity of the event so that a clinician could grade the event.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline and weeks 5, 9 13, 16, 20, and 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Biological Therapy, Chemo)",
+              "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nimiquimod: Given topically\n\nAbraxane: Given IV\n\nlaboratory biomarker analysis: Correlative studies\n\nRNA analysis: Correlative studies\n\nimmunoenzyme technique: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "15"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pathologic Response by Immunohistochemical (IHC)as Assessed by Skin Punch Biopsy of the Target Lesion",
+          "description": "This is done by IHC staining reviewed by a pathologist. This is done by comparing the baseline to the post-treatment biopsy tissue. Yes equals absence of residual disease.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Pre-and post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Biological Therapy, Chemo)",
+              "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nimiquimod: Given topically\n\nAbraxane: Given IV\n\nlaboratory biomarker analysis: Correlative studies\n\nRNA analysis: Correlative studies\n\nimmunoenzyme technique: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Total Number of Evaluable for Pathologic Response",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Evaluable Pts. with Pathologic Response Post Tx",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Evaluable Pts. without Pathologic Response Post Tx",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Endogenous Immunity to Common Breast Tumor Antigens (HER2, IGFBP-2, Topoisomerase II-alpha, and p53) in Peripheral Blood as Assessed by IFN-gamma and ELISPOT Assay",
+          "description": "Peripheral blood will be obtained at baseline, after cycle 3 (end of study treatment) and at week 24 (end of study) to assess the immune response. A positive antigen-specific T cell immune response will be defined as a T cell precursor frequency more robust than 1:20,000 PBMC if the patients did not have a detectable response prior to treatment. In patients with a pre-existent immune response, the development of an immune response twice baseline will constitute augmentation.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline and at weeks 13 and 24",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "HER2, IGFBP-2, MAGE3, TopoIIa Antigen - Baseline to Week 13",
+              "description": "Precursor frequency of HER2, IGFBP-2, MAGE3, Topo II-alpha antigens between baseline to Week 13"
+            },
+            {
+              "id": "OG001",
+              "title": "HER2, IGFBP-2, MAGE3, Topo IIa Antigen - Baseline to Week 24",
+              "description": "Precursor frequency of HER2, IGFBP-2, MAGE3, Topo IIa Antigen - Baseline to Week 24"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "3"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "HER2 Antigen",
+              "categories": [
+                {
+                  "title": "Positive antigen-specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative antigen specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IGFBP-2 Antigen",
+              "categories": [
+                {
+                  "title": "Positive antigen-specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative antigen specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "MAGE3 Antigen",
+              "categories": [
+                {
+                  "title": "Positive antigen-specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative antigen specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "TopoII-alpha Antigen",
+              "categories": [
+                {
+                  "title": "Positive antigen-specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative antigen specific T cell immune response",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Incidence of Reduction of Serum TGF-beta Levels as Assessed by ELISA and Correlation With Th1 Adaptive Immunity and Clinical Response",
+          "description": "Incidence of reduction of serum TGF-beta levels as assessed by ELISA and correlation with Th1 adaptive immunity and clinical response is defined as a reduction of at least 25% from baseline value to the value measured at week 13.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Baseline and at weeks 13",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Incidence of Reduction of TGF-beta Levels",
+              "description": "Incidence of reduction of serum TGF-beta levels assessed by ELISA of at least 25% from baseline to week 13"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "8"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "No incidence of 25% reduction of TGF-beta at week1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Incidence of 25% reduction of TGF-beta at week 13",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment (Biological Therapy, Chemo)",
+          "description": "Patients receive Abraxane IV over 30 minutes on days 1, 8, and 15 and apply topical imiquimod to cutaneous lesions QD on days 1-4, 8-11, 15-18, and 22-25. Treatment repeats every 28 days for up to 3 cycles in the absence of disease progression or unacceptable toxicity.\n\nimiquimod: Given topically\n\nAbraxane: Given IV\n\nlaboratory biomarker analysis: Correlative studies\n\nRNA analysis: Correlative studies\n\nimmunoenzyme technique: Correlative studies",
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 15,
+          "otherNumAffected": 15,
+          "otherNumAtRisk": 15
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "ANC/AGC High",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - Low HCT",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 23,
+              "numAffected": 11,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - High immature granulocytes",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 7,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - Low immuature granulocytes",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - High MCH",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - Low MCHC",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 4,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other High MCV",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - High monocytes",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Other - Low RBC",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 8,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Others - High RDWCV",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 28,
+              "numAffected": 13,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Lymphopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 23,
+              "numAffected": 11,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Leukocytes High",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Leukopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 37,
+              "numAffected": 13,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 8,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Thrombocytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 12,
+              "numAffected": 7,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Sweating (diaphoresis)",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Weight Loss",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hair Loss/Alopecia (scalp or body)",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 12,
+              "numAffected": 11,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Nail Changes",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Pruritus/Itching",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Rash/Desquamation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Rash: Acne/Acneiform",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Rash: Hand-Foot Skin Reaction",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 8,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 4,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Mucositis/Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Clinical Exam",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Mucositis/Stromatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Functional/Symptomatic",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 7,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 4,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Nose Bleeds",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Edema: Limb",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Alkaline Phosphatase",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "High",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "ALT/ SGPT High",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "AST/SGOT High",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "AST/SGOT Low",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Creatinine High",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Creatinine Low",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "GFR Low",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Not clinically significant",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hyperkalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hypoalbuminemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "BUN High",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Not clinically significant",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "BUN Low",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Chloride High",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Ion gap high",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Protein Low",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy: Motor",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy: Sensory",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 9,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Ocular/Visual Other",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Eye redness, swelling, mild scleral edema",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Blurred Vision",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Pain - Back",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 6,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Pain (unspecified)",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 3,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Shoulder (right) - muscular/bony",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 6,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Psoriasis-like rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Distension/Bloating, abdominal",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Seroma Axillary on Right Side",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Beta-Hemolytic Streptococcus Bacteria",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Renal Pyelonephritis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Upper Respiratory Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Axilla (left)",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Axilla (right), shoulder, lateral back",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Pain - Breast",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Pain - Chest, Noncardiac",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 15
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 15
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Principal Investigator",
+        "organization": "University of Washington",
+        "email": "TrialTVG@medicine.washington.edu"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018567",
+          "term": "Breast Neoplasms, Male"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077271",
+          "term": "Imiquimod"
+        },
+        {
+          "id": "D000068196",
+          "term": "Albumin-Bound Paclitaxel"
+        },
+        {
+          "id": "D013660",
+          "term": "Taxes"
+        },
+        {
+          "id": "C520255",
+          "term": "130-nm albumin-bound paclitaxel"
+        },
+        {
+          "id": "D007124",
+          "term": "Immunoenzyme Techniques"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000634",
+          "term": "Aminoquinolines"
+        },
+        {
+          "id": "D011804",
+          "term": "Quinolines"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D000418",
+          "term": "Albumins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D004467",
+          "term": "Economics"
+        },
+        {
+          "id": "D004472",
+          "term": "Health Care Economics and Organizations"
+        },
+        {
+          "id": "D007118",
+          "term": "Immunoassay"
+        },
+        {
+          "id": "D007158",
+          "term": "Immunologic Techniques"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D007150",
+          "term": "Immunohistochemistry"
+        },
+        {
+          "id": "D015336",
+          "term": "Molecular Probe Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

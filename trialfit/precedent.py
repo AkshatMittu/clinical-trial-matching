@@ -162,6 +162,12 @@ def find_similar(info: dict, limit: int = 400, verbose: bool = True) -> dict:
         "median_sites_completed": _median([r["n_sites"] for r in completed]),
         "examples_stopped": sorted(
             stopped, key=lambda r: -(r["n_sites"] or 0))[:6],
+        # Every comparable trial, not just the six shown. The patient proxy
+        # draws its cohort from here — medianing five trials is noise wearing a
+        # decimal point, and `examples` was only ever a display slice.
+        "cohort_ids": [r["nct_id"] for r in
+                       sorted(rows, key=lambda r: not r["has_results"])],
+        "cohort_with_results": [r["nct_id"] for r in rows if r["has_results"]],
         "examples_completed": sorted(
             completed, key=lambda r: -(r["n_sites"] or 0))[:4],
         "sample_adequate": len(rows) >= MIN_SAMPLE,

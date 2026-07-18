@@ -1,0 +1,308 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05239663",
+      "orgStudyIdInfo": {
+        "id": "SYSUCC-016"
+      },
+      "organization": {
+        "fullName": "Sun Yat-sen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "GM1 Prophylaxis for Post-chemotherapy Cognitive Impairment in Patients With Early Operable Breast Cancer",
+      "officialTitle": "The Effects of Ganglioside-Monosialic Acid in Post-chemotherapy Cognitive Impairment in Patients With Early Operable Breast Cancer: A Randomized Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Difficulty accruing subjects the study accrual was closed",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-02-07",
+      "studyFirstSubmitQcDate": "2022-02-13",
+      "studyFirstPostDateStruct": {
+        "date": "2022-02-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhong-yu Yuan",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Sun Yat-sen University"
+      },
+      "leadSponsor": {
+        "name": "Sun Yat-sen University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the prophylactic effects of Ganglioside-Monosialic Acid in post-chemotherapy cognitive impairment in patients with early operable breast cancer.",
+      "detailedDescription": "This is a multicenter, prospective, randomized, single-blind, phase III clinical trial. The primary endpoint is the changes of cognitive function from baseline to 4 weeks after the completion of adjuvant chemotherapy in the experimental group and the control group, which were evaluated by HVLT-R scale. This study is designed to recruit up to 306 subjects."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chemotherapy-Related Cognitive Impairment",
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Ganglioside-Monosialic Acid, post-chemotherapy cognitive impairment, breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "experimental group",
+          "type": "EXPERIMENTAL",
+          "description": "standard (neo)adjuvant chemotherapy plus Ganglioside-Monosialic Acid 100mg+250ml normal saline (NS)",
+          "interventionNames": [
+            "Drug: Ganglioside-Monosialic Acid"
+          ]
+        },
+        {
+          "label": "Control group",
+          "type": "OTHER",
+          "description": "standard (neo)adjuvant chemotherapy plus 250ml normal saline (NS)",
+          "interventionNames": [
+            "Drug: 250ml normal saline (NS)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ganglioside-Monosialic Acid",
+          "description": "Standard (neo)adjuvant chemotherapy (Taxanes combined with cyclophosphamide or doxorubicin combined with cyclophosphamide followed by taxanes) plus Ganglioside-Monosialic Acid 100mg+250ml normal saline (NS)",
+          "armGroupLabels": [
+            "experimental group"
+          ],
+          "otherNames": [
+            "neuroprotective agents"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "250ml normal saline (NS)",
+          "description": "Standard (neo)adjuvant chemotherapy (Taxanes combined with cyclophosphamide or doxorubicin combined with cyclophosphamide followed by taxanes) plus 250ml normal saline (NS)",
+          "armGroupLabels": [
+            "Control group"
+          ],
+          "otherNames": [
+            "placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "HVLT R-DR",
+          "description": "The change of score for Hopkins verbal learning test -revised,delayed recall,from baseline to 4 weeks after the completion of adjuvant chemotherapy.",
+          "timeFrame": "4 weeks after the completion of adjuvant chemotherapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "HVLT R-DR",
+          "description": "The change of score for Hopkins verbal learning test -revised,delayed recall,from baseline to 12 weeks\uff0c24 weeks and 36 weeks after the completion of adjuvant chemotherapy.",
+          "timeFrame": "36 weeks after the completion of adjuvant chemotherapy"
+        },
+        {
+          "measure": "ADAS-Cog",
+          "description": "The change of score for Alzheimer's Disease Assessment Scale-Cognitive,from baseline to 12 weeks\uff0c24 weeks and 36 weeks after the completion of adjuvant chemotherapy.",
+          "timeFrame": "36 weeks after the completion of adjuvant chemotherapy"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Have provided written and signed informed consent;\n2. Histologically confirmed invasive ductal carcinoma;\n3. Planned to received (neo)/adjuvant chemotherapy;\n4. Eastern Cooperative Oncology Group (ECOG) score of 0 to 1;\n5. Can cope with HVLT-RDR and ADAS-Cog evaluation;\n6. No prior therapy could induce neurological damage,within 4 weeks\n7. Normal blood routine, liver and kidney functions within 1 week before enrollment in this study;\n8. Women of childbearing age have a negative serum or urinary pregnancy tests prior to enrollment in this study; Pre-menopause women are contracepted with medically acceptable methods during the study period.\n9. Compliance with the study protocol.\n\nExclusion Criteria:\n\n1. Eastern Cooperative Oncology Group (ECOG) score \u2265 2;\n2. Hypersensitivity to experiment agents or components;\n3. Women with pregnancy or breast feeding;\n4. A clear past history of neurological or psychiatric disorders, including epilepsy or dementia;\n5. Abnormal baseline impairment of cognitive impairment;\n6. Poor compliance, unwillingness or inability to follow protocol to continue the study;\n7. Any circumstances in which the investigator deemed the subject unsuitable for enrollment in this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Sun Yat-sen University Cancer Center",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510060",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000084202",
+          "term": "Chemotherapy-Related Cognitive Impairment"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D064420",
+          "term": "Drug-Related Side Effects and Adverse Reactions"
+        },
+        {
+          "id": "D064419",
+          "term": "Chemically-Induced Disorders"
+        },
+        {
+          "id": "D060825",
+          "term": "Cognitive Dysfunction"
+        },
+        {
+          "id": "D003072",
+          "term": "Cognition Disorders"
+        },
+        {
+          "id": "D019965",
+          "term": "Neurocognitive Disorders"
+        },
+        {
+          "id": "D001523",
+          "term": "Mental Disorders"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018696",
+          "term": "Neuroprotective Agents"
+        },
+        {
+          "id": "D000077330",
+          "term": "Saline Solution"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020011",
+          "term": "Protective Agents"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D002491",
+          "term": "Central Nervous System Agents"
+        },
+        {
+          "id": "D045506",
+          "term": "Therapeutic Uses"
+        },
+        {
+          "id": "D000077324",
+          "term": "Crystalloid Solutions"
+        },
+        {
+          "id": "D007552",
+          "term": "Isotonic Solutions"
+        },
+        {
+          "id": "D012996",
+          "term": "Solutions"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

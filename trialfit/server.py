@@ -54,8 +54,20 @@ def _load(p: Path) -> Optional[dict]:
 # Payload builders — each stage's "show your working" detail
 # ----------------------------------------------------------------------------
 def physicians_payload() -> list[dict]:
+    """The left rail. Scoped by demo_config.json when one exists.
+
+    A demo with three physicians and 34 pairs is a menu; one physician and six
+    trials spanning the tiers is a story. Delete the config to get everything
+    back — nothing else depends on it.
+    """
     roster = _load(DATA / "physicians_roster.json") or []
     pairs = json.loads((DATA / "scoring_pairs.json").read_text())
+    cfg = _load(DATA / "demo_config.json") or {}
+    if cfg.get("npi"):
+        roster = [p for p in roster if p["npi"] == cfg["npi"]]
+        keep = set(cfg.get("nct_ids") or [])
+        if keep:
+            pairs = [q for q in pairs if q["nct_id"] in keep]
     trajectories = {f"{t['nct_id']}__{t['npi']}"
                     for t in pipeline.list_trajectories(DATA)}
     out = []
@@ -160,8 +172,9 @@ def evidence_stage(nct_id: str, npi: str) -> dict:
             "summary": e["summary"], "caveat": e.get("caveat", ""),
             "n_records": len(e.get("records") or []),
             "records": [{k: r.get(k) for k in
-                         ("ref", "title", "taxonomy", "study", "payer",
-                          "description", "n_services", "amount_usd", "year")
+                         ("ref", "title", "abstract", "taxonomy", "study",
+                          "payer", "description", "n_services", "amount_usd",
+                          "year")
                          if r.get(k)}
                         for r in (e.get("records") or [])[:8]],
         } for e in filtered.get("entries", [])],
@@ -344,6 +357,9 @@ def stream_run(nct_id: str, npi: str, mode: str = "replay"):
     yield ("final", {
         "nct_id": nct_id, "npi": npi,
         "scoring": final.get("scoring"),
+        # Only when an interview genuinely re-scored — otherwise there is no
+        # "before" to compare against and one number is the honest display.
+        "before": (m.get("scoring") if rm.get("available") else None),
         "report_url": f"/report/{nct_id}__{npi}.html",
         "recorded": traj is not None,
         "live_seconds": (traj or {}).get("total_seconds"),

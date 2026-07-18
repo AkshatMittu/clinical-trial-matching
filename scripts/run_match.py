@@ -51,7 +51,17 @@ def load_answers(data_dir: Path, nct: str, npi: str) -> dict:
 
 
 def demo_pairs(data_dir: Path) -> list[tuple[str, str]]:
-    """Pairs worth prebuilding: every `known` pair, plus one weak per physician."""
+    """Pairs worth prebuilding.
+
+    With a demo_config.json, exactly the pairs it names — one physician across a
+    fixed spread of tiers. Without one, every `known` pair plus one `weak` per
+    physician, which is the widest useful default.
+    """
+    cfg_path = data_dir / "demo_config.json"
+    if cfg_path.exists():
+        cfg = json.loads(cfg_path.read_text())
+        if cfg.get("npi") and cfg.get("nct_ids"):
+            return [(n, cfg["npi"]) for n in cfg["nct_ids"]]
     pairs = json.loads((data_dir / "scoring_pairs.json").read_text())
     out, seen_weak = [], set()
     for p in pairs:

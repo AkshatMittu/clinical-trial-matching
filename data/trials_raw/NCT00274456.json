@@ -1,0 +1,5865 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00274456",
+      "orgStudyIdInfo": {
+        "id": "CA024"
+      },
+      "organization": {
+        "fullName": "Celgene",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Phase II Trial Comparing ABI-007 (Abraxane\u00ae, Nab\u00ae-Paclitaxel) to Taxotere in First Line Therapy of Patients With Stage IV Breast Cancer",
+      "officialTitle": "A Randomized Phase II Study of Weekly or Every 3 Weeks ABI-007 Versus Every 3 Weeks Taxotere as First Line Therapy of Stage IV (Metastatic) Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2005-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2008-03-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2011-07-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2006-01-10",
+      "studyFirstSubmitQcDate": "2006-01-10",
+      "studyFirstPostDateStruct": {
+        "date": "2006-01-11",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2011-02-07",
+      "resultsFirstSubmitQcDate": "2013-05-28",
+      "resultsFirstPostDateStruct": {
+        "date": "2013-07-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-11-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-11-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Celgene",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This was an open-label study conducted comparing the toxicity and antitumor activity of ABI-007 (Abraxane\u00ae, nab\u00ae-paclitaxel) to docetaxel (Taxotere).",
+      "detailedDescription": "This was an open-label, randomized study to compare the following regimens with respect to toxicity and antitumor activity:\n\n* the maximum tolerated dose (MTD) of ABI-007 300 mg/m\\^2 every 3 weeks;\n* ABI-007 100 mg/m\\^2 administered weekly for 3 weeks with a 1 week rest;\n* ABI-007 150 mg/m\\^2 administered weekly for 3 weeks with a 1 week rest;\n* the standard dose and schedule of Taxotere (100 mg/m\\^2 every 3 weeks)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "keywords": [
+        "Metastatic breast cancer, nab paclitaxel, docetaxel,"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 302,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ABI-007 300 mg/m^2 q3w",
+          "type": "EXPERIMENTAL",
+          "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w).",
+          "interventionNames": [
+            "Drug: ABI-007"
+          ]
+        },
+        {
+          "label": "ABI-007 100 mg/m^2 weekly",
+          "type": "EXPERIMENTAL",
+          "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest",
+          "interventionNames": [
+            "Drug: ABI-007"
+          ]
+        },
+        {
+          "label": "ABI-007 150 mg/m^2 weekly",
+          "type": "EXPERIMENTAL",
+          "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest",
+          "interventionNames": [
+            "Drug: ABI-007"
+          ]
+        },
+        {
+          "label": "Docetaxel 100 mg/m^2, q3w",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w).",
+          "interventionNames": [
+            "Drug: Docetaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ABI-007",
+          "description": "ABI-007 administered by intravenous infusion over 30 minutes at one of three different dosing levels (100, 150 or 300 mg/m\\^2) with a treatment cycle length of either 3 or 4 weeks depending upon treatment arm assignment.",
+          "armGroupLabels": [
+            "ABI-007 100 mg/m^2 weekly",
+            "ABI-007 150 mg/m^2 weekly",
+            "ABI-007 300 mg/m^2 q3w"
+          ],
+          "otherNames": [
+            "Abraxane\u00ae",
+            "nab\u00ae-paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "description": "Docetaxel dosed q3w at 100 mg/m\\^2",
+          "armGroupLabels": [
+            "Docetaxel 100 mg/m^2, q3w"
+          ],
+          "otherNames": [
+            "Taxotere"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Showing an Overall Response As Assessed by the Independent Radiology Reader and by the Investigator",
+          "description": "Percentage of participants who achieve an objective confirmed complete or partial overall response based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0. A complete response (CR) is the disappearance of all known disease and no new sites or disease related symptoms. A partial response (PR) is \\>= 30% decrease in the sum of the longest diameters of target lesion. PR was also recorded when all measurable disease has completely disappeared, but a non-measurable component (ie, ascites) is still present but not progressing. Overall response (ORR) = CR+PR.",
+          "timeFrame": "Day 1 up to 95 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Stable Disease for \u2265 16 Weeks, or Complete or Partial Overall Response",
+          "description": "Known as the disease control rate, this outcome measures the percentage of participants with stable disease for 16 weeks or more, or had a confirmed complete or partial response (see outcome #1 for confirmed response definitions). Assessments made by independent radiology and by investigators are reported separately",
+          "timeFrame": "Day 1 up to 95 weeks"
+        },
+        {
+          "measure": "Kaplan-Meier Estimates for Progression-free Survival (PFS)",
+          "description": "PFS was defined as the time from the date of randomization to the start of disease progression (PD) or patient death (any cause), whichever occurred first. Patients without disease progression were censored at the last time the patient was known to be progression-free. Patients who initiated new anticancer therapy prior to documented progression or death were censored at the start of new therapy. Disease progression was assessed separately by investigators and by an independent radiologist. Both assessments are offered. Response was evaluated using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0 (Therasse, 2000). PD for target lesions is defined as at least a 20% increase in the sum of the longest diameters of target lesions, taking as reference the smallest sum of the longest diameters recorded since the treatment started; or the appearance of one or more new lesions; or the unequivocal progression of a non-target lesion.",
+          "timeFrame": "Day 1 up to 95 weeks"
+        },
+        {
+          "measure": "Kaplan-Meier Estimates for Duration of Response Based on Independent Radiology Assessment of Response and Progression",
+          "description": "Duration of response was measured as the progression-free survival on patients with confirmed response. The independent radiology assessment is offered here. Response was evaluated using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0 (Therasse, 2000) and is defined in outcome #1. Progression-free survival is defined in outcome #3.",
+          "timeFrame": "Day 1 - 95 weeks"
+        },
+        {
+          "measure": "Kaplan-Meier Estimates for Duration of Response Based on Investigator Assessment of Response and Progression",
+          "description": "Duration of response was measured as the progression-free survival on patients with confirmed response. The investigator assessment is offered here. Response was evaluated using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0 (Therasse, 2000) and is defined in outcome #1. Progression-free survival is defined in outcome #3.",
+          "timeFrame": "Day 1 - 95 weeks"
+        },
+        {
+          "measure": "Kaplan-Meier Estimate for Overall Survival (OS)",
+          "description": "Participant survival was defined as the date of randomization to the date of death. Participants that were alive at the time of analysis were censored at the last known time that the participant was alive. The final analysis of mature overall survival was conducted after 2 years of follow-up (data cutoff date 31 Jan 2010).",
+          "timeFrame": "Day 1 to 221 weeks"
+        },
+        {
+          "measure": "Participants With Treatment-Emergent, Treatment-Related Adverse Events",
+          "description": "Summary of participants who had treatment-emergent that were treatment-related in the opinion of the investigator, and summarized in a variety of categories. The National Cancer Institute (NCI)'s Common Terminology Criteria for AEs (CTCAE) was used to grade AE severity: severity grade 3= severe and undesirable AE. Severity grade 4= life-threatening or disabling AE. Severity grade 5 = death.",
+          "timeFrame": "Day 1 up to 125 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Nadir of Myelosuppression (Over All Cycles) as Measured by Absolute Neutrophils (ANC), White Blood Cells (WBC) and Platelet Counts",
+          "description": "Maximal degree of myelosuppression is represented by the nadir in absolute neutrophil (ANC), white blood cell (WBC), and platelet measurements over all treatment cycles.",
+          "timeFrame": "Day 1 up to 125 weeks"
+        },
+        {
+          "measure": "Nadir of Myelosuppression (Over All Cycles) as Measured by Hemoglobin (Hb) Counts",
+          "description": "Maximal degree of myelosuppression is represented by the nadir in hemoglobin (Hb) measurements over all treatment cycles.",
+          "timeFrame": "Day 1 up to 125 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients had to meet the following criteria to be eligible for the study:\n\n1. Pathologically confirmed adenocarcinoma of the breast.\n2. No prior chemotherapy for metastatic breast cancer.\n3. Stage IV disease.\n4. Measurable disease (must have been \u2265 2.0 cm, except for pulmonary lesions that were well documented on CT scan that were \u2265 1.0 cm).\n5. At least 3 weeks since prior cytotoxic chemotherapy (patients should have recovered from all acute effects of such therapy.\n6. At least 4 weeks since radiotherapy, with full recovery. The measurable disease was completely outside the radiation portal or there was radiologic or clinical exam proof of progressive disease within the radiation portal.\n7. At least 4 weeks since major surgery, with full recovery.\n8. Eastern Cooperative Oncology Group (ECOG) performance status 0-2.\n9. Age \u226518 years.\n10. Patient had the following blood counts at Baseline:\n\n    * Absolute neutrophil count (ANC) \u22651.5\\*10\\^9 cells/L\n    * Platelets \u2265100\\*10\\^9 cells/L\n    * Hemoglobin (Hgb) \u22659 g/dL.\n11. Patient had the following baseline blood chemistry levels:\n\n    * Aspartate aminotransferase (AST \\[SGOT\\]), alanine aminotransferase (ALT \\[SGPT\\])\u22652.5x upper limit of normal (ULN) range\n    * Total bilirubin normal\n    * Alkaline phosphatase \u22652.5x ULN (unless bone metastasis is present in the absence of liver metastasis)\n    * Creatinine \u22651.5 mg/dL.\n12. Peripheral neuropathy Grade 0 or 1 by National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE).\n13. If female of childbearing potential, pregnancy test was negative (within 72 hours of the first dose of study drug).\n14. If fertile, the patient agreed to use an effective method to avoid pregnancy for the duration of the study.\n15. Informed consent had been obtained.\n\nExclusion Criteria:\n\nPatients who met any of the following criteria were excluded from the study:\n\n1. Prior neo-adjuvant or adjuvant chemotherapy was allowed. No prior chemotherapy for metastatic disease was allowed. If a taxane was part of the adjuvant regimen, at least one year should have transpired since completion of taxane regimen.\n2. Cumulative life-time dose of doxorubicin \\>360 mg/m\\^2. Doxorubicin was allowed as prior neo-adjuvant or adjuvant therapy but not for metastatic disease.\n3. Concurrent immunotherapy or hormonal therapy for breast cancer.\n4. Parenchymal brain metastases, unless documented to be clinically and radiographically stable for at least 6 months after treatment.\n5. Serious intercurrent medical or psychiatric illness, including serious active infection.\n6. History of class II-IV congestive heart failure.\n7. History of other malignancy within the last 5 years which could affect the diagnosis or assessment of breast cancer.\n8. Patients who had received an investigational drug within the previous 3 weeks.\n9. Patient was enrolled in a different clinical study in which investigational procedures were performed or investigational therapies were administered. Also, a patient was not permitted enroll in such clinical trials while participating in this study.\n10. Pregnant or nursing women\n11. Patients with prior hypersensitivity to either Taxol or Taxotere.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jose Iglesias, MD",
+          "affiliation": "Abraxis BioScience, LLC, a wholly owned subsidiary of Celgene Corporation",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Study Sites in Russia and the Ukraine",
+          "city": "Kiev",
+          "zip": "01021",
+          "country": "Ukraine",
+          "geoPoint": {
+            "lat": 50.45466,
+            "lon": 30.5238
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23563958",
+          "type": "BACKGROUND",
+          "citation": "O'Shaughnessy J, Gradishar WJ, Bhar P, Iglesias J. Nab-paclitaxel for first-line treatment of patients with metastatic breast cancer and poor prognostic factors: a retrospective analysis. Breast Cancer Res Treat. 2013 Apr;138(3):829-37. doi: 10.1007/s10549-013-2447-8. Epub 2013 Apr 6."
+        },
+        {
+          "pmid": "19470941",
+          "type": "RESULT",
+          "citation": "Gradishar WJ, Krasnojon D, Cheporov S, Makhson AN, Manikhas GM, Clawson A, Bhar P. Significantly longer progression-free survival with nab-paclitaxel compared with docetaxel as first-line therapy for metastatic breast cancer. J Clin Oncol. 2009 Aug 1;27(22):3611-9. doi: 10.1200/JCO.2008.18.5397. Epub 2009 May 26."
+        },
+        {
+          "pmid": "22728026",
+          "type": "RESULT",
+          "citation": "Gradishar WJ, Krasnojon D, Cheporov S, Makhson AN, Manikhas GM, Clawson A, Bhar P, McGuire JR, Iglesias J. Phase II trial of nab-paclitaxel compared with docetaxel as first-line chemotherapy in patients with metastatic breast cancer: final analysis of overall survival. Clin Breast Cancer. 2012 Oct;12(5):313-21. doi: 10.1016/j.clbc.2012.05.001. Epub 2012 Jun 23."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Three hundred and two patients were enrolled and randomized between November 2005 and June 2006, of which 300 received study drug and were evaluated for response and safety. Data below represents data cut-off 31 March 2008.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "ABI-007 300 mg/m^2 q3w",
+          "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+        },
+        {
+          "id": "FG001",
+          "title": "ABI-007 100 mg/m^2 Weekly",
+          "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+        },
+        {
+          "id": "FG002",
+          "title": "ABI-007 150 mg/m^2 Weekly",
+          "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+        },
+        {
+          "id": "FG003",
+          "title": "Docetaxel 100 mg/m^2 q3w",
+          "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "76"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "76"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "74"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "74"
+                }
+              ]
+            },
+            {
+              "type": "At Least One Response Assessment",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "73"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "76"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "73"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "70"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Treatment completed upon progressive disease",
+                  "numSubjects": "39"
+                },
+                {
+                  "groupId": "FG001",
+                  "comment": "Treatment completed upon progressive disease",
+                  "numSubjects": "49"
+                },
+                {
+                  "groupId": "FG002",
+                  "comment": "Treatment completed upon progressive disease",
+                  "numSubjects": "39"
+                },
+                {
+                  "groupId": "FG003",
+                  "comment": "Treatment completed upon progressive disease",
+                  "numSubjects": "29"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "37"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "27"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "35"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "45"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Still on treatment",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Unacceptable toxicity",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "16"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "5"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "13"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "13"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "ABI-007 300 mg/m^2 q3w",
+          "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+        },
+        {
+          "id": "BG001",
+          "title": "ABI-007 100 mg/m^2 Weekly",
+          "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+        },
+        {
+          "id": "BG002",
+          "title": "ABI-007 150 mg/m^2",
+          "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest."
+        },
+        {
+          "id": "BG003",
+          "title": "Docetaxel 100 mg/m^2 q3w",
+          "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+        },
+        {
+          "id": "BG004",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "76"
+            },
+            {
+              "groupId": "BG001",
+              "value": "76"
+            },
+            {
+              "groupId": "BG002",
+              "value": "74"
+            },
+            {
+              "groupId": "BG003",
+              "value": "74"
+            },
+            {
+              "groupId": "BG004",
+              "value": "300"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51.7",
+                      "spread": "9.47"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55.4",
+                      "spread": "9.59"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "53.3",
+                      "spread": "9.14"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "55.4",
+                      "spread": "11.57"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "53.9",
+                      "spread": "10.05"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Customized",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": ">=65 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "52"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "<65 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "62"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "64"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "248"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "300"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "White, Non-Hispanic, Non-Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "75"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "297"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "White, Hispanic or Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Weight",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Kg",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72.56",
+                      "spread": "12.668"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "73.64",
+                      "spread": "14.670"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "76.24",
+                      "spread": "13.437"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "75.99",
+                      "spread": "14.034"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "74.59",
+                      "spread": "13.742"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Eastern Cooperative Oncology Group (ECOG) Performance Status",
+          "description": "A scale used to assess the progress of disease in a patient, how the disease affects the daily living abilities of the patient, and determine appropriate treatment and prognosis.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "0 (fully active)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "119"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1 (restrictive but ambulatory)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "45"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "163"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2 (ambulatory but unable to work)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3 (limited self-care) + 4 (completely disabled)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Menopausal Status",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Pre-menopausal",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Post-menopausal",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "62"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "60"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "224"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Physician Assessment of Sensory Neuropathy",
+          "description": "The physician assessed sensory neuropathy using the National Cancer Institute's Common Terminology Criteria for Adverse Events (NCI CTCAE) of \"Neurology -- Neuropathy - Sensory\". The scale is 0=normal and 1=asymptomatic; loss of deep tendon reflexes or paresthesia (including tingling) but not interfering with function.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Grade 0",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "70"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "269"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Time from Primary Diagnosis and from First Metastasis/Relapse to Study Entry",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "Years",
+          "classes": [
+            {
+              "title": "Time from Primary Diagnosis to Study Entry",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1.24",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "11.9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1.17",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "14.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0.97",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "16.9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1.27",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "14.3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "1.23",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "16.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Time from First Metastasis/Relapse to Study Entry",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0.02",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "8.2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0.04",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "8.1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0.05",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "2.0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0.04",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "2.6"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0.04",
+                      "lowerLimit": "0.0",
+                      "upperLimit": "8.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Current Site of Metastasis/Relapse",
+          "description": "Patients may have multiple sites of metastasis/relapse.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Breast",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Skin/Soft Tissue",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "68"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Supraclavicular",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "93"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Axilla",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "44"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "182"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lung/Thoracic",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "58"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "211"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Hepatic/Liver",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "97"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Abdomen/Peritoneal",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Pelvis",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Bone",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "105"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dominant Current Site of Metastasis/Relapse",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Visceral",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "64"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "61"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "59"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "251"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Non-visceral",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stage at Primary Diagnosis",
+          "description": "Invasive breast cancer stages:\n\n* Stage I-cancer cells are breaking through to or invading normal surrounding breast tissue.\n* Stage IIa-breast tumor about 2cm and involvement of ancillary lymph nodes.\n* Stage IIb-a larger tumor than earlier phases.\n* Stage IIIa-axillary lymph nodes clumping together.\n* Stage IIIb-spread further to the skin, breast bone or chest wall.\n* Stage IIIc-expanded involvement of lymph nodes.\n* Stage IV-cancer that has spread beyond the breast and nearby lymph nodes to other organs of the body.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Stage I",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stage IIa",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stage IIb",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stage IIIa",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stage IIIb",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "50"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stage IIIc",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stage IV",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "97"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Number of Lesions (Target + Non-Target)",
+          "description": "Target lesions were selected on the basis of their size (those with the longest diameter) and their suitability for accurate repeat measurements (either by imaging techniques or clinically).",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "0 lesions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "1 lesion",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2-3 lesions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "40"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">3 lesions",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "63"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "62"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "60"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "252"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Participants Showing an Overall Response As Assessed by the Independent Radiology Reader and by the Investigator",
+          "description": "Percentage of participants who achieve an objective confirmed complete or partial overall response based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0. A complete response (CR) is the disappearance of all known disease and no new sites or disease related symptoms. A partial response (PR) is \\>= 30% decrease in the sum of the longest diameters of target lesion. PR was also recorded when all measurable disease has completely disappeared, but a non-measurable component (ie, ascites) is still present but not progressing. Overall response (ORR) = CR+PR.",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Day 1 up to 95 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "74"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Independent reader assessed ORR",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "37",
+                      "lowerLimit": "26.0",
+                      "upperLimit": "47.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "45",
+                      "lowerLimit": "33.6",
+                      "upperLimit": "55.9"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "49",
+                      "lowerLimit": "37.3",
+                      "upperLimit": "60.0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "35",
+                      "lowerLimit": "24.3",
+                      "upperLimit": "46.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investigator assessed ORR",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46",
+                      "lowerLimit": "34.8",
+                      "upperLimit": "57.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "63",
+                      "lowerLimit": "52.3",
+                      "upperLimit": "74.0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "74",
+                      "lowerLimit": "64.4",
+                      "upperLimit": "84.3"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "39",
+                      "lowerLimit": "28.1",
+                      "upperLimit": "50.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Independent reader assessed ORR. As per the protocol, if the conclusions from the investigator and independent assessments of response rate were the same, the investigator assessment was considered the primary analysis of response rate. If the conclusions were different, the independent radiology reader assessment was considered the primary analysis of response rate. The conclusions were different.",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.224",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons were performed only if this test was significant.",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed ORR. As per the protocol, if the conclusions from the investigator and independent assessments of response rate were the same, the investigator assessment was considered the primary analysis of response rate. If the conclusions were different, the independent radiology reader assessment was considered the primary analysis of response rate. The conclusions were different.",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "<0.001",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons were performed only if this test was significant.",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH was stratified by study site"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessed ORR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.002",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed ORR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "<0.001",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed ORR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Investigator assessed ORR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.024",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessed ORR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.099",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed ORR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.002",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage of Participants With Stable Disease for \u2265 16 Weeks, or Complete or Partial Overall Response",
+          "description": "Known as the disease control rate, this outcome measures the percentage of participants with stable disease for 16 weeks or more, or had a confirmed complete or partial response (see outcome #1 for confirmed response definitions). Assessments made by independent radiology and by investigators are reported separately",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Day 1 up to 95 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "74"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Independent Assessed SD Disease Control",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "68",
+                      "lowerLimit": "58.0",
+                      "upperLimit": "78.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "75",
+                      "lowerLimit": "65.3",
+                      "upperLimit": "84.7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "80",
+                      "lowerLimit": "70.6",
+                      "upperLimit": "88.9"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "58",
+                      "lowerLimit": "46.9",
+                      "upperLimit": "69.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investigator Assessed Disease Control",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "72",
+                      "lowerLimit": "62.3",
+                      "upperLimit": "82.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "83",
+                      "lowerLimit": "74.4",
+                      "upperLimit": "91.4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "91",
+                      "lowerLimit": "83.9",
+                      "upperLimit": "97.2"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "69",
+                      "lowerLimit": "58.4",
+                      "upperLimit": "79.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.027",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.009",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.017",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "Independent assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.085",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed disease control rate (DCR), ie, SD \\>= 16 weeks, or CR or PR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.007",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparison was performed only if this test was significant.",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.009",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.005",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciNumSides": "TWO_SIDED"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site."
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Investigator assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.098",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessed DCR",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.014",
+              "statisticalMethod": "Cochran-Mantel-Haenszel",
+              "statisticalComment": "CMH test was stratified by study site.",
+              "ciPctValue": "95"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Kaplan-Meier Estimates for Progression-free Survival (PFS)",
+          "description": "PFS was defined as the time from the date of randomization to the start of disease progression (PD) or patient death (any cause), whichever occurred first. Patients without disease progression were censored at the last time the patient was known to be progression-free. Patients who initiated new anticancer therapy prior to documented progression or death were censored at the start of new therapy. Disease progression was assessed separately by investigators and by an independent radiologist. Both assessments are offered. Response was evaluated using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0 (Therasse, 2000). PD for target lesions is defined as at least a 20% increase in the sum of the longest diameters of target lesions, taking as reference the smallest sum of the longest diameters recorded since the treatment started; or the appearance of one or more new lesions; or the unequivocal progression of a non-target lesion.",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "Day 1 up to 95 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "74"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Independent Assessment for PFS",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11.0",
+                      "lowerLimit": "7.3",
+                      "upperLimit": "15.0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12.8",
+                      "lowerLimit": "9.0",
+                      "upperLimit": "14.7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12.9",
+                      "lowerLimit": "10.9",
+                      "upperLimit": "16.6"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "7.5",
+                      "lowerLimit": "7.2",
+                      "upperLimit": "9.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investigator Assessment for PFS",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10.9",
+                      "lowerLimit": "8.9",
+                      "upperLimit": "14.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7.5",
+                      "lowerLimit": "7.2",
+                      "upperLimit": "9.3"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "14.6",
+                      "lowerLimit": "10.0",
+                      "upperLimit": "18.9"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "7.8",
+                      "lowerLimit": "6.3",
+                      "upperLimit": "11.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.0498",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons were performed only if this test was significant.",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.0524",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "0.607"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.0065",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "0.495"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.008",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons was performed only if this test was significant.",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.012",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "0.568"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.001",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.972"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.076",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "0.702"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Kaplan-Meier Estimates for Duration of Response Based on Independent Radiology Assessment of Response and Progression",
+          "description": "Duration of response was measured as the progression-free survival on patients with confirmed response. The independent radiology assessment is offered here. Response was evaluated using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0 (Therasse, 2000) and is defined in outcome #1. Progression-free survival is defined in outcome #3.",
+          "populationDescription": "Patients with a confirmed CR or PR were included in this analysis. Patients who did not progress or die were censored at the last known time when patient was progression free. Patients who initiated other anticancer therapy prior to progression were censored at the time when new anticancer therapy was initiated.",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "Day 1 - 95 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "36"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "26"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13.0",
+                      "lowerLimit": "11.2",
+                      "upperLimit": "23.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13.2",
+                      "lowerLimit": "11.3",
+                      "upperLimit": "14.9"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "15.1",
+                      "lowerLimit": "10.9",
+                      "upperLimit": "16.7"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "9.0",
+                      "lowerLimit": "7.5",
+                      "upperLimit": "14.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Independent assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons was performed only if this test was significant.",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Kaplan-Meier Estimates for Duration of Response Based on Investigator Assessment of Response and Progression",
+          "description": "Duration of response was measured as the progression-free survival on patients with confirmed response. The investigator assessment is offered here. Response was evaluated using Response Evaluation Criteria in Solid Tumors (RECIST) version 1.0 (Therasse, 2000) and is defined in outcome #1. Progression-free survival is defined in outcome #3.",
+          "populationDescription": "Patients with a confirmed CR or PR were included in this analysis. Patients who did not progress or die were censored at the last known time when patient was progression free. Patients who initiated other anticancer therapy prior to progression were censored at the time when new anticancer therapy was initiated.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "Day 1 - 95 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "35"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "48"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "55"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12.9",
+                      "lowerLimit": "10.3",
+                      "upperLimit": "19.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9.2",
+                      "lowerLimit": "7.4",
+                      "upperLimit": "12.4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "14.8",
+                      "lowerLimit": "12.8",
+                      "upperLimit": "19.2"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "15.1",
+                      "lowerLimit": "11.0",
+                      "upperLimit": "17.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.013",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons was performed only if this test was significant.",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.022",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.005",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "groupDescription": "Investigator assessment",
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Kaplan-Meier Estimate for Overall Survival (OS)",
+          "description": "Participant survival was defined as the date of randomization to the date of death. Participants that were alive at the time of analysis were censored at the last known time that the participant was alive. The final analysis of mature overall survival was conducted after 2 years of follow-up (data cutoff date 31 Jan 2010).",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "Day 1 to 221 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "74"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.7",
+                      "lowerLimit": "21.7",
+                      "upperLimit": "38.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22.2",
+                      "lowerLimit": "16.9",
+                      "upperLimit": "29.4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "33.8",
+                      "lowerLimit": "29.1",
+                      "upperLimit": "41.3"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "26.6",
+                      "lowerLimit": "19.0",
+                      "upperLimit": "31.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001",
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.047",
+              "pValueComment": "A step-down approach was used to compare treatment regimens. First an overall \"test of treatment difference\" (a 3-degree-of -freedom test) was performed. Pairwise comparisons were performed only if this test was significant.",
+              "statisticalMethod": "Log Rank",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG002",
+                "OG003"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.069",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "0.686",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG000",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": ">0.05",
+              "statisticalMethod": "Log Rank",
+              "ciPctValue": "95"
+            },
+            {
+              "groupIds": [
+                "OG001",
+                "OG002"
+              ],
+              "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+              "pValue": "0.008",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.740",
+              "ciPctValue": "95"
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Nadir of Myelosuppression (Over All Cycles) as Measured by Absolute Neutrophils (ANC), White Blood Cells (WBC) and Platelet Counts",
+          "description": "Maximal degree of myelosuppression is represented by the nadir in absolute neutrophil (ANC), white blood cell (WBC), and platelet measurements over all treatment cycles.",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug, and had blood tests performed following treatment. Three participants dropped out after a single dose so have no post-treatment lab values.",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "10^9/L",
+          "timeFrame": "Day 1 up to 125 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "75"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "72"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "ANC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.21",
+                      "spread": "1.004"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.51",
+                      "spread": "0.960"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1.11",
+                      "spread": "0.628"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0.38",
+                      "spread": "0.339"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "WBC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.88",
+                      "spread": "1.187"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3.15",
+                      "spread": "1.228"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2.68",
+                      "spread": "0.817"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "1.60",
+                      "spread": "0.726"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Platelet",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "182.1",
+                      "spread": "59.16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "192.1",
+                      "spread": "57.82"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "172.6",
+                      "spread": "46.39"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "161.8",
+                      "spread": "49.06"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Participants With Treatment-Emergent, Treatment-Related Adverse Events",
+          "description": "Summary of participants who had treatment-emergent that were treatment-related in the opinion of the investigator, and summarized in a variety of categories. The National Cancer Institute (NCI)'s Common Terminology Criteria for AEs (CTCAE) was used to grade AE severity: severity grade 3= severe and undesirable AE. Severity grade 4= life-threatening or disabling AE. Severity grade 5 = death.",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "Day 1 up to 125 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "74"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": ">= 1 adverse event (AE)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "75"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "75"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 treatment-related AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "74"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "72"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "73"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "72"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 serious AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 treatment-related serious AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 severe (grade 3-5) treatment-related AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "71"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 3-5 Neutropenia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "68"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 3-5 Febrile neutropenia",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 3-5 Sensory neuropathy",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 AE with outcome of death",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 treatment-related AE with outcome of death",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 treatment-related AE drug discontinued",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 treatment-related AE drug dosage reduced",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "35"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=1 treatment-related AE drug interrupted",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "OTHER_PRE_SPECIFIED",
+          "title": "Nadir of Myelosuppression (Over All Cycles) as Measured by Hemoglobin (Hb) Counts",
+          "description": "Maximal degree of myelosuppression is represented by the nadir in hemoglobin (Hb) measurements over all treatment cycles.",
+          "populationDescription": "The treated population consisted of all randomized participants who received at least one dose of study drug, and had blood tests performed following treatment. Three participants dropped out after a single dose so have no post-treatment lab values.",
+          "reportingStatus": "POSTED",
+          "anticipatedPostingDate": "2010-11",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "g/L",
+          "timeFrame": "Day 1 up to 125 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "ABI-007 300 mg/m^2 q3w",
+              "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w)."
+            },
+            {
+              "id": "OG001",
+              "title": "ABI-007 100 mg/m^2 Weekly",
+              "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG002",
+              "title": "ABI-007 150 mg/m^2 Weekly",
+              "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest"
+            },
+            {
+              "id": "OG003",
+              "title": "Docetaxel 100 mg/m^2 q3w",
+              "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w)."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "75"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "76"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "74"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "72"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "112.1",
+                      "spread": "10.58"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "106.7",
+                      "spread": "10.72"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "105.6",
+                      "spread": "11.31"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "107.1",
+                      "spread": "13.39"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Day 1 up to 125 weeks",
+      "description": "Treatment-emergent AEs defined as AEs that begin or worsen in grade after the first dose of study drug through 30 days after the last dose of study drug.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "ABI-007 300 mg/m^2 q3w",
+          "description": "ABI-007 300 mg/m\\^2 administered once every third week (q3w).",
+          "seriousNumAffected": 14,
+          "seriousNumAtRisk": 76,
+          "otherNumAffected": 75,
+          "otherNumAtRisk": 76
+        },
+        {
+          "id": "EG001",
+          "title": "ABI-007 100 mg/m^2 Weekly",
+          "description": "ABI-007 100 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest",
+          "seriousNumAffected": 12,
+          "seriousNumAtRisk": 76,
+          "otherNumAffected": 75,
+          "otherNumAtRisk": 76
+        },
+        {
+          "id": "EG002",
+          "title": "ABI-007 150 mg/m^2 Weekly",
+          "description": "ABI-007 150 mg/m\\^2 once weekly for 3 weeks followed by 1 week of rest",
+          "seriousNumAffected": 11,
+          "seriousNumAtRisk": 74,
+          "otherNumAffected": 73,
+          "otherNumAtRisk": 74
+        },
+        {
+          "id": "EG003",
+          "title": "Docetaxel 100 mg/m^2 q3w",
+          "description": "Docetaxel (Taxotere) 100 mg/m\\^2 administered once every third week (q3w).",
+          "seriousNumAffected": 56,
+          "seriousNumAtRisk": 74,
+          "otherNumAffected": 73,
+          "otherNumAtRisk": 74
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 52,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 8,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Thrombocytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Bowel peristalsis increased",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Gastritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Erysipelas",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Chronic sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Cardiopulmonary failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Body temperature increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Liver function test abnormal",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Hypercalcaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Lymphocele",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Thrombophlebitis",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Optic ischaemic neuropathy",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Inflammation localised",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Jaundice",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Hypersensitivity",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Convulsion",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Urinary retention",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Peripheral sensory neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 33,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 30,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 45,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 29,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 19,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 9,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 15,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy peripheral",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 13,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 7,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 6,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Hypoaesthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Peripheral motor neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 6,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Paraesthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 51,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 59,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 59,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 52,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Nail disorder",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 20,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 10,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Skin hyperpigmentation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Skin toxicity",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 22,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 18,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 22,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 30,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 16,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 18,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Performance status decreased",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 18,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 10,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 14,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 14,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 14,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 31,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 22,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 38,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 55,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Leukopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 17,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 26,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 16,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 26,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 17,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 13,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 10,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 7,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 16,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 15,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 10,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 15,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 16,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection viral",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 6,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Gamma glutamyl transferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 5,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 1,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Body temperature increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 4,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 3,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 0,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Hyperaemia",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 8,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 2,
+              "numAtRisk": 74
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (6.1)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 76
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 74
+            },
+            {
+              "groupId": "EG003",
+              "numAffected": 7,
+              "numAtRisk": 74
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Publications of this multicenter trial should include input from INVESTIGATORS, his/her colleagues, and SPONSOR personnel. Such input should be reflected in publication authorship, and agreement regarding order of authors should be established before writing a manuscript. Subsequent to the multicenter publication or one year after completion of the study, whichever occurs first, an investigator and/or his/her colleagues may publish the results of INVESTIGATOR's part of the study independently."
+      },
+      "pointOfContact": {
+        "title": "Associate Director, Clinical Trials Disclosure",
+        "organization": "Celgene Corporation",
+        "email": "clinicaltrialdisclosure@celgene.com",
+        "phone": "1-888-260-1599"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068196",
+          "term": "Albumin-Bound Paclitaxel"
+        },
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D000418",
+          "term": "Albumins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

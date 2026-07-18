@@ -1,0 +1,923 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02518191",
+      "orgStudyIdInfo": {
+        "id": "JTU-6H-20150731001"
+      },
+      "organization": {
+        "fullName": "Shanghai Jiao Tong University Affiliated Sixth People's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effects of GnRHa on Ovarian Function Against Chemotherapy-induced-gonadotoxicity",
+      "officialTitle": "Effects of GnRHa on Ovarian Function Against Chemotherapy-induced-gonadotoxicity in Women With Breast Cancer in China"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-01-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-01-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-08-05",
+      "studyFirstSubmitQcDate": "2015-08-05",
+      "studyFirstPostDateStruct": {
+        "date": "2015-08-07",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2021-03-12",
+      "resultsFirstSubmitQcDate": "2021-04-07",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-05-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-05-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-06-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Xiangyun Zong",
+        "investigatorTitle": "Chief",
+        "investigatorAffiliation": "Shanghai Jiao Tong University Affiliated Sixth People's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Xiangyun Zong",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Zhejiang Cancer Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective randomized controlled study is conducted to analyze the effect of Goserelin on ovarian function in women with breast cancer in China."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "GnRHa",
+        "ovarian function",
+        "anti-mullerian hormone"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 345,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "GnRHa group",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible patients with breast cancer treated with GnRHa while receiving chemotherapy.",
+          "interventionNames": [
+            "Drug: GnRHa"
+          ]
+        },
+        {
+          "label": "None GnRHa group",
+          "type": "NO_INTERVENTION",
+          "description": "Eligible patients with breast cancer treated without GnRHa while receiving chemotherapy."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "GnRHa",
+          "description": "3.6mg subcutaneous injection every 28 days.Initiated 1-2 weeks before chemotherapy and ended 4-8 weeks after chemotherapy.",
+          "armGroupLabels": [
+            "GnRHa group"
+          ],
+          "otherNames": [
+            "goserelin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Premature Ovarian Insufficiency",
+          "description": "The serum levels of anti-M\u00fcllerian hormone (AMH) were measured using human AMH ELISA kit (11351, Biofine)). POI (premature ovarian insufficiency) was defined as AMH\\<0.5ng/mL in this study.",
+          "timeFrame": "1 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Survival Rate",
+          "description": "Overall Survival \\& Tumor Free Survival",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Premenopausal women 18 to 49 years of age are eligible for enrollment\n* Patients have operable stage I to IIIA breast cancer for which treatment with adjuvant or neoadjuvant cyclophosphamide-containing chemotherapy was planned.\n* Eligible participants had taken no estrogens, antiestrogens, selective estrogen-receptor modulators, aromatase inhibitors, or hormonal contraceptives within the month before enrollment.\n* Human chorionic gonadotropin negative by urine test before entering the group.\n* Informed consent, understanding and compliance with the requirements of the study.\n* No significant chronic disease and any organ dysfunction.\n\nExclusion Criteria:\n\n* Exceptions were made for the use of hormonal contraception in women younger than 35 years of age that was discontinued before randomization.\n* Use of hormonal treatment for up to 2 months for the purposes of in vitro fertilization and cryopreservation of embryos or oocytes before randomization.\n* Patients with metastatic lesions or history of bilateral ovariectomy,ovarian radiation were excluded.\n* Patients received previous adjuvant endocrine therapy for breast cancer are not suitable to this trial.\n* Patients with uterine and/or adnexal diseases needing medical or surgical treatment are not suitable.\n* Allergic to active or inactive excipients of GnRHa is an exclusion criterion.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "XIANGYUN ZONG, MD, PhD",
+          "affiliation": "Shanghai Jiao Tong University affiliated 6th Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Zhejiang Cancer Hospital",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Shanghai Jiao Tong University Affiliated Sixth People's Hospital",
+          "city": "Shanghai",
+          "zip": "200233",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "16545560",
+          "type": "BACKGROUND",
+          "citation": "Baum M, Hackshaw A, Houghton J, Rutqvist, Fornander T, Nordenskjold B, Nicolucci A, Sainsbury R; ZIPP International Collaborators Group. Adjuvant goserelin in pre-menopausal patients with early breast cancer: Results from the ZIPP study. Eur J Cancer. 2006 May;42(7):895-904. doi: 10.1016/j.ejca.2005.12.013. Epub 2006 Mar 20."
+        },
+        {
+          "pmid": "12888366",
+          "type": "BACKGROUND",
+          "citation": "Kaufmann M, Jonat W, Blamey R, Cuzick J, Namer M, Fogelman I, de Haes JC, Schumacher M, Sauerbrei W; Zoladex Early Breast Cancer Research Association (ZEBRA) Trialists' Group. Survival analyses from the ZEBRA study. goserelin (Zoladex) versus CMF in premenopausal women with node-positive breast cancer. Eur J Cancer. 2003 Aug;39(12):1711-7. doi: 10.1016/s0959-8049(03)00392-7."
+        },
+        {
+          "pmid": "16087950",
+          "type": "BACKGROUND",
+          "citation": "Davidson NE, O'Neill AM, Vukov AM, Osborne CK, Martino S, White DR, Abeloff MD. Chemoendocrine therapy for premenopausal women with axillary lymph node-positive, steroid hormone receptor-positive breast cancer: results from INT 0101 (E5188). J Clin Oncol. 2005 Sep 1;23(25):5973-82. doi: 10.1200/JCO.2005.05.551. Epub 2005 Aug 8."
+        },
+        {
+          "pmid": "17512856",
+          "type": "BACKGROUND",
+          "citation": "LHRH-agonists in Early Breast Cancer Overview group; Cuzick J, Ambroisine L, Davidson N, Jakesz R, Kaufmann M, Regan M, Sainsbury R. Use of luteinising-hormone-releasing hormone agonists as adjuvant treatment in premenopausal patients with hormone-receptor-positive breast cancer: a meta-analysis of individual patient data from randomised adjuvant trials. Lancet. 2007 May 19;369(9574):1711-23. doi: 10.1016/S0140-6736(07)60778-8."
+        },
+        {
+          "pmid": "23860520",
+          "type": "BACKGROUND",
+          "citation": "Yang H, Zong X, Yu Y, Shao G, Zhang L, Qian C, Bian Y, Xu X, Sun W, Meng X, Ding X, Chen D, Zou D, Xie S, Zheng Y, Zhang J, He X, Sun C, Yu X, Ni J. Combined effects of goserelin and tamoxifen on estradiol level, breast density, and endometrial thickness in premenopausal and perimenopausal women with early-stage hormone receptor-positive breast cancer: a randomised controlled clinical trial. Br J Cancer. 2013 Aug 6;109(3):582-8. doi: 10.1038/bjc.2013.324. Epub 2013 Jul 16."
+        },
+        {
+          "pmid": "9042122",
+          "type": "BACKGROUND",
+          "citation": "Sarafoglou K, Boulad F, Gillio A, Sklar C. Gonadal function after bone marrow transplantation for acute leukemia during childhood. J Pediatr. 1997 Feb;130(2):210-6. doi: 10.1016/s0022-3476(97)70345-7."
+        },
+        {
+          "pmid": "16492690",
+          "type": "BACKGROUND",
+          "citation": "Chemaitilly W, Mertens AC, Mitby P, Whitton J, Stovall M, Yasui Y, Robison LL, Sklar CA. Acute ovarian failure in the childhood cancer survivor study. J Clin Endocrinol Metab. 2006 May;91(5):1723-8. doi: 10.1210/jc.2006-0020. Epub 2006 Feb 21."
+        },
+        {
+          "pmid": "19364956",
+          "type": "BACKGROUND",
+          "citation": "Green DM, Sklar CA, Boice JD Jr, Mulvihill JJ, Whitton JA, Stovall M, Yasui Y. Ovarian failure and reproductive outcomes after childhood cancer treatment: results from the Childhood Cancer Survivor Study. J Clin Oncol. 2009 May 10;27(14):2374-81. doi: 10.1200/JCO.2008.21.1839. Epub 2009 Apr 13."
+        },
+        {
+          "pmid": "15936554",
+          "type": "BACKGROUND",
+          "citation": "Wallace WH, Thomson AB, Saran F, Kelsey TW. Predicting age of ovarian failure after radiation to a field that includes the ovaries. Int J Radiat Oncol Biol Phys. 2005 Jul 1;62(3):738-44. doi: 10.1016/j.ijrobp.2004.11.038."
+        },
+        {
+          "pmid": "17932880",
+          "type": "BACKGROUND",
+          "citation": "Oktem O, Oktay K. Quantitative assessment of the impact of chemotherapy on ovarian follicle reserve and stromal function. Cancer. 2007 Nov 15;110(10):2222-9. doi: 10.1002/cncr.23071."
+        },
+        {
+          "pmid": "10554760",
+          "type": "BACKGROUND",
+          "citation": "Blumenfeld Z, Avivi I, Ritter M, Rowe JM. Preservation of fertility and ovarian function and minimizing chemotherapy-induced gonadotoxicity in young women. J Soc Gynecol Investig. 1999 Sep-Oct;6(5):229-39. doi: 10.1016/s1071-5576(99)00028-3."
+        },
+        {
+          "pmid": "17914074",
+          "type": "BACKGROUND",
+          "citation": "Blumenfeld Z. How to preserve fertility in young women exposed to chemotherapy? The role of GnRH agonist cotreatment in addition to cryopreservation of embrya, oocytes, or ovaries. Oncologist. 2007 Sep;12(9):1044-54. doi: 10.1634/theoncologist.12-9-1044."
+        },
+        {
+          "pmid": "15117898",
+          "type": "BACKGROUND",
+          "citation": "Meirow D, Assad G, Dor J, Rabinovici J. The GnRH antagonist cetrorelix reduces cyclophosphamide-induced ovarian follicular destruction in mice. Hum Reprod. 2004 Jun;19(6):1294-9. doi: 10.1093/humrep/deh257. Epub 2004 Apr 29."
+        },
+        {
+          "pmid": "23614679",
+          "type": "BACKGROUND",
+          "citation": "Osborne SE, Detti L. GnRH-analogues for ovarian protection in childhood cancer patients: how adult hypotheses are relevant in prepubertal females. Curr Drug Targets. 2013 Jul;14(8):856-63. doi: 10.2174/1389450111314080005."
+        },
+        {
+          "pmid": "20113967",
+          "type": "BACKGROUND",
+          "citation": "Decanter C, Morschhauser F, Pigny P, Lefebvre C, Gallo C, Dewailly D. Anti-Mullerian hormone follow-up in young women treated by chemotherapy for lymphoma: preliminary results. Reprod Biomed Online. 2010 Feb;20(2):280-5. doi: 10.1016/j.rbmo.2009.11.010. Epub 2009 Dec 3."
+        },
+        {
+          "pmid": "17307918",
+          "type": "BACKGROUND",
+          "citation": "Maltaris T, Beckmann MW, Binder H, Mueller A, Hoffmann I, Koelbl H, Dittrich R. The effect of a GnRH agonist on cryopreserved human ovarian grafts in severe combined immunodeficient mice. Reproduction. 2007 Feb;133(2):503-9. doi: 10.1530/REP-06-0061."
+        },
+        {
+          "pmid": "21550044",
+          "type": "BACKGROUND",
+          "citation": "Browne HN, Moon KS, Mumford SL, Schisterman EF, Decherney AH, Segars JH, Armstrong AY. Is anti-Mullerian hormone a marker of acute cyclophosphamide-induced ovarian follicular destruction in mice pretreated with cetrorelix? Fertil Steril. 2011 Jul;96(1):180-186.e2. doi: 10.1016/j.fertnstert.2011.04.008. Epub 2011 May 7."
+        },
+        {
+          "pmid": "24462062",
+          "type": "BACKGROUND",
+          "citation": "Detti L, Uhlmann RA, Zhang J, Diamond MP, Saed GM, Fletcher NM, Lu M, Williams LJ. Goserelin fosters bone elongation but does not prevent ovarian damage in cyclophosphamide-treated prepubertal mice. Fertil Steril. 2014 Apr;101(4):1157-64.e1. doi: 10.1016/j.fertnstert.2013.12.028. Epub 2014 Jan 23."
+        },
+        {
+          "pmid": "25738668",
+          "type": "BACKGROUND",
+          "citation": "Moore HC, Unger JM, Phillips KA, Boyle F, Hitre E, Porter D, Francis PA, Goldstein LJ, Gomez HL, Vallejos CS, Partridge AH, Dakhil SR, Garcia AA, Gralow J, Lombard JM, Forbes JF, Martino S, Barlow WE, Fabian CJ, Minasian L, Meyskens FL Jr, Gelber RD, Hortobagyi GN, Albain KS; POEMS/S0230 Investigators. Goserelin for ovarian protection during breast-cancer adjuvant chemotherapy. N Engl J Med. 2015 Mar 5;372(10):923-32. doi: 10.1056/NEJMoa1413204."
+        },
+        {
+          "pmid": "35691250",
+          "type": "DERIVED",
+          "citation": "Zong X, Yu Y, Chen W, Zong W, Yang H, Chen X. Ovarian reserve in premenopausal women with breast cancer. Breast. 2022 Aug;64:143-150. doi: 10.1016/j.breast.2022.05.009. Epub 2022 Jun 2."
+        },
+        {
+          "pmid": "34967844",
+          "type": "DERIVED",
+          "citation": "Zong X, Yu Y, Yang H, Chen W, Ding X, Liu S, Li X, Chen X, Jiang C, Xia X, Huang R, Zhu M, Hu J, Liang C. Effects of Gonadotropin-Releasing Hormone Analogs on Ovarian Function Against Chemotherapy-Induced Gonadotoxic Effects in Premenopausal Women With Breast Cancer in China: A Randomized Clinical Trial. JAMA Oncol. 2022 Feb 1;8(2):252-258. doi: 10.1001/jamaoncol.2021.6214."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "27 (6.67%) patients quit voluntarily after careful consideration, 33 patients who did not meet the inclusion criteria were excluded.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "GnRHa Group",
+          "description": "Eligible patients with breast cancer treated with GnRHa while receiving chemotherapy.\n\nGnRHa: 3.6mg subcutaneous injection every 28 days.Initiated 1-2 weeks before chemotherapy and ended 4-8 weeks after chemotherapy."
+        },
+        {
+          "id": "FG001",
+          "title": "None GnRHa Group",
+          "description": "Eligible patients with breast cancer treated without GnRHa while receiving chemotherapy."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "171"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "174"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "165"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "165"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "GnRHa (Gonadotrophin-releasing Hormone Analogues) Group",
+          "description": "Eligible patients with breast cancer treated with Gonadotrophin-releasing hormone analogues \uff08GnRHa\uff09 while receiving chemotherapy.\n\nGoserelin 3.6mg, or leuprorelin 3.75mg subcutaneous injection every 28 days.Initiated 1-2 weeks before chemotherapy and ended 4-8 weeks after chemotherapy."
+        },
+        {
+          "id": "BG001",
+          "title": "None GnRHa (Gonadotrophin-releasing Hormone Analogues) Group",
+          "description": "Eligible patients with breast cancer treated without GnRHa while receiving chemotherapy."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "165"
+            },
+            {
+              "groupId": "BG001",
+              "value": "165"
+            },
+            {
+              "groupId": "BG002",
+              "value": "330"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "330"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "40",
+                      "spread": "6.65"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "40",
+                      "spread": "5.85"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40",
+                      "spread": "6.26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "330"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "CHINA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "330"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "China",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "330"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "anti-M\u00fcllerian hormone (AMH)",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "ng/mL",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1.84",
+                      "spread": "1.299"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1.78",
+                      "spread": "1.102"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1.81",
+                      "spread": "1.203"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With Premature Ovarian Insufficiency",
+          "description": "The serum levels of anti-M\u00fcllerian hormone (AMH) were measured using human AMH ELISA kit (11351, Biofine)). POI (premature ovarian insufficiency) was defined as AMH\\<0.5ng/mL in this study.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "1 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "GnRHa (Gonadotrophin-releasing Hormone Analogues) Group",
+              "description": "Eligible patients with breast cancer treated with GnRHa (Gonadotrophin-releasing Hormone Analogues) while receiving chemotherapy.\n\nGoserelin 3.6mg, or leuprorelin 3.75mg subcutaneous injection every 28 days.Initiated 1-2 weeks before chemotherapy and ended 4-8 weeks after chemotherapy."
+            },
+            {
+              "id": "OG001",
+              "title": "None GnRHa (Gonadotrophin-releasing Hormone Analogues) Group",
+              "description": "Eligible patients with breast cancer treated without GnRHa (Gonadotrophin-releasing Hormone Analogues) while receiving chemotherapy."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "165"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "165"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "38"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Survival Rate",
+          "description": "Overall Survival \\& Tumor Free Survival",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "months",
+          "timeFrame": "5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "GnRHa Group",
+              "description": "Eligible patients with breast cancer treated with GnRHa while receiving chemotherapy.\n\nGnRHa: 3.6mg subcutaneous injection every 28 days.Initiated 1-2 weeks before chemotherapy and ended 4-8 weeks after chemotherapy."
+            },
+            {
+              "id": "OG001",
+              "title": "None GnRHa Group",
+              "description": "Eligible patients with breast cancer treated without GnRHa while receiving chemotherapy."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "165"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "165"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "48.17",
+                      "lowerLimit": "26",
+                      "upperLimit": "60"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "49.33",
+                      "lowerLimit": "25",
+                      "upperLimit": "59"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "6months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "GnRHa Group",
+          "description": "Eligible patients with breast cancer treated with GnRHa while receiving chemotherapy.\n\nGnRHa: 3.6mg subcutaneous injection every 28 days.Initiated 1-2 weeks before chemotherapy and ended 4-8 weeks after chemotherapy.",
+          "deathsNumAffected": 4,
+          "deathsNumAtRisk": 165,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 165,
+          "otherNumAffected": 165,
+          "otherNumAtRisk": 165
+        },
+        {
+          "id": "EG001",
+          "title": "None GnRHa Group",
+          "description": "Eligible patients with breast cancer treated without GnRHa while receiving chemotherapy.",
+          "deathsNumAffected": 5,
+          "deathsNumAtRisk": 165,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 165,
+          "otherNumAffected": 165,
+          "otherNumAtRisk": 165
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "fatique",
+          "organSystem": "Endocrine disorders",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 165,
+              "numAffected": 165,
+              "numAtRisk": 165
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 165,
+              "numAffected": 165,
+              "numAtRisk": 165
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr. ZONG",
+        "organization": "Shanghai 6th People's Hospital Affiliated to Shanghai Jiao Tong University",
+        "email": "tigerzong@msn.com",
+        "phone": "86 (21) 24058549"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-03-10",
+          "uploadDate": "2021-04-07T00:19",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 171923
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017273",
+          "term": "Goserelin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

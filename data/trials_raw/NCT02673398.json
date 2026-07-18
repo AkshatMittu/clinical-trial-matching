@@ -1,0 +1,1751 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02673398",
+      "orgStudyIdInfo": {
+        "id": "15342"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2015-02282",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "15342",
+          "type": "OTHER",
+          "domain": "City of Hope Medical Center"
+        },
+        {
+          "id": "K12CA001727",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/K12CA001727"
+        },
+        {
+          "id": "P30CA033572",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30CA033572"
+        }
+      ],
+      "organization": {
+        "fullName": "City of Hope Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neratinib in Treating Older Patients With Stage IV HER2-Positive Breast Cancer",
+      "officialTitle": "Phase II Study of Neratinib in Patients 60 and Older With HER2 Positive Metastatic Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-12-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-03-12",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-09-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-01-21",
+      "studyFirstSubmitQcDate": "2016-02-01",
+      "studyFirstPostDateStruct": {
+        "date": "2016-02-03",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2021-07-29",
+      "resultsFirstSubmitQcDate": "2022-03-14",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-03-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-06-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-06-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "City of Hope Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase II trial studies the side effects of and how well neratinib works in treating older patients with stage IV HER2-positive breast cancer. Neratinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To estimate the safety and tolerability of neratinib in adults age 60 or older with locally advanced or metastatic HER2 over-expressing breast cancer.\n\nSECONDARY OBJECTIVES:\n\nI. To describe the full toxicity profile including all grade toxicities measured by National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version (v)4.0.\n\nII. To estimate the rate of all grades of gastrointestinal (GI) toxicities such as diarrhea, nausea, and vomiting.\n\nIII. To estimate the rate of dose reduction, delays and discontinuation related to study drug.\n\nIV. To describe pharmacokinetic parameters of neratinib in adults 60 and older. V. To estimate overall response rate (ORR) and clinical benefit rate (CBR) defined by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1.\n\nVI. To estimate event free survival (EFS), progression-free survival (PFS) and overall survival (OS).\n\nVII. To evaluate the role of cancer-specific geriatric assessment tool in predicting treatment toxicities.\n\nVIII. To estimate adherence rate to neratinib in older adults (percentage of doses of neratinib taken).\n\nIX. To explore the association of pharmacokinetic (PK) parameters and geriatric assessment findings.\n\nX. To explore if serum biomarkers of aging (interleukin \\[IL\\]-6, C-reactive protein \\[CRP\\], and D-dimer) are associated with treatment toxicities.\n\nOUTLINE:\n\nPatients receive neratinib orally (PO) once daily (QD) on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up for 30 days and then periodically thereafter."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HER2 Positive Breast Carcinoma",
+        "Stage IV Breast Cancer AJCC v6 and v7"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 25,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment (neratinib)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive neratinib 240mg PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Other: Comprehensive Geriatric Assessment",
+            "Other: Laboratory Biomarker Analysis",
+            "Drug: Neratinib",
+            "Other: Pharmacological Study"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Comprehensive Geriatric Assessment",
+          "description": "Ancillary studies",
+          "armGroupLabels": [
+            "Treatment (neratinib)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Laboratory Biomarker Analysis",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Treatment (neratinib)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Neratinib",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Treatment (neratinib)"
+          ],
+          "otherNames": [
+            "(2E)-N-(4-((3-chloro-4-((pyridin-2-yl)methoxy)phenyl)amino)-3-cyano-7-ethoxyquinolin-6-yl)-4-(dimethylamino)but-2-enamide",
+            "HKI 272",
+            "HKI-272",
+            "PB 272",
+            "PB-272"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Pharmacological Study",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Treatment (neratinib)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent of Participants With Grade 2 or Higher Toxicities",
+          "description": "Will be graded according to the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0. Tables will be created to summarize the toxicities and side effects by organ system, attribution and severity for all participants that receive at least one dose of neratinib. Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for grade 2 or higher toxicities attributed to neratinib.",
+          "timeFrame": "On treatment, 28 days per cycle up to 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Count of Participants With Grade 3 or Higher Gastrointestinal (GI) Toxicities Such as Diarrhea, Nausea and Vomiting",
+          "description": "Will be graded according to the NCI CTCAE version 4.0. Tables will be created to summarize the toxicities and side effects by organ system, attribution and severity for all participants that receive at least one dose of neratinib.",
+          "timeFrame": "On treatment, 28 days per cycle up to 1 year"
+        },
+        {
+          "measure": "Rate of Participants With a Dose Reduction",
+          "description": "Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for dose reduction.",
+          "timeFrame": "On treatment, up to 48 months"
+        },
+        {
+          "measure": "Rate of Participants Requiring Hospitalizations",
+          "description": "Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for hospitalizations.",
+          "timeFrame": "On treatment, up to 48 months"
+        },
+        {
+          "measure": "Tumor Response Using Response Evaluation Criteria in Solid Tumors (RECIST)",
+          "description": "Complete Response (CR): Disappearance of all target lesions. Lymph node CR is when the lymph node has decreased to less than 10mm in the short axis.\n\nPartial Response (PR): At least a 30% decrease in the sum of the longest diameter (LD) of target lesions, taking as reference the baseline sum LD.\n\nProgressive Disease (PD): At least a 20% increase in the sum of the LD of target lesions, taking as reference the smallest sum LD recorded since the treatment started (including the baseline scan if that is the smallest), and at least a 5mm increase or the appearance of new lesions.\n\nStable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started.",
+          "timeFrame": "Participants are evaluated every 12 weeks, up to 48 months"
+        },
+        {
+          "measure": "Median Progression-free Survival (PFS) in Months",
+          "description": "Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for PFS. PFS will be estimated using the product limit method of Kaplan and Meier.",
+          "timeFrame": "From the date treatment begins until the first date on which recurrence, progression or death due to any cause, assessed up to 48 months"
+        },
+        {
+          "measure": "Median Overall Survival (OS)",
+          "description": "OS will be estimated using the product limit method of Kaplan and Meier.",
+          "timeFrame": "Time from start of treatment to death due to any cause, assessed up to 48 months"
+        },
+        {
+          "measure": "Cancer-specific Geriatric Assessment Score",
+          "description": "The cancer specific geriatric assessment score includes an evaluation of functional status, co-morbidity, cognition, psychological stats, social functioning and support, and nutritional status. It assesses a patient's age, gender, height, weight, cancer type, dosage, number of chemotherapy agents, hemoglobin, hearing, number of falls in past 6 months, able to take own medicine, whether walking is limited, have physical or emotional problems interfered with social activities and serum creatinine.\n\nScores can range from 0 to to 1, with a higher score indicating higher risk of chemotherapy toxicity.\n\nGeneralized linear models and graphical methods will be used to explore factors as identified by a cancer-specific geriatric assessment.",
+          "timeFrame": "At day 0 of treatment"
+        },
+        {
+          "measure": "Pharmacokinetics of Steady State Neratinib Concentration Transformed Using a Logarithm Base 2",
+          "description": "Least squares regression was used to assess the relationship between steady state neratinib concentration, transformed using a logarithm base 2 transformation, and age",
+          "timeFrame": "Day 0 to day 15"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) performance 0-2\n* Life expectancy of greater than 12 weeks\n* Histologically or cytologically proven metastatic breast cancer (metastases can be proven with imaging results in certain circumstances provided that the initial tumor was demonstrated histologically)\n* Stage IV HER2/Neu positive breast cancer patients who failed previous anti-HER2 targeted therapies\n* HER2 positivity as defined by American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines\n* If HER2 negative by immunohistochemistry (IHC) or fluorescence in situ hybridization (FISH), but activating somatic mutations of HER2 gene identified through genomic sequencing including but not limited to the following (Clinical Laboratory Improvement Act \\[CLIA\\] certified lab test): missense substitutions (G309A, G309E, S310F, S310Y, S653C, V659E, R678Q, V697L, T733I, L755S, L755P, E757A, D769H, D769Y, D769N, G776V, G776C, V777L, L841V, V842I, R849W, L869R, R896C); insertions/deletions (A775\\_G776insYVMA aka Y772\\_A755dup, G776VinsC, G776AinsVGC, G776 insertions, G778\\_S779insCPG, P780\\_781insGSP aka G778\\_P780dup, L755\\_T759del) and/or HER3 activating mutations; there is no limitation on the number of prior lines of systemic therapy or HER2-targeted therapies (prior neratinib not allowed)\n* Both measurable as well as non-measurable disease will be allowed\n* Hemoglobin \\>= 9 g/dL (after transfusion, if necessary) within 4 weeks of pre-registration\n* Total bilirubin within normal institutional limits within 4 weeks of pre-registration\n* Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase \\[SGOT\\])/alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase \\[SGPT\\]) =\\< 2.5 x institutional upper limit of normal within 4 weeks of pre-registration\n* Creatinine clearance \\>= 30 mL/min as calculated by Cockcroft-Gault formula within 4 weeks of pre-registration\n* Baseline left ventricular ejection fraction LVEF \\>= 50% as evaluated by echocardiogram (ECHO) or multiple-gated acquisition scan (MUGA)\n* All grade \\>= 2 toxicities other than alopecia from prior therapy have resolved by the time of study commencement\n* Patient must have completed radiation therapy with adequate recovery of bone marrow and organ functions, before starting neratinib\n* Patient with stable or treated brain metastases are eligible; asymptomatic patients with metastatic brain disease who have been on a stable dose of corticosteroids for treatment of brain metastases for at least 14 days are eligible to participate in the study\n* Provide written, informed consent to participate in the study and follow the study procedures\n\nExclusion Criteria:\n\n* Prior treatment with neratinib\n* Concurrent usage of other investigational agents, chemotherapy, or hormone therapy; prior chemotherapy, hormonal therapy, targeted therapy, and investigational agents are allowed but all toxicities grade \\>= 2 must have resolved by the time of study commencement (except alopecia)\n* Any major surgery =\\< 28 days prior to the initiation of investigational products\n* Received chemotherapy or biologic therapy =\\< 3 weeks prior to the start of neratinib\n* Active uncontrolled cardiac disease, including cardiomyopathy, congestive heart failure (New York Heart Association functional classification of \\>= 2, including individuals who currently use digitalis specifically for congestive heart failure), unstable angina, myocardial infarction within 12 month of enrollment or ventricular arrhythmia\n* Concurrent use of digoxin due to cardiac disease; corrected QT (QTc) interval \\>= 450 milliseconds in men and \\>= 470 milliseconds in women within 2 weeks of registration or known history of QTc prolongation or Torsades de Pointes\n* Inability to take oral medication\n* Other malignancy within the past 3 years with the exception of: a) adequately treated basal cell carcinoma, squamous cell skin cancer, or thyroid cancer; b) cervix or vulva carcinoma in situ; c) cancer considered cured by surgical resection or unlikely to impact survival during the duration of the study, such as localized transitional cell carcinoma of the bladder, or benign tumors of the adrenal or pancreas\n* Significant chronic gastrointestinal disorder with diarrhea as a major symptom (e.g., Crohn?s disease, malabsorption, or grade \\>= 2 National Cancer Institute \\[NCI\\] Common Terminology Criteria for Adverse Events \\[CTCAE\\] v.4.0 diarrhea of any etiology at baseline)\n* Known clinically active infection with hepatitis B or hepatitis C virus\n* Evidence of significant medical illness, abnormal laboratory finding or psychiatric illness/social situations that would, in the investigator?s judgment, makes the patient inappropriate for this study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mina Sedrak, MD",
+          "affiliation": "City of Hope Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "City of Hope Corona",
+          "city": "Corona",
+          "state": "California",
+          "zip": "92879",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.87529,
+            "lon": -117.56644
+          }
+        },
+        {
+          "facility": "City of Hope Medical Center",
+          "city": "Duarte",
+          "state": "California",
+          "zip": "91010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.13945,
+            "lon": -117.97729
+          }
+        },
+        {
+          "facility": "City of Hope Antelope Valley",
+          "city": "Lancaster",
+          "state": "California",
+          "zip": "93534",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.69804,
+            "lon": -118.13674
+          }
+        },
+        {
+          "facility": "City of Hope Mission Hills",
+          "city": "Mission Hills",
+          "state": "California",
+          "zip": "91345",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.68609,
+            "lon": -120.43683
+          }
+        },
+        {
+          "facility": "City of Hope Rancho Cucamonga",
+          "city": "Rancho Cucamonga",
+          "state": "California",
+          "zip": "91730",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.1064,
+            "lon": -117.59311
+          }
+        },
+        {
+          "facility": "City of Hope South Pasadena",
+          "city": "South Pasadena",
+          "state": "California",
+          "zip": "91030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.11612,
+            "lon": -118.15035
+          }
+        },
+        {
+          "facility": "City of Hope West Covina",
+          "city": "West Covina",
+          "state": "California",
+          "zip": "91790",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.06862,
+            "lon": -117.93895
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33796451",
+          "type": "DERIVED",
+          "citation": "Wong CW, Yost SE, Lee JS, Gillece JD, Folkerts M, Reining L, Highlander SK, Eftekhari Z, Mortimer J, Yuan Y. Analysis of Gut Microbiome Using Explainable Machine Learning Predicts Risk of Diarrhea Associated With Tyrosine Kinase Inhibitor Neratinib: A Pilot Study. Front Oncol. 2021 Mar 10;11:604584. doi: 10.3389/fonc.2021.604584. eCollection 2021."
+        },
+        {
+          "pmid": "33663941",
+          "type": "DERIVED",
+          "citation": "Yuan Y, Lee JS, Yost SE, Stiller T, Blanchard MS, Padam S, Katheria V, Kim H, Sun C, Tang A, Martinez N, Patel ND, Sedrak MS, Waisman J, Li D, Sanani S, Presant CA, Mortimer J. Phase II study of neratinib in older adults with HER2 amplified or HER2/3 mutated metastatic breast cancer. J Geriatr Oncol. 2021 Jun;12(5):752-758. doi: 10.1016/j.jgo.2021.02.020. Epub 2021 Mar 2."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment (Neratinib)",
+          "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "25"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment (Neratinib)",
+          "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "25"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66",
+                      "lowerLimit": "60",
+                      "upperLimit": "79"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ECOG performance status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "0 = Fully active, able to carry on all pre-disease performance without restriction",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "1 = Restricted in physically strenuous activity but ambulatory and able to do work of a light nature",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hormone receptor status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Positive",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percent of Participants With Grade 2 or Higher Toxicities",
+          "description": "Will be graded according to the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0. Tables will be created to summarize the toxicities and side effects by organ system, attribution and severity for all participants that receive at least one dose of neratinib. Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for grade 2 or higher toxicities attributed to neratinib.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "On treatment, 28 days per cycle up to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80",
+                      "lowerLimit": "59",
+                      "upperLimit": "93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Count of Participants With Grade 3 or Higher Gastrointestinal (GI) Toxicities Such as Diarrhea, Nausea and Vomiting",
+          "description": "Will be graded according to the NCI CTCAE version 4.0. Tables will be created to summarize the toxicities and side effects by organ system, attribution and severity for all participants that receive at least one dose of neratinib.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "On treatment, 28 days per cycle up to 1 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Diarrhea",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Vomiting",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Abdominal pain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Nausea",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Rate of Participants With a Dose Reduction",
+          "description": "Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for dose reduction.",
+          "populationDescription": "9 of 25 patients 36% had a dose reduction.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "On treatment, up to 48 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36",
+                      "lowerLimit": "18",
+                      "upperLimit": "57"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Rate of Participants Requiring Hospitalizations",
+          "description": "Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for hospitalizations.",
+          "populationDescription": "4 of 25 patients (16%) were hospitalized.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "On treatment, up to 48 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16",
+                      "lowerLimit": "5",
+                      "upperLimit": "36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Tumor Response Using Response Evaluation Criteria in Solid Tumors (RECIST)",
+          "description": "Complete Response (CR): Disappearance of all target lesions. Lymph node CR is when the lymph node has decreased to less than 10mm in the short axis.\n\nPartial Response (PR): At least a 30% decrease in the sum of the longest diameter (LD) of target lesions, taking as reference the baseline sum LD.\n\nProgressive Disease (PD): At least a 20% increase in the sum of the LD of target lesions, taking as reference the smallest sum LD recorded since the treatment started (including the baseline scan if that is the smallest), and at least a 5mm increase or the appearance of new lesions.\n\nStable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum LD since the treatment started.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Participants are evaluated every 12 weeks, up to 48 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Partial Remission",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Stable Disease",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Progressive Disease",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not assessed",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Median Progression-free Survival (PFS) in Months",
+          "description": "Rates and associated 95% exact Clopper and Pearson binomial confidence limits will be estimated for PFS. PFS will be estimated using the product limit method of Kaplan and Meier.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "From the date treatment begins until the first date on which recurrence, progression or death due to any cause, assessed up to 48 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2.6",
+                      "lowerLimit": "2.56",
+                      "upperLimit": "5.26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Median Overall Survival (OS)",
+          "description": "OS will be estimated using the product limit method of Kaplan and Meier.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "Time from start of treatment to death due to any cause, assessed up to 48 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17.4",
+                      "lowerLimit": "10.3",
+                      "upperLimit": "NA",
+                      "comment": "insufficient number of participants with events"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Cancer-specific Geriatric Assessment Score",
+          "description": "The cancer specific geriatric assessment score includes an evaluation of functional status, co-morbidity, cognition, psychological stats, social functioning and support, and nutritional status. It assesses a patient's age, gender, height, weight, cancer type, dosage, number of chemotherapy agents, hemoglobin, hearing, number of falls in past 6 months, able to take own medicine, whether walking is limited, have physical or emotional problems interfered with social activities and serum creatinine.\n\nScores can range from 0 to to 1, with a higher score indicating higher risk of chemotherapy toxicity.\n\nGeneralized linear models and graphical methods will be used to explore factors as identified by a cancer-specific geriatric assessment.",
+          "populationDescription": "3 participants did not have complete geriatric assessment data.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Full Range",
+          "unitOfMeasure": "scores on a scale",
+          "timeFrame": "At day 0 of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.34",
+                      "lowerLimit": "0.19",
+                      "upperLimit": "0.59"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Student's t-test was used to assess if geriatric risk score differed depending on whether or not a participant had a dose reduction (mean difference log2 risk = no dose modification - dose modification).",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.05",
+              "statisticalMethod": "t-test, 2 sided",
+              "paramType": "Mean Difference (Final Values)",
+              "paramValue": "-0.41",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "-0.82",
+              "ciUpperLimit": "0.01",
+              "estimateComment": "Patients with higher risk scores were more likely to require a dose reduction. The lack of significance is most likely due to the small sample size."
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Linear regression was used to assess whether log2 geriatric toxicity risk score was a risk factor for the number of course completed.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.39",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-1.29",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "1.44"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pharmacokinetics of Steady State Neratinib Concentration Transformed Using a Logarithm Base 2",
+          "description": "Least squares regression was used to assess the relationship between steady state neratinib concentration, transformed using a logarithm base 2 transformation, and age",
+          "populationDescription": "Only 20 participants had PK data available.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "log2(ng/mL)",
+          "timeFrame": "Day 0 to day 15",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Neratinib)",
+              "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4.7",
+                      "spread": "1.09"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Least squares regression was used to assess the relationship between steady state neratinib concentration and age",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.03",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "-0.093",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_ERROR_OF_MEAN",
+              "dispersionValue": "0.0398",
+              "estimateComment": "The older the participant the lower the steady state value."
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Least squares regression was used to determine if geriatric toxicity risk score at baseline was predictive of steady state neratinib concentration.",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.57",
+              "statisticalMethod": "Regression, Linear",
+              "paramType": "Slope",
+              "paramValue": "1.4",
+              "ciNumSides": "TWO_SIDED",
+              "dispersionType": "STANDARD_DEVIATION",
+              "dispersionValue": "2.39",
+              "estimateComment": "Geriatric risk score was not predictive of steady state concentration."
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Through study completion, an average of 18 months",
+      "description": "All serious adverse events are reported regardless of attribution and grade. Count of participants experiencing grade 2, 3, 4, or 5 other adverse events possibly, probably, or definitely attributed to neratinib are reported (after removing serious adverse events from the toxicity dataset).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment (Neratinib)",
+          "description": "Patients receive neratinib PO QD on days 1-28. Cycles repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nComprehensive Geriatric Assessment: Ancillary studies\n\nLaboratory Biomarker Analysis: Correlative studies\n\nNeratinib: Given PO\n\nPharmacological Study: Correlative studies",
+          "deathsNumAffected": 16,
+          "deathsNumAtRisk": 25,
+          "seriousNumAffected": 10,
+          "seriousNumAtRisk": 25,
+          "otherNumAffected": 23,
+          "otherNumAtRisk": 25
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Pericardial tampo",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Appendicitis",
+          "organSystem": "Infections and infestations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "T7 mets with spinal cord compression",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Death",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Hypoxemic respiratory failure",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "White blood cell count decreased",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Generalized muscle weakness",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "General disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Acute kidney injury",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Creatinine increased",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Skin laceration",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Ejection fraction decreased",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Syncope",
+          "organSystem": "Cardiac disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Platelet count decreased",
+          "organSystem": "Blood and lymphatic system disorders",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        },
+        {
+          "term": "Hypoalbuminemia",
+          "organSystem": "Investigations",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 25
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Yuan Yuan",
+        "organization": "City of Hope",
+        "email": "Yuyuan@coh.org",
+        "phone": "626-359-8111"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2019-04-30",
+          "uploadDate": "2021-07-29T18:35",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1342175
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015577",
+          "term": "Geriatric Assessment"
+        },
+        {
+          "id": "C487932",
+          "term": "neratinib"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003625",
+          "term": "Data Collection"
+        },
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D006304",
+          "term": "Health Status"
+        },
+        {
+          "id": "D003710",
+          "term": "Demography"
+        },
+        {
+          "id": "D011154",
+          "term": "Population Characteristics"
+        },
+        {
+          "id": "D017531",
+          "term": "Health Care Evaluation Mechanisms"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D015991",
+          "term": "Epidemiologic Measurements"
+        },
+        {
+          "id": "D011634",
+          "term": "Public Health"
+        },
+        {
+          "id": "D004778",
+          "term": "Environment and Public Health"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

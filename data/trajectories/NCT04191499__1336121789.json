@@ -1,0 +1,279 @@
+{
+  "nct_id": "NCT04191499",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "trial_label": "INAVO120",
+  "recommendation": "poor_fit",
+  "score": 7.5,
+  "max_score": 20.0,
+  "coverage": 0.727,
+  "report_path": "data/reports/NCT04191499__1336121789.html",
+  "total_seconds": 56.56,
+  "total_cost_usd": 0.0784,
+  "steps": [
+    {
+      "key": "rubric",
+      "label": "Build the trial's rubric",
+      "status": "done",
+      "detail": "11 criteria, max 20 pts",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "adjudicate",
+      "label": "Score the physician against it",
+      "status": "done",
+      "detail": "poor_fit \u2014 7.5/20.0 (73% coverage)",
+      "seconds": 46.23,
+      "cost_usd": 0.0662
+    },
+    {
+      "key": "precedent",
+      "label": "Look up what comparable trials did",
+      "status": "done",
+      "detail": "Of 108 comparable trials that reached a terminal status, 79% completed and 21% stopped early \u2014 13% of all of them specifically for failure to enrol.",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "patient",
+      "label": "Score participant experience in those trials",
+      "status": "done",
+      "detail": "median proxy 28.6/100 across 7 trials with posted results",
+      "seconds": 1.09,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "interview",
+      "label": "Close the gaps public data left",
+      "status": "done",
+      "detail": "6 gaps, 6 questions, no answers supplied",
+      "seconds": 9.24,
+      "cost_usd": 0.0122
+    },
+    {
+      "key": "report",
+      "label": "Render the report",
+      "status": "done",
+      "detail": "/Users/akshatdasula/Documents/GitHub/hackathon/data/reports/NCT04191499__1336121789.html",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    }
+  ],
+  "artifacts": {
+    "rubric": "rubrics/NCT04191499.json",
+    "dossier": "evidence/1336121789.json",
+    "match": "match_reports/NCT04191499__1336121789.json",
+    "match_interviewed": null,
+    "precedent": "precedent/NCT04191499.json",
+    "patient_proxy": "patient_proxy/NCT04191499.json"
+  },
+  "interview": {
+    "gaps": [
+      {
+        "criterion_id": "pik3ca_testing_access",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The site must have practical access to PIK3CA mutation testing (local CLIA-certified lab or ability to route samples to central/liquid biopsy testing) as part of routine or trial-driven workup.",
+        "satisfies_if": "Site attests to an established workflow for tumor genomic testing (local NGS panel or central lab submission) as part of standard practice or via trial infrastructure.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "palbociclib_fulvestrant_administration",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have infrastructure for chronic oral oncolytic dispensing/adherence tracking (palbociclib, inavolisib/placebo) plus recurring intramuscular fulvestrant administration in 28-day cycles.",
+        "satisfies_if": "Site attests to on-site or affiliated capability for IM drug administration and oral oncolytic dispensing/monitoring on a recurring cycle basis (e.g., existing CDK4/6 inhibitor + fulvestrant regimen experience).",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "first_line_metastatic_hrpos_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must regularly see treatment-naive (first-line metastatic) HR+/HER2- breast cancer patients progressing on/after adjuvant endocrine therapy, since prior systemic therapy for metastatic disease is exclusionary.",
+        "satisfies_if": "Physician/practice can attest to managing a first-line metastatic HR+/HER2- breast cancer caseload sufficient to identify multiple eligible patients per year (self-reported caseload estimate), or Medicare claims show a floor volume of breast cancer E&M/chemotherapy administration codes consistent with a dedicated breast oncology practice.",
+        "data_sources": [
+          "self_report",
+          "medicare"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "hyperglycemia_monitoring_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site should have capability to monitor and manage treatment-emergent hyperglycemia, including a defined post-treatment hyperglycemia follow-up pathway, given inavolisib's known metabolic toxicity.",
+        "satisfies_if": "Site attests to protocols or endocrinology referral pathways for managing anti-hyperglycemic therapy and monitoring beyond standard oncology AE management.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "pro_instrument_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to administer and capture multiple patient-reported outcome instruments (QLQ-C30, QLQ-BR23, BPI-SF, PRO-CTCAE, EQ-5D-5L) per the study schedule.",
+        "satisfies_if": "Site attests to existing PRO data collection infrastructure (electronic or paper) used in prior industry trials.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "long_term_followup_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must sustain long-term survival follow-up (approx. every 3 months post-discontinuation, up to 3.7 years total study duration) via phone or clinic visits.",
+        "satisfies_if": "Site attests to established procedures for long-duration survival follow-up contact and retention in prior long-term oncology trials.",
+        "data_sources": [
+          "self_report",
+          "clinicaltrials_gov"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      }
+    ],
+    "questions": [
+      {
+        "criterion_id": "pik3ca_testing_access",
+        "question": "Do you currently have an established workflow for obtaining PIK3CA mutation testing on your breast cancer patients, either through an in-house/local CLIA-certified NGS panel or by routinely sending tissue/liquid biopsy samples to a central lab?",
+        "why": "Public data doesn't show whether your site has a working pathway for this specific genomic test."
+      },
+      {
+        "criterion_id": "palbociclib_fulvestrant_administration",
+        "question": "Does your site (or an affiliated clinic) currently administer recurring intramuscular fulvestrant injections and manage chronic oral oncolytic dispensing/adherence tracking, such as for existing CDK4/6 inhibitor plus fulvestrant regimens?",
+        "why": "We can't confirm from public records whether your infrastructure supports this specific drug administration combination."
+      },
+      {
+        "criterion_id": "first_line_metastatic_hrpos_volume",
+        "question": "Roughly how many treatment-naive, first-line metastatic HR+/HER2- breast cancer patients does your practice see and initiate systemic therapy on per year?",
+        "why": "Available billing/claims data give only a partial picture of your first-line metastatic caseload."
+      },
+      {
+        "criterion_id": "hyperglycemia_monitoring_capacity",
+        "question": "Does your site have a defined protocol or endocrinology referral pathway for monitoring and managing treatment-emergent hyperglycemia beyond routine oncology adverse event management?",
+        "why": "Public data doesn't reveal whether you have a specific pathway for this drug-related metabolic toxicity."
+      },
+      {
+        "criterion_id": "pro_instrument_capacity",
+        "question": "Has your site previously collected multiple patient-reported outcome instruments (e.g., QLQ-C30, EQ-5D-5L, PRO-CTCAE) in industry-sponsored trials, and if so, using electronic or paper systems?",
+        "why": "We could only partially confirm your PRO data collection infrastructure from public sources."
+      },
+      {
+        "criterion_id": "long_term_followup_capacity",
+        "question": "Can you describe your site's established procedures for maintaining contact with and retaining patients for long-term survival follow-up (e.g., quarterly phone or clinic contact) over multi-year oncology trials?",
+        "why": "Public records only partially indicate your capacity for sustained long-duration follow-up in prior trials."
+      }
+    ],
+    "answers": {},
+    "attestations": [],
+    "before": {
+      "score": 7.5,
+      "max_score": 20.0,
+      "score_pct": 0.375,
+      "coverage": 0.727,
+      "n_criteria": 11,
+      "n_answered": 8,
+      "verdict_counts": {
+        "satisfied": 4,
+        "not_satisfied": 1,
+        "partial": 3,
+        "unknown": 3
+      },
+      "gate_failures": [],
+      "recommendation": "poor_fit",
+      "reason": "scored 38% of available points",
+      "by_dimension": {
+        "expertise": {
+          "earned": 0.0,
+          "possible": 3.0,
+          "n": 2,
+          "pct": 0.0
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 6.0,
+          "n": 2,
+          "pct": 0.25
+        },
+        "operational_capacity": {
+          "earned": 1.0,
+          "possible": 6.0,
+          "n": 4,
+          "pct": 0.167
+        },
+        "trial_execution": {
+          "earned": 5.0,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 1.0
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    },
+    "after": {
+      "score": 7.5,
+      "max_score": 20.0,
+      "score_pct": 0.375,
+      "coverage": 0.727,
+      "n_criteria": 11,
+      "n_answered": 8,
+      "verdict_counts": {
+        "satisfied": 4,
+        "not_satisfied": 1,
+        "partial": 3,
+        "unknown": 3
+      },
+      "gate_failures": [],
+      "recommendation": "poor_fit",
+      "reason": "scored 38% of available points",
+      "by_dimension": {
+        "expertise": {
+          "earned": 0.0,
+          "possible": 3.0,
+          "n": 2,
+          "pct": 0.0
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 6.0,
+          "n": 2,
+          "pct": 0.25
+        },
+        "operational_capacity": {
+          "earned": 1.0,
+          "possible": 6.0,
+          "n": 4,
+          "pct": 0.167
+        },
+        "trial_execution": {
+          "earned": 5.0,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 1.0
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    }
+  }
+}

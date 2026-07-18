@@ -1,0 +1,255 @@
+{
+  "nct_id": "NCT04191499",
+  "trial_label": "INAVO120",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "variant": "public_only",
+  "model": "claude-sonnet-5",
+  "scoring": {
+    "score": 7.5,
+    "max_score": 20.0,
+    "score_pct": 0.375,
+    "coverage": 0.727,
+    "n_criteria": 11,
+    "n_answered": 8,
+    "verdict_counts": {
+      "satisfied": 4,
+      "not_satisfied": 1,
+      "partial": 3,
+      "unknown": 3
+    },
+    "gate_failures": [],
+    "recommendation": "poor_fit",
+    "reason": "scored 38% of available points",
+    "by_dimension": {
+      "expertise": {
+        "earned": 0.0,
+        "possible": 3.0,
+        "n": 2,
+        "pct": 0.0
+      },
+      "patient_population": {
+        "earned": 1.5,
+        "possible": 6.0,
+        "n": 2,
+        "pct": 0.25
+      },
+      "operational_capacity": {
+        "earned": 1.0,
+        "possible": 6.0,
+        "n": 4,
+        "pct": 0.167
+      },
+      "trial_execution": {
+        "earned": 5.0,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 1.0
+      }
+    },
+    "thresholds": {
+      "strong": 0.7,
+      "possible": 0.4,
+      "min_coverage": 0.5
+    }
+  },
+  "verdicts": [
+    {
+      "criterion_id": "breast_onc_specialty",
+      "verdict": "satisfied",
+      "rationale": "NPPES lists Medical Oncology, and the physician has an extensive documented history of breast cancer trial leadership (PALLAS, PACE, TRADE, TBCRC030/035) and breast cancer-focused publications, indicating a breast-focused oncology practice rather than incidental cases.",
+      "evidence_refs": [
+        "NPI:1336121789",
+        "NCT02513394",
+        "NCT03147287",
+        "NCT06001762",
+        "PMID:41110701"
+      ],
+      "dimension": "expertise",
+      "criticality": "hard_gate",
+      "requirement": "The investigator must be a medical oncologist (or hematology-oncology specialist) with a breast cancer-focused practice, not a general oncologist with incidental breast cases.",
+      "satisfies_if": "NPPES taxonomy lists Hematology/Oncology or Medical Oncology, AND physician has a documented history of treating breast cancer patients (e.g., prior breast cancer trial roles or publications).",
+      "data_sources": [
+        "nppes",
+        "clinicaltrials_gov",
+        "pubmed"
+      ]
+    },
+    {
+      "criterion_id": "pik3ca_biomarker_familiarity",
+      "verdict": "not_satisfied",
+      "rationale": "Despite 117 publications and 11 confirmed trial roles reviewed, none address PIK3CA mutation, PI3K pathway inhibitors, or PI3K/AKT/mTOR-inhibitor trials; the topical focus is CDK4/6 inhibitors, ctDNA, immunotherapy, and PROs, not the PI3K pathway.",
+      "evidence_refs": [
+        "PMID:41812623",
+        "PMID:41110701",
+        "PMID:41125211"
+      ],
+      "dimension": "expertise",
+      "criticality": "primary",
+      "requirement": "Investigator should have familiarity with PIK3CA-mutant breast cancer biology and biomarker-driven treatment selection, given this is a molecularly-selected trial.",
+      "satisfies_if": "Physician has authored/co-authored at least one publication on PIK3CA mutation, PI3K pathway inhibitors, or biomarker-selected HR+/HER2- breast cancer therapy, OR has prior investigator role on a PI3K/AKT/mTOR-inhibitor breast cancer trial.",
+      "data_sources": [
+        "pubmed",
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "first_line_metastatic_hrpos_volume",
+      "verdict": "partial",
+      "rationale": "No self-reported caseload exists, but Medicare claims show a floor of 206 E&M services across 134 beneficiaries in a Medical Oncology practice, consistent with but not specific proof of a dedicated first-line metastatic HR+ breast cancer caseload.",
+      "evidence_refs": [
+        "HCPCS:99214",
+        "HCPCS:99215",
+        "HCPCS:99232"
+      ],
+      "dimension": "patient_population",
+      "criticality": "primary",
+      "requirement": "The practice must regularly see treatment-naive (first-line metastatic) HR+/HER2- breast cancer patients progressing on/after adjuvant endocrine therapy, since prior systemic therapy for metastatic disease is exclusionary.",
+      "satisfies_if": "Physician/practice can attest to managing a first-line metastatic HR+/HER2- breast cancer caseload sufficient to identify multiple eligible patients per year (self-reported caseload estimate), or Medicare claims show a floor volume of breast cancer E&M/chemotherapy administration codes consistent with a dedicated breast oncology practice.",
+      "data_sources": [
+        "self_report",
+        "medicare"
+      ]
+    },
+    {
+      "criterion_id": "pik3ca_testing_access",
+      "verdict": "unknown",
+      "rationale": "No self-reported attestation regarding tumor genomic testing workflow or PIK3CA testing infrastructure is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "primary",
+      "requirement": "The site must have practical access to PIK3CA mutation testing (local CLIA-certified lab or ability to route samples to central/liquid biopsy testing) as part of routine or trial-driven workup.",
+      "satisfies_if": "Site attests to an established workflow for tumor genomic testing (local NGS panel or central lab submission) as part of standard practice or via trial infrastructure.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "palbociclib_fulvestrant_administration",
+      "verdict": "unknown",
+      "rationale": "This criterion requires a self-reported attestation of oral oncolytic dispensing/IM fulvestrant administration capability, which is absent from the dossier despite indirect trial-role evidence of CDK4/6i experience.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must have infrastructure for chronic oral oncolytic dispensing/adherence tracking (palbociclib, inavolisib/placebo) plus recurring intramuscular fulvestrant administration in 28-day cycles.",
+      "satisfies_if": "Site attests to on-site or affiliated capability for IM drug administration and oral oncolytic dispensing/monitoring on a recurring cycle basis (e.g., existing CDK4/6 inhibitor + fulvestrant regimen experience).",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "hyperglycemia_monitoring_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report or attestation regarding hyperglycemia monitoring protocols or endocrinology referral pathways is present.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site should have capability to monitor and manage treatment-emergent hyperglycemia, including a defined post-treatment hyperglycemia follow-up pathway, given inavolisib's known metabolic toxicity.",
+      "satisfies_if": "Site attests to protocols or endocrinology referral pathways for managing anti-hyperglycemic therapy and monitoring beyond standard oncology AE management.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "pro_instrument_capacity",
+      "verdict": "partial",
+      "rationale": "No explicit self-report attestation exists, but a co-authored publication on patient-reported outcomes in the SERENA-6 trial suggests some familiarity with administering PRO instruments in an industry trial context.",
+      "evidence_refs": [
+        "PMID:41125211"
+      ],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must be able to administer and capture multiple patient-reported outcome instruments (QLQ-C30, QLQ-BR23, BPI-SF, PRO-CTCAE, EQ-5D-5L) per the study schedule.",
+      "satisfies_if": "Site attests to existing PRO data collection infrastructure (electronic or paper) used in prior industry trials.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "long_term_followup_capacity",
+      "verdict": "partial",
+      "rationale": "No explicit attestation is present, but the physician's role in multi-year trials such as PALLAS (5-year follow-up published) and ongoing PACE/TRADE studies suggests established capacity for long-duration follow-up, short of a direct self-report.",
+      "evidence_refs": [
+        "PMID:41110701",
+        "NCT02513394",
+        "NCT03147287"
+      ],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must sustain long-term survival follow-up (approx. every 3 months post-discontinuation, up to 3.7 years total study duration) via phone or clinic visits.",
+      "satisfies_if": "Site attests to established procedures for long-duration survival follow-up contact and retention in prior long-term oncology trials.",
+      "data_sources": [
+        "self_report",
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "prior_industry_trial_experience",
+      "verdict": "satisfied",
+      "rationale": "Physician is listed as overall official on multiple industry-sponsored breast cancer trials in ClinicalTrials.gov, including PALLAS, PACE, and TRADE.",
+      "evidence_refs": [
+        "NCT02513394",
+        "NCT03147287",
+        "NCT06001762",
+        "NCT02040857"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "primary",
+      "requirement": "Investigator should have prior experience as an investigator on industry-sponsored oncology trials, given this is a large, complex Roche Phase II/III registration-track study with 135 global sites.",
+      "satisfies_if": "Physician is listed as principal investigator or sub-investigator on >=1 completed or ongoing industry-sponsored breast cancer clinical trial in clinicaltrials.gov.",
+      "data_sources": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "sponsor_relationship_signal",
+      "verdict": "satisfied",
+      "rationale": "Open Payments records show multiple 2025 research payments from F. Hoffmann-La Roche AG (Roche/Genentech), directly satisfying the sponsor-relationship requirement.",
+      "evidence_refs": [
+        "OpenPayments:1211535676",
+        "OpenPayments:1211535681",
+        "OpenPayments:1211535685"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Investigator should have a demonstrable relationship with breast oncology drug sponsors (e.g., Roche/Genentech or related CDK4/6i or PI3K-pathway drug makers), suggesting familiarity with sponsor trial conduct expectations.",
+      "satisfies_if": "Open Payments records show research payments from Roche/Genentech or Pfizer (palbociclib manufacturer) within the last 5 years.",
+      "data_sources": [
+        "open_payments"
+      ]
+    },
+    {
+      "criterion_id": "site_type_academic_or_network",
+      "verdict": "satisfied",
+      "rationale": "A co-authored trial was explicitly conducted at Dana-Farber Cancer Institute, an academic NCI-designated cancer center with established GCP-trained research infrastructure, matching the site-type requirement.",
+      "evidence_refs": [
+        "PMID:42258966"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Site should be part of an established research network or academic cancer center with GCP-trained staff capable of running a randomized, double-blind, placebo-controlled multi-drug trial.",
+      "satisfies_if": "Physician's practice matches or is affiliated with one of the listed site institutions (e.g., Sarah Cannon/Tennessee Oncology, Texas Oncology, academic medical center) or physician self-reports GCP certification and dedicated research staff.",
+      "data_sources": [
+        "clinicaltrials_gov",
+        "self_report"
+      ]
+    }
+  ],
+  "narrative": "This physician is a well-established Boston-based breast medical oncologist (likely Dana-Farber-affiliated) with a long track record as overall official on multiple industry-sponsored breast cancer trials (PALLAS, PACE, TRADE) and a demonstrable financial relationship with Roche, the trial sponsor \u2014 strong signals for trial execution and site-network fit. The clear weak spot is biomarker-specific expertise: across 117 publications and 11 confirmed trial roles, none touch PIK3CA mutation biology or PI3K/AKT/mTOR-pathway inhibitors, so the core scientific rationale for this molecularly-selected trial is unsupported by the evidence, despite adjacent expertise in CDK4/6i and endocrine-therapy-based first-line HR+ disease. Nearly all operational-capacity criteria (PIK3CA testing workflow, oral oncolytic/IM administration, hyperglycemia monitoring, PRO capture, long-term follow-up) rely on self-report data that is simply absent from this dossier, so those remain largely unknown or only weakly inferable from trial history; obtaining direct site-level attestations would substantially sharpen this picture, particularly around PI3K-pathway familiarity and metabolic AE management infrastructure.",
+  "target_trial_excluded": null,
+  "n_excluded_records": 0,
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 9709,
+      "output_tokens": 4680
+    },
+    "cost_usd": 0.0662
+  }
+}

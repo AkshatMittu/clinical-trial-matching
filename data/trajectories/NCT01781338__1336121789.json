@@ -1,0 +1,306 @@
+{
+  "nct_id": "NCT01781338",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "trial_label": "ADAPT",
+  "recommendation": "poor_fit",
+  "score": 8.5,
+  "max_score": 20.0,
+  "coverage": 0.455,
+  "report_path": "data/reports/NCT01781338__1336121789.html",
+  "total_seconds": 34.42,
+  "total_cost_usd": 0.0558,
+  "steps": [
+    {
+      "key": "rubric",
+      "label": "Build the trial's rubric",
+      "status": "done",
+      "detail": "11 criteria, max 20 pts",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "adjudicate",
+      "label": "Score the physician against it",
+      "status": "done",
+      "detail": "poor_fit \u2014 8.5/20.0 (46% coverage)",
+      "seconds": 25.89,
+      "cost_usd": 0.0444
+    },
+    {
+      "key": "precedent",
+      "label": "Look up what comparable trials did",
+      "status": "done",
+      "detail": "Of 65 comparable trials that reached a terminal status, 77% completed and 23% stopped early \u2014 9% of all of them specifically for failure to enrol.",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "patient",
+      "label": "Score participant experience in those trials",
+      "status": "done",
+      "detail": "median proxy 87.8/100 across 10 trials with posted results",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "interview",
+      "label": "Close the gaps public data left",
+      "status": "done",
+      "detail": "8 gaps, 6 questions, no answers supplied",
+      "seconds": 8.52,
+      "cost_usd": 0.0114
+    },
+    {
+      "key": "report",
+      "label": "Render the report",
+      "status": "done",
+      "detail": "/Users/akshatdasula/Documents/GitHub/hackathon/data/reports/NCT01781338__1336121789.html",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    }
+  ],
+  "artifacts": {
+    "rubric": "rubrics/NCT01781338.json",
+    "dossier": "evidence/1336121789.json",
+    "match": "match_reports/NCT01781338__1336121789.json",
+    "match_interviewed": null,
+    "precedent": "precedent/NCT01781338.json",
+    "patient_proxy": "patient_proxy/NCT01781338.json"
+  },
+  "interview": {
+    "gaps": [
+      {
+        "criterion_id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must specialize in breast cancer diagnosis and multi-modality treatment (surgical oncology, medical oncology, or gynecologic oncology with a breast focus) to appropriately manage assignment across endocrine, chemotherapy, and targeted-therapy sub-protocols.",
+        "satisfies_if": "NPPES taxonomy lists hematology/oncology, medical oncology, surgical oncology, or gynecologic oncology, AND the physician practices within a designated breast center/program.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "certified_breast_center_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must function as, or be embedded within, a multidisciplinary certified breast center capable of coordinating surgery, chemotherapy, endocrine therapy, and targeted therapy under a single induction-therapy decision pathway.",
+        "satisfies_if": "Site is a named/certified Brustzentrum or equivalent multidisciplinary breast center, confirmed by site listing or self-report describing integrated surgical/medical/radiation oncology services.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "long_term_followup_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must maintain infrastructure for sustained patient follow-up and outcome tracking over an 8-year horizon as required by the primary endpoint.",
+        "satisfies_if": "Self-report confirms an established longitudinal tumor registry/follow-up program capable of tracking breast cancer patients for 8+ years.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "early_stage_breast_ca_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a high volume of newly diagnosed early-stage invasive breast cancer patients spanning adult and elderly age ranges, sufficient to support the trial's very high per-site enrollment.",
+        "satisfies_if": "Medicare claims show breast cancer diagnostic/treatment billing (biopsy, mastectomy, chemo administration) at or above comparable breast-center benchmarks, OR self-report confirms an annual new breast cancer diagnosis volume adequate for large-scale trial enrollment.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "female_early_stage_unilateral_ca",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Practice must regularly diagnose and treat female patients with unilateral, primary (non-recurrent, non-metastatic) invasive breast carcinoma at the point of initial treatment decision-making.",
+        "satisfies_if": "Self-report confirms that the majority of the physician's breast cancer caseload consists of newly diagnosed, early-stage, unilateral disease rather than recurrent/metastatic referrals.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "central_biomarker_sample_logistics",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must have tissue/biomarker sample collection and shipping workflows to support centralized biomarker assessment used to stratify induction therapy assignment.",
+        "satisfies_if": "Self-report confirms an established pathology workflow for biopsy/tissue processing and shipment to a reference lab for biomarker testing.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "multi_arm_subprotocol_management",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to manage patients across multiple concurrent treatment sub-protocols (endocrine, chemotherapy, targeted therapy) with distinct monitoring pathways within a single trial.",
+        "satisfies_if": "Self-report confirms operational capability to run three or more concurrent treatment arms/sub-studies simultaneously.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "large_scale_enrollment_track_record",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Site should demonstrate a track record of contributing large patient numbers to prior trials, consistent with this trial's extremely high per-site enrollment.",
+        "satisfies_if": "ClinicalTrials.gov records show the site/investigator contributing enrollment in the hundreds or more on a prior trial, or self-report confirms comparable historical enrollment capacity.",
+        "data_sources": [
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      }
+    ],
+    "questions": [
+      {
+        "criterion_id": "breast_onc_specialty",
+        "question": "Do you practice within a designated breast center or breast-focused program, and is your specialty surgical oncology, medical oncology, or gynecologic oncology with a breast cancer focus?",
+        "why": "Public taxonomy data confirms oncology specialty but not whether your practice is embedded in a dedicated breast program."
+      },
+      {
+        "criterion_id": "certified_breast_center_infrastructure",
+        "question": "Is your site a named or certified multidisciplinary breast center (e.g., Brustzentrum or equivalent) that coordinates surgery, chemotherapy, endocrine therapy, and targeted therapy under one care pathway?",
+        "why": "No public listing confirms your site's breast center certification or integrated service structure."
+      },
+      {
+        "criterion_id": "long_term_followup_capacity",
+        "question": "Does your site maintain a tumor registry or follow-up program capable of tracking breast cancer patients for 8 or more years?",
+        "why": "Public records don't show whether your site has long-term outcome tracking infrastructure for this trial's 8-year endpoint."
+      },
+      {
+        "criterion_id": "early_stage_breast_ca_volume",
+        "question": "Approximately how many new early-stage invasive breast cancer patients (across adult and elderly age ranges) does your site diagnose or treat each year?",
+        "why": "Claims data give a partial volume picture; we need your actual annual new-diagnosis count to gauge enrollment capacity."
+      },
+      {
+        "criterion_id": "female_early_stage_unilateral_ca",
+        "question": "What proportion of your breast cancer caseload consists of newly diagnosed, early-stage, unilateral cases versus recurrent or metastatic referrals?",
+        "why": "Public data can't distinguish whether your typical patients are newly diagnosed early-stage cases or referrals for recurrent/metastatic disease."
+      },
+      {
+        "criterion_id": "central_biomarker_sample_logistics",
+        "question": "Do you have an established pathology workflow for processing biopsy tissue and shipping samples to a central reference lab for biomarker testing?",
+        "why": "No public source confirms whether your site has tissue collection and shipping logistics for centralized biomarker assessment."
+      }
+    ],
+    "answers": {},
+    "attestations": [],
+    "before": {
+      "score": 8.5,
+      "max_score": 20.0,
+      "score_pct": 0.425,
+      "coverage": 0.455,
+      "n_criteria": 11,
+      "n_answered": 5,
+      "verdict_counts": {
+        "partial": 2,
+        "satisfied": 3,
+        "unknown": 6
+      },
+      "gate_failures": [
+        "breast_onc_specialty"
+      ],
+      "recommendation": "poor_fit",
+      "reason": "hard gate not met: breast_onc_specialty",
+      "by_dimension": {
+        "expertise": {
+          "earned": 3.0,
+          "possible": 3.0,
+          "n": 2,
+          "pct": 1.0
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 4.0,
+          "n": 2,
+          "pct": 0.375
+        },
+        "operational_capacity": {
+          "earned": 0.0,
+          "possible": 8.0,
+          "n": 4,
+          "pct": 0.0
+        },
+        "trial_execution": {
+          "earned": 4.0,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.8
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    },
+    "after": {
+      "score": 8.5,
+      "max_score": 20.0,
+      "score_pct": 0.425,
+      "coverage": 0.455,
+      "n_criteria": 11,
+      "n_answered": 5,
+      "verdict_counts": {
+        "partial": 2,
+        "satisfied": 3,
+        "unknown": 6
+      },
+      "gate_failures": [
+        "breast_onc_specialty"
+      ],
+      "recommendation": "poor_fit",
+      "reason": "hard gate not met: breast_onc_specialty",
+      "by_dimension": {
+        "expertise": {
+          "earned": 3.0,
+          "possible": 3.0,
+          "n": 2,
+          "pct": 1.0
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 4.0,
+          "n": 2,
+          "pct": 0.375
+        },
+        "operational_capacity": {
+          "earned": 0.0,
+          "possible": 8.0,
+          "n": 4,
+          "pct": 0.0
+        },
+        "trial_execution": {
+          "earned": 4.0,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.8
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    }
+  }
+}

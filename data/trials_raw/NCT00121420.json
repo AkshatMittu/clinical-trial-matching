@@ -1,0 +1,462 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00121420",
+      "orgStudyIdInfo": {
+        "id": "PCYC-0224"
+      },
+      "organization": {
+        "fullName": "Pharmacyclics LLC.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of Motexafin Gadolinium With Whole Brain Radiation Therapy Followed by Stereotactic Radiosurgery Boost in the Treatment of Patients With Brain Metastases",
+      "officialTitle": "Phase II Trial of Motexafin Gadolinium With Whole Brain Radiation Therapy Followed by Stereotactic Radiosurgery Boost in the Treatment of Patients With Brain Metastases"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-05",
+      "overallStatus": "TERMINATED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "studyFirstSubmitDate": "2005-07-14",
+      "studyFirstSubmitQcDate": "2005-07-19",
+      "studyFirstPostDateStruct": {
+        "date": "2005-07-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-05-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-05-09",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pharmacyclics LLC.",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary purpose of the study is to evaluate if motexafin gadolinium with whole brain radiation therapy followed by a stereotactic radiosurgery boost is a safe and effective treatment.",
+      "detailedDescription": "Patients will receive three weeks of whole brain radiation therapy concurrent with daily motexafin gadolinium during weeks 2 and 3, followed by a stereotactic radiosurgery boost concurrent with motexafin gadolinium. Patients will be followed for radiologic response, neurologic progression, and neurocognitive progression."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neoplasm Metastasis",
+        "Brain Neoplasms"
+      ],
+      "keywords": [
+        "Brain Neoplasms/secondary",
+        "Brain neoplasms/radiotherapy",
+        "Brain metastasis",
+        "Neoplasm metastasis",
+        "Cranial irradiation",
+        "Radiosurgery",
+        "Lung Neoplasms",
+        "Breast Neoplasms",
+        "Kidney Neoplasms",
+        "Melanoma",
+        "Radiotherapy",
+        "Carcinoma, non-small cell lung"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 45
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Motexafin gadolinium"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of irreversible Grade 3 or any Grade 4 or 5 neurologic radiation toxicities occuring within 3 months following SRS boost"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in lesion size and number between screening MRI and SRS treatment -planning MRI"
+        },
+        {
+          "measure": "Time to neuroligic progression or death with evidence of neurologic progression"
+        },
+        {
+          "measure": "Time to neurocognitive progression"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 years\n* Karnofsky performance status (KPS) \u2265 70\n* Histologically confirmed malignancy with the presence of one to four intraparenchymal brain metastases\n* Each patient must sign a study-specific Informed Consent form\n\nExclusion Criteria:\n\n* Previous cranial radiation\n* Complete resection of all known brain metastases\n* Known leptomeningeal metastases\n* Known liver metastases\n* Clinical or radiologic evidence of progression (other than study lesion\\[s) within 1 month prior to enrollment\n* Patients with metastases within 10 mm of the optic apparatus\n* Patients with metastases in the brainstem, midbrain, pons, or medulla\n* Planned chemotherapy during WBRT and/or SRS\n* Uncontrolled hypertension\n* Women who are pregnant or lactating\n\nand Laboratory values as follows:\n\n* LDH \\> 1.3 x upper limit of normal (ULN)\n* ANC \\< 1500/mm3\n* Platelets \\< 50,000/mm3\n* Creatinine \\> 2.0 mg/dL\n* AST or ALT \\> 3 x ULN\n* Total bilirubin \\> 2 x ULN",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Minesh P Mehta, MD",
+          "affiliation": "University of Wisconsin, Madison",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "city": "Phoenix",
+          "state": "Arizona",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "city": "Aurora",
+          "state": "Colorado",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "city": "Cleveland",
+          "state": "Ohio",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "city": "Columbus",
+          "state": "Ohio",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "city": "Dallas",
+          "state": "Texas",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "city": "Houston",
+          "state": "Texas",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "city": "Madison",
+          "state": "Wisconsin",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        },
+        {
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "city": "Montreal",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "city": "Sherbrooke",
+          "state": "Quebec",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40008,
+            "lon": -71.89908
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "12829672",
+          "type": "BACKGROUND",
+          "citation": "Mehta MP, Rodrigus P, Terhaard CH, Rao A, Suh J, Roa W, Souhami L, Bezjak A, Leibenhaut M, Komaki R, Schultz C, Timmerman R, Curran W, Smith J, Phan SC, Miller RA, Renschler MF. Survival and neurologic outcomes in a randomized trial of motexafin gadolinium and whole-brain radiation therapy in brain metastases. J Clin Oncol. 2003 Jul 1;21(13):2529-36. doi: 10.1200/JCO.2003.12.122."
+        },
+        {
+          "pmid": "15627019",
+          "type": "BACKGROUND",
+          "citation": "Evens AM. Motexafin gadolinium: a redox-active tumor selective agent for the treatment of cancer. Curr Opin Oncol. 2004 Nov;16(6):576-80. doi: 10.1097/01.cco.0000142073.29850.98."
+        },
+        {
+          "pmid": "15684606",
+          "type": "BACKGROUND",
+          "citation": "Biaglow JE, Miller RA. The thioredoxin reductase/thioredoxin system: novel redox targets for cancer therapy. Cancer Biol Ther. 2005 Jan;4(1):6-13. doi: 10.4161/cbt.4.1.1434. Epub 2004 Jan 8."
+        },
+        {
+          "pmid": "15161323",
+          "type": "BACKGROUND",
+          "citation": "Manon R, Hui S, Chinnaiyan P, Suh J, Chang E, Timmerman R, Phan S, Das R, Mehta M. The impact of mid-treatment MRI on defining boost volumes in the radiation treatment of glioblastoma multiforme. Technol Cancer Res Treat. 2004 Jun;3(3):303-7. doi: 10.1177/153303460400300308."
+        },
+        {
+          "pmid": "14701778",
+          "type": "BACKGROUND",
+          "citation": "Meyers CA, Smith JA, Bezjak A, Mehta MP, Liebmann J, Illidge T, Kunkler I, Caudrelier JM, Eisenberg PD, Meerwaldt J, Siemers R, Carrie C, Gaspar LE, Curran W, Phan SC, Miller RA, Renschler MF. Neurocognitive function and progression in patients with brain metastases treated with whole-brain radiation and motexafin gadolinium: results of a randomized phase III trial. J Clin Oncol. 2004 Jan 1;22(1):157-65. doi: 10.1200/JCO.2004.05.128."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "National Brain Tumor Foundation",
+          "url": "http://www.braintumor.org"
+        },
+        {
+          "label": "Pharmacyclics",
+          "url": "http://pharmacyclics.com"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        },
+        {
+          "id": "D001932",
+          "term": "Brain Neoplasms"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D007680",
+          "term": "Kidney Neoplasms"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D016543",
+          "term": "Central Nervous System Neoplasms"
+        },
+        {
+          "id": "D009423",
+          "term": "Nervous System Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D001927",
+          "term": "Brain Diseases"
+        },
+        {
+          "id": "D002493",
+          "term": "Central Nervous System Diseases"
+        },
+        {
+          "id": "D009422",
+          "term": "Nervous System Diseases"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D014571",
+          "term": "Urologic Neoplasms"
+        },
+        {
+          "id": "D014565",
+          "term": "Urogenital Neoplasms"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D018358",
+          "term": "Neuroendocrine Tumors"
+        },
+        {
+          "id": "D017599",
+          "term": "Neuroectodermal Tumors"
+        },
+        {
+          "id": "D009373",
+          "term": "Neoplasms, Germ Cell and Embryonal"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009380",
+          "term": "Neoplasms, Nerve Tissue"
+        },
+        {
+          "id": "D018326",
+          "term": "Nevi and Melanomas"
+        },
+        {
+          "id": "D012878",
+          "term": "Skin Neoplasms"
+        },
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C437683",
+          "term": "motexafin gadolinium"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

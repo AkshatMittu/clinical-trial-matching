@@ -4,131 +4,132 @@
   "model": "claude-sonnet-5",
   "effort": "high",
   "rubric": {
-    "target_patient": "Postmenopausal women newly diagnosed with clinically resectable Stage I-III, HER2-negative, hormone receptor-positive (implied by the Ki67/HR-stratified primary outcome) invasive breast cancer, who have not yet started chemotherapy and are candidates for a short pre-surgical window of letrozole before segmental resection or mastectomy. Core biopsy tissue from diagnosis must exist and be available for correlative biomarker work, and patients must be willing/able to delay definitive surgery briefly to receive 2-3 weeks of neoadjuvant hormone therapy.",
-    "site_burden": "No formal schedule of assessments is provided, so burden is inferred rather than drawn from a protocol. This is a short-window (7-21 day) pre-surgical biomarker study: the site must be able to identify newly diagnosed, treatment-naive breast cancer patients before they proceed to surgery, coordinate a brief course of oral letrozole that does not delay definitive surgical care, arrange research blood draws for gene expression/RT-PCR analysis, and ensure additional tumor tissue (biopsy and surgical specimen) is properly collected, processed, and banked for correlative Ki67 and biomarker analysis. This requires tight coordination between medical oncology (or whoever prescribes letrozole), surgery, and pathology/tissue banking within a narrow pre-operative timeframe, plus specimen-handling infrastructure beyond routine clinical pathology.",
+    "target_patient": "A postmenopausal woman with newly diagnosed, resectable invasive breast cancer (clinical stage I-III), HER2-negative by IHC or FISH, who has not yet started any systemic therapy, has archived core biopsy tissue from diagnosis available, and is a surgical candidate for segmental resection or mastectomy. This is a pre-surgical (window-of-opportunity) window trial requiring identification of the patient before her definitive surgery, not after.",
+    "site_burden": "Burden must be inferred, as no schedule of assessments was provided. The design implies: identification of newly diagnosed, treatment-naive breast cancer patients prior to their surgical date; a short window (14 days) of oral letrozole dosing (days 7-21) that must be coordinated so as not to delay definitive surgery; retrieval and banking of archived diagnostic core biopsy tissue plus fresh tumor tissue at surgery for Ki67 and biomarker analysis; blood draws for gene expression/RT-PCR; and tight coordination between medical/surgical oncology, pathology, and a tissue-banking or translational research infrastructure capable of handling paraffin-embedded and fresh specimens for a multi-site correlative science protocol. This requires a multidisciplinary breast cancer program with integrated surgical and research pathology support, not just a medical oncology clinic.",
     "criteria": [
       {
-        "id": "breast_onc_or_surg_specialty",
+        "id": "breast_onc_specialty",
         "dimension": "expertise",
         "criticality": "hard_gate",
-        "requirement": "The investigator must be a breast cancer specialist (medical oncologist or breast surgeon) capable of diagnosing, staging, and coordinating hormone therapy and surgery for operable breast cancer.",
-        "satisfies_if": "NPPES taxonomy lists the physician under medical oncology, hematology/oncology, or a surgical specialty with a breast/surgical oncology focus, consistent with managing operable breast cancer.",
+        "requirement": "The investigator must be a breast cancer specialist (medical oncologist, surgical oncologist, or breast surgeon) capable of managing pre-surgical hormone-sensitive breast cancer patients.",
+        "satisfies_if": "NPPES taxonomy lists hematology-oncology, medical oncology, or surgical oncology/breast surgery as the physician's specialty.",
         "data_sources": [
           "nppes"
         ],
-        "derived_from": "eligibility: invasive, resectable Stage I-III breast cancer requiring surgical treatment (segmental resection or mastectomy) coordinated with systemic therapy"
+        "derived_from": "Population: postmenopausal women with operable HR-sensitive breast cancer requiring surgical treatment"
       },
       {
-        "id": "hr_her2_biology_familiarity",
+        "id": "breast_cancer_pub_record",
         "dimension": "expertise",
-        "criticality": "primary",
-        "requirement": "The investigator must have working expertise in hormone receptor and HER2 biology sufficient to correctly select HR-positive/HER2-negative patients and interpret Ki67-based biomarker endpoints.",
-        "satisfies_if": "Physician has authored or co-authored at least one peer-reviewed publication on breast cancer hormone receptor status, HER2 testing, or Ki67/proliferation biomarkers.",
+        "criticality": "secondary",
+        "requirement": "The investigator should have a demonstrated research/clinical interest in breast cancer biology, endocrine therapy, or biomarker-driven trial design, consistent with a translational pre-surgical trial.",
+        "satisfies_if": "At least one PubMed-indexed publication authored by the physician on breast cancer, hormone receptor biology, aromatase inhibitors, or Ki67/biomarker response.",
         "data_sources": [
           "pubmed"
         ],
-        "derived_from": "eligibility: HER2-negative by Herceptest/FISH; primary outcome: Ki67 index compared by hormone receptor status"
+        "derived_from": "Primary outcome: Ki67 index comparison in HR-positive vs HR-negative tumors; rationale around gene expression and biomarker analysis"
       },
       {
-        "id": "neoadjuvant_endocrine_trial_experience",
-        "dimension": "expertise",
-        "criticality": "secondary",
-        "requirement": "Familiarity with neoadjuvant/pre-surgical endocrine therapy trial design in breast cancer, given the unusual short pre-operative letrozole window and correlative biomarker focus of this early-phase study.",
-        "satisfies_if": "Physician is listed as an investigator on another registered trial involving neoadjuvant or pre-surgical endocrine therapy for breast cancer.",
+        "id": "newly_diagnosed_surgical_candidate_volume",
+        "dimension": "patient_population",
+        "criticality": "hard_gate",
+        "requirement": "The practice must routinely see newly diagnosed, treatment-naive, surgically resectable breast cancer patients before they proceed to definitive surgery, since enrollment must occur in the pre-surgical window.",
+        "satisfies_if": "Physician or practice self-attests to managing newly diagnosed, pre-surgical breast cancer patients as a routine part of clinical workflow, or is affiliated with a multidisciplinary breast program per site listing.",
         "data_sources": [
-          "clinicaltrials_gov"
+          "self_report",
+          "nppes"
         ],
-        "derived_from": "design: EARLY_PHASE1 pre-surgical letrozole trial, days 7-21 dosing before surgery, with tumor biomarker correlative endpoints"
+        "derived_from": "Design: pre-surgical letrozole trial requiring identification prior to segmental resection/mastectomy; inclusion of no prior chemotherapy for this primary breast cancer"
       },
       {
-        "id": "newly_diagnosed_operable_hr_volume",
+        "id": "postmenopausal_her2neg_volume",
         "dimension": "patient_population",
         "criticality": "primary",
-        "requirement": "The practice must see a meaningful volume of newly diagnosed, treatment-naive, postmenopausal, operable HR-positive/HER2-negative breast cancer patients who have not yet started chemotherapy.",
-        "satisfies_if": "Physician bills for a floor volume of breast cancer diagnostic or treatment-planning services (e.g., breast biopsy interpretation, lumpectomy/mastectomy, or new patient breast oncology E/M codes) in Medicare claims consistent with an active breast oncology practice.",
+        "requirement": "The practice must see a sufficient volume of postmenopausal, HER2-negative, stage I-III breast cancer patients to support meaningful accrual.",
+        "satisfies_if": "Medicare data shows billing for breast cancer diagnosis/treatment codes (e.g., E&M plus chemotherapy administration or surgical pathology) at a volume consistent with a dedicated breast oncology practice, understood as a floor on true volume.",
         "data_sources": [
           "medicare",
           "self_report"
         ],
-        "derived_from": "eligibility: postmenopausal women with newly diagnosed, resectable, chemotherapy-naive, HR-status-relevant, HER2-negative breast cancer"
+        "derived_from": "Eligibility: postmenopausal, HER2-negative (0/+1 IHC or non-amplified FISH), clinical stage I-III invasive breast cancer"
       },
       {
-        "id": "postmenopausal_population_fit",
-        "dimension": "patient_population",
-        "criticality": "secondary",
-        "requirement": "The practice's breast cancer population must skew toward postmenopausal women, matching the trial's demographic restriction.",
-        "satisfies_if": "Physician attests that a substantial proportion of their breast cancer patients are postmenopausal women (no public source distinguishes menopausal status).",
-        "data_sources": [
-          "self_report"
-        ],
-        "derived_from": "eligibility: postmenopausal, as defined by specified criteria"
-      },
-      {
-        "id": "tissue_biobanking_capacity",
+        "id": "tissue_banking_capacity",
         "dimension": "operational_capacity",
         "criticality": "primary",
-        "requirement": "The site must have infrastructure to collect, process, and preserve core biopsy and surgical tumor tissue (including paraffin-embedded material) plus research blood for gene expression/RT-PCR analysis, coordinated with a pathology/tissue-banking service.",
-        "satisfies_if": "Physician or site self-reports an established tissue banking/biospecimen processing arrangement with a pathology department or cancer center core lab used for prior translational research studies.",
+        "requirement": "The site must have infrastructure to retrieve archived paraffin-embedded diagnostic core biopsy material and to collect/process fresh surgical tissue and blood for translational biomarker (Ki67, gene expression, RT-PCR) analysis.",
+        "satisfies_if": "Site self-attests to having an on-site or affiliated tissue banking/pathology research infrastructure capable of retrieving archived paraffin blocks and processing fresh surgical specimens for correlative science.",
         "data_sources": [
           "self_report"
         ],
-        "derived_from": "interventions: blood collection for gene expression/RT-PCR; biopsy/lumpectomy/mastectomy tissue collected for laboratory biomarker analysis; inclusion requiring available core biopsies from diagnosis"
+        "derived_from": "Requirement for core biopsies from diagnosis to be available; tissue collection and biomarker analysis of surgical specimens; blood collection for gene expression/RT-PCR"
       },
       {
-        "id": "surgery_oncology_coordination",
+        "id": "surgical_oncology_integration",
         "dimension": "operational_capacity",
         "criticality": "primary",
-        "requirement": "The site must be able to tightly coordinate medical oncology (letrozole prescribing) with surgical scheduling so that a 2-3 week pre-surgical drug window does not delay definitive surgical care.",
-        "satisfies_if": "Site self-reports an existing multidisciplinary breast cancer clinic or formal referral pathway linking medical oncology/endocrine therapy prescribing with surgical oncology scheduling.",
+        "requirement": "The site must have integrated access to breast surgical services (segmental resection or mastectomy) so that the pre-surgical dosing window can be coordinated without delaying definitive surgery.",
+        "satisfies_if": "Site self-attests to having in-house or closely coordinated breast surgical oncology services able to schedule surgery within the trial's dosing window (day 7-21 post-enrollment).",
         "data_sources": [
-          "self_report"
+          "self_report",
+          "clinicaltrials_gov"
         ],
-        "derived_from": "intervention: letrozole 2.5mg days 7-21 prior to surgery; eligibility: planning segmental resection or mastectomy"
+        "derived_from": "Interventions: letrozole days 7-21 followed by biopsy/lumpectomy/mastectomy; inclusion criterion of planning segmental resection or total mastectomy"
       },
       {
-        "id": "academic_cancer_center_or_affiliated_site",
+        "id": "multisite_academic_cooperative_setting",
         "dimension": "operational_capacity",
         "criticality": "secondary",
-        "requirement": "Given the SPORE-funded academic sponsor and translational biomarker design, the site should be an academic cancer center or closely affiliated practice with research infrastructure similar to the trial's existing footprint.",
-        "satisfies_if": "NPPES practice address matches or is affiliated with an academic medical center/NCI-designated cancer center, or physician self-reports formal affiliation with such a center.",
-        "data_sources": [
-          "nppes",
-          "self_report"
-        ],
-        "derived_from": "sponsor: Vanderbilt-Ingram Cancer Center (SPORE); site footprint of academic cancer centers and affiliated surgical groups (Emory, Vanderbilt, Allegheny Cancer Center, Surgical Associates Tulsa)"
-      },
-      {
-        "id": "prior_investigator_role_breast_cancer",
-        "dimension": "trial_execution",
-        "criticality": "primary",
-        "requirement": "The physician should have prior experience serving as an investigator on an interventional breast cancer clinical trial, demonstrating capability to run protocol-driven pre-surgical drug administration and correlative sample collection.",
-        "satisfies_if": "Physician is listed as principal investigator or sub-investigator on at least one completed or terminated interventional breast cancer trial on ClinicalTrials.gov.",
+        "requirement": "The site should function within an academic cancer center or cooperative group-style environment capable of supporting a SPORE-affiliated, multi-institution translational study with only 5 participating sites.",
+        "satisfies_if": "Site is an academic cancer center, NCI-designated cancer center, or is listed among the trial's 5 participating sites per ClinicalTrials.gov record.",
         "data_sources": [
           "clinicaltrials_gov"
         ],
-        "derived_from": "trial design: interventional early-phase pre-surgical biomarker study requiring protocol-driven drug dosing and tissue/blood collection"
+        "derived_from": "Sponsor: Vanderbilt-Ingram Cancer Center (SPORE); Sites: Emory, Vanderbilt-Ingram (x2), Allegheny Cancer Center, Surgical Associates Inc."
       },
       {
-        "id": "industry_or_cooperative_group_research_engagement",
+        "id": "prior_investigator_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "The investigator should have prior experience serving as a site investigator on interventional oncology trials, demonstrating capacity for protocol compliance and GCP conduct.",
+        "satisfies_if": "ClinicalTrials.gov lists the physician as an investigator (PI or sub-I) on at least one prior or concurrent interventional oncology trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Trial design: EARLY_PHASE1 interventional pre-surgical window trial requiring protocol-driven enrollment timing"
+      },
+      {
+        "id": "industry_research_relationship",
         "dimension": "trial_execution",
         "criticality": "secondary",
-        "requirement": "The physician should show evidence of engagement with clinical research funding/relationships (industry or cooperative group) indicating an active research practice capable of supporting sponsor-driven translational protocols.",
-        "satisfies_if": "Open Payments records show research-related payments to the physician from a pharmaceutical/device sponsor in the years around the trial period.",
+        "requirement": "The investigator should have some history of receiving industry research payments or grants indicative of active clinical trial participation, relevant to running an aromatase-inhibitor-based translational study.",
+        "satisfies_if": "Open Payments database shows research-category payments (not general/consulting) to the physician from a pharmaceutical sponsor, at any point in their record.",
         "data_sources": [
           "open_payments"
         ],
-        "derived_from": "sponsor: Vanderbilt-Ingram Cancer Center (OTHER, SPORE grant-funded translational trial) requiring active clinical trial research operations"
+        "derived_from": "Intervention: letrozole (aromatase inhibitor) administered per protocol; trial requires sponsor-coordinated drug supply and monitoring"
+      },
+      {
+        "id": "spore_cooperative_trial_history",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "The investigator or site should have a track record of participating in cooperative/SPORE-sponsored translational breast cancer research rather than only sponsor-initiated commercial trials.",
+        "satisfies_if": "ClinicalTrials.gov shows the physician or site as a participant in at least one other academically-sponsored (non-industry, e.g. NCI, SPORE, cooperative group) breast cancer trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Sponsor type: Vanderbilt-Ingram Cancer Center (OTHER, SPORE-designated translational study)"
       }
     ],
     "excluded_screening": [
-      "ECOG performance status 0-1 \u2014 assessed per patient at enrollment, not a marker of physician or site suitability",
-      "Bilirubin \u2264 1.5x ULN \u2014 per-patient lab eligibility threshold, unrelated to site capability",
-      "Creatinine \u2264 1.5x ULN \u2014 per-patient lab eligibility threshold, unrelated to site capability",
-      "No dementia/altered mental status precluding informed consent \u2014 per-patient consent capacity assessment, not a physician-fit criterion",
-      "No other malignancy within past 5 years (except resected nonmelanoma skin cancer or treated in situ carcinoma) \u2014 individual patient medical history exclusion, not physician/site capability",
-      "No prior resection of stomach or small bowel \u2014 individual patient surgical history exclusion affecting drug absorption, not physician/site capability",
-      "No prior chemotherapy for this primary breast cancer \u2014 individual patient treatment history exclusion, not physician/site capability",
-      "No evidence of distant metastatic disease \u2014 per-patient staging workup finding at screening, not physician/site capability"
+      "ECOG performance status 0-1 \u2014 a per-patient functional assessment at enrollment, not a marker of physician or site capability.",
+      "Bilirubin \u22641.5x ULN \u2014 a per-patient lab eligibility threshold checked at screening, irrelevant to site fitness.",
+      "Creatinine \u22641.5x ULN \u2014 a per-patient renal function lab threshold checked at screening, irrelevant to site fitness.",
+      "No dementia/altered mental status precluding informed consent \u2014 an individual patient capacity assessment, not a site-level criterion.",
+      "No prior resection of stomach or small bowel \u2014 an individual patient anatomic/absorption exclusion, not indicative of physician expertise or site capacity.",
+      "No other malignancy within past 5 years (with exceptions) \u2014 a per-patient oncologic history exclusion applied at screening.",
+      "No prior chemotherapy for this primary breast cancer \u2014 a per-patient treatment history check at enrollment, though it does inform the population description already captured elsewhere.",
+      "No evidence of distant metastatic disease \u2014 a per-patient staging/imaging confirmation at screening, not a site capability marker."
     ]
   },
   "scoring": {
@@ -136,32 +137,33 @@
       "primary": 3,
       "secondary": 1
     },
-    "max_score": 19,
+    "max_score": 16,
     "n_criteria": 10,
     "hard_gates": [
-      "breast_onc_or_surg_specialty"
+      "breast_onc_specialty",
+      "newly_diagnosed_surgical_candidate_volume"
     ],
     "by_dimension": {
       "expertise": {
-        "n_criteria": 3,
-        "max_points": 4
+        "n_criteria": 2,
+        "max_points": 1
       },
       "patient_population": {
         "n_criteria": 2,
-        "max_points": 4
+        "max_points": 3
       },
       "operational_capacity": {
         "n_criteria": 3,
         "max_points": 7
       },
       "trial_execution": {
-        "n_criteria": 2,
-        "max_points": 4
+        "n_criteria": 3,
+        "max_points": 5
       }
     },
-    "n_publicly_verifiable": 7,
-    "n_self_report_only": 3,
-    "public_coverage": 0.7
+    "n_publicly_verifiable": 9,
+    "n_self_report_only": 1,
+    "public_coverage": 0.9
   },
   "provenance": {
     "burden_source": "inferred",
@@ -181,8 +183,8 @@
     ],
     "usage": {
       "input_tokens": 3611,
-      "output_tokens": 3477
+      "output_tokens": 3326
     },
-    "cost_usd": 0.042
+    "cost_usd": 0.0405
   }
 }

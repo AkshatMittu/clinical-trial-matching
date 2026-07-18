@@ -1,0 +1,3893 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01310231",
+      "orgStudyIdInfo": {
+        "id": "OZM-027"
+      },
+      "organization": {
+        "fullName": "Ozmosis Research Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Trial of Standard Chemotherapy With Metformin (vs Placebo) in Women With Metastatic Breast Cancer",
+      "officialTitle": "A Randomized Phase II, Double Blind Trial of Standard Chemotherapy With Metformin (vs Placebo) in Women With Metastatic Breast Cancer Receiving First to Fourth Line Chemotherapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-08-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-07-14",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-03-26",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-02-18",
+      "studyFirstSubmitQcDate": "2011-03-04",
+      "studyFirstPostDateStruct": {
+        "date": "2011-03-08",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-08-24",
+      "resultsFirstSubmitQcDate": "2021-03-18",
+      "resultsFirstPostDateStruct": {
+        "date": "2021-04-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-03-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-04-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ozmosis Research Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Breast Cancer Research Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if the addition of metformin to standard chemotherapy improves progression free survival in women with metastatic breast cancer.",
+      "detailedDescription": "A double blind Phase II randomized study of metformin versus (vs) placebo in non-diabetic women on first to fourth line chemotherapy with anthracycline, taxane, platinum, capecitabine or vinorelbine based regimens for metastatic or unresectable locally advanced breast cancer (BC). Patients were randomized to receive metformin 850 mg tablets or placebo once daily for two days as ramp-up, followed by one tablet twice a day for the duration of the study. Randomization was stratified by line of chemotherapy (1st, 2nd, 3rd and 4th line) and hormone receptor status (ER and/or PgR positive versus both negative). All patients were required to have measureable or non-measureable, but evaluable metastases at study entry. Metformin or placebo was to be continued until disease progression, even if chemotherapy was changed or stopped prior to disease progression. Recruitment took place at five sites in Ontario, Canada: Mount Sinai Hospital, Princess Margaret Cancer Centre, St. Michael's Hospital, Toronto and London Regional Cancer Centre, London."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "keywords": [
+        "Metastatic Breast Cancer",
+        "Metformin"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops.",
+          "armGroupLabels": [
+            "Metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression Free Survival.",
+          "description": "Scans will be repeated every 9 weeks. Local follow up for survival will continue until all patients have died or for a maximum total follow up of 3 years, which ever occurs first. The two study arms will be compared in an intent to treat fashion using Cox proportional hazard analysis, with the stratification variables included in the model. Treatment discontinuation for toxicity or other reasons will be considered an event.",
+          "timeFrame": "From date of randomization to first documented progression or death, which ever occurs first, assessed up to 3 years."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Response Rate",
+          "description": "Overall response rate in patients with measureable disease based upon RECIST Version 1.1. Patients will have scans repeated every 9 weeks and overall review of response across the study will be done every 6 months. The overall response rate is defined as number of patients with a best overall response of CR or PR, as a proportion of all patient with measurable disease at baseline. The response rate between arms will be compared using logistic regression with treatment as factor, adjusted for strata.",
+          "timeFrame": "From baseline until time of best response, assessed up to 3 years"
+        },
+        {
+          "measure": "Number of Participants With Grade 1 or 2 Adverse Events",
+          "description": "Adverse events graded using Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0.\n\nLower grade (grade 1 and 2) and higher grade (grade 3 and 4) are presented separately.\n\nA detailed breakdown of adverse events are given in the Adverse Events section",
+          "timeFrame": "Up to 30 days after end of study"
+        },
+        {
+          "measure": "Number of Participants With Grade 3 or 4 Adverse Events",
+          "description": "Adverse events graded using Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0.\n\nLower grade (grade 1 and 2) and higher grade (grade 3 and 4) are presented separately.\n\nA detailed breakdown of adverse events are given in the Adverse Events section",
+          "timeFrame": "Up to 30 days after end of study"
+        },
+        {
+          "measure": "EORTC Quality of Life Measures",
+          "description": "European Organization for Research and Treatment of Cancer (EORTC) quality of life measures: global health status and 5 functioning scales. Baseline and Cycle 2 outcomes are scaled from 0 to 100; higher scores indicate better functioning or better health status. CHANGE in these scales from baseline to cycle 2 is reported for each arm.",
+          "timeFrame": "From baseline to cycle 2 of chemotherapy"
+        },
+        {
+          "measure": "Change in Fasting Glucose (mmol/L)",
+          "description": "Change in fasting glucose from baseline to Cycle 2",
+          "timeFrame": "Baseline to Cycle 2"
+        },
+        {
+          "measure": "Change in Fasting Insulin",
+          "description": "Change in fasting insulin from baseline to Cycle 2",
+          "timeFrame": "Baseline to Cycle 2"
+        },
+        {
+          "measure": "Change in Insulin Resistance From Baseline to Cycle 2 Measured Using Homeostatic Model Assessment (HOMA-IR)",
+          "description": "HOMA-IR is an index calculated from fasting insulin (pmol/L) and glucose (mmol/L) as insulin/6.9 times glucose/22.5.",
+          "timeFrame": "Baseline to Cycle 2"
+        },
+        {
+          "measure": "Immunohistochemical Predictors of Metformin Benefit and to Explore Changes in These Variables in Women Who Undergo Serial Biopsies of Their Metastases.",
+          "description": "Immunohistochemical analysis of different markers (IR, LKB1, phosphorylated AKT, S6K, ribosomal protein S6, 4E-BP1, and stathmin) pre and post first cycle of chemotherapy with metformin as well as in the original tumour tissue. Change in the phospho-markers of PI3K/mTOR will be summarized before and after the first cycle of chemotherapy with a focus on detection between the study arms.",
+          "timeFrame": "Baseline and 3 weeks."
+        },
+        {
+          "measure": "Gene Expression Predictors of Potential Metformin Benefit Including Exploration of Changes in These Variables in Women Who Undergo Serial Biopsies of Their Metastases",
+          "description": "Gene expression profiles in the baseline (original tumour) and, when available, pre and post cycle 1 chemotherapy will be established and change in gene signature pre and post chemotherapy will be explored.",
+          "timeFrame": "Baseline and 4 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically proven invasive breast cancer with metastatic spread outside of breast, ipsilateral axillary and supraclavicular nodal areas (Histological confirmation of metastases is not required) OR, Locally advanced breast cancer that is refractory to initial anticancer treatment.\n* A decision has been made to administer single or multiple agent first or second line chemotherapy that includes one of the following agents: anthracycline, taxane, platinum, capecitabine.\n* Age: 18 to 75 years at the time of registration\n* Invasive breast cancer, any ER or PgR status\n* ECOG performance status 0-2\n* Life expectancy of at least 6 months\n* Adequate hepatic and renal function (SGOT and ALT \\< 1.8 X upper limit of normal for the institution, alkaline phosphatase \u2264 2X upper limit of normal for the institution, bilirubin within normal limits for the institution (expect in patients with Gilbert's syndrome who will be eligible regardless of bilirubin) and creatinine \u2264 130 umol/L)\n* Blood counts: Neutrophils must be at least 1,000/mm3 and Platelets \u2265 75,000/mm3.\n* Ability to understand and to provide written informed consent for the study\n* Absence of any psychological, familial, sociological, or other patient related factors that might preclude compliance with the study protocol\n* Measurable or non measurable (but evaluable) tumour must be present - radiologic or clinical evaluation must have been performed within 4 weeks prior to registration.\n\nExclusion Criteria:\n\n* More than one previous line(s) of chemotherapy for metastatic disease - if prior chemotherapy has been administered, the last date of treatment must have been given at least 3 weeks prior to registration \\[any adjuvant systemic treatment is acceptable\\]\n* If prior hormone therapy (as adjuvant or metastatic therapy) has been administered, it must have been stopped at least 3 weeks prior to registration\n* Radiotherapy to a target or non target lesion within 4 weeks of registration\n* Known CNS metastases\n* History of cardiac failure\n* Known hypersensitivity or allergy to metformin\n* History of or known diabetes or baseline fasting glucose \u2265 7.0 mmol/L\n* History of lactic or other metabolic acidosis\n* Use of metformin within 3 months of registration\n* Current or planned pregnancy or lactation in women of child-bearing potential. Patients of childbearing potential must have a negative serum pregnancy test.\n* Fertile patients must agree to use an effective method of contraception while on study treatment; which could include IUD, condoms or other barrier methods of birth control\n* Habitual alcohol intake of more than three drinks daily\n* Concurrent use of any biguanide medication (other than metformin as a study medication)\n* Patients with \u2265 grade 2 diarrhea at baseline, malabsorption syndrome or unable to swallow oral medication\n* Previous or concurrent malignancies, except non-melanoma skin cancers, unless curatively treated and with no evidence of recurrence for \u2265 5 years.\n* Use of any investigational agent within 28 days prior to registration.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pamela J Goodwin, MD",
+          "affiliation": "MOUNT SINAI HOSPITAL",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "London Regional Cancer Program",
+          "city": "London",
+          "state": "Ontario",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "St. Michael's Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B 1N9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Mount Sinai Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 1X5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Princess Margaret Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 2M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Windsor Regional Cancer Centre",
+          "city": "Windsor",
+          "state": "Ontario",
+          "zip": "N8W 2X3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.30008,
+            "lon": -83.01654
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31472446",
+          "type": "RESULT",
+          "citation": "Pimentel I, Lohmann AE, Ennis M, Dowling RJO, Cescon D, Elser C, Potvin KR, Haq R, Hamm C, Chang MC, Stambolic V, Goodwin PJ. A phase II randomized clinical trial of the effect of metformin versus placebo on progression-free survival in women with metastatic breast cancer receiving standard chemotherapy. Breast. 2019 Dec;48:17-23. doi: 10.1016/j.breast.2019.08.003. Epub 2019 Aug 22."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Study Results",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31472446/"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Metformin",
+          "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "Received Intervention",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "17"
+                }
+              ]
+            },
+            {
+              "type": "Discontinued Intervention",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Analyzed for Survival",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "18"
+                }
+              ]
+            },
+            {
+              "type": "Analyzed for Response, Toxicity, QOL",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "17"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "22"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "17"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Metformin",
+          "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "22"
+            },
+            {
+              "groupId": "BG001",
+              "value": "18"
+            },
+            {
+              "groupId": "BG002",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "55",
+                      "lowerLimit": "39",
+                      "upperLimit": "75"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "57",
+                      "lowerLimit": "41",
+                      "upperLimit": "73"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "55.9",
+                      "lowerLimit": "39",
+                      "upperLimit": "75"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "18"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "40"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "description": "Based on National Institutes of Health (NIH) Office of Management and Budget (OMB) Standards",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "30"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ECOG Performance Scale",
+          "description": "Eastern Cooperative Oncology Group (ECOG) Performance Scale. Developed by the Eastern Cooperative Oncology Group, 1982 - Robert L. Comis, MD, Group Chair.\n\nGrade 0: Fully active, able to carry on all pre-disease performance without restriction; Grade 1: Restricted in physically strenuous activity but ambulatory and able to carry out work of a light or sedentary nature, e.g., light house work, office work; Grade 2: Ambulatory and capable of all selfcare but unable to carry out any work activities; up and about more than 50% of waking hours",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "ECOG 0-1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "36"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ECOG 2",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body Mass Index (BMI)",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "kg/m^2",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26.5",
+                      "lowerLimit": "18.8",
+                      "upperLimit": "42.4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26.6",
+                      "lowerLimit": "20.5",
+                      "upperLimit": "37.9"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26.5",
+                      "lowerLimit": "18.8",
+                      "upperLimit": "42.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Receptor Status",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "(Estrogen Receptor (ER)/Progesterone Receptor (PR) positive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ER/PR negative",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Human epidermal growth factor receptor 2 (HER2) status",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "HER2 positive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "HER2 negative",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Any adjuvant chemotherapy",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1st diagnosis to randomization",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6.5",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "24.6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "14.8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5.4",
+                      "lowerLimit": "0.1",
+                      "upperLimit": "24.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1st metastasis to randomization",
+          "paramType": "MEAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0.8",
+                      "lowerLimit": "0",
+                      "upperLimit": "4.8"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1.1",
+                      "lowerLimit": "0",
+                      "upperLimit": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0.9",
+                      "lowerLimit": "0",
+                      "upperLimit": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Line of treatment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "1st line treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "2nd line treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "3+ lines treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Any visceral disease",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Involvement beyond bone and lymph nodes",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "37"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Progression Free Survival.",
+          "description": "Scans will be repeated every 9 weeks. Local follow up for survival will continue until all patients have died or for a maximum total follow up of 3 years, which ever occurs first. The two study arms will be compared in an intent to treat fashion using Cox proportional hazard analysis, with the stratification variables included in the model. Treatment discontinuation for toxicity or other reasons will be considered an event.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "months",
+          "timeFrame": "From date of randomization to first documented progression or death, which ever occurs first, assessed up to 3 years.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5.4",
+                      "spread": "1.04"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.3",
+                      "spread": "1.68"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "groupDescription": "Power: Final study plan called for 40 progression events, giving 80% power to detect a hazard ratio (HR) of 0.58 for PFS with a one-sided type I error of 20%, where the relatively high type I error reflects the Phase II status of the trial",
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.71",
+              "pValueComment": "One-sided p-value for group-effect obtained from Cox model. The prespecified threshold was 0.20 (one-sided).",
+              "statisticalMethod": "Regression, Cox",
+              "statisticalComment": "Cox model for PFS with metf/plac and the two randomization stratification variables line of chemotherapy and hormone receptor status.",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.2",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.63",
+              "ciUpperLimit": "2.31",
+              "estimateComment": "Ratio of hazard of progression in the Metformin group relative to hazard in the Placebo group"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Response Rate",
+          "description": "Overall response rate in patients with measureable disease based upon RECIST Version 1.1. Patients will have scans repeated every 9 weeks and overall review of response across the study will be done every 6 months. The overall response rate is defined as number of patients with a best overall response of CR or PR, as a proportion of all patient with measurable disease at baseline. The response rate between arms will be compared using logistic regression with treatment as factor, adjusted for strata.",
+          "populationDescription": "Population is everyone with measurable disease (metformin 22, placebo 16)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From baseline until time of best response, assessed up to 3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Clinical benefit",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Progressive disease",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.41",
+              "pValueComment": "Two-side p-value from a logistic regression model.",
+              "statisticalMethod": "Regression, Logistic",
+              "statisticalComment": "Logistic regression model included metf/plac and the two stratification variables line of chemotherapy and hormone receptor status.",
+              "paramType": "Odds Ratio (OR)",
+              "paramValue": "1.77",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.45",
+              "ciUpperLimit": "6.99"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Grade 1 or 2 Adverse Events",
+          "description": "Adverse events graded using Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0.\n\nLower grade (grade 1 and 2) and higher grade (grade 3 and 4) are presented separately.\n\nA detailed breakdown of adverse events are given in the Adverse Events section",
+          "populationDescription": "Population is everyone who received study drug (metformin n=22, placebo n=17).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 30 days after end of study",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Grade 3 or 4 Adverse Events",
+          "description": "Adverse events graded using Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0.\n\nLower grade (grade 1 and 2) and higher grade (grade 3 and 4) are presented separately.\n\nA detailed breakdown of adverse events are given in the Adverse Events section",
+          "populationDescription": "Population is everyone who received study drug (metformin n=22, placebo n=17).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 30 days after end of study",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "22"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "17"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "EORTC Quality of Life Measures",
+          "description": "European Organization for Research and Treatment of Cancer (EORTC) quality of life measures: global health status and 5 functioning scales. Baseline and Cycle 2 outcomes are scaled from 0 to 100; higher scores indicate better functioning or better health status. CHANGE in these scales from baseline to cycle 2 is reported for each arm.",
+          "populationDescription": "Population is everyone who completed BOTH baseline and Cycle 2 questionnaires (19 metformin, 16 placebo).\n\n3 metformin and 2 placebo patients did not complete the Cycle 2 EORTC questionnaire.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "EORTC functioning scale",
+          "timeFrame": "From baseline to cycle 2 of chemotherapy",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "16"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Global health Status",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.7",
+                      "spread": "18.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.3",
+                      "spread": "19.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Physical functioning",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6.0",
+                      "spread": "12.9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.1",
+                      "spread": "12.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Role functioning",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-18.4",
+                      "spread": "27.7"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-2.1",
+                      "spread": "20.1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Emotional functioning",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-2.6",
+                      "spread": "21.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "2.3",
+                      "spread": "16.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cognitive functioning",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.9",
+                      "spread": "10.4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "spread": "17.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Social functioning",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-12.3",
+                      "spread": "29.8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "4.2",
+                      "spread": "23.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fasting Glucose (mmol/L)",
+          "description": "Change in fasting glucose from baseline to Cycle 2",
+          "populationDescription": "Population is everyone who had institutional glucose performed at BOTH baseline and Cycle 2 (19 metformin, 15 placebo).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "mmol/L",
+          "timeFrame": "Baseline to Cycle 2",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.2",
+                      "lowerLimit": "-0.4",
+                      "upperLimit": "0.3"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0",
+                      "lowerLimit": "-0.15",
+                      "upperLimit": "0.25"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Fasting Insulin",
+          "description": "Change in fasting insulin from baseline to Cycle 2",
+          "populationDescription": "Population is everyone who had sufficient fasting blood available for analysis at BOTH baseline and Cycle 2 (12 metformin, 7 placebo).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "pmol/L",
+          "timeFrame": "Baseline to Cycle 2",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-7",
+                      "lowerLimit": "-14.25",
+                      "upperLimit": "0.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1",
+                      "lowerLimit": "-13.5",
+                      "upperLimit": "20.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in Insulin Resistance From Baseline to Cycle 2 Measured Using Homeostatic Model Assessment (HOMA-IR)",
+          "description": "HOMA-IR is an index calculated from fasting insulin (pmol/L) and glucose (mmol/L) as insulin/6.9 times glucose/22.5.",
+          "populationDescription": "Population is everyone who had sufficient fasting blood available for analysis at BOTH baseline and Cycle 2 (12 metformin, 7 placebo).",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "HOMA-IR score",
+          "timeFrame": "Baseline to Cycle 2",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "7"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-0.16",
+                      "lowerLimit": "-0.85",
+                      "upperLimit": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0.12",
+                      "lowerLimit": "-0.52",
+                      "upperLimit": "0.62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Immunohistochemical Predictors of Metformin Benefit and to Explore Changes in These Variables in Women Who Undergo Serial Biopsies of Their Metastases.",
+          "description": "Immunohistochemical analysis of different markers (IR, LKB1, phosphorylated AKT, S6K, ribosomal protein S6, 4E-BP1, and stathmin) pre and post first cycle of chemotherapy with metformin as well as in the original tumour tissue. Change in the phospho-markers of PI3K/mTOR will be summarized before and after the first cycle of chemotherapy with a focus on detection between the study arms.",
+          "populationDescription": "Data not collected",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 3 weeks.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Gene Expression Predictors of Potential Metformin Benefit Including Exploration of Changes in These Variables in Women Who Undergo Serial Biopsies of Their Metastases",
+          "description": "Gene expression profiles in the baseline (original tumour) and, when available, pre and post cycle 1 chemotherapy will be established and change in gene signature pre and post chemotherapy will be explored.",
+          "populationDescription": "Data not collected",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 4 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops."
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "The Adverse Events reporting period is defined as the time of consent signature until 30 days after date of off study treatment.",
+      "description": "All-cause mortality is available on all subjects (metformin n=22, placebo n=18). All the other Adverse Events are available on patients that received study drug (metformin n=22, placebo n=17).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Metformin",
+          "description": "Metformin plus standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nMetformin: metformin 850 mg bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: Until progression or unacceptable toxicity develops.",
+          "deathsNumAffected": 19,
+          "deathsNumAtRisk": 22,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 22,
+          "otherNumAffected": 22,
+          "otherNumAtRisk": 22
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Placebo and standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nPlacebo: Placebo bid in addition to standard chemotherapy (containing anthracyclines, platinum, taxanes or capecitabine; first or second line).\n\nNumber of cycles: until progression or unacceptable toxicity develops.",
+          "deathsNumAffected": 15,
+          "deathsNumAtRisk": 18,
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 17,
+          "otherNumAffected": 15,
+          "otherNumAtRisk": 17
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "febrile neutropenia with respiratory infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "urosepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "febrile neutropenia with urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "hypoxia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ascites with hyponatraemia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "thromboembolism",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "DIARRHOEA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 16,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "NAUSEA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "VOMITING",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CONSTIPATION",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ABDOMINAL DISTENSION",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DYSGEUSIA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "FLATULENCE",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DYSPEPSIA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "STOMATITIS",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ABDOMINAL PAIN UPPER",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "EPIGASTRIC DISCOMFORT",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "GASTROINTESTINAL PAIN",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "GASTROOESOPHAGEAL REFLUX DISEASE",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "FATIGUE",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HOT FLUSH",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PYREXIA",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MUCOSAL INFLAMMATION",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "OEDEMA PERIPHERAL",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CHILLS",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "INFLUENZA LIKE ILLNESS",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "LOCALISED OEDEMA",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PAIN",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ASTHENIA",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DYSGEUSIA",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PARAESTHESIA",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HEADACHE",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "INSOMNIA",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PALMAR-PLANTAR ERYTHRODYSAESTHESIA SYNDROME",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "VISION BLURRED",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DIZZINESS",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MUSCULAR WEAKNESS",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PERIPHERAL SENSORY NEUROPATHY",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CARPAL TUNNEL SYNDROME",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPOAESTHESIA EYE",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MEMORY IMPAIRMENT",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DYSPNOEA",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "COUGH",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "EPISTAXIS",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "NASAL CONGESTION",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PHARYNGOLARYNGEAL PAIN",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "POSTNASAL DRIP",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CHRONIC OBSTRUCTIVE PULMONARY DISEASE",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MUSCULOSKELETAL CHEST PAIN",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PULMONARY EMBOLISM",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ALOPECIA",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PALMAR-PLANTAR ERYTHRODYSAESTHESIA SYNDROME",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "NAIL DISORDER",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "NAIL DISCOLOURATION",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "RASH",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "RASH MACULO-PAPULAR",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "SKIN INFECTION",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "BACK PAIN",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ARTHRALGIA",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "BONE PAIN",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MYALGIA",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MUSCULAR WEAKNESS",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PAIN IN EXTREMITY",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MUSCULOSKELETAL PAIN",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "NECK PAIN",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MUSCULOSKELETAL CHEST PAIN",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "SYNOVIAL CYST",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HOT FLUSH",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DIZZINESS",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "EPISTAXIS",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "EMBOLISM",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPOTENSION",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PHLEBITIS",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PULMONARY EMBOLISM",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ANOREXIA",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "OEDEMA PERIPHERAL",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPERGLYCAEMIA",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "LOCALISED OEDEMA",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPOCALCAEMIA",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DYSPNOEA",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DIZZINESS",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "OEDEMA PERIPHERAL",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "LOCALISED OEDEMA",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "SKIN INFECTION",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CYSTITIS",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "VISION BLURRED",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPOAESTHESIA EYE",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "LACRIMATION INCREASED",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ASPARTATE AMINOTRANSFERASE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "NEUTROPHIL COUNT DECREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ALANINE AMINOTRANSFERASE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "WHITE BLOOD CELL COUNT DECREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "INSOMNIA",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ANXIETY",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "DEPRESSION",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "MEMORY IMPAIRMENT",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HOT FLUSH",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "BREAST PAIN",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "VULVOVAGINAL DRYNESS",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "PHLEBITIS",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "ANAEMIA",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "CYSTITIS",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "POLLAKIURIA",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPERGLYCAEMIA",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "HEARING IMPAIRED",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        },
+        {
+          "term": "SYNOVIAL CYST",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "CTCAE version 4",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 22
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 17
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Limitations include relatively small sample size, with associated imbalances in frequency of visceral (vs nonvisceral) metastatic disease, in HER2 positive and negative cancers, and in type of chemotherapy received in the metformin vs placebo arms."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Pamela Goodwin/PI",
+        "organization": "Mount Sinai Hospital",
+        "email": "Pamela.goodwin@sinaihealth.ca",
+        "phone": "416 586-8211"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

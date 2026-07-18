@@ -1,0 +1,719 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02317783",
+      "orgStudyIdInfo": {
+        "id": "HCI69515"
+      },
+      "organization": {
+        "fullName": "University of Utah",
+        "class": "OTHER"
+      },
+      "briefTitle": "Amyloid Plaque Deposition in Chemotherapy-Induced Cognitive Impairment",
+      "officialTitle": "Amyloid Plaque Deposition in Chemotherapy-Induced Cognitive Impairment"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Enrollment challenges",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-01-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2019-09-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-09-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-12-11",
+      "studyFirstSubmitQcDate": "2014-12-15",
+      "studyFirstPostDateStruct": {
+        "date": "2014-12-16",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2024-08-21",
+      "resultsFirstSubmitQcDate": "2024-10-28",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Utah",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The initial goal of the investigators interdisciplinary group of imagers, oncologists, neurologists, neuro-psychologists, and biostatisticians is to obtain proof of concept pilot data for eventual submission of a National Cancer Institute Quick-Trial for Imaging and Image-Guided Interventions: Exploratory Grant (R10) depending on the results of this pilot study.\n\nThe overall objective is to use \\[18F\\]Flutemetamol, FDG-PET, and fMRI to better understand CICI, which effects up to 16 -50% of individuals receiving long-term adjuvant chemotherapy.2,3 To date there have been few studies examining this problem using multi-modality imaging techniques to better understand this complex and significant problem.\n\nFDG-PET and fMRI are routinely used in clinical practice for the evaluation of cognitive dysfunction in older populations complaining of memory dysfunction. It is well recognized that FDG-PET can assist with the differentiation and characterization of various cognitive disorders due to unique patterns of cerebral metabolism caused by various cognitive and dementia-causing disorders.4-6 FDG-PET has been studied extensively in dementia research and has a high reliability in detecting Alzheimers disease (AD) many years before it can be diagnosed reliably using clinical criteria.4\n\nTo the investigators knowledge, there has been only a single small study using FDG-PET and bolus water activation paradigms in cancer patients complaining of memory problems.7 To date, there have been no studies using \\[18F\\]Flutemetamol as a PET imaging agent to assess the possibility of increased amyloid plaque burden as a potential contributing factor to the cognitive deficits and complaints seen in patients experiencing CICI. The novel feature of this project is in the combined use of \\[18F\\]Flutemetamol-PET, FDG-PET, and fMRI to study a poorly understood but common problem: cognitive impairment in breast cancer patients treated with chemotherapy.\n\nIf \\[18F\\]Flutemetamol, FDG-PET, and fMRI can provide information on the pathophysiology of this disorder, it will be an important step in better understanding the etiology of this phenomenon and possibly other conditions resulting in cognitive dysfunction. These imaging assessments will make it possible to explore any altered changes in cerebral structure, metabolism, and amyloid deposition that may be responsible for CICI. This may help to predict which individuals may be affected by this problem and provide information for eventual therapeutic strategies to treat this common cancer-associated disorder.\n\nThis study will use \\[18F\\]Flutemetamol and FDG-PET imaging to assess and quantify the amyloid plaque burden and cerebral glucose metabolism, respectively, in breast cancer patients suffering from CICI and correlate those findings with structural changes on MRI. The \\[18F\\]Flutemetamol and FDG-PET scans of these study patients will then be compared to two GE software databases (CortexID-FDG and CortexID-Flutemetamol) which contain scan data from healthy control individuals to evaluate for abnormalities in cerebral glucose metabolism and amyloid plaque burden differing from the values expected for individuals in their age range."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "All Participants",
+          "type": "EXPERIMENTAL",
+          "description": "All enrolled subjects will complete three imaging sessions on separate days that consist of: 1) \\[18F\\]Flutemetamol-PET/CT, 2) FDG-PET/CT, and 3) MRI. The order of the performance of these studies will be based upon subject and radioisotope availability, but they will all be completed within 2 months of each other.",
+          "interventionNames": [
+            "Drug: [18F]Flutemetamol",
+            "Drug: [18F]fluoro-2-deoxy-D-glucose (FDG)",
+            "Diagnostic Test: Functional Magnetic Resonance Imaging (fMRI)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "[18F]Flutemetamol",
+          "description": "Brain scan with imaging tracer that binds to amyloid plaques",
+          "armGroupLabels": [
+            "All Participants"
+          ],
+          "otherNames": [
+            "[18F]GE067",
+            "Vizamyl",
+            "[18F]Flutemetamol-PET/CT"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "[18F]fluoro-2-deoxy-D-glucose (FDG)",
+          "description": "Brain scan with imaging tracer used for measuring glucose metabolism in the assessment, diagnosis, and staging of patients with cancer",
+          "armGroupLabels": [
+            "All Participants"
+          ],
+          "otherNames": [
+            "FDG",
+            "[18F]FDG",
+            "FDG-PET/CT"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Functional Magnetic Resonance Imaging (fMRI)",
+          "description": "Brain scan to assess regions of abnormal volume and density",
+          "armGroupLabels": [
+            "All Participants"
+          ],
+          "otherNames": [
+            "MRI",
+            "fMRI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Scans With Abnormal [18F]Flutemetamol Uptake",
+          "description": "\\[18F\\]Flutemetamol uptake will be assessed by visual criteria according to the approved Vizamyl prescribing information. Scans will be assessed by a binary grade of positive or negative corresponding to abnormal \\[18F\\]Flutemetamol uptake.",
+          "timeFrame": "[18F]Flutemetamol-PET/CT scans were acquired within 30 days of confirmed cognitive impairment via neuropsychological testing. Images were reviewed following completion of all study procedures."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Scans Positive for [18F]Flutemetamol Uptake",
+          "description": "Scans will be evaluated for positive \\[18F\\]Flutemetamol binding using a semi-quantitative technique performed by CortexID Suite, a software application provided by GE Healthcare. A standardized uptake value ratio (SUVR) is computed by normalizing regional uptake to the cerebellum or pons. The software averages the SUVR \\[18F\\]Flutemetamol uptake from the following regions to yield a global composite: lateral frontal, lateral temporal, lateral parietal, anterior cingulate, and posterior cingulate. This composite score is compared to the scan data from age- and sex-matched healthy controls to generate a Z-score, which is then used to determine a positive or negative scan (Z-score \\> 2 = Positive, Z-score \\< 2 = Negative).",
+          "timeFrame": "[18F]Flutemetamol-PET/CT scans were acquired within 30 days of confirmed cognitive impairment via neuropsychological testing. Evaluation of [18F]Flutemetamol binding was performed following completion of all study procedures."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female patients must be 18 years or older for inclusion in this research study. There is inadequate experience with the safety of Flutemetamol in children and therefore this radiopharmaceutical should not be used in patients under the age of 18. Individuals over 70 years age will be excluded as the incidence of amyloid positivity increases significantly even with no cognitive problems and will not allow for testing of our primary hypothesis.\n* The patient must have a histologically proven diagnosis of Stage I through IIIC Breast Cancer.\n* The patient must have completed adjuvant chemotherapy within at least 6 months, but no more than 36 months prior to initial study scan.\n* The patient must report persistent cognitive problems, defined as being one or more standard deviations above normative data on our two scales of subjective cognitive dysfunction. This is defined as a total score of 45 or higher on the Cognitive Failure Questionnaire, and a T-score of 60 or higher on the Frontal System Behavioral Scale Questionnaire.\n* Patients must agree to have clinical and radiographic endpoints and the results of histopathologic tissue analysis and other laboratory information entered into a research database, as evidenced by signing the informed consent form.\n* All patients, or their legal guardians, must sign a written informed consent and HIPAA authorization in accordance with institutional guidelines.\n\nExclusion Criteria:\n\n* Patients with known allergic or hypersensitivity reactions to previously administered radiopharmaceuticals. Patients with significant drug or other allergies or autoimmune diseases may be enrolled at the Investigator's discretion.\n* Adult patients who require monitored anesthesia for PET scanning.\n* Patients who are too claustrophobic to undergo MRI or PET imaging.\n* History of neurological disease known to affect cognition (e.g., stroke, head injury with loss of consciousness of greater than 30 minutes, seizure disorder, demyelinating disorder, mental retardation, primary brain tumor, brain metastases, etc.)\n* Current or past major psychiatric illness (e.g., schizophrenia, bipolar affective disorder)\n* Evidence of stroke or mass lesion on CT or MRI scan\n* History of alcoholism or other substance abuse\n* Current use of cholinesterase inhibitors, other cognitive enhancers, antipsychotics, antidepressants, or anticonvulsant medications\n* Current use of gabapentin or venlafaxine for hot flashes\n* History of radiation therapy to the brain\n* Uncontrolled diabetes or blood glucose greater than 175 mg/dl on the day of the FDG-PET scan\n* Currently pregnant\n* Color blindness (cannot complete D-KEFS Stroop test)\n* Moderate or Severe Depression as measured on the Beck Depression Inventory (BDI) -Short Form. The cut-off score for the BDI will be 8/9.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Huntsman Cancer Institute",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "All Participants",
+          "description": "All enrolled subjects will complete three imaging sessions on separate days that consist of: 1) \\[18F\\]Flutemetamol-PET/CT, 2) FDG-PET/CT, and 3) MRI. The order of the performance of these studies will be based upon subject and radioisotope availability, but they will all be completed within 2 months of each other.\n\n\\[18F\\]Flutemetamol: Brain scan with imaging tracer that binds to amyloid plaques\n\n\\[18F\\]fluoro-2-deoxy-D-glucose (FDG): Brain scan with imaging tracer used for measuring glucose metabolism in the assessment, diagnosis, and staging of patients with cancer\n\nFunctional Magnetic Resonance Imaging (fMRI): Brain scan to assess regions of abnormal volume and density"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "All Participants",
+          "description": "All enrolled subjects will complete three imaging sessions on separate days that consist of: 1) \\[18F\\]Flutemetamol-PET/CT, 2) FDG-PET/CT, and 3) MRI. The order of the performance of these studies will be based upon subject and radioisotope availability, but they will all be completed within 2 months of each other.\n\n\\[18F\\]Flutemetamol: Brain scan with imaging tracer that binds to amyloid plaques\n\n\\[18F\\]fluoro-2-deoxy-D-glucose (FDG): Brain scan with imaging tracer used for measuring glucose metabolism in the assessment, diagnosis, and staging of patients with cancer\n\nFunctional Magnetic Resonance Imaging (fMRI): Brain scan to assess regions of abnormal volume and density"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "55.80",
+                      "spread": "8.26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Scans With Abnormal [18F]Flutemetamol Uptake",
+          "description": "\\[18F\\]Flutemetamol uptake will be assessed by visual criteria according to the approved Vizamyl prescribing information. Scans will be assessed by a binary grade of positive or negative corresponding to abnormal \\[18F\\]Flutemetamol uptake.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Scans",
+          "timeFrame": "[18F]Flutemetamol-PET/CT scans were acquired within 30 days of confirmed cognitive impairment via neuropsychological testing. Images were reviewed following completion of all study procedures.",
+          "typeUnitsAnalyzed": "Scans",
+          "denomUnitsSelected": "Scans",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "All participants completed \\[18F\\]Flutemetamol-PET/CT scan"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            },
+            {
+              "units": "Scans",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Scans Positive for [18F]Flutemetamol Uptake",
+          "description": "Scans will be evaluated for positive \\[18F\\]Flutemetamol binding using a semi-quantitative technique performed by CortexID Suite, a software application provided by GE Healthcare. A standardized uptake value ratio (SUVR) is computed by normalizing regional uptake to the cerebellum or pons. The software averages the SUVR \\[18F\\]Flutemetamol uptake from the following regions to yield a global composite: lateral frontal, lateral temporal, lateral parietal, anterior cingulate, and posterior cingulate. This composite score is compared to the scan data from age- and sex-matched healthy controls to generate a Z-score, which is then used to determine a positive or negative scan (Z-score \\> 2 = Positive, Z-score \\< 2 = Negative).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Scans",
+          "timeFrame": "[18F]Flutemetamol-PET/CT scans were acquired within 30 days of confirmed cognitive impairment via neuropsychological testing. Evaluation of [18F]Flutemetamol binding was performed following completion of all study procedures.",
+          "typeUnitsAnalyzed": "Scans",
+          "denomUnitsSelected": "Scans",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "All participants completed \\[18F\\]Flutemetamol-PET/CT"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            },
+            {
+              "units": "Scans",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "24 hours from the time of injection of the [18F]Flutemetamol",
+      "description": "Adverse events will be assessed for \\[18F\\]Flutemetamol immediately following the imaging scan. Additionally, a follow-up telephone call will be made to each participant within 1 day following their imaging scan. If the participant cannot be contacted at 1 day post-scanning, then we will continue trying to contact them for up to 7 days post-scanning.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "All Participants",
+          "description": "All enrolled subjects will complete three imaging sessions on separate days that consist of: 1) \\[18F\\]Flutemetamol-PET/CT, 2) FDG-PET/CT, and 3) MRI. The order of the performance of these studies will be based upon subject and radioisotope availability, but they will all be completed within 2 months of each other.\n\n\\[18F\\]Flutemetamol: Brain scan with imaging tracer that binds to amyloid plaques\n\n\\[18F\\]fluoro-2-deoxy-D-glucose (FDG): Brain scan with imaging tracer used for measuring glucose metabolism in the assessment, diagnosis, and staging of patients with cancer\n\nFunctional Magnetic Resonance Imaging (fMRI): Brain scan to assess regions of abnormal volume and density",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 10,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 10,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 10
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Sam Mitchell",
+        "organization": "Huntsman Cancer Institute, Center for Quantitative Cancer Imaging",
+        "email": "sam.mitchell@hci.utah",
+        "phone": "801-213-6110"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2024-03-21",
+          "uploadDate": "2024-07-03T15:30",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 2168270
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2024-09-19",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C581552",
+          "term": "flutemetamol"
+        },
+        {
+          "id": "D019788",
+          "term": "Fluorodeoxyglucose F18"
+        },
+        {
+          "id": "D008279",
+          "term": "Magnetic Resonance Imaging"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003847",
+          "term": "Deoxyglucose"
+        },
+        {
+          "id": "D003837",
+          "term": "Deoxy Sugars"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D014054",
+          "term": "Tomography"
+        },
+        {
+          "id": "D003952",
+          "term": "Diagnostic Imaging"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

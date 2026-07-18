@@ -211,9 +211,13 @@ def build_cohort(prec: dict, data_dir: Path, limit: int = 12,
     if not prec.get("available"):
         return {"available": False, "reason": "no precedent cohort to draw from"}
 
-    candidates = [r["nct_id"] for r in
-                  (prec.get("examples_completed") or []) +
-                  (prec.get("examples_stopped") or [])]
+    # Prefer the full cohort; fall back to the display examples for precedent
+    # records written before cohort_ids existed.
+    candidates = (prec.get("cohort_with_results")
+                  or prec.get("cohort_ids")
+                  or [r["nct_id"] for r in
+                      (prec.get("examples_completed") or []) +
+                      (prec.get("examples_stopped") or [])])
     raw_dir = data_dir / "trials_raw"
     scored, skipped, off_setting = [], 0, 0
 

@@ -1,0 +1,477 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00726180",
+      "orgStudyIdInfo": {
+        "id": "UMCC 2007.130"
+      },
+      "organization": {
+        "fullName": "University of Michigan Rogel Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Use of Trastuzumab to Induce Increased ER Expression in ER-negative/Low, Her-2/Neu Positive Breast Cancer",
+      "officialTitle": "Evaluation of the Use of Trastuzumab to Induce Increased ER Expression in ER-Negative/Low, Her-2/Neu Positive Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2013-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to low enrollment",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-07"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-07-28",
+      "studyFirstSubmitQcDate": "2008-07-30",
+      "studyFirstPostDateStruct": {
+        "date": "2008-07-31",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2013-03-08",
+      "resultsFirstSubmitQcDate": "2013-08-09",
+      "resultsFirstPostDateStruct": {
+        "date": "2013-10-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2013-08-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2013-10-15",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ann Schott, MD",
+        "investigatorTitle": "Associate Professor of Medicine",
+        "investigatorAffiliation": "University of Michigan Rogel Cancer Center"
+      },
+      "leadSponsor": {
+        "name": "University of Michigan Rogel Cancer Center",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The majority pf breast cancers present as ER-positive, many of which are able to be targeted with multiple hormonal therapies. Altering ER-negative tumors to increase ER expression has the potential to benefit patients by making hormonal therapies a therapeutic option and possibly improving their overall prognosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast cancer",
+        "Women",
+        "w/Her2",
+        "positive",
+        "ERnegative",
+        "not metastasized"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment arm",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: trastuzumab (Herceptin\u00ae)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "trastuzumab (Herceptin\u00ae)",
+          "description": "About 1 week (4 - 7 days) before scheduled breast surgery, consisting of lumpectomy or mastectomy, subjects will receive a dose of trastuzumab (Herceptin\u00ae). Trastuzumab will be given through an IV or port for approximately 90 minutes. During this time, subjects will be closely monitored by a chemotherapy nurse to make sure that subjects do not have a reaction to the medication. It is possible that the infusion of the medication will need to be slowed down, in which case, the time for the infusion will be longer than 90 minutes. The one dose of the trastuzumab drug will be provided by the study (not billed to insurance), but the charges to administer the drug will be billed to subjects or subjects health insurance.",
+          "armGroupLabels": [
+            "Treatment arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Standard Immunohistochemistry and Allred Scores Were to be Used to Measure the Estrogen Receptor (ER) Response Rate in Patients With ER-negative/Low, and Human Epidermal Growth Factor Receptor 2 (HER2)/Neu-positive Breast Cancer.",
+          "timeFrame": "90 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women who have Her-2 positive and ER- negative or ER-low breast cancer that has not metastasized, or spread to other parts of the body, are eligible for the study.\n* Participants must have had either a core biopsy or incisional biopsy of their breast cancer, but not yet had definitive breast surgery, including lumpectomy or mastectomy.\n* Participants may not have had a BRCA mutation found on genetic testing.\n* Participants should have not yet received treatment for their breast cancer, including:\n\n  * chemotherapy,\n  * hormonal therapy,\n  * trastuzumab.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Anne Schott, MD",
+          "affiliation": "University of Michigan Rogel Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Michigan Comprehensive Cancer Center",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment Arm",
+          "description": "trastuzumab (Herceptin\u00ae) : About 1 week (4 - 7 days) before scheduled breast surgery, consisting of lumpectomy or mastectomy, subjects will receive a dose of trastuzumab (Herceptin\u00ae). Trastuzumab will be given through an IV or port for approximately 90 minutes. During this time, subjects will be closely monitored by a chemotherapy nurse to make sure that subjects do not have a reaction to the medication. It is possible that the infusion of the medication will need to be slowed down, in which case, the time for the infusion will be longer than 90 minutes. The one dose of the trastuzumab drug will be provided by the study (not billed to insurance), but the charges to administer the drug will be billed to subjects or subjects health insurance."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment Arm",
+          "description": "trastuzumab (Herceptin\u00ae) : About 1 week (4 - 7 days) before scheduled breast surgery, consisting of lumpectomy or mastectomy, subjects will receive a dose of trastuzumab (Herceptin\u00ae). Trastuzumab will be given through an IV or port for approximately 90 minutes. During this time, subjects will be closely monitored by a chemotherapy nurse to make sure that subjects do not have a reaction to the medication. It is possible that the infusion of the medication will need to be slowed down, in which case, the time for the infusion will be longer than 90 minutes. The one dose of the trastuzumab drug will be provided by the study (not billed to insurance), but the charges to administer the drug will be billed to subjects or subjects health insurance."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Standard Immunohistochemistry and Allred Scores Were to be Used to Measure the Estrogen Receptor (ER) Response Rate in Patients With ER-negative/Low, and Human Epidermal Growth Factor Receptor 2 (HER2)/Neu-positive Breast Cancer.",
+          "populationDescription": "Only 1 patient was enrolled to this study, so no data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "90 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment Arm",
+              "description": "trastuzumab (Herceptin\u00ae) : About 1 week (4 - 7 days) before scheduled breast surgery, consisting of lumpectomy or mastectomy, subjects will receive a dose of trastuzumab (Herceptin\u00ae). Trastuzumab will be given through an IV or port for approximately 90 minutes. During this time, subjects will be closely monitored by a chemotherapy nurse to make sure that subjects do not have a reaction to the medication. It is possible that the infusion of the medication will need to be slowed down, in which case, the time for the infusion will be longer than 90 minutes. The one dose of the trastuzumab drug will be provided by the study (not billed to insurance), but the charges to administer the drug will be billed to subjects or subjects health insurance."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment Arm",
+          "description": "trastuzumab (Herceptin\u00ae) : About 1 week (4 - 7 days) before scheduled breast surgery, consisting of lumpectomy or mastectomy, subjects will receive a dose of trastuzumab (Herceptin\u00ae). Trastuzumab will be given through an IV or port for approximately 90 minutes. During this time, subjects will be closely monitored by a chemotherapy nurse to make sure that subjects do not have a reaction to the medication. It is possible that the infusion of the medication will need to be slowed down, in which case, the time for the infusion will be longer than 90 minutes. The one dose of the trastuzumab drug will be provided by the study (not billed to insurance), but the charges to administer the drug will be billed to subjects or subjects health insurance.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 1,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 1
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Anne F. Schott, MD",
+        "organization": "Universtiy of Michigan",
+        "email": "aschott@umich.edu",
+        "phone": "734-936-6000"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068878",
+          "term": "Trastuzumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

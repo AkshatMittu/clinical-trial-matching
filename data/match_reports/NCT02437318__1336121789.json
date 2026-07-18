@@ -1,0 +1,240 @@
+{
+  "nct_id": "NCT02437318",
+  "trial_label": "SOLAR-1",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "variant": "public_only",
+  "model": "claude-sonnet-5",
+  "scoring": {
+    "score": 8.5,
+    "max_score": 20.0,
+    "score_pct": 0.425,
+    "coverage": 0.455,
+    "n_criteria": 11,
+    "n_answered": 5,
+    "verdict_counts": {
+      "satisfied": 4,
+      "unknown": 6,
+      "partial": 1
+    },
+    "gate_failures": [],
+    "recommendation": "insufficient_evidence",
+    "reason": "only 45% of criteria could be adjudicated (minimum 50%)",
+    "by_dimension": {
+      "expertise": {
+        "earned": 3.0,
+        "possible": 4.0,
+        "n": 3,
+        "pct": 0.75
+      },
+      "patient_population": {
+        "earned": 1.5,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 0.3
+      },
+      "operational_capacity": {
+        "earned": 0.0,
+        "possible": 7.0,
+        "n": 3,
+        "pct": 0.0
+      },
+      "trial_execution": {
+        "earned": 4.0,
+        "possible": 4.0,
+        "n": 2,
+        "pct": 1.0
+      }
+    },
+    "thresholds": {
+      "strong": 0.7,
+      "possible": 0.4,
+      "min_coverage": 0.5
+    }
+  },
+  "verdicts": [
+    {
+      "criterion_id": "breast_onc_specialty",
+      "verdict": "satisfied",
+      "rationale": "NPPES record lists Internal Medicine, Medical Oncology taxonomy, confirming the physician is a medical oncologist managing breast cancer.",
+      "evidence_refs": [
+        "NPI:1336121789"
+      ],
+      "dimension": "expertise",
+      "criticality": "hard_gate",
+      "requirement": "The investigator must be a medical oncologist or hematology-oncology specialist managing breast cancer, not a general practitioner or unrelated subspecialist.",
+      "satisfies_if": "NPPES record lists taxonomy code for Medical Oncology or Hematology/Oncology.",
+      "data_sources": [
+        "nppes"
+      ]
+    },
+    {
+      "criterion_id": "hr_positive_advanced_bc_experience",
+      "verdict": "satisfied",
+      "rationale": "Multiple PubMed records document authorship on HR+/HER2- metastatic breast cancer trials involving endocrine therapy (e.g., palbociclib with fulvestrant/tamoxifen, camizestrant with CDK4/6i, palbociclib adjuvant ET, CTC dynamics post-CDK4/6i in HR+ MBC), and ClinicalTrials.gov confirms overall official roles on related HR+ breast cancer trials.",
+      "evidence_refs": [
+        "PMID:41812623",
+        "PMID:41125211",
+        "PMID:41110701",
+        "PMID:40853871",
+        "NCT02513394",
+        "NCT02040857"
+      ],
+      "dimension": "expertise",
+      "criticality": "primary",
+      "requirement": "The investigator should have demonstrated clinical or research experience specifically in HR-positive, HER2-negative advanced/metastatic breast cancer treated with endocrine therapy.",
+      "satisfies_if": "PubMed record shows authorship on >=1 publication concerning HR+ or endocrine-therapy-treated breast cancer, or ClinicalTrials.gov shows investigator role on a prior HR+ breast cancer trial.",
+      "data_sources": [
+        "pubmed",
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "pik3ca_biomarker_familiarity",
+      "verdict": "unknown",
+      "rationale": "No PubMed record in the dossier specifically references PIK3CA mutation testing in breast cancer, and there is no self-attestation of PIK3CA/ctDNA testing use in practice.",
+      "evidence_refs": [],
+      "dimension": "expertise",
+      "criticality": "secondary",
+      "requirement": "The investigator should have familiarity with PIK3CA mutation testing and its role in treatment selection, given the trial's primary endpoint is defined within the PIK3CA-mutant cohort.",
+      "satisfies_if": "PubMed record shows authorship on a publication referencing PIK3CA mutation in breast cancer, or self-attestation of routine use of PIK3CA/ctDNA testing in practice.",
+      "data_sources": [
+        "pubmed",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "postmenopausal_advanced_bc_volume",
+      "verdict": "partial",
+      "rationale": "Medicare claims show a substantial volume of oncology office and hospital visits (99214, 99215, 99232) consistent with an active medical oncology practice, but the data does not break out breast cancer diagnosis codes or AI/endocrine therapy billing specifically, so advanced HR+/HER2- AI-progressed population volume cannot be confirmed.",
+      "evidence_refs": [
+        "HCPCS:99214",
+        "HCPCS:99215",
+        "HCPCS:99232"
+      ],
+      "dimension": "patient_population",
+      "criticality": "primary",
+      "requirement": "The practice must see a regular volume of postmenopausal (or male) patients with HR+/HER2- advanced breast cancer who have progressed on an aromatase inhibitor.",
+      "satisfies_if": "Medicare claims data show a floor volume of breast cancer diagnosis codes and AI/endocrine therapy billing under the physician's NPI consistent with an active advanced breast cancer practice, OR self-report of monthly count of such patients.",
+      "data_sources": [
+        "medicare",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "limited_prior_line_population",
+      "verdict": "unknown",
+      "rationale": "No self-report describing typical referral timing or line of therapy at which patients are seen is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "secondary",
+      "requirement": "The practice must be able to identify patients early in their metastatic treatment course (0-1 prior lines of endocrine therapy, no prior chemotherapy for advanced disease), not only heavily pretreated referrals.",
+      "satisfies_if": "Self-report describing typical referral timing/line of therapy at which patients are seen by this physician.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "male_bc_access",
+      "verdict": "unknown",
+      "rationale": "No self-report confirming treatment of or referral pathway for male breast cancer patients is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "secondary",
+      "requirement": "Given the trial enrolls men as well as postmenopausal women, the site should have some capacity or referral pathway to identify male breast cancer patients with HR+/HER2- disease.",
+      "satisfies_if": "Self-report confirming the practice has treated or can refer male breast cancer patients.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "infusion_and_oral_drug_admin_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report confirming on-site infusion/injection suite or oral chemotherapy dispensing/monitoring program is present.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "The site must have infrastructure to administer IM fulvestrant injections on a recurring monthly schedule alongside dispensing and monitoring compliance with daily oral alpelisib/placebo.",
+      "satisfies_if": "Self-report confirming on-site infusion/injection suite and oral chemotherapy dispensing/monitoring program.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "cardiac_metabolic_monitoring_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report confirming access to ECG, echocardiography/MUGA, or fasting lab monitoring services is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "The site must be able to perform serial ECGs, periodic cardiac imaging (MUGA or ECHO), and close fasting glucose/HbA1c/lipid monitoring required by the protocol's safety schedule for alpelisib-related hyperglycemia and cardiac risk.",
+      "satisfies_if": "Self-report confirming access to on-site or closely affiliated ECG, echocardiography/MUGA, and fasting lab services per the posted schedule of assessments.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "imaging_tumor_assessment_cadence",
+      "verdict": "unknown",
+      "rationale": "No self-report confirming on-site or affiliated imaging capability supporting the required scan cadence is present.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "The site must support tumor imaging assessments every 8 weeks for the first 18 months, then every 12 weeks until 36 months, with confirmatory response scans.",
+      "satisfies_if": "Self-report confirming on-site or closely affiliated CT/MRI/bone scan imaging capability supporting this cadence.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "phase3_industry_trial_experience",
+      "verdict": "satisfied",
+      "rationale": "ClinicalTrials.gov lists this physician as an overall official on NCT02040857, a completed industry-sponsored Phase III trial of palbociclib with adjuvant endocrine therapy in HR+/HER2- breast cancer, demonstrating prior Phase III trial leadership.",
+      "evidence_refs": [
+        "NCT02040857"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "primary",
+      "requirement": "The investigator should have prior experience serving as an investigator on industry-sponsored Phase III oncology trials, reflecting capability to run a large multi-year randomized protocol like SOLAR-1.",
+      "satisfies_if": "ClinicalTrials.gov record lists the physician/site as an investigator on >=1 completed Phase III industry-sponsored oncology trial.",
+      "data_sources": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "sponsor_relationship_evidence",
+      "verdict": "satisfied",
+      "rationale": "Open Payments records show multiple research-related payments from F. Hoffmann-La Roche AG and E.R. Squibb & Sons for oncology studies in ER+/HER2- breast cancer, indicating an established pharmaceutical research relationship.",
+      "evidence_refs": [
+        "OpenPayments:1211535676",
+        "OpenPayments:1211535681",
+        "OpenPayments:1211535685",
+        "OpenPayments:1236002143"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "The investigator ideally has a documented research relationship with pharmaceutical sponsors (e.g., Novartis or peer oncology sponsors), suggesting established trial-conduct relationships and GCP compliance history.",
+      "satisfies_if": "Open Payments record shows research-related payments to the physician from a pharmaceutical company within the oncology space.",
+      "data_sources": [
+        "open_payments"
+      ]
+    }
+  ],
+  "narrative": "Erica Mayer is clearly a medical oncologist with deep, topic-relevant experience in HR+/HER2- advanced breast cancer and endocrine therapy trials, and she has demonstrable Phase III trial leadership plus documented pharma sponsor relationships in the breast cancer space \u2014 a strong fit on expertise and trial-execution dimensions. The weakest points are the complete absence of any self-reported operational detail (infusion capacity, cardiac/metabolic monitoring, imaging cadence, male BC referral pathways, line-of-therapy timing) and no direct evidence of PIK3CA-specific biomarker experience, all of which the rubric can only source from self-attestation that is missing from this dossier. Medicare visit volume is substantial but not broken down by breast cancer or AI-therapy billing, so population-fit for this specific trial remains only partially supported. A short site-capability questionnaire covering infusion/oral-drug administration, cardiac-metabolic monitoring, imaging turnaround, and PIK3CA testing practices would resolve most of the open questions.",
+  "target_trial_excluded": null,
+  "n_excluded_records": 0,
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 9406,
+      "output_tokens": 2974
+    },
+    "cost_usd": 0.0486
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01129622",
+      "orgStudyIdInfo": {
+        "id": "CFWH-AI1"
+      },
+      "organization": {
+        "fullName": "Mount Sinai Hospital, Canada",
+        "class": "OTHER"
+      },
+      "briefTitle": "Effect of Aromatase Inhibitors on Breast Magnetic Resonance Imaging (MRI)",
+      "officialTitle": "Phase II Study of the Effect of Acute Aromatase Inhibition on Breast MRI Postmenopausal Women",
+      "acronym": "RFCLET2"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2014-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2009-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2010-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-05-21",
+      "studyFirstSubmitQcDate": "2010-05-21",
+      "studyFirstPostDateStruct": {
+        "date": "2010-05-24",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2012-03-03",
+      "resultsFirstSubmitQcDate": "2014-04-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2014-05-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2014-04-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2014-05-01",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Robert Casper",
+        "investigatorTitle": "Professor, Obstetrics and Gynecology",
+        "investigatorAffiliation": "Mount Sinai Hospital, Canada"
+      },
+      "leadSponsor": {
+        "name": "Mount Sinai Hospital, Canada",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a primary investigation to determine the usefulness and safety of a short course of a relatively high dose of letrozole (a medication used to decrease the female hormone estrogen which is produced locally inside the breast after menopause) in improving the performance of of breast MRI (Magnetic Resonance Imaging). The inhibition of estrogen in the breast by letrozole might help better identifying of suspicious areas in the breast and could assist radiologists in distinguishing between benign breast areas and cancer tissue. This might help reducing the rate of call backs and unnecessary biopsies for patients. We expect to enroll 20 healthy postmenopausal women in this study.",
+      "detailedDescription": "A breast MRI will be performed in the standard way for diagnosis and to serve as a baseline. A second MRI will be performed within a month and following administration of letrozole 12.5 mg daily for three days to reduce breast estrogen levels and in anticipation of lowering breast gadolinium dye uptake."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Letrozole",
+        "Breast MRI",
+        "Postmenopausal women"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Letrozole, Breast enhancement, Safety",
+          "type": "EXPERIMENTAL",
+          "description": "Single arm of healthy postmenopausal women who received baseline diagnostic MRI will receive letrozole of 12.5 mg/day orally for three successive days. A second post treatment breast MRI is done right after receiving the three days of letrozole treatment and within one month after the first MRI .",
+          "interventionNames": [
+            "Drug: letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "letrozole",
+          "description": "Letrozole (12.5 mg/day ) which is higher than the dose routinely used for therapeutic indications is given for a brief duration (3 successive days) aiming to promote acute aromatase inhibition suitable for pre-diagnostic regimens.",
+          "armGroupLabels": [
+            "Letrozole, Breast enhancement, Safety"
+          ],
+          "otherNames": [
+            "Femara TM Novartis Pharmaceuticals Canada Inc., Dorval, QC"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Women With Reduced Breast Parenchymal Enhancement",
+          "description": "Image analysis was done using the e-film workstation. A region of interest was selected in all images. The signal intensity of enhancement was recorded and the relative enhancement (percentage of increase in signal intensity) was calculated as (SIc - SI)/SI \u00d7 100, where SI and SIc are the precontrast and the postcontrast signal intensities, respectively. Relative enhancement was compared at the baseline MRI study and the after one month MRI study for all participants.",
+          "timeFrame": "One month MRI study after letrozole compared to baseline MRI study, both with gadolinium enhancement"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants Developed Adverse Effects of 12.5 mg of Letrozole",
+          "description": "The number of participants who developed short term hypoestrogenic side effects or other adverse effects of letrozole during the intake of the medication or in the following week.",
+          "timeFrame": "Three days plus One Week following medication"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women are eligible to participate if they are 40 years or older and have been menopausal (had no menstrual bleeding during the past 12 months)\n\nExclusion Criteria:\n\n* History of bilateral mastectomy, osteoporosis or renal impairment.",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "40 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Robert F Casper, MD",
+          "affiliation": "Mount Sinai Hopsital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mount Sinai Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5T 3H7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "22258545",
+          "type": "RESULT",
+          "citation": "Mousa NA, Eiada R, Crystal P, Nayot D, Casper RF. The effect of acute aromatase inhibition on breast parenchymal enhancement in magnetic resonance imaging: a prospective pilot clinical trial. Menopause. 2012 Apr;19(4):420-5. doi: 10.1097/gme.0b013e31823772a8."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "16 women over age 40 on hormone therapy were recruited. No previous abnormal breast imaging.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Letrozole, Breast Enhancement, Safety",
+          "description": "Single arm of healthy postmenopausal women to have two breast MRI (baseline and post-treatment). Letrozole of 12.5 mg/day is given for three successive days just prior to the second MRI."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "16"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Letrozole, Breast Enhancement, Safety",
+          "description": "Single arm of healthy postmenopausal women to have two breast MRI (baseline and post-treatment). Letrozole of 12.5 mg/day is given for three successive days just prior to the second MRI."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "16"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60",
+                      "spread": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Canada",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Women With Reduced Breast Parenchymal Enhancement",
+          "description": "Image analysis was done using the e-film workstation. A region of interest was selected in all images. The signal intensity of enhancement was recorded and the relative enhancement (percentage of increase in signal intensity) was calculated as (SIc - SI)/SI \u00d7 100, where SI and SIc are the precontrast and the postcontrast signal intensities, respectively. Relative enhancement was compared at the baseline MRI study and the after one month MRI study for all participants.",
+          "populationDescription": "All participants who completed two MRIs were analysed. Percentage reduction in breast enhancement compared to baseline was determined.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Number of participants",
+          "timeFrame": "One month MRI study after letrozole compared to baseline MRI study, both with gadolinium enhancement",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole, Breast Enhancement, Safety",
+              "description": "Single arm of healthy postmenopausal women to have two breast MRI (baseline and post-treatment). Letrozole of 12.5 mg/day is given for three successive days just prior to the second MRI."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Developed Adverse Effects of 12.5 mg of Letrozole",
+          "description": "The number of participants who developed short term hypoestrogenic side effects or other adverse effects of letrozole during the intake of the medication or in the following week.",
+          "populationDescription": "All entered subjects",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Number of participants",
+          "timeFrame": "Three days plus One Week following medication",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Adverse Events",
+              "description": "Hypo-estrogenic side effects"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "14"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "10 months",
+      "description": "Subject report of adverse events prior to second MRI.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Letrozole, Breast Enhancement, Safety",
+          "description": "Single arm of healthy postmenopausal women to have two breast MRI (baseline and post-treatment). Letrozole of 12.5 mg/day is given for three successive days just prior to the second MRI.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 14,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 14
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "SNOMED CT",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 14
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "SNOMED CT",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Mild arthralgia",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 14
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "The small sample size is a limitation."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Robert F Casper",
+        "organization": "Mount Sinai Hospital",
+        "email": "casper@lunenfeld.ca",
+        "phone": "416-972-0777"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

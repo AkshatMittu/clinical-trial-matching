@@ -1,0 +1,239 @@
+{
+  "nct_id": "NCT01781338",
+  "trial_label": "ADAPT",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "variant": "public_only",
+  "model": "claude-sonnet-5",
+  "scoring": {
+    "score": 8.5,
+    "max_score": 20.0,
+    "score_pct": 0.425,
+    "coverage": 0.455,
+    "n_criteria": 11,
+    "n_answered": 5,
+    "verdict_counts": {
+      "partial": 2,
+      "satisfied": 3,
+      "unknown": 6
+    },
+    "gate_failures": [
+      "breast_onc_specialty"
+    ],
+    "recommendation": "poor_fit",
+    "reason": "hard gate not met: breast_onc_specialty",
+    "by_dimension": {
+      "expertise": {
+        "earned": 3.0,
+        "possible": 3.0,
+        "n": 2,
+        "pct": 1.0
+      },
+      "patient_population": {
+        "earned": 1.5,
+        "possible": 4.0,
+        "n": 2,
+        "pct": 0.375
+      },
+      "operational_capacity": {
+        "earned": 0.0,
+        "possible": 8.0,
+        "n": 4,
+        "pct": 0.0
+      },
+      "trial_execution": {
+        "earned": 4.0,
+        "possible": 5.0,
+        "n": 3,
+        "pct": 0.8
+      }
+    },
+    "thresholds": {
+      "strong": 0.7,
+      "possible": 0.4,
+      "min_coverage": 0.5
+    }
+  },
+  "verdicts": [
+    {
+      "criterion_id": "breast_onc_specialty",
+      "verdict": "partial",
+      "rationale": "NPPES confirms a Medical Oncology taxonomy, satisfying the specialty portion of the requirement, but there is no self-report or site data confirming she practices within a designated breast center/program.",
+      "evidence_refs": [
+        "NPI:1336121789"
+      ],
+      "dimension": "expertise",
+      "criticality": "hard_gate",
+      "requirement": "The investigator must specialize in breast cancer diagnosis and multi-modality treatment (surgical oncology, medical oncology, or gynecologic oncology with a breast focus) to appropriately manage assignment across endocrine, chemotherapy, and targeted-therapy sub-protocols.",
+      "satisfies_if": "NPPES taxonomy lists hematology/oncology, medical oncology, surgical oncology, or gynecologic oncology, AND the physician practices within a designated breast center/program.",
+      "data_sources": [
+        "nppes",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "biomarker_driven_therapy_expertise",
+      "verdict": "satisfied",
+      "rationale": "PubMed record includes multiple breast cancer biomarker/response-prediction publications, including ctDNA in neoadjuvant endocrine therapy (PELOPS trial), Ki-67/pRb pharmacodynamics in TBCRC 035, and TIL scoring in TBCRC030, directly matching the trial's biomarker-guided induction concept.",
+      "evidence_refs": [
+        "PMID:41672025",
+        "PMID:41812623",
+        "PMID:41075163"
+      ],
+      "dimension": "expertise",
+      "criticality": "primary",
+      "requirement": "Investigator should have demonstrated expertise in biomarker-based risk stratification and response prediction in breast cancer (e.g., Ki-67, genomic recurrence scores) consistent with the trial's core scientific aim.",
+      "satisfies_if": "PubMed record includes authored/co-authored publications on breast cancer biomarkers, risk assessment, or therapy response prediction (e.g., Ki-67, recurrence score).",
+      "data_sources": [
+        "pubmed",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "early_stage_breast_ca_volume",
+      "verdict": "partial",
+      "rationale": "Medicare claims show oncology E/M and hospital-care billing (206 services, 134 beneficiaries) confirming an active oncology practice, but the codes are generic visit codes rather than breast-cancer-specific diagnostic/treatment billing, and no self-report volume data is available to confirm sufficiency for very high per-site enrollment.",
+      "evidence_refs": [
+        "HCPCS:99214",
+        "HCPCS:99215",
+        "HCPCS:99232"
+      ],
+      "dimension": "patient_population",
+      "criticality": "primary",
+      "requirement": "The practice must see a high volume of newly diagnosed early-stage invasive breast cancer patients spanning adult and elderly age ranges, sufficient to support the trial's very high per-site enrollment.",
+      "satisfies_if": "Medicare claims show breast cancer diagnostic/treatment billing (biopsy, mastectomy, chemo administration) at or above comparable breast-center benchmarks, OR self-report confirms an annual new breast cancer diagnosis volume adequate for large-scale trial enrollment.",
+      "data_sources": [
+        "medicare",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "female_early_stage_unilateral_ca",
+      "verdict": "unknown",
+      "rationale": "This criterion depends solely on self-report of caseload composition, which is absent from the dossier.",
+      "evidence_refs": [],
+      "dimension": "patient_population",
+      "criticality": "secondary",
+      "requirement": "Practice must regularly diagnose and treat female patients with unilateral, primary (non-recurrent, non-metastatic) invasive breast carcinoma at the point of initial treatment decision-making.",
+      "satisfies_if": "Self-report confirms that the majority of the physician's breast cancer caseload consists of newly diagnosed, early-stage, unilateral disease rather than recurrent/metastatic referrals.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "certified_breast_center_infrastructure",
+      "verdict": "unknown",
+      "rationale": "No self-report or site-level confirmation of certified multidisciplinary breast center status is present in the dossier, despite trial abstracts mentioning Dana-Farber Cancer Institute affiliation, which is not a qualifying data source here.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must function as, or be embedded within, a multidisciplinary certified breast center capable of coordinating surgery, chemotherapy, endocrine therapy, and targeted therapy under a single induction-therapy decision pathway.",
+      "satisfies_if": "Site is a named/certified Brustzentrum or equivalent multidisciplinary breast center, confirmed by site listing or self-report describing integrated surgical/medical/radiation oncology services.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "long_term_followup_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report describing a longitudinal tumor registry or 8-year follow-up infrastructure is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must maintain infrastructure for sustained patient follow-up and outcome tracking over an 8-year horizon as required by the primary endpoint.",
+      "satisfies_if": "Self-report confirms an established longitudinal tumor registry/follow-up program capable of tracking breast cancer patients for 8+ years.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "central_biomarker_sample_logistics",
+      "verdict": "unknown",
+      "rationale": "No self-report describing tissue/biomarker sample collection or shipping workflows is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must have tissue/biomarker sample collection and shipping workflows to support centralized biomarker assessment used to stratify induction therapy assignment.",
+      "satisfies_if": "Self-report confirms an established pathology workflow for biopsy/tissue processing and shipment to a reference lab for biomarker testing.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "multi_arm_subprotocol_management",
+      "verdict": "unknown",
+      "rationale": "No self-report confirming capability to run three or more concurrent treatment arms is present in the dossier.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must be able to manage patients across multiple concurrent treatment sub-protocols (endocrine, chemotherapy, targeted therapy) with distinct monitoring pathways within a single trial.",
+      "satisfies_if": "Self-report confirms operational capability to run three or more concurrent treatment arms/sub-studies simultaneously.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "cooperative_group_trial_experience",
+      "verdict": "satisfied",
+      "rationale": "ClinicalTrials.gov lists her as an overall official on completed cooperative-group-style adjuvant endocrine/palbociclib breast cancer trials, including a completed HR+/HER2- adjuvant endocrine therapy trial and the PALLAS program, consistent with academic cooperative group sponsorship.",
+      "evidence_refs": [
+        "NCT02040857",
+        "NCT02513394"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "primary",
+      "requirement": "Investigator should have prior experience serving as a site investigator within academic cooperative group breast cancer trials, consistent with sponsorship by an academic study group.",
+      "satisfies_if": "Physician is listed as an investigator/site contact on at least one completed breast cancer trial sponsored by an academic cooperative group in ClinicalTrials.gov.",
+      "data_sources": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "large_scale_enrollment_track_record",
+      "verdict": "unknown",
+      "rationale": "The dossier lists trial titles and statuses but provides no enrollment counts, so there is no basis to assess large-scale enrollment contribution.",
+      "evidence_refs": [],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Site should demonstrate a track record of contributing large patient numbers to prior trials, consistent with this trial's extremely high per-site enrollment.",
+      "satisfies_if": "ClinicalTrials.gov records show the site/investigator contributing enrollment in the hundreds or more on a prior trial, or self-report confirms comparable historical enrollment capacity.",
+      "data_sources": [
+        "clinicaltrials_gov",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "industry_academic_research_engagement",
+      "verdict": "satisfied",
+      "rationale": "Open Payments records show multiple research payments tied to breast-cancer-specific therapeutics (giredestrant for ER+/HER2- breast cancer and an ER+ breast cancer RYZ101 trial), indicating active ongoing industry-sponsored breast oncology research engagement.",
+      "evidence_refs": [
+        "OpenPayments:1211535676",
+        "OpenPayments:1236002143"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Investigator should show an active pattern of clinical research engagement in breast oncology, evidencing ongoing trial participation beyond routine clinical practice.",
+      "satisfies_if": "Open Payments records show research-related payments associated with breast cancer therapeutics tied to the physician or their institution.",
+      "data_sources": [
+        "open_payments"
+      ]
+    }
+  ],
+  "narrative": "This physician shows strong, well-documented expertise in biomarker-driven breast cancer therapy and clear cooperative-group and industry-sponsored trial experience \u2014 the strongest signals in this dossier, directly aligned with ADAPT's core scientific design. The specialty match (medical oncology) is confirmed, but the dossier is silent on nearly all operational-capacity and patient-population criteria (breast center certification, multi-arm management, biomarker logistics, long-term follow-up infrastructure, and caseload composition), all of which depend on self-report that was not collected. Medicare billing data reflects a real but only generically characterized oncology practice, not breast-cancer-specific volume. A short self-reported practice profile describing breast center infrastructure, annual new-diagnosis volume, and follow-up/registry capacity would substantially clarify the weaker areas of this assessment.",
+  "target_trial_excluded": null,
+  "n_excluded_records": 0,
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 9352,
+      "output_tokens": 3288
+    },
+    "cost_usd": 0.0516
+  }
+}

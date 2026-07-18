@@ -1,0 +1,204 @@
+{
+  "nct_id": "NCT04191499",
+  "trial_label": "INAVO120",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Women or men with HR-positive, HER2-negative, locally advanced or metastatic breast cancer whose tumor harbors a PIK3CA mutation, who progressed on/shortly after adjuvant endocrine therapy (AI or tamoxifen) and have received NO prior systemic therapy for metastatic disease \u2014 i.e., a first-line metastatic HR+/HER2- population enriched for a specific genomic biomarker, requiring central and/or local PIK3CA testing before enrollment.",
+    "site_burden": "Based on the posted Schedule of Assessments heading (weak evidence, heading-only confidence), the protocol requires: baseline collection of both blood and tumor tissue for central PIK3CA testing (with liquid biopsy fallback via FoundationOne Liquid CDx if local results unavailable), tumor imaging every 8 weeks for 2 years then every 12 weeks, PK blood sampling at multiple timepoints, close AE monitoring including a distinct hyperglycemia follow-up pathway (inavolisib is a PI3K inhibitor with known hyperglycemia risk), multiple patient-reported outcome instruments (QLQ-C30, QLQ-BR23, BPI-SF, PRO-CTCAE, EQ-5D-5L) administered per schedule, long-term survival follow-up approximately every 3 months post-discontinuation, and optional mobile-nursing infrastructure at approved sites. This implies a site needs biomarker testing/specimen logistics, an established infusion/oral-oncolytic administration capability, PRO data capture systems, and experience managing metabolic AEs (hyperglycemia) associated with PI3K inhibitors \u2014 but the exact visit-by-visit grid was not available in the provided material.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a medical oncologist (or hematology-oncology specialist) with a breast cancer-focused practice, not a general oncologist with incidental breast cases.",
+        "satisfies_if": "NPPES taxonomy lists Hematology/Oncology or Medical Oncology, AND physician has a documented history of treating breast cancer patients (e.g., prior breast cancer trial roles or publications).",
+        "data_sources": [
+          "nppes",
+          "clinicaltrials_gov",
+          "pubmed"
+        ],
+        "derived_from": "Conditions: Breast Cancer; population is HR+/HER2- locally advanced/metastatic breast cancer requiring specialist management"
+      },
+      {
+        "id": "pik3ca_biomarker_familiarity",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "Investigator should have familiarity with PIK3CA-mutant breast cancer biology and biomarker-driven treatment selection, given this is a molecularly-selected trial.",
+        "satisfies_if": "Physician has authored/co-authored at least one publication on PIK3CA mutation, PI3K pathway inhibitors, or biomarker-selected HR+/HER2- breast cancer therapy, OR has prior investigator role on a PI3K/AKT/mTOR-inhibitor breast cancer trial.",
+        "data_sources": [
+          "pubmed",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Study evaluates inavolisib (PI3K inhibitor) specifically in PIK3CA-mutant HR+/HER2- breast cancer; exclusion of prior PI3K/AKT/mTOR inhibitor use signals disease area specialization needed"
+      },
+      {
+        "id": "first_line_metastatic_hrpos_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must regularly see treatment-naive (first-line metastatic) HR+/HER2- breast cancer patients progressing on/after adjuvant endocrine therapy, since prior systemic therapy for metastatic disease is exclusionary.",
+        "satisfies_if": "Physician/practice can attest to managing a first-line metastatic HR+/HER2- breast cancer caseload sufficient to identify multiple eligible patients per year (self-reported caseload estimate), or Medicare claims show a floor volume of breast cancer E&M/chemotherapy administration codes consistent with a dedicated breast oncology practice.",
+        "data_sources": [
+          "self_report",
+          "medicare"
+        ],
+        "derived_from": "Inclusion: no prior systemic therapy for metastatic disease; progression during/within 12 months of adjuvant endocrine therapy"
+      },
+      {
+        "id": "pik3ca_testing_access",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The site must have practical access to PIK3CA mutation testing (local CLIA-certified lab or ability to route samples to central/liquid biopsy testing) as part of routine or trial-driven workup.",
+        "satisfies_if": "Site attests to an established workflow for tumor genomic testing (local NGS panel or central lab submission) as part of standard practice or via trial infrastructure.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Operational burden: patients without local PIK3CA results must submit blood/tumor samples for central F1LCDx testing; all patients must provide blood and tumor tissue"
+      },
+      {
+        "id": "palbociclib_fulvestrant_administration",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must have infrastructure for chronic oral oncolytic dispensing/adherence tracking (palbociclib, inavolisib/placebo) plus recurring intramuscular fulvestrant administration in 28-day cycles.",
+        "satisfies_if": "Site attests to on-site or affiliated capability for IM drug administration and oral oncolytic dispensing/monitoring on a recurring cycle basis (e.g., existing CDK4/6 inhibitor + fulvestrant regimen experience).",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Interventions: oral inavolisib/placebo Days 1-28, oral palbociclib Days 1-21, IM fulvestrant every 4 weeks, in 28-day cycles"
+      },
+      {
+        "id": "hyperglycemia_monitoring_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site should have capability to monitor and manage treatment-emergent hyperglycemia, including a defined post-treatment hyperglycemia follow-up pathway, given inavolisib's known metabolic toxicity.",
+        "satisfies_if": "Site attests to protocols or endocrinology referral pathways for managing anti-hyperglycemic therapy and monitoring beyond standard oncology AE management.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Operational burden: post-30-day hyperglycemia follow-up for patients on anti-hyperglycemic agents or with ongoing hyperglycemia events"
+      },
+      {
+        "id": "pro_instrument_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to administer and capture multiple patient-reported outcome instruments (QLQ-C30, QLQ-BR23, BPI-SF, PRO-CTCAE, EQ-5D-5L) per the study schedule.",
+        "satisfies_if": "Site attests to existing PRO data collection infrastructure (electronic or paper) used in prior industry trials.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Operational burden: multiple PRO instruments (QLQ-C30, QLQ-BR23, BPI-SF, PRO-CTCAE, EQ-5D-5L) specified in schedule of activities"
+      },
+      {
+        "id": "long_term_followup_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must sustain long-term survival follow-up (approx. every 3 months post-discontinuation, up to 3.7 years total study duration) via phone or clinic visits.",
+        "satisfies_if": "Site attests to established procedures for long-duration survival follow-up contact and retention in prior long-term oncology trials.",
+        "data_sources": [
+          "self_report",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Operational burden: survival/subsequent anti-cancer therapy follow-up approximately every 3 months until death/withdrawal; primary outcome timeframe up to 3.7 years"
+      },
+      {
+        "id": "prior_industry_trial_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience as an investigator on industry-sponsored oncology trials, given this is a large, complex Roche Phase II/III registration-track study with 135 global sites.",
+        "satisfies_if": "Physician is listed as principal investigator or sub-investigator on >=1 completed or ongoing industry-sponsored breast cancer clinical trial in clinicaltrials.gov.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Sponsor: Hoffmann-La Roche (INDUSTRY); Phase2/Phase3, 135 sites globally, complex multi-drug regimen"
+      },
+      {
+        "id": "sponsor_relationship_signal",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Investigator should have a demonstrable relationship with breast oncology drug sponsors (e.g., Roche/Genentech or related CDK4/6i or PI3K-pathway drug makers), suggesting familiarity with sponsor trial conduct expectations.",
+        "satisfies_if": "Open Payments records show research payments from Roche/Genentech or Pfizer (palbociclib manufacturer) within the last 5 years.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Sponsor: F. Hoffmann-La Roche Ltd; combination includes palbociclib (Pfizer) and fulvestrant"
+      },
+      {
+        "id": "site_type_academic_or_network",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Site should be part of an established research network or academic cancer center with GCP-trained staff capable of running a randomized, double-blind, placebo-controlled multi-drug trial.",
+        "satisfies_if": "Physician's practice matches or is affiliated with one of the listed site institutions (e.g., Sarah Cannon/Tennessee Oncology, Texas Oncology, academic medical center) or physician self-reports GCP certification and dedicated research staff.",
+        "data_sources": [
+          "clinicaltrials_gov",
+          "self_report"
+        ],
+        "derived_from": "Site footprint sample: Sarah Cannon Research Institute/Tennessee Oncology, Texas Oncology, MSKCC, MGH, academic and large community oncology networks"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG Performance Status 0-1 \u2014 assessed per patient at screening, not a site characteristic",
+      "Life expectancy > 6 months \u2014 clinical judgment per patient, irrelevant to site qualification",
+      "Adequate hematologic/organ function within 14 days prior to treatment \u2014 per-patient lab threshold at enrollment",
+      "Anti-cancer therapy within 2 weeks before study entry \u2014 per-patient washout timing",
+      "Investigational drug(s) within 4 weeks before randomization \u2014 per-patient washout timing",
+      "Pregnancy/lactation/contraception intent \u2014 per-patient eligibility, not physician-fit",
+      "Major surgery or significant trauma within 28 days of Day 1 \u2014 per-patient timing exclusion",
+      "Menopausal status definitions and LHRH agonist requirements for pre/perimenopausal women or men \u2014 per-patient eligibility mechanics, not a practice-level capability",
+      "Histologic confirmation of ER/PR positivity and HER2-negativity by ASCO/CAP criteria on most recent biopsy \u2014 per-patient diagnostic confirmation, not investigator fit"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 20,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 2,
+        "max_points": 3
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 6
+      },
+      "operational_capacity": {
+        "n_criteria": 4,
+        "max_points": 6
+      },
+      "trial_execution": {
+        "n_criteria": 3,
+        "max_points": 5
+      }
+    },
+    "n_publicly_verifiable": 7,
+    "n_self_report_only": 4,
+    "public_coverage": 0.64
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "heading_only",
+    "soa_page": 19,
+    "protocol_available": true,
+    "n_population_criteria": 6,
+    "n_screening_criteria": 7
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 6048,
+      "output_tokens": 4015
+    },
+    "cost_usd": 0.0522
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "nct_id": "NCT03366844",
+  "trial_label": "Breast Cancer Study of Preoperative Pembrolizumab + Radiatio",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Women 18+ with newly diagnosed, non-metastatic, ER-positive/HER2-negative invasive breast adenocarcinoma who are high-risk by histologic grade II-III, Ki-67>20%, and/or ER expression <75% by IHC, planned for breast-conserving surgery and/or neoadjuvant systemic therapy, with no prior checkpoint inhibitor or other immune-checkpoint agent exposure and no subglandular breast implants with altered tissue. This is a preoperative window-of-opportunity population identified at the point of diagnosis, before definitive local therapy, within a multidisciplinary breast oncology practice.",
+    "site_burden": "This is a single-site, investigator-initiated Phase 1/2 study requiring tight coordination between medical oncology, radiation oncology, breast surgery, and a research infrastructure capable of serial tissue and blood collection. Per the schedule of assessments, patients receive two IV pembrolizumab doses 3 weeks apart, with an RT boost (8 Gy x 3 fractions) delivered concurrently with the second dose within 5 business days of C2D1, followed by initiation of standard-of-care surgery or systemic therapy ~3 weeks later. The protocol mandates serial mandatory research tumor biopsies (baseline, pre-C2D1, and pre-Week 7/SOC initiation), repeated research blood draws (minimum 3 CPT + 1 red top + 1 green top tubes at each timepoint), extensive endocrine/safety labs, EKG, cosmesis evaluations with digital photography, and optional MRI and fecal microbiome sub-studies. Follow-up continues at minimum every 3 weeks through week 19, then every 6 months for 1 year, with irAE monitoring extending to 1 year post-treatment. This demands an integrated breast cancer program with same-site radiation oncology, image-guided/core biopsy capability on a tight research schedule, a research pharmacy able to handle pembrolizumab under an IIT IND, and a clinical research team experienced in immunotherapy toxicity monitoring and multi-specimen biobanking logistics.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a breast medical oncologist, breast surgical oncologist, or radiation oncologist with a dedicated breast cancer practice, since this trial sequences pembrolizumab with a radiation boost prior to breast surgery/systemic therapy.",
+        "satisfies_if": "NPPES taxonomy lists medical oncology, hematology-oncology, radiation oncology, or surgical oncology with a documented breast cancer subspecialty focus, or self-attestation confirms a breast-cancer-focused practice.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "Study design: preoperative pembrolizumab + RT boost prior to breast-conserving surgery/systemic therapy in breast cancer patients"
+      },
+      {
+        "id": "immuno_oncology_experience",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "The investigator should have prior clinical or research experience with anti-PD-1/PD-L1 checkpoint inhibitor therapy, given the need to manage and monitor immune-related adverse events through 1 year post-treatment.",
+        "satisfies_if": "PubMed record includes at least one publication on checkpoint inhibitor therapy in breast or other solid tumors, or ClinicalTrials.gov lists the physician as an investigator on a prior anti-PD-1/PD-L1 trial.",
+        "data_sources": [
+          "pubmed",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Intervention: pembrolizumab (anti-PD-1); irAE monitoring through 1 year post-treatment"
+      },
+      {
+        "id": "tils_translational_expertise",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "Familiarity with tumor immune microenvironment biomarkers (e.g., tumor infiltrating lymphocytes) is valuable given the trial's key secondary endpoint of TIL score change.",
+        "satisfies_if": "PubMed record includes at least one publication involving tumor infiltrating lymphocytes, immune biomarkers, or tumor immune microenvironment in breast cancer.",
+        "data_sources": [
+          "pubmed"
+        ],
+        "derived_from": "Primary outcome: Changes in Tumor Infiltrating Lymphocyte Score (TILs)"
+      },
+      {
+        "id": "er_positive_high_risk_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must regularly diagnose and manage ER-positive/HER2-negative breast cancer patients meeting high-risk criteria (grade II-III, Ki-67>20%, or ER<75%) at the point of initial diagnosis, prior to surgery.",
+        "satisfies_if": "Self-report confirms the practice evaluates and stages a meaningful volume (e.g., >=10/year) of newly diagnosed ER+/HER2- breast cancer patients meeting the trial's high-risk definition prior to definitive local therapy.",
+        "data_sources": [
+          "self_report",
+          "medicare"
+        ],
+        "derived_from": "Inclusion: High-risk, ER-positive and HER2-negative breast cancer defined by grade, Ki-67, and ER expression thresholds"
+      },
+      {
+        "id": "preoperative_window_pathway",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The site must have an established clinical pathway for identifying and referring newly diagnosed, non-metastatic breast cancer patients into a preoperative window-of-opportunity protocol before surgery or neoadjuvant systemic therapy begins.",
+        "satisfies_if": "Self-report confirms the practice has a multidisciplinary tumor board or referral pathway that captures newly diagnosed breast cancer patients prior to initiation of surgery or neoadjuvant therapy.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Trial design: two pembrolizumab doses and RT boost occur before planned breast-conserving surgery or neoadjuvant systemic therapy"
+      },
+      {
+        "id": "onsite_rt_boost_capability",
+        "dimension": "operational_capacity",
+        "criticality": "hard_gate",
+        "requirement": "The site must have radiation oncology facilities capable of delivering a coordinated RT boost (8 Gy x 3 fractions) within 5 business days of the second pembrolizumab dose.",
+        "satisfies_if": "Self-report or NPPES confirms on-site or tightly affiliated radiation oncology department capable of scheduling fractionated boost RT on a protocol-mandated timeline concurrent with drug administration.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "Operational burden: RT boost (8Gy x 3 fractions) delivered concurrently with C2D1 within 5 business days"
+      },
+      {
+        "id": "serial_biopsy_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must be able to perform serial image-guided or core tumor biopsies at baseline, pre-C2D1, and pre-Week 7, coordinated with surgical/pathology teams and research biobanking.",
+        "satisfies_if": "Self-report confirms the site has interventional radiology or breast surgery capacity to perform mandatory research tumor biopsies at the three protocol-specified timepoints with fresh tissue processing available.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Operational burden: Research tumor biopsy required at baseline, pre-C2D1, and pre-Week 7/SOC initiation, with fresh tissue requirement for TNBC cohort"
+      },
+      {
+        "id": "research_infra_biospecimen",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must have research infrastructure for handling multiple concurrent biospecimen collections (blood, tumor tissue, optional fecal samples) at each visit without added venipunctures burden.",
+        "satisfies_if": "Self-report confirms a dedicated clinical research coordinator/lab team capable of processing CPT tubes, biopsy specimens, and optional stool/MRI sub-studies per protocol schedule.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Operational burden: research bloods (CPT tubes), fecal microbiome samples, optional MRI collected at multiple visits"
+      },
+      {
+        "id": "iit_pi_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "The investigator should have prior experience serving as an investigator on an investigator-initiated trial (IIT) or early-phase oncology study, reflecting the operational complexity of running this single-site IIT protocol.",
+        "satisfies_if": "ClinicalTrials.gov lists the physician as principal investigator or sub-investigator on at least one prior Phase 1/2 investigator-initiated oncology trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Sponsor: Stephen Shiao (OTHER); Phase 1/2 investigator-initiated trial (IIT2017-07-HO-PEMBRORT)"
+      },
+      {
+        "id": "sponsor_industry_relationship",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Documented research funding relationships with Merck (pembrolizumab manufacturer) or other immuno-oncology sponsors would support ability to procure and administer study drug under IIT sponsorship.",
+        "satisfies_if": "Open Payments records show research payments from Merck or another checkpoint inhibitor manufacturer to the investigator or their institution.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "Intervention: Pembrolizumab (Merck product) administered under investigator-initiated IND"
+      },
+      {
+        "id": "gcp_multidisciplinary_coordination",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "The investigator must demonstrate capability to coordinate a multidisciplinary team (medical oncology, radiation oncology, surgery, pathology) under GCP for a complex biomarker-driven protocol with irAE monitoring extending to 1 year.",
+        "satisfies_if": "Self-report confirms the investigator has led or co-led a multidisciplinary tumor board-integrated clinical trial with cross-specialty procedural coordination and long-term AE follow-up.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "Operational burden: multidisciplinary sequencing of drug, RT boost, surgery/systemic therapy with follow-up to 1 year"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG performance status 0-1 \u2014 a per-patient functional status check, not a physician-fit indicator",
+      "Hematologic/renal/hepatic lab thresholds (WBC, ANC, platelets, hemoglobin, creatinine, AST/ALT, bilirubin, INR) \u2014 standard per-patient eligibility labs, unrelated to site capability",
+      "Negative HIV/Hepatitis B/C screening \u2014 per-patient infectious disease screening required before drug administration",
+      "Contraception requirements and pregnancy testing for WOCBP \u2014 per-patient reproductive safety screening",
+      "Not breastfeeding \u2014 per-patient exclusion unrelated to investigator qualifications",
+      "Informed consent capacity \u2014 per-patient consent process, not a site-selection criterion",
+      "Immunodeficiency/chronic steroid or immunosuppressive therapy exclusion \u2014 per-patient medical history exclusion",
+      "Live vaccine restriction within 30 days \u2014 per-patient timing exclusion",
+      "Prior systemic anti-cancer therapy or investigational agent washout windows \u2014 per-patient timing exclusion",
+      "Cosmetic subglandular breast implant exclusion \u2014 anatomic per-patient eligibility criterion, not a site capability issue",
+      "Absence of metastatic disease confirmation \u2014 per-patient staging requirement, not a physician-fit indicator",
+      "Prior anti-PD-1/PD-L1 or other checkpoint agent exposure exclusion \u2014 per-patient treatment history exclusion"
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 19,
+    "n_criteria": 11,
+    "hard_gates": [
+      "breast_onc_specialty",
+      "onsite_rt_boost_capability"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 6
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "trial_execution": {
+        "n_criteria": 3,
+        "max_points": 5
+      }
+    },
+    "n_publicly_verifiable": 7,
+    "n_self_report_only": 4,
+    "public_coverage": 0.64
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "grid",
+    "soa_page": 36,
+    "protocol_available": true,
+    "n_population_criteria": 5,
+    "n_screening_criteria": 10
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 6986,
+      "output_tokens": 4132
+    },
+    "cost_usd": 0.0553
+  }
+}

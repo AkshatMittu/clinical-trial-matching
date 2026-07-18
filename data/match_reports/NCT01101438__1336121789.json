@@ -1,0 +1,228 @@
+{
+  "nct_id": "NCT01101438",
+  "trial_label": "A Phase III Randomized Trial of Metformin vs Placebo in Earl",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "specialty": "medical_oncology",
+  "variant": "public_only",
+  "model": "claude-sonnet-5",
+  "scoring": {
+    "score": 4.5,
+    "max_score": 16.0,
+    "score_pct": 0.281,
+    "coverage": 0.5,
+    "n_criteria": 10,
+    "n_answered": 5,
+    "verdict_counts": {
+      "satisfied": 3,
+      "partial": 2,
+      "unknown": 5
+    },
+    "gate_failures": [
+      "early_stage_breast_case_volume"
+    ],
+    "recommendation": "poor_fit",
+    "reason": "hard gate not met: early_stage_breast_case_volume",
+    "by_dimension": {
+      "expertise": {
+        "earned": 0.0,
+        "possible": 0.0,
+        "n": 1,
+        "pct": null
+      },
+      "patient_population": {
+        "earned": 0.0,
+        "possible": 0.0,
+        "n": 1,
+        "pct": null
+      },
+      "operational_capacity": {
+        "earned": 0.0,
+        "possible": 10.0,
+        "n": 4,
+        "pct": 0.0
+      },
+      "trial_execution": {
+        "earned": 4.5,
+        "possible": 6.0,
+        "n": 4,
+        "pct": 0.75
+      }
+    },
+    "thresholds": {
+      "strong": 0.7,
+      "possible": 0.4,
+      "min_coverage": 0.5
+    }
+  },
+  "verdicts": [
+    {
+      "criterion_id": "breast_onc_specialty",
+      "verdict": "satisfied",
+      "rationale": "NPPES taxonomy lists Internal Medicine, Medical Oncology, and PubMed record shows extensive breast cancer-focused publication activity confirming a breast oncology practice.",
+      "evidence_refs": [
+        "NPI:1336121789"
+      ],
+      "dimension": "expertise",
+      "criticality": "hard_gate",
+      "requirement": "Investigator must be a breast cancer treating specialist (medical oncology, surgical oncology, or hematology-oncology with a breast focus) capable of managing adjuvant/neoadjuvant systemic therapy decisions.",
+      "satisfies_if": "NPPES taxonomy lists Hematology & Oncology, Medical Oncology, or Surgical Oncology, or self-report confirms a breast cancer-focused oncology practice.",
+      "data_sources": [
+        "nppes",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "early_stage_breast_case_volume",
+      "verdict": "partial",
+      "rationale": "Medicare claims show 206 services/134 beneficiaries in medical oncology E/M codes, which is a floor on volume but does not specifically confirm newly diagnosed early-stage invasive breast cancer patients within 12 months of diagnosis; no self-report is present to confirm this narrow population.",
+      "evidence_refs": [
+        "HCPCS:99214",
+        "HCPCS:99215",
+        "HCPCS:99232"
+      ],
+      "dimension": "patient_population",
+      "criticality": "hard_gate",
+      "requirement": "The site must have a steady volume of newly diagnosed, early-stage invasive breast cancer patients presenting within 12 months of diagnosis, since eligibility requires enrollment in that narrow post-diagnosis window.",
+      "satisfies_if": "Medicare claims data or self-report show recurring breast cancer diagnosis/treatment volume consistent with a dedicated breast oncology practice (e.g., multiple new invasive breast cancer patients per year).",
+      "data_sources": [
+        "medicare",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "surgical_staging_access",
+      "verdict": "unknown",
+      "rationale": "No self-report or other evidence addresses surgical oncology partnership or in-house SLNB/ALND capability.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must have access to sentinel lymph node biopsy and/or axillary lymph node dissection services, either in-house or via tightly coordinated referral, since all subjects require this staging.",
+      "satisfies_if": "Self-report confirms surgical oncology/breast surgery partnership or in-house capability for SLNB/ALND at the enrolling site or affiliated institution.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "imaging_staging_capacity",
+      "verdict": "unknown",
+      "rationale": "No self-report or other evidence addresses on-site or coordinated staging imaging access.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "secondary",
+      "requirement": "Site must be able to obtain or coordinate baseline staging imaging (chest X-ray/CT chest, bone scan, abdominal imaging) prior to randomization.",
+      "satisfies_if": "Self-report confirms on-site or readily accessible imaging services (radiology/nuclear medicine) for staging workup.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "long_term_followup_infrastructure",
+      "verdict": "unknown",
+      "rationale": "No self-report evidence exists regarding coordinator/pharmacy infrastructure for blinded 5-year drug dispensation and compliance tracking.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must have infrastructure to maintain patient follow-up and blinded drug dispensation with pill-count compliance tracking over a 5-year treatment period, including after treatment discontinuation.",
+      "satisfies_if": "Self-report confirms dedicated research coordinator/pharmacy support for long-duration blinded drug trials with compliance monitoring and extended follow-up.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "tissue_banking_capability",
+      "verdict": "unknown",
+      "rationale": "No self-report or other evidence addresses pathology cooperation or tumour block retrieval/shipment processes.",
+      "evidence_refs": [],
+      "dimension": "operational_capacity",
+      "criticality": "primary",
+      "requirement": "Site must be able to identify, retrieve, and ship diagnostic tumour blocks to the central CCTG tissue bank, as this is mandatory for site participation.",
+      "satisfies_if": "Self-report confirms pathology department cooperation and established process for tumour block retrieval/shipment for research use.",
+      "data_sources": [
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "prior_investigator_experience",
+      "verdict": "satisfied",
+      "rationale": "ClinicalTrials.gov lists this physician as an overall official on multiple completed breast cancer interventional trials, e.g., NCT01982448 (Cisplatin vs Paclitaxel for Triple Negative Breast Cancer, COMPLETED) and NCT02040857 (Palbociclib adjuvant endocrine therapy, COMPLETED).",
+      "evidence_refs": [
+        "NCT01982448",
+        "NCT02040857",
+        "NCT00496665"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "primary",
+      "requirement": "Investigator should have prior experience serving as an investigator on breast cancer or oncology clinical trials, given the complexity of a long-term blinded randomized cooperative-group trial.",
+      "satisfies_if": "ClinicalTrials.gov lists the physician as an investigator (PI or sub-I) on at least one completed breast cancer or oncology interventional trial.",
+      "data_sources": [
+        "clinicaltrials_gov"
+      ]
+    },
+    {
+      "criterion_id": "cooperative_group_network_participation",
+      "verdict": "partial",
+      "rationale": "ClinicalTrials.gov shows involvement in multiple large multicenter phase II/III oncology trials (e.g., PALLAS/NCT02513394, TRADE/NCT06001762), suggestive of cooperative trial network experience, but no explicit CCTG or NCI cooperative group affiliation is confirmed.",
+      "evidence_refs": [
+        "NCT02513394",
+        "NCT06001762"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Investigator/site should have an existing relationship with a cooperative oncology trials network (e.g., NCIC CTG/CCTG or affiliated US cooperative groups) given this is a network-sponsored trial.",
+      "satisfies_if": "ClinicalTrials.gov or self-report shows the site/investigator participated in other CCTG- or NCI cooperative group-sponsored trials.",
+      "data_sources": [
+        "clinicaltrials_gov",
+        "self_report"
+      ]
+    },
+    {
+      "criterion_id": "industry_research_payment_history",
+      "verdict": "satisfied",
+      "rationale": "Open Payments record shows multiple research payments from Roche and Bristol-Myers Squibb tied to oncology research studies in breast cancer, confirming active industry-funded research history.",
+      "evidence_refs": [
+        "OpenPayments:1211535676",
+        "OpenPayments:1211535681",
+        "OpenPayments:1211535685",
+        "OpenPayments:1236002143"
+      ],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Some history of receiving research-related payments (a proxy for active clinical trial conduct) supports capacity to run a multi-year randomized drug trial.",
+      "satisfies_if": "Open Payments record shows research payments to the physician or affiliated institution in oncology-related research categories.",
+      "data_sources": [
+        "open_payments"
+      ]
+    },
+    {
+      "criterion_id": "gcp_blinded_drug_trial_experience",
+      "verdict": "unknown",
+      "rationale": "No self-report or trial registry evidence explicitly confirms experience with blinded, placebo-controlled trials including unblinding procedures; listed trials are largely open-label.",
+      "evidence_refs": [],
+      "dimension": "trial_execution",
+      "criticality": "secondary",
+      "requirement": "Investigator should have experience running blinded, placebo-controlled drug trials with unblinding procedures for medical emergencies, given the blinding-integrity requirements described in the protocol.",
+      "satisfies_if": "Self-report confirms prior experience as investigator on a blinded placebo-controlled trial with documented unblinding procedures.",
+      "data_sources": [
+        "self_report",
+        "clinicaltrials_gov"
+      ]
+    }
+  ],
+  "narrative": "This physician is a well-established breast medical oncologist with strong publication output, multiple confirmed roles as overall official on completed breast cancer trials, and documented industry research funding \u2014 all pointing to solid trial-execution capacity and specialty fit. The major gap is operational: there is no self-reported data on surgical staging access, imaging capacity, long-term follow-up/pill-count infrastructure, or tissue-banking processes, all of which are central to this trial's site-burden profile. Medicare data confirms a baseline oncology practice volume but cannot specifically verify the narrow early-stage, newly-diagnosed population required. Confirmation via self-report on operational capacities (surgical partnership, imaging, coordinator infrastructure, tissue banking, and blinded-trial unblinding procedures) would substantially clarify feasibility.",
+  "target_trial_excluded": null,
+  "n_excluded_records": 0,
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 9145,
+      "output_tokens": 1516
+    },
+    "cost_usd": 0.0335
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "nct_id": "NCT02437318",
+  "npi": "1336121789",
+  "physician": "Erica Mayer",
+  "trial_label": "SOLAR-1",
+  "recommendation": "insufficient_evidence",
+  "score": 8.5,
+  "max_score": 20.0,
+  "coverage": 0.455,
+  "report_path": "data/reports/NCT02437318__1336121789.html",
+  "total_seconds": 36.14,
+  "total_cost_usd": 0.06,
+  "steps": [
+    {
+      "key": "rubric",
+      "label": "Build the trial's rubric",
+      "status": "done",
+      "detail": "11 criteria, max 20 pts",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "adjudicate",
+      "label": "Score the physician against it",
+      "status": "done",
+      "detail": "insufficient_evidence \u2014 8.5/20.0 (46% coverage)",
+      "seconds": 27.26,
+      "cost_usd": 0.0486
+    },
+    {
+      "key": "precedent",
+      "label": "Look up what comparable trials did",
+      "status": "done",
+      "detail": "Of 50 comparable trials that reached a terminal status, 86% completed and 14% stopped early \u2014 8% of all of them specifically for failure to enrol.",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "patient",
+      "label": "Score participant experience in those trials",
+      "status": "done",
+      "detail": "median proxy 56.1/100 across 5 trials with posted results",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    },
+    {
+      "key": "interview",
+      "label": "Close the gaps public data left",
+      "status": "done",
+      "detail": "7 gaps, 6 questions, no answers supplied",
+      "seconds": 8.88,
+      "cost_usd": 0.0114
+    },
+    {
+      "key": "report",
+      "label": "Render the report",
+      "status": "done",
+      "detail": "/Users/akshatdasula/Documents/GitHub/hackathon/data/reports/NCT02437318__1336121789.html",
+      "seconds": 0.0,
+      "cost_usd": 0.0
+    }
+  ],
+  "artifacts": {
+    "rubric": "rubrics/NCT02437318.json",
+    "dossier": "evidence/1336121789.json",
+    "match": "match_reports/NCT02437318__1336121789.json",
+    "match_interviewed": null,
+    "precedent": "precedent/NCT02437318.json",
+    "patient_proxy": "patient_proxy/NCT02437318.json"
+  },
+  "interview": {
+    "gaps": [
+      {
+        "criterion_id": "infusion_and_oral_drug_admin_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must have infrastructure to administer IM fulvestrant injections on a recurring monthly schedule alongside dispensing and monitoring compliance with daily oral alpelisib/placebo.",
+        "satisfies_if": "Self-report confirming on-site infusion/injection suite and oral chemotherapy dispensing/monitoring program.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "cardiac_metabolic_monitoring_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "The site must be able to perform serial ECGs, periodic cardiac imaging (MUGA or ECHO), and close fasting glucose/HbA1c/lipid monitoring required by the protocol's safety schedule for alpelisib-related hyperglycemia and cardiac risk.",
+        "satisfies_if": "Self-report confirming access to on-site or closely affiliated ECG, echocardiography/MUGA, and fasting lab services per the posted schedule of assessments.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "postmenopausal_advanced_bc_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a regular volume of postmenopausal (or male) patients with HR+/HER2- advanced breast cancer who have progressed on an aromatase inhibitor.",
+        "satisfies_if": "Medicare claims data show a floor volume of breast cancer diagnosis codes and AI/endocrine therapy billing under the physician's NPI consistent with an active advanced breast cancer practice, OR self-report of monthly count of such patients.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "current_verdict": "partial",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "pik3ca_biomarker_familiarity",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "The investigator should have familiarity with PIK3CA mutation testing and its role in treatment selection, given the trial's primary endpoint is defined within the PIK3CA-mutant cohort.",
+        "satisfies_if": "PubMed record shows authorship on a publication referencing PIK3CA mutation in breast cancer, or self-attestation of routine use of PIK3CA/ctDNA testing in practice.",
+        "data_sources": [
+          "pubmed",
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "limited_prior_line_population",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "The practice must be able to identify patients early in their metastatic treatment course (0-1 prior lines of endocrine therapy, no prior chemotherapy for advanced disease), not only heavily pretreated referrals.",
+        "satisfies_if": "Self-report describing typical referral timing/line of therapy at which patients are seen by this physician.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "male_bc_access",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Given the trial enrolls men as well as postmenopausal women, the site should have some capacity or referral pathway to identify male breast cancer patients with HR+/HER2- disease.",
+        "satisfies_if": "Self-report confirming the practice has treated or can refer male breast cancer patients.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      },
+      {
+        "criterion_id": "imaging_tumor_assessment_cadence",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "The site must support tumor imaging assessments every 8 weeks for the first 18 months, then every 12 weeks until 36 months, with confirmatory response scans.",
+        "satisfies_if": "Self-report confirming on-site or closely affiliated CT/MRI/bone scan imaging capability supporting this cadence.",
+        "data_sources": [
+          "self_report"
+        ],
+        "current_verdict": "unknown",
+        "self_report_expected": true
+      }
+    ],
+    "questions": [
+      {
+        "criterion_id": "infusion_and_oral_drug_admin_capacity",
+        "question": "Does your site have an on-site infusion/injection suite for administering monthly IM fulvestrant, and a program for dispensing and monitoring adherence to daily oral oncology drugs?",
+        "why": "Public records don't show your site's infusion suite or oral drug dispensing/monitoring infrastructure."
+      },
+      {
+        "criterion_id": "cardiac_metabolic_monitoring_capacity",
+        "question": "Do you have on-site or closely affiliated access to ECG, echocardiography or MUGA imaging, and fasting glucose/HbA1c/lipid lab testing needed for routine safety monitoring?",
+        "why": "Public sources don't indicate whether your site can perform the serial cardiac and metabolic monitoring this protocol requires."
+      },
+      {
+        "criterion_id": "postmenopausal_advanced_bc_volume",
+        "question": "Approximately how many postmenopausal (or male) HR+/HER2- advanced breast cancer patients who have progressed on an aromatase inhibitor do you see in your practice each month?",
+        "why": "Available billing/claims data only partially indicate your advanced breast cancer patient volume."
+      },
+      {
+        "criterion_id": "pik3ca_biomarker_familiarity",
+        "question": "Do you routinely order or use PIK3CA mutation (or ctDNA) testing results to guide treatment decisions in your breast cancer patients?",
+        "why": "We couldn't find publications or other public records confirming your familiarity with PIK3CA testing."
+      },
+      {
+        "criterion_id": "limited_prior_line_population",
+        "question": "At what point in their metastatic treatment course do you typically first see breast cancer patients \u2014 for example, treatment-naive, after first-line therapy, or later?",
+        "why": "Public data doesn't show whether your referral pattern includes patients early in their metastatic course versus only heavily pretreated cases."
+      },
+      {
+        "criterion_id": "male_bc_access",
+        "question": "Have you personally treated male breast cancer patients, or do you have an established referral pathway to identify them for trials?",
+        "why": "Public records don't indicate whether your practice has any experience with or access to male breast cancer patients."
+      }
+    ],
+    "answers": {},
+    "attestations": [],
+    "before": {
+      "score": 8.5,
+      "max_score": 20.0,
+      "score_pct": 0.425,
+      "coverage": 0.455,
+      "n_criteria": 11,
+      "n_answered": 5,
+      "verdict_counts": {
+        "satisfied": 4,
+        "unknown": 6,
+        "partial": 1
+      },
+      "gate_failures": [],
+      "recommendation": "insufficient_evidence",
+      "reason": "only 45% of criteria could be adjudicated (minimum 50%)",
+      "by_dimension": {
+        "expertise": {
+          "earned": 3.0,
+          "possible": 4.0,
+          "n": 3,
+          "pct": 0.75
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.3
+        },
+        "operational_capacity": {
+          "earned": 0.0,
+          "possible": 7.0,
+          "n": 3,
+          "pct": 0.0
+        },
+        "trial_execution": {
+          "earned": 4.0,
+          "possible": 4.0,
+          "n": 2,
+          "pct": 1.0
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    },
+    "after": {
+      "score": 8.5,
+      "max_score": 20.0,
+      "score_pct": 0.425,
+      "coverage": 0.455,
+      "n_criteria": 11,
+      "n_answered": 5,
+      "verdict_counts": {
+        "satisfied": 4,
+        "unknown": 6,
+        "partial": 1
+      },
+      "gate_failures": [],
+      "recommendation": "insufficient_evidence",
+      "reason": "only 45% of criteria could be adjudicated (minimum 50%)",
+      "by_dimension": {
+        "expertise": {
+          "earned": 3.0,
+          "possible": 4.0,
+          "n": 3,
+          "pct": 0.75
+        },
+        "patient_population": {
+          "earned": 1.5,
+          "possible": 5.0,
+          "n": 3,
+          "pct": 0.3
+        },
+        "operational_capacity": {
+          "earned": 0.0,
+          "possible": 7.0,
+          "n": 3,
+          "pct": 0.0
+        },
+        "trial_execution": {
+          "earned": 4.0,
+          "possible": 4.0,
+          "n": 2,
+          "pct": 1.0
+        }
+      },
+      "thresholds": {
+        "strong": 0.7,
+        "possible": 0.4,
+        "min_coverage": 0.5
+      }
+    }
+  }
+}

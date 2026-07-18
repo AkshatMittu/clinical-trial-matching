@@ -160,8 +160,7 @@ async function boot(){
     <div class="trials" id="tr-${p.npi}" style="display:none">
       ${p.trials.map(t => `<div class="tr" data-npi="${p.npi}" data-nct="${t.nct_id}">
         <span class="dot ${t.recorded?'rec':''}"></span>
-        <span class="lbl">${esc(t.label || t.nct_id)}</span>
-        <span class="tier t-${t.tier}">${t.tier}</span></div>`).join('')}
+        <span class="lbl">${esc(t.label || t.nct_id)}</span></div>`).join('')}
     </div>`).join('');
 
   document.querySelectorAll('.phys').forEach(el => el.onclick = () => {
@@ -171,7 +170,7 @@ async function boot(){
     if(!open){ $('#tr-'+npi).style.display='block'; el.classList.add('on'); }
     const p = physicians.find(x => x.npi === npi);
     $('#title').textContent = p.name;
-    $('#sub').textContent = `${p.taxonomy} · ${p.city}, ${p.state} · ${p.n_trials} trials in bucket — green dot = recorded, replays instantly`;
+    $('#sub').textContent = `${p.taxonomy} · ${p.city}, ${p.state}`;
   });
 
   document.querySelectorAll('.tr').forEach(el => el.onclick = e => {
@@ -182,7 +181,7 @@ async function boot(){
     const p = physicians.find(x => x.npi === sel.npi);
     const t = p.trials.find(x => x.nct_id === sel.nct);
     $('#title').textContent = `${p.name} × ${t.label || t.nct_id}`;
-    $('#sub').innerHTML = `${esc(sel.nct)} · expected tier <span class="tier t-${t.tier}">${t.tier}</span>${t.recorded?' · recorded':' · not recorded — needs a live run'}`;
+    $('#sub').innerHTML = `${esc(sel.nct)}${t.recorded?' · recorded':' · not recorded — needs a live run'}`;
     $('#go').disabled = false;
     $('#stages').innerHTML = ''; $('#final').innerHTML = '';
   });
@@ -272,7 +271,8 @@ const BODY = {
         <td style="width:150px"><code>${esc(r.ref)}</code></td>
         <td>${esc(r.title||r.taxonomy||r.study||r.description||'')}
           ${r.amount_usd?` · $${esc(r.amount_usd)}`:''}${r.n_services?` · ${esc(r.n_services)} services`:''}
-          ${r.payer?` · ${esc(r.payer)}`:''}${r.year?` · ${esc(r.year)}`:''}</td></tr>`).join('')}</tbody></table>`:''}
+          ${r.payer?` · ${esc(r.payer)}`:''}${r.year?` · ${esc(r.year)}`:''}
+          ${r.abstract?`<details style="margin-top:5px"><summary style="cursor:pointer;font-size:11.5px;color:var(--accent)">abstract</summary><div style="font-size:12px;color:var(--mut);margin-top:4px;line-height:1.5">${esc(r.abstract)}</div></details>`:''}</td></tr>`).join('')}</tbody></table>`:''}
     `).join('')}
     ${d.gaps.length?`<h4>Known gaps in public data</h4><div class="note warn">${d.gaps.map(g=>`<div>· ${esc(g)}</div>`).join('')}</div>`:''}`,
 
@@ -369,17 +369,35 @@ function renderAsk(d){
       <div class="a">Score<b>${r.before.score} → ${r.after.score}</b></div>
       <div class="a">Coverage<b>${Math.round(r.before.coverage*100)}% → ${Math.round(r.after.coverage*100)}%</b></div>`;
     document.getElementById('s-rescore').querySelector('.body').prepend(dl);
-    renderFinal({scoring:r.after, report_url:r.report_url});
+    renderFinal({scoring:r.after, before:r.before, report_url:r.report_url});
   };
 }
 
 function renderFinal(f){
   const s = f.scoring || {};
-  $('#final').innerHTML = `<div class="final">
+  const b = f.before;   // set only when an interview actually re-scored
+  const twoScores = b ? `
+    <div style="display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap">
+      <div>
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)">Before interview</div>
+        <div class="n" style="color:var(--mut)">${esc(b.score)}<span style="font-size:15px">/${esc(b.max_score)}</span></div>
+        <div style="margin-top:4px">${pill(b.recommendation)}</div>
+        <div style="font-size:11.5px;color:var(--mut);margin-top:3px">${pct(b.coverage)} coverage · public data only</div>
+      </div>
+      <div style="font-size:22px;color:var(--mut);align-self:center">→</div>
+      <div>
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)">After interview</div>
+        <div class="n">${esc(s.score)}<span style="font-size:15px;color:var(--mut)">/${esc(s.max_score)}</span></div>
+        <div style="margin-top:4px">${pill(s.recommendation)}</div>
+        <div style="font-size:11.5px;color:var(--mut);margin-top:3px">${pct(s.coverage)} coverage · incl. self-report</div>
+      </div>
+    </div>` : `
     <div><div style="font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)">Final assessment</div>
       <div class="n">${esc(s.score)}<span style="font-size:17px;color:var(--mut)">/${esc(s.max_score)}</span></div>
       <div style="margin-top:5px">${pill(s.recommendation)}</div>
-      <div style="font-size:12px;color:var(--mut);margin-top:4px">${esc(s.reason||'')}</div></div>
+      <div style="font-size:12px;color:var(--mut);margin-top:4px">${esc(s.reason||'')}</div></div>`;
+  $('#final').innerHTML = `<div class="final">
+    ${twoScores}
     <div style="text-align:right">
       ${f.live_seconds?`<div style="font-size:11.5px;color:var(--mut);margin-bottom:7px">live run took ${f.live_seconds}s and cost $${(f.live_cost_usd||0).toFixed(3)} · this replay cost nothing</div>`:''}
       <a href="${f.report_url}" target="_blank"><button class="pri">Open full report ↗</button></a>
