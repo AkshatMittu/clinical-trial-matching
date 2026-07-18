@@ -1,0 +1,1686 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02040857",
+      "orgStudyIdInfo": {
+        "id": "13-559"
+      },
+      "organization": {
+        "fullName": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Palbociclib in Combination With Adjuvant Endocrine Therapy for Hormone Receptor Positive, HER2 Negative Invasive Breast Cancer",
+      "officialTitle": "A Phase 2 Pilot Feasibility Study of Palbociclib in Combination With Adjuvant Endocrine Therapy for Hormone Receptor Positive Invasive Breast Carcinoma"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2014-01"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-01-13",
+      "studyFirstSubmitQcDate": "2014-01-17",
+      "studyFirstPostDateStruct": {
+        "date": "2014-01-20",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-06-30",
+      "resultsFirstSubmitQcDate": "2020-12-01",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-12-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Erica Mayer, MD, MPH",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Dana-Farber Cancer Institute"
+      },
+      "leadSponsor": {
+        "name": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Pfizer",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This research study is evaluating a drug called Palbociclib in combination with endocrine therapy as a possible treatment for hormone receptor positive breast cancer.\n\n* Palbociclib is a drug that may stop cancer cells from growing. Palbociclib blocks activity of two closely related enzymes (proteins that help chemical reactions in the body occur), called Cyclin D Kinases 4 and 6 (CDK 4/6). These proteins are part of a pathway, or a sequence of steps which is known to regulate cell growth. Laboratory testing has suggested palbociclib may stop the growth of hormone receptor positive breast cancer.\n* Endocrine therapy prevents breast cancer cell growth by blocking estrogen stimulation. During this study endocrine therapy will either be tamoxifen or an aromatase inhibitor. It is standard of care for premenopausal women to take tamoxifen and for postmenopausal women to take either an aromatase inhibitor or tamoxifen after a diagnosis of hormone receptor positive breast cancer.",
+      "detailedDescription": "After the screening procedures confirms that the participant is able to participate in the study. The participant will be given a dosing diary for each treatment cycle. Each treatment cycle lasts 28 days, during which time the participant will take Palbociclib once a day on days 1-21 of each 28 day cycle and the aromatase inhibitor that the participant is already taking once a day every day. The diary will also include special instructions for taking the study drug(s).\n\nAll participants participating in the research study will receive the same dose of Palbociclib.\n\nWhile participating in the research study the participant will have the following tests and procedures:\n\n* Clinical Exams: The participant will have a physical exam on the first day of the month for first three months of therapy. After that, the participant will have a physical exam every other month until the end of the first year of therapy. After the first year, the participant will have a physical exam every 3 months during the second year of therapy. During the physical exam, the participant will be asked questions about their general health, questions about any problems that they may be experiencing, and any medications they are taking.\n* Blood tests: The participant will have blood drawn on the first and fifteenth days of the first three months of therapy. After that, the participant will have blood drawn every month for the remainder of the first year of treatment and the every other month until the end of therapy. These tests will be used to determine if the participant is having any side effects related to the study drug.\n* Electrocardiograms (EKG): The participant will have an EKG performed on the first day of the first three months of therapy. After that, the participant will have an EKG every other month until the end of the first year of therapy. After the first year of therapy, the participant will have an EKG every 3 months during the second year of therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 162,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Palbociclib With Adjuvant Endocrine Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd",
+          "interventionNames": [
+            "Drug: Palbociclib",
+            "Drug: Aromatase Inhibitor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "CDK 4/6 inhibitor",
+          "armGroupLabels": [
+            "Palbociclib With Adjuvant Endocrine Therapy"
+          ],
+          "otherNames": [
+            "PD 0332991-0054",
+            "PD-0332991",
+            "PD-332991",
+            "PF-00080665-73"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aromatase Inhibitor",
+          "description": "Endocrine Therapy",
+          "armGroupLabels": [
+            "Palbociclib With Adjuvant Endocrine Therapy"
+          ],
+          "otherNames": [
+            "Femara",
+            "Letrozole",
+            "Anastrozole",
+            "Arimidex",
+            "Exemestane",
+            "Aromasin",
+            "Tamoxifen",
+            "Nolvadex"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "2-Year Treatment Discontinuation Rate",
+          "description": "The 2-year treatment discontinuation rate is the percentage of participants who do not complete the palbociclib treatment per protocol for reasons due to toxicity, withdrawal of consent to be treated, or other events related to tolerability in uncensored participants. Participants who discontinued palbociclib early for reasons that were not treatment-related were censored.",
+          "timeFrame": "Evaluate upon completion of palbociclib, up to 2 years of treatment completion."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "2-year Treatment Discontinuation Rate by Aromatase Inhibitor and Tamoxifen-based Therapy Subgroup",
+          "description": "The 2-year treatment discontinuation rate is the percentage of participants who do not complete the palbociclib treatment per protocol for reason due to toxicity, withdrawal of consent to be treated, or other events related to tolerability of all enrolled participants.",
+          "timeFrame": "Evaluate upon completion of palbociclib, up to 2 years of treatment completion."
+        },
+        {
+          "measure": "Grade 3-4 Treatment-Related Neutropenia Toxicity Rate",
+          "description": "Grade 3-4 treatment-related neutropenia toxicity rate is the percentage of participants experiencing at least one grade 3-4 neutropenia AE with treatment attribution of possible, probable or definite based on NCI Common Toxicity Criteria for Adverse Events version 4 (CTCAEv4) during the time of observation on treatment as reported on case report forms.",
+          "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days."
+        },
+        {
+          "measure": "All Grade Treatment-Related Fatigue Toxicity Rate",
+          "description": "All grade treatment-related fatigue toxicity rate is the percentage of participants experiencing at least one grade 1-4 fatigue AE with treatment attribution of possible, probable or definite based on NCI Common Toxicity Criteria for Adverse Events version 4 (CTCAEv4) during the time of observation on treatment as reported on case report forms.",
+          "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days."
+        },
+        {
+          "measure": "All GradeTreatment-Related Alopecia Toxicity Rate",
+          "description": "All grade treatment-related alopecia toxicity rate is the percentage of participants experiencing at least one grade 1-4 alopecia AE with treatment attribution of possible, probable or definite based on NCI Common Toxicity Criteria for Adverse Events version 4 (CTCAEv4) during the time of observation on treatment as reported on case report forms.",
+          "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must have histologically confirmed hormone receptor positive (HR+) HER2 negative stage II (except T2N0) or stage III invasive breast cancer. Evaluation for metastatic disease is not required in the absence of symptoms.\n* Men and both pre- and postmenopausal women are eligible.\n* Prior Treatment:\n\n  * Participants may have received (neo)adjuvant chemotherapy, but must be at least 30 days after last dose, with no more than grade 1 residual toxicity at time of screening.\n  * Participants may have received adjuvant radiotherapy, but must be at least 30 days after last dose , with no more than grade 1 residual toxicity at the time of screening.\n  * If most recent therapy was surgery, participants must be at least 30 days out from definitive surgery with no active wound healing complications.\n* Participants must have demonstrated ability to tolerate endocrine therapy by prior successful completion of at least 1 month of tamoxifen or aromatase inhibitor (AI) therapy without significant adverse events, and in the opinion of the treating physician any ongoing toxicity does not preclude ability to continue on tamoxifen or AI for at least a projected 2 year continuous duration. Ongoing use of any endocrine therapy, including tamoxifen, letrozole, anastrozole, or exemestane, is allowed. Patients may enroll within 2 years of beginning endocrine therapy, as long as there is a plan for at least 2 more years of adjuvant endocrine therapy.\n* ECOG performance status 0-1\n* Age \u226518 years.\n* Normal organ and marrow function\n* Baseline QTc \u2264 480 ms\n* The effects of palbociclib on the developing human fetus are unknown. Women who might become pregnant must use adequate contraception\n* Ability to understand and the willingness to sign a written informed consent document\n\nExclusion Criteria:\n\n* Concurrent therapy with other investigational agents.\n* Prior therapy with any CDK4/6 inhibitor.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to palbociclib.\n* Participants receiving any medications or substances that are strong inhibitors or inducers of CYP3A isoenzymes are ineligible.\n* Current use of drugs that are known to prolong the QT interval\n* Subjects with organ allograft requiring immunosuppression.\n* Uncontrolled intercurrent illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* Pregnant women are excluded from this study. Breastfeeding should be discontinued prior to entry onto the study.\n* Individuals with a history of a different malignancy are ineligible except for the following circumstances. Individuals with a history of other malignancies are eligible if they have been disease-free for at least 5 years and are deemed by the investigator to be at low risk for recurrence of that malignancy. Individuals with the following cancers are eligible if diagnosed and treated within the past 5 years: ductal carcinoma in situ of the breast, cervical cancer in situ, and basal cell or squamous cell carcinoma of the skin.\n* No ongoing combination antiretroviral therapy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Erica Mayer, MD, MPH",
+          "affiliation": "Dana-Farber Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of California, San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Indiana University Health Hospital",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02214",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "MGH/North Shore Cancer Center",
+          "city": "Danvers",
+          "state": "Massachusetts",
+          "zip": "01923",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.57509,
+            "lon": -70.93005
+          }
+        },
+        {
+          "facility": "DF/DWCC at Milford Regional Cancer Center",
+          "city": "Milford",
+          "state": "Massachusetts",
+          "zip": "01757",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.13982,
+            "lon": -71.51617
+          }
+        },
+        {
+          "facility": "South Shore Hospital",
+          "city": "Weymouth",
+          "state": "Massachusetts",
+          "zip": "02190",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.22093,
+            "lon": -70.93977
+          }
+        },
+        {
+          "facility": "Dana-Farber/New Hampshire Oncology-Hematology",
+          "city": "Londonderry",
+          "state": "New Hampshire",
+          "zip": "03053",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.86509,
+            "lon": -71.37395
+          }
+        },
+        {
+          "facility": "University of Pennsylvania-Abramson Cancer Center",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31250880",
+          "type": "RESULT",
+          "citation": "Mayer EL, DeMichele A, Rugo HS, Miller K, Waks AG, Come SE, Mulvey T, Jeselsohn R, Overmoyer B, Guo H, Barry WT, Huang Bartlett C, Koehler M, Winer EP, Burstein HJ. A phase II feasibility study of palbociclib in combination with adjuvant endocrine therapy for hormone receptor-positive invasive breast carcinoma. Ann Oncol. 2019 Sep 1;30(9):1514-1520. doi: 10.1093/annonc/mdz198."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Palbociclib With Adjuvant Endocrine Therapy",
+          "description": "Palbociclib: 125 mg PO qd 21 days on, 7 days off Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "162"
+                }
+              ]
+            },
+            {
+              "type": "Treatment Discontinuation Evaluable",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Evaluable population excludes participants who discontinue early for reasons unrelated to treatment.",
+                  "numSubjects": "152"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "102"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "60"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "31"
+                }
+              ]
+            },
+            {
+              "type": "patient non-compliance",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Lost to Follow-up",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "recurrence",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "ineligible",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Palbociclib With Adjuvant Endocrine Therapy",
+          "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "162"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Age, <50 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "69"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Age, >50 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "157"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "144"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "162"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Type of prior neo/adjuvant chemotherapy",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "None",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "33"
+                    }
+                  ]
+                },
+                {
+                  "title": "Neoadjuvant",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60"
+                    }
+                  ]
+                },
+                {
+                  "title": "Adjuvant",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "63"
+                    }
+                  ]
+                },
+                {
+                  "title": "Both",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "2-Year Treatment Discontinuation Rate",
+          "description": "The 2-year treatment discontinuation rate is the percentage of participants who do not complete the palbociclib treatment per protocol for reasons due to toxicity, withdrawal of consent to be treated, or other events related to tolerability in uncensored participants. Participants who discontinued palbociclib early for reasons that were not treatment-related were censored.",
+          "populationDescription": "The analysis population is comprised of all uncensored participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Evaluate upon completion of palbociclib, up to 2 years of treatment completion.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib With Adjuvant Endocrine Therapy",
+              "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "152"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31",
+                      "lowerLimit": "24",
+                      "upperLimit": "39"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Primary objective is treatment discontinuation rate at 2 yr for patients receiving Palbociclib therapy. If the true rate of discontinuation by two years is 48% or higher, treatment duration will be considered not feasible and not worthy of further study. If the rate of discontinuation is 33.3% or less, the 2 yr duration will be deemed feasible and worthy of further study. Using a one-sided alpha = 0.025, there is \\> 90% power to reject the null hypothesis in favor of feasibility.",
+              "nonInferiorityType": "OTHER",
+              "nonInferiorityComment": "Exact binomial test",
+              "pValue": "0.0011",
+              "statisticalMethod": "Exact binomial test"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "2-year Treatment Discontinuation Rate by Aromatase Inhibitor and Tamoxifen-based Therapy Subgroup",
+          "description": "The 2-year treatment discontinuation rate is the percentage of participants who do not complete the palbociclib treatment per protocol for reason due to toxicity, withdrawal of consent to be treated, or other events related to tolerability of all enrolled participants.",
+          "populationDescription": "The analysis population is comprised of all enrolled participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Evaluate upon completion of palbociclib, up to 2 years of treatment completion.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Aromatase Inhibitor + Palbociclib",
+              "description": "participants who received an Aromatase inhibitor as their endocrine therapy with Palbociclib"
+            },
+            {
+              "id": "OG001",
+              "title": "Tamoxifen + Palbociclib",
+              "description": "participants who received Tamoxifen as their endocrine therapy with Palbociclib"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "102"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28",
+                      "lowerLimit": "20",
+                      "upperLimit": "38"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "35",
+                      "lowerLimit": "23",
+                      "upperLimit": "48"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Grade 3-4 Treatment-Related Neutropenia Toxicity Rate",
+          "description": "Grade 3-4 treatment-related neutropenia toxicity rate is the percentage of participants experiencing at least one grade 3-4 neutropenia AE with treatment attribution of possible, probable or definite based on NCI Common Toxicity Criteria for Adverse Events version 4 (CTCAEv4) during the time of observation on treatment as reported on case report forms.",
+          "populationDescription": "The analysis population is comprised of all enrolled participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib With Adjuvant Endocrine Therapy",
+              "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "162"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54",
+                      "lowerLimit": "46",
+                      "upperLimit": "62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "All Grade Treatment-Related Fatigue Toxicity Rate",
+          "description": "All grade treatment-related fatigue toxicity rate is the percentage of participants experiencing at least one grade 1-4 fatigue AE with treatment attribution of possible, probable or definite based on NCI Common Toxicity Criteria for Adverse Events version 4 (CTCAEv4) during the time of observation on treatment as reported on case report forms.",
+          "populationDescription": "The analysis population is comprised of all enrolled participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib With Adjuvant Endocrine Therapy",
+              "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "162"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "76",
+                      "lowerLimit": "69",
+                      "upperLimit": "82"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "All GradeTreatment-Related Alopecia Toxicity Rate",
+          "description": "All grade treatment-related alopecia toxicity rate is the percentage of participants experiencing at least one grade 1-4 alopecia AE with treatment attribution of possible, probable or definite based on NCI Common Toxicity Criteria for Adverse Events version 4 (CTCAEv4) during the time of observation on treatment as reported on case report forms.",
+          "populationDescription": "The analysis population is comprised of all enrolled participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib With Adjuvant Endocrine Therapy",
+              "description": "Palbociclib: 125 mg PO qd 21 days on, 7 days off Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "162"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28",
+                      "lowerLimit": "22",
+                      "upperLimit": "36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "POST_HOC",
+          "title": "Rate of Treatment Related Discontinuation",
+          "description": "The 2-year treatment discontinuation rate is the percentage of participants who do not complete the palbociclib treatment per protocol for reasons due to toxicity, withdrawal of consent to be treated, or other events related to tolerability in all enrolled participants.",
+          "populationDescription": "The analysis population is comprised of all enrolled participants.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Evaluate upon completion of combination therapy with endocrine therapy plus palbociclib, up to 2 years of treatment completion.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Palbociclib With Adjuvant Endocrine Therapy",
+              "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "162"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "63",
+                      "lowerLimit": "55",
+                      "upperLimit": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "AE data collected every cycle from the time of the first dose of study treatment, through the study and until 30 days after removal from study or death, whichever occurs first. Therefore, AEs were observed up to 2 years plus 30 days.",
+      "description": "Serious AEs (SAE) were defined as events with treatment-attribution of possibly, probably or definitely and grade 3 or higher. All remaining AEs are classified as Other AEs (OAE) including grade 3 or higher events with treatment-attribution of unlikely and unrelated plus all grade 1 and 2 events. Maximum grade toxicity by type was then calculated within SAE and OAE datasets. No further data is available to specify classification of other beyond the general term.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Palbociclib With Adjuvant Endocrine Therapy",
+          "description": "* Palbociclib 125 mg PO qd 21 days on, 7 days off\n* Endocrine Therapy: Tamoxifen 20mg, Letrozole 2.5mg, Anastrozole 1mg, or Exemestane 25mg PO qd",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 162,
+          "seriousNumAffected": 96,
+          "seriousNumAtRisk": 162,
+          "otherNumAffected": 162,
+          "otherNumAtRisk": 162
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Cardiac disorders - Other, specify",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Breast infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Soft tissue infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 78,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 42,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Lymph node pain",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Blood and lymphatic system disorders - Other, specify",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Chest pain - cardiac",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Sinus bradycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Sinus tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Cardiac disorders - Other, specify",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Ear pain",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Tinnitus",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Vertigo",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Vestibular disorder",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Ear and labyrinth disorders - Other, specify",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Edema limbs",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 58,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Flu like symptoms",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Localized edema",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Non-cardiac chest pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Bronchial infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Skin infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        },
+        {
+          "term": "Pain of skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 162
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Project Manager",
+        "organization": "Dana-Farber Cancer Institute",
+        "email": "ctopm@dfci.harvard.edu",
+        "phone": "617-632-5313"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2016-12-16",
+          "uploadDate": "2020-06-30T09:50",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 961113
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D047072",
+          "term": "Aromatase Inhibitors"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D065088",
+          "term": "Steroid Synthesis Inhibitors"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004965",
+          "term": "Estrogen Antagonists"
+        },
+        {
+          "id": "D006727",
+          "term": "Hormone Antagonists"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

@@ -1,0 +1,542 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07084558",
+      "orgStudyIdInfo": {
+        "id": "ABCSG 61 / TEODOR"
+      },
+      "organization": {
+        "fullName": "Austrian Breast & Colorectal Cancer Study Group",
+        "class": "NETWORK"
+      },
+      "briefTitle": "ABCSG 61 / TEODOR : Neoadjuvant TrEatment Optimization Driven by Circulating Tumor DNA and endOcrine Responsiveness",
+      "officialTitle": "ABCSG 61 / TEODOR (Neoadjuvant TrEatment Optimization Driven by ctDNA and endOcrine Responsiveness): A Prospective, Randomized, Controlled, Openlabel Multicenter Phase II Study Investigating Neoadjuvant Endocrine Therapy Versus Chemotherapy in HR-positive, HER2negative, ctDNA-negative and Endocrine Responsive Early and Locally Advanced Breast Cancer",
+      "acronym": "TEODOR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-08-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-07-17",
+      "studyFirstSubmitQcDate": "2025-07-17",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Austrian Breast & Colorectal Cancer Study Group",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "Natera, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this performance study is to learn if treatment with neoadjuvant endocrine therapy compared to chemotherapy has comparable efficacy, but better quality of life outcomes in endocrine responsive participants with early and locally advanced ER+/HER2-negative breast cancer and no detectable ctDNA in peripheral blood.\n\nThe main question it aims to answer is:\n\nIs neoadjuvant endocrine therapy at least equivalent to neoadjuvant chemotherapy for treatment of patients with ER-positive, HER2-negative breast cancer with no detectable ctDNA (as assessed with the SignateraTM test) prior to treatment start and a Ki-67-value smaller or equal to 10% after 3 weeks of initial aromatase inhibitor treatment (=endocrine responsive).\n\nResearchers will compare neoadjuvant Standard of Care aromatase inhibitors (AI) or tamoxifen, if AI is not tolerated, with neoadjuvant Standard of Care chemotherapy to see if treatment efficacy is at least comparable between the treatment arms, when measured with the modified preoperative endocrine prognostic index (PEPI) score at surgery.\n\nParticipants will:\n\n* Provide blood and tumor samples for ctDNA-assessment with the SignateraTM test by Natera prior to treatment starts\n* Take AI therapy for 4 weeks in the initial Run-in phase\n* Undergo tumor biopsy after 3 weeks of AI for local evaluation of Ki-67\n* Receive either 8 months of neoadjuvant Standard of Care AI/ tamoxifen or 6-8 months of neoadjuvant Standard of Care chemotherapy in one of the three treatment arms of the Main Treatment Phase, depending on SignateraTM test result and Ki-67 value after 3 weeks of AI therapy (see \"detailed description\" for details).\n* Visit the clinic for checkups and tests at timepoints:\n\n  * Prior to starting trial treatment\n  * 3 weeks after start of endocrine treatment in the Run-in phase\n  * Approx. 1 week later, prior to start of Main Treatment\n  * After half of the therapy in the Main Therapy Phase has been completed\n  * Once Main Treatment Phase treatment is complete (after 7-9 months overall)\n  * For surgery and post-surgery checkup\n  * Annually during the 5 years follow-up phase after surgery.\n  * A subset of patients, who receive adjuvant chemotherapy after surgery, are asked to come to site for an additional visit after completion of chemotherapy.\n  * Provide blood samples for ctDNA-assessment and future research when visiting the clinic\n  * Answer patient-reported questionnaires about their quality of life, symptoms and sexual health",
+      "detailedDescription": "This is a prospective, randomized, controlled, open-label phase II performance study for participants with ER+/ HER2- early or locally advanced breast cancer. At the start of the trial, ctDNA is assessed for all participants with the SignateraTM test by Natera, using (archived) tumor tissue and blood samples. Eligible patients start AI therapy per Standard of Care in the Run-in Phase and after 3 weeks of treatment, Ki-67 levels are measured locally, to determine endocrine response. Following the Run-in Phase, participants, whose SignateraTM test result shows no detectable ctDNA and whose Ki-67 value is \u2264 10% are randomized 2:1 to receive either neoadjuvant AI or, if AI is not tolerated, tamoxifen in arm A or neoadjuvant chemotherapy in arm B. Participants with a Ki-67 value of \\>10% or detectable ctDNA, according to the SignateraTM test, receive chemotherapy in the third treatment arm C. All study treatment is applied as per standard of care. The planned duration of treatment is 4 weeks in the Run-in phase and 6-8 months in either arm of the Main Treatment Phase. The primary endpoint is the modified PEPI score. Patients will be followed for 5 years from surgery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early and Locally Advanced Breast Cancer"
+      ],
+      "keywords": [
+        "early breast cancer",
+        "locally advanced breast cancer",
+        "neoadjuvant endocrine therapy",
+        "chemotherapy",
+        "HR-positive",
+        "HER2-negative",
+        "ABCSG 61",
+        "TEODOR",
+        "endocrine responsive",
+        "Natera",
+        "in-vitro diagnostic",
+        "Signatera Test",
+        "Signatera",
+        "ctDNA"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 350,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Endocrine treatment for responders to treatment with aromatase inhibitor",
+          "type": "EXPERIMENTAL",
+          "description": "Patients are considered responders if they are ctDNA-negative prior treatment and if Ki-67 is less than or equal to 10% after 3 weeks of treatment with aromatase inhibitor",
+          "interventionNames": [
+            "Diagnostic Test: blood sample for Signatera (TM) test",
+            "Diagnostic Test: biopsy for Ki-67 assessment",
+            "Diagnostic Test: FFPE tumor sample for Signatera (TM) test (archived)"
+          ]
+        },
+        {
+          "label": "Chemotherapy for responders to treatment with aromatase inhibitor",
+          "type": "EXPERIMENTAL",
+          "description": "Patients are considered responders if they are ctDNA-negative prior treatment and if Ki-67 is less than or equal to 10% after 3 weeks of treatment with aromatase inhibitor",
+          "interventionNames": [
+            "Diagnostic Test: blood sample for Signatera (TM) test",
+            "Diagnostic Test: biopsy for Ki-67 assessment",
+            "Diagnostic Test: FFPE tumor sample for Signatera (TM) test (archived)"
+          ]
+        },
+        {
+          "label": "Chemotherapy for non-responders to treatment with aromatase inhibitor",
+          "type": "EXPERIMENTAL",
+          "description": "Patients are considered non-responders if they are ctDNA-positive prior treatment and if Ki-67 is greater than 10% after 3 weeks of treatment with aromatase inhibitor",
+          "interventionNames": [
+            "Diagnostic Test: blood sample for Signatera (TM) test",
+            "Diagnostic Test: biopsy for Ki-67 assessment",
+            "Diagnostic Test: FFPE tumor sample for Signatera (TM) test (archived)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "blood sample for Signatera (TM) test",
+          "description": "ctDNA: Evaluation of ctDNA-status prior to treatment start (ctDNA not detected or ctDNA-positive) until the last of five follow-up visit",
+          "armGroupLabels": [
+            "Chemotherapy for non-responders to treatment with aromatase inhibitor",
+            "Chemotherapy for responders to treatment with aromatase inhibitor",
+            "Endocrine treatment for responders to treatment with aromatase inhibitor"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "biopsy for Ki-67 assessment",
+          "description": "Ki67: Evaluation of Ki-67-value after 3 weeks of aromatase inhibitor",
+          "armGroupLabels": [
+            "Chemotherapy for non-responders to treatment with aromatase inhibitor",
+            "Chemotherapy for responders to treatment with aromatase inhibitor",
+            "Endocrine treatment for responders to treatment with aromatase inhibitor"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "FFPE tumor sample for Signatera (TM) test (archived)",
+          "description": "Evaluation of ctDNA status prior to treatment start",
+          "armGroupLabels": [
+            "Chemotherapy for non-responders to treatment with aromatase inhibitor",
+            "Chemotherapy for responders to treatment with aromatase inhibitor",
+            "Endocrine treatment for responders to treatment with aromatase inhibitor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Modified PEPI (Preoperative Endocrine Prognostic Index) score",
+          "description": "The proportions of patients with a modified PEPI score of 0 are compared between treatment arm A and treatment arm B. The score ranges between 0 and 12 with 0 indicating the lowest risk of relapse.",
+          "timeFrame": "From randomization to the timepoint of surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "RCB (Residual Cancer Burden) score",
+          "description": "The continuous RCB scores are compared between treatment arm A and treatment arm B. The score ranges from 0 to 100.",
+          "timeFrame": "From randomization to the timepoint of surgery"
+        },
+        {
+          "measure": "BCTOR (Breast Conservation Turn-Over Rate)",
+          "description": "The proportion of patients with actual breast conservation surgery as planned are compared between treatment arm A and treatment arm B.",
+          "timeFrame": "From randomization to the timepoint of surgery"
+        },
+        {
+          "measure": "EFS (Event-Free Survival)",
+          "description": "Time from randomization to the date of first event: local-regional progression prior surgery, distant progression prior surgery, invasive ipsilateral breast tumor recurrence, local-regional invasive recurrence, invasive contralateral breast cancer, distant recurrence, second primary invasive cancer of non-breast origin or death from any cause.",
+          "timeFrame": "From randomization until the end of the 5-year follow-up post-surgery period"
+        },
+        {
+          "measure": "iDFS (Invasive Disease-Free Survival )",
+          "description": "Time from primary surgery to the date of the first event: invasive ipsilateral breast tumor recurrence, local-regional invasive recurrence, invasive contralateral breast cancer, distant recurrence, second primary invasive cancer of non-breast origin or death from any cause.",
+          "timeFrame": "From primary surgery until the end of the 5-year follow-up post-surgery period"
+        },
+        {
+          "measure": "iBCFS (Invasive Breast Cancer-Free Survival )",
+          "description": "Time from primary surgery to the date of the first event: invasive ipsilateral breast tumor recurrence, local-regional invasive recurrence, invasive contralateral breast cancer, distant recurrence, or death from any cause.",
+          "timeFrame": "From primary surgery until the end of the 5-year follow-up post-surgery period"
+        },
+        {
+          "measure": "DRFS (Distant Recurrence-Free Survival)",
+          "description": "Time from primary surgery to the date of the first event: distant recurrence or death from any cause.",
+          "timeFrame": "From primary surgery until the end of the 5-year follow-up post-surgery period"
+        },
+        {
+          "measure": "OS (Overall Survival)",
+          "description": "Time from randomization to death.",
+          "timeFrame": "From randomization until the end of the 5-year follow-up post-surgery period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed informed consent obtained prior to any study specific assessments and procedures\n2. Women and men of age \u226518 years\n3. Patients must have histologically confirmed invasive, unilateral and locally advanced breast cancer with the following characteristics:\n\n   * Stage IIA-III per AJCC (American Joint Committee on Cancer) Breast Cancer Staging version 8\n   * Histologically confirmed hormone receptor positive and HER2 negative tumor(s); HER2 measurement to be assessed locally according to the ASCO/CAP guidelines. In case the tumor is multicentric and/or multifocal, all histopathologically examined tumors must meet the pathologic criteria for hormone receptor positive and HER2 negative\n   * ER positive tumors, i.e. \\>20% positive stained tumor cells\n   * PR positive or negative tumors\n4. Systemic chemotherapy indicated by multidisciplinary tumor board\n5. Absence of prior breast cancer specific treatment for the current malignancy when entering screening\n6. Eastern Cooperative Oncology Group (ECOG) performance status of 0-2\n7. Adequate bone marrow and organ function as defined by the following local laboratory values within 8 weeks before study treatment start:\n\n   1. Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 109/L\n   2. Platelets \u2265 100 \u00d7 109/L\n   3. Hemoglobin \u2265 10.0 g/dL\n   4. Serum creatinine within normal institutional limits or creatinine clearance \u2265 60 mL/min/1.73 m\u00b2 for patients with serum creatinine levels above institutional ULN.\n   5. Alanine amino transferase (ALT or SGPT) \u2264 1.5 \u00d7 Upper Limit Normal (ULN); Aspartate amino transferase (AST or SGOT) \u2264 1.5 \u00d7 ULN f. Total serum bilirubin \u2264 ULN; or total bilirubin \u2264 3.0 \u00d7 ULN with direct bilirubin within normal range in patients with well documented Gilbert's Syndrome\n8. Patients must be able and willing to swallow and retain oral medication without a condition that would interfere with enteric absorption.\n9. Patient must be willing and able to comply with scheduled visits, treatment plans, laboratory tests, and other study procedures.\n10. In women of childbearing potential, urine or serum pregnancy test must be negative within 28 days prior to registration. In postmenopausal women or hysterectomized patients, pregnancy tests do not need to be performed\n\nExclusion Criteria:\n\n1. Ineligible for appropriate locoregional treatment (breast surgery and or radiotherapy when indicated)\n2. Bilateral invasive breast cancer or synchronous DCIS in contralateral breast\n3. Patients receiving concurrent systemic exogenous sexual hormone therapy during the study (hormone replacement therapy, oral or any other hormonal contraceptives such as hormonal contraceptive coil, etc.) are not eligible but topical vaginal estrogen therapy is allowable.\n4. Any chronic medication contraindicated for antineoplastic treatment\n5. Participation in a prior or concurrent interventional study and receiving study treatment (concurrent or within 30 days prior to treatment start) 6) Patients receiving any prior systemic cancer therapy for invasive breast cancer\n\n7\\) Patients with a history of any malignancy are ineligible except for the following circumstances:\n\n* Patients with a malignancy history other than adequately treated invasive breast cancer are eligible if they have been disease-free for at least 2 years and are deemed by the investigator to be at very low risk for recurrence of that malignancy (e.g. stage I gastric cancer or skin cancer)\n* Patients with the following cancers are eligible, even if diagnosed and adequately treated within the past 2 years: ductal carcinoma in situ of the breast, cervical cancer in situ, and non-metastatic nonmelanomatous skin cancers 8) Patient has medical or psychiatric disorders that would, in the investigator's judgement, interfere with the patient's safety or informed consent (e.g. known uncontrolled HIV infection, chronic/active viral or other known hepatitis and/or chronic liver disease, cirrhosis etc.).\n\n  9\\) Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, diabetes, or psychiatric illness/social situations that would limit compliance with study requirements. Ability to comply with study requirements is to be assessed by each investigator at the time of screening for study participation 10) Patient has current impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of the oral study treatments (e.g., uncontrolled ulcerative diseases, uncontrolled nausea, vomiting or diarrhea, malabsorption syndrome, or small bowel resection) 11) Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator\u00b4s judgment, cause unacceptable safety risks, contraindicate patient participation in the clinical study or compromise compliance with the protocol or limit life expectancy to \u22645 years 12) Pregnant or breast-feeding (lactating) women or women who plan to become pregnant or breast-feed during study treatment and 6 months thereafter",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Katharina Jarolim, PhD",
+          "role": "CONTACT",
+          "phone": "+43 1 4089230",
+          "email": "katharina.jarolim@abcsg.at"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Daniel Egle, MD, senior physician",
+          "affiliation": "Medical University Innsbruck",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Michael Gnant, MD, Prof.",
+          "affiliation": "Medical University Vienna, CCC",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Allg. Gyn\u00e4kologie u. gyn. Onkologie/Senologie",
+          "status": "RECRUITING",
+          "city": "Vienna",
+          "state": "Austria",
+          "zip": "1190",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Sabine Danzinger",
+              "role": "CONTACT",
+              "phone": "+43140400",
+              "email": "sabine.danzinger@meduniwien.ac.at"
+            },
+            {
+              "name": "Sabine Danzinger, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Landesklinikum Baden BGZ; Abt. f. Allgemein- u. Viszeralchirurgie",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Baden",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.00543,
+            "lon": 16.23264
+          }
+        },
+        {
+          "facility": "Dornbirn BGZ; Frauenheilkunde u. Geburtshilfe",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Dornbirn",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.41427,
+            "lon": 9.74195
+          }
+        },
+        {
+          "facility": "Landeskrankenhaus Feldkirch Interne E",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Feldkirch",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.23645,
+            "lon": 9.59734
+          }
+        },
+        {
+          "facility": "MUG - LKH Graz Klin. Abt. f. Onkologie",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Graz",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "MUG - Univ. Frauenklinik Graz, Gyn. Abteilung",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Graz",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "MUI - Univ. Klinik f. Frauenheilkunde Innsbruck Klin. Abteilung f. Gyn\u00e4kologie u. Geburtshilfe",
+          "status": "RECRUITING",
+          "city": "Innsbruck",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Daniel Egle",
+              "role": "CONTACT",
+              "phone": "+4350504230",
+              "email": "daniel.egle@tirol-kliniken.at"
+            },
+            {
+              "name": "Daniel Egle, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "TumorZentrum Kepler Universit\u00e4tsklinikum Linz",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Linz",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "LKH Salzburg - PMU, Univ.Klinik f. Innere Medizin III / SCRI CCCIT",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Salzburg",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Simon Peter Gampenrieder",
+              "role": "CONTACT",
+              "phone": "+43572550",
+              "email": "s.gampenrieder@salk.at"
+            },
+            {
+              "name": "Simon Peter Gampenrieder, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.79941,
+            "lon": 13.04399
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum St. P\u00f6lten, Klin. Abteilung f. Innere Medizin 1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Sankt P\u00f6lten",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20762,
+            "lon": 15.63725
+          }
+        },
+        {
+          "facility": "KH BHB St. Veit/Glan Brustzentrum K\u00e4rnten",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Sankt Veit an der Glan",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 46.76806,
+            "lon": 14.36028
+          }
+        },
+        {
+          "facility": "Hanusch Krankenhaus, 3. Medizinische Abteilung",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Vienna",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Klinik Hietzing, Gyn. Abteilung; Karl Landsteiner Institut f. gyn. Onkologie u. Senologie",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Vienna",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Wiener Neustadt, Abteilung f\u00fcr Innere Medizin, H\u00e4matologie und int. Onkologie",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wiener Neustadt",
+          "country": "Austria",
+          "contacts": [
+            {
+              "name": "Mira Witek",
+              "role": "CONTACT",
+              "phone": "+43262290040",
+              "email": "mirasofie.witek@wienerneustadt.lknoe.at"
+            },
+            {
+              "name": "MIra Witek, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.80485,
+            "lon": 16.23196
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Key-coded personal information from this study may also be used for future ((non-)commercial, (inter-)national) scientific research projects \\& statistics, provided the respective project is conducted in compliance with accepted standards of ethical principles; the responsible researcher(s)/statistician(s) has/have no legal means to de-identify any key-coded personal information.\n\nData will be shared with other collaborating academic groups/people \\& companies who work with the Sponsors, including but not limited to ECs and (inter-)national RA/HA, ABCSG (holder of clin. database), IVD/medication manufacturer and will be used for study purposes mentioned in protocol \\& future scientific research projects, if agreed by the participant.\n\nAny data transfer will comply with respective applicable data law/regulations. The use of data must be defined in advance in a project description \\& SAP, approved by ABCSG Board/Committee and will be transferred acc. with resp. Data Transfer Agreement."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001800",
+          "term": "Blood Specimen Collection"
+        },
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D003581",
+          "term": "Cytodiagnosis"
+        },
+        {
+          "id": "D003584",
+          "term": "Cytological Techniques"
+        },
+        {
+          "id": "D003949",
+          "term": "Diagnostic Techniques, Surgical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

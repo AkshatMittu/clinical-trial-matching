@@ -1,0 +1,723 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07671885",
+      "orgStudyIdInfo": {
+        "id": "JCOG2402"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "jRCTs031250687",
+          "type": "REGISTRY",
+          "domain": "Japan Registry of Clinical Trials"
+        }
+      ],
+      "organization": {
+        "fullName": "Tokyo Women's Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluating the Response-Guided Therapy With Neoadjuvant Endocrine Therapy to Optimize Adjuvant Treatment in Premenopausal HR+/HER2- Breast Cancer (JCOG2402, Young HOPE)",
+      "officialTitle": "A Randomized Phase III Study of Response-Guided Therapy Following Neoadjuvant Endocrine Therapy to Optimize Adjuvant Treatment in Premenopausal HR+/HER2- Breast Cancer (JCOG2402, Young HOPE)",
+      "acronym": "YoungHOPE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2038-01-27",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2039-01-27",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-06-22",
+      "studyFirstSubmitQcDate": "2026-06-22",
+      "studyFirstPostDateStruct": {
+        "date": "2026-06-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Makiko Ono",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "Tokyo Women's Medical University"
+      },
+      "leadSponsor": {
+        "name": "Tokyo Women's Medical University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Japan Clinical Oncology Group",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Young HOPE/JCOG2402 is a multicenter, randomized phase III study designed to evaluate response-guided therapy following neoadjuvant endocrine therapy to optimize adjuvant treatment in premenopausal HR+/HER2- Breast Cancer.\n\nPremenopausal women with intermediate-risk HR-positive/HER2-negative breast cancer derive benefit from the addition of chemotherapy to endocrine therapy. However, previous studies have demonstrated that patients who achieve an endocrine response (Ki-67 \u226410%) following neoadjuvant endocrine therapy have excellent outcomes without chemotherapy, irrespective of menopausal status. These findings suggest that endocrine therapy response may serve as a predictive biomarker to identify premenopausal patients who can safely omit chemotherapy.\n\nThe primary objective of this study is to evaluate the non-inferiority of an ET response-guided treatment strategy compared with standard surgery followed by adjuvant therapy. The study aims to increase the proportion of patients who can be treated with endocrine therapy alone by omitting chemotherapy in those with highly endocrine-sensitive disease.\n\nEligible patients are randomized 1:1 to upfront surgery or neoadjuvant endocrine therapy with an aromatase inhibitor and ovarian function suppression. The primary endpoint is EFS. Secondary endpoints include overall survival, relapse-free survival, distant recurrrence-free survival, HR-QOL, the rate of endocrine therapy alone in adjuvant therapy, ET response rate in an Arm B, the rate of non-menopause and safety. A total of 950 patients will be enrolled. Randomization is stratified by cN0 vs cN1, HG1 or 2 vs 3, and institution.\n\nThe JCOG2402 trial addresses an unmet need in adjuvant therapy of premenopausal HR-positive, HER2-negative breast cancer with intermediate risk and may contribute to the establishment of a new treatment strategy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Premenopausal women",
+        "HR+HER2-",
+        "neoadjuvant endocrine therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 950,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Upfront surgery (Arm A)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in Arm A will undergo breast surgery and adjuvant systemic treatment.",
+          "interventionNames": [
+            "Drug: Adjuvant systemic therapy based on pathological findings"
+          ]
+        },
+        {
+          "label": "Neoadjuvant endocrine therapy (Arm B)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in Arm B will receive neoadjuvant endocrine therapy of aromatase inhibitor and OFS for three months, followed by breast surgery.",
+          "interventionNames": [
+            "Drug: Adjuvant systemic therapy based on pathological findings and ET response"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Adjuvant systemic therapy based on pathological findings and ET response",
+          "description": "If patients with Oncotype DX RS between 16-25 (for pN0 patients) and 0-25 (for pN1 patients) have an ET response (Ki-67 \u226410%), they are treated with endocrine therapy plus OFS without chemotherapy. Patients without an ET response or with high risk (RS \u226726) receive chemotherapy and endocrine therapy with OFS. Patients with RS \u2264 15 (pN0) are treated with tamoxifen.\n\nAdjuvant chemotherapy for pN0 and pN1 is TC and anthracycline-taxane, respectively.\n\nAromatase inhibitor or tamoxifen is co-administered with a LHRH agonist for 5 years. The choice of AI is per investigator discretion. The choice of LHRH agonist and dosing schedule is per investigator's discretion. Endocrine treatment beyond 5 years is at the investigator's discretion.",
+          "armGroupLabels": [
+            "Neoadjuvant endocrine therapy (Arm B)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Adjuvant systemic therapy based on pathological findings",
+          "description": "Patients with Oncotype DX recurrence score (RS) \u226716 (pN0) or pN1 are treated with chemotherapy and endocrine therapy with ovarian function suppression (OFS). Adjuvant chemotherapy for pN0 and pN1 is TC and anthracycline-taxane, respectively. Aromatase inhibitor or tamoxifen co-administered with a LHRH agonist for 5 years. The choice of AI is per investigator discretion. The choice of LHRH agonist and dosing schedule is per investigator's discretion. Endocrine treatment beyond 5 years is at the investigator's discretion.\n\nPatients with RS \u2264 15 are treated with tamoxifen.",
+          "armGroupLabels": [
+            "Upfront surgery (Arm A)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Event free survival",
+          "description": "Time from randomization to the first diagnosis of local invasive recurrence, regional recurrence, distant recurrence, contralateral invasive breast cancer, inoperable progressive disease during neoadjuvant endocrine therapy, second primary invasive non-breast cancer (excluding non-melanoma skin cancer and in situ cervical cancer), or death from any cause",
+          "timeFrame": "Up to 12 years (5 years of accrual and 7 years of follow-up)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival",
+          "description": "Time from randomization to death from any cause",
+          "timeFrame": "Up to 12 years (5 years of accrual and 7 years of follow-up)"
+        },
+        {
+          "measure": "Relapse-free survival",
+          "description": "Time from randomization to the first diagnosis of relapse or death from any cause",
+          "timeFrame": "Up to 12 years (5 years of accrual and 7 years of follow-up)"
+        },
+        {
+          "measure": "Distant recurrence-free survival",
+          "description": "Time from randomization to the first diagnosis of distant recurrence of breast cancer or death from any cause",
+          "timeFrame": "Up to 12 years (5 years of accrual and 7 years of follow-up)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women aged 18 years or older\n2. ECOG PS 0-1\n3. HR-positive/HER2-negative breast cancer\n4. ER expression \u2265 10%\n5. cN0; HG 1: 3 cm\\<T\u22645 cm, HG 2: 2 cm\\<T\u22645 cm or HG3: 1 cm\\<T\u22645 cm cN1; cT\\<5 cm and HG 1/HG 2\n6. Premenopausal women with spontaneous menses within 12 months\n7. No distant metastasis of breast cancer\n8. No prior diagnosis of breast cancer.\n9. No multiple regions of breast cancer\n10. No contralateral breat cancer\n11. Adequate organ function\n\nExclusion Criteria:\n\n1. Presence of active double cancer (synchronous malignancy requiring treatment).\n2. Ongoing infectious disease requiring systemic therapy. Fever \u226538.0\u00b0C at the time of registration.\n3. Women who are pregnant, possibly pregnant, within 28 days postpartum, or breastfeeding; men whose partners intend to become pregnant.\n4. Psychiatric illness or symptoms that interfere with daily living and may compromise trial participation.\n5. Ongoing systemic administration (oral or IV) of steroids equivalent to \u226510 mg/day of prednisolone or other immunosuppressive agents.\n6. Unstable angina (developed or worsened within the past 3 weeks) or myocardial infarction within the past 6 months.\n7. Uncontrolled hypertension.\n8. Uncontrolled diabetes mellitus despite continuous insulin or oral antidiabetic therapy.\n9. Positive for HBs antigen or HCV antibodies (Patients positive for HCV antibodies are not excluded if HCV-RNA is undetectable.)\n10. Positive for HIV antibodies (HIV testing is not mandatory.)\n11. Presence of interstitial pneumonia, pulmonary fibrosis, or severe emphysema as diagnosed by chest CT.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Makiko Ono, MD",
+          "role": "CONTACT",
+          "phone": "+81333538111",
+          "email": "makikono@gmail.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Akita University Hospita",
+          "status": "RECRUITING",
+          "city": "Akita",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 39.71667,
+            "lon": 140.11667
+          }
+        },
+        {
+          "facility": "Chiba Cancer Center",
+          "status": "RECRUITING",
+          "city": "Chiba",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6,
+            "lon": 140.11667
+          }
+        },
+        {
+          "facility": "National Hospital Organization Kyushu Cancer Center",
+          "status": "RECRUITING",
+          "city": "Fukuoka",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.6,
+            "lon": 130.41667
+          }
+        },
+        {
+          "facility": "Fukushima Medical University Hospital",
+          "status": "RECRUITING",
+          "city": "Fukushima",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 37.75,
+            "lon": 140.46667
+          }
+        },
+        {
+          "facility": "National Hospital Organization Fukuyama Medical Center",
+          "status": "RECRUITING",
+          "city": "Fukuyama",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.48333,
+            "lon": 133.36667
+          }
+        },
+        {
+          "facility": "Hamamatsu University School of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hamamatsu",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.7,
+            "lon": 137.73333
+          }
+        },
+        {
+          "facility": "Kansai Medical University Hospital",
+          "status": "RECRUITING",
+          "city": "Hirakata",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.81352,
+            "lon": 135.64914
+          }
+        },
+        {
+          "facility": "Hiroshima City North Medical Center Asa Citizens Hospital",
+          "status": "RECRUITING",
+          "city": "Hiroshima",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.4,
+            "lon": 132.45
+          }
+        },
+        {
+          "facility": "Hiroshima University Hospital",
+          "status": "RECRUITING",
+          "city": "Hiroshima",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.4,
+            "lon": 132.45
+          }
+        },
+        {
+          "facility": "Ibaraki Prefectural Central Hospital",
+          "status": "RECRUITING",
+          "city": "Ibaraki",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.81641,
+            "lon": 135.56828
+          }
+        },
+        {
+          "facility": "Tokai University Hospital",
+          "status": "RECRUITING",
+          "city": "Isehara",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.39932,
+            "lon": 139.31019
+          }
+        },
+        {
+          "facility": "Social medical corporation Hakuaikai Sagara Hospital",
+          "status": "RECRUITING",
+          "city": "Kagoshima",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 31.56667,
+            "lon": 130.55
+          }
+        },
+        {
+          "facility": "National Cancer Center Hospital East",
+          "status": "RECRUITING",
+          "city": "Kashiwa",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.86224,
+            "lon": 139.97732
+          }
+        },
+        {
+          "facility": "Saitama Medical Center",
+          "status": "RECRUITING",
+          "city": "Kawagoe",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.90861,
+            "lon": 139.48528
+          }
+        },
+        {
+          "facility": "Kitakyushu Municipal Medical Center",
+          "status": "RECRUITING",
+          "city": "Kitakyushu",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.85181,
+            "lon": 130.85034
+          }
+        },
+        {
+          "facility": "National Hospital Organization Kure Medical Center",
+          "status": "RECRUITING",
+          "city": "Kure",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.23222,
+            "lon": 132.56658
+          }
+        },
+        {
+          "facility": "Gunma University Hospital",
+          "status": "RECRUITING",
+          "city": "Maebashi",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 36.4,
+            "lon": 139.08333
+          }
+        },
+        {
+          "facility": "National Hospital Organization Shikoku Cancer Center",
+          "status": "RECRUITING",
+          "city": "Matsuyama",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.83916,
+            "lon": 132.76574
+          }
+        },
+        {
+          "facility": "Aichi Cancer Center",
+          "status": "RECRUITING",
+          "city": "Nagoya",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.18147,
+            "lon": 136.90641
+          }
+        },
+        {
+          "facility": "Nagoya City University",
+          "status": "RECRUITING",
+          "city": "Nagoya",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.18147,
+            "lon": 136.90641
+          }
+        },
+        {
+          "facility": "Nagoya University Hospital",
+          "status": "RECRUITING",
+          "city": "Nagoya",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.18147,
+            "lon": 136.90641
+          }
+        },
+        {
+          "facility": "NHO Nagoya Medical Center",
+          "status": "RECRUITING",
+          "city": "Nagoya",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.18147,
+            "lon": 136.90641
+          }
+        },
+        {
+          "facility": "Niigata Cancer Center Hospital",
+          "status": "RECRUITING",
+          "city": "Niigata",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 37.92259,
+            "lon": 139.04125
+          }
+        },
+        {
+          "facility": "National Hospital Organization Osaka National Hospital",
+          "status": "RECRUITING",
+          "city": "Osaka",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.69379,
+            "lon": 135.50107
+          }
+        },
+        {
+          "facility": "Osaka International Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Osaka",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.69379,
+            "lon": 135.50107
+          }
+        },
+        {
+          "facility": "National Hospital Organization Nagasaki Medical Center",
+          "status": "RECRUITING",
+          "city": "\u014cmura",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 32.92139,
+            "lon": 129.95389
+          }
+        },
+        {
+          "facility": "Gunma Prefectural Cancer Center",
+          "status": "RECRUITING",
+          "city": "\u014cta-ku",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.56126,
+            "lon": 139.71605
+          }
+        },
+        {
+          "facility": "Kitasato University Hospital",
+          "status": "RECRUITING",
+          "city": "Sagamihara",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.56707,
+            "lon": 139.24167
+          }
+        },
+        {
+          "facility": "Saitama Cancer Center",
+          "status": "RECRUITING",
+          "city": "Saitama",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.90807,
+            "lon": 139.65657
+          }
+        },
+        {
+          "facility": "Kindai University Hospital",
+          "status": "RECRUITING",
+          "city": "Sakai",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.58216,
+            "lon": 135.46653
+          }
+        },
+        {
+          "facility": "Hokkaido Cancer Center",
+          "status": "RECRUITING",
+          "city": "Sapporo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 43.06667,
+            "lon": 141.35
+          }
+        },
+        {
+          "facility": "Tohoku University Hospital",
+          "status": "RECRUITING",
+          "city": "Sendai",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 38.26667,
+            "lon": 140.86667
+          }
+        },
+        {
+          "facility": "Shizuoka Cancer Center",
+          "status": "RECRUITING",
+          "city": "Shizuoka",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.98333,
+            "lon": 138.38333
+          }
+        },
+        {
+          "facility": "Shizuoka General Hospital",
+          "status": "RECRUITING",
+          "city": "Shizuoka",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.98333,
+            "lon": 138.38333
+          }
+        },
+        {
+          "facility": "Institute of Science Tokyo Hospital",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "National Cancer Center Hospital",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "National Center for Global Health and Medicine",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "National Hospital Organization Tokyo Medical Center",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Showa Medical University Hospital",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "St.Luke's International Hospital",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "The Cancer Institute Hospital of Japanese Foundation for Cancer Research",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Tokyo Metropolitan Cancer and Infectious Diseases Center Komagome Hospital",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Tokyo Women's Medical University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Toranomon Hospital",
+          "status": "RECRUITING",
+          "city": "Tokyo",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.6895,
+            "lon": 139.69171
+          }
+        },
+        {
+          "facility": "Mie University Hospital",
+          "status": "RECRUITING",
+          "city": "Tsu",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.73333,
+            "lon": 136.51667
+          }
+        },
+        {
+          "facility": "Tsukuba University Hospital",
+          "status": "RECRUITING",
+          "city": "Tsukuba",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 36.08333,
+            "lon": 140.11667
+          }
+        },
+        {
+          "facility": "Yamaguchi University Hospital",
+          "status": "RECRUITING",
+          "city": "Ube",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 33.94306,
+            "lon": 131.25111
+          }
+        },
+        {
+          "facility": "Yao Municipal Hospital",
+          "status": "RECRUITING",
+          "city": "Yao",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 34.61667,
+            "lon": 135.6
+          }
+        },
+        {
+          "facility": "Kanagawa Cancer Center",
+          "status": "RECRUITING",
+          "city": "Yokohama",
+          "country": "Japan",
+          "geoPoint": {
+            "lat": 35.43333,
+            "lon": 139.65
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

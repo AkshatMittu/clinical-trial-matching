@@ -1,0 +1,3429 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00121992",
+      "orgStudyIdInfo": {
+        "id": "GEICAM 9805"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "TAX.ES1.301",
+          "type": "OTHER",
+          "domain": "RH\u00d4NE-POULENC RORER, S.A. (RPR)"
+        }
+      ],
+      "organization": {
+        "fullName": "Spanish Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Docetaxel, Doxorubicin (A), Cyclophosphamide (C) (TAC) vs 5-Fluorouracil, A, C (5FAC) Breast Cancer Adjuvant Treatment",
+      "officialTitle": "Phase III Randomized Comparing Docetaxel, Doxorubicin and Cyclophosphamide (TAC) vs 5-Fluorouracil, Doxorubicin and Cyclophosphamide (FAC) as Adjuvant Treatment of High Risk Operable Breast Cancer Patients With Negative Axillary Lymph Nodes"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "1999-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-12-02",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-03-06",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-07-18",
+      "studyFirstSubmitQcDate": "2005-07-18",
+      "studyFirstPostDateStruct": {
+        "date": "2005-07-21",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2020-10-13",
+      "resultsFirstSubmitQcDate": "2020-11-10",
+      "resultsFirstPostDateStruct": {
+        "date": "2020-12-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-04-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-04-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Spanish Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sanofi",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, non-blinded randomized phase III trial. Patients will be post-surgically stratified at inclusion first according to the participating institution, then according to menopausal status and will be randomly assigned to receive either:\n\n* TAC: Docetaxel 75 mg/m2 as a 1 hour intravenous (i.v.) infusion on day 1 every 3 weeks (q3w) in combination with doxorubicin 50 mg/m2 as an i.v. bolus and cyclophosphamide 500 mg/m2 as an i.v. bolus on day 1 every 3 weeks.\n* FAC: 5-fluorouracil 500 mg/m2 as an i.v. bolus on day 1 every 3 weeks in combination with doxorubicin 50 mg/m2 as an i.v. bolus and cyclophosphamide 500 mg/m2 as an i.v. bolus on day 1 every 3 weeks.",
+      "detailedDescription": "Primary objective:\n\n* To compare disease-free survival (DFS) after treatment with docetaxel in combination with doxorubicin and cyclophosphamide (TAC) to 5-Fluorouracil in combination with doxorubicin and cyclophosphamide (FAC) as adjuvant treatment of high risk operable breast cancer patients with negative axillary lymph nodes.\n\nSecondary objectives:\n\n* To compare overall survival (OS) between the 2 above mentioned arms.\n* To compare toxicity and quality of life between the 2 above mentioned arms.\n* To evaluate pathologic markers for predicting efficacy (hormonal receptors and human epidermal growth factor receptor 2 (HER2) protein expression)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms"
+      ],
+      "keywords": [
+        "High risk node negative breast cancer",
+        "Disease-Free survival",
+        "Quality of life"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1060,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A: FAC",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv",
+          "interventionNames": [
+            "Drug: 5-fluorouracil",
+            "Drug: Doxorubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "Arm B: TAC",
+          "type": "EXPERIMENTAL",
+          "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv",
+          "interventionNames": [
+            "Drug: Docetaxel",
+            "Drug: Doxorubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "armGroupLabels": [
+            "Arm B: TAC"
+          ],
+          "otherNames": [
+            "Taxotere"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "5-fluorouracil",
+          "armGroupLabels": [
+            "Arm A: FAC"
+          ],
+          "otherNames": [
+            "Adrucil"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Doxorubicin",
+          "armGroupLabels": [
+            "Arm A: FAC",
+            "Arm B: TAC"
+          ],
+          "otherNames": [
+            "adriamycin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "armGroupLabels": [
+            "Arm A: FAC",
+            "Arm B: TAC"
+          ],
+          "otherNames": [
+            "cytoxan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Disease-free Survival (DFS) Events",
+          "description": "DFS is calculated from the date of randomization until the first date of recurrence local, regional or distant, second primary tumor or death.",
+          "timeFrame": "10 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS was determined from the date of randomization until the date of death for any reason.\n\nOS is calculated from the date of randomization up to the first date of death by any cause.",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "The Number of Participants Who Experienced Adverse Events (AE)",
+          "description": "Safety was assessed by standard clinical and laboratory tests (haematology, serum chemistry). AE grade were defined by the NCI CTCAE (National Cancer Institute Common Terminology Criteria for Adverse Events) version 1.0.",
+          "timeFrame": "Through study treatment, and average of 4 months"
+        },
+        {
+          "measure": "Best Score During Study for Global Health Status Scale",
+          "description": "The European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire-Core 30 (EORTC QLQ-C30) was used.\n\nQuestionnaires were self-administered to patients during the 14 days prior to randomisation baseline, at six prospective time points corresponding to chemotherapy cycles, with the time window related to each chemotherapy cycle defined as the period between the day following the first chemotherapy dose of the corresponding cycle and the day of the first dose of the following cycle, and then at 44, 68 and 120 weeks of the study.\n\nThe Global Health Status Scale has been used, which is calculated with questions 29 and 30 from the EORTC QLQ-C30. From this scale, the best score is the highest score observed during study (of all the questionnaires completed by patient). In this scale, scores range from 0 to 100 and a high score represents a high level of functioning or HRQoL.",
+          "timeFrame": "120 weeks"
+        },
+        {
+          "measure": "Number of Disease Free Survival Events in Hormone-receptor Positive and Human Epidermal Growth Factor Receptor 2 (HER2) Positive Status Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally. Disease-Free Survival (DFS) is defined as the interval from the date of randomization to the date of local, regional or metastatic relapse or the date of second primary cancer or death from any cause whichever occurs first.",
+          "timeFrame": "10 year"
+        },
+        {
+          "measure": "Disease Free Survival in Hormonal Receptor Positive and HER2 Negative Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally.\n\nDisease-Free Survival (DFS) is defined as the interval from the date of randomization to the date of local, regional or metastatic relapse or the date of second primary cancer or death from any cause whichever occurs first.",
+          "timeFrame": "10 year"
+        },
+        {
+          "measure": "Disease Free Survival in Hormonal Receptor Negative and HER2 Positive Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally.",
+          "timeFrame": "10 year"
+        },
+        {
+          "measure": "Disease Free Survival in Hormonal Receptor Negative and HER2 Negative Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally. Disease-Free Survival (DFS) is defined as the interval from the date of randomization to the date of local, regional or metastatic relapse or the date of second primary cancer or death from any cause whichever occurs first.",
+          "timeFrame": "10 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent\n* Operable breast cancer patients (T1-T3) with negative axillary lymph nodes (10 axillary nodes dissection) and high risk criteria according to St. Gallen consensus criteria.\n* Histologically proven breast cancer. Interval between surgery and registration is less than 60 days.\n* Definitive surgical treatment must be either mastectomy, or breast conservative surgery. Margins of resected specimen from surgery must be histologically free of invasive adenocarcinoma and ductal carcinoma in-situ (DCIS). Lobular carcinoma in-situ is not considered as positive margin.\n* Patients without proven metastatic disease.\n* Estrogen and progesterone receptors performed on the primary tumour prior to randomization.\n* Age between 18 years and 70 years.\n* Karnofsky performance status index \\> 80 %.\n* Adequate hepatic, renal and heart functions.\n* Adequate hematology levels.\n* Negative pregnancy test\n\nExclusion Criteria:\n\n* Prior systemic anticancer therapy for breast cancer (immunotherapy, hormonotherapy, chemotherapy).\n* Prior anthracycline therapy or taxoids (paclitaxel, docetaxel) for any malignancy.\n* Prior radiation therapy for breast cancer.\n* Bilateral invasive breast cancer.\n* Pregnant, or lactating patients.\n* Patients of childbearing potential must implement adequate non-hormonal contraceptive measures during study treatment .\n* Any T4 or N1-3 or M1 breast cancer.\n* Pre-existing motor or sensory neurotoxicity of a severity grade 2 by NCI criteria.\n* Other serious illness or medical condition\n* Past or current history of neoplasm other than breast carcinoma.\n* Ipsilateral ductal carcinoma in-situ (DCIS) of the breast.\n* Lobular carcinoma in-situ (LCIS) of the breast.\n* Chronic treatment with corticosteroids unless initiated \\> 6 months prior to study entry and at low dose\n* Concurrent treatment with ovarian hormonal replacement therapy. Prior treatment should be stopped before study entry.\n* Definite contraindications for the use of corticosteroids.\n* Concurrent treatment with other experimental drugs.\n* Participation in another clinical trial with any investigational not marketed drug within 30 days prior to study entry.\n* Concurrent treatment with any other anti-cancer therapy.\n* Male patients.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Study Director",
+          "affiliation": "Hospital Universitario San Carlos",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Spanish Breast Cancer Research Group",
+          "city": "San Sebasti\u00e1n de los Reyes",
+          "state": "Madrid",
+          "zip": "28700",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.55555,
+            "lon": -3.62733
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "15930421",
+          "type": "BACKGROUND",
+          "citation": "Martin M, Pienkowski T, Mackey J, Pawlicki M, Guastalla JP, Weaver C, Tomiak E, Al-Tweigeri T, Chap L, Juhos E, Guevin R, Howell A, Fornander T, Hainsworth J, Coleman R, Vinholes J, Modiano M, Pinter T, Tang SC, Colwell B, Prady C, Provencher L, Walde D, Rodriguez-Lescure A, Hugh J, Loret C, Rupin M, Blitz S, Jacobs P, Murawsky M, Riva A, Vogel C; Breast Cancer International Research Group 001 Investigators. Adjuvant docetaxel for node-positive breast cancer. N Engl J Med. 2005 Jun 2;352(22):2302-13. doi: 10.1056/NEJMoa043681."
+        },
+        {
+          "pmid": "21121833",
+          "type": "RESULT",
+          "citation": "Martin M, Segui MA, Anton A, Ruiz A, Ramos M, Adrover E, Aranda I, Rodriguez-Lescure A, Grosse R, Calvo L, Barnadas A, Isla D, Martinez del Prado P, Ruiz Borrego M, Zaluski J, Arcusa A, Munoz M, Lopez Vega JM, Mel JR, Munarriz B, Llorca C, Jara C, Alba E, Florian J, Li J, Lopez Garcia-Asenjo JA, Saez A, Rios MJ, Almenar S, Peiro G, Lluch A; GEICAM 9805 Investigators. Adjuvant docetaxel for high-risk, node-negative breast cancer. N Engl J Med. 2010 Dec 2;363(23):2200-10. doi: 10.1056/NEJMoa0910320."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "home page of the Spanish Breast Cancer Research Group",
+          "url": "http://www.geicam.org"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "For the different subsets (\"Hormone-receptor Positive and HER2 PositiveStatus Subjects\", \"Hormonal Receptor Positive and HER2 Negative Subjects\", etc.), were assessed by central determination, and no all patients had tumor sample available.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Arm A: FAC",
+          "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+        },
+        {
+          "id": "FG001",
+          "title": "Arm B: TAC",
+          "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "521"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "539"
+                }
+              ]
+            },
+            {
+              "type": "Hormone-receptor Positive and HER2 Positive Status Subjects",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "28"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "30"
+                }
+              ]
+            },
+            {
+              "type": "Hormone-receptor Negative and HER2 Positive Status Subjects",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "24"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "22"
+                }
+              ]
+            },
+            {
+              "type": "Hormone-receptor Positive and HER2 Negative Status Subjects",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "209"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "220"
+                }
+              ]
+            },
+            {
+              "type": "Hormone-receptor Negative and HER2 Negative Status Subjects",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "92"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "103"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "519"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "528"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Treatment not received",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "11"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Arm A: FAC",
+          "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+        },
+        {
+          "id": "BG001",
+          "title": "Arm B: TAC",
+          "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "521"
+            },
+            {
+              "groupId": "BG001",
+              "value": "539"
+            },
+            {
+              "groupId": "BG002",
+              "value": "1060"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49",
+                      "lowerLimit": "23",
+                      "upperLimit": "73"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "50",
+                      "lowerLimit": "23",
+                      "upperLimit": "74"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "49",
+                      "lowerLimit": "23",
+                      "upperLimit": "74"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "521"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "539"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1060"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Spain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "475"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "487"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "962"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Germany",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Poland",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tumor size",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "\u22642 cm",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "249"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "285"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "534"
+                    }
+                  ]
+                },
+                {
+                  "title": ">2 to 5 cm",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "258"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "241"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "499"
+                    }
+                  ]
+                },
+                {
+                  "title": ">5 cm",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "26"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tumor grade",
+          "description": "Cancer cells are given a Grade (G) when they are removed from the breast and checked under a microscope. The G is based on how much the cancer cells look like normal cells.\n\nG1 or well differentiated (score 3, 4, or 5): cells are slower-growing, and look more like normal breast tissue.\n\nG2 or moderately differentiated (score 6, 7): cells are growing at a speed of and look like cells somewhere between G1 and 3.\n\nG3 or poorly differentiated (score 8, 9): cells look very different from normal and will probably grow and spread faster.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Grade 1",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "72"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 2",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "230"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "216"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "446"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 3",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "231"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "259"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "490"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Menopausal status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Premenopausal",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "272"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "285"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "557"
+                    }
+                  ]
+                },
+                {
+                  "title": "Postmenopausal",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "249"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "254"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "503"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hormone-receptor status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Positive",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "349"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "344"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "693"
+                    }
+                  ]
+                },
+                {
+                  "title": "Negative",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "170"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "192"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "362"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Surgery",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Breast-conserving surgery: With radiation",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "247"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "287"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "534"
+                    }
+                  ]
+                },
+                {
+                  "title": "Breast-conserving surgery: Without radiation",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "48"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mastectomy: With radiation",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "42"
+                    }
+                  ]
+                },
+                {
+                  "title": "Mastectomy: Without radiation",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "230"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "206"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "436"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Disease-free Survival (DFS) Events",
+          "description": "DFS is calculated from the date of randomization until the first date of recurrence local, regional or distant, second primary tumor or death.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "10 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "521"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "539"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "127"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "112"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival (OS)",
+          "description": "OS was determined from the date of randomization until the date of death for any reason.\n\nOS is calculated from the date of randomization up to the first date of death by any cause.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants with mortality event",
+          "timeFrame": "10 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "521"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "539"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "The Number of Participants Who Experienced Adverse Events (AE)",
+          "description": "Safety was assessed by standard clinical and laboratory tests (haematology, serum chemistry). AE grade were defined by the NCI CTCAE (National Cancer Institute Common Terminology Criteria for Adverse Events) version 1.0.",
+          "populationDescription": "The safety analysis was conducted on all patients who started at least one infusion of the study treatment (Arm A 519, and Arm B 532).",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "Through study treatment, and average of 4 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "519"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "532"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Number patients with One AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "519"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "532"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "One G3-4 or severe treatment-emergent AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "151"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "One serious treatment-emergent AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "119"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "One serious G3-4 treatment-emergent AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "55"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Number of patients discontinued due to AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Number patients death due to AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Best Score During Study for Global Health Status Scale",
+          "description": "The European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire-Core 30 (EORTC QLQ-C30) was used.\n\nQuestionnaires were self-administered to patients during the 14 days prior to randomisation baseline, at six prospective time points corresponding to chemotherapy cycles, with the time window related to each chemotherapy cycle defined as the period between the day following the first chemotherapy dose of the corresponding cycle and the day of the first dose of the following cycle, and then at 44, 68 and 120 weeks of the study.\n\nThe Global Health Status Scale has been used, which is calculated with questions 29 and 30 from the EORTC QLQ-C30. From this scale, the best score is the highest score observed during study (of all the questionnaires completed by patient). In this scale, scores range from 0 to 100 and a high score represents a high level of functioning or HRQoL.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "120 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "519"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "532"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "79.30",
+                      "spread": "17.64"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "77.78",
+                      "spread": "18.87"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Disease Free Survival Events in Hormone-receptor Positive and Human Epidermal Growth Factor Receptor 2 (HER2) Positive Status Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally. Disease-Free Survival (DFS) is defined as the interval from the date of randomization to the date of local, regional or metastatic relapse or the date of second primary cancer or death from any cause whichever occurs first.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "10 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "30"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Disease Free Survival in Hormonal Receptor Positive and HER2 Negative Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally.\n\nDisease-Free Survival (DFS) is defined as the interval from the date of randomization to the date of local, regional or metastatic relapse or the date of second primary cancer or death from any cause whichever occurs first.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "10 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "209"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "220"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "37"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Disease Free Survival in Hormonal Receptor Negative and HER2 Positive Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "10 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "22"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Disease Free Survival in Hormonal Receptor Negative and HER2 Negative Subgroup",
+          "description": "Hormone-receptor status and HER2 receptor status was analysed in Paraffin-embedded tumor samples obtained at the time of surgery, and were processed centrally. Disease-Free Survival (DFS) is defined as the interval from the date of randomization to the date of local, regional or metastatic relapse or the date of second primary cancer or death from any cause whichever occurs first.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "events",
+          "timeFrame": "10 year",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: FAC",
+              "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: TAC",
+              "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "92"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "103"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Deaths were assessed for up to 10 years. Adverse Events were assessed for an average of 4 months",
+      "description": "The safety analysis were conducted on all patients who started at least one infusion of the study treatment.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Arm A: FAC",
+          "description": "FAC (5-fluorouracil, doxorubicin, cyclophosphamide): 5-fluorouracil 500 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\n5-fluorouracil\n\nDoxorubicin\n\nCyclophosphamide",
+          "deathsNumAffected": 57,
+          "deathsNumAtRisk": 519,
+          "seriousNumAffected": 21,
+          "seriousNumAtRisk": 519,
+          "otherNumAffected": 519,
+          "otherNumAtRisk": 519
+        },
+        {
+          "id": "EG001",
+          "title": "Arm B: TAC",
+          "description": "TAC (docetaxel, doxorubicin, cyclophosphamide): Docetaxel 75 mg/m2 iv on day 1, each 3 weeks, in combination with doxorubicin 50 mg/m2 iv and cyclophosphamide 500 mg/m2 iv\n\nDocetaxel\n\nDoxorubicin\n\nCyclophosphamide",
+          "deathsNumAffected": 53,
+          "deathsNumAtRisk": 532,
+          "seriousNumAffected": 119,
+          "seriousNumAtRisk": 532,
+          "otherNumAffected": 532,
+          "otherNumAtRisk": 532
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Anaemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Anal fissure",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Blood bilirubin",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Breast cyst",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Breast infection",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Breast haematoma",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Carotid artery thrombosis",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Cellulitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Bronchopneumonia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Conjunctivitis",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Deep vein thrombosis",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Device related infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Disease progression",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Erysipelas",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Ear infection",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Fever in absence of infection",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 68,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "General physical health deterioration",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Hypersensitivity",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Localised infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Leukopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Menorrhagia",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pancreatitis",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Postoperative wound infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Skin infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Thrombosis",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Tonsillitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Wound infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 508,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 514,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Asthenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC v. 1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 305,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 387,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 387,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 379,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 265,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 292,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 294,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 292,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 70,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 147,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 123,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Amenorrhoea",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 70,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 121,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 80,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 118,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 30,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 108,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Conjunctivitis",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 104,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 108,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Menstruation irregular",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 90,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 103,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Nail disorder",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 77,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 102,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 19,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 101,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Skin disorder",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 51,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 96,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 46,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 90,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 71,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 88,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Decreased appetite",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 69,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 88,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 71,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 85,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Peripheral Sensory Neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 38,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 83,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Hot flush",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 54,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 74,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 50,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 57,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 33,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Weight increased",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 29,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 24,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 27,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 24,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 26,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Affective disorder",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 28,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 25,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Lacrimation increased",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 18,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 24,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 18,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Peripheral motor neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 18,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 17,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Lung disorder",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 17,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Lymphoedema",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Haemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Erythema",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Flatulence",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Photophobia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTC v. 1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Vaginal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Metrorrhagia",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Hyperhidrosis",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Vaginal haemorrhage",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Visual impairment",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Herpes zoster",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pigmentation disorder",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Thrombocytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Anal abscess",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Cardiac failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Varicose vein",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 532
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary embolism",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTC version 1.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 519
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 532
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "LTE60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Scientific Director / Medical Lead / Project Manager",
+        "organization": "Spanish Breast Cancer Research Group",
+        "email": "geicam@geicam.org",
+        "phone": "+34916592870"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

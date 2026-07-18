@@ -1,0 +1,276 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05736367",
+      "orgStudyIdInfo": {
+        "id": "042210"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "Pro2022002366",
+          "type": "OTHER",
+          "domain": "Rutgers, The State University of New Jersey"
+        }
+      ],
+      "organization": {
+        "fullName": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "briefTitle": "Investigating the Metabolic Pathways in Hormone Receptor Positive/HER2 Negative Breast Cancer",
+      "officialTitle": "Pilot Study to Investigate the Metabolic Pathways in Hormone Receptor Positive/HER2 Negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-11-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-02-06",
+      "studyFirstSubmitQcDate": "2023-02-16",
+      "studyFirstPostDateStruct": {
+        "date": "2023-02-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Coral Omene",
+        "investigatorTitle": "Assistant Professor, Medical Oncology, Rutgers Cancer Institute of New Jersey",
+        "investigatorAffiliation": "Rutgers, The State University of New Jersey"
+      },
+      "leadSponsor": {
+        "name": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ludwig Institute for Cancer Research",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To analyze the metabolic activity of Hormone Receptor Positive (HR+)/Her 2 Negative (Her2-) Breast cancer.",
+      "detailedDescription": "Participants will be asked to receive a glucose infusion (U-13C- glucose intravenous) during routine breast cancer surgery at which time, tumor biopsy samples and blood samples will be collected to be used in research experiments to help provide insight into the metabolic activity of the tumor. The length of time on study for each patient will be three - four weeks including two to three hours for glucose infusion and breast cancer biopsy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Hormone Receptor Positive",
+        "Metabolic activity",
+        "Breast Cancer Surgery",
+        "13C isotope glucose",
+        "Metabolomics"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metabolic activity of Hormone Receptor Positive (HR+)/Her 2 Negative (Her2-) Breast cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Administration of U-13C-glucose to participants with early-stage HR+/Her2- breast cancer fitting criteria, will be done intraoperatively at the time of resection, as well as blood sample collection.\n\nThis will allow for in depth evaluation of glycolysis as well as TCA cycle, lipid and amino acid metabolism and comprehensive genomic analyses to complement the metabolic assays that will be done by the Ludwig Institute of Cancer Research. HR+/Her2- breast cancer subtype is chosen for this feasibility pilot study given that metabolic studies have not been done in this subtype of breast cancer and it makes up the majority of breast cancer cases.",
+          "interventionNames": [
+            "Drug: U-13C-glucose"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "U-13C-glucose",
+          "description": "Discover new insights into the glucose, TCA cycle, amino acid, and lipid metabolic dependencies of HR+/Her2- breast cancer, via liquid chromatography-mass spectrometry (LC-MS) and nuclear magnetic resonance (NMR) spectroscopy analysis of in vivo U-13C-glucose-labeled biopsy of tumor and benign adjacent tissue",
+          "armGroupLabels": [
+            "Metabolic activity of Hormone Receptor Positive (HR+)/Her 2 Negative (Her2-) Breast cancer"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Measure glycolysis metabolism dependencies of hormone receptor positive/HER2 negative breast cancer using Liquid chromatography-mass spectrometry (LC-MS)",
+          "description": "To analyze and describe the metabolism of these tumors in vivo uniformly-labeled (U-13C)-glucose-labeled biopsy of tumor and benign adjacent tissue. The participants will receive glucose infusion and their tumor specimens analyzed. Blood collection will allow for in depth evaluation of glycolysis metabolism.\n\nCompounds can range from low molecular mass analytes with m/z values \\< 1000 Da, to very high molecular mass proteins with m/z values \\> 100,000 Da\n\nU-13C-Glucose (study drug)",
+          "timeFrame": "Baseline to four weeks"
+        },
+        {
+          "measure": "Measure glycolysis metabolism dependencies of hormone receptor positive/HER2 negative breast cancer using Nuclear Magnetic Resonance (NMR) spectroscopy in parts per million (ppm).",
+          "description": "To analyze and describe the metabolism of these tumors in vivo uniformly-labeled (U-13C)-glucose-labeled biopsy of tumor and benign adjacent tissue. The participants will receive glucose infusion and their tumor specimens analyzed. Blood collection will allow for in depth evaluation of glycolysis metabolism.\n\nU-13C-Glucose (study drug)",
+          "timeFrame": "Baseline to four weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Measure lipid metabolic dependencies of hormone receptor positive/HER2 negative breast cancer using Liquid chromatography-mass spectrometry (LC-MS)",
+          "description": "To analyze and describe the metabolism of these tumors in vivo uniformly-labeled (U-13C)-glucose-labeled biopsy of tumor and benign adjacent tissue. The participants will receive glucose infusion and their tumor specimens analyzed. Blood collection will allow for in depth evaluation of lipid metabolism.",
+          "timeFrame": "Baseline to four weeks"
+        },
+        {
+          "measure": "Measure lipid metabolic dependencies of hormone receptor positive/HER2 negative breast cancer using Nuclear Magnetic Resonance (NMR) spectroscopy in parts per million (ppm)",
+          "description": "To analyze and describe the metabolism of these tumors in vivo uniformly-labeled (U-13C)-glucose-labeled biopsy of tumor and benign adjacent tissue. The participants will receive glucose infusion and their tumor specimens analyzed. Blood collection will allow for in depth evaluation of lipid metabolism.",
+          "timeFrame": "Baseline to four weeks"
+        },
+        {
+          "measure": "Measure amino acid metabolic dependencies of hormone receptor positive/HER2 negative breast cancer using Liquid chromatography-mass spectrometry (LC-MS).",
+          "description": "To analyze and describe the metabolism of these tumors in vivo uniformly-labeled (U-13C)-glucose-labeled biopsy of tumor and benign adjacent tissue. The participants will receive glucose infusion and their tumor specimens analyzed. Blood collection will allow for in depth evaluation of amino acid metabolism.\n\nCompounds can range from low molecular mass analytes with m/z values \\< 1000 Da, to very high molecular mass proteins with m/z values \\> 100,000 Da",
+          "timeFrame": "Baseline to four weeks"
+        },
+        {
+          "measure": "Measure amino acid metabolic dependencies of hormone receptor positive/HER2 negative breast cancer using Nuclear Magnetic Resonance (NMR) spectroscopy in parts per million (ppm)",
+          "description": "To analyze and describe the metabolism of these tumors in vivo uniformly-labeled (U-13C)-glucose-labeled biopsy of tumor and benign adjacent tissue. The participants will receive glucose infusion and their tumor specimens analyzed. Blood collection will allow for in depth evaluation of amino acid metabolism.",
+          "timeFrame": "Baseline to four weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Have hormone receptor (HR) positive \\[estrogen receptor( ER)+/progesterone receptor (PR)+, ER+/PR- or ER-/PR+)/Her2 negative breast cancer previously diagnosed by biopsy.\n* Have early stage, clinical or anatomic stage I, II or III breast cancer (cT1cN0, cT1cN1, cT2N0, cT2N1, cT3N0)\n* Candidates for intended curative primary resection who have not had neoadjuvant therapy (endocrine/hormonal therapy, chemotherapy with or without immunotherapy).\n* Willing to undergo mandatory intraoperative small excisional and core biopsies (4-6 passes) of tumor and normal tissue for research purposes at the time of proposed surgical resection.\n\nExclusion Criteria:\n\n* Is currently enrolled, or will enroll in, a different clinical study in which investigational therapeutic procedures are performed or investigational therapies are administered while participating in this study.\n* Has triple negative (ER-/PR-/Her2-) or HER2+ breast cancer.\n* Concomitant active malignancy\n* Is of child-bearing potential who has not had a recent negative pregnancy test done outside of this clinical trial (i.e., as part of standard preparation for diagnosis and treatment for her cancer)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Coral Omene, MD, PhD",
+          "role": "CONTACT",
+          "phone": "732-235-3374",
+          "email": "co273@cinj.rutgers.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Coral Omene, MD, PhD",
+          "affiliation": "Cancer Institute of New Jersey Rutgers",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Rutgers Cancer Institute of New Jersey",
+          "status": "RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08903",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD,PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "RWJBarnabas Health",
+          "status": "NOT_YET_RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08903",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD, PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

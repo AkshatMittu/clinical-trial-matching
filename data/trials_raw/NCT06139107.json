@@ -1,0 +1,405 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06139107",
+      "orgStudyIdInfo": {
+        "id": "042311"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "Pro2023001900",
+          "type": "OTHER",
+          "domain": "Rutgers, The State University of New Jersey"
+        }
+      ],
+      "organization": {
+        "fullName": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "briefTitle": "RADIANT: Pre-op Radiation With Abemaciclib and Letrozole",
+      "officialTitle": "RADIANT Study: Pre-op Radiation With Abemaciclib Andletrozole in Early Stage Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "startDateStruct": {
+        "date": "2024-08-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-11-14",
+      "studyFirstSubmitQcDate": "2023-11-14",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-14",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Mridula George, MD",
+        "investigatorTitle": "Assistant Professor of Medicine",
+        "investigatorAffiliation": "Rutgers, The State University of New Jersey"
+      },
+      "leadSponsor": {
+        "name": "Mridula George, MD",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase 1b study investigates the safety and feasibility of combining pre-operative radiation therapy with Cyclin-Dependent Kinase 4 (CDK4/6) inhibitors in participants with hormone receptor positive/HER2 negative (HR+/HER2-) breast cancer. The study aims to assess the benefits of concurrent use of these treatments in a specific participant population, focusing on their safety and tolerability. The hypothesis is that the combination therapy will be well-tolerated, providing valuable insights into its effectiveness for future clinical applications.",
+      "detailedDescription": "In this phase 1b study, researchers will conduct a comprehensive investigation into the concurrent administration of pre-operative radiation therapy and CDK4/6 inhibitors in a carefully selected participant population diagnosed with hormone receptor positive/HER2 negative (HR+/HER2-) breast cancer. The study aims to elucidate the safety and feasibility of this combination therapy. Participants will undergo rigorous evaluation and monitoring to assess the potential synergistic effects and adverse reactions resulting from the simultaneous use of radiation and CDK4/6 inhibitors. Detailed clinical assessments, imaging studies, and laboratory analyses will be performed to monitor treatment response and any associated side effects.\n\nThe study hypothesizes that this combination therapy will be well-tolerated, paving the way for further investigations into its efficacy. By closely examining the outcomes and tolerability of this treatment approach, researchers aim to contribute valuable data to the understanding of novel therapeutic strategies for HR+/HER2- breast cancer. The detailed analysis of participant responses and safety profiles in this study will provide crucial insights for optimizing future clinical interventions and improving outcomes for individuals diagnosed with this specific breast cancer subtype."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Pre-op radiation",
+        "CDK4/6 inhibitors",
+        "Positive/HER2 negative (HR+/HER2-) breast cancer",
+        "Abemaciclib",
+        "Combination of abemaciclib and radiation",
+        "Post-menopausal women",
+        "Node-negative hormone-receptor (HR) positive/ human epidermal growth factor receptor 2 (HER2)",
+        "Negative breast cancers",
+        "Phase 1b",
+        "Letrozole and abemaciclib"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Combined Pre-Operative Therapy with Abemaciclib, Letrozole, and Radiation in HR+/HER2- Breast Cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Part A:\n\n* 28-day treatment cycle based on abemaciclib\n* Abemaciclib 150mg BID (twice a day).\n* Letrozole 2.5mg daily and Abemaciclib 150mg twice a day for three cycles prior to undergoing radiation therapy.\n* On-treatment biopsy conducted between cycle 3, day 16, and cycle 4, day 1.\n* This occurs two weeks prior to transitioning to Part B.\n\nDose Level 0 150mg Twice daily with at least 6 hours between doses Dose Level 1 100mg Twice daily with at least 6 hours between doses Dose Level 2 50mg Twice daily with at least 6 hours between doses\n\nPart B:\n\n* Continue treatment from Part A, 28-day cycle based on abemaciclib.\n* Abemaciclib 150mg BID (twice a day) with letrozole 2.5mg daily.\n* Part B focuses on the administration of radiation therapy following the three cycles of combined abemaciclib and letrozole.\n* Targeted radiation treatment.\n\nPart C:\n\n* Two cycles of abemaciclib, 150mg twice a day.\n* Letrozole 2.5mg daily.\n\nPart D:\n\nSurgery",
+          "interventionNames": [
+            "Drug: Abemaciclib",
+            "Drug: Letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Abemaciclib",
+          "description": "150mg twice a day for 3 cycles prior to radiation.",
+          "armGroupLabels": [
+            "Combined Pre-Operative Therapy with Abemaciclib, Letrozole, and Radiation in HR+/HER2- Breast Cancer"
+          ],
+          "otherNames": [
+            "CDK4/6 Inhibitor Therapy."
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Letrozole 2.5mg daily",
+          "armGroupLabels": [
+            "Combined Pre-Operative Therapy with Abemaciclib, Letrozole, and Radiation in HR+/HER2- Breast Cancer"
+          ],
+          "otherNames": [
+            "Aromatase Inhibitor Therapy."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability of the combination of abemaciclib and radiation as assessed by adverse events (AEs). Using Common Terminology Criteria for Adverse Events (CTCAE v5.0)",
+          "description": "The outcome measure aims to characterize the safety and toxicity profile of the study treatment by assessing the occurrence and severity of adverse events (AEs) as measured using the CTCAE v.5. The CTCAE v.5 utilizes a standardized grading scale to assess the severity of adverse events. The scale consists of grades ranging from 1 to 5, with each grade corresponding to a specific level of severity. The grades are:\n\nGrade 1 Mild Event is asymptomatic or mild, requiring minimal or no medical intervention.\n\nGrade 2 Moderate Event minimal to moderate interference with daily activities, and some medical intervention.\n\nGrade 3 Severe Event causes significant interference with daily activities, and medical intervention or treatment is required.\n\nGrade 4 Life-threatening or disabling Event poses immediate risk to life or function, requiring urgent medical intervention or treatment.\n\nGrade 5 Death Event results in death related to the adverse event.",
+          "timeFrame": "From baseline, every six months, to five years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical efficacy of the study treatment regimen measured by Rates of Residual Cancer Burden (RCB).",
+          "description": "Rate of post-operative complications will be measured by RCB. as defined below:\n\nRCB-0: No residual cancer in the breast RCB-I: Minimal residual cancer (only small clusters or single cells) RCB-II: Moderate residual cancer (larger or more numerous groups of cells) RCB-III: Extensive residual cancer (large nests, sheets, or extensive involvement of breast tissue)\n\nRCB Index Calculation:\n\nThe RCB index is calculated based on these components. Scores to each component (e.g., size, lymph node involvement, Ki67 index, invasive vs. in situ disease) and then determine the overall RCB index score for a participants.\n\nInterpretation:\n\nRCB-0: Pathologic complete response, indicating no visible cancer in the breast after treatment.\n\nRCB-I, RCB-II, RCB-III: Increasing levels of residual cancer burden, with RCB-III representing the highest burden.",
+          "timeFrame": "From baseline, every six months, to five years"
+        },
+        {
+          "measure": "Rate of post-operative complications measured by descriptive statistics",
+          "description": "The utilization of descriptive statistics to present a comprehensive overview of the post-operative complications. This includes the calculation of means, medians, standard deviations, to understanding of the range and severity of complications observed in the participants cohort.",
+          "timeFrame": "From baseline, every six months, to five years"
+        },
+        {
+          "measure": "Rate of breast-conserving surgery measured with with a 95% confidence interval for proportions",
+          "description": "The evaluation of the Rate of Breast-Conserving Surgery, assessed as a proportion with a 95% confidence interval, provides an understanding of the prevalence of breast-conserving procedures within the studied population. This approach employs rigorous statistical analysis to calculate the proportion of participants who underwent breast-conserving surgery, accompanied by a confidence interval that enhances the reliability of the findings.\n\nThe calculated proportion signifies the fraction of participants opting for breast-conserving surgery among the total number of individuals included in the study. This proportion serves as a crucial metric, indicating the preference and acceptance of less invasive surgical methods among participants diagnosed with breast cancer. The confidence interval serves as a measure of the precision and reliability of the calculated proportion.",
+          "timeFrame": "From baseline, every six months, to five years"
+        },
+        {
+          "measure": "Rates of residual cancer burden (RCB) as a proportion with 95% confidence interval",
+          "description": "The analysis of Rates of Residual Cancer Burden as a proportion, accompanied by a 95% confidence interval, offers a precise and reliable understanding of the residual cancer burden within the studied population. This approach involves calculating the proportion of participants with different levels of residual cancer burden (such as RCB-0, RCB-I, RCB-II, RCB-III) among the total number of participants evaluated. The 95% confidence interval provides a range in which the true proportion of participants with each level of residual cancer burden is likely to fall, enhancing the statistical precision and reliability of the findings.",
+          "timeFrame": "From baseline, every six months, to five years"
+        },
+        {
+          "measure": "Two year invasive disease-free survival (DFS) rate",
+          "description": "DFS rate is calculated by dividing the number of participants who have not experienced disease recurrence or progression within a specified timeframe by the total number of participants enrolled in the clinical trial.\n\nDFS Rate (%) = (Number of participants with no disease recurrence or progression / Total number of participants enrolled) \u00d7 100 A higher DFS rate indicates a greater efficacy of liposomal doxorubicin and carboplatin as an adjuvant treatment, suggesting their ability to delay or prevent disease recurrence or progression in participants. A higher DFS rate implies a better prognosis and improved disease control in the adjuvant setting.\n\nKaplan-Meier survival curve will be calculated and the rate and 95% confidence interval for disease-free survival calculated.",
+          "timeFrame": "From baseline, every six months, to five years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Changes to DNA repair mechanism measured by Harvard/NSABP/Radiation Therapy Oncology Group (RTOG) breast Cosmesis scale",
+          "description": "Harvard/NSABP/RTOG breast Cosmesis scale:\n\n1. Excellent - There is minimal or no difference in the size or shape of the treated breast. The breast feels the same or slightly different. There may be thickening, scar tissue, or fluid accumulation within the breast.\n2. Good - Slight difference in the size or the shape of the treated breast as compared to the opposite breast or the original appearance of the treated breast. The thickening or scaring tissue within the breast causes only a mild change in the shape or size.\n3. Fair - Obvious difference in the size and shape of the treated breast. Involves one-quarter or less of the breast. There can be moderate thickening or scar tissue of the skin and the breast, may be obvious color change.\n4. Poor - Change in the appearance of the treated breast involving more than one-quarter of the breast tissue. Skin changes may be obvious and detract from the appearance of the breast. Sever scaring and thickening of the breast.",
+          "timeFrame": "From baseline, every six months, to five years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically and/or cytologically confirmed diagnosis of invasive (ductal, lobular or mixed histology), Clinically inapparent tumor that is not palpable. (cT1-T2N0)disease. Minimum tumor size of 1.5 cm\n* Expression of ER or progesterone receptors (PR)and negative expression of HER2 per American Society of Clinical Oncology, (ASCO) Common Alerting Protocol (CAP) guidelines\n* Oncotype diagnosis (DX) Breast Recurrence score of less than 25 on core biopsy specimen\n* Post-menopausal status defined:\n* age \\<60 with amenorrhea for at least 12 months in the absence of prior chemotherapy, tamoxifen, toremifene, or ovarian suppression and estradiol and FSH (follicle stimulating hormone) in postmenopausal range.\n* No clinical suspicion of metastasis disease\n* Eastern Cooperative Oncology Group (ECOG) performance status of follicle stimulating hormone (PFS) \u22642\n* Eligible to undergo surgery, either lumpectomy or mastectomy for local treatment of the breast cancer\n* Able to swallow oral medications\n* Adequate organ function for all of the following:\n\nAbsolute Neutrophil (ANC) \\>1.5 x 10/L Platelets \\>100 x 10/L Hemoglobin \\>8 g/dL - May receive erythrocyte transfusions to achieve this level Total Bilirubin \\<1.5 x Upper Limit of Normal (ULN) Alanine Aminotransferase (ATL) and Aspartate Aminotransferase (AST) \\<3 x ULN\n\n* HR positive/HER2 -negative breast cancers are allowed as long as no other exclusions exist\n\nExclusion Criteria:\n\n* History of ipsilateral breast cancer\n* Prior treatment with CDK4/6 inhibitors or aromatase inhibitors\n* History of chest wall or ipsilateral breast radiation\n* Inflammatory breast cancer\n* Needs neoadjuvant chemotherapy\n* Presence of distant metastatic disease\n* Contraindication for surgery\n* Uncontrolled hypertension (systolic blood pressure \\>190 mm Hg or diastolic blood pressure \\>100 mm Hg)\n* Any condition including the presence of laboratory abnormalities, which, in the opinion of the investigator places the subject at unacceptable risk if he/she were to participate in the study\n* Life expectancy \\< 12 weeks\n* History of allergy or hypersensitivity to any of the study drugs\n* Any significant medical condition, laboratory abnormality, or psychiatric illness\n* Serious and/or uncontrolled preexisting medical condition\n* Has had major surgery within 14 days prior to enrollment\n* Has received an experimental treatment in a clinical trial within the last 30 days or 5 half-lives, whichever is longer, prior to enrollment, or is currently enrolled in any other type of medical research\n* Has active systemic bacterial infection\n* Personal history of any of the following conditions: syncope of cardiovascular etiology, ventricular arrhythmia of pathological origin (including, but not limited to, ventricular tachycardia and ventricular fibrillation), or sudden cardiac arrest",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Female",
+      "minimumAge": "60 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Mridula A George, MD",
+          "role": "CONTACT",
+          "phone": "732-235-9081",
+          "email": "mridula@cinj.rutgers.edu"
+        },
+        {
+          "name": "Mridula A George, MD",
+          "role": "CONTACT",
+          "phone": "Mridula",
+          "email": "mridula@cinj.rutgers.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Mridula A George, MD",
+          "affiliation": "Cancer Institute of New Jersey Rutgers",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "RWJBarnabas Health Clara Maas Medical Center",
+          "status": "RECRUITING",
+          "city": "Belleville",
+          "state": "New Jersey",
+          "zip": "07109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mridula George, MD",
+              "role": "CONTACT",
+              "phone": "732-235-9809",
+              "email": "mridula@cinj.rutgers.edu"
+            },
+            {
+              "name": "Kassie DiOrio",
+              "role": "CONTACT",
+              "phone": "732-454-9795",
+              "email": "kassie.diorio@rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.79371,
+            "lon": -74.15014
+          }
+        },
+        {
+          "facility": "Cooperman Barnabas Medical Center",
+          "status": "RECRUITING",
+          "city": "Livingston",
+          "state": "New Jersey",
+          "zip": "07039",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mridula George, MD",
+              "role": "CONTACT",
+              "phone": "7322358909",
+              "email": "mridula@cinj.rutgers.edu"
+            },
+            {
+              "name": "Kassie DiOrio",
+              "role": "CONTACT",
+              "phone": "7324549795",
+              "email": "kassie.diorio@rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.79593,
+            "lon": -74.31487
+          }
+        },
+        {
+          "facility": "Rutgers Cancer Institute of New Jersey",
+          "status": "RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08903",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mridula George, MD",
+              "role": "CONTACT",
+              "phone": "7322358909",
+              "email": "mridula@cinj.rutgers.edu"
+            },
+            {
+              "name": "Kassie DiOrio",
+              "role": "CONTACT",
+              "phone": "7324549795",
+              "email": "kassie.diorio@rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "RWJBarnabas Health - Robert Wood Johnson University Hospital Somerset",
+          "status": "RECRUITING",
+          "city": "Somerville",
+          "state": "New Jersey",
+          "zip": "08873",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mridula George, MD",
+              "role": "CONTACT",
+              "phone": "732-235-8909",
+              "email": "mridula@cinj.rutgers.edu"
+            },
+            {
+              "name": "Kassie DiOrio",
+              "role": "CONTACT",
+              "phone": "7324549795",
+              "email": "kassie.diorio@rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.57427,
+            "lon": -74.60988
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

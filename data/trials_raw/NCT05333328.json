@@ -1,0 +1,276 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05333328",
+      "orgStudyIdInfo": {
+        "id": "2021-1151-002"
+      },
+      "organization": {
+        "fullName": "Gangnam Severance Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "OFS in Premenopausal Node+ Breast Cancer With Low Genomic Risk",
+      "officialTitle": "Endocrine Therapies With Ovarian Function Suppression in Premenopausal Node+ Early Breast Cancer With Low Genomic Risk (INTERSTELLAR Trial, KBCSG-25)",
+      "acronym": "INTERSTELLAR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-02-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-04-11",
+      "studyFirstSubmitQcDate": "2022-04-11",
+      "studyFirstPostDateStruct": {
+        "date": "2022-04-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Sung Gwe Ahn",
+        "investigatorTitle": "Associated Professor",
+        "investigatorAffiliation": "Gangnam Severance Hospital"
+      },
+      "leadSponsor": {
+        "name": "Gangnam Severance Hospital",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Seoul National University",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Among ER+HER2- premenopausal patients with N1 who undergoes primary breast surgery, we will identify the patients with a genomic low risk using the multigene-assay (OncoFREE\u00ae).\n\nIn these, ovarian function suppression with endocrine therapies including either tamoxifen or aromatase-inhibitors will be administered for 5 years.",
+      "detailedDescription": "* Among ER+HER2- premenopausal patients with N1 who undergoes primary breast surgery, we will identify the patients with a genomic low risk using the multigene-assay (OncoFREE\u00ae).\n* In these, ovarian function suppression (OFS) with endocrine therapies including either tamoxifen or aromatase-inhibitors will be administered for 5 years.\n* Either goserelin acetate or leuprorelin Acetate is allowed.\n* These patients are able to choose bilateral salpingo-oophorectomy instead of OFS.\n* Chemotherapy is omitted in these patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Estrogen Receptor Positive Tumor",
+        "HER2-negative Breast Cancer",
+        "Premenopausal Breast Cancer",
+        "Node-positive Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Estrogen Receptor Positive Tumor",
+        "HER2-negative Breast Cancer",
+        "Premenopausal Breast Cancer",
+        "Node-positive Breast Cancer",
+        "Multigene assay",
+        "Ovarian-function suppression"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "De-escalating treatment as ovarian-function suppression with endocrine treatments alone in ER+HER2- premenopausal women with N1",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 418,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "OFS with endocrine",
+          "type": "EXPERIMENTAL",
+          "description": "Among ER+HER2- premenopausal patients with N1 who undergoes primary breast surgery, the patients with a genomic low risk using the multigene-assay (OncoFREE\u00ae) will be included in this arm.",
+          "interventionNames": [
+            "Drug: Ovarian function suppression with endocrine treatments"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ovarian function suppression with endocrine treatments",
+          "description": "* Ovarian function suppression (OFS) with endocrine therapies including either tamoxifen or aromatase-inhibitors will be administered for 5 years.\n* Either goserelin acetate or leuprorelin Acetate is allowed.\n* These patients are able to choose bilateral salpingo-oophorectomy instead of OFS.\n* Chemotherapy is omitted in these patients.",
+          "armGroupLabels": [
+            "OFS with endocrine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Distant recurrence-free survival",
+          "description": "The interval between the date of primary surgery and the date of last censored, or distant recurrence or death of any cause",
+          "timeFrame": "5-years distant recurrence-free survival"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Recurrence-free survival (RFS)",
+          "description": "The interval between the date of primary surgery and the date of last censored, or any type of recurrence or death of any cause",
+          "timeFrame": "5-years RFS"
+        },
+        {
+          "measure": "Invasive disease-free survival (iDFS)",
+          "description": "The interval between the date of primary surgery and the date of last censored, or any type of invasive disease except thyroid cancer or death of any cause",
+          "timeFrame": "5-years iDFS"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ER+HER2- breast cancer\n* Premenopausal and age \\<=50\n* T1 or T2\n* N1 including micrometastasis\n* Genomic Low Risk by OncoFREE test\u00ae (1-20)\n\nExclusion Criteria:\n\n* Postmenopausal women\n* ER-negative breast cancer",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "20 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sung Gwe Ahn, M.D.,Ph.D.",
+          "role": "CONTACT",
+          "phone": "0220193370",
+          "email": "asg2004@yuhs.ac"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Sung Gwe Ahn, M.D.,Ph.D.",
+          "affiliation": "Gangnam Severance Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Gangnam Severance Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "state": "Korea",
+          "zip": "06229",
+          "country": "South Korea",
+          "contacts": [
+            {
+              "name": "Sung Gwe Ahn, MD, PhD",
+              "role": "CONTACT",
+              "phone": "0220193370",
+              "email": "asg2004@yuhs.ac"
+            },
+            {
+              "role": "CONTACT",
+              "email": "asg2004@yuhs.ac"
+            },
+            {
+              "name": "Sung Gwe Ahn, MD.,PH.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Seoul National University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Seoul",
+          "country": "South Korea",
+          "contacts": [
+            {
+              "name": "Hyeoung Gon Moon",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41612658",
+          "type": "DERIVED",
+          "citation": "Ahn SG, Sim SH, Kang T, Kim EK, Lee JE, Moon HG, Ahn JH, Lim W, Youn HJ, Kim HA, Yoon CI, Kim J, Kang B, Park MH, Kang SH, Kim LS, Bae SJ, Kook Y, Lee KH, Lee HB, Han W, Park YH. Prospective Single-Arm Study of Endocrine Therapies With Ovarian Function Suppression in Premenopausal Node-Positive Early Breast Cancer Patients With Low Genomic Risk (INTERSTELLAR Trial, KBCSG-25). J Breast Cancer. 2026 Feb;29(1):81-89. doi: 10.4048/jbc.2025.0181. Epub 2026 Jan 30."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

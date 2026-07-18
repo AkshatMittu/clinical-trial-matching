@@ -1,0 +1,460 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07389408",
+      "orgStudyIdInfo": {
+        "id": "84/18.03.2025"
+      },
+      "organization": {
+        "fullName": "National and Kapodistrian University of Athens",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Prospective, Multicenter Registry to Observe the Treatment Patterns, Clinical Outcomes, and Decision-Making in Patients With Early Breast Cancer Eligible for EndoPredict\u00ae Testing",
+      "officialTitle": "A Prospective, Multicenter Registry to Observe the Treatment Patterns, Clinical Outcomes, and Decision-Making in Patients With Early Breast Cancer Eligible for EndoPredict\u00ae Testing",
+      "acronym": "PRELUDE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-03-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2038-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-15",
+      "studyFirstSubmitQcDate": "2026-01-31",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Michalis Kontos",
+        "investigatorTitle": "Professor in Breast and General Surgery",
+        "investigatorAffiliation": "National and Kapodistrian University of Athens"
+      },
+      "leadSponsor": {
+        "name": "National and Kapodistrian University of Athens",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study is planned to observe and document the therapeutic decision-making process, treatment protocols, and clinical outcomes in patients with luminal breast cancer, whether they have undergone EndoPredict\u00ae testing or not",
+      "detailedDescription": "PRELUDE is a prospective, multicenter, non-interventional registry designed to describe real-world treatment decision-making, treatment patterns, and long-term clinical outcomes in patients with luminal (ER-positive/HER2-negative) early breast cancer who are eligible for EndoPredict\u00ae testing, including patients who do and do not undergo the test.\n\nThe registry will be conducted at approximately 10-20 sites across Greece (with the option to add sites outside Greece if needed) and aims to enroll up to 2,000 eligible participants within 3 years. Participants may be enrolled after surgical histopathology results are available and before commencement of adjuvant endocrine treatment, and will be followed prospectively once per year for up to 10 years after surgery.\n\nThe study aims to assess 5- and 10-year clinical outcomes and to evaluate these outcomes according to EndoPredict\u00ae (EP/EPclin) risk groups or scores among patients who undergo testing, in a real-world setting. The registry will also examine which patient and disease characteristics (e.g., age, menopausal status, nodal status, histopathology, EPclin score) will influence adjuvant treatment decisions, in the context of evolving therapeutic standards and recently introduced adjuvant options."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Breast Adenocarcinoma"
+      ],
+      "keywords": [
+        "breast cancer",
+        "luminal subtype",
+        "EndoPredict",
+        "genetic signature",
+        "survival"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "10 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 2000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Non-metastatic breast cancer N0-N1 patients eligible for EndoPredict testing",
+          "description": "Subjects diagnosed with non-metastatic invasive breast cancer, pT1-pT3, with 0 to 3 positive axillary lymph nodes, ER-positive, HER2-negative, that have not received neo-adjuvant chemotherapy and therefore are eligible for EndoPredict\u00ae testing. No intervention is planned, as this is an observational study and treatment of patients will not be changed due to their participation in the study."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Distant relapse free survival (DRFS)",
+          "description": "To collect and evaluate distant relapse-free survival (DRFS) at 5 and 10 years in patients with luminal breast cancer, with analyses stratified by EPclin risk group among participants who undergo EndoPredict\u00ae testing.",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "To collect and evaluate overall survival (OS) at 5 and 10 years in patients with luminal breast cancer, with analyses stratified by EPclin risk group among participants who undergo EndoPredict\u00ae testing.",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "Distant relapse free interval (DRFI)",
+          "description": "To collect and evaluate distant relapse free interval (DRFI) at 5 and 10 years in patients with luminal breast cancer, with analyses stratified by EPclin risk group among participants who undergo EndoPredict\u00ae testing.",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "Proportion of adjuvant chemotherapy administration and association with baseline clinicopathologic characteristics and EPclin score",
+          "description": "Proportion of participants who received adjuvant chemotherapy (yes/no) and its association with baseline clinicopathologic characteristics (age, menopausal status, nodal status, T stage, N stage, histologic grade) and EPclin score.",
+          "timeFrame": "Up to 2 months post-operatively"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Local relapse free survival (LRFS)",
+          "description": "To collect and evaluate local relapse free survival (LRFS) at 5 and 10 years in patients with luminal breast cancer, with analyses stratified by EPclin risk group among participants who undergo EndoPredict\u00ae testing.",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "Performance of EndoPredict (assessed with DRFS) in specific population subgroups [multifocal-multicentric disease (MFMC), node-positive, pre-menopausal women]",
+          "description": "Performance of EndoPredict in specific population subgroups \\[multifocal-multicentric disease (MFMC), node-positive patients, pre-menopausal women\\], assessed with distant recurrence free survival (DRFS).",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "Performance of EndoPredict (assessed with DRFI) in specific population subgroups [multifocal-multicentric disease (MFMC), node-positive, pre-menopausal women]",
+          "description": "Performance of EndoPredict in specific population subgroups \\[multifocal-multicentric disease (MFMC), node-positive patients, pre-menopausal women\\], assessed with distant recurrence free interval (DRFI).",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "OS in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "description": "OS in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "DRFS in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "description": "DRFS in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "DRFI in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "description": "DRFI in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "timeFrame": "5- and 10-years"
+        },
+        {
+          "measure": "LRFS in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "description": "LRFS in specific sub-groups (MFMC, node-positive, pre-menopausal women)",
+          "timeFrame": "5- and 10-years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 years old.\n* Histological diagnosis of invasive breast cancer.\n* T1-T3 tumor size.\n* 0-3 positive axillary lymph nodes.\n* Documented ER-positive tumor by immunohistochemistry (\u22651% or Allred Score: \u22653/8 or H-score: \u226550/ 300)\n* Documented HER2-negative tumor by immunohistochemistry and/or in situ hybridization\n* Subject with signed and dated informed consent form.\n\nExclusion Criteria:\n\n* History of another primary malignancy within the last 5 years, except for resected non-melanoma skin cancer.\n* Pre-operative chemotherapy administered.\n* Subject without signed and dated informed consent form.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "All subjects diagnosed with invasive breast cancer, pT1-pT3, with 0 to 3 positive axillary lymph nodes, ER-positive, HER2-negative, that have not received neo-adjuvant chemotherapy and therefore are eligible for EndoPredict\u00ae testing.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Michalis Kontos",
+          "role": "CONTACT",
+          "phone": "+30 2132060800",
+          "email": "michalis_kontos@yahoo.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "\"Elena Venizelou\" General Hospital, Department of Surgery",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Georgios Metaxas",
+              "role": "CONTACT",
+              "phone": "+30 2132051000",
+              "email": "geometa@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "\"Prolipsis\" Center, Breast Unit",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Petros Charalampoudis",
+              "role": "CONTACT",
+              "phone": "+30 2107483110",
+              "email": "petros.charalampoudis@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Henry Dunant Hospital Center, 3rd Breast Surgical Department",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Ioannis Flessas",
+              "role": "CONTACT",
+              "phone": "+30 2106972187",
+              "email": "iflessas@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Laiko Hospital, National and Kapodistrian University of Athens, Medical School",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Michalis Kontos",
+              "role": "CONTACT",
+              "phone": "+30 2132060800",
+              "email": "michalis_kontos@yahoo.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Mediterraneo Hospital, Breast Clinic",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Vasileios Kalles",
+              "role": "CONTACT",
+              "phone": "+30 2109117000",
+              "email": "vassilis_kalles@yahoo.gr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Metropolitan General Hospital, 3rd Breast Clinic",
+          "status": "RECRUITING",
+          "city": "Cholarg\u00f3s",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Dimitrios Koronarchis",
+              "role": "CONTACT",
+              "phone": "+30 2106502607",
+              "email": "dikoron@yahoo.gr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.0,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Metropolitan General Hospital, 4th Breast Clinic",
+          "status": "RECRUITING",
+          "city": "Cholarg\u00f3s",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Stergios Douvetzemis",
+              "role": "CONTACT",
+              "phone": "+30 2106502885",
+              "email": "stergiosdouvetzemis@yahoo.gr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.0,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "\"Apollonio-Theotokos\" General Clinic, Department of Surgery",
+          "status": "RECRUITING",
+          "city": "Larissa",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Apostolos Zavos",
+              "role": "CONTACT",
+              "phone": "+30 2410282006",
+              "email": "zavosa@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "IASO Thessalias General Clinic, Breast Surgery Department",
+          "status": "RECRUITING",
+          "city": "Larissa",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Georgios Boutsikos",
+              "role": "CONTACT",
+              "phone": "+30 2410996000",
+              "email": "george.boutsikos@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "IASO General Clinic, 2nd Breast Clinic",
+          "status": "RECRUITING",
+          "city": "Marousi",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Grigorios Xepapadakis",
+              "role": "CONTACT",
+              "phone": "+30 2106383721",
+              "email": "gxepapadakis@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.05,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "MITERA, 1st Breast Clinic",
+          "status": "RECRUITING",
+          "city": "Marousi",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Christina Tsionou",
+              "role": "CONTACT",
+              "phone": "+30 2106869934",
+              "email": "chtsionou@mitera.gr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.05,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Thessaloniki Bioclinic Hospital, Breast Unit",
+          "status": "RECRUITING",
+          "city": "Thessaloniki",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Stavros Chatzopoulos",
+              "role": "CONTACT",
+              "phone": "+30 2310372600",
+              "email": "stavroschatzopoulos@yahoo.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "General Hospital of Trikala, Breast Surfery Dept.",
+          "status": "RECRUITING",
+          "city": "Trikala",
+          "country": "Greece",
+          "contacts": [
+            {
+              "name": "Maria Kanara",
+              "role": "CONTACT",
+              "phone": "+30 2431350466",
+              "email": "makanara1@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.55493,
+            "lon": 21.76837
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

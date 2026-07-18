@@ -1,0 +1,186 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05878314",
+      "orgStudyIdInfo": {
+        "id": "BZ_PEAK"
+      },
+      "organization": {
+        "fullName": "University Hospital Tuebingen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Impact of Endocrine Therapy, Menstrual Cycle, PAM50, Ki67 on Treatment Decisions in HR+ and HER2- Breast Cancer",
+      "officialTitle": "Impact of Preoperative Endocrine Therapy, Menstrual Cycle, PAM50 Assessment and Ki67 Dynamics on Adjuvant Treatment Decisions in Hormone Receptor-positive and HER2-negative Patients With Early Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-04-25",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-04",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2035-04",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-05-04",
+      "studyFirstSubmitQcDate": "2023-05-17",
+      "studyFirstPostDateStruct": {
+        "date": "2023-05-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital Tuebingen",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University Hospital Ulm",
+          "class": "OTHER"
+        },
+        {
+          "name": "University Hospital Freiburg",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "PEAK is a prospective, multicenter, non-interventional investigator-initiated trial (IIT) that aims to investigate the influence of the menstrual cycle phase on Ki67 in patients who either receive Tamoxifen, Aromatase inhibitors \u00b1 gonadotropin-releasing hormone (GnRH)-Analogues or nothing or no preoperative endocrine treatment as part of the clinical routine. The investigators moreover address the question whether PAM50 assessment in addition to Ki67 dynamics still impacts treatment recommendations.",
+      "detailedDescription": "Background of the study Chemotherapy and anti-hormonal therapies improve the chances of cure for patients with early-stage hormone receptor (HR)-positive/HER2-negative breast cancer. However, only a few patients benefit from chemotherapy, as classical tumor characteristics such as grading, tumor size, and lymph node involvement in the armpit have a prognostic value but do not allow predictions about the effectiveness of chemotherapy. New treatment concepts, such as gene expression tests and preoperative endocrine therapy, aim to identify patients with a high risk of recurrence and provide them with optimized treatment. Additionally, initial study results indicate that a woman's menstrual cycle could influence the tumor's growth rate. These hints need to be investigated in larger studies to understand how the growth rate of a tumor in different phases of the menstrual cycle can be interpreted.\n\nPurpose of the study The main objective of the PEAK study is to investigate to what extent the menstrual cycle phase influences the tumor growth rate (biomarker Ki67). To make a scientifically sound statement, the growth rate of the tumor in postmenopausal patients must also be examined. In addition, the impact of preoperative anti-hormonal therapy, the dynamics of the growth marker Ki67, and the individual genetic risk (PAM50 gene test) on recommendations for adjuvant therapy in clinical routine should be evaluated. Furthermore, the influence of the aforementioned markers on established clinical-pathological risk factors and the spread of tumor cells should be assessed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Receptor Positive HER-2 Negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "breast biopsy and blood test for sexual hormones (FSH, LH, Estrogen, Progesterone, Anti-Mullerian Hormone)"
+      },
+      "enrollmentInfo": {
+        "count": 504,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A: Tamoxifen",
+          "description": "Patients with early HR+/HER2- Breast cancer receiving Tamoxifen"
+        },
+        {
+          "label": "Group B: Aromatase Inhibitor (+GnRH if premenopausal)",
+          "description": "Patients with early HR+/HER2- Breast cancer receiving Aromatase Inhibitor (+GnRH if premenopausal)"
+        },
+        {
+          "label": "Group C: Control group",
+          "description": "no preoperative endocrine treatment"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Influence of the menstrual cycle on initial Ki67 in premenopausal women",
+          "description": "The number of Ki67 positive cell nuclei will be estimated for the entire core biopsy in a semiquantitative evaluation in steps of 10% by a board certified pathologist as part of the clinical routine workup. Ki67 assessment will be conducted on breast core biopsy (I) and surgical specimen (II).",
+          "timeFrame": "duration of therapy and follow-up data (10 years)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Influence of preoperative anti-hormonal therapy, dynamics of the growth marker Ki67 (evaluation of positive cell nuclei by pathologist), and individual genetic risk (PAM50 gene test) on recommendations for adjuvant therapy.",
+          "description": "1. breast biopsy, menstrual cycle assessment (questionnaire) and blood test for sexual hormones (follicle-stimulating hormone FSH, luteinizing hormone LH, Estrogen, Progesterone, Anti-Mullerian Hormone)\n2. PAM50 assessment from initial core biopsy (prognostic gene signature assay)\n3. determination of initial Ki67 (evaluation of positive cell nuclei by pathologist)\n4. 2 weeks of endocrine treatment or not (depending on group)\n5. preoperative menstrual cycle assessment (questionnaire) and blood test for sexual hormones (FSH, LH, Estrogen, Progesterone) in premenopausal patients\n6. surgery and determination of posttherapeutic Ki67 (evaluation of positive cell nuclei by pathologist)\n7. collection of clinical and pathological data\n8. assessment of therapy recommendation without knowledge of the PAM50 (Questionnaire for the investigator)\n9. assessment of therapy recommendation with knowledge of the PAM50 (Questionnaire for the investigator)",
+          "timeFrame": "duration of therapy and follow-up data (10 years)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* women \u2265 18 years of age\n* histologically proven unilateral primary non-metastatic invasive breast cancer\n* Estrogen receptor (ER)-/ or Progesterone receptor (PR)- positive and HER2-negative\n* Ki67 from core biopsy is available\n* no lymph-node involvement by clinical evaluation and ultrasound (cN0)\n* not amendable to neoadjuvant chemotherapy\n* surgery or planned surgery at the Department for Women's Health, Tuebingen or Freiburg\n* planned preoperative endocrine treatment with Tamoxifen, Aromatase inhibitors, Goserelin or nothing for 2 - 4 weeks\n* written informed consent\n\nExclusion Criteria:\n\n* ER-negative and PR-negative\n* HER2-positive\n* bilateral breast cancer\n* preexisting cancer disease within the last 10 years\n* preexisting invasive ipsi- or contralateral breast cancer (non-invasive ipsi- or contralateral breast cancer is not regarded as an exclusion criteria)\n* any systemic breast cancer therapy before inclusion into the trial\n* indication for neoadjuvant chemotherapy\n* any systemic therapy except Tamoxifen, Aromatase inhibitors, Goserelin before surgery\n* locally advanced, inoperable or metastatic breast cancer\n* pregnant or lactating patients\n* inadequate general condition (not fit for chemotherapy)\n* hormonal contraception within 6 months before inclusion",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "252 premenopausal + 252 postmenopausal patients with early HR+/HER2 neg breast cancer receiving either\n\n* Tamoxifen (group A)\n* Aromatase inhibitor (+ GnRH if premenopausal) (group B)\n* nothing (group C) treatment during a window of opportunity of 2-3 weeks prior to surgery. Treatment will be assessed by investigators' choice and the three groups will be limited to 84 premenopausal/postmenopausal patients in each group)",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Dominik Dannehl, Dr.",
+          "role": "CONTACT",
+          "phone": "07071 29 82211",
+          "email": "Dominik.Dannehl@med.uni-tuebingen.de"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Dominik Dannehl, Dr.",
+          "affiliation": "University Hospital Tuebingen",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Department of Women's Health",
+          "status": "RECRUITING",
+          "city": "T\u00fcbingen",
+          "zip": "72076",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Dominik Dannehl, Dr.",
+              "role": "CONTACT",
+              "phone": "07071 29 82211",
+              "email": "Dominik.Dannehl@med.uni-tuebingen.de"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    }
+  },
+  "hasResults": false
+}

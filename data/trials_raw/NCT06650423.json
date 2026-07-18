@@ -1,0 +1,466 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06650423",
+      "orgStudyIdInfo": {
+        "id": "ORI2024-001"
+      },
+      "organization": {
+        "fullName": "Institute of Oncology Ljubljana",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adherence to Aromatase Inhibitors \u00b1 Abemaciclib Treatment in Patients With Early-stage HER2-negative Breast Cancer",
+      "officialTitle": "ONCO-ADHER: Adherence to Treatment With Aromatase Inhibitors With or Without Abemaciclib in Patients With Early-stage, Endocrine-dependent, HER2-negative Breast Cancer",
+      "acronym": "ONCO-Adher"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-01-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-03-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-03-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-10-16",
+      "studyFirstSubmitQcDate": "2024-10-18",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Institute of Oncology Ljubljana",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "University of Ljubljana",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Around 90% of breast cancer patients are diagnosed at an early stage and approximately 70% are hormone receptor-positive and HER2-negative (HR+/HER2-). Despite advancements in adjuvant endocrine therapy, 20-30% of early-stage breast cancer patients relapse within the first decade post-surgery. A recent clinically meaningful therapeutic option for these patients has been cyclin-dependent kinases 4/6 inhibitors (CDK4/6 inhibitors). Abemaciclib and ribociclib were assessed in the adjuvant setting, both showing improvement in invasive disease-free survival (IDFS). Abemaciclib has been approved by the FDA and EMA for HR+/HER2- early breast cancer at high risk of disease recurrence and is the first addition to the Slovenian treatment regimen in routine clinical practice.\n\nPoor medication adherence can directly affect the effectiveness of treatment for early HR+/HER2- breast cancer. While adherence data in patients treated with aromatase inhibitors are available, the adherence rate in patients with early HR+/HER2- breast cancer taking abemaciclib remains unclear.\n\nIn this study, investigators hypothesize that patients receiving abemaciclib in combination with aromatase inhibitors will have lower medication adherence and higher discontinuation rates compared to those receiving aromatase inhibitors alone. It is expected that patients with better quality of life, better cognitive functioning, and a more positive attitude toward their therapy will demonstrate higher medication adherence rates. Adherence may also be influenced by additional factors, such as age and prior treatments.",
+      "detailedDescription": "Poor medication adherence can directly affect the effectiveness of treatment for early HR+/HER2- breast cancer. While data on medication adherence in patients taking aromatase inhibitors are available, the adherence rate in patients with early HR+/HER2- breast cancer taking abemaciclib remains unclear. Due to the differing characteristics of these treatment modalities, particularly their distinct safety profiles, medication adherence and persistence may vary between them.\n\nIt is hypothesized that patients receiving abemaciclib in combination with aromatase inhibitors will have lower medication adherence and higher discontinuation rates compared to those receiving aromatase inhibitors alone. It is also expected that patients with better quality of life, better cognitive functioning, and a more positive attitude toward their therapy will demonstrate higher medication adherence rates. Additionally, factors such as age and prior treatments may contribute to adherence outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early Breast Cancer",
+        "Hormone Receptor Positive Tumor",
+        "HER2-negative Breast Cancer"
+      ],
+      "keywords": [
+        "breast cancer",
+        "medication adherence",
+        "CDK4/6",
+        "HR+",
+        "HER2-",
+        "aromatase inhibitor",
+        "quality of life",
+        "medication belief"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 319,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Aromatase inhibitor + abemaciclib",
+          "description": "Adult women with early HR+ HER2- breast cancer, eligible for treatment with aromatase inhibitor + abemaciclib, both prescribed prior inclusion into study, irrespective of protocol, as per regular clinical practice"
+        },
+        {
+          "label": "Aromatase inhibitor",
+          "description": "Adult women with early HR+ HER2- breast cancer, eligible for treatment with aromatase inhibitor, prescribed prior inclusion into study, irrespective of protocol, as per regular clinical practice"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Medication adherence (Proportion of Days Covered, PDC) at Month 3",
+          "description": "Medication adherence measured as Proportion of Days Covered (PDC), calculated from pill count data and expressed as percentage (%). Participants with PDC \u226580% will be classified as adherent. Self-reported adherence will additionally be assessed using the Medication Adherence Report Scale (MARS-5; score range 5-25, higher scores indicate better adherence).",
+          "timeFrame": "Month 3 after treatment initiation"
+        },
+        {
+          "measure": "Medication adherence (Proportion of Days Covered, PDC) at Month 6",
+          "description": "Medication adherence measured as Proportion of Days Covered (PDC), calculated from pill count data and expressed as percentage (%). Participants with PDC \u226580% will be classified as adherent. Self-reported adherence will additionally be assessed using the Medication Adherence Report Scale (MARS-5; score range 5-25, higher scores indicate better adherence).",
+          "timeFrame": "Month 6 after treatment initiation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "EORTC QLQ-C30 score at Baseline",
+          "description": "Quality of life assessed using the EORTC QLQ-C30 questionnaire. Scores are transformed to a 0-100 scale (higher scores on functional and global scales indicate better functioning; higher scores on symptom scales indicate greater symptom burden).",
+          "timeFrame": "Baseline visit"
+        },
+        {
+          "measure": "EORTC QLQ-C30 score at Month 3",
+          "description": "Quality of life assessed using the EORTC QLQ-C30 questionnaire. Scores are transformed to a 0-100 scale (higher scores on functional and global scales indicate better functioning; higher scores on symptom scales indicate greater symptom burden).",
+          "timeFrame": "Month 3"
+        },
+        {
+          "measure": "EORTC QLQ-C30 score at Month 6",
+          "description": "Quality of life assessed using the EORTC QLQ-C30 questionnaire. Scores are transformed to a 0-100 scale (higher scores on functional and global scales indicate better functioning; higher scores on symptom scales indicate greater symptom burden).",
+          "timeFrame": "Month 6"
+        },
+        {
+          "measure": "EORTC QLQ-BR23 score at Baseline",
+          "description": "Quality of life assessed using the EORTC QLQ-BR23 questionnaire. Scores are transformed to a 0-100 scale (higher scores on functional scales indicate better functioning; higher scores on symptom scales indicate greater symptom burden).",
+          "timeFrame": "Baseline visit"
+        },
+        {
+          "measure": "EORTC QLQ-BR23 score at Month 3",
+          "description": "Quality of life assessed using the EORTC QLQ-BR23 questionnaire. Scores are transformed to a 0-100 scale (higher scores on functional scales indicate better functioning; higher scores on symptom scales indicate greater symptom burden).",
+          "timeFrame": "Month 3"
+        },
+        {
+          "measure": "EORTC QLQ-BR23 score at Month 6",
+          "description": "Quality of life assessed using the EORTC QLQ-BR23 questionnaire. Scores are transformed to a 0-100 scale (higher scores on functional scales indicate better functioning; higher scores on symptom scales indicate greater symptom burden).",
+          "timeFrame": "Month 6"
+        },
+        {
+          "measure": "Beliefs about Medicines Questionnaire (BMQ) score at Baseline",
+          "description": "Beliefs about medicines assessed using the Beliefs about Medicines Questionnaire (BMQ). Items are rated on a 5-point Likert scale and summed to generate questionnaire scores.",
+          "timeFrame": "Baseline visit"
+        },
+        {
+          "measure": "Beliefs about Medicines Questionnaire (BMQ) score at Month 3",
+          "description": "Beliefs about medicines assessed using the Beliefs about Medicines Questionnaire (BMQ). Items are rated on a 5-point Likert scale and summed to generate questionnaire scores.",
+          "timeFrame": "Month 3"
+        },
+        {
+          "measure": "Beliefs about Medicines Questionnaire (BMQ) score at Month 6",
+          "description": "Beliefs about medicines assessed using the Beliefs about Medicines Questionnaire (BMQ). Items are rated on a 5-point Likert scale and summed to generate questionnaire scores.",
+          "timeFrame": "Month 6"
+        },
+        {
+          "measure": "FACT-Cog score at Baseline",
+          "description": "Cognitive functioning assessed using the Functional Assessment of Cancer Therapy-Cognitive Function (FACT-Cog) questionnaire. Items are rated on a 0-4 scale and summed to generate domain and total scores (higher scores indicate better perceived cognitive functioning).",
+          "timeFrame": "Baseline visit"
+        },
+        {
+          "measure": "FACT-Cog score at Month 3",
+          "description": "Cognitive functioning assessed using the Functional Assessment of Cancer Therapy-Cognitive Function (FACT-Cog) questionnaire. Items are rated on a 0-4 scale and summed to generate domain and total scores (higher scores indicate better perceived cognitive functioning).",
+          "timeFrame": "Month 3"
+        },
+        {
+          "measure": "FACT-Cog score at Month 6",
+          "description": "Cognitive functioning assessed using the Functional Assessment of Cancer Therapy-Cognitive Function (FACT-Cog) questionnaire. Items are rated on a 0-4 scale and summed to generate domain and total scores (higher scores indicate better perceived cognitive functioning).",
+          "timeFrame": "Month 6"
+        },
+        {
+          "measure": "Adverse events during follow-up",
+          "description": "Number of participants experiencing at least one adverse event and total number of adverse events recorded during follow-up. Adverse events will be summarized by severity and seriousness.",
+          "timeFrame": "From treatment initiation through Month 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female,\n* Early HR+/HER-2- BC,\n* Patient is receiving adjuvant therapy with an aromatase inhibitor (letrozole, anastrozole or exemestane), with or without a CDK4/6 inhibitor abemaciclib, for no more than 18 months,\n* Treatment of BC is being conducted at OIL,\n* Patient has mandatory health insurance through Health Insurance Institute of Slovenia,\n* Patient understands Slovenian language, and\n* Patient agrees to participate in the study and provides written informed consent.\n\nExclusion Criteria:\n\n* Metastatic HR+/HER2-negative breast cancer\n* Previous treatment for breast cancer with an aromatase inhibitor, with or without a CDK4/6 inhibitor, for early breast cancer prior to the current adjuvant treatment line",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Adult women, sex at birth female",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Eligible adult women with early HR+ HER2- breast cancer patients.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Erika Matos, PhD",
+          "role": "CONTACT",
+          "phone": "00386 1 5879 715",
+          "email": "ematos@onko-i.si"
+        },
+        {
+          "name": "Cvetka Gra\u0161i\u010d Kuhar, PhD",
+          "role": "CONTACT",
+          "phone": "00386 1 5879 090",
+          "email": "cgrasic@onko-i.si"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Erika Matos, PhD",
+          "affiliation": "Institute of Oncology Ljubljana, Slovenia",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Institute of Oncology Ljubljana",
+          "status": "RECRUITING",
+          "city": "Ljubljana",
+          "zip": "1000",
+          "country": "Slovenia",
+          "contacts": [
+            {
+              "name": "Erika Matos, MD",
+              "role": "CONTACT",
+              "phone": "0038615879715",
+              "email": "ematos@onko-i.si"
+            },
+            {
+              "name": "Cvetka Gra\u0161i\u010d Kuhar",
+              "role": "CONTACT",
+              "phone": "015879090",
+              "email": "cgrasic@onko-i.si"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.05108,
+            "lon": 14.50513
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38572751",
+          "type": "BACKGROUND",
+          "citation": "Bray F, Laversanne M, Sung H, Ferlay J, Siegel RL, Soerjomataram I, Jemal A. Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2024 May-Jun;74(3):229-263. doi: 10.3322/caac.21834. Epub 2024 Apr 4."
+        },
+        {
+          "pmid": "36633525",
+          "type": "BACKGROUND",
+          "citation": "Siegel RL, Miller KD, Wagle NS, Jemal A. Cancer statistics, 2023. CA Cancer J Clin. 2023 Jan;73(1):17-48. doi: 10.3322/caac.21763."
+        },
+        {
+          "pmid": "36190501",
+          "type": "BACKGROUND",
+          "citation": "Giaquinto AN, Sung H, Miller KD, Kramer JL, Newman LA, Minihan A, Jemal A, Siegel RL. Breast Cancer Statistics, 2022. CA Cancer J Clin. 2022 Nov;72(6):524-541. doi: 10.3322/caac.21754. Epub 2022 Oct 3."
+        },
+        {
+          "pmid": "26211827",
+          "type": "BACKGROUND",
+          "citation": "Early Breast Cancer Trialists' Collaborative Group (EBCTCG). Aromatase inhibitors versus tamoxifen in early breast cancer: patient-level meta-analysis of the randomised trials. Lancet. 2015 Oct 3;386(10001):1341-1352. doi: 10.1016/S0140-6736(15)61074-1. Epub 2015 Jul 23."
+        },
+        {
+          "pmid": "35611679",
+          "type": "BACKGROUND",
+          "citation": "Sheffield KM, Peachey JR, Method M, Grimes BR, Brown J, Saverno K, Sugihara T, Cui ZL, Lee KT. A real-world US study of recurrence risks using combined clinicopathological features in HR-positive, HER2-negative early breast cancer. Future Oncol. 2022 Jul;18(21):2667-2682. doi: 10.2217/fon-2022-0310. Epub 2022 May 25."
+        },
+        {
+          "pmid": "31859246",
+          "type": "BACKGROUND",
+          "citation": "Gao JJ, Cheng J, Bloomquist E, Sanchez J, Wedam SB, Singh H, Amiri-Kordestani L, Ibrahim A, Sridhara R, Goldberg KB, Theoret MR, Kluetz PG, Blumenthal GM, Pazdur R, Beaver JA, Prowell TM. CDK4/6 inhibitor treatment for patients with hormone receptor-positive, HER2-negative, advanced or metastatic breast cancer: a US Food and Drug Administration pooled analysis. Lancet Oncol. 2020 Feb;21(2):250-260. doi: 10.1016/S1470-2045(19)30804-6. Epub 2019 Dec 16."
+        },
+        {
+          "pmid": "32954927",
+          "type": "BACKGROUND",
+          "citation": "Johnston SRD, Harbeck N, Hegg R, Toi M, Martin M, Shao ZM, Zhang QY, Martinez Rodriguez JL, Campone M, Hamilton E, Sohn J, Guarneri V, Okada M, Boyle F, Neven P, Cortes J, Huober J, Wardley A, Tolaney SM, Cicin I, Smith IC, Frenzel M, Headley D, Wei R, San Antonio B, Hulstijn M, Cox J, O'Shaughnessy J, Rastogi P; monarchE Committee Members and Investigators. Abemaciclib Combined With Endocrine Therapy for the Adjuvant Treatment of HR+, HER2-, Node-Positive, High-Risk, Early Breast Cancer (monarchE). J Clin Oncol. 2020 Dec 1;38(34):3987-3998. doi: 10.1200/JCO.20.02514. Epub 2020 Sep 20."
+        },
+        {
+          "pmid": "38507751",
+          "type": "BACKGROUND",
+          "citation": "Slamon D, Lipatov O, Nowecki Z, McAndrew N, Kukielka-Budny B, Stroyakovskiy D, Yardley DA, Huang CS, Fasching PA, Crown J, Bardia A, Chia S, Im SA, Ruiz-Borrego M, Loi S, Xu B, Hurvitz S, Barrios C, Untch M, Moroose R, Visco F, Afenjar K, Fresco R, Severin I, Ji Y, Ghaznawi F, Li Z, Zarate JP, Chakravartty A, Taran T, Hortobagyi G. Ribociclib plus Endocrine Therapy in Early Breast Cancer. N Engl J Med. 2024 Mar 21;390(12):1080-1091. doi: 10.1056/NEJMoa2305488."
+        },
+        {
+          "pmid": "20803066",
+          "type": "BACKGROUND",
+          "citation": "Hershman DL, Shao T, Kushi LH, Buono D, Tsai WY, Fehrenbacher L, Kwan M, Gomez SL, Neugut AI. Early discontinuation and non-adherence to adjuvant hormonal therapy are associated with increased mortality in women with breast cancer. Breast Cancer Res Treat. 2011 Apr;126(2):529-37. doi: 10.1007/s10549-010-1132-4. Epub 2010 Aug 28."
+        },
+        {
+          "pmid": "35121501",
+          "type": "BACKGROUND",
+          "citation": "Yussof I, Mohd Tahir NA, Hatah E, Mohamed Shah N. Factors influencing five-year adherence to adjuvant endocrine therapy in breast cancer patients: A systematic review. Breast. 2022 Apr;62:22-35. doi: 10.1016/j.breast.2022.01.012. Epub 2022 Jan 24."
+        },
+        {
+          "pmid": "37927344",
+          "type": "BACKGROUND",
+          "citation": "Yeo HY, Liew AC, Chan SJ, Anwar M, Han CH, Marra CA. Understanding Patient Preferences Regarding the Important Determinants of Breast Cancer Treatment: A Narrative Scoping Review. Patient Prefer Adherence. 2023 Oct 31;17:2679-2706. doi: 10.2147/PPA.S432821. eCollection 2023."
+        },
+        {
+          "pmid": "36261611",
+          "type": "BACKGROUND",
+          "citation": "Zhao M, Zhao J, Chen J, Li M, Zhang L, Luo X, Zhang Y, Xiong C, Guo Z, Yan J. The relationship between medication adherence and illness perception in breast cancer patients with adjuvant endocrine therapy: beliefs about medicines as mediators. Support Care Cancer. 2022 Dec;30(12):10009-10017. doi: 10.1007/s00520-022-07411-w. Epub 2022 Oct 20."
+        },
+        {
+          "pmid": "33743330",
+          "type": "BACKGROUND",
+          "citation": "Agostinetto E, Vian L, Caparica R, Bruzzone M, Ceppi M, Lambertini M, Ponde N, de Azambuja E. CDK4/6 inhibitors as adjuvant treatment for hormone receptor-positive, HER2-negative early breast cancer: a systematic review and meta-analysis. ESMO Open. 2021 Apr;6(2):100091. doi: 10.1016/j.esmoop.2021.100091. Epub 2021 Mar 18."
+        },
+        {
+          "pmid": "27493615",
+          "type": "BACKGROUND",
+          "citation": "Barroso-Sousa R, Shapiro GI, Tolaney SM. Clinical Development of the CDK4/6 Inhibitors Ribociclib and Abemaciclib in Breast Cancer. Breast Care (Basel). 2016 Jun;11(3):167-73. doi: 10.1159/000447284. Epub 2016 Jun 22."
+        },
+        {
+          "pmid": "31823381",
+          "type": "BACKGROUND",
+          "citation": "Chan AHY, Horne R, Hankins M, Chisari C. The Medication Adherence Report Scale: A measurement tool for eliciting patients' reports of nonadherence. Br J Clin Pharmacol. 2020 Jul;86(7):1281-1288. doi: 10.1111/bcp.14193. Epub 2020 May 18."
+        },
+        {
+          "pmid": "10661603",
+          "type": "BACKGROUND",
+          "citation": "Horne R, Weinman J. Patients' beliefs about prescribed medicines and their role in adherence to treatment in chronic physical illness. J Psychosom Res. 1999 Dec;47(6):555-67. doi: 10.1016/s0022-3999(99)00057-4."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Wagner L, Sweet J, Butt Z, Lai J, Cella D. Measuring patient self-reported cognitive function: development of the functional assessment of cancer therapy-cognitive function instrument. J Support Oncol. 2009;7(6):W32-9."
+        },
+        {
+          "pmid": "8874337",
+          "type": "BACKGROUND",
+          "citation": "Sprangers MA, Groenvold M, Arraras JI, Franklin J, te Velde A, Muller M, Franzini L, Williams A, de Haes HC, Hopwood P, Cull A, Aaronson NK. The European Organization for Research and Treatment of Cancer breast cancer-specific quality-of-life questionnaire module: first results from a three-country field study. J Clin Oncol. 1996 Oct;14(10):2756-68. doi: 10.1200/JCO.1996.14.10.2756."
+        },
+        {
+          "pmid": "26327487",
+          "type": "BACKGROUND",
+          "citation": "Giesinger JM, Kieffer JM, Fayers PM, Groenvold M, Petersen MA, Scott NW, Sprangers MA, Velikova G, Aaronson NK; EORTC Quality of Life Group. Replication and validation of higher order models demonstrated that a summary score for the EORTC QLQ-C30 is robust. J Clin Epidemiol. 2016 Jan;69:79-88. doi: 10.1016/j.jclinepi.2015.08.007. Epub 2015 Sep 28."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "Cancer EOfRaTo. Brussels: EORTC Brussels; 2001. Jan 01, Scoring of the QLQ-C30 Summary Score."
+        },
+        {
+          "pmid": "9440735",
+          "type": "BACKGROUND",
+          "citation": "Osoba D, Rodrigues G, Myles J, Zee B, Pater J. Interpreting the significance of changes in health-related quality-of-life scores. J Clin Oncol. 1998 Jan;16(1):139-44. doi: 10.1200/JCO.1998.16.1.139."
+        },
+        {
+          "pmid": "38147481",
+          "type": "BACKGROUND",
+          "citation": "Bakovic M, Bago M, Benic L, Krajinovic M, Silovski T, Plavetic ND, Turkovic L, Sertic M, Hadziabdic MO. Exploring adherence in patients with advanced breast cancer: focus on CDK4/6 inhibitors. Acta Pharm. 2023 Dec 26;73(4):633-654. doi: 10.2478/acph-2023-0045. Print 2023 Dec 1."
+        },
+        {
+          "pmid": "34637496",
+          "type": "BACKGROUND",
+          "citation": "Loucks J, Zuckerman AD, Berni A, Saulles A, Thomas G, Alonzo A. Proportion of days covered as a measure of medication adherence. Am J Health Syst Pharm. 2022 Mar 7;79(6):492-496. doi: 10.1093/ajhp/zxab392. No abstract available."
+        },
+        {
+          "pmid": "30687099",
+          "type": "BACKGROUND",
+          "citation": "Burnier M. Is There a Threshold for Medication Adherence? Lessons Learnt From Electronic Monitoring of Drug Adherence. Front Pharmacol. 2019 Jan 9;9:1540. doi: 10.3389/fphar.2018.01540. eCollection 2018."
+        },
+        {
+          "pmid": "37272247",
+          "type": "BACKGROUND",
+          "citation": "Yang S, Park SW, Bae SJ, Ahn SG, Jeong J, Park K. Investigation of Factors Affecting Adherence to Adjuvant Hormone Therapy in Early-Stage Breast Cancer Patients: A Comprehensive Systematic Review. J Breast Cancer. 2023 Aug;26(4):309-333. doi: 10.4048/jbc.2023.26.e22. Epub 2023 May 10."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "SmPC abemaciclib",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/verzenios"
+        },
+        {
+          "label": "U.S Food and Drug Administration. FDA expands early breast cancer indication for abemaciclib with endocrine therapy 2023",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-disco-burst-edition-fda-approval-verzenio-abemaciclib-endocrine-therapy-patients-hr-positive"
+        },
+        {
+          "label": "FACIT Group. FACT-Cog Scoring document",
+          "url": "https://www.facit.org/measures/fact-cog"
+        },
+        {
+          "label": "Fayers P, Bjordal K, Groenvold M, Curran D, Bottomley A. Brussels ORTC. Brussels: EORTC Brussels; 2001. EORTC QLQ-C30 Scoring Manual. 3rd ed.",
+          "url": "https://www.eortc.org/app/uploads/sites/2/2018/02/SCmanual.pdf"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D055118",
+          "term": "Medication Adherence"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D010349",
+          "term": "Patient Compliance"
+        },
+        {
+          "id": "D010342",
+          "term": "Patient Acceptance of Health Care"
+        },
+        {
+          "id": "D000074822",
+          "term": "Treatment Adherence and Compliance"
+        },
+        {
+          "id": "D015438",
+          "term": "Health Behavior"
+        },
+        {
+          "id": "D001519",
+          "term": "Behavior"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,414 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00629616",
+      "orgStudyIdInfo": {
+        "id": "CARMINA02"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CARMINA-02/0609",
+          "type": "OTHER",
+          "domain": "UNICANCER"
+        },
+        {
+          "id": "2006-006409-10",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "NIMFEA",
+          "type": "OTHER",
+          "domain": "UNICANCER"
+        }
+      ],
+      "organization": {
+        "fullName": "UNICANCER",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy of Anastrozole and Fulvestrant in Patients With ER Positive, HER2 Negative, Operable Breast Cancer",
+      "officialTitle": "A Randomized Multicenter Phase II Study Identifying Hormone Sensitivity Profiles and Evaluating the Efficacy of Anastrozole and Fulvestrant in the Neo-adjuvant Treatment of Operable Breast Cancer in Postmenopausal Women.",
+      "acronym": "NIMFEA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-03-05",
+      "studyFirstSubmitQcDate": "2008-03-05",
+      "studyFirstPostDateStruct": {
+        "date": "2008-03-06",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-06-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-06-09",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "UNICANCER",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "RATIONALE: Estrogen can cause the growth of breast cancer cells. Hormone therapy using anastrozole or fulvestrant may fight breast cancer by lowering the amount of estrogen the body makes or by blocking the use of estrogen by the tumor cells. Giving hormone therapy before surgery may be an effective treatment for breast cancer. It is not yet known whether anastrozole is more effective than fulvestrant when given before surgery in treating women with breast cancer.\n\nPURPOSE: This randomized phase II trial is studying anastrozole to see how well it works compared with fulvestrant in treating postmenopausal women with stage II or stage III breast cancer that can be removed by surgery.",
+      "detailedDescription": "OBJECTIVES:\n\nPrimary\n\n* To compare the clinical response rates (complete and partial responses) at 6 months in postmenopausal women with operable stage II or III breast cancer treated with neoadjuvant anastrozole vs fulvestrant.\n\nSecondary\n\n* To compare the breast surgery conservation rate in patients treated with these drugs.\n* To correlate imaging findings by mammography, ultrasonography, and MRI with histological and clinical response in these patients and with sensitivity profile to these drugs.\n* To compare histological response in patients treated with these drugs.\n* To define criteria appropriate for neoadjuvant hormonal therapy.\n* To correlate baseline molecular characteristics and modifications during treatment with response in these patients.\n* To compare the tolerability of these drugs in these patients.\n* To compare the serum proteomic profile of patients treated with these drugs.\n* To correlate 3-year event-free and overall survival rates with clinical and histological response in these patients.\n\nOUTLINE: This is a multicenter study. Patients are randomized to 1 of 2 treatment arms.\n\n* Arm I: Patients receive oral anastrozole once daily for 4-6 months in the absence of clinical progression.\n* Arm II: Patients receive fulvestrant intramuscularly on days 1, 15, and 29 in the first month and then every 28 days in each subsequent month. Treatment continues for 4-6 months in the absence of clinical progression.\n\nPatients in both arms then undergo surgery and radiotherapy according to institutional guidelines. Patients then receive adjuvant hormonal therapy for at least 5 years.\n\nAfter completion of study therapy, patients are followed periodically for up to 3 years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "stage II breast cancer",
+        "stage IIIA breast cancer",
+        "stage IIIB breast cancer",
+        "stage IIIC breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 116,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Anastrozole",
+          "interventionNames": [
+            "Drug: anastrozole"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "EXPERIMENTAL",
+          "description": "Fulvestrant",
+          "interventionNames": [
+            "Drug: fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "anastrozole",
+          "description": "1 mg/day for either 4 months or 6 months depending on the clinical evaluation",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "fulvestrant",
+          "description": "500mg at day 1, day 15 and day 29 500mg every 28 days for either 4 months or 6 months depending on the clinical evaluation",
+          "armGroupLabels": [
+            "Arm B"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clinical tumor response as assessed by RECIST criteria",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Breast surgery conservation rate",
+          "timeFrame": "Post surgery"
+        },
+        {
+          "measure": "Histological tumor response as assessed by the Sataloff scale",
+          "timeFrame": "Post surgery"
+        },
+        {
+          "measure": "Tumor response as assessed by mammography, ultrasonography (RECIST criteria), and MRI",
+          "timeFrame": "at baseline, after the first month of treatment, and then before surgery"
+        },
+        {
+          "measure": "Biological prognosis and predictive response factors",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Relapse-free survival rate",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Event-free survival rate",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Overall survival rate",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Toxicity as assessed by NCI CTCAE v3.0",
+          "timeFrame": "During neoadjuvant treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed infiltrating breast adenocarcinoma\n\n  * Large, operable tumor\n  * Stage T2 (\u2265 3 cm) or T3-T4 (excluding inflammatory disease), N0-N3, M0 disease\n\n    * No bilateral inflammatory breast tumors (T4d \\[PEV-2 or PEV-3\\])\n  * Elston-Ellis grade I or II and mitotic index 1 or 2 (if \\< 65 years of age)\n* At least 1 embedded and 1 frozen biopsy sample available\n* No multifocal or multicentric tumors for which breast conservation cannot be envisaged\n* No ErbB2-overexpressing tumors (HER2 3+ by IHC OR HER2 2+ by IHC and FISH positive)\n* Hormone receptor status:\n\n  * Estrogen receptor and/or progesterone receptor positive tumor (\\> 10%) as assessed by IHC\n\nPATIENT CHARACTERISTICS:\n\n* Female\n* Postmenopausal\n* ECOG performance status 0-2\n* ANC \u2265 2,000/mm\u00b3\n* Platelet count \u2265 100,000/mm\u00b3\n* Hemoglobin \u2265 10 g/dL\n* Creatinine \u2264 1.5 times upper limit of normal (ULN)\n* Total bilirubin \u2264 1.25 times ULN\n* AST and ALT \u2264 1.5 times ULN\n* Alkaline phosphatase \u2264 2.5 times ULN\n* No other cancer within the past 10 years, except basal cell skin cancer or previously treated carcinoma in situ of the cervix\n* No uncontrolled cardiac pathology, including any of the following:\n\n  * Angina pectoris\n  * Congestive cardiac insufficiency\n  * Myocardial infarction within the past 3 months\n* No known history of hemorrhagic diathesis\n* No known allergy to the study drugs or their excipients\n* No congenital galactosemia, glucose malabsorption syndrome, or lactase deficiency\n* No chronic somatic or psychiatric illness with pejorative prognosis\n* No geographical, social, or psychiatric condition that would preclude study compliance and follow-up schedule\n* No individual deprived of liberty or placed under the authority of a tutor\n\nPRIOR CONCURRENT THERAPY:\n\n* No prior chemotherapy, hormonal therapy, or any targeted treatment for the breast tumor\n* At least 2 weeks since prior hormone replacement therapy for menopause\n* No concurrent long-term anticoagulation treatment\n* No concurrent participation on another therapeutic trial involving an experimental molecule",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Florence Lerebours, MD",
+          "affiliation": "Institut Curie",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Centre Jean Perrin",
+          "city": "Clermont-Ferrand",
+          "zip": "63011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Hopital Dupuytren",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Institut Curie Hopital",
+          "city": "Paris",
+          "zip": "75248",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Centre Eugene Marquis",
+          "city": "Rennes",
+          "zip": "35042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Centre Rene Huguenin",
+          "city": "Saint-Cloud",
+          "zip": "92210",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.84598,
+            "lon": 2.20289
+          }
+        },
+        {
+          "facility": "Institut Gustave Roussy",
+          "city": "Villejuif",
+          "zip": "F-94805",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27315583",
+          "type": "RESULT",
+          "citation": "Lerebours F, Rivera S, Mouret-Reynier MA, Alran S, Venat-Bouvet L, Kerbrat P, Salmon R, Becette V, Bourgier C, Cherel P, Boussion V, Balleyguier C, Thibault F, Lavau-Denes S, Nabholz JM, Sigal B, Trassard M, Mathieu MC, Martin AL, Lemonnier J, Mouret-Fourme E. Randomized phase 2 neoadjuvant trial evaluating anastrozole and fulvestrant efficacy for postmenopausal, estrogen receptor-positive, human epidermal growth factor receptor 2-negative breast cancer patients: Results of the UNICANCER CARMINA 02 French trial (UCBG 0609). Cancer. 2016 Oct;122(19):3032-40. doi: 10.1002/cncr.30143. Epub 2016 Jun 17."
+        },
+        {
+          "pmid": "32001832",
+          "type": "DERIVED",
+          "citation": "Lerebours F, Pulido M, Fourme E, Debled M, Becette V, Bonnefoi H, Rivera S, MacGrogan G, Mouret-Reynier MA, de Lara CT, Pierga JY, Breton-Callu C, Venat-Bouvet L, Mathoulin-Pelissier S, de la Motte Rouge T, Dalenc F, Sigal B, Bachelot T, Lemonnier J, Quenel-Tueux N. Predictive factors of 5-year relapse-free survival in HR+/HER2- breast cancer patients treated with neoadjuvant endocrine therapy: pooled analysis of two phase 2 trials. Br J Cancer. 2020 Mar;122(6):759-765. doi: 10.1038/s41416-020-0733-x. Epub 2020 Jan 31."
+        },
+        {
+          "pmid": "30305115",
+          "type": "DERIVED",
+          "citation": "Liang X, Briaux A, Becette V, Benoist C, Boulai A, Chemlali W, Schnitzler A, Baulande S, Rivera S, Mouret-Reynier MA, Bouvet LV, De La Motte Rouge T, Lemonnier J, Lerebours F, Callens C. Molecular profiling of hormone receptor-positive, HER2-negative breast cancers from patients treated with neoadjuvant endocrine therapy in the CARMINA 02 trial (UCBG-0609). J Hematol Oncol. 2018 Oct 11;11(1):124. doi: 10.1186/s13045-018-0670-9."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Cancer . 2016 Oct;122(19):3032-40. doi: 10.1002/cncr.30143. Epub 2016 Jun 17.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27315583/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

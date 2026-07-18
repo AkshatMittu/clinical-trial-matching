@@ -1,0 +1,336 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06867484",
+      "orgStudyIdInfo": {
+        "id": "LCI-2023-ZEI-001"
+      },
+      "organization": {
+        "fullName": "Baptist Health South Florida",
+        "class": "OTHER"
+      },
+      "briefTitle": "Breast Re-irradiation After Second Ipsilateral Lumpectomy",
+      "officialTitle": "Breast Re-irradiation After Second Ipsilateral Lumpectomy (BRASIL Trial)",
+      "acronym": "BRASIL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-03-05",
+      "studyFirstSubmitQcDate": "2025-03-05",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Youssef Zeidan",
+        "investigatorTitle": "Radiation Oncologist",
+        "investigatorAffiliation": "Baptist Health South Florida"
+      },
+      "leadSponsor": {
+        "name": "Youssef Zeidan",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Boca Raton Regional Hospital",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to test the safety and possible harms of treating breast cancer with reirradiation, after breast surgery. The researchers want to find out what effects (good and bad) reirradiation has on people who have already received radiation before surgery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Cancer",
+        "Cancer of the Breast",
+        "HER2-negative Breast Cancer",
+        "ER+ Breast Cancer",
+        "Estrogen-receptor-positive Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 114,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Partial Breast Irradiation (PBI)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Radiation: Intensity modulated radiation therapy (IMRT)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "Intensity modulated radiation therapy (IMRT)",
+          "description": "40 Gy total in 15 consecutive weekday sessions to the partial breast",
+          "armGroupLabels": [
+            "Partial Breast Irradiation (PBI)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of grade 3 or higher treatment-related adverse events (AEs)",
+          "description": "Adverse events will be collected using Common Terminology Criteria for Adverse Events version 5 (CTCAE v5) starting from the first radiation treatment. Grade 1 AEs are considered mild, grade 2 AEs are considered moderate, grade 3 AEs are considered severe, grade 4 AEs are considered life-threatening, and grade 5 AEs are considered fatal. The percentage of participants experiencing grade 3 or higher treatment-related AEs will be calculated.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Local recurrence-free survival (LRFS)",
+          "description": "Local recurrence is defined as tumor recurrence in the reirradiated region. LRFS is defined as time from the start of radiation treatment to local recurrence or death, whichever occurs first, and will be estimated by Kaplan-Meier method. Participants who do not have local recurrence and are still alive will be censored to their final follow-up date.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "OS is defined as the time from the start of radiation treatment to death and will be estimated by Kaplan-Meier method. Participants who are still alive will be censored to their final follow-up date.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Distant metastasis-free survival (DMFS)",
+          "description": "Distant metastasis is defined as cancer spreading to other areas of the body. DMFS is defined as the time from the start of radiation treatment to time of distant metastasis or death and will be estimated by Kaplan-Meier method. Participants who do not have distant metastasis and are still alive will be censored to their final follow-up date.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Mastectomy-free survival (MFS)",
+          "description": "MFS is defined as the time from the start of radiation treatment to mastectomy or death, whichever occurs first, and will be estimated by Kaplan-Meier method. Participants who have not had a mastectomy and are still alive will be censored to their final follow-up date.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Change in patient-rated cosmesis",
+          "description": "Assessed using the National Surgical Adjuvant Breast and Bowel Project (NSABP) B39.0 questionnaire.\n\nPhysical appearance. 22 questions, rated 1 (no difference between breasts) to 4 (large difference). Range 22-88 (worse).\n\nRecovery. 8 questions, rated 0 (not at all) to 10 (a lot). In 7 questions, higher is worse; scoring will be reversed for 1 item. Range 0-80 (worse).\n\nFeelings. 4 questions, rated 1 (all the time) to 5 (none of the time). Lower is better for 2 but worse for 2. Scoring for 2 items will be reversed. 4 questions related to pain rated from 0 (no pain) to 10 (worst pain). Range 0-40 (worse). One question is about pain treatment.\n\nBothered. 27 questions, rated 0 (not at all) to 4 (very much). Range 0 -108 (worse).\n\nSatisfaction. Appearance of the treated breast rated from 1 (excellent) to 4 (poor). Satisfaction rated on a 5-item scale from totally satisfied to totally dissatisfied. Breast size before and after treatment: left larger, same, right larger.",
+          "timeFrame": "Over 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with ER+HER2- breast cancer\n* Provision of signed and dated ICF\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n* Age \u2265 40 years\n* Oncotype \\< 26 (postmenopausal) \\<16 (premenopausal), Low, or Ultra-Low index.\n* Minimum interval of 18 months from last breast radiotherapy session.\n* Prior radiation therapy in the form of brachytherapy, external beam MV photons, protons or intraoperative radiation are allowed with an upper total dose limit of 68 Gy (EQD2) for those patients with prior records available.\n* Ipsilateral recurrence, unifocal \\< 3 cm with negative margins, N0, Tis and invasive (pathological staging)\n* Eastern Cooperative Oncology Group (ECOG) \u2264 2\n* Planning target volume: whole breast (PTV: WB) ratio \\< 1/2\n* Life expectancy \\> 12 months\n* Individuals able to become pregnant: agreement to use highly effective contraception starting at screening through treatment, and for 1 year after the end of PBI. Should a participant become pregnant or suspect that they are pregnant while participating in this study, they should notify the treating physician immediately.\n\nA person able to become pregnant is any person assigned female at birth (regardless of gender identity, sexual orientation, having undergone a tubal ligation, or remaining celibate by choice) who meets the following criteria:\n\n1. Has not undergone a hysterectomy or bilateral oophorectomy; or\n2. Has not been naturally postmenopausal for at least 12 consecutive months (i.e., has not had menses at any time during the preceding 12 consecutive months)\n\nExclusion Criteria:\n\n* BRCA1/2 mutation or any other receptor subtypes\n* Individuals assigned male at birth with breast cancer\n* Pregnancy or breastfeeding\n* Skin involvement\n* Distant metastasis\n* Patients with initial high-risk triple negative or HER-2 enriched breast cancer will be excluded from the trial. However, if the initial subtype is not known, patients will still be allowed to enroll, and the initial primary tumor information will be recorded as missing on the clinical forms.\n* Other malignancies (except skin)\n* Connective tissue disorder (e.g., scleroderma, lupus)\n* Any other condition that may put a participant at higher risk, at the discretion of the investigator.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "40 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Youssef Zeidan, M.D., Ph.D.",
+          "role": "CONTACT",
+          "phone": "(561) 955-5966",
+          "email": "youssef.zeidan@baptisthealth.net"
+        },
+        {
+          "name": "MCI Multisite Research Program",
+          "role": "CONTACT",
+          "email": "MCIMultiSiteResearch@baptishealth.net"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Youssef Zeidan, M.D., Ph.D.",
+          "affiliation": "Lynn Cancer Institute at Baptist Health, Inc.",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Lynn Cancer Institute at Baptist Health, Inc.",
+          "status": "RECRUITING",
+          "city": "Boca Raton",
+          "state": "Florida",
+          "zip": "33486",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Youssef Zeidan, M.D., Ph.D.",
+              "role": "CONTACT",
+              "phone": "(561) 955-5966",
+              "email": "youssef.zeidan@baptisthealth.net"
+            },
+            {
+              "name": "MCI Multisite Research Program",
+              "role": "CONTACT",
+              "email": "MCIMultiSiteResearch@baptishealth.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          }
+        },
+        {
+          "facility": "Miami Cancer Institute at Baptist Health, Inc.",
+          "status": "RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33176",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joseph Panoff, M.D.",
+              "role": "CONTACT",
+              "phone": "(786) 596-2000",
+              "email": "josephpa@baptisthealth.net"
+            },
+            {
+              "name": "MCI Multisite Research Program",
+              "role": "CONTACT",
+              "email": "MCIMultiSiteResearch@baptishealth.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31750868",
+          "type": "BACKGROUND",
+          "citation": "Arthur DW, Winter KA, Kuerer HM, Haffty B, Cuttino L, Todor DA, Anne PR, Anderson P, Woodward WA, McCormick B, Cheston S, Sahijdak WM, Canaday D, Brown DR, Currey A, Fisher CM, Jagsi R, Moughan J, White JR. Effectiveness of Breast-Conserving Surgery and 3-Dimensional Conformal Partial Breast Reirradiation for Recurrence of Breast Cancer in the Ipsilateral Breast: The NRG Oncology/RTOG 1014 Phase 2 Clinical Trial. JAMA Oncol. 2020 Jan 1;6(1):75-82. doi: 10.1001/jamaoncol.2019.4320."
+        },
+        {
+          "pmid": "28721885",
+          "type": "BACKGROUND",
+          "citation": "Arthur DW, Winter KA, Kuerer HM, Haffty BG, Cuttino LW, Todor DA, Simone NL, Hayes SB, Woodward WA, McCormick B, Cohen RJ, Sahijdak WM, Canaday DJ, Brown DR, Currey AD, Fisher CM, Jagsi R, White J. NRG Oncology-Radiation Therapy Oncology Group Study 1014: 1-Year Toxicity Report From a Phase 2 Study of Repeat Breast-Preserving Surgery and 3-Dimensional Conformal Partial-Breast Reirradiation for In-Breast Recurrence. Int J Radiat Oncol Biol Phys. 2017 Aug 1;98(5):1028-1035. doi: 10.1016/j.ijrobp.2017.03.016. Epub 2017 Mar 18."
+        },
+        {
+          "pmid": "23835717",
+          "type": "BACKGROUND",
+          "citation": "Olivotto IA, Whelan TJ, Parpia S, Kim DH, Berrang T, Truong PT, Kong I, Cochrane B, Nichol A, Roy I, Germain I, Akra M, Reed M, Fyles A, Trotter T, Perera F, Beckham W, Levine MN, Julian JA. Interim cosmetic and toxicity results from RAPID: a randomized trial of accelerated partial breast irradiation using three-dimensional conformal external beam radiation therapy. J Clin Oncol. 2013 Nov 10;31(32):4038-45. doi: 10.1200/JCO.2013.50.5511. Epub 2013 Jul 8."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Lynn Cancer Institute at Baptist Health, Inc.",
+          "url": "https://baptisthealth.net/services/cancer-care/lynn-cancer-institute"
+        },
+        {
+          "label": "Miami Cancer Institute at Baptist Health, Inc.",
+          "url": "https://baptisthealth.net/services/cancer-care/miami-cancer-institute"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D050397",
+          "term": "Radiotherapy, Intensity-Modulated"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D020266",
+          "term": "Radiotherapy, Conformal"
+        },
+        {
+          "id": "D011881",
+          "term": "Radiotherapy, Computer-Assisted"
+        },
+        {
+          "id": "D011878",
+          "term": "Radiotherapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

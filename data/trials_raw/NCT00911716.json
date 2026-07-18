@@ -1,0 +1,447 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00911716",
+      "orgStudyIdInfo": {
+        "id": "08-10 ICORG"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "ICORG-08-10"
+        },
+        {
+          "id": "EUDRACT-2008-004552-76"
+        },
+        {
+          "id": "EU-20915"
+        }
+      ],
+      "organization": {
+        "fullName": "Cancer Trials Ireland",
+        "class": "NETWORK"
+      },
+      "briefTitle": "TC Avastin. ICORG 08-10, V6",
+      "officialTitle": "Pilot Evaluation of Bevacizumab, in Combination With Docetaxel and Cyclophosphamide in the Adjuvant Treatment of Patients With HER 2 Negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2010-07",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2009-05-30",
+      "studyFirstSubmitQcDate": "2009-05-30",
+      "studyFirstPostDateStruct": {
+        "date": "2009-06-02",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-08-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Cancer Trials Ireland",
+        "class": "NETWORK"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "RATIONALE: Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Drugs used in chemotherapy, such as docetaxel and cyclophosphamide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) together with bevacizumab may kill more tumor cells.\n\nPURPOSE: This clinical trial is studying the side effects of giving bevacizumab together with docetaxel and cyclophosphamide and to see how well it works in treating patients with early-stage high-risk breast cancer.\n\nThis is a single arm, non randomised pilot study investigating the safety of the combination of Docetaxel + Cyclophosphamide+ Bevacizumab in the adjuvant treatment of patients with early stage, HER 2 negative, high risk breast cancer.",
+      "detailedDescription": "OBJECTIVES:\n\nPrimary\n\n* Assess the feasibility of the combination of adjuvant bevacizumab, docetaxel, and cyclophosphamide in patients with early-stage HER2-negative high-risk breast cancer.\n* Determine the safety of this regimen with regards to cardiac toxicity, hypertension, and bleeding complications in these patients.\n\nSecondary\n\n* Evaluate the efficacy of this regimen by measuring Topo II overexpression in these patients.\n\nOUTLINE: This is a multicenter study.\n\nPatients will receive 4 cycles of Docetaxel 75mg/m2 + 4 cycles of Cyclophosphamide 600mg/m2 (each cycle lasts 21 days) (+/- 3 days if a due date could not be met because of public holidays, etc) and concomitant Avastin (Bevacizumab) 15mg/kg q 3weeks for treatment duration of one year.\n\nBevacizumab at a dose of 15mg/kg will be administered as an intravenous infusion every 3 weeks for a treatment period of one year, regardless of missed doses.\n\nPatients will be followed up through 5 years (i.e. from the time of registration through to end of Year 5/ 1 year treatment and 4 years follow up)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "estrogen receptor-negative breast cancer",
+        "estrogen receptor-positive breast cancer",
+        "HER2-negative breast cancer",
+        "stage IA breast cancer",
+        "stage IB breast cancer",
+        "stage II breast cancer",
+        "stage IIIA breast cancer",
+        "male breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 106,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "cyclophosphamide, Docetaxel, bevacizumab",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Biological: bevacizumab",
+            "Drug: cyclophosphamide",
+            "Drug: docetaxel",
+            "Procedure: adjuvant therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "bevacizumab",
+          "armGroupLabels": [
+            "cyclophosphamide, Docetaxel, bevacizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "cyclophosphamide",
+          "armGroupLabels": [
+            "cyclophosphamide, Docetaxel, bevacizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "docetaxel",
+          "armGroupLabels": [
+            "cyclophosphamide, Docetaxel, bevacizumab"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "adjuvant therapy",
+          "armGroupLabels": [
+            "cyclophosphamide, Docetaxel, bevacizumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of patients experiencing heart failure",
+          "description": "Patients will be followed up through 5 years (i.e. from the time of registration through to end of Year 5 / 1 year treatment and 4 years follow up)",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Measurements of left ventricular ejection fraction by echocardiography or MUGA",
+          "timeFrame": "Sceening, day 1 of cycles 3, 5, 9, 13'.(the window of 5 days in advance to 1st day of treatment is allowed), end of treatment, follow- up annually"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Non comparative efficacy by disease-free and overall survival",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Topo II overexpression",
+          "timeFrame": "Serum samples for assssment of Topo II overexpression collected prior to commencement of treatment, after cycle 4, at 6 months, 1 year and 12 months post last dose of bevacizumab."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The patient must have histologically confirmed, invasive adenocarcinoma of the breast with:\n\n   -Involvement of at least one axillary lymph node on routine histologic examination.\n\n   or\n   * ER negative tumour \\>2 cm invasive cancer or\n   * ER positive tumour \\> 3cm invasive cancer. Note : Pre-menopausal patients with ER positive tumour may participate in the International Breast Cancer Study Group (IBCSG) SOFT study. High risk and registered and intermediate risk and randomized for chemotherapy patients enrolled in the TAILOR x study may participate in this study (once prior approval from IBCSG and ECOG is received)\n2. Patients must have undergone standard surgical treatment for their breast cancer, consisting either of mastectomy or a standard breast-conserving operation, which included appropriate axillary surgery. Such axillary procedures will include either sentinel node biopsy or an axillary dissection.\n3. Patients must have disease which is HER2 negative (0, or 1+ by immunohistochemistry (IHC) or fluorescence in situ hybridization FISH non amplified)\n4. Patients must have negative evaluations for metastatic disease, including chest x-ray or CT scan, isotope bone scan, and either computed tomography (CT), MRI or ultrasound of the liver. Position emission tomography (PET) scan would also suffice in place of the above tests (unless a bone scan is clinically indicated) within 3 months prior to registration.\n5. Patients must have a normal cardiac ejection fraction by echocardiogram (ECHO) or multigated acquisition (MUGA) scan within 3 months prior to registration.\n6. The electrocardiogram (ECG) performed within 3 months prior to registration must not have any clinically significant abnormalities reported.\n7. Margins of breast conservation surgery or mastectomy must be histologically free of invasive breast cancer and ductal carcinoma in situ (DCIS). Patients with resection margins positive for lobular carcinoma in situ (LCIS) are eligible.\n8. The interval between the last surgery for breast cancer (breast conservation surgery, mastectomy, sentinel node biopsy, axillary dissection or re-excision of breast conservation surgery margins) and Day 1 of treatment must be \\> 21 days and no more than 84 days.\n9. ECOG performance status of 0-1.\n10. Patients must have adequate organ function within \\< 8 weeks prior to registration, as measured by:\n\n    * Absolute neutrophil count \\> 1.2 x 10\\^9/L\n    * Platelet count \\> 100 x 10\\^9/L\n    * Normal bilirubin (except for patients with congenital hyperbilirubinemia)\n    * total bilirubin must be \u2264 upper limit of normal (ULN) for the lab unless the patient has a bilirubin elevation \\> ULN to 1.5 x ULN due to Gilberts disease or similar syndrome involving slow conjugation of bilirubin\n    * Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\< 2x ULN\n    * Serum creatinine must be \u2264 ULN for the lab\n    * Measured or creatinine clearance must be \u226560ml/min\n    * Urinary protein should be 0- 1+ on dipstick urinalysis. If dipstick reading is \u2265\\_2+ protein value must be \\< 500 mg in a 24-hour urine specimen.\n11. Activated partial thromboplastin time (APTT) \\< 1.5 x ULN\n12. Patients with synchronous bilateral breast cancer (diagnosed within one month) are eligible if the higher tumour node metastasis (TNM) stage tumour meets the eligibility criteria for this study and both are HER-2 negative.\n13. Male or female patients age \\> 18 years of age are eligible.\n14. Women must not be pregnant or breast-feeding due to the potential harmful effects of bevacizumab on the developing fetus. (Note: All females of childbearing potential must have a serum pregnancy test within 7 days prior to registration).\n15. Women of childbearing potential and sexually active males must use an accepted and effective method of contraception ( such as non hormonal intra uterine device (IUD), condoms, sexual abstinence or vasectomized partner).\n\nExclusion Criteria:\n\n1. Any active serious medical illness.\n2. Patients must not have clinically significant cardiovascular or cerebrovascular disease, including any history of\n\n   * Symptomatic heart disease or heart disease requiring ongoing treatment\n   * Cerebrovascular disease including transient ischemic attack (TIA), stroke or subarachnoid haemorrhage\n   * Ischemic bowel\n   * Myocardial infarction\n   * Unstable angina\n3. New York Heart Association (NYHA) grade II or greater congestive heart failure\n4. Grade II or greater peripheral vascular disease active at study entry\n5. Patients receiving anticoagulation therapy are excluded.\n6. Uncontrolled hypertension defined as systolic blood pressure (BP) \\>145mmHg or diastolic BP \\>85mmHg, with or without anti-hypertensive medication.(BP must be assessed within 28 days prior to registration).\n7. Uncontrolled or clinically significant arrhythmia.\n8. Clinical evidence of inflammatory breast cancer or fixed axillary nodes at diagnosis.\n9. Any major surgical procedure within 21 days of day 1 treatment. (NOTE: Non-operative biopsy or placement of a vascular access device is not considered a major surgery).\n10. Placement of a vascular access device within 24 hours of planned Day 1 of treatment.\n11. Bleeding diathesis, hereditary or acquired bleeding disorder or coagulopathy.\n12. A non-healing wound or fracture. Patients with an abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to registration are not eligible.\n13. Axillary node involvement only demonstrated by immunohistochemistry are not eligible unless they meet one of the other eligibility criteria below:\n\n    * ER negative tumour \\>2 cm invasive cancer\n    * ER positive tumour \\> 3 cm invasive cancer\n14. Prior cancer except for basal cell skin cancer and cancer in situ of the cervix and uterus\n15. Hypersensitivity to Chinese hamster ovary cell products or other recombinant human antibodies.\n16. Patients must not have received prior cytotoxic chemotherapy for any cancer or received hormonal therapy for this breast cancer.\n\nNOTE: Prior use of tamoxifen for chemoprevention is allowed but must be discontinued at study entry. Similarly, prior raloxifene use is allowed but must be discontinued at study entry.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Cancer Trials Ireland Dublin 11, Ireland, MD",
+          "affiliation": "Cancer Trials Ireland",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Dept. of Oncology; Rigshospitalet",
+          "city": "Blegdamsvej, Copenhagen",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Dublin",
+          "zip": "24",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Dublin",
+          "zip": "4",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Dublin",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Galway",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.27245,
+            "lon": -9.05095
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Limerick",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 52.66472,
+            "lon": -8.62306
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Sligo",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 54.26969,
+            "lon": -8.46943
+          }
+        },
+        {
+          "facility": "Cancer Trials Ireland Investigative Site",
+          "city": "Waterford",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 52.25833,
+            "lon": -7.11194
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31384312",
+          "type": "DERIVED",
+          "citation": "Gullo G, J Eustace A, Canonici A, M Collins D, Kennedy MJ, Grogan L, Breathhnach O, McCaffrey J, Keane M, Martin MJ, Gupta R, Leonard G, O'Connor M, Calvert PM, Donnellan P, Walshe J, McDermott E, Scott K, Hernando A, Parker I, W Murray D, C O'Farrell A, Maratha A, Dicker P, Rafferty M, Murphy V, O'Donovan N, M Gallagher W, Ky B, Tryfonopoulos D, Moulton B, T Byrne A, Crown J. Pilot study of bevacizumab in combination with docetaxel and cyclophosphamide as adjuvant treatment for patients with early stage HER-2 negative breast cancer, including analysis of candidate circulating markers of cardiac toxicity: ICORG 08-10 trial. Ther Adv Med Oncol. 2019 Jul 24;11:1758835919864236. doi: 10.1177/1758835919864236. eCollection 2019."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D018567",
+          "term": "Breast Neoplasms, Male"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000068258",
+          "term": "Bevacizumab"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        },
+        {
+          "id": "D017024",
+          "term": "Chemotherapy, Adjuvant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

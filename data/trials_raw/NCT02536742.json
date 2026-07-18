@@ -1,0 +1,1189 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02536742",
+      "orgStudyIdInfo": {
+        "id": "IBCSG 53-14 / BIG 14-04"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2014-005387-15",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "WI198393",
+          "type": "OTHER",
+          "domain": "Pfizer number"
+        }
+      ],
+      "organization": {
+        "fullName": "ETOP IBCSG Partners Foundation",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Palbociclib in Molecularly Characterized ER-positive/HER2-negative Metastatic Breast Cancer",
+      "officialTitle": "A Phase II Study of Palbociclib Plus Fulvestrant for Pretreated Patients With ER+/HER2- Metastatic Breast Cancer",
+      "acronym": "PYTHIA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-08-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2020-08-28",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-12-22",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-08-25",
+      "studyFirstSubmitQcDate": "2015-08-27",
+      "studyFirstPostDateStruct": {
+        "date": "2015-09-01",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2021-09-08",
+      "resultsFirstSubmitQcDate": "2023-07-24",
+      "resultsFirstPostDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-07-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "ETOP IBCSG Partners Foundation",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "Breast International Group",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This international, multicenter, prospective single arm Phase II biomarker discovery clinical trial with the primary objective of assessing the association of PFS with gene mutations, gene copy number aberrations and gene signatures in post-menopausal women with hormone receptor positive, HER2-negative metastatic or locally relapsed breast cancer whose disease has progressed after prior adjuvant endocrine therapy or one line systemic treatment, i.e., endocrine treatment or chemotherapy, administered for metastatic disease.",
+      "detailedDescription": "Patients will be treated with the combination of palbociclib and fulvestrant. The primary objective is to assess the association of the primary endpoint progression-free survival (PFS) with potential markers.\n\nThe trial is included in the AURORA program conducted by the Breast International Group (BIG), an international study aiming to collect and characterize biological samples, including metastatic tissue, from patients with advanced breast cancer.\n\nThe primary aim of the PYTHIA study is to discover potentially innovative biomarkers for the selection of patients to Palbociclib/Fulvestrant treatment. The strength of the trial lies in its conduct in conjunction with the AURORA study, which systematically evaluates a panel of biomarkers in tissue and blood, in a certified central lab. Stemming from this association, an abundance of molecular profiling information will become available for different biological samples. Additional molecular and functional imaging assessments performed within the context of the PYTHIA study increase its scientific merit, since it will represent a prospective, systematic effort to identify biomarkers for patient stratification, integrating several molecular profiling assessments."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Metastatic",
+        "HER2 negative",
+        "Palbociclib"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 124,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Palbociclib plus Fulvestrant",
+          "interventionNames": [
+            "Drug: Palbociclib",
+            "Drug: Fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.",
+          "armGroupLabels": [
+            "Experimental"
+          ],
+          "otherNames": [
+            "PD-0332991",
+            "Ibrance"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.",
+          "armGroupLabels": [
+            "Experimental"
+          ],
+          "otherNames": [
+            "Faslodex"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With and Without Progression Free Survival (PFS) Events",
+          "description": "Time from treatment initiation until documented disease progression according to RECIST 1.1 or death, whichever occurs first",
+          "timeFrame": "Maximum 36 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Best Overall Response",
+          "description": "Best overall response is based on RECIST (Response evaluation criteria in solid tumors) 1.1 criteria and is defined as best response recorded from enrollment across all time points until disease progression. Confirmation of partial response (PR) or complete response (CR) by an additional scan was not requested in this trial (rationale: initially because of randomized placebo-controlled design; subsequently because no hypothesis testing of progression-free survival, PFS, distribution relative to an historical control).",
+          "timeFrame": "From date of enrolment until patient's end of treatment visit (or a maximum of 12 months after EoT in the absence of tumor progression), assessed up to 48 months."
+        },
+        {
+          "measure": "Best Overall Response of Complete Response (CR) or Partial Response (PR) or Stable Disease (SD)",
+          "description": "Disease control is defined as best overall response of complete response (CR) or partial response (PR), or stable disease (SD) (or non-CR/non-PD, progressive disease, in the case of non-measurable disease only) lasting for at least 24 weeks, measured from enrollment until first documentation of progressive disease",
+          "timeFrame": "From date of enrolment until patient's end of treatment visit (or a maximum of 12 months after EoT in the absence of tumor progression), assessed up to 48 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female gender\n* Age \u2265 18 years\n* Postmenopausal, defined as women with:\n\n  * Prior bilateral surgical oophorectomy; or\n  * Amenorrhea and age \u2265 60 years; or\n  * Age \\< 60 years and amenorrhea for 12 or more consecutive months in the absence of alternative pathological or physiological cause and FSH and serum estradiol levels within the laboratory's reference ranges for postmenopausal women.\n* Endocrine resistant disease, defined as one of:\n\n  * Relapse while on adjuvant endocrine therapy;\n  * Relapse within 12 months after completion of adjuvant endocrine therapy;\n  * Progression of disease under first line endocrine therapy for metastatic and/or loco-regionally advanced breast cancer.\n\nNote: Patient may have received one prior chemotherapy for advanced or metastatic breast cancer.\n\n* ER positive tumor and HER2-negative tumor, as assessed locally\n* ECOG Performance Status 0-1.\n* Measurable or non-measurable but evaluable disease according to RECIST 1.1.\n* Written Informed Consent (IC) for screening procedures.\n* Written informed consent to participate in the AURORA program of BIG.\n* The patient has been informed of and agrees to data transfer and handling, in accordance with national data protection guidelines.\n* Life expectancy \\>3 months.\n* Hematological status:\n\n  * Absolute neutrophil count \u2265 1.5 \u00d7 109/L\n  * Platelet count \u2265 100 \u00d7 109/L\n  * Hemoglobin \u2265 9 g/dL\n* Hepatic status:\n\n  * Serum total bilirubin \u2264 1.5 \u00d7 upper limit of normal (ULN).\n  * AST and ALT \u2264 2.5 \u00d7 ULN; if the patient has liver metastases, ALT and AST must be \u2264 5 \u00d7 ULN.\n* Glucose in normal range, or well-controlled diabetes defined as an HbA1c level \u2264 7.5%.\n* Renal status:\n\n  \\- Creatinine \u2264 1.5 \u00d7ULN or creatinine clearance \\> 60 ml/min.\n* International Normalized Ratio (INR) or Prothrombin Time (PT) \u22641.5 \u00d7 ULN unless patient is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulant.\n* Ability to swallow oral medication.\n\nExclusion Criteria:\n\n* Prior use of fulvestrant or any CDK inhibitor.\n* More than one prior line of chemotherapy for metastatic or locally relapsed disease.\n* Previous or current non-breast malignancies within the last 5 years, with the exception of in situ carcinoma of the cervix, and adequately treated basal cell or squamous cell carcinoma of the skin.\n* Known active uncontrolled or symptomatic CNS metastases, carcinomatous meningitis or leptomeningeal disease as indicated by clinical symptoms, cerebral edema, and/or progressive growth.\n* Any of the following in the previous 6 months: myocardial infarction, severe/unstable angina pectoris, ongoing cardiac dysrhythmias of NCI CTCAE grade \u22652, atrial fibrillation of any grade, coronary/peripheral artery bypass graft, symptomatic congestive heart failure (NYHA functional classification \u22653), cerebrovascular accident including transient ischemic attack, or symptomatic pulmonary embolism.\n* QTc exceeding 480msec, family or personal history of long or short QT syndrome, Brugada syndrome or known history of QTc prolongation, or Torsade de Pointes (TdP).\n* Uncontrolled electrolyte disorders that can reinforce the QT-prolonging effect of the drug (e.g., hypocalcemia, hypokalemia, hypomag\u00acnesemia).\n* Known history of HIV seropositivity. HIV screening is not required at baseline.\n* Uncontrolled diabetes defined as HbA1c level \\> 7.5%.\n* Concurrent disease or familial, sociological or geographical condition that would make the patient inappropriate for trial participation or any serious medical disorder that would interfere with the patient's safety.\n* Dementia, altered mental status, or any psychiatric condition that would prevent the understanding or rendering of Informed Consent.\n* Known abnormalities in coagulation such as bleeding diathesis, or treatment with anticoagulants precluding intramuscular injections of fulvestrant.\n* Treatment with an investigational agent in the 4 weeks before enrollment.\n* Concurrent treatment with any of the drugs not permitted\n* Adverse events (except alopecia) from previous systemic cancer therapy, radiotherapy or surgery have not recovered to CTCAE v4.0 grade 1 or resolved prior to enrollment.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Luca Malorni, MD PhD",
+          "affiliation": "USL4 Hospital of Prato, Italy",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Sint-Augustinus",
+          "city": "Antwerp",
+          "zip": "2610",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.22047,
+            "lon": 4.40026
+          }
+        },
+        {
+          "facility": "Institut Jules Bodet",
+          "city": "Brussels",
+          "zip": "1000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Cliniques Universitaires Saint-Luc",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Antwerp University Hospital",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "UZ Leuven",
+          "city": "Leuven",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "CHU Liege",
+          "city": "Li\u00e8ge",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "Clinique St. Elizabeth",
+          "city": "Namur",
+          "zip": "5000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.4669,
+            "lon": 4.86746
+          }
+        },
+        {
+          "facility": "Ospedali degli Infermi, S.O.C. Oncologia",
+          "city": "Biella",
+          "zip": "13879",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.56304,
+            "lon": 8.05796
+          }
+        },
+        {
+          "facility": "Ospedale Centrale Bolzano, Medical Oncology",
+          "city": "Bolzano",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.49067,
+            "lon": 11.33982
+          }
+        },
+        {
+          "facility": "IRCCS San Martino University Hospital",
+          "city": "Genova",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "Mater Salutis Hospital AULSS 21 della Regione Veneto",
+          "city": "Legnago",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.19365,
+            "lon": 11.30227
+          }
+        },
+        {
+          "facility": "Istituto Europeo di Oncologia",
+          "city": "Milan",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Istituti Clinici Scientifici Maugeri, Medical Oncology Unit",
+          "city": "Pavia",
+          "zip": "27100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          }
+        },
+        {
+          "facility": "Azienda USL4 Prato",
+          "city": "Prato",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.8805,
+            "lon": 11.09699
+          }
+        },
+        {
+          "facility": "Velindre NHS Trust",
+          "city": "Cardiff",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          }
+        },
+        {
+          "facility": "Western General Hospital",
+          "city": "Edinburgh",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        },
+        {
+          "facility": "Beatson West of Scotland Cancer Centre",
+          "city": "Glasgow",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "Singleton Hospital",
+          "city": "Swansea",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.62079,
+            "lon": -3.94323
+          }
+        },
+        {
+          "facility": "Royal Cornwall",
+          "city": "Truro",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.26526,
+            "lon": -5.05436
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20453888",
+          "type": "BACKGROUND",
+          "citation": "Mittendorf EA, Liu Y, Tucker SL, McKenzie T, Qiao N, Akli S, Biernacka A, Liu Y, Meijer L, Keyomarsi K, Hunt KK. A novel interaction between HER2/neu and cyclin E in breast cancer. Oncogene. 2010 Jul 8;29(27):3896-907. doi: 10.1038/onc.2010.151. Epub 2010 May 10."
+        },
+        {
+          "pmid": "25524798",
+          "type": "BACKGROUND",
+          "citation": "Finn RS, Crown JP, Lang I, Boer K, Bondarenko IM, Kulyk SO, Ettl J, Patel R, Pinter T, Schmidt M, Shparyk Y, Thummala AR, Voytko NL, Fowst C, Huang X, Kim ST, Randolph S, Slamon DJ. The cyclin-dependent kinase 4/6 inhibitor palbociclib in combination with letrozole versus letrozole alone as first-line treatment of oestrogen receptor-positive, HER2-negative, advanced breast cancer (PALOMA-1/TRIO-18): a randomised phase 2 study. Lancet Oncol. 2015 Jan;16(1):25-35. doi: 10.1016/S1470-2045(14)71159-3. Epub 2014 Dec 16."
+        },
+        {
+          "pmid": "26030518",
+          "type": "BACKGROUND",
+          "citation": "Turner NC, Ro J, Andre F, Loi S, Verma S, Iwata H, Harbeck N, Loibl S, Huang Bartlett C, Zhang K, Giorgetti C, Randolph S, Koehler M, Cristofanilli M; PALOMA3 Study Group. Palbociclib in Hormone-Receptor-Positive Advanced Breast Cancer. N Engl J Med. 2015 Jul 16;373(3):209-19. doi: 10.1056/NEJMoa1505270. Epub 2015 Jun 1."
+        },
+        {
+          "pmid": "22547606",
+          "type": "BACKGROUND",
+          "citation": "Di Leo A, Malorni L. Polyendocrine treatment in estrogen receptor-positive breast cancer: a \"FACT\" yet to be proven. J Clin Oncol. 2012 Jun 1;30(16):1897-900. doi: 10.1200/JCO.2012.41.7394. Epub 2012 Apr 30. No abstract available."
+        },
+        {
+          "pmid": "35172272",
+          "type": "DERIVED",
+          "citation": "Malorni L, Tyekucheva S, Hilbers FS, Ignatiadis M, Neven P, Colleoni M, Henry S, Ballestrero A, Bonetti A, Jerusalem G, Papadimitriou K, Bernardo A, Seles E, Duhoux FP, MacPherson IR, Thomson A, Davies DM, Bergqvist M, Migliaccio I, Gebhart G, Zoppoli G, Bliss JM, Benelli M, McCartney A, Kammler R, De Swert H, Ruepp B, Fumagalli D, Maibach R, Cameron D, Loi S, Piccart M, Regan MM; International Breast Cancer Study Group; Breast International Group and PYTHIA Collaborators. Serum thymidine kinase activity in patients with hormone receptor-positive and HER2-negative metastatic breast cancer treated with palbociclib and fulvestrant. Eur J Cancer. 2022 Mar;164:39-51. doi: 10.1016/j.ejca.2021.12.030. Epub 2022 Feb 13."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Sponsor",
+          "url": "http://www.ibcsg.org"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Experimental",
+          "description": "Palbociclib plus Fulvestrant\n\nPalbociclib: 125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.\n\nFulvestrant: 500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "124"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "122"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Did not start protocol therapy",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Patient determined to have triple-negative breast cancer, thus not having the target disease",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Postmenopausal patients with endocrine-resistant metastatic or locally relapsed ER+/HER2- breast cancer not amenable to treatment with a curative intent.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Experimental",
+          "description": "Palbociclib plus Fulvestrant\n\nPalbociclib: 125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.\n\nFulvestrant: 500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "122"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "<40 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "40-49 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "50-59 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "37"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "60-69 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "70-79 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "80+ years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Belgium",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Italy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "United Kingdom",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "122"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With and Without Progression Free Survival (PFS) Events",
+          "description": "Time from treatment initiation until documented disease progression according to RECIST 1.1 or death, whichever occurs first",
+          "populationDescription": "Patients who initiate treatment and have the target disease.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Maximum 36 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Palbociclib plus Fulvestrant\n\nPalbociclib: 125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.\n\nFulvestrant: 500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "122"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "PFS event, Yes",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PFS event, No",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Best Overall Response",
+          "description": "Best overall response is based on RECIST (Response evaluation criteria in solid tumors) 1.1 criteria and is defined as best response recorded from enrollment across all time points until disease progression. Confirmation of partial response (PR) or complete response (CR) by an additional scan was not requested in this trial (rationale: initially because of randomized placebo-controlled design; subsequently because no hypothesis testing of progression-free survival, PFS, distribution relative to an historical control).",
+          "populationDescription": "Patients who initiate treatment and have the target disease.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From date of enrolment until patient's end of treatment visit (or a maximum of 12 months after EoT in the absence of tumor progression), assessed up to 48 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Palbociclib plus Fulvestrant\n\nPalbociclib: 125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.\n\nFulvestrant: 500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "122"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Complete response (CR)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Partial response (PR)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stable disease (SD)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "80"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Progressive disease (PD)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Best Overall Response of Complete Response (CR) or Partial Response (PR) or Stable Disease (SD)",
+          "description": "Disease control is defined as best overall response of complete response (CR) or partial response (PR), or stable disease (SD) (or non-CR/non-PD, progressive disease, in the case of non-measurable disease only) lasting for at least 24 weeks, measured from enrollment until first documentation of progressive disease",
+          "populationDescription": "Patients who initiate treatment and have the target disease.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From date of enrolment until patient's end of treatment visit (or a maximum of 12 months after EoT in the absence of tumor progression), assessed up to 48 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Experimental",
+              "description": "Palbociclib plus Fulvestrant\n\nPalbociclib: 125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.\n\nFulvestrant: 500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "122"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Disease control not observed",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "33"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Disease control observed (CR or PR or SD)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "89"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Maximum 36 months",
+      "description": "Adverse events (AEs) were collected using Common Terminology Criteria for Adverse Events (CTCAE) v4.0. AEs were collected at the end of each cycle, from first dose of trial treatment until 28 days after all treatment discontinuation (collected at End of Treatment visit done within 30 days after stop of all trial treatment; or at the time of decision to stop the trial treatment if the decision is taken \\>30 days after last dose).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Experimental",
+          "description": "Palbociclib plus Fulvestrant\n\nPalbociclib: 125 mg, orally, daily for 3 weeks followed by 1 week off; repeated at every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.\n\nFulvestrant: 500mg, intramuscularly on days 1 and 15 of cycle 1, then on day 1 (+/- 3 days) of every 28 days cycle until progression, lack of tolerability, or patient declines further protocol treatment.",
+          "deathsNumAffected": 30,
+          "deathsNumAtRisk": 122,
+          "seriousNumAffected": 89,
+          "seriousNumAtRisk": 122,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 122
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Neutrophil count decrease",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE v4.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 87,
+              "numAtRisk": 122
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE v4.0",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 122
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Head Trial Activities and Deputy Director: Dr. Heidi Roschitzki-Voser",
+        "organization": "International Breast Cancer Study Group",
+        "email": "heidi.roschitzki@ibcsg.org",
+        "phone": "+41 31 511 94 00"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2017-01-26",
+          "uploadDate": "2021-10-15T03:57",
+          "filename": "Prot_000.pdf",
+          "size": 1770291
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2020-01-07",
+          "uploadDate": "2021-09-02T11:32",
+          "filename": "SAP_001.pdf",
+          "size": 149184
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Finland"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

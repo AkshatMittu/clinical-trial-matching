@@ -1,0 +1,318 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07190443",
+      "orgStudyIdInfo": {
+        "id": "JCOG2313"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "jRCTs031240666",
+          "type": "OTHER",
+          "domain": "National Cancer Center Hospital"
+        }
+      ],
+      "organization": {
+        "fullName": "Japanese Foundation for Cancer Research",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adjuvant Abemaciclib for Locoregional Recurrence of HR-positive, HER2-negative Breast Cancer (JCOG2313, AURA)",
+      "officialTitle": "Randomized Phase III Trial for Evaluating the Efficacy of Adjuvant Abemaciclib in Patients With Locoregional Recurrence of Hormone Receptor-positive, HER2-negative Breast Cancer. JCOG2313, AURA Trial.",
+      "acronym": "AURA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2034-02-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2035-02-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-22",
+      "studyFirstSubmitQcDate": "2025-09-22",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Yukinori Ozaki",
+        "investigatorTitle": "Head Physician",
+        "investigatorAffiliation": "Japanese Foundation for Cancer Research"
+      },
+      "leadSponsor": {
+        "name": "Japanese Foundation for Cancer Research",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Japan Clinical Oncology Group",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The JCOG2313 trial is a multicenter, randomized, phase III study designed to evaluate the efficacy and safety of adjuvant abemaciclib in combination with endocrine therapy versus endocrine therapy alone in patients with hormone receptor (HR)-positive, HER2-negative breast cancer who have undergone curative treatment for their first locoregional recurrence (LRR).\n\nAlthough HR-positive, HER2-negative breast cancer generally has a favorable prognosis, LRR-such as ipsilateral breast tumor recurrence (IBTR), chest wall recurrence, or regional lymph node recurrence-remains a clinically significant event that increases the risk of distant metastasis. While endocrine therapy is standard in this setting, the benefit of adding chemotherapy or other agents remains unclear, and treatment strategies vary widely.\n\nAbemaciclib, a CDK4/6 inhibitor, has shown survival benefit in the adjuvant setting for high-risk early breast cancer. However, its role in post-LRR adjuvant treatment has not been evaluated in a randomized setting. This study aims to determine whether the addition of abemaciclib to endocrine therapy can improve invasive disease-free survival (IDFS) in patients after LRR.\n\nEligible patients are randomized 1:1 to receive either endocrine therapy alone or endocrine therapy plus abemaciclib (150 mg twice daily for 2 years). The primary endpoint is IDFS. Secondary endpoints include distant recurrence-free survival, breast cancer-specific survival, overall survival, and safety. A total of 290 patients will be enrolled. Randomization is stratified by site of recurrence, endocrine resistance, perioperative chemotherapy, and institution.\n\nAdditionally, a prospective ancillary study will assess circulating tumor DNA (ctDNA) as a biomarker for molecular residual disease (MRD). Plasma samples will be collected at predefined time points to evaluate the prognostic and predictive value of ctDNA for relapse and treatment response.\n\nThe JCOG2313 trial addresses an unmet need in the management of HR-positive, HER2-negative LRR and may contribute to the establishment of a new standard systemic therapy and personalized monitoring strategies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Locoregional Recurrence",
+        "Abemaciclib",
+        "Endocrine Therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 290,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard endocrine therapy (Arm A)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in Arm A will receive standard endocrine therapy alone as adjuvant treatment following curative-intent local therapy for first locoregional recurrence (LRR) of hormone receptor (HR)-positive, HER2-negative breast cancer. No CDK4/6 inhibitor is administered in this arm.",
+          "interventionNames": [
+            "Drug: Endocrine Therapy (ET): letrozole, anastrozole, exemestane, tamoxifen"
+          ]
+        },
+        {
+          "label": "Endocrine therapy in combination with abemaciclib (Arm B)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in Arm B will receive endocrine therapy in combination with abemaciclib following curative-intent local treatment for first LRR of HR-positive, HER2-negative breast cancer.",
+          "interventionNames": [
+            "Drug: Endocrine therapy + Abemaciclib"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Endocrine therapy + Abemaciclib",
+          "description": "This intervention consists of adjuvant endocrine therapy in combination with abemaciclib, a CDK4/6 inhibitor, administered to patients with HR-positive, HER2-negative breast cancer who have undergone curative-intent local treatment for their first LRR, including ipsilateral breast tumor recurrence, chest wall recurrence, or regional lymph node recurrence.\n\nAbemaciclib is given orally at a dose of 150 mg twice daily for a maximum of 2 years, in accordance with the approved dosing regimen in the adjuvant setting. The choice of endocrine therapy-aromatase inhibitor, tamoxifen, or tamoxifen plus ovarian function suppression-is determined based on menopausal status and prior treatment history.",
+          "armGroupLabels": [
+            "Endocrine therapy in combination with abemaciclib (Arm B)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Endocrine Therapy (ET): letrozole, anastrozole, exemestane, tamoxifen",
+          "description": "This intervention consists of adjuvant endocrine therapy alone in patients with HR-positive, HER2-negative breast cancer who have undergone curative treatment for their first LRR, including ipsilateral breast tumor recurrence, chest wall recurrence, or regional lymph node recurrence.\n\nThe choice of endocrine therapy (aromatase inhibitor, tamoxifen, or tamoxifen plus ovarian function suppression) is determined based on the patient's menopausal status and prior treatment history, as specified in the protocol. Treatment is continued for five years or until disease recurrence, unacceptable toxicity, or withdrawal of consent.\n\nThis intervention does not include CDK4/6 inhibitors.",
+          "armGroupLabels": [
+            "Standard endocrine therapy (Arm A)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive disease-free survival",
+          "description": "Defined as the time from randomization to the first occurrence of one of the following events:\n\n* Recurrence of invasive breast cancer in the ipsilateral breast, chest wall, or regional lymph nodes (locoregional recurrence);\n* Distant recurrence of breast cancer (metastatic disease);\n* Invasive contralateral breast cancer;\n* Second primary invasive non-breast cancer (excluding non-melanoma skin cancer and in situ cervical cancer);\n* Death from any cause. Patients who have not experienced any of the above events will be censored at the date of last disease assessment.",
+          "timeFrame": "Up to 9 years (4 years of accrual and 5 years of follow-up)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Distant recurrence-free survival",
+          "description": "Distant Recurrence-Free Survival (DRFS) is defined as the time from randomization to the first occurrence of distant recurrence of breast cancer or death from any cause, whichever occurs first.\n\nDistant recurrence is defined as radiographically or pathologically confirmed metastatic disease outside of the locoregional area.\n\nPatients without events will be censored at the date of last disease assessment.\n\nDRFS is evaluated as a secondary endpoint to assess the effectiveness of treatment in preventing distant metastatic progression.",
+          "timeFrame": "Up to 9 years (4 years of accrual and 5 years of follow-up)"
+        },
+        {
+          "measure": "Breast cancer-specific survival",
+          "description": "Breast Cancer-Specific Survival (BCSS) is defined as the time from randomization to death due to breast cancer.\n\nDeaths from other causes (non-breast cancer-related) will be considered competing events and will be censored at the time of death.\n\nPatients who are alive at the time of analysis or lost to follow-up will be censored at the date of last known contact.\n\nBCSS is included as a secondary endpoint to evaluate the disease-specific mortality benefit of the intervention.",
+          "timeFrame": "Up to 9 years (4 years of accrual and 5 years of follow-up)"
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Overall Survival (OS) is defined as the time from randomization to death from any cause.\n\nPatients who are alive at the time of analysis or lost to follow-up will be censored at the date of last known contact.\n\nOS will be assessed as a secondary endpoint to evaluate the overall survival benefit of adjuvant abemaciclib in combination with endocrine therapy in the post-recurrence setting.",
+          "timeFrame": "Up to 9 years (4 years of accrual and 5 years of follow-up)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. The patient has been diagnosed with the first locoregional recurrence (LRR) after receiving definitive treatment for primary breast cancer. LRR includes one or more of the following:\n\n   (i) Ipsilateral breast tumor recurrence (ii) Ipsilateral chest wall recurrence (iii) Regional lymph node recurrence\n2. At least one LRR lesion must be confirmed by a biopsy, surgical specimen, or cell block from cytology, and must meet all of the following:\n\n   (i) Pathologically confirmed as invasive breast cancer, or diagnosed as breast cancer in a cytology cell block (in cases where only a cell block is available, the initial primary breast cancer must have been invasive).\n\n   (ii) Hormone receptor (HR) expression is positive. (iii) HER2 expression is negative.\n\n   \u203b If multiple lesions are pathologically evaluated and any lesion is HR-negative or HER2-positive, the patient is ineligible.\n3. No prior diagnosis of distant metastasis of breast cancer.\n4. Imaging assessment before registration confirms:\n\n   No lymph nodes \u226510 mm in short axis No evidence of distant metastasis\n5. Age \u226518 years at the time of registration.\n6. ECOG Performance Status of 0 or 1.\n7. Chemotherapy for LRR is allowed prior to enrollment.\n8. The patient does not have bilateral breast cancer.\n9. No prior history of treatment with CDK4/6 inhibitors.\n10. Written informed consent has been obtained for participation in this clinical trial.\n\nExclusion Criteria:\n\n1. Presence of active double cancer (synchronous malignancy requiring treatment).\n2. Ongoing infectious disease requiring systemic therapy.\n3. Fever \u226538.0\u00b0C at the time of registration.\n4. Women who are pregnant, possibly pregnant, within 28 days postpartum, or breastfeeding; men whose partners intend to become pregnant.\n5. Psychiatric illness or symptoms that interfere with daily living and may compromise trial participation.\n6. Ongoing systemic administration (oral or IV) of steroids equivalent to \u226510 mg/day of prednisolone or other immunosuppressive agents.\n7. Unstable angina (developed or worsened within the past 3 weeks) or myocardial infarction within the past 6 months.\n8. Uncontrolled hypertension.\n9. Uncontrolled diabetes mellitus despite continuous insulin or oral antidiabetic therapy.\n10. Positive for HBs antigen or HCV antibodies (Patients positive for HCV antibodies are not excluded if HCV-RNA is undetectable.)\n11. Positive for HIV antibodies (HIV testing is not mandatory.)\n12. Presence of interstitial pneumonia, pulmonary fibrosis, or severe emphysema as diagnosed by chest CT.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yukinori Ozaki, MD. PhD.",
+          "role": "CONTACT",
+          "phone": "+81335200111",
+          "email": "yukinori.ozaki@jfcr.or.jp"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cancer Institute Hospital of JFCR",
+          "status": "RECRUITING",
+          "city": "Koto-ku",
+          "state": "Tokyo",
+          "zip": "135-8550",
+          "country": "Japan",
+          "contacts": [
+            {
+              "name": "Yukinori Ozaki, MD. PhD.",
+              "role": "CONTACT",
+              "phone": "+81335200111",
+              "email": "yukinori.ozaki@jfcr.or.jp"
+            }
+          ]
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "Plans for sharing IPD have not been finalized. Data sharing may be considered in the future pending appropriate ethical and regulatory approvals."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

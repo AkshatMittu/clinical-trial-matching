@@ -1,0 +1,271 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03417115",
+      "orgStudyIdInfo": {
+        "id": "IOM-100361"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "Registerplattform OPAL",
+          "type": "OTHER",
+          "domain": "iOMEDICO"
+        }
+      ],
+      "organization": {
+        "fullName": "iOMEDICO AG",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Breast Cancer Registry Platform",
+      "officialTitle": "Treatment and Outcome of Patients With Breast Cancer: Clinical Research Platform for Real World Data",
+      "acronym": "OPAL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2032-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-01-24",
+      "studyFirstSubmitQcDate": "2018-01-30",
+      "studyFirstPostDateStruct": {
+        "date": "2018-01-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "iOMEDICO AG",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the project is to set up a national, prospective, longitudinal, multicenter cohort study with associated satellites, a tumor registry platform, to document uniform data on characteristics, molecular diagnostics, treatment and course of disease, to collect patient-reported outcomes and to establish a decentralized biobank for patients with breast cancer in Germany.",
+      "detailedDescription": "OPAL is a national, observational, prospective, longitudinal, multicenter cohort study (tumor registry platform) with the purpose to record information on the antineoplastic treatment of breast cancer in Germany. The registry will follow patients for up to five years. It will identify common therapeutic sequences and changes in the treatment of the disease. At inclusion, data in patient characteristics, comorbidities, tumor characteristics and previous treatments are collected. During the course of observation data on all systemic treatments, radiotherapies, surgeries, and outcome are documented.\n\nHealth-related quality of life in patients with breast cancer will be evaluated for up to five years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Epidemiology",
+        "Registry",
+        "Health Services Research",
+        "Germany",
+        "Palliative Treatment",
+        "Adjuvant Treatment",
+        "Neoadjuvant Treatment"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "5 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 6150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Advanced breast cancer - Her2 positive",
+          "description": "Patients with HER2-positive advanced breast cancer"
+        },
+        {
+          "label": "Advanced breast cancer - triple negative",
+          "description": "Patients with triple negative advanced breast cancer"
+        },
+        {
+          "label": "Advanced breast cancer - HR positive, Her2 negative",
+          "description": "Patients with HR positive, Her2 negative advanced breast cancer"
+        },
+        {
+          "label": "Early breast cancer - HER2 positive",
+          "description": "Patients with HER2 positive early breast cancer"
+        },
+        {
+          "label": "Early breast cancer - triple negative",
+          "description": "Patients with triple negative early breast cancer"
+        },
+        {
+          "label": "Early breast cancer - HR positive, HER2 negative",
+          "description": "Patients with HR positive, HER2 negative early breast cancer"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Treatment reality",
+          "description": "Description of treatment reality (Course of systemic treatments and sequential treatments) applied in German routine practice measured as the frequency of the various systemic treatments applied per line of therapy.",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Best Response",
+          "description": "Documentation of response rates per line of treatment.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Progression-free survival",
+          "description": "Documentation of progression-free survival per line of treatment.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Documentation of date of death.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Health-related quality of life (Patient-reported outcome)",
+          "description": "EORTC QLQ-C30 core questionnaire and additional items.",
+          "timeFrame": "3.5 years"
+        },
+        {
+          "measure": "Disease-free survival",
+          "description": "Documentation of disease-free survival.",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "EBC cohort:\n\n* Female and male patients with early breast cancer (stage I-III defined as breast cancer that has not spread beyond the breast or the axillary lymph nodes)\n* Patients at the start of their initial systemic treatment for EBC, i.e. at start of neoadjuvant treatment for patients receiving neoadjuvant therapy or at start of adjuvant treatment if no neoadjuvant therapy is given. Treatment can be cytotoxic, endocrine, or targeted substances, whatever was given first\n\nABC cohort I (prospective):\n\n* Female and male patients with advanced breast cancer (stage IV defined as synchrone or metachrone diagnosis of distant metastases at inclusion)\n* Patients at the start of their initial first-line systemic treatment for ABC, which can be cytotoxic, endocrine or targeting a specific signaling pathway, whatever is given first\n\nABC cohort II (retrospective):\n\n* Confirmed diagnosis of HR-positive, HER2-negative ABC (stage IV defined as synchrone or metachrone diagnosis of distant metastases at inclusion)\n* Start of initial first-line systemic treatment for ABC, which can be cytotoxic, endocrine or targeting a specific signaling pathway, whatever is given first, between September 2021 and December 2025\n* Inclusion is possible regardless of whether patients are alive or deceased at the time of documentation; for patients alive: written informed consent\n\nProspective cohorts:\n\n* Written informed consent\n* Patients participating in the PRO module: signing of informed consent form and completion of baseline questionnaire before start of initial systemic treatment for EBC or systemic first-line treatment for ABC\n* All patients not participating in the PRO module: within six weeks after start of initial systemic treatment for EBC or systemic first-line treatment for ABC\n\nAll cohorts:\n\n\u2022 Age \u2265 18 years",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Adult female and male patients with breast cancer starting first systemic treatment for EBC or ABC.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lisa Kruggel",
+          "role": "CONTACT",
+          "phone": "+49 761 15242-0",
+          "email": "info@iomedico.com"
+        },
+        {
+          "name": "Ursula Dietrich",
+          "role": "CONTACT",
+          "phone": "+49 761 15242-0",
+          "email": "info@iomedico.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Norbert Marschner, MD",
+          "affiliation": "Praxis f\u00fcr interdisziplin\u00e4re Onkologie & H\u00e4matologie",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Multiple sites all over germany",
+          "status": "RECRUITING",
+          "city": "Many Locations",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "iOMEDICO AG",
+              "role": "CONTACT",
+              "phone": "+49 761 15242-0",
+              "email": "info@iomedico.com"
+            }
+          ]
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41851017",
+          "type": "RESULT",
+          "citation": "Marschner P, Ringwald K, Thill M, Zahn MO, Welt A, Nusch A, Kaltenecker G, Rodemer Y, Hagen V, Schock C, Kruggel L, Kaiser-Osterhues A, Klein D, Haug N, Stickeler E, Harbeck N, Wockel A, Marschner N, Decker T; OPAL Registry Group. Prediction of dose reductions and impact of reduced starting doses of CDK4/6i on effectiveness in HR-positive/HER2-negative metastatic breast cancer: Real-world data from the OPAL registry. Int J Cancer. 2026 Jul 1;159(1):244-256. doi: 10.1002/ijc.70433. Epub 2026 Mar 18."
+        },
+        {
+          "pmid": "39707595",
+          "type": "RESULT",
+          "citation": "Thill M, Zahn MO, Welt A, Nusch A, Zaiss M, Engelken K, Kaltenecker G, Ringwald K, Gratzke K, Dille S, Kruggel L, Janicke M, Schulz H, Hagen V, Fricker R, Stickeler E, Harbeck N, Wockel A, Decker T. Head-to-head comparison of palbociclib and ribociclib in first-line treatment of HR-positive/HER2-negative metastatic breast cancer with real-world data from the OPAL registry. Int J Cancer. 2025 May 1;156(9):1770-1782. doi: 10.1002/ijc.35296. Epub 2024 Dec 20."
+        },
+        {
+          "pmid": "36807725",
+          "type": "RESULT",
+          "citation": "Thill M, Zahn MO, Welt A, Stickeler E, Nusch A, Fietz T, Rauh J, Wetzel N, Kruggel L, Janicke M, Marschner N, Harbeck N, Wockel A, Decker T; OPAL study group. Treatment and outcome in metastatic lobular breast cancer in the prospective German research platform OPAL. Breast Cancer Res Treat. 2023 Apr;198(3):545-553. doi: 10.1007/s10549-023-06882-7. Epub 2023 Feb 18."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,381 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00651976",
+      "orgStudyIdInfo": {
+        "id": "VICC BRE 0776"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "P50CA098131",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P50CA098131"
+        },
+        {
+          "id": "P30CA068485",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30CA068485"
+        },
+        {
+          "id": "VU-VICC-BRE-0776"
+        },
+        {
+          "id": "VU-VICC-IRB-080064"
+        }
+      ],
+      "organization": {
+        "fullName": "Vanderbilt-Ingram Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Letrozole in Treating Postmenopausal Women With Stage I, II or III Breast Cancer That Can Be Removed by Surgery",
+      "officialTitle": "Pre-Surgical Trial of Letrozole in Post-Menopausal Patients With Operable Hormone-Sensitive Breast Cancer (Spore)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "funding unavailable",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2008-03"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2008-04-02",
+      "studyFirstSubmitQcDate": "2008-04-02",
+      "studyFirstPostDateStruct": {
+        "date": "2008-04-03",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-10-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Ingrid Meszoely, MD",
+        "investigatorTitle": "Associate Professor of Surgery (Surgical Oncology); Clinical Director, Vanderbilt Breast Center; Surgical Oncologist",
+        "investigatorAffiliation": "Vanderbilt-Ingram Cancer Center"
+      },
+      "leadSponsor": {
+        "name": "Vanderbilt-Ingram Cancer Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "RATIONALE: Hormone therapy using letrozole may fight breast cancer by lowering the amount of estrogen the body makes. Giving letrozole before surgery allows us to monitor the effects of letrozole on the tumor on a molecular level and determine markers of response to treatment.\n\nPURPOSE: This study will show us how well letrozole works in treating postmenopausal women with stage I, II or III breast cancer that can be removed by surgery.",
+      "detailedDescription": "OBJECTIVES:\n\nPrimary To determine that in breast tumors that continue to exhibit high proliferation (i.e., Ki67) upon hormone deprivation (with letrozole), their gene expression and/or a mutational or proteomic signatures will harbor molecules or 'pathways' that are biomarkers of resistance to endocrine therapy or a cause of it.\n\nThe ultimate goal of these aims is to identify clinically-targetable pathways which can be exploited to enhance responses and survival in patients with ER+ breast cancer.\n\nOUTLINE: Patients receive oral letrozole once daily for 7-21 days in the absence of disease progression or unacceptable toxicity. Within 24 hours after the last dose of letrozole, patients undergo total mastectomy or segmental resection with lymph node evaluation.\n\nPre-treatment diagnostic breast tissue is obtained. Patients undergo treatment and then undergo standard of care mastectomy or lumpectomy. Pre and post treatment tumor tissue samples are analyzed for Ki67, P-ER, ER, progesterone receptor (PR), and caspase 3 by immunohistochemistry; and RNA microarray."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "stage IA breast cancer",
+        "stage IB breast cancer",
+        "stage II breast cancer",
+        "stage III breast cancer",
+        "HER2-negative breast cancer",
+        "estrogen receptor-positive breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 213,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "treatment",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: letrozole",
+            "Other: Blood Collection",
+            "Procedure: biopsy/lumpectomy/mastectomy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "letrozole",
+          "description": "Take by mouth at a dose of 2.5 mg on days 7-21",
+          "armGroupLabels": [
+            "treatment"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Blood Collection",
+          "description": "Blood used for gene expression analysis and reverse transcriptase-polymerase chain reaction",
+          "armGroupLabels": [
+            "treatment"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "biopsy/lumpectomy/mastectomy",
+          "description": "Tissue collection,Surgery to remove tumor, Tumor tissues used for laboratory biomarker analysis",
+          "armGroupLabels": [
+            "treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ki67 index measured in hormone receptor-positive breast cancers compared to those that are hormone receptor-negative",
+          "description": "Ki67 index is measured by counting the percentage of cells staining for Ki67 in a section of breast tissue. The number of stained cells will be compared in tissue that is hormone receptor-positive tissue to tissue that is hormone receptor negative.",
+          "timeFrame": "day 7 to day 21"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "In situ apoptotic effect of letrozole",
+          "description": "Measured by level of capase-3 in post-treatment breast tissue.",
+          "timeFrame": "day 7 to day 21"
+        },
+        {
+          "measure": "Identification of a recurrence risk biomarker profile using RNA microarray",
+          "description": "RNA will be extracted from pre- and post-treatment breast tissue and will be compared with the Ki67 index",
+          "timeFrame": "day 7 to day 21"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of invasive breast cancer\n\n  * Clinical stage I, II, or III disease\n  * Resectable disease\n* Measurable disease, defined as a mass that can be reproducibly measured by physical examination and/or ultrasound and is at least 1 cm in size by ultrasound\n\n  * Patients with measurable residual tumor at the primary site allowed\n* Estrogen receptor-positive tumor by immunohistochemistry (IHC)\n* HER2-negative tumor by Herceptest (0 or +1) OR HER2 not overexpressed by fluorescence in situ hybridization (FISH)\n* Planning to undergo surgical treatment with either segmental resection or total mastectomy with or without lymph node evaluation\n* Must have core biopsies from the time of diagnosis available (may include sections of paraffin-embedded material)\n* Prior contralateral breast cancer allowed provided there is no evidence of recurrence of the initial primary breast cancer\n* Patients with locally advanced disease who are candidates for preoperative chemotherapy at the time of initial evaluation are not eligible\n\n  * Locally advanced disease is defined by any of the following:\n\n    * Primary tumor \u2265 5 cm (T3)\n    * Tumor of any size with direct extension to the chest wall or skin (T4a-c)\n    * Inflammatory breast cancer (T4d)\n    * Fixed axillary lymph node metastases (N2)\n    * Metastasis to ipsilateral internal mammary node (N3)\n* No locally recurrent disease\n* No evidence of distant metastatic disease (i.e., lung, liver, bone, or brain metastases)\n\nPATIENT CHARACTERISTICS:\n\n* ECOG performance status 0-1\n* Postmenopausal, as defined by any of the following:\n\n  * 55 years of age and over\n  * Under 55 years of age and meets 1 of the following criteria:\n\n    * Amenorrheic for at least 12 months\n    * Follicle-stimulating hormone (FSH) \u2265 40 IU/L and estradiol levels \u2264 20 IU/L\n  * Has undergone prior bilateral oophorectomy or radiation castration AND has been amenorrheic for at least 6 months\n* Bilirubin \u2264 1.5 times upper limit of normal (ULN)\n* SGOT and SGPT \u2264 1.5 times ULN\n* Creatinine \u2264 1.5 t times ULN\n* Able to swallow and retain oral medication\n* No serious medical illness that, in the judgment of the treating physician, places the patient at high risk for operative mortality\n* No malabsorption syndrome, ulcerative colitis, or other disease significantly affecting gastrointestinal function\n* No other malignancy within the past 5 years except for completely resected nonmelanoma skin cancer or successfully treated in situ carcinoma\n* No dementia, altered mental status, or any psychiatric condition that would preclude the understanding or rendering of informed consent\n* No severe uncontrolled malabsorption condition or disease (i.e., grade II/III diarrhea, severe malnutrition, or short gut syndrome)\n\nPRIOR CONCURRENT THERAPY:\n\n* See Disease Characteristics\n* At least 21 days since prior tamoxifen or raloxifene as a preventive agent\n* At least 7 days since prior hormone replacement therapy (e.g., conjugated estrogens \\[Premarin\\])\n* No prior resection of the stomach or small bowel\n* More than 30 days or 5 half-lives, whichever is longer, since prior investigational drugs\n* No prior chemotherapy for this primary breast cancer\n* No other concurrent investigational agents\n* No other concurrent anticancer therapy (e.g., chemotherapy, radiotherapy, immunotherapy, hormonal therapy, or any other biologic therapy)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ingrid Meszoely, MD",
+          "affiliation": "Vanderbilt-Ingram Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Emory University",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Surgical Associates, Inc.",
+          "city": "Tulsa",
+          "state": "Oklahoma",
+          "zip": "74136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.15398,
+            "lon": -95.99277
+          }
+        },
+        {
+          "facility": "Allegheny Cancer Center",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Vanderbilt-Ingram Cancer Center, One Hundred Oaks",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Vanderbilt-Ingram Cancer Center",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232-6838",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Vanderbilt-Ingram Cancer Center, Find a Clinical Trial",
+          "url": "http://www.vicc.org/ct/"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D001800",
+          "term": "Blood Specimen Collection"
+        },
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D011677",
+          "term": "Punctures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D003581",
+          "term": "Cytodiagnosis"
+        },
+        {
+          "id": "D003584",
+          "term": "Cytological Techniques"
+        },
+        {
+          "id": "D003949",
+          "term": "Diagnostic Techniques, Surgical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

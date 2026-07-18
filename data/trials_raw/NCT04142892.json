@@ -1,0 +1,276 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04142892",
+      "orgStudyIdInfo": {
+        "id": "ONAWA (SOLTI-1802)"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-001433-13",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Onapristone as Preoperative Treatment for Postmenopausal Women With Hormone Receptor + and HER2- Breast Cancer",
+      "officialTitle": "A Window of Opportunity Trial of Onapristone as Preoperative Treatment for Postmenopausal Women With Hormone Receptor-Positive and HER2-negative Breast Cancer",
+      "acronym": "ONAWA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-04-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-24",
+      "studyFirstSubmitQcDate": "2019-10-28",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-03-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-04-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "ONAWA is a window of opportunity, prospective, multicenter, phase 0 trial which evaluates the effect of onapristone (ONA) on proliferation after 3 weeks of treatment in postmenopausal women with ER+/PgR+ and HER2-negative early breast cancer amenable to pre-operative endocrine therapy and surgery.",
+      "detailedDescription": "The main hypothesis is that onapristone, an antiprogestin will induce a significant proliferative arrest in HR+/HER2-negative breast cancer. The primary endpoint is chosen based on reports which related the 2.7% Ki67 value (natural log of 1) both after a 15 days1 or 3-4 months of neoadjuvant endocrine treatment with favorable breast cancer relapse free and overall survival2,3. Hence, this Ki67 cut-off (Complete Cell Cycle Arrest, or CCCA) has been consistently used in recent trials as an acceptable surrogate marker of clinical and biological efficacy, even though the achievement of a pathological complete response is very unusual in luminal tumors after preoperative endocrine therapy. Trials with biological endpoint, including the so-called window of opportunity trials such as the ONAWA study provide tumor tissue before and after a short course of a given therapy for biomarker analyses of response and resistance. The aim of these studies is to improve the investigator's understanding regarding the biologic effect of a given drug, in order to better define its target population early in its development without interfering with the standard treatment pattern of the patient."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "window of opportunity, prospective, multicenter, phase 0 trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Onapristone",
+          "type": "EXPERIMENTAL",
+          "description": "50 mg given orally (PO), twice a day (BID), in a continuous schedule (QD). 3 weeks of (+/-3 days) of ONA treatment",
+          "interventionNames": [
+            "Drug: Onapristone"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Onapristone",
+          "description": "50 mg given orally (PO), twice a day (BID), in a continuous schedule (QD) during 3 weeks (+/-3 days)",
+          "armGroupLabels": [
+            "Onapristone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Complete Cell Cycle Arrest (CCCA)",
+          "description": "CCCA rate determined by Ki67 \\< 2.7%",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "IHC of tumor expression",
+          "description": "IHC of tumor expression of ER, PgR, CD24, CD44, ALDH1, Ser294-PgR, Ki67",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "PAM50 (Prediction Analysis of Microarray 50) subtype change",
+          "description": "PAM50 subtype changes upon ONA therapy",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "antiproliferative effect",
+          "description": "Suppression of PAM50 11-gene proliferation signature according to PAM50 subtypes upon treatment.. These changes will be analyzed according to the formula: Mean suppression = 100 - \\[geometric mean (post-treatment / pretreatment \u00b7 100)\\].",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "proliferation score",
+          "description": "mean suppression of PAM50 11-gene proliferation signature according to PAM50 subtypes",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "gene expression changes",
+          "description": "* expression of 770 genes across of 23 categories of BC tumor biology\n* changes in the expression of the 16-PgR target genes",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "molecular markers in blood",
+          "description": "Estradiol and progesterone levels",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "identification putative prognostic and predictive biomarkers",
+          "description": "* Development of a gene signature of response to ONA based on changes in the expression of 770 genes by the nCounter Breast 360TM panel in the tumor.\n* Analysis of the presence of ctDNA and its dynamics after ONA treatment.",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        },
+        {
+          "measure": "Adverse Events (AEs)",
+          "description": "Incidence, duration and severity of Adverse Events (AEs) assessed by the NCI Common Terminology for Classification of Adverse Events (CTCAE) version 5.0, including treatment discontinuations.",
+          "timeFrame": "after 3 weeks of ONA therapy"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Written and signed informed consent for all study procedures according to local regulatory requirements prior to beginning specific protocol procedures.\n2. Age \u2265 18 years.\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.\n4. Postmenopausal women defined either by:\n\n   1. Age \u226560 or\n   2. Age \\< 60 and amenorrhea for \u2265 12 months and FSH and E2 plasmatic levels in the post-menopausal range per local standards or\n   3. Prior bilateral oophorectomy (28 days before Day 1 of the study treatment).\n5. Histologically confirmed invasive breast carcinoma eligible for surgery with all the following characteristics:\n\n   1. Primary tumor diameter of at least 15 mm (cT1c-3) as measured by ultrasound (US).\n   2. No regional lymph node metastases by imaging or clinical examination (cN0).\n   3. ER-positive and PgR-positivity (ER+/PgR+), as assessed locally, defined by American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP) clinical practice guidelines.\n   4. HER2-negative status, as assessed locally, defined by American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP)\n   5. In case of multifocal tumors (defined as the presence of two or more foci of cancer within the same breast quadrant), the largest lesion must be measured in at least one dimension of minimal 15 mm per US. This lesion will be designated as 'target' lesion for all subsequent evaluations. ER+/PgR+ and HER2-negative status must be documented in all the tumor foci. Site markers should be placed in each accessible lesion, even if mastectomy is planned, to facilitate correct tumor assessment by the pathologist.\n   6. Cells staining positive for Ki67 \u2265 15% as locally assessed.\n   7. Available pre-treatment formalin-fixed paraffin-embedded (FFPE) tumor specimen or possibility to obtain one. Minimal sample requirements are: at least 2 tumor cylinders with a minimal tissue surface of 10 mm2, containing \u226510% tumor cells, enough to obtain at least 2 cuts of 10 \u00b5m each. Tumor cylinder will be mandatory.\n6. No clinical or radiographic evidence of distant metastases (M0).\n7. Adequate hematologic and organ function within 14 days before the first study treatment on Day 1, defined by the following:\n\n   1. Neutrophils (ANC \u22651500/\u03bcL).\n   2. Hemoglobin \u22659 g/dL (with no need for transfusions).\n   3. Platelet count \u2265100000/\u03bcL.\n   4. Serum albumin \u22653 g/dL.\n   5. Calculated creatinine clearance of \u2265 60 mL/min based on the Cockcroft-Gault glomerular filtration rate estimation:\n\n      (140 - age) x (weight in kg) x 0.85 72 x (serum creatinine in mg/dL).\n   6. International normalized ratio (INR) or prothrombin time (PT) \u22641.5 \u00d7 ULN and activated partial thromboplastin time (aPTT) within therapeutic range.\n   7. Potassium, total Calcium (corrected for serum albumin), Magnesium and Natrium with institutional normal limits or corrected with normal limits with supplement before first dose of study medication.\n8. Ability to swallow study drug and comply with study requirements.\n9. Absence of any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be discussed with the patient before registration in the trial.\n\nExclusion Criteria:\n\n1. Inoperable locally advanced or inflammatory (i.e., Stage III) breast cancer.\n2. Metastatic (Stage IV) breast cancer.\n3. Invasive bilateral o multicentric breast cancer.\n4. Patients requiring neoadjuvant chemotherapy or immediate surgical intervention.\n5. Patients who have undergone sentinel lymph node biopsy or tumor excisional biopsy prior to study treatment.\n6. Prior malignancy within 3 years prior to randomization, except curatively treated non-melanoma skin cancer, in situ cervical cancer or adequately treated Stage I or II cancer from which the patient is currently in complete remission or other cancer from which the patient has been disease-free for 2 years.\n7. Congenital long QT syndrome or screening QT interval corrected using Fridericia's formula (QTcF) \\> 480 milliseconds or any clinically significant cardiac rhythm abnormalities.\n8. Liver function tests documented within the screening period and on Day 1 of treatment period:\n\n   d. Total bilirubin \\>1.5x the upper limit of normal (ULN) unless the patient has documented non-malignant disease (e.g. Gilbert\u00b4s syndrome) for whom conjugated bilirubin must be under ULN.\n\n   e. AST and ALT \\>2.5x ULN. f. Alkaline phosphatase ALP \\>2x ULN.\n9. Concurrent, serious, uncontrolled infections or current known infection with HIV (testing is not mandatory).\n10. Known hypersensitivity to any of the study drugs, including excipients.\n11. History or clinical evidence of any liver or biliary pathology including cirrhosis, infectious disease, inflammatory conditions, steatosis, or cholangitis (including ascending cholangitis, primary sclerosing cholangitis, obstruction, perforation, fistula of biliary tract, spasm of sphincter of Oddi, biliary cyst or biliary atresia).\n12. Known clinically significant history active viral or other hepatitis (e.g., positive for hepatitis B surface antigen \\[HBsAg\\] or hepatitis C virus \\[HCV\\] antibody at screening), current drug or alcohol abuse, or cirrhosis.\n\n    * Patients with past hepatitis B virus (HBV) infection or resolved HBV infection (defined as having a negative HBsAg test and a positive antibody to hepatitis B core antigen \\[HBcAg\\] antibody test) are eligible.\n    * Patients positive for HCV antibody are eligible only if polymerase chain reaction (PCR) is negative for HCV RNA.\n13. Chronic adrenal failure or is receiving concurrent long-term corticosteroid therapy. The following corticosteroid uses are permitted: single doses, topical applications (e.g. for rash), inhaled sprays (e.g. for obstructive airway diseases), eye drops or local injections (e.g. intra-articular).\n14. Lack of physical integrity of the upper gastrointestinal tract, malabsorption syndrome, or inability to swallow pills.\n15. History of or clinical evidence of significant co-morbidities that, in the judgment of the investigator, may interfere with the conduction of the study, the evaluation of response, or with informed consent.\n16. Received an investigational product or been treated with an investigational device within 30 days prior to first drug administration or plans to start any other investigational product or device study within 30 days after last drug administration.\n17. Hormonal treatments for other indications such as osteoporosis, breast cancer prevention, hormonal substitutive therapy, such as raloxifene, tamoxifen, estrogen, progestins. If a patient is on natural products known to contain progestins, they must be stopped 14 days prior to beginning study treatment.\n18. Used any prescription medication during the prior 1 month that the investigator judges is likely to interfere with the study or to pose an additional risk to the patient in participating, specifically inhibitors or inducers of cytochrome P450 (CYP)3A4.\n19. Major surgical procedure or significant traumatic injury within 30 days prior to enrollment.\n20. Assessment by the investigator to be unable or unwilling to comply with the requirements of the protocol.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospital Universitari Vall d'Hebron",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednic de Barcelona",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari Arnau de Vilanova de Lleida",
+          "city": "Lleida",
+          "zip": "25198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital Universitario Sant Joan de Reus",
+          "city": "Tarragona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.11905,
+            "lon": 1.24544
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "42215464",
+          "type": "DERIVED",
+          "citation": "Bellet M, Ferrero-Cafiero JM, Bergamino Sirven M, Falato C, Gonzalez X, Amillano K, Chic N, Morales S, Gasol A, Nuciforo P, Villacampa G, Villagrasa P, Diep CH, Seelig D, Lange C, D'Assoro A, Prat A, Pascual T, Saura C. Preoperative onapristone-XR in postmenopausal women with progesterone receptor-positive (PgR+)/HER2-negative early breast cancer: SOLTI-1802 ONAWA trial results. NPJ Breast Cancer. 2026 May 29. doi: 10.1038/s41523-025-00887-9. Online ahead of print."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C053238",
+          "term": "onapristone"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

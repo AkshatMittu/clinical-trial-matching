@@ -1,0 +1,169 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07052734",
+      "orgStudyIdInfo": {
+        "id": "BC-MRS-01"
+      },
+      "organization": {
+        "fullName": "Sun Yat-sen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Miti-gene Recurrence Score in HR+/HER2- Chinese Breast Cancer Patients",
+      "officialTitle": "A Multicenter Retrospective Analysis of the Miti-gene Recurrence Score in Early-Stage Invasive HR-Positive, HER2-Negative Breast Cancer in China",
+      "acronym": "BC-MRS-01"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-18",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2025-06-28",
+      "studyFirstSubmitQcDate": "2025-06-28",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-28",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-07-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "wang shusen",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Sun Yat-sen University"
+      },
+      "leadSponsor": {
+        "name": "Sun Yat-sen University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Update and validate the performance of the 21-gene score in prognostic stratification for early-stage HR-positive, HER2-negative breast cancer in China."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 2843,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Disease-free survival",
+          "description": "Disease-Free Survival (DFS) is defined as the duration from the completion of curative surgery until the first occurrence of any of the following events: local or distant relapse of the breast cancer, development of a new primary cancer, or death from any cause.",
+          "timeFrame": "10 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival",
+          "description": "Overall survival is defined as the duration from the completion of curative surgery until death from any cause.",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "Distant relapse-free survival",
+          "description": "Distant relapse-free survival is defined as the duration from the completion of curative surgery until distant relapse of the breast cancer.",
+          "timeFrame": "10 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Diagnosed age: 18-75 years.\n2. Early-stage invasive breast cancer, pN0-1.\n3. Molecular subtype: HR-positive (ER and/or PR positive), HER2-negative.\n4. At least five years of follow-up records (including cases with disease progression within five years and documented records).\n5. Sufficient FFPE samples for sectioning or frozen samples for RNA extraction and subsequent testing.\n\nExclusion Criteria:\n\n1. FFPE samples with tumor content \\<20%, and inability to enrich tumor regions through cutting.\n2. Insufficient extracted nucleic acid quantity or severe degradation preventing further experiments.\n3. Failure in RT-PCR amplification of housekeeping genes.\n4. Multiple primary breast cancers or a history of ipsilateral or contralateral breast cancer.\n5. Disease progression unrelated to breast cancer.\n6. Lack of prior signed consent for retrospective scientific research or exemption from informed consent.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "HR-positive, HER2-negative breast cancer",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Sun Yat-sen University Cancer Center",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510060",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

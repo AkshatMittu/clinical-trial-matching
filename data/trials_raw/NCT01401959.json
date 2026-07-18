@@ -1,0 +1,3110 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01401959",
+      "orgStudyIdInfo": {
+        "id": "SCRI BRE 186"
+      },
+      "organization": {
+        "fullName": "SCRI Development Innovations, LLC",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trial of Eribulin in Patients Who Do Not Achieve Pathologic Complete Response (pCR) Following Neoadjuvant Chemotherapy",
+      "officialTitle": "Phase II Trial of Eribulin in Patients Who Do Not Achieve Pathologic Complete Response (pCR) Following Neoadjuvant Chemotherapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-09-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-04-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-04-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-07-20",
+      "studyFirstSubmitQcDate": "2011-07-25",
+      "studyFirstPostDateStruct": {
+        "date": "2011-07-26",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2018-04-04",
+      "resultsFirstSubmitQcDate": "2018-04-04",
+      "resultsFirstPostDateStruct": {
+        "date": "2018-05-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-05-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SCRI Development Innovations, LLC",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Eisai Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators propose to evaluate eribulin as adjuvant therapy in breast cancer patients who have residual invasive disease in breast or lymph node tissue following standard neoadjuvant chemotherapy and surgery regimen. Three cohorts of patients will be evaluated separately based on tumor type: triple-negative, hormone-receptor-positive/HER2-negative, and HER2-positive breast cancers.",
+      "detailedDescription": "This is a non-randomized, open-label trial to evaluate 6 cycles of eribulin in female patients with invasive breast cancer who do not achieve pathologic complete response (pCR) after treatment with a standard neoadjuvant chemotherapy and surgery regimen. Patients will be randomized into three cohorts according to tumor-type: triple-negative (Cohort A), hormone-receptor-positive/HER2-negative (Cohort B), and HER2-positive (Cohort C) tumors. Patients will receive eribulin for 6 cycles (1 cycle = 21 days). Patients with HER2-positive tumors will also receive trastuzumab. Patients in all cohorts will be allowed to receive locoregional radiotherapy and/or adjuvant hormonal therapy per institutional guidelines."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "keywords": [
+        "Metastatic Breast Cancer",
+        "Adjuvant",
+        "Residual Disease",
+        "eribulin",
+        "Trastuzumab"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 127,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort A: Triple-negative breast cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Eribulin 1.4 mg/m\\^2 intravenously (IV)",
+          "interventionNames": [
+            "Drug: Eribulin"
+          ]
+        },
+        {
+          "label": "Cohort B: ER/PR+ /HER2- breast cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Eribulin 1.4 mg/m\\^2 intravenously (IV)",
+          "interventionNames": [
+            "Drug: Eribulin"
+          ]
+        },
+        {
+          "label": "Cohort C: HER2+ breast cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Eribulin 1.4 mg/m\\^2 intravenously (IV)\n\nTrastuzumab 6mg/kg intravenously (IV)",
+          "interventionNames": [
+            "Drug: Eribulin",
+            "Drug: Trastuzumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Eribulin",
+          "description": "1.4 mg/m\\^2 IV Days 1 and 8, every 21 days for six cycles",
+          "armGroupLabels": [
+            "Cohort A: Triple-negative breast cancer",
+            "Cohort B: ER/PR+ /HER2- breast cancer",
+            "Cohort C: HER2+ breast cancer"
+          ],
+          "otherNames": [
+            "Halaven"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Trastuzumab",
+          "description": "6 mg/kg IV Day 1 every 21 days",
+          "armGroupLabels": [
+            "Cohort C: HER2+ breast cancer"
+          ],
+          "otherNames": [
+            "Herceptin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Patients With a 2 Year Disease-Free Survival (DFS) as a Measure of Efficacy",
+          "description": "The percentage of patients that are without evidence of disease recurrence at the 2 year timepoint, as measured from date of first protocol treatment date to first documented disease progression date or date of death from any cause, whichever comes first. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+          "timeFrame": "Up to 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Patients Who Completed Eribulin Therapy as an Assessment of Treatment Feasibility",
+          "description": "Examines the feasibility of administering 6 cycles (21 days per cycle) of eribulin without toxicity or disease worsening following standard neoadjuvant chemotherapy and surgery.",
+          "timeFrame": "up to 18 weeks"
+        },
+        {
+          "measure": "The Number of Participants With Treatment-Related Adverse Events and Serious Adverse Events as a Measure of Safety",
+          "description": "A treatment-related adverse event or serious adverse event was any untoward medical occurrence in a participant which was considered to have a relationship with the study drug (suspected to be possibly or probably related to the study drug per the Investigator's assessment). Adverse events and serious adverse events will be assessed according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) V4.03.",
+          "timeFrame": "Weekly during each 21 day cycle and for 30 days after completion of protocol-specific treatment. After that patients were followed every 3 months for up to 2 years."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female patients \\>=18 years-of-age.\n2. Histologically confirmed breast cancer prior to surgery with the following staging criteria: T1-T3, T4a, T4b, N0-N2, N3a and M0 (T1N0M0 patients are excluded). Inflammatory disease is excluded.\n3. Previous treatment with a minimum of 4 cycles of neoadjuvant anthracycline and/or taxane containing chemotherapy (+trastuzumab in HER2-positive patients).\n4. Patients must be \u2265 21 days and \u2264 84 days from breast surgery and fully recovered. Patients may have had mastectomy or breast conservation surgery with axillary node dissection.\n5. Pathologic CR (pCR) not achieved following neoadjuvant treatment (i.e., residual invasive breast cancer (\\>5 mm) in the breast or presence of nodal disease at surgery \\[ypT0/T1a, N1-N3a, M0 or ypT1b-T4, N0-N3a, M0\\].\n6. Eastern Cooperative Oncology Group (ECOG) performance status score of 0-1.\n7. Recovery from any toxic effects of prior therapy to \\<=Grade 1 per the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE v4.0) except fatigue or alopecia.\n8. Peripheral neuropathy Grade \\<=2 per NCI CTCAE v4.0 at trial entry.\n9. Normal left ventricular ejection fraction (LVEF), within the institutional limits of normal, as measured by echocardiography (ECHO) or multi-gated (MUGA) scan in patients to receive trastuzumab with eribulin (HER2-positive).\n10. Adequate hematologic, hepatic, and renal function\n11. Complete staging work-up to confirm localized disease should include computed tomography (CT) scans of the chest and abdomen/pelvis (abdomen/pelvis preferred; abdomen accepted), a CT scan of the head or MRI of the brain (if symptomatic), and either a positron emission tomography (PET) scan or a bone scan. (Note: a PET/CT is acceptable for baseline imaging in lieu of CT examinations or bone scan). Negative scans performed prior to the initiation of neoadjuvant therapy, or at any subsequent time, are acceptable and do not need to be repeated.\n12. Female patients who are not of child-bearing potential and female patients of child-bearing potential who agree to use adequate contraceptive measures, who are not breastfeeding, and who have a negative serum pregnancy test performed within 7 days prior to start of trial treatment.\n13. Willingness and ability to comply with trial and follow-up procedures.\n14. Ability to understand the investigative nature of this trial and give written informed consent.\n15. Agree to delay in reconstruction in terms of implants placed in setting of expanders until chemotherapy is completed and the patient has recovered. Expansion of expanders may continue during trial treatment.\n\nExclusion Criteria:\n\n1. Presence of other active cancers, or history of treatment for invasive cancer \\<3 years prior to trial entry (except thyroid, cervical cancer). Patients with Stage I cancer who have received definitive local treatment at least 3 years previously, and are considered unlikely to recur are eligible. All patients with previously treated in situ carcinoma (i.e., non-invasive) are eligible, as are patients with history of non-melanoma skin cancer.\n2. Radiotherapy prior to the start of study treatment.\n3. History or clinical evidence of central nervous system metastases or other metastatic disease.\n4. Non-healed surgical wound.\n5. Known or suspected allergy/hypersensitivity to eribulin.\n6. Cardiac disease, including: congestive heart failure Class II-IV per New York Heart Association classification;cardiac ventricular arrhythmias requiring anti-arrhythmic therapy; unstable angina (anginal symptoms at rest) or new-onset angina (i.e., began within the last 3 months), or myocardial infarction within the past 6 months.\n7. Chronic use of drugs that cause QTc prolongation.Patients must discontinue use of these drugs 7 days prior to the start of study treatment.\n8. Women who are pregnant or lactating. All females of child-bearing potential must have negative serum pregnancy test within 48 hours prior to trial treatment.\n9. Patients with known diagnosis of human immunodeficiency virus (HIV), hepatitis C virus, or acute or chronic hepatitis B infection.\n10. Prolongation of heart rate-corrected QT interval (QTc) \\>480 msecs (using Bazett's formula).\n11. Minor surgical procedures (with the exception of the placement of port-a-cath or other central venous access) performed less than 7 days prior to beginning protocol treatment.\n12. History of cerebrovascular accident including transient ischemic attack (TIA), or untreated deep venous thrombosis (DVT)/ pulmonary embolism (PE) within the past 6 months. Note: Patients with recent DVT/PE receiving treatment with a stable dose of therapeutic anti-coagulating agents are eligible.\n13. Patients may not receive any other investigational or anti-cancer treatments while participating in this trial.\n14. History of any medical or psychiatric condition or laboratory abnormality that in the opinion of the investigator may increase the risks associated with the trial participation or investigational product(s) administration or may interfere with the interpretation of the results.\n15. Inability or unwillingness to comply with trial and/or follow-up procedures outlined in the protocol.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Denise A Yardley, M.D.",
+          "affiliation": "SCRI Development Innovations, LLC",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Florida Cancer Specialists North",
+          "city": "Fort Myers",
+          "state": "Florida",
+          "zip": "33916",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists South",
+          "city": "Fort Myers",
+          "state": "Florida",
+          "zip": "33916",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          }
+        },
+        {
+          "facility": "Watson Clinic Center for Cancer Care and Research",
+          "city": "Lakeland",
+          "state": "Florida",
+          "zip": "33805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.03947,
+            "lon": -81.9498
+          }
+        },
+        {
+          "facility": "Florida Hospital Cancer Insitute",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32804",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Northeast Georgia Medical Center",
+          "city": "Gainesville",
+          "state": "Georgia",
+          "zip": "30501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.29788,
+            "lon": -83.82407
+          }
+        },
+        {
+          "facility": "Providence Medical Group",
+          "city": "Terre Haute",
+          "state": "Indiana",
+          "zip": "47802",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.4667,
+            "lon": -87.41391
+          }
+        },
+        {
+          "facility": "Mercy Hospital",
+          "city": "Portland",
+          "state": "Maine",
+          "zip": "04101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.65737,
+            "lon": -70.2589
+          }
+        },
+        {
+          "facility": "Center for Cancer and Blood Disorders",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        },
+        {
+          "facility": "National Capital Clinical Research Consortium",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        },
+        {
+          "facility": "Nebraska Methodist Cancer Center",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Atlantic Health System",
+          "city": "Morristown",
+          "state": "New Jersey",
+          "zip": "07960",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79677,
+            "lon": -74.48154
+          }
+        },
+        {
+          "facility": "Hematology Oncology Associates of Northern NJ",
+          "city": "Morristown",
+          "state": "New Jersey",
+          "zip": "07960",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79677,
+            "lon": -74.48154
+          }
+        },
+        {
+          "facility": "Oncology Hematology Care, Inc.",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "South Carolina Oncology Associates",
+          "city": "Columbia",
+          "state": "South Carolina",
+          "zip": "29210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.00071,
+            "lon": -81.03481
+          }
+        },
+        {
+          "facility": "Chattanooga Oncology Hematology Associates",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Tennessee Oncology",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Texas Health Physician Group",
+          "city": "Arlington",
+          "state": "Texas",
+          "zip": "76011",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.73569,
+            "lon": -97.10807
+          }
+        },
+        {
+          "facility": "The Center for Cancer and Blood Disorders",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "18250347",
+          "type": "BACKGROUND",
+          "citation": "Liedtke C, Mazouni C, Hess KR, Andre F, Tordai A, Mejia JA, Symmans WF, Gonzalez-Angulo AM, Hennessy B, Green M, Cristofanilli M, Hortobagyi GN, Pusztai L. Response to neoadjuvant therapy and long-term survival in patients with triple-negative breast cancer. J Clin Oncol. 2008 Mar 10;26(8):1275-81. doi: 10.1200/JCO.2007.14.4147. Epub 2008 Feb 4."
+        },
+        {
+          "pmid": "21376385",
+          "type": "BACKGROUND",
+          "citation": "Cortes J, O'Shaughnessy J, Loesch D, Blum JL, Vahdat LT, Petrakova K, Chollet P, Manikas A, Dieras V, Delozier T, Vladimirov V, Cardoso F, Koh H, Bougnoux P, Dutcus CE, Seegobin S, Mir D, Meneses N, Wanders J, Twelves C; EMBRACE (Eisai Metastatic Breast Cancer Study Assessing Physician's Choice Versus E7389) investigators. Eribulin monotherapy versus treatment of physician's choice in patients with metastatic breast cancer (EMBRACE): a phase 3 open-label randomised study. Lancet. 2011 Mar 12;377(9769):914-23. doi: 10.1016/S0140-6736(11)60070-6. Epub 2011 Mar 2."
+        },
+        {
+          "pmid": "11221827",
+          "type": "BACKGROUND",
+          "citation": "Towle MJ, Salvato KA, Budrow J, Wels BF, Kuznetsov G, Aalfs KK, Welsh S, Zheng W, Seletsky BM, Palme MH, Habgood GJ, Singer LA, Dipietro LV, Wang Y, Chen JJ, Quincy DA, Davis A, Yoshimatsu K, Kishi Y, Yu MJ, Littlefield BA. In vitro and in vivo anticancer activities of synthetic macrocyclic ketone analogues of halichondrin B. Cancer Res. 2001 Feb 1;61(3):1013-21."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Between September 2011 to April 2015, 127 female patients who did not achieve a pathologic complete response (pCR i.e. have residual invasive disease in breast or lymph node tissue) after treatment with a standard neoadjuvant chemotherapy regimen and surgery were enrolled. Of those 127 patients enrolled, 126 patients received treatment.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Cohort A: Triple-negative Breast Cancer Patients",
+          "description": "Patients with Triple-Negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+        },
+        {
+          "id": "FG001",
+          "title": "Cohort B: ER/PR Positive/HER2-negative Breast Cancer",
+          "description": "Patients with ER positive and/or PR positive, HER-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+        },
+        {
+          "id": "FG002",
+          "title": "Cohort C: HER2-positive Breast Cancer Patients",
+          "description": "Patients with HER2-postive breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route. Patients will also concurrently receive trastuzumab 6 mg/kg IV on Day 1 every 21 days."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Enrolled",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "54"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "42"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "31"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "53"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "42"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "31"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Treated",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "53"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "42"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "31"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "46"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "34"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "26"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Disease Progression",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "All patients who receive at least one dose of treatment.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Cohort A: Triple-negative Breast Cancer Patients",
+          "description": "Patients with triple-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+        },
+        {
+          "id": "BG001",
+          "title": "Cohort B: ER/PR Positive/HER2-negative Breast Cancer Patients",
+          "description": "Patients with hormone receptor positive (ER and/or PR positive), HER negative breast cancer breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+        },
+        {
+          "id": "BG002",
+          "title": "Cohort C: HER2-positive Breast Cancer Patients",
+          "description": "Patients with HER2-postive breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route. Patients will also concurrently receive trastuzumab 6 mg/kg IV on Day 1 every 21 days."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "53"
+            },
+            {
+              "groupId": "BG001",
+              "value": "42"
+            },
+            {
+              "groupId": "BG002",
+              "value": "31"
+            },
+            {
+              "groupId": "BG003",
+              "value": "126"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49",
+                      "lowerLimit": "28",
+                      "upperLimit": "74"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "55",
+                      "lowerLimit": "27",
+                      "upperLimit": "71"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52",
+                      "lowerLimit": "38",
+                      "upperLimit": "78"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "52",
+                      "lowerLimit": "27",
+                      "upperLimit": "78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "126"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "18"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "39"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "104"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "53"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "42"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "126"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage of Patients With a 2 Year Disease-Free Survival (DFS) as a Measure of Efficacy",
+          "description": "The percentage of patients that are without evidence of disease recurrence at the 2 year timepoint, as measured from date of first protocol treatment date to first documented disease progression date or date of death from any cause, whichever comes first. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+          "populationDescription": "Patients who receive at least one dose of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of patients",
+          "timeFrame": "Up to 2 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cohort A: Triple-negative Breast Cancer Patients",
+              "description": "Patients with triple-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+            },
+            {
+              "id": "OG001",
+              "title": "Cohort B: ER/PR Positive/HER2-negative Breast Cancer Patients",
+              "description": "Patients with hormone receptor positive (ER and/or PR positive), HER negative breast cancer breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+            },
+            {
+              "id": "OG002",
+              "title": "Cohort C: HER2-positive Breast Cancer Patients",
+              "description": "Patients with HER2-postive breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route. Patients will also concurrently receive trastuzumab 6 mg/kg IV on Day 1 every 21 days."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "53"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "42"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56",
+                      "lowerLimit": "42",
+                      "upperLimit": "69"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "83",
+                      "lowerLimit": "67",
+                      "upperLimit": "91"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "73",
+                      "lowerLimit": "53",
+                      "upperLimit": "86"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Patients Who Completed Eribulin Therapy as an Assessment of Treatment Feasibility",
+          "description": "Examines the feasibility of administering 6 cycles (21 days per cycle) of eribulin without toxicity or disease worsening following standard neoadjuvant chemotherapy and surgery.",
+          "populationDescription": "All patients who received at least one dose of treatment",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "up to 18 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cohort A: Triple-negative Breast Cancer Patients",
+              "description": "Patients with Triple-Negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+            },
+            {
+              "id": "OG001",
+              "title": "Cohort B: ER/PR Positive/HER2-negative Breast Cancer",
+              "description": "Patients with ER positive and/or PR positive, HER-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+            },
+            {
+              "id": "OG002",
+              "title": "Cohort C: HER2-positive Breast Cancer Patients",
+              "description": "Patients with HER2-postive breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route. Patients will also concurrently receive trastuzumab 6 mg/kg IV on Day 1 every 21 days."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "53"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "42"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "The Number of Participants With Treatment-Related Adverse Events and Serious Adverse Events as a Measure of Safety",
+          "description": "A treatment-related adverse event or serious adverse event was any untoward medical occurrence in a participant which was considered to have a relationship with the study drug (suspected to be possibly or probably related to the study drug per the Investigator's assessment). Adverse events and serious adverse events will be assessed according to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) V4.03.",
+          "populationDescription": "All patients who receive at least one dose of treatment.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Weekly during each 21 day cycle and for 30 days after completion of protocol-specific treatment. After that patients were followed every 3 months for up to 2 years.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Cohort A: Triple-negative Breast Cancer Patients",
+              "description": "Patients with Triple-Negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+            },
+            {
+              "id": "OG001",
+              "title": "Cohort B: ER/PR Positive/HER2-negative Breast Cancer",
+              "description": "Patients with ER positive and/or PR positive, HER-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route."
+            },
+            {
+              "id": "OG002",
+              "title": "Cohort C: HER2-positive Breast Cancer Patients",
+              "description": "Patients with HER2-postive breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route. Patients will also concurrently receive trastuzumab 6 mg/kg IV on Day 1 every 21 days."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "53"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "42"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "31"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "Day 1 and Day 8 of every treatment cycle and 30 days after discontinuation or completion of treatment for up to 22.2 weeks",
+      "description": "All patients who received at least one dose of protocol treatment were followed for safety. Adverse events and serious adverse events were collected from day of first dose to 30 days after last protocol treatment and graded according to National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.03.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Cohort A: Triple-negative Breast Cancer",
+          "description": "Patients with Triple-Negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route.",
+          "deathsNumAffected": 6,
+          "deathsNumAtRisk": 53,
+          "seriousNumAffected": 8,
+          "seriousNumAtRisk": 53,
+          "otherNumAffected": 52,
+          "otherNumAtRisk": 52
+        },
+        {
+          "id": "EG001",
+          "title": "Cohort B: ER/PR Positive/HER2-negative Breast Cancer",
+          "description": "Patients with ER positive and/or PR positive, HER-negative breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route.",
+          "deathsNumAffected": 4,
+          "deathsNumAtRisk": 42,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 42,
+          "otherNumAffected": 42,
+          "otherNumAtRisk": 42
+        },
+        {
+          "id": "EG002",
+          "title": "Cohort C: HER2 Positive Breast Cancer",
+          "description": "Patients with HER2-postive breast cancer who do not have a pathological complete response following neoadjuvant therapy and surgery will receive eribulin 1.4 mg/m\\^2 on Days 1 and 8 every 21 days for 6 cycles via the intravenous (IV) route. Patients will also concurrently receive trastuzumab 6 mg/kg IV on Day 1 every 21 days.",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 31,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 31,
+          "otherNumAffected": 31,
+          "otherNumAtRisk": 31
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Cardiac failure congestive",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Cellulitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Diabetes mellitus inadequate control",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Mastitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Metastasis",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Pneumonia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Seizure",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Tracheobronchitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Ventricular arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 53
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 33,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 26,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 23,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil Count Decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 26,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 21,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 17,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Peripheral Sensory Neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 24,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 25,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 16,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 20,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 16,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 18,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 16,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 14,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Leukopenia",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 23,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 12,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 20,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 12,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 9,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 9,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 9,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 10,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Edema",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 8,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Abdominal Pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte Count Decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Bone Pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Mucositis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Lymphedema",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Alanine Aminotransferase Increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Pain In Extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Hot Flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Gastroesophageal Reflux Disease",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Hypomagnesemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Nasal Congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Allergic Rhinitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Generalized Muscle Weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Upper Respiratory Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Sore Throat",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Platelet Count Decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Back Pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Blurred Vision",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Skin And Subcutaneous Tissue Disorders - Other, Erythema",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Non-Cardiac Chest Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Tinnitus",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Urinary Tract Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Cheilitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Cognitive Disturbance",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Watering Eyes",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Breast Pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Respiratory, Thoracic And Mediastinal Disorders - Other, Runny Nose",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Nail Infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Paresthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Infections And Infestations - Other, Herpes Zoster",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Aspartate Aminotransferase Increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        },
+        {
+          "term": "Dry Mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (unspecified)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 52
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 42
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 31
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "GT60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Senior Director, Regulatory Science",
+        "organization": "Sarah Cannon Development Innovations",
+        "email": "CANN.InnovationsMedical@sarahcannon.com",
+        "phone": "844-710-6157"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2013-03-20",
+          "uploadDate": "2018-04-04T10:11",
+          "filename": "Prot_000.pdf",
+          "size": 605830
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2018-04-03",
+          "uploadDate": "2018-04-04T10:50",
+          "filename": "SAP_001.pdf",
+          "size": 369671
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D018365",
+          "term": "Neoplasm, Residual"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C490954",
+          "term": "eribulin"
+        },
+        {
+          "id": "D000068878",
+          "term": "Trastuzumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

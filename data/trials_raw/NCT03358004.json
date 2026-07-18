@@ -1,0 +1,635 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03358004",
+      "orgStudyIdInfo": {
+        "id": "IRFMN-BRC-6992"
+      },
+      "organization": {
+        "fullName": "Mario Negri Institute for Pharmacological Research",
+        "class": "OTHER"
+      },
+      "briefTitle": "the Role of Two Different Metronomic Chemotherapy Regimens in Locally Advanced or Metastatic Triple Negative Breast Cancer Patients (TNBC) as Maintenance Therapy After First Line Treatment",
+      "officialTitle": "An International, Multicenter, Phase II, Randomized, Parallel-arm Trial Investigating the Role of Two Different Metronomic Chemotherapy Regimens in Locally Advanced or Metastatic Triple Negative Breast Cancer Patients (TNBC) as Maintenance Therapy After First Line Treatment",
+      "acronym": "VICTOR3"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Low accrual rate",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-06-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-09-13",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-09-13",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-11-13",
+      "studyFirstSubmitQcDate": "2017-11-29",
+      "studyFirstPostDateStruct": {
+        "date": "2017-11-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2018-10-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-10-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Mario Negri Institute for Pharmacological Research",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "TNBC, defined by the lack of immunohistochemical staining for oestrogen receptors, progesterone receptors, and lack of overexpression or amplification of HER2/neu, has an aggressive biological behaviour, marked by increased risk of recurrence and poorer survival compared with hormone receptor-positive subtypes.\n\nThe key points for the rationale of the present study are:\n\n1. Despite different efforts for improving the outcome of TNBC patients, the median distant-disease free interval for relapsed triple-negative breast cancer is about 1-2 years, and the median survival for metastatic TNBC is approximately one year.\n2. International guidelines currently recommend polychemotherapy instead of sequential single agents as first-line treatment in this subgroup of patients, but no data is available at the moment regarding the optimal duration of chemotherapy.\n3. There is growing evidence to suggest that platinum-based therapy may have a role in both advanced and early-stage TNBC, though results are not definitive. Three randomized phase II neoadjuvant trials have been reported, two of which demonstrated an improvement in pathological complete response (pCR) rates when carboplatin is added to anthracycline and taxane-based chemotherapy, though this pCR improvement came at the cost of an increase in toxicity. Definitive results from phase III trials demonstrating improvement in long-term outcomes such as event-free and overall survival are not yet available, and it remains unclear how to optimally incorporate platinums into neoadjuvant therapy, as toxicity is enhanced when platinum is incorporated as an add-on to standard combination chemotherapy backbones. A randomized phase III trial comparing cisplatin plus gemcitabine to paclitaxel plus gemcitabine has been published recently. After a median follow-up of 16.3 months in the cisplatin plus gemcitabine group and 15.9 months in the paclitaxel plus gemcitabine group, the hazard ratio for progression-free survival was 0.692 (95% CI 0\u2022523-0\u2022915; pnon-inferiority\\<0\u20220001, superiority=0\u2022009. Thus cisplatin plus gemcitabine was both non-inferior to and superior to paclitaxel plus gemcitabine. Median progression-free survival was 7.7 months (95% CI 6.2-9.3) in the cisplatin plus gemcitabine group and 6.5 months (5.8-7.2) in the paclitaxel plus gemcitabine group.\n4. In both early and advanced disease settings, response rates appear to be influenced by germ line BRCA1 and BRCA2 mutation status, and BRCA1 and BRCA2 mutation status has emerged as an important potential biomarker for platinum therapy. Outside of the BRCA mutant setting, there is certainly good reason to believe that there are patients with sporadic TNBC who stand to benefit greatly from a platinum-based approach. Tumour-based assays that detect levels of genomic scarring caused by the accumulation of DNA damage over time secondary to underlying DNA repair defects, such as the Myriad HRD assay, have potential to identify non carriers of BRCA1 or BRCA2 mutations with \"BRCA-like\" breast cancer, who may respond to DNA repair- targeted treatment strategies, such as platinum agents.\n\nOne of the most promising way to improve clinical outcome in poor-risk patients is represented by maintenance therapy with a non-cross resistant regimen after an induction treatment, until disease progression. Nevertheless, the main limit to such a strategy is the choice of chemotherapy agents, considering that patients could be treated for a long period of time The results of the VICTOR-1 study was recently published, the aim of this study was the determination of the maximum tolerated dose of oral metronomic schedule of vinorelbine (VNR) in combination with fixed doses of capecitabine (CAPE), as well as to confirm the safety profile of the combination in a cohort of HER2-negative metastatic breast cancer patients. The results demonstrated a lower incidence of hematological grade 3-4 adverse events (1.1%), in comparison to what published in other series, using the standard schedules of the two drugs. The present study is designed to select the best arm between oral metronomic schedule of vinorelbine (VNR) and combination of oral metronomic schedule VNR with fixed doses of capecitabine (CAPE) as maintenance therapy in advanced TNBC patients responders after an induction treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple Negative Breast Cancer"
+      ],
+      "keywords": [
+        "TNBC",
+        "metronomic chemotherapy",
+        "vinorelbine",
+        "capecitabine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 4,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ARM A",
+          "type": "EXPERIMENTAL",
+          "description": "Vinorelbine 50 mg, thrice a week",
+          "interventionNames": [
+            "Drug: Vinorelbine Tartrate"
+          ]
+        },
+        {
+          "label": "ARM B",
+          "type": "EXPERIMENTAL",
+          "description": "Vinorelbine 40 mg thrice a week + capecitabine 500 mg thrice a day",
+          "interventionNames": [
+            "Drug: Vinorelbine Tartrate",
+            "Drug: Capecitabine 500 MG"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Vinorelbine Tartrate",
+          "description": "Metronomic treatment with vinorelbine 50 mg (three times/week) until progression in ARM A",
+          "armGroupLabels": [
+            "ARM A",
+            "ARM B"
+          ],
+          "otherNames": [
+            "Navelbine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Capecitabine 500 MG",
+          "description": "Metronomic treatment with capecitabine 500 mg (three times/day) combined with vinorelbine 40 mg (three times/week) with until progression",
+          "armGroupLabels": [
+            "ARM B"
+          ],
+          "otherNames": [
+            "Capecitabine Mylan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PFS-12 weeks",
+          "description": "Progression free survival after 12 weeks of treatment",
+          "timeFrame": "At 12 weeks from the date of treatment start."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "OS",
+          "description": "Overall survival",
+          "timeFrame": "through study completion, an average of 3 years. OS, calculated for each patient as the time from the date of treatment start to the date of death."
+        },
+        {
+          "measure": "PFS",
+          "description": "Progression free survival",
+          "timeFrame": "through study completion, an average of 3 years. PFS calculated in each patient as the time from the date of treatment start to the date of first progression or death, whichever comes first."
+        },
+        {
+          "measure": "Incidence of Adverse Events",
+          "description": "safety profile of each treatment Maximum toxicity grade experienced by each patient for each specific toxicity; frequency of patients experiencing AEs that are recorded as grade 3-5 (also grade 2 for neurotoxicity); according to NCICTC AE version 4.03",
+          "timeFrame": "through study completion, an average of 3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female, aged \u2265 18 years old;\n* Eastern Cooperative Oncology Group performance status (ECOG -PS) \u2264 1;\n* Locally advanced or metastatic triple-negative breast cancer, i.e. HER2-negative status and ER and PgR negative status (as per local assessment);\n* Treatment with 1st line chemotherapy (with any drug excepted Bevacizumab-based regimens) as per clinical practice, and non-progressive when the treatment was terminated;\n* No more than 6 cycles of the previous chemotherapy;\n* At least one measurable lesion according to Response Evaluation Criteria in Solid Tumors (RECIST, version 1.1);\n* Willingness and ability to comply with the study protocol as judged by the Investigator;\n* For women who are not postmenopausal (i.e., \\< 2 years after last menstruation) and who are sexually active: agreement to use an adequate method of contraception (oral contraceptives, intrauterine contraceptive device, barrier method of contraception in conjunction with spermicidal jelly) during the treatment period and for at least 6 months after the last dose of study drug;\n* Provision of a written informed consent signed prior to enrolment according to ICH/GCP.\n\nExclusion Criteria:\n\n* Previous treatment with vinorelbine or capecitabine;\n* 1st line therapy with a bevacizumab-based regimen;\n* Presence of brain metastases;\n* Any other investigational drug or any anti-cancer treatment (except for radiotherapy, if the treatment field does not include the liver);\n* Inadequate bone marrow, hepatic or renal function including the following:\n\n  1. absolute neutrophils count of \\< 1.5 cells x 109/L, platelet count \\< 100 cells x 109/L, or hemoglobin \\< 8 g/L;\n  2. serum total bilirubin \\>1.5 \u00d7 institution upper limit of normal \\[ULN\\], aspartate aminotransferase and alanine aminotransferase \\>2.5 \u00d7 ULN, or \\>5 \u00d7 ULN for patients with liver metastases, alkaline phosphatase \\>2.5 \u00d7 ULN, or \\>5 \u00d7 ULN for patients with liver metastases, or \\>10 \u00d7 ULN for patients with bone metastases;\n  3. serum creatinine concentration \\>1.5 \u00d7 ULN, creatinine clearance \\<50 mL/min calculated according to Cockcroft-Gault equation, and coagulation parameters international normalized ratio \\>1.5;\n* With the exception of basal cell carcinoma or cervical cancer in situ, history of another malignancy, unless in remission for 5 years or more and judged of negligible potential of relapse;\n* Known dihydropyrimidine dehydrogenase deficiency;\n* Treatment with sorivudine or its chemically related analogues, such as brivudine, within 4 weeks prior to randomization;\n* Evidence of any significant clinical disorder or concurrent illness or laboratory finding that, at the judgment of the Investigator, contra-indicate the inclusion of the patient in the study;\n* Psychiatric disorders or altered mental status precluding understanding of the informed consent process and/or completion of the necessary study assessment and procedures;\n* Unable to swallow tablets;\n* Previous significant surgical resection of stomach or small bowel\n* Patients requiring long-term oxygen therapy\n* Known hypersensitivity to any excipients of oral vinorelbine, oral capecitabine and to fluoropyrimidine.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Marina Cazzaniga, MD",
+          "affiliation": "ASST Monza",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "AOU Ospedali riuniti di Ancona",
+          "city": "Torrette",
+          "state": "Ancona",
+          "zip": "60126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.53485,
+            "lon": 15.01974
+          }
+        },
+        {
+          "facility": "ASST Monza",
+          "city": "Monza",
+          "state": "MB",
+          "zip": "20052",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria Pisana",
+          "city": "Pisa",
+          "state": "PI",
+          "zip": "56126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.70853,
+            "lon": 10.4036
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria di Parma",
+          "city": "Parma",
+          "state": "PR",
+          "zip": "43126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.79935,
+            "lon": 10.32618
+          }
+        },
+        {
+          "facility": "Ospedale Civile di Guastalla",
+          "city": "Reggio Emilia",
+          "state": "RE",
+          "zip": "42016",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.69825,
+            "lon": 10.63125
+          }
+        },
+        {
+          "facility": "Ospedale Martini ASL Torino 1",
+          "city": "Torino",
+          "state": "TO",
+          "zip": "10141",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          }
+        },
+        {
+          "facility": "Istituto Tumori Giovanni Paolo II",
+          "city": "Bari",
+          "zip": "70124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.12066,
+            "lon": 16.86982
+          }
+        },
+        {
+          "facility": "ASST Papa Giovanni XXIII",
+          "city": "Bergamo",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "A. Ospedaliero universitaria di Bologna",
+          "city": "Bologna",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Azienda Sanitaria Locale Brindisi",
+          "city": "Brindisi",
+          "zip": "72100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.63215,
+            "lon": 17.93607
+          }
+        },
+        {
+          "facility": "ASST - Cremona",
+          "city": "Cremona",
+          "zip": "26100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.13325,
+            "lon": 10.02129
+          }
+        },
+        {
+          "facility": "A.O. San Croce e Carle",
+          "city": "Cuneo",
+          "zip": "12100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.39071,
+            "lon": 7.54828
+          }
+        },
+        {
+          "facility": "Ospedale Vito Fazzi",
+          "city": "Lecce",
+          "zip": "73100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.35481,
+            "lon": 18.17244
+          }
+        },
+        {
+          "facility": "Istituto Europeo di Oncologia",
+          "city": "Milan",
+          "zip": "20141",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Policlinico di Modena",
+          "city": "Modena",
+          "zip": "41124",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        },
+        {
+          "facility": "Policlinico Paolo Giaccone",
+          "city": "Palermo",
+          "zip": "90127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Casa di Cura La Maddalena",
+          "city": "Palermo",
+          "zip": "90146",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Ospedale Felice Lotti",
+          "city": "Pontedera",
+          "zip": "56025",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.66141,
+            "lon": 10.63067
+          }
+        },
+        {
+          "facility": "Istituto Nazionale Regina Elena",
+          "city": "Roma",
+          "zip": "0144",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria di Sassari",
+          "city": "Sassari",
+          "zip": "07100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.72586,
+            "lon": 8.55552
+          }
+        },
+        {
+          "facility": "Instituto Portugues Oncologia de Coimbra",
+          "city": "Coimbra",
+          "zip": "3000-075",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "CHLN Hospital Santa Maria",
+          "city": "Lisbon",
+          "zip": "1349-035",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Hospital de S. Francisco Xavier",
+          "city": "Lisbon",
+          "zip": "1449-005",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Hospital Beatriz Angelo",
+          "city": "Loures",
+          "zip": "2674-514",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.83091,
+            "lon": -9.16845
+          }
+        },
+        {
+          "facility": "Centro Hospitalar Do Porto",
+          "city": "Porto",
+          "zip": "4099-001",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Centro Hospitalar De Sao Joao EPE",
+          "city": "Porto",
+          "zip": "4200",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Instituto Portugues Oncologia de Porto",
+          "city": "Porto",
+          "zip": "4200",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Hospital Vall d'Hebron",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Virgen de la Salud",
+          "city": "Toledo",
+          "zip": "45071",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.8581,
+            "lon": -4.02263
+          }
+        },
+        {
+          "facility": "Hospital Clinico Universitario Lozano Blesa",
+          "city": "Zaragoza",
+          "zip": "50009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077235",
+          "term": "Vinorelbine"
+        },
+        {
+          "id": "D000069287",
+          "term": "Capecitabine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014748",
+          "term": "Vinca Alkaloids"
+        },
+        {
+          "id": "D046948",
+          "term": "Secologanin Tryptamine Alkaloids"
+        },
+        {
+          "id": "D026121",
+          "term": "Indole Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D054836",
+          "term": "Indolizidines"
+        },
+        {
+          "id": "D007212",
+          "term": "Indolizines"
+        },
+        {
+          "id": "D003841",
+          "term": "Deoxycytidine"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D003853",
+          "term": "Deoxyribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

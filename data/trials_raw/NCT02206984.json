@@ -1,0 +1,537 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02206984",
+      "orgStudyIdInfo": {
+        "id": "HCC 13-164 (ILC)"
+      },
+      "organization": {
+        "fullName": "University of Pittsburgh",
+        "class": "OTHER"
+      },
+      "briefTitle": "Endocrine Response in Women With Invasive Lobular Breast Cancer",
+      "officialTitle": "A Trial of Endocrine Response in Women With Invasive Lobular Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-09-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-19",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-07-30",
+      "studyFirstSubmitQcDate": "2014-07-30",
+      "studyFirstPostDateStruct": {
+        "date": "2014-08-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Priscilla McAuliffe",
+        "investigatorTitle": "M.D.",
+        "investigatorAffiliation": "University of Pittsburgh"
+      },
+      "leadSponsor": {
+        "name": "Priscilla McAuliffe",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "RATIONALE: Currently, adjuvant endocrine therapy often follows a \"one-size-fits- all\" approach, with most premenopausal women receiving tamoxifen, and most postmenopausal receiving aromatase inhibitor therapy. In current clinical practice, patients with invasive lobular carcinoma are treated no differently than patients with invasive ductal carcinoma based on the void of information specific to patients with this tumor type. Identification of a biological signal of tamoxifen and/or AI-resistance and/or fulvestrant-sensitivity in ILC patients would have dramatic implications for the future management of this breast cancer subtype.\n\nPURPOSE: To study whether fulvestrant is more effective than anastrozole or tamoxifen in reducing Ki67 in ILC and whether that Ki67 reduction will correlate with alterations in expression of ER and ER-regulated genes. Differential Ki67 effect in this study will serve as a surrogate for outcome of ILC patients on endocrine therapy.\n\nPrimary Objective:\n\nTo determine the change from baseline to post-treatment Ki67 values in ER-positive, HER2-negative ILC tissue derived from postmenopausal women awaiting definitive surgery or further neoadjuvant treatment who are randomized to 21-24 days of neoadjuvant endocrine treatments with fulvestrant (two 250 mg IM injections given on day 1), anastrozole (1mg given orally daily), or tamoxifen (20mg given orally daily).",
+      "detailedDescription": "OBJECTIVES\n\nPrimary\n\nTo determine the change from baseline to post-treatment Ki67 values in ER-positive, HER2-negative ILC tissue derived from postmenopausal women awaiting definitive surgery or further neoadjuvant treatment who are randomized to 21-24 days of neoadjuvant endocrine treatments with fulvestrant (two 250 mg IM injections given on day 1), anastrozole (1mg given orally daily), or tamoxifen (20mg given orally daily).\n\nSecondary\n\n* To evaluate ER protein expression in ILC tissues at baseline and following neoadjuvant endocrine therapy.\n* To evaluate PR protein expression in ILC tissues at baseline and following neo-adjuvant endocrine therapy.\n* To evaluate ER-related and ILC-specific candidate gene mRNA expression in ILC tissues at baseline and following neoadjuvant endocrine therapy in an effort to identify biomarkers of endocrine response and putative drivers of endocrine resistance in ILC.\n* To evaluate associations between changes in Ki67 in ILC tissues following neoadjuvant endocrine therapy with ER and PR protein expression, or ER and candidate gene mRNA expression at baseline and post-treatment.\n\nExploratory\n\n* To evaluate DNA methylation in ILC tissues at baseline and following neo-adjuvant endocrine therapy.\n* To evaluate associations between germline and somatic DNA sequence variants with changes in Ki67 in ILC tissues following neo-adjuvant endocrine therapy.\n* To evaluate the activity of signaling pathways in ILC tissues by immunohistochemical or other protein analyses, such as histone modifications, at baseline and following neo-adjuvant endocrine therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 201,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "tamoxifen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Tamoxifen is administered orally, at a dose of 20 mg,daily, for 21 days",
+          "interventionNames": [
+            "Drug: Tamoxifen"
+          ]
+        },
+        {
+          "label": "Anastrozole",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "1mg given orally daily for 21 days",
+          "interventionNames": [
+            "Drug: Anastrozole"
+          ]
+        },
+        {
+          "label": "fulvestrant",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "500 mg, administered as two 250 mg IM injections, given on days 1 and 14",
+          "interventionNames": [
+            "Drug: Fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen",
+          "armGroupLabels": [
+            "tamoxifen"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "armGroupLabels": [
+            "Anastrozole"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "armGroupLabels": [
+            "fulvestrant"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Ki67 proliferative index",
+          "description": "Ki67 proliferative index is measured as the percent of positively staining cells. As a proliferation marker to measure the growth fraction of cells in human tumors, the expression of Ki67 is strongly associated with cell proliferation and used in routine pathology. pKi67 is well characterized at the molecular level and extensively used as a prognostic and predictive marker in cancer. Index values will be log- transformed (Ki67Day 21/Ki67BL).",
+          "timeFrame": "Baseline (prior to treatment) to Day 21-24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Estrogen receptor (ER) protein expression",
+          "description": "ER protein expression in Invasive lobular carcinoma (ILC) tissues will be measured as the percent of positively staining cells. ER protein is a biomarker of endocrine response to estrogen receptor inhibiting/blocking treatment. ILC tumors can contain high amounts of estrogen receptors.",
+          "timeFrame": "Baseline (prior to treatment) to Day 21-24"
+        },
+        {
+          "measure": "Estrogen receptor (ER) related gene expression",
+          "description": "Invasive lobular carcinoma (ILC)-specific target gene mRNA expression in tissues will be measured will be measured as the percent of positively staining cells.in an effort to identify biomarkers of endocrine response and putative drivers of endocrine resistance. ILC tumors can contain increased amounts of estrogen receptors.",
+          "timeFrame": "Baseline (prior to treatment) to Day 21-24"
+        },
+        {
+          "measure": "Change in Ki67",
+          "description": "Ki67 marker in tissues will be measured as the percent of positively staining cells. Ki67 is strongly associated with cell proliferation and is widely used in routine pathology as a prognostic and predictive marker in cancer. The presence of Ki67 is associated with aggressive disease.",
+          "timeFrame": "Baseline (prior to treatment) to Day 21-24"
+        },
+        {
+          "measure": "Progesterone receptor (PR) protein expression",
+          "description": "Invasive lobular carcinoma (ILC)-specific target gene mRNA expression in tissues will be measured will be measured as the percent of positively staining cells to identify biomarkers of endocrine response and putative drivers of endocrine resistance. ILC tumors can contain increased amounts of progesterone receptors.",
+          "timeFrame": "Baseline (prior to treatment) to Day 21-24"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed invasive lobular breast cancer, that is hormone receptor-positive and HER2-negative, measuring at least 1 centimeter (cm) radiographically or clinically, clinical stages I-III. Invasive lobular histology will be diagnosed at the enrolling institution for purposes of study participation. Subsequently, invasive lobular histology will be confirmed by central pathology review, but this central review will not be required prior to patient enrollment.\n* Prior to initiation of study agents, study participants will be highly encouraged to undergo a baseline research core biopsy of their breast tumor. If this is not possible or the patient refuses, the pre-treatment tumor sample must be obtained from their archival diagnostic core biopsy. If definitive surgery is not performed at day 21-27 after study treatment, a second post-treatment research core biopsy will need to be obtained from their breast tumor. For patients undergoing surgery, the second biopsy will be removed from the breast tumor tissue excised during their operation. Note: In the event that the baseline breast tumor biopsy performed for research purposes does not yield adequate tumor tissue for analysis of the primary and secondary endpoints, tissue will be requested from the patient's archival clinical diagnostic core biopsy if it is available.The patient will still remain on study and complete protocol therapy as planned in this unlikely event.\n* Hormone receptor (HR) status of the invasive component must be documented before trial enrollment. The tumor must be HR-positive. HR will be considered positive if staining is 1% or greater for ER and/or PR. This will be determined at the enrolling institution for purposes of study participation and enrollment onto the trial. Subsequently, HR status will be confirmed by central pathology review, but this central review will not be required prior to enrolling the patient. HER2 status will be determined locally only, based upon current ASCO/CAP guidelines.\n* Patients must be female.\n* Participants must be fully postmenopausal.\n* ECOG performance status of 0, 1 or 2.\n* Adequate organ and marrow function as defined by a history and physical exam that rules out comorbidities that would be exclusions to participation in the study (see exclusion criteria) and clinical laboratory parameters as deemed clinically appropriate by the treating physician.\n* Prior use of hormone contraceptives and replacement therapy is allowed (e.g., estrogen and/or progestin), but must have been discontinued at least 30 days prior to the study enrollment. Vaginal preparations (e.g., Vagifem\u00ae or Estring\u00ae)\n* Participant must be aware of the nature of her malignancy, understand the study requirements and risks and be able and willing to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Prior or concurrent use of hormonal therapy, chemotherapy, radiation therapy, or novel therapy to treat the current breast cancer, including any history of prior irradiation to the ipsilateral breast. Additionally, the patient must not have had hormonal therapy for breast cancer treatment or for breast cancer prevention within 2 years prior to study enrollment. (Note: Synchronous breast, cancer (including bilateral breast cancer) at separate sites is permissible, provided the patient does not receive medical treatments for breast cancer or radiation therapy to the ipsilateral breast during the 21 day study intervention period.\n* Concurrent use of any other investigational agents.\n* History of allergic reactions/hypersensitivity attributed to compounds of similar chemical or biologic composition to tamoxifen, anastrozole, or fulvestrant or any of their ingredients.\n* History of thromboembolic disease or uterine cancer that is considered a contraindication to tamoxifen.\n* Active hepatitis viral infections or a known history of liver disease, especially moderate (Child-Pugh Class B) to severe (Child-Pugh Class C) hepatic impairment.\n* Uncontrolled current illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* HER-2 positivity.\n* Increased Risk of bleeding: including a history of a bleeding diathesis and/or known history of severe thrombocytopenia. NOTE: Anticoagulant use is not a contraindication to fulvestrant, but caution is advised in administration in patients on anticoagulation. Patients on anticoagulation who will receive fulvestrant will have PT and aPTT/INR assessed at baseline.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Priscilla McAuliffe, MD",
+          "affiliation": "UPMC Magee Womens Hopspital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UAB Comprehensive Cancer Center",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "UCSF Helen Diller Family Comprehensive Cancer Center",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94143",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Georgetown University Medical Center",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "University of Chicago Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "ALBERT EINSTEIN COLLEGE OF MEDICINE Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "University of North Carolina at Chapel Hill",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27514",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "Abramson Cancer Center of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Josh Plassmeyer",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Lester and Sue Smith Breast Center, Baylor College of Medicine",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Texas MD Anderson Cancer Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77064",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Univ. of Washington, Seattle Cancer Care Alliance, Fred Hutchinson Cancer Research Center",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "33947745",
+          "type": "DERIVED",
+          "citation": "Sottnik JL, Bordeaux EK, Mehrotra S, Ferrara SE, Goodspeed AE, Costello JC, Sikora MJ. Mediator of DNA Damage Checkpoint 1 (MDC1) Is a Novel Estrogen Receptor Coregulator in Invasive Lobular Carcinoma of the Breast. Mol Cancer Res. 2021 Aug;19(8):1270-1282. doi: 10.1158/1541-7786.MCR-21-0025. Epub 2021 May 4."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "Priscilla McAuliffe, M.D., University of Pittsburgh",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2025-07-18"
+          },
+          {
+            "type": "RESET",
+            "date": "2025-08-05"
+          },
+          {
+            "type": "RELEASE",
+            "date": "2025-11-21"
+          },
+          {
+            "type": "RESET",
+            "date": "2025-12-16"
+          },
+          {
+            "type": "RELEASE",
+            "date": "2026-02-10"
+          },
+          {
+            "type": "RESET",
+            "date": "2026-03-02"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2025-07-18",
+        "submissionInfos": [
+          {
+            "releaseDate": "2025-07-18",
+            "resetDate": "2025-08-05"
+          },
+          {
+            "releaseDate": "2025-11-21",
+            "resetDate": "2025-12-16"
+          },
+          {
+            "releaseDate": "2026-02-10",
+            "resetDate": "2026-03-02"
+          },
+          {
+            "releaseDate": "2026-07-15"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,296 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07631052",
+      "orgStudyIdInfo": {
+        "id": "CATER MRD"
+      },
+      "organization": {
+        "fullName": "University Health Network, Toronto",
+        "class": "OTHER"
+      },
+      "briefTitle": "Capecitabine in ER+/HER2-negative Breast Cancer",
+      "officialTitle": "Capecitabine for Targeted Eradication of aRising ctDNA Molecular Residual Disease in ER+/HER2-negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-08-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-08-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-04",
+      "studyFirstSubmitQcDate": "2026-06-02",
+      "studyFirstPostDateStruct": {
+        "date": "2026-06-05",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Health Network, Toronto",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 2 study for patients with resected Stage I-III HR+/HER2-negative breast cancer with detected molecular residual disease (MRD+) following standard neo/adjuvant and locoregional therapy delivered with curative intent. In this study participants will be treated with capecitabine. Capecitabine will be administered orally at a dose of 500 mg 3 times daily for up to 12 months, or until the time of clinical recurrence, discontinuation due to toxicity, or withdrawal of consent. This study will have two stages, stage 1 would enroll up to 8 participants to clear the Minimal Residual Disease (MRD) and Stage 2 will enroll up to 5 participants. The purpose of this study is to determine if this study population would have a better outcome from receiving capecitabine rather than having no change in treatment if MRD is detected."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ER-positive, HER2-negative Breast Cancer",
+        "Breast Cancer Stage I",
+        "Breast Cancer Stage II",
+        "Breast Cancer Stage III"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Capecitabine",
+          "type": "EXPERIMENTAL",
+          "description": "Capecitabine 500 mg",
+          "interventionNames": [
+            "Drug: Capecitabine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Capecitabine",
+          "description": "Capecitabine 500 mg",
+          "armGroupLabels": [
+            "Capecitabine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Clearance rate of ctDNA at 16 weeks after the use of metronomic capecitabine measured using the Pathlight assay in patients with molecular residual disease (MRD). ctDNA clearance is defined as no detection of plasma ctDNA.",
+          "timeFrame": "Following Week 16 of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Distant recurrence free survival (DRFS).",
+          "description": "Describe clinical outcomes for MRD+ patients treated with this escalated strategy, including distant recurrence free survival (DRFS).",
+          "timeFrame": "Time of consent signed through to follow up (up to 5 years)"
+        },
+        {
+          "measure": "Number and severity of treatment related adverse events as assessed by CTCAE v5.0.",
+          "timeFrame": "Time of consent signed through to 30 days last dose of study drug"
+        },
+        {
+          "measure": "Measure ctDNA levels in MRD positive patients using the Pathlight assay after initiation of metronomic capecitabine.",
+          "timeFrame": "Time of consent signed through study completion, approximately 3 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Number of patients with detectable residual disease and early treatment response using novel liquid biopsy.",
+          "timeFrame": "Through study completion, approximately 3 years."
+        },
+        {
+          "measure": "Proportion of patients with ctDNA clearance (defined as undetectable by the tumor-informed personalized ctDNA assay) and log-fold change in ctDNA quantification.",
+          "description": "Proportion of patients with ctDNA clearance (defined as undetectable by the tumor-informed personalized ctDNA assay) and log-fold change in ctDNA quantification from baseline, stratified by tumor genomic features (somatic mutations, structural variants, and copy number alterations identified by whole-genome sequencing of tumor tissue), following capecitabine initiation in patients with molecular residual disease (MRD), in order to identify molecular determinants of ctDNA response.",
+          "timeFrame": "Through study completion, approximately 3 years"
+        },
+        {
+          "measure": "Frequency of tumor genomic alterations associated with subsequent development of ctDNA-detected molecular residual disease and treatment resistance during adjuvant surveillance and intervention in patients with primary ER+/HER2- breast cancer.",
+          "description": "Frequency of tumor genomic alterations (somatic mutations, structural variants, and copy number alterations identified by whole-genome sequencing of primary tumor tissue) associated with subsequent development of ctDNA-detected molecular residual disease (MRD) and treatment resistance (defined as ctDNA non-clearance or recurrence on tumor-informed personalized ctDNA assay) during adjuvant surveillance and intervention in patients with primary ER+/HER2- breast cancer.",
+          "timeFrame": "Through study completion, approximately 3 years"
+        },
+        {
+          "measure": "Type of tumor genomic alterations associated with subsequent development of ctDNA-detected molecular residual disease and treatment resistance during adjuvant surveillance and intervention in patients with primary ER+/HER2- breast cancer.",
+          "description": "Type of tumor genomic alterations (somatic mutations, structural variants, and copy number alterations identified by whole-genome sequencing of primary tumor tissue) associated with subsequent development of ctDNA-detected molecular residual disease (MRD) and treatment resistance (defined as ctDNA non-clearance or recurrence on tumor-informed personalized ctDNA assay) during adjuvant surveillance and intervention in patients with primary ER+/HER2- breast cancer.",
+          "timeFrame": "Through study completion, approximately 3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female patients \u2265 18 years of age with histologically confirmed (by local assessment with ASCO/CAP criteria), resected ER-positive/HER2-negative stage I-III breast cancer\n* Evidence of MRD (positive test by the Pathlight assay) despite standard adjuvant therapy\n* No contraindications to capecitabine (including absence of DPYD variants that in the opinion of the investigator are a contraindication to metronomic capecitabine)\n* No clinical or radiographic evidence of recurrent or metastatic disease\n* Previous Therapy requirements: (i) Received at least 24 months of adjuvant endocrine therapy, including 6 months of an aromatase inhibitor and (i) Received at least 12 months of adjuvant CDK4/6i if indicated, unless not tolerated or declined\n* ECOG performance status of 0-1.\n* Patient must have adequate organ function as determined by the following:\n\n  a. Renal function:\n* Serum creatinine \\< 1.5 x ULN (upper limit of normal range) or a calculated creatinine clearance of \\> 50mL/min using the Cockcroft-Gault formula\n\n  b. Bone marrow function (without hematopoietic growth factors or transfusion):\n* Absolute neutrophil count (ANC) \\> 1.0 x 109/L\n* Hemoglobin \\> 90 g/L or \\> 9g/dL\n* Platelets \\> 75 x 109/L\n\n  c. Liver function:\n* Total bilirubin \u2264 1.5 \u00d7 ULN and \\< 35 uMol/L; OR total bilirubin \\>1.5 \u00d7 ULN with indirect bilirubin \\< 1.5 \u00d7 ULN.\n* Aspartate aminotransferase (AST/SGOT) and alanine aminotransferase (ALT/SGPT) \\< 2.5 x ULN.\n* Female participants of childbearing potential must have a negative serum \u03b2-HCG test result at enrolment.\n* Female participants of childbearing potential must agree to use methods of contraception that are highly effective.\n* Male participants must agree to use methods of contraception that are highly effective.\n* The participant is willing and able to comply with the protocol for the duration of the study including undergoing treatment and scheduled visits and examinations including follow up.\n* Signed written and voluntary informed consent.\n\nExclusion Criteria:\n\n* Prior therapy with capecitabine.\n* Previous or concurrent malignancy within 3 years of study entry, with the following exceptions: adequately treated basal or squamous cell skin cancer, superficial bladder cancer, prostate intraepithelial neoplasm, carcinoma in-situ of the cervix, or other non-invasive or indolent malignancy; other solid tumors treated curatively without evidence of recurrence for at least 3 years prior to study entry.\n* Impaired cardiovascular function or clinically significant cardiovascular diseases, including any of the following:\n\n  1. History of acute coronary syndromes (including myocardial infarction, unstable angina, coronary artery bypass grafting, coronary angioplasty, or stenting) \\<6 months prior to screening,\n  2. Symptomatic chronic heart failure (e.g., New York Heart Association Class \u2265 2), history or current evidence of clinically significant cardiac arrhythmia and/or conduction abnormality \\<6 months prior to screening except atrial fibrillation and paroxysmal supraventricular tachycardia.\n  3. Uncontrolled hypertension defined as persistent elevation of systolic blood pressure \u2265 160 mmHg or diastolic blood pressure \u2265 100mmHg, despite current therapy.\n* Known positive serology for HIV (Human immunodeficiency virus) that is not currently controlled with antiretroviral therapy.\n* Has a known history of or is positive for active hepatitis B or hepatitis C unless adequate viral suppression is achieved. Participants who have had definitive treatment for HCV are permitted if HCV RNA is undetectable at Screening Visit.\n* Impaired gastrointestinal function or disease that may significantly alter the absorption of capecitabine.\n* Medical, psychiatric, cognitive, or other conditions that may compromise the patient's ability to understand the patient information, give informed consent, comply with the study protocol, or complete the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "David Cescon, MD",
+          "role": "CONTACT",
+          "phone": "416-946-2245",
+          "email": "dave.cescon@uhn.ca"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "UHN - Princess Margaret Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 1Z5",
+          "country": "Canada",
+          "contacts": [
+            {
+              "name": "David Cescon",
+              "role": "CONTACT",
+              "phone": "416-946-2245",
+              "phoneExt": "16-2245",
+              "email": "Dave.Cescon@uhn.ca"
+            },
+            {
+              "name": "Dave Cescon",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069287",
+          "term": "Capecitabine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003841",
+          "term": "Deoxycytidine"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D003853",
+          "term": "Deoxyribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

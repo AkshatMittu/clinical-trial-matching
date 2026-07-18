@@ -1,0 +1,4343 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03701334",
+      "orgStudyIdInfo": {
+        "id": "CLEE011O12301C"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-510357-42-00",
+          "type": "REGISTRY",
+          "domain": "EU CT Number"
+        },
+        {
+          "id": "TRIO033",
+          "type": "OTHER",
+          "domain": "Translational Research in Oncology"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Trial to Evaluate Efficacy and Safety of Ribociclib With Endocrine Therapy as Adjuvant Treatment in Patients With HR+/HER2- Early Breast Cancer",
+      "officialTitle": "A Phase III Multi-center, Randomized, Open-label Trial to Evaluate Efficacy and Safety of Ribociclib With Endocrine Therapy as an Adjuvant Treatment in Patients With Hormone Receptor-positive, HER2-negative Early Breast Cancer (New Adjuvant TriAl With Ribociclib [LEE011]: NATALEE)",
+      "acronym": "NATALEE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": true,
+        "nctId": "NCT05038631",
+        "statusForNctId": "AVAILABLE"
+      },
+      "startDateStruct": {
+        "date": "2018-12-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-05-29",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-05-29",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2018-09-21",
+      "studyFirstSubmitQcDate": "2018-10-07",
+      "studyFirstPostDateStruct": {
+        "date": "2018-10-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Translational Research in Oncology",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "A phase III, multicenter, randomized, open-label trial to evaluate the efficacy and safety of ribociclib with Endocrine Therapy (ET) as an adjuvant treatment in women and men with Hormone Receptor positive (HR+), Human Epidermal Growth Factor Receptor 2 negative (HER2-) Early Breast Cancer (EBC).",
+      "detailedDescription": "The trial will include pre and postmenopausal women and men with HR-positive, HER2-negative EBC, with an Anatomic Stage Group III, IIB or a subset of Stage IIA cases, after adequate surgical resection, radiotherapy (if indicated), adjuvant or neoadjuvant chemotherapy (if indicated), and who are deemed to be eligible for adjuvant ET for at least 60 months of duration.\n\nApproximately 5,000 patients will be randomized (using an Interactive Response Technology system \\[IRT\\]) into two treatment arms in a 1:1 ratio to:\n\n\u2022 Investigational arm:\n\n\\~ Ribociclib 400 mg by mouth once daily on days 1 to 21 of a 28-day cycle, for 36 months since randomization (approximately 39 cycles).\n\nAnd\n\n\\~ ET consisting of:\n\n* For postmenopausal women: letrozole 2.5 mg by mouth once daily continuously or anastrozole 1 mg by mouth once daily continuously.\n* For premenopausal women and men: letrozole 2.5 mg by mouth once daily continuously or anastrozole 1 mg by mouth once daily continuously, combined with goserelin 3.6 mg subcutaneously once every 4 weeks.\n\nDuration of ET in the trial will be 60 months from the randomization date.\n\n\u2022 Control arm:\n\n\\~ ET: Same as in the Investigational arm.\n\nIn both arms, ET will be administered according to the local clinical guidelines and current local prescribing information. Subsequent ET (or any other anti-cancer treatment) given after the protocol-required 60 months of ET (or after premature discontinuation of ET in the trial) will be administered according to the Investigator's clinical judgment and is not considered a trial treatment.\n\nRandomization will be stratified by the following factors:\n\n* Menopausal status: premenopausal women and men vs. postmenopausal women\n* AJCC 8th edition Anatomic Stage Group: Anatomic Stage Group II vs. Anatomic Stage Group III\n* Prior neoadjuvant/adjuvant chemotherapy: yes vs. no\n* Geographical region: North America/Western Europe/Oceania vs. rest of the world\n\nEnrollment of patients with Anatomic Stage Group II is capped at approximately 2,000 patients.\n\nThe trial will include screening, treatment, and follow up phases. The trial includes an exploratory component that requires collection of tumor and blood samples (except for patients enrolled in China)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early Breast Cancer"
+      ],
+      "keywords": [
+        "adjuvant treatment of Hormone Receptor positive (HR+)",
+        "Human Epidermal Growth Factor Receptor 2 negative (HER2-)",
+        "Early Breast Cancer (EBC)",
+        "HR+/HER2-",
+        "adjuvant",
+        "Ribociclib (LEE011)",
+        "CDK4/6 inhibitor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5101,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ribociclib + Endocrine Therapy (ET)",
+          "type": "EXPERIMENTAL",
+          "description": "Eligible participants will receive Ribociclib 400 mg once daily on days 1 to 21 of a 28-day cycle, followed by 7 days off ribociclib (Days 22 to 28).\n\nAnd\n\nEndocrine Therapy (ET) consisting of:\n\n* For postmenopausal women:\n\n  \\- Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously.\n* For premenopausal women and men:\n\n  * Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously, combined with:\n  * Goserelin 3.6 mg subcutaneously once every 4 weeks.",
+          "interventionNames": [
+            "Drug: Ribociclib",
+            "Other: Endocrine Therapy (ET)"
+          ]
+        },
+        {
+          "label": "Endocrine Therapy (ET)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Eligible participants will receive Endocrine Therapy (ET) consisting of:\n\n* For postmenopausal women:\n\n  \\- Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously.\n* For premenopausal women and men:\n\n  * Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously, combined with:\n  * Goserelin 3.6 mg subcutaneously once every 4 weeks.",
+          "interventionNames": [
+            "Other: Endocrine Therapy (ET)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ribociclib",
+          "description": "Ribociclib orally taken at 400 mg on days 1 to 21 of a 28-day cycle",
+          "armGroupLabels": [
+            "Ribociclib + Endocrine Therapy (ET)"
+          ],
+          "otherNames": [
+            "LEE011"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Endocrine Therapy (ET)",
+          "description": "Endocrine Therapy (ET) will be administered according to the local clinical guidelines and current local prescribing information",
+          "armGroupLabels": [
+            "Endocrine Therapy (ET)",
+            "Ribociclib + Endocrine Therapy (ET)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease-Free Survival (iDFS)",
+          "description": "Invasive Disease-Free Survival (iDFS) is defined as the time from the date of randomization to the date of the first event of local invasive breast recurrence, regional invasive recurrence, distant recurrence, death (any cause), contralateral invasive BC, or second primary non-breast invasive cancer (excluding basal and squamous cell carcinomas of the skin). iDFS will be assessed locally using STEEP criteria (Standardized Definitions for Efficacy End Points in Adjuvant Breast Cancer Trials).",
+          "timeFrame": "Up to approximately 139 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Recurrence-free survival (RFS)",
+          "description": "Recurrence-free survival (RFS) is defined as the time from date of randomization to date of first event of local invasive breast recurrence, regional invasive recurrence, distant recurrence, or death (any cause) and will be assessed using STEEP criteria (Standardized Definitions for Efficacy End Points in Adjuvant Breast Cancer Trials).",
+          "timeFrame": "Up to approximately 139 months"
+        },
+        {
+          "measure": "Distant disease-free survival (DDFS)",
+          "description": "Distant disease-free survival (DDFS) is defined as the time from date of randomization to date of first event of distant recurrence, death (any cause), or second primary non-breast invasive cancer (excluding basal and squamous cell carcinomas of the skin) and will be assessed using STEEP criteria (Standardized Definitions for Efficacy End Points in Adjuvant Breast Cancer Trials).",
+          "timeFrame": "Up to approximately 139 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Overall Survival (OS) is defined as the time from date of randomization to date of death due to any cause.",
+          "timeFrame": "Up to approximately 139 months"
+        },
+        {
+          "measure": "Change from baseline in the global health status Quality of life scale score as assessed by EORTC QLQ-C30",
+          "description": "The EORTC QLQ-C30 contains functional scales, symptom scales, single items scale and a global health status/QoL scale. All of the scales and single-item measures range in score from 0 to 100. A high scale score represents a higher response level.",
+          "timeFrame": "Up to approximately 139 months"
+        },
+        {
+          "measure": "Change from baseline in the physical functioning sub-scale score as assessed by EORTC QLQ-C30",
+          "description": "The EORTC QLQ-C30 contains functional scales, symptom scales, single items scale and a global health status/QoL scale. All of the scales and single-item measures range in score from 0 to 100. A high scale score represents a higher response level.",
+          "timeFrame": "Up to approximately 139 months"
+        },
+        {
+          "measure": "Trough Concentration on Day 15 (Ctrough,D1) of ribociclib",
+          "description": "Venous whole blood samples will be collected for activity-based pharmacokinetics characterization in a subset of participants. Ctrough,D15 of ribociclib will be listed and summarized using descriptive statistics.",
+          "timeFrame": "Cycle 1 Day 15 (0/Pre-dose, 2 and 4 hours post-dose)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. Signed and dated Patient Informed Consent Form (PICF) obtained prior to any trial-specific screening procedure.\n2. Patient is \u2265 18 years-old at the time of PICF signature.\n3. Patient is female with known menopausal status at the time of randomization or initiation of adjuvant ET (whichever occurs earlier), or male.\n\n   Postmenopausal status is defined as:\n   * Patient underwent bilateral oophorectomy, or\n   * Age \u2265 60 years, or\n   * Age \\< 60 years and amenorrhea for 12 or more months (in the absence of chemotherapy, tamoxifen, toremifene or ovarian suppression) and Follicle-stimulating hormone (FSH) and plasma estradiol are in the postmenopausal ranges per local normal ranges.\n   * If taking tamoxifen or toremifene and age \\<60 years, then FSH and plasma estradiol level in postmenopausal ranges.\n\n   Notes\n   * In women who are premenopausal at the beginning of adjuvant chemotherapy, amenorrhea is not a reliable indicator of menopausal status as ovarian function may still be intact or resume despite anovulation/amenorrhea. For these women with therapy-induced amenorrhea, serial measurements of FSH and/or estradiol per local clinical guidelines are required for determination of postmenopausal status.\n   * All women who do not meet the criteria for postmenopausal status are considered premenopausal for the purpose of this trial.\n4. Patient with histologically confirmed unilateral primary invasive adenocarcinoma of the breast with a date of initial cytologic or histologic diagnosis (i.e. date of the pathology report that confirmed the BC diagnosis) within 18 months prior to randomization. Patient with a multicentric and/or multifocal tumor is eligible if all histopathologically examined lesions meet the pathologic criteria in inclusion criteria 5 and 6.\n5. Patient has breast cancer that is positive for ER and/or PgR according to the local laboratory as determined on the most recently analyzed tissue sample.\n6. Patient has HER2-negative breast cancer defined as a negative in situ hybridization test or an immunohistochemistry (IHC) status of 0 or 1+. If IHC is 2+, a negative in situ hybridization (FISH, CISH, or SISH) test is required to confirm the HER2-negative status (based on the most recently analyzed tissue sample tested by a local laboratory).\n7. Patient (except those enrolled in China) has available archival tumor tissue from the surgical specimen, for submission to a central laboratory (Note: in patients that underwent neoadjuvant systemic therapy and had a pathologic complete response, archival tumor tissue at the time of the initial diagnosis or before the administration of neoadjuvant therapy is mandatory).\n8. Patient, after surgical resection where tumor was removed completely, with the final surgical specimen microscopic margins free from tumor, and belongs to one of the following categories:\n\n   * Anatomic Stage Group III, or\n   * Anatomic Stage Group IIB, or\n   * Anatomic Stage Group IIA (subset)\n\n   Notes:\n   * For patients whose tumors are Anatomic Stage IIA, N0:\n   * If Grade is 1 or unknown (Gx), patient is not eligible.\n   * If Grade 2, the gene expression test results (by Oncotype DX, Prosigna/PAM50, MammaPrint or EndoPredict EPclin) or Ki67 levels should be used if obtained as per local practice (i.e. are not mandatory for the purpose of the trial). Results must be available at screening.\n   * Patients that received neoadjuvant treatment must meet the above criteria (for stage, and if Stage IIA, N0, also for grade and Ki67 or gene expression test) in any presurgical staging/sample and/or in the surgical specimen.\n   * Categorization into the AJCC 8th edition Anatomic Stage Groups requires determination of the T, N and M categories. ALND is the preferred method for axillary lymph node staging, however SLN dissection can be used to determine the N category in the following cases:\n   * No metastasis in SLN (patient is considered as pN0).\n   * Only micrometastasis in SLN (patient is considered as pN1mi).\n   * Patients with T1-2 and no clinically-evident nodes prior to surgery, no neoadjuvant chemotherapy, at least one macrometastasis in 1 or 2 SLNs, no matted nodes or gross extranodal disease at the time of SLN dissection (patient is considered as pN1).\n\n   In all other cases, ALND is required to determine the N category.\n9. If indicated, patient has completed adjuvant and/or neoadjuvant chemotherapy according to the institutional guidelines, prior to screening.\n10. If indicated, patient has completed adjuvant radiotherapy according to the institutional guidelines, prior to screening.\n11. Patient has no contraindication for the adjuvant ET in the trial and is planned to be treated with ET for 5 years (since randomization date) or more.\n12. Patient may have already received any standard neoadjuvant and/or adjuvant ET at the time of PICF signature, but randomization should occur within 12 months of the initial start date of ET. Ovarian suppression or short term ET for fertility preservation is not considered neoadjuvant/adjuvant ET. If patient was receiving tamoxifen or toremifene as adjuvant ET, a washout period of 5 half-lives (i.e. 35 days) prior to randomization is required (during that period patient can take AI).\n13. Patient has an Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.\n14. Patient has adequate bone marrow and organ function as defined by the following local laboratory values:\n\n    * Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 109/L\n    * Platelets \u2265 100 \u00d7 109/L\n    * Hemoglobin \u2265 9.0 g/dL\n    * Estimated glomerular filtration rate (eGFR) \u2265 30 mL/min/1.73m2 according to the Modification of Diet in Renal Disease (MDRD) formula\n    * Alanine transaminase (ALT) \\< 2.5 \u00d7 Upper Limit Normal (ULN)\n    * Aspartate transaminase (AST) \\< 2.5 \u00d7 ULN\n    * Total serum bilirubin \\< ULN; or total bilirubin \u2264 3.0 \u00d7 ULN or direct bilirubin \u2264 1.5 \u00d7 ULN in patients with well documented Gilbert's Syndrome\n    * International normalized ratio (INR) \u2264 1.5 (unless the patient is receiving anticoagulants and the INR is within the therapeutic range of intended use for that anticoagulant within 7 days prior to randomization)\n    * Patient must have the following laboratory values within normal limits or corrected to within normal limits with supplements (the local laboratory value should be documented within normal limits after the correction) before randomization:\n    * Potassium\n    * Magnesium\n    * Total Calcium (corrected for serum albumin)\n15. Standard 12-lead ECG values assessed by a central laboratory, as:\n\n    * QTcF interval (QT interval using Fridericia's correction) at screening \\< 450 milliseconds (msec)\n    * Resting heart rate 50-90 beats per minute (determined from the ECG)\n16. Patient must be willing and able to comply with scheduled visits, treatment plans, laboratory tests, and other trial procedures.\n17. Women of childbearing potential (CBP), defined as all women physiologically capable of becoming pregnant (see Inclusion Criterion #18 for additional information), must have confirmed negative serum pregnancy test (for \u03b2-hCG) within 14 days prior to randomization.\n18. Women of CBP must be willing to use highly effective methods of contraception. Contraception must continue during the trial treatment and for 21 days after stopping the treatment. Highly effective contraception methods include:\n\n    * Total abstinence (when this is in line with the preferred and usual lifestyle of the patient). Periodic abstinence (e.g. calendar, ovulation, symptothermal, post-ovulation methods) and withdrawal are not acceptable methods of contraception.\n    * Female sterilization (have had surgical bilateral oophorectomy with or without hysterectomy), total hysterectomy or tubal ligation at least 6 weeks before taking trial treatment. In case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow up hormone level assessment.\n    * Male partner sterilization (at least 6 months prior to randomization). For female patients on the trial the vasectomized male partner should be the sole partner for that patient. If vasectomy of the male partner is the highly effective method of contraception chosen, the success of the vasectomy should be medically confirmed according to local practice.\n    * Placement of an intrauterine device (IUD).\n\nNotes:\n\n* Use of oral (estrogen and progesterone), transdermal, injected, implanted, hormone containing intrauterine system or any other hormonal method of contraception is not allowed in this trial.\n* Women are considered of CBP unless: they have had \u2265 12 months of natural (spontaneous) amenorrhea with an appropriate clinical profile (i.e. age appropriate, history of vasomotor symptoms) or have had surgical bilateral oophorectomy (with or without hysterectomy), total hysterectomy, or tubal ligation at least six weeks prior to randomization. In the case of oophorectomy alone, only when the reproductive status of the woman has been confirmed by follow-up hormone level assessment she is considered not of CBP.\n* After the end of trial treatment, patients should use effective contraception according to local guidelines.\n\nExclusion Criteria\n\n1. Patient has received any CDK4/6 inhibitor.\n2. Patient has received prior treatment with tamoxifen, raloxifene or AIs for reduction in risk (\"chemoprevention\") of breast cancer and/or treatment for osteoporosis within the last 2 years prior to randomization. Patient is concurrently using hormone replacement therapy.\n3. Patient has received prior treatment with anthracyclines at cumulative doses of 450 mg/m\u00b2 or more for doxorubicin, or 900 mg/m\u00b2 or more for epirubicin.\n4. Patient with a known hypersensitivity to any of the excipients of ribociclib and/or ET (e.g. rare hereditary problems of galactose intolerance, the Lapp lactase deficiency, glucose-galactose malabsorption, and soy allergy).\n5. Patient with distant metastases of breast cancer beyond regional lymph nodes (stage IV according to AJCC 8th edition) and/or evidence of recurrence after curative surgery.\n6. Patient is concurrently using other anti-neoplastic therapy with the exception of adjuvant ET (see Inclusion Criterion #12).\n7. Patient has had major surgery, chemotherapy or radiotherapy within 14 days prior to randomization.\n8. Patient has not recovered from clinical and laboratory acute toxicities related to prior anti-cancer therapies to a NCI CTCAE (National Cancer Institute Common Terminology Criteria for Adverse Events) version 4.03 Grade \u22641 at day of randomization. Exceptions to this criterion: patients with any grade of alopecia, amenorrhea, grade 2 neuropathy are allowed to enter the trial or other toxicities not considered a safety risk for the patient as per Investigator's discretion, are allowed to enter the trial.\n9. Patient has a concurrent invasive malignancy or a prior invasive malignancy whose treatment was completed within 2 years before randomization. Note: Patients with adequately treated, basal or squamous cell skin carcinoma or curatively resected cervical cancer in situ are eligible.\n10. Patient has known history of human immunodeficiency virus (HIV) infection (testing is not mandatory, unless required by local regulation).\n11. Patient has known active hepatitis B virus (HBV) or hepatitis C virus (HCV) infection (testing is not mandatory, unless required by local regulation).\n12. Clinically significant, uncontrolled heart disease and/or cardiac repolarization abnormality, including any of the following:\n\n    * History of documented myocardial infarction (MI), angina pectoris, symptomatic pericarditis, or coronary artery bypass graft within 6 months prior to trial entry.\n    * Documented cardiomyopathy.\n    * Left Ventricular Ejection Fraction (LVEF) \\< 50% as determined by Multiple Gated acquisition (MUGA) scan or echocardiogram (ECHO) (testing not mandatory)\n    * Long QT syndrome or family history of idiopathic sudden death or congenital long QT syndrome, or any of the following:\n    * Risk factors for Torsades de Pointes (TdP) including uncorrected hypocalcemia, hypokalemia or hypomagnesemia, history of cardiac failure, or history of clinically significant/symptomatic bradycardia.\n    * Concomitant medication(s) with a known risk to prolong the QT interval and/or known to cause TdP that cannot be discontinued or replaced by safe alternative medication (e.g. within 5 half-lives or 7 days prior to starting trial treatment).\n    * Inability to determine the QTcF interval.\n    * Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, high-grade Atrioventricular (AV) block (e.g. bifascicular block, Mobitz type II and third degree AV block).\n    * Uncontrolled arterial hypertension with systolic blood pressure \\> 160 mmHg.\n13. Patient is currently receiving any of the following substances within 7 days before randomization:\n\n    * Concomitant medications, herbal supplements, and/or fruits (e.g. grapefruit, pummellos, starfruit, Seville oranges) and their juices that are known as strong inhibitors or inducers of CYP3A4/5\n    * Medications that have a narrow therapeutic window and are predominantly metabolized through CYP3A4/5\n14. Patient is currently receiving or has received systemic corticosteroids \u2264 2 weeks prior to starting trial treatment, or has not fully recovered from side effects of such treatment.\n\n    Note: The following uses of corticosteroids are permitted: a short duration (\\<5 days) of systemic corticosteroids; any duration of topical applications (e.g. for rash), inhaled sprays (e.g. for obstructive airways diseases), eye drops or local injections (e.g. intra-articular).\n15. Patient has impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of the oral trial treatments (e.g. uncontrolled ulcerative diseases, uncontrolled nausea, vomiting or diarrhea, malabsorption syndrome, or small bowel resection).\n16. Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator's judgment, cause unacceptable safety risks, contraindicate patient participation in the clinical trial or compromise compliance with the protocol (e.g. chronic pancreatitis, chronic active hepatitis, liver cirrhosis or any other significant liver disease, active untreated or uncontrolled fungal, bacterial or viral infections, active infection requiring systemic anti-bacterial therapy, etc.) or limit life expectancy to \u22645 years.\n17. Participation in other studies involving investigational drug(s) within 30 days prior to randomization or within 5 half-lives of the investigational drug(s) (whichever is longer), or participation in any other type of medical research judged not to be scientifically or medically compatible with this trial. If the patient is enrolled or planned to be enrolled in another study that does not involve an investigational drug, the agreement of the Medical Monitor is required to establish eligibility.\n18. Pregnant or breast-feeding (lactating) women or women who plan to become pregnant or breast-feed during the trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham-Kirklin Clinic",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294-0006",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Cancer Treatment Centers of America",
+          "city": "Goodyear",
+          "state": "Arizona",
+          "zip": "85338",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.43532,
+            "lon": -112.35821
+          }
+        },
+        {
+          "facility": "St Bernards Medical Center",
+          "city": "Jonesboro",
+          "state": "Arkansas",
+          "zip": "72401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.8423,
+            "lon": -90.70428
+          }
+        },
+        {
+          "facility": "Comprehensive Blood and Cancer",
+          "city": "Bakersfield",
+          "state": "California",
+          "zip": "93309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.37329,
+            "lon": -119.01871
+          }
+        },
+        {
+          "facility": "UCLA Beverly Hills",
+          "city": "Beverly Hills",
+          "state": "California",
+          "zip": "90212",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.07362,
+            "lon": -118.40036
+          }
+        },
+        {
+          "facility": "UCLA Burbank",
+          "city": "Burbank",
+          "state": "California",
+          "zip": "91505",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.18084,
+            "lon": -118.30897
+          }
+        },
+        {
+          "facility": "Encino Research Center",
+          "city": "Encino",
+          "state": "California",
+          "zip": "91436",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.15917,
+            "lon": -118.50119
+          }
+        },
+        {
+          "facility": "St. Jude Heritage Medical Group",
+          "city": "Fullerton",
+          "state": "California",
+          "zip": "92835",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.87029,
+            "lon": -117.92534
+          }
+        },
+        {
+          "facility": "UCLA Hematology Oncology",
+          "city": "Laguna Hills",
+          "state": "California",
+          "zip": "92653",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.61252,
+            "lon": -117.71283
+          }
+        },
+        {
+          "facility": "Southern CA Oncology Rsrch Alliance",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Stanford University Medical Center",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94304-1509",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "UCLA Pasadena HC Hemato Onco",
+          "city": "Pasadena",
+          "state": "California",
+          "zip": "941105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14778,
+            "lon": -118.14452
+          }
+        },
+        {
+          "facility": "UCLA Porter Ranch Hemato and Onco",
+          "city": "Porter Ranch",
+          "state": "California",
+          "zip": "91326",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.2819,
+            "lon": -118.54986
+          }
+        },
+        {
+          "facility": "Cancer Care Associates Medical Grp",
+          "city": "Redondo Beach",
+          "state": "California",
+          "zip": "90277",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.84918,
+            "lon": -118.38841
+          }
+        },
+        {
+          "facility": "Sharp Memorial Hospital",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92123",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "UCSF",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Central Coast Medical Oncology Corporation",
+          "city": "Santa Maria",
+          "state": "California",
+          "zip": "93454",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.95303,
+            "lon": -120.43572
+          }
+        },
+        {
+          "facility": "UCLA Santa Monica Hematology Oncology",
+          "city": "Santa Monica",
+          "state": "California",
+          "zip": "90404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.01949,
+            "lon": -118.49138
+          }
+        },
+        {
+          "facility": "Lundquist Inst BioMed at Harbor",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90509-2910",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "UCLA Valencia",
+          "city": "Valencia",
+          "state": "California",
+          "zip": "91355",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.44361,
+            "lon": -118.60953
+          }
+        },
+        {
+          "facility": "Valley Breast Care",
+          "city": "Van Nuys",
+          "state": "California",
+          "zip": "91405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.18667,
+            "lon": -118.44897
+          }
+        },
+        {
+          "facility": "UCLA Cancer Center Westlake Village",
+          "city": "Westlake Village",
+          "state": "California",
+          "zip": "91361",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14584,
+            "lon": -118.80565
+          }
+        },
+        {
+          "facility": "University Of Colorado Hospital",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Rocky Mountain Cancer Centers",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Hospital of Central Connecticut",
+          "city": "New Britain",
+          "state": "Connecticut",
+          "zip": "06052",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66121,
+            "lon": -72.77954
+          }
+        },
+        {
+          "facility": "Yale University School Of Medicine",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06520",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Norwalk Hospital",
+          "city": "Norwalk",
+          "state": "Connecticut",
+          "zip": "06856",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.1176,
+            "lon": -73.4079
+          }
+        },
+        {
+          "facility": "Eastern Connecticut Hematology and Oncology Associates",
+          "city": "Norwich",
+          "state": "Connecticut",
+          "zip": "06360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.52426,
+            "lon": -72.07591
+          }
+        },
+        {
+          "facility": "Holy Cross Hospital-Ft. Lauderdale",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists",
+          "city": "Fort Myers",
+          "state": "Florida",
+          "zip": "33901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          }
+        },
+        {
+          "facility": "Memorial Cancer Institute",
+          "city": "Hollywood",
+          "state": "Florida",
+          "zip": "33021",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          }
+        },
+        {
+          "facility": "Baptist MD Anderson Cancer Center",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "University of Miami",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33136",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Orlando Health Clinical Trials",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32806",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists-North",
+          "city": "St. Petersburg",
+          "state": "Florida",
+          "zip": "33705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.77086,
+            "lon": -82.67927
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists Pan",
+          "city": "Tallahassee",
+          "state": "Florida",
+          "zip": "32308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.43826,
+            "lon": -84.28073
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Winship Cancer Institute of Emory University",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Southeastern Regional Medical Center",
+          "city": "Newnan",
+          "state": "Georgia",
+          "zip": "30265",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.38067,
+            "lon": -84.79966
+          }
+        },
+        {
+          "facility": "Cancer Treatment Centers of America",
+          "city": "Zion",
+          "state": "Illinois",
+          "zip": "60099",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.44613,
+            "lon": -87.83285
+          }
+        },
+        {
+          "facility": "Cancer Care Center",
+          "city": "New Albany",
+          "state": "Indiana",
+          "zip": "47150",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.28562,
+            "lon": -85.82413
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center",
+          "city": "Westwood",
+          "state": "Kansas",
+          "zip": "66205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.04056,
+            "lon": -94.6169
+          }
+        },
+        {
+          "facility": "Cancer Center of Kansas",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67214-3728",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Norton Cancer Institute",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Mercy Medical Center",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Michigan Cancer Center",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Fairview Health Services",
+          "city": "Maple Grove",
+          "state": "Minnesota",
+          "zip": "55369",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.07246,
+            "lon": -93.45579
+          }
+        },
+        {
+          "facility": "Metro Minnesota CCOP",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55416",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "Park Nicollet Institute",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55416",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "Saint Lukes Hospital of Kansas City",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64111",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "HCA Midwest Division",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64132",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "David C Pratt Cancer Center",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "St Vincent Frontier Cancer Center",
+          "city": "Billings",
+          "state": "Montana",
+          "zip": "59102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.78329,
+            "lon": -108.50069
+          }
+        },
+        {
+          "facility": "Saint Francis Medical Center",
+          "city": "Grand Island",
+          "state": "Nebraska",
+          "zip": "68803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.92501,
+            "lon": -98.34201
+          }
+        },
+        {
+          "facility": "Comprehensive Cancer Cntr Of Nevada",
+          "city": "Henderson",
+          "state": "Nevada",
+          "zip": "89052",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.0397,
+            "lon": -114.98194
+          }
+        },
+        {
+          "facility": "Saint Barnabas Medical Center",
+          "city": "Livingston",
+          "state": "New Jersey",
+          "zip": "07039",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79593,
+            "lon": -74.31487
+          }
+        },
+        {
+          "facility": "Perlmutter Cancer Centre",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Randolph Medical Associates",
+          "city": "Asheboro",
+          "state": "North Carolina",
+          "zip": "27204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.70791,
+            "lon": -79.81364
+          }
+        },
+        {
+          "facility": "Cone Health Cancer Center",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Kaiser Permanente NW Region",
+          "city": "Clackamas",
+          "state": "Oregon",
+          "zip": "97015",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.40762,
+            "lon": -122.57037
+          }
+        },
+        {
+          "facility": "Penn State Hershey Cancer Institute",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Cancer Treatment Centers of America Eastern Regional Medical Center",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19124",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "The West Clinic",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "Sarah Cannon Research Institute",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Baylor Charles A Sammons Cancer Cnt",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75246",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Ctr For Cancer And Blood Disorders",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "MD Anderson Cancer Center University of Texas",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Utah Cancer Specialists",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Virginia Cancer Specialists",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Virginia Cancer Institute",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23230",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Fred Hutchinson Cancer Center",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "University of Wisconsin Paul P Carbone Comp Cancer Center",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792 6164",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "San Salvador de Jujuy",
+          "state": "Jujuy Province",
+          "zip": "4600",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -24.1928,
+            "lon": -65.29342
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rosario",
+          "state": "Santa Fe Province",
+          "zip": "S2000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rosario",
+          "state": "Sante Fe",
+          "zip": "S200KZE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "San Miguel Tucuman",
+          "state": "Tucum\u00e1n Province",
+          "zip": "T4000IAK",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rio Negro",
+          "state": "Viedma",
+          "zip": "8500",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "CABA",
+          "zip": "C1419AHN",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "C\u00f3rdoba",
+          "zip": "X5004FHP",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "La Rioja",
+          "zip": "5300",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -29.41328,
+            "lon": -66.85637
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Campbelltown",
+          "state": "New South Wales",
+          "zip": "2560",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.06667,
+            "lon": 150.81667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Coffs Harbour",
+          "state": "New South Wales",
+          "zip": "2450",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -30.29626,
+            "lon": 153.11351
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Darlinghurst",
+          "state": "New South Wales",
+          "zip": "2010",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.87939,
+            "lon": 151.21925
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kingswood",
+          "state": "New South Wales",
+          "zip": "2747",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.75614,
+            "lon": 150.72346
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kogarah",
+          "state": "New South Wales",
+          "zip": "2217",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.9681,
+            "lon": 151.13564
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "North Ryde",
+          "state": "New South Wales",
+          "zip": "2109",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.79677,
+            "lon": 151.12436
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "St Leonards",
+          "state": "New South Wales",
+          "zip": "2065",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.82344,
+            "lon": 151.19836
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wahroonga",
+          "state": "New South Wales",
+          "zip": "2076",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.71816,
+            "lon": 151.11561
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Westmead",
+          "state": "New South Wales",
+          "zip": "2145",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.80383,
+            "lon": 150.98768
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Auchenflower",
+          "state": "Queensland",
+          "zip": "4066",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.47443,
+            "lon": 152.99213
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Birtinya",
+          "state": "Queensland",
+          "zip": "4575",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -26.74322,
+            "lon": 153.11913
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wooloongabba",
+          "state": "Queensland",
+          "zip": "4102",
+          "country": "Australia"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bedford Park",
+          "state": "South Australia",
+          "zip": "5041",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -35.02204,
+            "lon": 138.56815
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bendigo",
+          "state": "Victoria",
+          "zip": "3550",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -36.75818,
+            "lon": 144.28024
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "East Melbourne",
+          "state": "Victoria",
+          "zip": "3002",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.81667,
+            "lon": 144.9879
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Epping",
+          "state": "Victoria",
+          "zip": "3076",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.65,
+            "lon": 145.03333
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Fitzroy",
+          "state": "Victoria",
+          "zip": "3065",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.79839,
+            "lon": 144.97833
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Franston",
+          "state": "Victoria",
+          "zip": "3199",
+          "country": "Australia"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Heidelberg",
+          "state": "Victoria",
+          "zip": "3084",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.75,
+            "lon": 145.06667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "zip": "3000",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.814,
+            "lon": 144.96332
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shepparton",
+          "state": "Victoria",
+          "zip": "3630",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -36.38047,
+            "lon": 145.39867
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Murdoch",
+          "state": "Western Australia",
+          "zip": "6150",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.06987,
+            "lon": 115.83757
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nedlands",
+          "state": "Western Australia",
+          "zip": "6009",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -31.98184,
+            "lon": 115.8073
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Liverpool",
+          "zip": "2170",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.91938,
+            "lon": 150.92588
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Innsbruck",
+          "state": "Tyrol",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Graz",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Linz",
+          "zip": "4020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Salzburg",
+          "zip": "5020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.79941,
+            "lon": 13.04399
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hasselt",
+          "state": "Limburg",
+          "zip": "3500",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93106,
+            "lon": 5.33781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Leuven",
+          "state": "Vlaams Brabant",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Brussels",
+          "zip": "1000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Charleroi",
+          "zip": "6000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.41136,
+            "lon": 4.44448
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Jette",
+          "zip": "1090",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87309,
+            "lon": 4.33419
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Libramont",
+          "zip": "6800",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 49.91741,
+            "lon": 5.37318
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Li\u00e8ge",
+          "zip": "4000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Namur",
+          "zip": "5000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.4669,
+            "lon": 4.86746
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wilrijk",
+          "zip": "2610",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.16734,
+            "lon": 4.39513
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Yvoir",
+          "zip": "5530",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.3279,
+            "lon": 4.88059
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Londrina",
+          "state": "Paran\u00e1",
+          "zip": "86015-520",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.31028,
+            "lon": -51.16278
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Iju\u00ed",
+          "state": "Rio Grande do Sul",
+          "zip": "98700-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -28.38778,
+            "lon": -53.91472
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-903",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90050-170",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90560-030",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90610-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90880-480",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barretos",
+          "state": "S\u00e3o Paulo",
+          "zip": "14784 400",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.55722,
+            "lon": -48.56778
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Santo Andr\u00e9",
+          "state": "S\u00e3o Paulo",
+          "zip": "09060-650",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.66389,
+            "lon": -46.53833
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "01317 000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "04014-002",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Caxias do Sul",
+          "zip": "95070-560",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -29.16806,
+            "lon": -51.17944
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Passo Fundo",
+          "zip": "99010-080",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -28.26278,
+            "lon": -52.40667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Piracicaba",
+          "zip": "13419-155",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.72528,
+            "lon": -47.64917
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Recife",
+          "zip": "50040-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rio de Janeiro",
+          "zip": "20560-120",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Salvador",
+          "zip": "41810 570",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "S\u00e3o Paulo",
+          "zip": "01255-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Calgary",
+          "state": "Alberta",
+          "zip": "T2N4N2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 51.05011,
+            "lon": -114.08529
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kelowna",
+          "state": "British Columbia",
+          "zip": "V1Y 5L3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.88307,
+            "lon": -119.48568
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "North Vancouver",
+          "state": "British Columbia",
+          "zip": "V7L 2L7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.31636,
+            "lon": -123.06934
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Surrey",
+          "state": "British Columbia",
+          "zip": "V3V 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.10635,
+            "lon": -122.82509
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V5Z 4E6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "zip": "B3H 2Y9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Greater Sudbury",
+          "state": "Ontario",
+          "zip": "P3E 5J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.49,
+            "lon": -80.99001
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kitchener",
+          "state": "Ontario",
+          "zip": "N2G 1G3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.42537,
+            "lon": -80.5112
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 5W9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "J7Y 2P9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Oshawa",
+          "state": "Ontario",
+          "zip": "L1G 2B9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.90012,
+            "lon": -78.84957
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sault Ste. Marie",
+          "state": "Ontario",
+          "zip": "P6B 0A8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.51677,
+            "lon": -84.33325
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 2M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Windsor",
+          "state": "Ontario",
+          "zip": "N8W 2X3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.30008,
+            "lon": -83.01654
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Fleurimont",
+          "state": "Quebec",
+          "zip": "J1H 5N4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.40842,
+            "lon": -71.83796
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Greenfield Park",
+          "state": "Quebec",
+          "zip": "J4V 2H1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.48649,
+            "lon": -73.46223
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W 1T8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3T 1E2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4A 3J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "zip": "G1S 4L8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint-J\u00e9r\u00f4me",
+          "state": "Quebec",
+          "zip": "J7Z 5T3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.78036,
+            "lon": -74.00365
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shijiazhuang",
+          "state": "Hebei",
+          "zip": "050011",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Harbin",
+          "state": "Heilongjiang",
+          "zip": "150081",
+          "country": "China",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "zip": "450008",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "zip": "210029",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Suzhou",
+          "state": "Jiangsu",
+          "zip": "215004",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.30408,
+            "lon": 120.59538
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Changchun",
+          "state": "Jilin",
+          "zip": "130021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "610041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310016",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Beijing",
+          "zip": "100021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Chongqing",
+          "zip": "400016",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shanghai",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tianjin",
+          "zip": "300480",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zhenjiang",
+          "zip": "310009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.21086,
+            "lon": 119.45508
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nice",
+          "state": "Alpes Maritimes",
+          "zip": "06189",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dijon",
+          "state": "Cote D Or",
+          "zip": "21034",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Limoges",
+          "state": "Haute Vienne",
+          "zip": "87000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint-Cloud",
+          "state": "Hauts De Seine",
+          "zip": "92210",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.84598,
+            "lon": 2.20289
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rennes",
+          "state": "Ille Et Vilaine",
+          "zip": "35062",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Grenoble",
+          "state": "Isere",
+          "zip": "38028",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lyon",
+          "state": "Rhone",
+          "zip": "69004",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Amiens",
+          "zip": "80000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.9,
+            "lon": 2.3
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Angers",
+          "zip": "49055",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Argenteuil",
+          "zip": "95107",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.94788,
+            "lon": 2.24744
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Avignon",
+          "zip": "84082",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Besan\u00e7on",
+          "zip": "25030",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bordeaux",
+          "zip": "33076",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bron",
+          "zip": "69677",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.73865,
+            "lon": 4.91303
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Caen",
+          "zip": "14021",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Le Mans",
+          "zip": "72000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Marseille",
+          "zip": "13008",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Montpellier",
+          "zip": "34070",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Montpellier",
+          "zip": "34298",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nantes",
+          "zip": "44202",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75013",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75015",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75231",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75475",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Paris",
+          "zip": "75970",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pierre-B\u00e9nite",
+          "zip": "69495",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.70359,
+            "lon": 4.82424
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rouen",
+          "zip": "76038",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint-Herblain",
+          "zip": "44805",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21154,
+            "lon": -1.651
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Strasbourg",
+          "zip": "F 67085",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vand\u0153uvre-l\u00e8s-Nancy",
+          "zip": "54519",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Villejuif",
+          "zip": "94800",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ravensburg",
+          "state": "Baden-Wurttemberg",
+          "zip": "88212",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.78198,
+            "lon": 9.61062
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "80637",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "81377",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "81675",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "W\u00fcrzburg",
+          "state": "Bavaria",
+          "zip": "97080",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cottbus",
+          "state": "Brandenburg",
+          "zip": "03048",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.75769,
+            "lon": 14.32888
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "60431",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Georgsmarienh\u00fctte",
+          "state": "Lower Saxony",
+          "zip": "49124",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.20296,
+            "lon": 8.0448
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hanover",
+          "state": "Lower Saxony",
+          "zip": "30177",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "M\u00f6nchengladbach",
+          "state": "North Rhine-Westphalia",
+          "zip": "41061",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Velbert",
+          "state": "North Rhine-Westphalia",
+          "zip": "42551",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33537,
+            "lon": 7.04348
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dresden",
+          "state": "Saxony",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Augsburg",
+          "zip": "86150",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.37154,
+            "lon": 10.89851
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bad Liebenwerda",
+          "zip": "04924",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.51826,
+            "lon": 13.39459
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Berlin",
+          "zip": "13125",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bonn",
+          "zip": "53111",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.73438,
+            "lon": 7.09549
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bottrop",
+          "zip": "46236",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.52392,
+            "lon": 6.9285
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Erlangen",
+          "zip": "91054",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Essen",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hamburg",
+          "zip": "20357",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Mannheim",
+          "zip": "68167",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.4891,
+            "lon": 8.46694
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "M\u00fcnster",
+          "zip": "48149",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Regensburg",
+          "zip": "93053",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.01513,
+            "lon": 12.10161
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Schweinfurt",
+          "zip": "97422",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.04937,
+            "lon": 10.22175
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "T\u00fcbingen",
+          "zip": "72076",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ulm",
+          "zip": "89081",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "P\u00e9cs",
+          "state": "Baranya",
+          "zip": "7623",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.07617,
+            "lon": 18.22814
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Debrecen",
+          "state": "Hajdu Bihar Megye",
+          "zip": "4032",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.53167,
+            "lon": 21.62444
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zalaegerszeg",
+          "state": "Zala County",
+          "zip": "8900",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.83695,
+            "lon": 16.84401
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Budapest",
+          "zip": "H-1032",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Budapest",
+          "zip": "H-1083",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Budapest",
+          "zip": "H-1145",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kecskem\u00e9t",
+          "zip": "6001",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.90618,
+            "lon": 19.69128
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Szeged",
+          "zip": "6725",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.253,
+            "lon": 20.14824
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Szeksz\u00e1rd",
+          "zip": "7100",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.34723,
+            "lon": 18.71189
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Szombathely",
+          "zip": "H-9700",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.23088,
+            "lon": 16.62155
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tatab\u00e1nya",
+          "zip": "H 2800",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.59247,
+            "lon": 18.38099
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wilton",
+          "state": "Cork",
+          "zip": "T12 DC4A",
+          "country": "Ireland"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "County Limerick",
+          "zip": "V94 F858",
+          "country": "Ireland"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dublin",
+          "zip": "533615",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dublin",
+          "zip": "D03 VX82",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dublin",
+          "zip": "DO4",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dublin",
+          "zip": "DUBLIN 9",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Waterford",
+          "zip": "48346",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 52.25833,
+            "lon": -7.11194
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ancona",
+          "state": "AN",
+          "zip": "60126",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.60717,
+            "lon": 13.5103
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bergamo",
+          "state": "BG",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bologna",
+          "state": "BO",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Catania",
+          "state": "CT",
+          "zip": "95123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Milan",
+          "state": "MI",
+          "zip": "20133",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rozzano",
+          "state": "MI",
+          "zip": "20089",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Palermo",
+          "state": "PA",
+          "zip": "90146",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 38.1166,
+            "lon": 13.3636
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Aviano",
+          "state": "PN",
+          "zip": "33081",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.07056,
+            "lon": 12.59472
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Roma",
+          "state": "RM",
+          "zip": "00128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Candiolo",
+          "state": "TO",
+          "zip": "10060",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.95858,
+            "lon": 7.59812
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Warsaw",
+          "state": "Ul Roentgena 5",
+          "zip": "02 781",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bialystok",
+          "zip": "15-027",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.13333,
+            "lon": 23.16433
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Gdynia",
+          "zip": "81 519",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.51889,
+            "lon": 18.53188
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Gliwice",
+          "zip": "44 101",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.29761,
+            "lon": 18.67658
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Grudzi\u0105dz",
+          "zip": "86 300",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.48411,
+            "lon": 18.75366
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Krakow",
+          "zip": "31501",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.06143,
+            "lon": 19.93658
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lodz",
+          "zip": "90-338",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.77058,
+            "lon": 19.47395
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lublin",
+          "zip": "20 090",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Opole",
+          "zip": "45 054",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.67119,
+            "lon": 17.92604
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ostro\u0142\u0119ka",
+          "zip": "07-410",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.08621,
+            "lon": 21.57566
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Otwock",
+          "zip": "05 400",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.10577,
+            "lon": 21.26129
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wieliszew",
+          "zip": "05-135",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.4513,
+            "lon": 20.96827
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wroclaw",
+          "zip": "02-781",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.10286,
+            "lon": 17.03006
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cluj-Napoca",
+          "state": "Cluj",
+          "zip": "400015",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Craiova",
+          "state": "Dolj",
+          "zip": "200347",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.31667,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Craiova",
+          "state": "Dolj",
+          "zip": "200535",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.31667,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bucharest",
+          "zip": "011171",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Timi\u0219oara",
+          "zip": "300425",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.75372,
+            "lon": 21.22571
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kazan'",
+          "state": "Russian Federation",
+          "zip": "420029",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.78874,
+            "lon": 49.12214
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint Petersburg",
+          "state": "Sankt-Peterburg",
+          "zip": "195271",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Chelyabinsk",
+          "zip": "454087",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.1611,
+            "lon": 61.42877
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kostroma",
+          "zip": "156005",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.76638,
+            "lon": 40.92828
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Krasnoyarsk",
+          "zip": "660022",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.03742,
+            "lon": 92.93136
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Moscow",
+          "zip": "111123",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Moscow",
+          "zip": "115522",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Moscow",
+          "zip": "143423",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nizhny Novgorod",
+          "zip": "603137",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.32867,
+            "lon": 44.00205
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Novosibirsk",
+          "zip": "630000",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.02259,
+            "lon": 82.93175
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Obninsk",
+          "zip": "249036",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.10993,
+            "lon": 36.61238
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Omsk",
+          "zip": "644013",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.99244,
+            "lon": 73.36859
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Orenburg",
+          "zip": "460021",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.76712,
+            "lon": 55.09883
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Rostov-on-Don",
+          "zip": "344037",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 47.21997,
+            "lon": 39.70769
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ryazan",
+          "zip": "390011",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.62696,
+            "lon": 39.70415
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint Petersburg",
+          "zip": "191104",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint Petersburg",
+          "zip": "197758",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Saint Petersburg",
+          "zip": "198255",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tyumen",
+          "zip": "625041",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.15222,
+            "lon": 65.52722
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ufa",
+          "zip": "450054",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.74306,
+            "lon": 55.96779
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Yaroslavl",
+          "zip": "150054",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.62987,
+            "lon": 39.87368
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "state": "Daegu",
+          "zip": "41404",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "W\u014fnju",
+          "state": "Gangwon-do",
+          "zip": "26426",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.35139,
+            "lon": 127.94528
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bundang Gu",
+          "state": "Gyeonggi-do",
+          "zip": "13620",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Suwon",
+          "state": "Gyeonggi-do",
+          "zip": "16499",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.29111,
+            "lon": 127.00889
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Gyeonggi-do",
+          "state": "Korea",
+          "zip": "10408",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.58944,
+            "lon": 126.76917
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Incheon",
+          "state": "Korea",
+          "zip": "405 760",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.45646,
+            "lon": 126.70515
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "state": "Korea",
+          "zip": "02841",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "state": "Korea",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cheongju-si",
+          "state": "North Chungcheong",
+          "zip": "28644",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 36.63722,
+            "lon": 127.48972
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "state": "Yangcheon Gu",
+          "zip": "07985",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Incheon",
+          "zip": "22332",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.45646,
+            "lon": 126.70515
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seongnam Gyeonggi",
+          "zip": "463-712",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "zip": "05505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seoul",
+          "zip": "06591",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ulsan",
+          "zip": "44033",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.53722,
+            "lon": 129.31667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Elche",
+          "state": "Alicante",
+          "zip": "03203",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.26218,
+            "lon": -0.70107
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Granada",
+          "state": "Andalusia",
+          "zip": "18014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Huelva",
+          "state": "Andalusia",
+          "zip": "21005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.26638,
+            "lon": -6.94004
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ja\u00e9n",
+          "state": "Andalusia",
+          "zip": "23007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vitoria-Gasteiz",
+          "state": "Araba",
+          "zip": "01009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.84998,
+            "lon": -2.67268
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "L'Hospitalet de Llobregat",
+          "state": "Barcelona",
+          "zip": "08907",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.35967,
+            "lon": 2.10028
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Manresa",
+          "state": "Barcelona",
+          "zip": "08242",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.72815,
+            "lon": 1.82399
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sabadell",
+          "state": "Barcelona",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bilbao",
+          "state": "Bizkaia",
+          "zip": "48013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.26271,
+            "lon": -2.92528
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Badajoz",
+          "state": "Extremadura",
+          "zip": "06080",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.87789,
+            "lon": -6.97061
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "C\u00e1ceres",
+          "state": "Extremadura",
+          "zip": "10003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47649,
+            "lon": -6.37224
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Lugo",
+          "state": "Galicia",
+          "zip": "27003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.00992,
+            "lon": -7.55602
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Donostia / San Sebastian",
+          "state": "Gipuzkoa",
+          "zip": "20014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.31283,
+            "lon": -1.97499
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Fuenlabrada",
+          "state": "Madrid",
+          "zip": "28942",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.28419,
+            "lon": -3.79415
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Majadahonda",
+          "state": "Madrid",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "El Palmar",
+          "state": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.93939,
+            "lon": -1.16095
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pamplona",
+          "state": "Navarre",
+          "zip": "31008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.81687,
+            "lon": -1.64323
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Vigo",
+          "state": "Pontevedra",
+          "zip": "36212",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.23282,
+            "lon": -8.72264
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "San Crist\u00f3bal de La Laguna",
+          "state": "Santa Cruz De Tenerife",
+          "zip": "38320",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.4853,
+            "lon": -16.32014
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Alicante",
+          "state": "Valencia",
+          "zip": "03550",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Valencia",
+          "state": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "A Coru\u00f1a",
+          "zip": "15006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "A Coru\u00f1a",
+          "zip": "15009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Burgos",
+          "zip": "09006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.34106,
+            "lon": -3.70184
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Castellon",
+          "zip": "12002",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.98567,
+            "lon": -0.04935
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "C\u00f3rdoba",
+          "zip": "14004",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.89155,
+            "lon": -4.77275
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Granada",
+          "zip": "18016",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Las Palmas GC",
+          "zip": "35010",
+          "country": "Spain"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "zip": "28009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "zip": "28033",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "M\u00e1laga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Murcia",
+          "zip": "30008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Salamanca",
+          "zip": "37007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.96882,
+            "lon": -5.66388
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seville",
+          "zip": "41009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zaragoza",
+          "zip": "50009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Changhua",
+          "zip": "50006",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.0692,
+            "lon": 120.5512
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taichung",
+          "zip": "40447",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taichung",
+          "zip": "407219",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tainan",
+          "zip": "704302",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.99083,
+            "lon": 120.21333
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taipei",
+          "zip": "10002",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taipei",
+          "zip": "103616",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taipei",
+          "zip": "10449",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taipei",
+          "zip": "11217",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Taoyuan",
+          "zip": "33305",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.99368,
+            "lon": 121.29696
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Truro",
+          "state": "Cornwall",
+          "zip": "TR1 3LJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.26526,
+            "lon": -5.05436
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sutton",
+          "state": "Surrey",
+          "zip": "SM2 5PT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.35,
+            "lon": -0.2
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Cardiff",
+          "zip": "CF14 2TL",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "London",
+          "zip": "NW1 2BU",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "London",
+          "zip": "SE1 9RT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "London",
+          "zip": "SW3 6JJ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nottingham",
+          "zip": "NG5 1PB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.9536,
+            "lon": -1.15047
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Oxford",
+          "zip": "OX3 7LE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.75222,
+            "lon": -1.25596
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Preston",
+          "zip": "PR2 9HT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.76282,
+            "lon": -2.70452
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Stoke-on-Trent",
+          "zip": "ST4 6QG",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.00415,
+            "lon": -2.18538
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "42334791",
+          "type": "DERIVED",
+          "citation": "Ji Y, Wang C, Combes FP, Ho YY, Fasching PA, Untch M, Zarate JP, Crown J. Quantitative Pharmacology Justifying Ribociclib Dose in Early Breast Cancer. Clin Pharmacokinet. 2026 Jun 23. doi: 10.1007/s40262-026-01643-3. Online ahead of print."
+        },
+        {
+          "pmid": "40996773",
+          "type": "DERIVED",
+          "citation": "Fasching PA, Stroyakovskiy D, Yardley DA, Huang CS, Crown J, Bardia A, Chia S, Im SA, Martin M, Xu B, Loi S, Barrios C, Untch M, Moroose R, Visco F, Hortobagyi GN, Slamon DJ, Fresco R, Zarate JP, Li Z, Waters S, Hurvitz SA. Ribociclib Plus Endocrine Therapy in Hormone Receptor-Positive/ERBB2-Negative Early Breast Cancer: 4-Year Outcomes From the NATALEE Randomized Clinical Trial. JAMA Oncol. 2025 Nov 1;11(11):1364-1372. doi: 10.1001/jamaoncol.2025.3700."
+        },
+        {
+          "pmid": "38507751",
+          "type": "DERIVED",
+          "citation": "Slamon D, Lipatov O, Nowecki Z, McAndrew N, Kukielka-Budny B, Stroyakovskiy D, Yardley DA, Huang CS, Fasching PA, Crown J, Bardia A, Chia S, Im SA, Ruiz-Borrego M, Loi S, Xu B, Hurvitz S, Barrios C, Untch M, Moroose R, Visco F, Afenjar K, Fresco R, Severin I, Ji Y, Ghaznawi F, Li Z, Zarate JP, Chakravartty A, Taran T, Hortobagyi G. Ribociclib plus Endocrine Therapy in Early Breast Cancer. N Engl J Med. 2024 Mar 21;390(12):1080-1091. doi: 10.1056/NEJMoa2305488."
+        },
+        {
+          "pmid": "37275963",
+          "type": "DERIVED",
+          "citation": "Slamon DJ, Fasching PA, Hurvitz S, Chia S, Crown J, Martin M, Barrios CH, Bardia A, Im SA, Yardley DA, Untch M, Huang CS, Stroyakovskiy D, Xu B, Moroose RL, Loi S, Visco F, Bee-Munteanu V, Afenjar K, Fresco R, Taran T, Chakravartty A, Zarate JP, Lteif A, Hortobagyi GN. Rationale and trial design of NATALEE: a Phase III trial of adjuvant ribociclib + endocrine therapy versus endocrine therapy alone in patients with HR+/HER2- early breast cancer. Ther Adv Med Oncol. 2023 May 29;15:17588359231178125. doi: 10.1177/17588359231178125. eCollection 2023."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

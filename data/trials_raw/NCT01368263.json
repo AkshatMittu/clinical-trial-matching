@@ -1,0 +1,1698 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01368263",
+      "orgStudyIdInfo": {
+        "id": "201106141"
+      },
+      "organization": {
+        "fullName": "Washington University School of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Goserelin and Letrozole or Anastrozole in Premenopausal Patients With Stage II-III Estrogen Receptor-Positive Breast Cancer",
+      "officialTitle": "A Multisite International Collaborative Phase 2 Study of Neoadjuvant Goserelin and a Non-steroidal Aromatase Inhibitor for Premenopausal Women With Estrogen Receptor Positive HER2 Negative Clinical Stage 2 and 3 Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to funding source and lack of accrual",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2011-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2013-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2011-06-02",
+      "studyFirstSubmitQcDate": "2011-06-06",
+      "studyFirstPostDateStruct": {
+        "date": "2011-06-07",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2015-01-23",
+      "resultsFirstSubmitQcDate": "2015-02-18",
+      "resultsFirstPostDateStruct": {
+        "date": "2015-02-20",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-03-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-04-03",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Washington University School of Medicine",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase II trial studies the impact of a presurgical endocrine therapy, consisting of goserelin with letrozole or anastrozole on the treatment of premenopausal patients with stage II-III estrogen receptor-positive (ER+) and human epidermal growth factor receptor 2 (HER2)-negative breast cancer. Endocrine therapy reduces the amount of estrogen in the body. E+ breast cancer require estrogen, so lower levels of estrogen may slow or stop cell growth. Giving goserelin together with letrozole or anastrozole before surgery may enhance the effectiveness of, or eliminate the need for, chemotherapy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Estrogen Receptor-positive Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "Stage II Breast Cancer",
+        "Stage IIIA Breast Cancer",
+        "Stage IIIB Breast Cancer",
+        "Stage IIIC Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion.",
+          "interventionNames": [
+            "Drug: goserelin acetate",
+            "Drug: letrozole",
+            "Drug: anastrozole",
+            "Procedure: Surgery"
+          ]
+        },
+        {
+          "label": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion.",
+          "interventionNames": [
+            "Drug: goserelin acetate",
+            "Drug: letrozole",
+            "Drug: anastrozole",
+            "Drug: chemotherapy",
+            "Procedure: Surgery"
+          ]
+        },
+        {
+          "label": "Group 3 (E2 > 15 pg/ml)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion.",
+          "interventionNames": [
+            "Drug: goserelin acetate",
+            "Drug: letrozole",
+            "Drug: anastrozole",
+            "Drug: chemotherapy",
+            "Procedure: Surgery"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "goserelin acetate",
+          "description": "Given SC",
+          "armGroupLabels": [
+            "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+            "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+            "Group 3 (E2 > 15 pg/ml)"
+          ],
+          "otherNames": [
+            "ICI-118630",
+            "ZDX",
+            "Zoladex"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "letrozole",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+            "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+            "Group 3 (E2 > 15 pg/ml)"
+          ],
+          "otherNames": [
+            "CGS 20267",
+            "Femara",
+            "LTZ"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "anastrozole",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+            "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+            "Group 3 (E2 > 15 pg/ml)"
+          ],
+          "otherNames": [
+            "ANAS",
+            "Arimidex",
+            "ICI-D1033"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "chemotherapy",
+          "description": "Standard chemotherapy",
+          "armGroupLabels": [
+            "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+            "Group 3 (E2 > 15 pg/ml)"
+          ],
+          "otherNames": [
+            "chemo"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgery",
+          "armGroupLabels": [
+            "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+            "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+            "Group 3 (E2 > 15 pg/ml)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pathologic Complete Response (CR) Rate",
+          "description": "* In patients with Ki67 \\>10% and \\<= 15 pg/ml at 4 weeks.\n* The pCR rate for neo-adjuvant chemotherapy is defined as 100 times the number of eligible patients with no histologic evidence of invasive tumor cells in the surgical breast specimen and the axillary or sentinel lymph nodes divided by the total number of eligible patients who received neo-adjuvant chemotherapy.",
+          "timeFrame": "1 month"
+        },
+        {
+          "measure": "Acceptability of Management With Surgical Oophorectomy/Continued LHRH With Continued Oral Endocrine Therapy and no Chemotherapy",
+          "description": "Proportion of patients with a PEPI score of 0 and pathological stage 1 who choose to forego chemotherapy.",
+          "timeFrame": "6 months post neoadjuvant endocrine therapy and surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Relationship Between Pretreatment FFNP-PET Standard Uptake Value (SUV) and 4-week Post-treatment Ki-67",
+          "timeFrame": "Baseline and 4 weeks post-treatment"
+        },
+        {
+          "measure": "Preoperative Endocrine Prognostic Index Score (PEPI Score)",
+          "description": "To obtain the PEPI score, risk points for relapse-free survival (RFS) and breast cancer-specific survival (BCSS) are assigned depending on the hazard ratio (HR) from the multivariable analysis. The total PEPI score assigned to each patient is the sum of the risk points derived from the pT stage, pN stage, Ki67 level, and estrogen receptor status of the surgical specimen. A HR in the range of 1 to 2 receives one risk point; a HR in the 2 to 2.5 range, two risk points; a HR greater than 2.5, three risk points. The total risk point score for each patient is the sum of all the risk points accumulated from the four factors in the model, ranges from 0 (best possible outcome) to 12 (worst possible outcome).",
+          "timeFrame": "At time of definitive surgery"
+        },
+        {
+          "measure": "PEPI-0 Rate in Patients Whose Estradiol is Fully Suppressed (< or = 15 pg/mL) and Tumor Ki67 Level is 10% or Less",
+          "timeFrame": "16 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient must have histological or cytological confirmed invasive breast cancer\n* Patient must be premenopausal confirmed by serum estradiol level in the premenopausal range (\\> 25 pg/ml) at the beginning of the study; for women on oral contraceptives, these agents must be held for two weeks before the estradiol assessment is made\n* Patient must have a negative serum pregnancy test within 7 days of registration\n* Patient's tumor must be ER+ with or without concomitant progesterone receptor-positive (PR+) with an Allred score of 6, 7 or 8; patients with \\> 66.6% of cells staining positive by conventional immunohistochemistry (IHC) have a minimum Allred score of 6 and are eligible\n* Patient's tumors must be HER2 negative by local laboratory assessment: HER2 IHC 0, 1+, or 2+ with subsequent negative fluorescent in situ hybridization (FISH) (ratio \\< 1.8); negative FISH alone in absence of IHC is acceptable\n* Patient must have T2-T4c, any N, M0 breast cancer, by clinical staging (physical examination)\n* Patient's primary tumor must be palpable and measure \\> 2 cm by tape, ruler or caliper measurements in at least one dimension\n* Patient must have mammogram and ultrasound of the breast within 42 days prior to registration; if a patient has clinically palpable or suspicious nodes, then an ultrasound of the axilla is also required\n* Patient, as documented by the treating physician, must be clinically staged as one of the following:\n\n  * T4 a-c for which modified radical mastectomy with negative margins is the goal\n  * T2 or T3 for which conversion from needing mastectomy to breast conservation is the goal\n  * T2 for which lumpectomy at first attempt is the goal\n* Patient must be \\> or = 18 years old.\n* Patient must stop taking all forms of hormonal treatment, including oral or other form of hormonal contraceptive methods and all forms of hormone replacement therapy, at least two weeks prior to starting protocol therapy\n* Patient must agree to use a \"highly-effective form of non-hormonal contraception\" (applies to patient and/or partner)\n* Patient must be willing to undergo oophorectomy, if indicated\n* Patient must have an Eastern Cooperative Oncology Group (ECOG) performance status of =\\< 2\n* Patient must have normal organ and marrow function as defined below:\n* Leukocytes \\>= 3,000/mcL\n* Absolute neutrophil count \\>= 1,500/mcL\n* Platelets \\>= 100,000/mcL\n* Total bilirubin within normal institutional limits\n* Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase \\[SGOT\\])/alanine aminotransferase (ALT) (serum glutamic pyruvate transaminase \\[SGPT\\]) =\\< 3.0 X institutional upper limit of normal (ULN)\n* Creatinine within normal institutional limits OR\n* Creatinine clearance \\>= 60 mL/min/1.73 m2 for patients with creatinine levels above institutional normal\n* If the patient is a cancer survivor, all of the following criteria must be met\n* Patient has undergone potentially curative therapy from all prior malignancies\n* Patient must have no evidence of any prior malignancies for at least 5 years with no evidence of recurrence (except for successfully treated cervical carcinoma in situ, lobular carcinoma in situ of the breast, contralateral ductal carcinoma in situ (DCIS) treated with mastectomy or lumpectomy and radiation but without tamoxifen treatment, or non-melanoma skin cancer with no evidence of recurrence)\n* Patient must be deemed by her treating physician to be at low risk (\\< 30%) for recurrence from prior malignancies\n* Patient must be able to understand and willing to sign a written informed consent document\n\nExclusion Criteria:\n\n* Patient must not have inflammatory breast cancer defined as clinically significant erythema of the breast and/or documented dermal lymphatic invasion (not direct skin invasion by tumor or peau d'orange without erythema)\n* Patient must not have had prior treatment for invasive breast cancer, including radiation, endocrine therapy, chemotherapy, or investigational agent; patients whose diagnosis was established by incision biopsy are not eligible\n* Patient must not have had prior DCIS in the ipsilateral breast\n* Patient must not have used tamoxifen for prior contralateral DCIS\n* Patient must not have any evidence of distant metastasis (M1) on imaging; staging scans are not mandatory but any exams performed as standard of care throughout the study period will be collected for correlation as needed\n* If patient does not agree to undergo mastectomy or lumpectomy after neoadjuvant therapy, she is ineligible for this study\n* Patient must not be receiving other investigational agents or be enrolled in another neoadjuvant clinical trial for treatment of the existing breast cancer\n* Pregnant and/or breastfeeding women are excluded from this study\n* Patient must not have any concurrent life threatening illnesses\n* Patient must not have undergone prior sentinel lymph node surgery; cores or FNA of lymph node are acceptable",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Timothy Pluard, M.D.",
+          "affiliation": "Washington University School of Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Washington University School of Medicine",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Alvin J. Siteman Cancer Center at Barnes-Jewish Hospital and Washington University School of Medicine",
+          "url": "http://www.siteman.wustl.edu"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "The study opened to participant accrual on 09/13/2011 and closed to participant accrual on 05/22/2013.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+        },
+        {
+          "id": "FG001",
+          "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+        },
+        {
+          "id": "FG002",
+          "title": "Group 3 (E2 > 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+        },
+        {
+          "id": "BG001",
+          "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+        },
+        {
+          "id": "BG002",
+          "title": "Group 3 (E2 > 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "6"
+            },
+            {
+              "groupId": "BG001",
+              "value": "1"
+            },
+            {
+              "groupId": "BG002",
+              "value": "1"
+            },
+            {
+              "groupId": "BG003",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "43",
+                      "lowerLimit": "35",
+                      "upperLimit": "53"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "29",
+                      "lowerLimit": "29",
+                      "upperLimit": "29"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "35",
+                      "lowerLimit": "35",
+                      "upperLimit": "35"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "38.5",
+                      "lowerLimit": "29",
+                      "upperLimit": "53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Pathologic Complete Response (CR) Rate",
+          "description": "* In patients with Ki67 \\>10% and \\<= 15 pg/ml at 4 weeks.\n* The pCR rate for neo-adjuvant chemotherapy is defined as 100 times the number of eligible patients with no histologic evidence of invasive tumor cells in the surgical breast specimen and the axillary or sentinel lymph nodes divided by the total number of eligible patients who received neo-adjuvant chemotherapy.",
+          "populationDescription": "There were no evaluable participants to analyze in Group 1, 2, or 3. No participants met the criteria for Ki67 \\>10% and estradiol levels of \\<= 15 pg/ml at 4 weeks.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "1 month",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+            },
+            {
+              "id": "OG001",
+              "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            },
+            {
+              "id": "OG002",
+              "title": "Group 3 (E2 > 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Acceptability of Management With Surgical Oophorectomy/Continued LHRH With Continued Oral Endocrine Therapy and no Chemotherapy",
+          "description": "Proportion of patients with a PEPI score of 0 and pathological stage 1 who choose to forego chemotherapy.",
+          "populationDescription": "None of the participants had a PEPI score and 0 and pathological stage 1.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "6 months post neoadjuvant endocrine therapy and surgery",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+            },
+            {
+              "id": "OG001",
+              "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            },
+            {
+              "id": "OG002",
+              "title": "Group 3 (E2 > 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Relationship Between Pretreatment FFNP-PET Standard Uptake Value (SUV) and 4-week Post-treatment Ki-67",
+          "populationDescription": "This outcome was not analyzed due to funding issues.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline and 4 weeks post-treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+            },
+            {
+              "id": "OG001",
+              "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            },
+            {
+              "id": "OG002",
+              "title": "Group 3 (E2 > 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Preoperative Endocrine Prognostic Index Score (PEPI Score)",
+          "description": "To obtain the PEPI score, risk points for relapse-free survival (RFS) and breast cancer-specific survival (BCSS) are assigned depending on the hazard ratio (HR) from the multivariable analysis. The total PEPI score assigned to each patient is the sum of the risk points derived from the pT stage, pN stage, Ki67 level, and estrogen receptor status of the surgical specimen. A HR in the range of 1 to 2 receives one risk point; a HR in the 2 to 2.5 range, two risk points; a HR greater than 2.5, three risk points. The total risk point score for each patient is the sum of all the risk points accumulated from the four factors in the model, ranges from 0 (best possible outcome) to 12 (worst possible outcome).",
+          "populationDescription": "2 participants in Group 1 did not have a PEPI score at time of surgery as (1) participant did not have nodal dissection and (1) did not have surgery. Both participants in Group 2 and Group 3 did not have surgery study tissue collected",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "At time of definitive surgery",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+            },
+            {
+              "id": "OG001",
+              "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            },
+            {
+              "id": "OG002",
+              "title": "Group 3 (E2 > 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "PEPI Score 1",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PEPI Score 4",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PEPI Score 7",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PEPI Score 8",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PEPI-0 Rate in Patients Whose Estradiol is Fully Suppressed (< or = 15 pg/mL) and Tumor Ki67 Level is 10% or Less",
+          "populationDescription": "(1) of the participants in Group 1 had an inconclusive PEPI score at week 16 and was not evaluable. (1) of the participants in Group 1 did not have surgery and was not evaluable. Participants in Group 2 and Group 3 were not evaluable for this outcome as the estradiol and Ki67 levels were above outcome specified levels.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "16 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion."
+            },
+            {
+              "id": "OG001",
+              "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            },
+            {
+              "id": "OG002",
+              "title": "Group 3 (E2 > 15 pg/ml)",
+              "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Group 1 (Ki67 <10%, E2 <= 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Neoadjuvant treatment repeats every 28 days for a total of 16-18 weeks in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Recommendations for postsurgical treatment will be based on PEPI score and physician discretion.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 6,
+          "otherNumAffected": 6,
+          "otherNumAtRisk": 6
+        },
+        {
+          "id": "EG001",
+          "title": "Group 2 (Ki67 >= 10%, E2 <= 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant chemotherapy in the absence of disease progression or unacceptable toxicity. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 1,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 1
+        },
+        {
+          "id": "EG002",
+          "title": "Group 3 (E2 > 15 pg/ml)",
+          "description": "Patients receive 1 cycle (28 days) of endocrine therapy consisting of goserelin acetate SC on day 1 and letrozole or anastrozole PO QD. Patients receive standard neoadjuvant therapy at the discretion of the physician. Patients then undergo the appropriate standard surgical procedure to remove the cancer. Postsurgical treatment at physician discretion.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 1,
+          "otherNumAffected": 1,
+          "otherNumAtRisk": 1
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Right heel pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Night sweats",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia (joint)",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Muscle pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Irregular menstruation",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Breast pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Vaginal discharge",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Skin irritation around breast",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Vaginal dryness",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Agitation",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Hemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Postnasal drip",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Laryngeal inflammation",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        },
+        {
+          "term": "Allergic reaction",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "CTCAE (3.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 1
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 1
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Timothy Pluard, M.D.",
+        "organization": "Washington University School of Medicine",
+        "email": "tpluard@saint-lukes.org",
+        "phone": "314-362-5645"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017273",
+          "term": "Goserelin"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

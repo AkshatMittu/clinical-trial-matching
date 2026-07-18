@@ -1,0 +1,1536 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05059444",
+      "orgStudyIdInfo": {
+        "id": "02-MX-003"
+      },
+      "organization": {
+        "fullName": "Guardant Health, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "ORACLE: Observation of ResiduAl Cancer With Liquid Biopsy Evaluation",
+      "officialTitle": "ORACLE: Observation of ResiduAl Cancer With Liquid Biopsy Evaluation",
+      "acronym": "ORACLE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-08",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-09-16",
+      "studyFirstSubmitQcDate": "2021-09-17",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Guardant Health, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of ORACLE is to demonstrate the ability of a novel ctDNA assay developed by Guardant Health to detect recurrence in individuals treated for early-stage solid tumors. It is necessary that ctDNA test results are linked to clinical outcomes in order to demonstrate clinical validity for recurrence detection and explore its value in a healthcare environment subject to cost containment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Bladder Carcinoma",
+        "Ureter Carcinoma",
+        "Renal Pelvis Carcinoma",
+        "Non-small Cell Lung Cancer",
+        "Invasive Breast Carcinoma",
+        "Cutaneous Melanoma",
+        "Esophageal Carcinoma",
+        "Gastroesophageal Junction Carcinoma",
+        "Gastric Adenocarcinoma",
+        "Pancreatic Adenocarcinoma",
+        "Squamous Cell Carcinoma of the Head and Neck",
+        "Epithelial Ovarian Carcinoma",
+        "Fallopian Tube Carcinoma",
+        "Endometrial Carcinoma",
+        "Renal Cell Carcinoma",
+        "Rectal Adenocarcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 2020,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort 1: Muscle invasive carcinoma of the bladder, ureter, or renal pelvis (stage II-III)",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 2: Non-small cell lung cancer (stage IB-III)",
+          "description": "Cohort 2A: Resectable Cohort 2B: Unresectable",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 3: Invasive breast carcinoma with hormone receptor and HER2 status",
+          "description": "Cohort 3A: High-risk HER2+ breast cancer (any ER, PR status allowed); defined as having stage II-III or having residual invasive disease (i.e. non-pathologic complete response) following a neoadjuvant chemotherapy-containing regimen OR Cohort 3B: High-risk triple negative breast cancer (TNBC); defined as having stage II-III or having residual invasive disease (i.e. non-pathologic complete response) following a neoadjuvant chemotherapy-containing regimen OR Cohort 3C: HR-positive/HER2-negative invasive breast carcinoma with either \\>4 positive axillary lymph nodes or 1-3 positive axillary lymph nodes and at least one of the following: tumor size \\>5 cm, histologic grade 3, or validated gene expression assay indicating high recurrence risk (OncotypeDx score \\> 26, MammaPrint high, ProSigna high, EndoPredict high)",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 4: Stage IIB-III cutaneous melanoma or limited (resectable) stage IV melanoma",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 5: Esophageal or gastroesophageal junction carcinoma (stage II-III)",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 6: Gastric adenocarcinoma (stage II-III)",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 7: Pancreatic adenocarcinoma",
+          "description": "That is has been surgically resected or is eligible for surgical resection",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 8: Invasive squamous cell carcinoma of the head and neck",
+          "description": "Includes stage I-IVB oral cavity, oropharynx, hypopharynx, larynx, nasopharynx, nasal cavity, or paranasal sinus",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 9: High-risk epithelial ovarian or Fallopian tube carcinoma",
+          "description": "Defined as FIGO stage IC-III or stage IA-IB that has high grade or clear cell histology.",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 10: High-risk endometrial carcinoma",
+          "description": "Defined as FIGO stage II-III.",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 11: High-risk renal cell carcinoma",
+          "description": "Defined as high grade (grade 3-4) stage II, stage III or limited (resectable) stage IV treated with curative intent.",
+          "interventionNames": [
+            "Diagnostic Test: Guardant Reveal"
+          ]
+        },
+        {
+          "label": "Cohort 12: Pathologically confirmed adenocarcinoma of the rectum",
+          "description": "Located up to 15 cm from the anal verge that is undergoing or underwent a preoperative chemotherapy- or immunotherapy-containing regimen"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Guardant Reveal",
+          "description": "Guardant Reveal is a minimal residual disease (MRD) panel for use in recurrence detection of early-stage solid tumors.",
+          "armGroupLabels": [
+            "Cohort 10: High-risk endometrial carcinoma",
+            "Cohort 11: High-risk renal cell carcinoma",
+            "Cohort 1: Muscle invasive carcinoma of the bladder, ureter, or renal pelvis (stage II-III)",
+            "Cohort 2: Non-small cell lung cancer (stage IB-III)",
+            "Cohort 3: Invasive breast carcinoma with hormone receptor and HER2 status",
+            "Cohort 4: Stage IIB-III cutaneous melanoma or limited (resectable) stage IV melanoma",
+            "Cohort 5: Esophageal or gastroesophageal junction carcinoma (stage II-III)",
+            "Cohort 6: Gastric adenocarcinoma (stage II-III)",
+            "Cohort 7: Pancreatic adenocarcinoma",
+            "Cohort 8: Invasive squamous cell carcinoma of the head and neck",
+            "Cohort 9: High-risk epithelial ovarian or Fallopian tube carcinoma"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Distant Recurrence Free Interval (D-RFi)",
+          "description": "The primary endpoint, distant recurrence-free interval (D-RFi), will be evaluated for each of the primary study cohorts. D-RFi is defined as the time from the end of primary treatment until the time of diagnosis of a distant recurrence of the Index Cancer. Subjects without a distant recurrence will be censored at the time of last follow-up of their Index Cancer.",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Sensitivity",
+          "description": "Sensitivity defined as the proportion of participants who develop distant recurrence who have ctDNA detected at or before the time of clinical detection of recurrence.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Positive Predictive Value",
+          "description": "Positive predictive value (PPV) defined as the proportion of participants who have ctDNA detected at the landmark or any surveillance timepoint who recur (either distally or locally).",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Lead Time",
+          "description": "Lead time defined as the interval between ctDNA detection and clinical detection of recurrence.",
+          "timeFrame": "3 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Recurrence-free interval (RFi)",
+          "description": "Recurrence-free interval (RFi) defined as the time from the end of primary treatment until the appearance/occurrence of any recurrence (distant, regional, and/or local) of the Index Cancer. Subjects without recurrence will be censored at the time of last follow-up of their Index Cancer.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Negative predictive value (NPV)",
+          "description": "Negative predictive value (NPV) defined as the proportion of participants who have ctDNA not detected who have no evidence of recurrence.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Association with resolution of indeterminate findings",
+          "description": "1. The proportion of individuals whose indeterminate finding is ultimately confirmed to be disease recurrence who have ctDNA detected at the initial time the indeterminate finding is identified and\n2. The proportion of ctDNA not detected participants whose indeterminate findings is ultimately confirmed to be benign.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Sensitivity for local recurrence",
+          "description": "Sensitivity for local recurrence defined as the proportion of participants who have localized recurrence (e.g., in the absence of distant metastasis) who have ctDNA detected at or before the time of clinical detection of a localized recurrence; using landmark and serial timepoints.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Index Cancer-Specific Survival (ICSS)",
+          "description": "Index Cancer-Specific Survival (ICSS) defined as the time from the date of diagnosis until the date of death from the subject's Index Cancer. Subjects who are still alive at the end of the study observation period will be censored at the time of last known vital status.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Overall Survival (OS) defined as the time from the date of diagnosis until the date of death from any cause. Subjects who are still alive at the end of the study observation period will be censored at the time of last known vital status.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Rate of ctDNA clearance with adjuvant chemotherapy",
+          "description": "Rate of ctDNA clearance with adjuvant chemotherapy defined as the proportion of patients who have ctDNA detected at the pre-enrollment timepoint whose ctDNA becomes undetectable at the Landmark timepoint.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Association of ctDNA detection status with pathologic response",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\> 18 years old AND\n* Initial treatment is given with curative/radical intent AND\n* Are planning to undergo regular follow-up and monitoring for cancer recurrence per standard of care at the enrolling site AND\n* Provided written informed consent to participate in the study AND\n* Are willing to have de-identified clinical data shared with investigators at regular intervals as outlined in the study protocol and informed consent AND\n* Are willing to provide blood samples at enrollment and at subsequent clinical visits coinciding with standard of care follow-up, for up to 5 years as outlined in the study protocol and informed consent AND\n* Have at least one Landmark blood sample\n\nHave a histologically confirmed Index Cancer that qualifies for inclusion, defined as:\n\nPrimary Study Cohorts\n\n* Cohort 1: Cohort 1: Muscle invasive carcinoma of the bladder, ureter, or renal pelvis (stage II-III),\n* Cohort 2: Cohort 2: Non-small cell lung cancer (stage IB-III):\n\nCohort 2A: Resectable OR Cohort 2B: Unresectable,\n\n* Cohort 3: Invasive breast carcinoma with hormone receptor (e.g. estrogen receptor (ER) and progesterone receptor (PR) expression) and human epidermal growth factor receptor 2 (HER2) status known and one the following:\n\nCohort 3A: High-risk2 HER2+ breast cancer (any ER, PR status allowed) OR Cohort 3B: High-risk2 triple negative breast cancer (TNBC) OR Cohort 3C: High-risk3 HR-positive/HER2-negative invasive breast carcinoma,\n\n* Cohort 4: Stage IIB-III cutaneous melanoma or limited (resectable) stage IV melanoma treated with curative intent,\n* Cohort 5: Esophageal or gastroesophageal junction carcinoma (stage II-III),\n* Cohort 6: Gastric adenocarcinoma (stage II-III),\n* Cohort 7: Pancreatic adenocarcinoma that is has been surgically resected or is eligible for surgical resection,\n* Cohort 8: Invasive squamous cell carcinoma of the head and neck (Includes stage I-IVB oral cavity, oropharynx, hypopharynx, larynx, nasopharynx, nasal cavity, and paranasal sinus cancers),\n* Cohort 9: High-risk epithelial ovarian or Fallopian tube carcinoma (Defined as FIGO stage IC-III or stage IA-IB that has high grade or clear cell histology),\n* Cohort 10: High-risk endometrial carcinoma (Defined as 2023 FIGO Stage II-III),\n* Cohort 11: High-risk renal cell carcinoma (Defined as high grade (grade 3-4) stage II, stage III or limited (resectable) stage IV treated with curative intent)\n\nExploratory Cohort\n\n* Cohort 12: Pathologically confirmed adenocarcinoma of the rectum (located up to 15 cm from the anal verge) that is undergoing or underwent a preoperative chemotherapy- or immunotherapy- containing regimen\n\nExclusion Criteria:\n\n* History of allogeneic organ or tissue transplant\n* Index cancer has predominantly neuroendocrine histology\n* History of another primary cancer diagnosed within 3 years of enrollment, with the exception that in situ cancers, non-melanoma skin carcinomas, localized low- or intermediate risk prostate cancers, and stage I papillary thyroid carcinoma, and participants with bilateral/multifocal tumors within the same organ (for example, bilateral breast cancer) are allowed if diagnosed within 3 years of enrollment\n* Known distant metastasis at time of enrollment (with the exception of participants with limited/resectable stage IV cutaneous melanoma or RCC)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The primary study population will include participants with invasive bladder/upper urinary tract carcinoma, NSCLC, breast cancer, cutaneous melanoma, esophageal carcinoma, gastroesophageal junction carcinoma, gastric adenocarcinoma, pancreatic adenocarcinoma, squamous cell carcinoma of the head and neck, epithelial ovarian/Fallopian tube carcinoma, endometrial cancer, and renal cell carcinoma (RCC) as per inclusion/exclusion criteria below. Participants with rectal adenocarcinoma undergoing pre-operative systemic chemotherapy/chemoradiotherapy- or immunotherapy-containing regimen are included as an exploratory cohort as per inclusion/exclusion criteria below. Inclusion criteria were selected to enroll participants who are predicted to have \\>15-20% risk of recurrence within 3 years in order to sufficiently power the study for recurrence events.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Clinical Trial Operations",
+          "role": "CONTACT",
+          "phone": "8556988887",
+          "email": "mrdoraclestudy@guardanthealth.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Study Director",
+          "affiliation": "Guardant Health, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35205",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Susan Binkley",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Ironwood Cancer & Research Centers",
+          "status": "RECRUITING",
+          "city": "Chandler",
+          "state": "Arizona",
+          "zip": "85224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sarah Shilling",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          }
+        },
+        {
+          "facility": "Genesis Cancer Center",
+          "status": "TERMINATED",
+          "city": "Hot Springs",
+          "state": "Arkansas",
+          "zip": "71913",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.5037,
+            "lon": -93.05518
+          }
+        },
+        {
+          "facility": "University of California, San Diego",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92093",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Susanna Lee",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Hoag Memorial Hospital Presbyterian",
+          "status": "RECRUITING",
+          "city": "Newport Beach",
+          "state": "California",
+          "zip": "92663",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alexandra Clark",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.61891,
+            "lon": -117.92895
+          }
+        },
+        {
+          "facility": "Redwood City",
+          "status": "RECRUITING",
+          "city": "Redwood City",
+          "state": "California",
+          "zip": "94063",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Clinical Trial Operations",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.48522,
+            "lon": -122.23635
+          }
+        },
+        {
+          "facility": "Sutter Institute for Medical Research",
+          "status": "TERMINATED",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95816",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "University of Colorado",
+          "status": "RECRUITING",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Harper",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Memorial Healthcare System",
+          "status": "RECRUITING",
+          "city": "Hollywood",
+          "state": "Florida",
+          "zip": "33021",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Machelle Seymour",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          }
+        },
+        {
+          "facility": "The Oncology Institute of Hope & Innovation",
+          "status": "RECRUITING",
+          "city": "Lakeland",
+          "state": "Florida",
+          "zip": "33812",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shanna Kennedy",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.03947,
+            "lon": -81.9498
+          }
+        },
+        {
+          "facility": "Tulane Cancer Center",
+          "status": "RECRUITING",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alex Lieberman",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Christus Highland/ Boniol",
+          "status": "RECRUITING",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71105",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nancy Hassan",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "Central Maine Medical Center",
+          "status": "RECRUITING",
+          "city": "Lewiston",
+          "state": "Maine",
+          "zip": "04240",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jessica Bolduc",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.10035,
+            "lon": -70.21478
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "TERMINATED",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Cancer & Hematology Centers of Western Michigan",
+          "status": "RECRUITING",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49503",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Angela Newman",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "Mayo Clinic (Rochester)",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Renee Bradshaw",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Astera Cancer Care",
+          "status": "RECRUITING",
+          "city": "East Brunswick",
+          "state": "New Jersey",
+          "zip": "08816",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Percy Yeung",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.42788,
+            "lon": -74.41598
+          }
+        },
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "status": "TERMINATED",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "UNC- Chapel Hill",
+          "status": "RECRUITING",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27599",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chris Hilliiard",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "The Christ Hospital Cancer Center",
+          "status": "TERMINATED",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Cleveland Clinic",
+          "status": "RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maria Clark",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Toledo Clinic Cancer Center",
+          "status": "RECRUITING",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43623",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Martinez",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "Crozer-Keystone Health System",
+          "status": "TERMINATED",
+          "city": "Broomall",
+          "state": "Pennsylvania",
+          "zip": "19008",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.9815,
+            "lon": -75.35658
+          }
+        },
+        {
+          "facility": "University of Pennsylvania",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Willdragon Wang",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Cancer Care Associates of York",
+          "status": "RECRUITING",
+          "city": "York",
+          "state": "Pennsylvania",
+          "zip": "17403",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katelyn Bean",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9626,
+            "lon": -76.72774
+          }
+        },
+        {
+          "facility": "Carolina Urologic Research Center",
+          "status": "RECRUITING",
+          "city": "Myrtle Beach",
+          "state": "South Carolina",
+          "zip": "29572",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Angela Buffkin",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.68906,
+            "lon": -78.88669
+          }
+        },
+        {
+          "facility": "Carolina Blood and Cancer Care Associates",
+          "status": "RECRUITING",
+          "city": "Rock Hill",
+          "state": "South Carolina",
+          "zip": "29732",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Carson Lee Gallo",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.92487,
+            "lon": -81.02508
+          }
+        },
+        {
+          "facility": "UT Southwestern Medical Center",
+          "status": "RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Saketh Nadimpalli",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "DHR Health Advance Care Center",
+          "status": "RECRUITING",
+          "city": "Edinburg",
+          "state": "Texas",
+          "zip": "78539",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Edgar Lopez Pacheco",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.30174,
+            "lon": -98.16334
+          }
+        },
+        {
+          "facility": "The Center for Cancer and Blood Disorders",
+          "status": "RECRUITING",
+          "city": "Forth Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anna Rose Abangan",
+              "role": "CONTACT"
+            }
+          ]
+        },
+        {
+          "facility": "The University of Texas Health Science Center at San Antonio",
+          "status": "RECRUITING",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "James Denno",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Utah Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84106",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Angela Nuttall",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "ThedaCare Regional Cancer Center",
+          "status": "RECRUITING",
+          "city": "Appleton",
+          "state": "Wisconsin",
+          "zip": "54911",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rachel Luedtke",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.26193,
+            "lon": -88.41538
+          }
+        },
+        {
+          "facility": "CHU Besan\u00e7on",
+          "status": "RECRUITING",
+          "city": "Besan\u00e7on",
+          "zip": "25000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Christine Guglielmetti-Bargot",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          }
+        },
+        {
+          "facility": "H\u00f4pital Franco-Britannique",
+          "status": "RECRUITING",
+          "city": "Levallois-Perret",
+          "zip": "92300",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Hajar Eddahbi",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.89389,
+            "lon": 2.28864
+          }
+        },
+        {
+          "facility": "Institut Paoli-Calmettes",
+          "status": "RECRUITING",
+          "city": "Marseille",
+          "zip": "13009",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Sameh Bou Ali",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Ambroise Par\u00e9-Hartmann",
+          "status": "RECRUITING",
+          "city": "Neuilly",
+          "zip": "92200",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Messaouda Merzoug",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.91641,
+            "lon": 3.43844
+          }
+        },
+        {
+          "facility": "APHP Tenon Hospital - Sorbonne",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "75020",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Hakima Manseur",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Asklepios Klinik Altona",
+          "status": "RECRUITING",
+          "city": "Hamburg",
+          "zip": "22763",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Dirk Arnold",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "SLK-Kliniken Heilbronn GmbH",
+          "status": "RECRUITING",
+          "city": "Heilbronn",
+          "zip": "74078",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Josef Huber",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.13995,
+            "lon": 9.22054
+          }
+        },
+        {
+          "facility": "Ludwig Maximilian University Munich",
+          "status": "RECRUITING",
+          "city": "Munich",
+          "zip": "81377",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "C. Benedikt Westphalen",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Instituto Romagnolo per lo Studio dei Tumori \"Dino Amadori\" IRCCS IRST, SrL",
+          "status": "RECRUITING",
+          "city": "Meldola",
+          "zip": "47014",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Emanuela Montanari",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.12775,
+            "lon": 12.0626
+          }
+        },
+        {
+          "facility": "Azienda USL-IRCCS di Reggio Emilia",
+          "status": "RECRUITING",
+          "city": "Reggio Emilia",
+          "zip": "42123",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Erika Gervasi",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.69825,
+            "lon": 10.63125
+          }
+        },
+        {
+          "facility": "Policlinico Universitario Agostino Gemelli",
+          "status": "RECRUITING",
+          "city": "Roma",
+          "zip": "00168",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Ilenia Marino",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Hospital Teresa Herrera (C.H.U.A.C)",
+          "status": "RECRUITING",
+          "city": "A Coru\u00f1a",
+          "zip": "15006",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Sabela Varela Rodriguez",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Vall Hebron Institute of Oncology",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Pol Sis\u00f3 Camarasa",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic of Barcelona",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Debora Moreno Fernandez",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "ICO Institut Catala d'Oncologia",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08908",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Ana Rosa Garcia Oliva",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Instituto Catalan de Oncologia de Girona",
+          "status": "RECRUITING",
+          "city": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Begona Martin",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Hospital Universitario Insular de Gran Canaria",
+          "status": "RECRUITING",
+          "city": "Las Palmas de Gran Canaria",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Sara Su\u00e1rez Guerra",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.10178,
+            "lon": -15.41573
+          }
+        },
+        {
+          "facility": "Hospital San Carlos",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Raquel Rodriguez",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Paz",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Claudia Morrugares Portero",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "CIOSS HM Sanchinarro",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28050",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Bego\u00f1a Martinez Montesino",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de la Victoria",
+          "status": "RECRUITING",
+          "city": "M\u00e1laga",
+          "zip": "29010",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Juan Manuel Escandell",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "CCS Hospital Universitari Parc Taul\u00ed",
+          "status": "RECRUITING",
+          "city": "Sabadell",
+          "zip": "08208",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Jose Garcia Ruiz",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "facility": "Hospital Clinico de Santiago de Compostela",
+          "status": "RECRUITING",
+          "city": "Santiago de Compostela",
+          "zip": "15706",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Iria Portos",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico de Valencia",
+          "status": "RECRUITING",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "contacts": [
+            {
+              "name": "Matteo Stocco",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001749",
+          "term": "Urinary Bladder Neoplasms"
+        },
+        {
+          "id": "D014516",
+          "term": "Ureteral Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D004938",
+          "term": "Esophageal Neoplasms"
+        },
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D000077216",
+          "term": "Carcinoma, Ovarian Epithelial"
+        },
+        {
+          "id": "D005185",
+          "term": "Fallopian Tube Neoplasms"
+        },
+        {
+          "id": "D016889",
+          "term": "Endometrial Neoplasms"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        },
+        {
+          "id": "D012004",
+          "term": "Rectal Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014571",
+          "term": "Urologic Neoplasms"
+        },
+        {
+          "id": "D014565",
+          "term": "Urogenital Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D052776",
+          "term": "Female Urogenital Diseases"
+        },
+        {
+          "id": "D005261",
+          "term": "Female Urogenital Diseases and Pregnancy Complications"
+        },
+        {
+          "id": "D000091642",
+          "term": "Urogenital Diseases"
+        },
+        {
+          "id": "D001745",
+          "term": "Urinary Bladder Diseases"
+        },
+        {
+          "id": "D014570",
+          "term": "Urologic Diseases"
+        },
+        {
+          "id": "D052801",
+          "term": "Male Urogenital Diseases"
+        },
+        {
+          "id": "D014515",
+          "term": "Ureteral Diseases"
+        },
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D018358",
+          "term": "Neuroendocrine Tumors"
+        },
+        {
+          "id": "D017599",
+          "term": "Neuroectodermal Tumors"
+        },
+        {
+          "id": "D009373",
+          "term": "Neoplasms, Germ Cell and Embryonal"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009380",
+          "term": "Neoplasms, Nerve Tissue"
+        },
+        {
+          "id": "D018326",
+          "term": "Nevi and Melanomas"
+        },
+        {
+          "id": "D012878",
+          "term": "Skin Neoplasms"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D004067",
+          "term": "Digestive System Neoplasms"
+        },
+        {
+          "id": "D006258",
+          "term": "Head and Neck Neoplasms"
+        },
+        {
+          "id": "D004066",
+          "term": "Digestive System Diseases"
+        },
+        {
+          "id": "D004935",
+          "term": "Esophageal Diseases"
+        },
+        {
+          "id": "D005767",
+          "term": "Gastrointestinal Diseases"
+        },
+        {
+          "id": "D002294",
+          "term": "Carcinoma, Squamous Cell"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        },
+        {
+          "id": "D004701",
+          "term": "Endocrine Gland Neoplasms"
+        },
+        {
+          "id": "D010049",
+          "term": "Ovarian Diseases"
+        },
+        {
+          "id": "D000291",
+          "term": "Adnexal Diseases"
+        },
+        {
+          "id": "D005831",
+          "term": "Genital Diseases, Female"
+        },
+        {
+          "id": "D005833",
+          "term": "Genital Neoplasms, Female"
+        },
+        {
+          "id": "D000091662",
+          "term": "Genital Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        },
+        {
+          "id": "D006058",
+          "term": "Gonadal Disorders"
+        },
+        {
+          "id": "D005184",
+          "term": "Fallopian Tube Diseases"
+        },
+        {
+          "id": "D014594",
+          "term": "Uterine Neoplasms"
+        },
+        {
+          "id": "D014591",
+          "term": "Uterine Diseases"
+        },
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D007680",
+          "term": "Kidney Neoplasms"
+        },
+        {
+          "id": "D007674",
+          "term": "Kidney Diseases"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D007414",
+          "term": "Intestinal Neoplasms"
+        },
+        {
+          "id": "D007410",
+          "term": "Intestinal Diseases"
+        },
+        {
+          "id": "D012002",
+          "term": "Rectal Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

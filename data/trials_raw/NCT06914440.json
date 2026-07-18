@@ -1,0 +1,344 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06914440",
+      "orgStudyIdInfo": {
+        "id": "XJ-ViBranT-B-001"
+      },
+      "organization": {
+        "fullName": "Xijing Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neoadjuvant SBRT Followed by Nab-Paclitaxel Combined With Toripalimab in HR+/HER2- Breast Cancer",
+      "officialTitle": "Neoadjuvant SBRT Followed by Nab-Paclitaxel Combined With Toripalimab in HR+/HER2- Breast Cancer: A Single-arm, Prospective Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-06-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-03-30",
+      "studyFirstSubmitQcDate": "2025-03-30",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Xijing Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to evaluate the efficacy and safety of neoadjuvant radiotherapy followed by chemotherapy combined with immunotherapy in patients with previously untreated stage IIB-IIIC (cT3N0 or cT2-4N1-3) HR-positive and HER2-negative breast cancer. 27 enrolled patients will be assigned to receive stereotactic body radiotherapy followed by Nab-Paclitaxel combined with Toripalimab. The main question it aims th answer is that whether the combination therapy of radiotherapy, de-escalated chemotherapy, and immunotherapy could improve the pCR rate of HR-positive and HER2-negative breast cancer.",
+      "detailedDescription": "HR-positive and HER2-negative (HR+/HER2-) breast cancer is the most common subtype of breast cancer. Although it is the subtype with the best treatment outcomes, HR+/HER2- breast cancer carries a higher risk of long-term recurrence and metastasis compared to the other subtypes. Additionally, patients with T3 or lager tumor or axillary lymph node metastasis have a significantly increased risk of local recurrence and distant metastasis compared to early-stage patients. In recent years, the role of neoadjuvant therapy in the comprehensive treatment of breast cancer has gained increasing attention. The pathological complete response (pCR) rate following neoadjuvant therapy is closely associated with long-term survival. However, compared to HER2+ or triple-negative breast cancer, HR+/HER2- breast cancer patients exhibit a significantly lower pCR rate with neoadjuvant chemotherapy alone. Neoadjuvant chemotherapy combined with immunotherapy has become a key treatment strategy for TNBC, this combination also improves pCR rates in HR+/HER2- breast cancer, though the benefit is less pronounced than in TNBC. Radiotherapy not only releases a large number of tumor antigens and inflammatory signals to enhance systemic anti-tumor immune responses, but also promotes the exposure of tumor cell surface antigens, thereby increasing the immunogenicity of the tumor microenvironment. The synergistic effect of radiotherapy and immunotherapy, when combined with chemotherapy, may further improve treatment efficacy. Based on these, we designed this clinical trial evaluating the effectof neoadjuvant radiotherapy combined with de-escalated chemotherapy and immunotherapy, aiming to explore its potential to improve pCR rates and long-term outcomes in HR+/HER2- breast cancer patients. Enrolled patients will receive four cycles of single-agent Nab-Paclitaxel plus Toripalimab within one week after stereotactic radiotherapy, followed by surgery and subsequent adjuvant therapy. Postoperative pCR rate and prognosis of participants will be analyzed in our clinical study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Neoadjuvant therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 27,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "During the neoadjuvant treatment period, participants will undergo stereotactic radiotherapy and subsequently receive chemotherapy combined with immunotherapy.",
+          "interventionNames": [
+            "Radiation: Stereotactic Body Radiation Therapy (SBRT)",
+            "Drug: Toripalimab",
+            "Drug: Neoadjuvant Chemotherapy",
+            "Procedure: Surgery",
+            "Drug: Adjuvant Chemotherapy",
+            "Radiation: Adjuvant Radiotherapy",
+            "Drug: Endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "Stereotactic Body Radiation Therapy (SBRT)",
+          "description": "The prescribed dose of radiation is 24 Gy delivered in 3 fractions (8 Gy/fraction) using SBRT technique. Subjects received SBRT for the primary breast cancer lesion at 8Gy/Fraction each time for 3 consecutive days, 1 week before the start of systemic therapy. The first day of radiation is C1D1.",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Toripalimab",
+          "description": "Toripalimab will be administered at a fixed dose of 240 mg via intravenous infusion every 3 weeks (q3w). The first dose is given on Cycle 2 Day 1 (C2D1), followed by dosing on the first day of each subsequent cycle for a total of 4 cycles. (Toripalimab\u00d74 240mg D1 q3w)",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Neoadjuvant Chemotherapy",
+          "description": "Combined with Toripalimab, Nab-paclitaxel will be dosed at 125 mg/m\u00b2 based on body surface area, administered by intravenous infusion weekly (Days 1, 8, 15 of each 21-day cycle) for 4 cycles.(T\u00d74, Nab-Paclitaxel 125mg/m2\uff0cD1\u3001D8\u3001D15 q3w).",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgery",
+          "description": "Surgery will be performed 2-6 weeks after completion of neoadjuvant therapy. The surgical approach will be determined by the investigator based on disease status and patient preference.",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Adjuvant Chemotherapy",
+          "description": "The anthracycline may be either Epirubicin (body surface area-adjusted 50 mg/m\u00b2) or Liposomal Doxorubicin (body surface area-adjusted 30 mg/m\u00b2) combined with Cyclophosphamide (body surface area-adjusted 600 mg/m\u00b2). Both drugs were administered intravenously every 3 weeks, and then the first day of each course was administered for 4 cycles. (EC\u00d74, Epirubicin 50 mg/m\u00b2 or Liposomal Doxorubicin 30 mg/m\u00b2, comined with Cyclophosphamide 600 mg/m\u00b2, D1, q3w)",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "RADIATION",
+          "name": "Adjuvant Radiotherapy",
+          "description": "Conventional radiotherapy will be delivered to the breast/chest wall and regional lymph nodes (investigator-selected technique), with explicit prohibition of tumor bed boost irradiation.",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Endocrine therapy",
+          "description": "Investigator-selected adjuvant endocrine therapy will be deterimend according to applicable guidelines, considering menopausal status, recurrence risk, treatment history, comorbidities as well as patient preference.",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pathologic complete response (pCR) rate according to RCB system",
+          "description": "pCR is defined as the absence of invasive cancer in the breast primary lesion and negative regional lymph nodes (ypT0/Tis ypN0) by hematoxylin-eosin staining after completion of the neoadjuvant treatment. RCB system will be used for the pathological evaluation after neoadjuvant therapy",
+          "timeFrame": "Up to 12 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "RCB 0/I rate",
+          "description": "The RCB 0/I rate is defined as the percentage of patients achieving either pathological complete response (RCB-0) or minimal residual disease (RCB-I), corresponding to near-pCR status",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "DFS and iDFS",
+          "description": "Disease-free survival (DFS) is defined as the time from initiation of neoadjuvant therapy to the earliest occurrence of any of the following events: ipsilateral or contralateral invasive breast cancer recurrence, locoregional recurrence, distant recurrence, death from any cause, second primary non-breast malignancy, or ipsilateral/contralateral ductal carcinoma in situ (DCIS). Invasive disease-free survival (iDFS) is measured from the start of neoadjuvant therapy until invasive disease recurrence (including locoregional recurrence, ipsilateral/contralateral invasive breast cancer, distant metastasis), new primary tumors, or death from any cause.",
+          "timeFrame": "1 year, 2 year, 3 year and 5 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female patients aged \u226518 and \u226475 years at the time of signing informed consent.\n2. ECOG PS status of 0-1.\n3. Breast cancer assessed as non-metastatic (M0), meeting all of the following:\n\n   1. Clinical stage: Stage IIB, IIIA, IIIB, or IIIC\n   2. Required imaging assessments (within 28 days): Abdominal CT, ECT Bone scan, Chest CT and Brain MRI\n4. Histologically or pathologically confirmed invasive carcinoma of no special type, with all of the following:\n\n   1. Grade 2 or 3 (confirmed by central laboratory);\n   2. ER-positive (\\>1% staining) and/or PR-positive (\\>1% staining) by IHC;\n   3. HER2-negative (IHC 0/1+ or HER2/neu FISH ratio \u22641.8);\n   4. Ki-67 \u226515%.\n5. Patient deemed eligible for radiotherapy after MDT evaluation.\n6. No prior antitumor therapy within 1 month before enrollment.\n7. Organ Function Requirements (within 7 days prior to enrollment):\n\n   1. Complete blood count (no transfusion or hematopoietic growth factors within 7 days): ANC \u22651.5\u00d710\u2079/L; ALC \u22650.5\u00d710\u2079/L; Platelets \u2265100\u00d710\u2079/L; Hemoglobin \u226590 g/L; WBC \u22653.0\u00d710\u2079/L and \u226415\u00d710\u2079/L;\n   2. Blood biochemistry (no transfusion/albumin within 7 days): ALT/AST \u22642.5\u00d7ULN; ALP \u22642.5\u00d7ULN\uff1bBUN/Cr \u22641.5\u00d7ULN; Cr\u226560 mL/min (Cockcroft-Gault formula);\n   3. Coagulation: PT/APTT \u22641.5\u00d7ULN; INR \u22641.5\u00d7ULN (if no anticoagulant therapy);\n   4. Urinalysis: Urine protein \\<2+; if \u22652+, 24-hour urine protein must be \u22641g;\n   5. Thyroid function:TSH \u22641\u00d7ULN; if abnormal, normal T3/T4 levels required for eligibility.\n8. Women of childbearing potential must:\n\n   1. Have a negative serum pregnancy test within 7 days before treatment;\n   2. Use highly effective contraception during the study and for 180 days after the last dose.\n9. Voluntarily sign informed consent, demonstrate good compliance, and commit to follow-up.\n\nExclusion Criteria:\n\n1. Inflammatory Breast Cancer.\n2. Comorbidities/Medical History:\n\n   1. Autoimmune disease: patients with any known or suspected autoimmune disease, except: hypothyroidism due to autoimmune thyroiditis managed with hormone replacement therapy only, stable type-1 diabetes with well-controlled blood glucose.\n   2. Cardiovascular Diseases: poorly controlled hypertension despite medication (SBP \\>140 mmHg or DBP\\>90 mmHg). And with the history (within 6 months prior to enrollment) of myocardial infarction, severe/unstable angina, NYHA Class \u22652 heart failure, clinically significant arrhythmias as well as symptomatic congestive heart failure.\n   3. Interstitial lung disease, non-infectious pneumonitis, or other uncontrolled systemic diseases (e.g., diabetes, pulmonary fibrosis, acute pneumonia);\n   4. Vaccination: receipt of live attenuated vaccines within 28 days prior to enrollment or planned during the study;\n   5. Infections: HIV/AIDS, active hepatitis(HBV-DNA \u2265500 IU/mL; HCV-RNA above detection limit), or co-infection with HBV and HCV, severe infections within 4 weeks prior to enrollment (e.g., bacteremia, severe pneumonia requiring hospitalization), active infection requiring systemic antibiotics (CTCAE\u2265Grade 2) within 2 weeks prior to treatment, active tuberculosis within 1 year prior to enrollment;\n   6. Unexplained fever \\>38.5\u00b0C during screening (unless deemed tumor-related by the investigator);\n   7. Malignancy History: other malignancies diagnosed within 5 years prior to enrollment (except adequately treated basal cell carcinoma, squamous cell skin cancer, or cervical carcinoma in situ);\n   8. Surgery:Major surgery within 28 days prior to enrollment (diagnostic biopsies or PICC line placement are allowed);\n   9. Transplant: Prior or planned allogeneic bone marrow or solid organ transplant;\n   10. Neurological: peripheral neuropathy \u2265Grade 2;\n   11. Gastrointestinal: clinically significant bowel obstruction;\n   12. Thrombotic Events: arterial/venous thrombosis within 6 months prior to enrollment (e.g., stroke, transient ischemic attack, DVT, pulmonary embolism);\n   13. Bleeding Risk: hemoptysis (\u22652.5 mL/day) within 2 months prior to enrollment, clinically significant bleeding within 3 months prior to enrollment (e.g. gastrointestinal bleeding, hemorrhagic gastric ulcer, baseline fecal occult blood\u2265++), and the known bleeding/thrombotic disorders (e.g., hemophilia, coagulopathy, thrombocytopenia, hypersplenism);\n   14. Coagulation abnormalities (INR \\>1.5\u00d7ULN or APTT \\>1.5\u00d7ULN), or requiring long-term anticoagulation (warfarin/heparin) or antiplatelet therapy (aspirin\u2265300 mg/day or clopidogrel \u226575 mg/day).\n3. Treatment-Related Exclusions:\n\n   1. Prior systemic targeted therapy or immunostimulants (e.g., interferon, IL-2) within 4 weeks before treatment;\n   2. Known allergy to the investigational drug (recombinant humanized anti-PD-1 mAb) or its excipients.\n4. Clinical Trial Participation: participation in another drug trial within 4 weeks prior to enrollment, or within 5 half-lives of the last investigational drug dose.\n5. Substance Abuse: history of drug/alcohol abuse or dependency.\n6. Pregnancy/Lactation: pregnant, breastfeeding, or planning pregnancy during the study.\n7. Investigator' s Discretion: other conditions that may compromise subject safety or study integrity (e.g., severe lab abnormalities, social factors).",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "JIAJUN DING",
+          "role": "CONTACT",
+          "phone": "15121089323",
+          "email": "yuki_ding1996@163.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Xijing Hospital Affiliated to Air Force Military Medical University",
+          "status": "RECRUITING",
+          "city": "Xi'an",
+          "state": "Shannxi Province",
+          "zip": "710032",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ting Wang, PhD",
+              "role": "CONTACT",
+              "phone": "0086-13700283101",
+              "email": "ting_w100@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        },
+        {
+          "facility": "Xijing Hospital Affiliated to Air Force Military Medical University",
+          "status": "RECRUITING",
+          "city": "Xi'an",
+          "state": "Shannxi",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Ting Wang",
+              "role": "CONTACT",
+              "phone": "0086-13700283101",
+              "email": "ting_w100@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016634",
+          "term": "Radiosurgery"
+        },
+        {
+          "id": "C000656314",
+          "term": "toripalimab"
+        },
+        {
+          "id": "D020360",
+          "term": "Neoadjuvant Therapy"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D017024",
+          "term": "Chemotherapy, Adjuvant"
+        },
+        {
+          "id": "D018714",
+          "term": "Radiotherapy, Adjuvant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D011878",
+          "term": "Radiotherapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013238",
+          "term": "Stereotaxic Techniques"
+        },
+        {
+          "id": "D019635",
+          "term": "Neurosurgical Procedures"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

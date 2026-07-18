@@ -1,0 +1,633 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05022342",
+      "orgStudyIdInfo": {
+        "id": "CBYL719CIN02"
+      },
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of PIK3CA Mutations and Effectiveness and Tolerability Outcomes of Alpelisib in Real-world",
+      "officialTitle": "A Descriptive Study of PIK3CA Mutations and Outcomes With Alpelisib in Patients With HR-positive and HER2-negative Advanced Breast Cancer (ABC)/ Metastatic Breast Cancer (MBC) in India",
+      "acronym": "SPEAR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-10-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-02-11",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-08-20",
+      "studyFirstSubmitQcDate": "2021-08-20",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "SPEAR is a non-interventional / observational, prospective, multicenter study planned to be conducted across \\~ 30 sites in India, among HR-positive and HER2-negative ABC/MBC patients. This being a non-interventional study, no investigational drug or intervention will be administered as a part of the study participation. All the therapeutic decisions, as well as the type and timing of disease monitoring, laboratory tests or medical procedures will be at the discretion of the treating physician and upon patient's consent. No visits will be scheduled as a part of this non-interventional study, however, data by visits for variables will be collected for all the enrolled patients.",
+      "detailedDescription": "Overall, this study will have 2 parts (Part A and Part B). However, it is to be noted that, these parts (Part A and Part B) are independent of each other and can run in parallel. The purpose of the Part A of study is to determine the proportion of PIK3CA mutation positive patients among the HR-positive and HER2-negative ABC/MBC diagnosed patients in India. The Part B of the study aims to evaluate the clinical effectiveness and tolerability of alpelisib plus fulvestrant among men, pre-menopausal women (ovarian ablation) or post-menopausal women who are PIK3CA mutation positive patients with HR-positive and HER2-negative ABC/MBC diagnosis among Indian population, in the real-world setting.\n\nPart A- This will involve enrolling of approximately 1200 patients (males, post-menopausal women or pre-menopausal women who are receiving ovarian ablation) with a documented diagnosis of HR-positive HER2-negative ABC/MBC. The data on PIK3CA mutation status will be collected only for those patients who signs ICF for participation in the study. Once, patient signs ICF, their samples will be sent for PIK3CA mutation status testing, that will be performed at central laboratory and the results on mutation status will be reported to the investigator.\n\nPart B- This part aims to enroll approximately 200 patients who are PIK3CA mutation positive. The patients enrolled into the Part B of the study can either be continued from Part A of the study or be a direct enrollment into the Part B of the study. For the patient's entering directly into Part B of the study, positive PIK3CA status should be available prior to study entry. All the patients entering into part B of the study must be alpelisib treatment na\u00efve. The patients enrolled into Part B of the study, should have already been planned to receive treatment with alpelisib plus fulvestrant, based on their treating physician's discretion and upon patient's consent. The treatment decision by the physician are to be made independent of the patient's inclusion in this observational study. During the Part B of the study, data by visits for variables will be collected for the enrolled patients at every 3 months interval (\u00b11 month), if feasible or until a maximum of 24 months observational period or lost to follow-up (End-of-study \\[EoS\\] assessment will be performed), or death, or disease progression, whichever occurs first."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "advanced breast cancer",
+        "metastatic breast cancer",
+        "PIK3CA mutations"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 595,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HR-positive HER2-negative ABC/MBC",
+          "description": "Hormone receptor (HR)-positive and human epidermal growth factor receptor 2 (HER2)-negative advanced breast cancer (ABC)/ metastatic breast cancer (MBC) patients"
+        },
+        {
+          "label": "PIK3CA mutation positive",
+          "description": "Patients with Phosphatidylinositol-4,5-Bisphosphate 3-Kinase Catalytic Subunit Alpha (PIK3CA) gene mutation positive",
+          "interventionNames": [
+            "Other: alpelisib plus fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "alpelisib plus fulvestrant",
+          "description": "Prospective observational study. There is no treatment allocation. Patients administered alpelisib plus fulvestrant, that have started before inclusion of the patient into the study will be enrolled.",
+          "armGroupLabels": [
+            "PIK3CA mutation positive"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "PART A: Percentage of patients with tumors harboring a PIK3CA mutation",
+          "description": "Defined as whether PIK3CA mutation is detected (positive or negative) after the enrollment of patient in Part A of the study.\n\nThe mutation status should specify each 11 hotspots (C420R, E542K, E545A,E545D, E545G, E545K, Q546E, Q546R, H1047L, H1047R, and H1047Y)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART B: Clinical Benefit Rate (CBR) as measured by RECIST 1.1",
+          "description": "CBR defined as the proportion of patients with a best overall response of CR (complete response) or PR (partial disease), or an overall lesion response of stable disease (SD) or non-CR/non-PD (progressive disease) which lasts for a minimum time duration (with a default of at least 24 weeks in breast cancer studies). This should be evaluated as per RECIST v1.1. This endpoint measures signs of activity considering duration of disease stabilization",
+          "timeFrame": "Up to 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PART A: Age at early stage (initial) disease, and advanced/metastatic disease diagnosis",
+          "description": "Two sub-groups will be identified based on age as \\<75 years and \u226575 years for patient's data collection",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Clinical characteristics of the disease at early (initial) stage of diagnosis- TNM staging",
+          "description": "TNM staging will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Clinical characteristics of the disease at early (initial) stage of diagnosis - receptor expression",
+          "description": "Receptor expression can be:\n\n* ER: Estrogen Receptor\n* PgR: Progesterone Receptor\n* HER2: Human Epidermal Growth Factor Receptor 2",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Clinical characteristics of advanced / metastatic disease stage - disease free interval (DFI)",
+          "description": "Disease free interval (DFI) is defined as the interval from the completion of therapy to the diagnosis of recurrence",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Clinical characteristics of advanced / metastatic disease stage - number of metastasis",
+          "description": "At advanced / metastatic disease diagnosis number of metastasis will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Clinical characteristics of advanced / metastatic disease stage - location of metastasis",
+          "description": "At advanced / metastatic disease diagnosis location of metastasis will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Clinical characteristics of advanced / metastatic disease stage - receptor expression",
+          "description": "Receptor expression can be:\n\n* ER: Estrogen Receptor\n* PgR: Progesterone Receptor\n* HER2: Human Epidermal Growth Factor Receptor 2",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Prior number of LoT for the advanced / metastatic disease",
+          "description": "To identify the treatment patterns of prior therapies received for ABC/MBC, as available in the patient's medical record, prior number of Line of Therapy (LoT) for the advanced / metastatic disease will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Prior treatment type",
+          "description": "To identify the treatment patterns of prior therapies received for ABC/MBC, as available in the patient's medical record, prior treatment type (hormone alone, hormone with targeted therapy (TT), chemotherapy, etc.) will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Prior treatment sequence by LoT",
+          "description": "To identify the treatment patterns of prior therapies received for ABC/MBC, as available in the patient's medical record, prior treatment sequence by Line of Therapy (LoT) will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Time to next treatment",
+          "description": "To identify the treatment patterns of prior therapies received for ABC/MBC, as available in the patient's medical record, time to next treatment will be collected.\n\nTime to next treatment: defined as time gap between two Line of Therapy (LoT), as applicable",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: Reason (s) for discontinuation of prior therapy",
+          "description": "To identify the treatment patterns of prior therapies received for ABC/MBC, as available in the patient's medical record, reason (s) for discontinuation of prior therapy will be collected",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART A: PIK3CA mutation positive patients not prescribed alpelisib",
+          "description": "To identify the treatment patterns of prior therapies received for ABC/MBC, as available in the patient's medical record, PIK3CA mutation positive patients not prescribed alpelisib will be collected by reason",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "PART B: Progression Free Survival (PFS) by RECIST 1.1",
+          "description": "Defined as the time from start of treatment with alpelisib plus fulvestrant (index date) to the date of the first documented progression or death due to any cause. If a patient has not had an event, PFS is censored at the date of last adequate tumor assessment.",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "PART B: Overall Response Rate (ORR) by RECIST 1.1",
+          "description": "ORR is defined as the proportion of patients with best overall response of Complete Response (CR) or partial response (PR) evaluated based on local investigator's assessment according to RECIST 1.1",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "PARTB: Duration of response (DoR) by RECIST 1.1",
+          "description": "Calculated as the time from the date of the first documented Complete Response (CR) or partial response (PR) per RECIST version 1.1.",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "PART B: Tolerability of alpelisib plus fulvestrant measured by adverse events (AEs)",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "PART B: Number of patients with laboratory abnormalities",
+          "description": "The laboratory assessment will be recorded at baseline and during the study observation period based on changes in Grade of laboratory abnormality.",
+          "timeFrame": "Baseline, Up to 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPART A:\n\n1. Males (\u226518 years of age), post-menopausal\\* females or pre-menopausal\\*\\* females with ovarian ablation (as per physician decision).\n2. Patients with confirmed diagnosis of ABC/MBC (locoregionally recurrent not amenable to curative therapy or metastatic)\n3. Patient with histologically and/or cytologically confirmed diagnosis of HR-positive (ER+ and/or PgR+), as well as HER2-negative breast cancer by local laboratory (HER2- by Immunohistochemistry \\[IHC\\], for borderline2+ Fluorescence In Situ Hybridization \\[FISH\\])\n4. A separate signed patient ICF for Part A of the study must be obtained prior to any data collection and sample shipment to the central designated laboratory\n5. Patient's tumor tissue (archival or fresh) is available to be sent to a central laboratory for PIK3CA testing. In case, tissue sample (archival or fresh) is not available or feasible, liquid biopsy may be allowed.\n\nPART B:\n\n1. Males (\u226518 years of age), post-menopausal\\* females or pre-menopausal\\*\\* females with ovarian ablation (as per physician decision).\n2. Patients with confirmed diagnosis of ABC/MBC (locoregionally recurrent not amenable to curative therapy or metastatic) - for direct enrollment patients into Part B of the study.\n3. Patient with histologically and/or cytologically confirmed diagnosis of HR-positive (ER+ and/or PgR+), as well as HER2-negative breast cancer by local laboratory (HER2- by Immunohistochemistry \\[IHC\\], for borderline2+ Fluorescence In Situ Hybridization \\[FISH\\]) - for direct enrollment patients into Part B of the study.\n4. Participants with confirmed positive PIK3CA mutation status prior to study entry.\n5. A separate signed ICF for Part B of the study must be obtained by all the patients, prior to any data collection, irrespective of patients who are being enrolled from Part A of the study or who are being enrolled directly into Part B of the study.\n6. Physician decision to treat patients with alpelisib plus fulvestrant, according to the prescribing label and the local practicing guidelines.\n7. Patient should be alpelisib treatment na\u00efve.\n\nExclusion Criteria:\n\nPART A:\n\n1\\. Prior or current enrollment in any interventional clinical trial for ABC/MBC.\n\nPart\n\nPART B:\n\n1. Patients' who had prior or current exposure to alpelisib or had prior or current exposure to any other PIK3CA inhibitor should be excluded.\n2. Known hypersensitivity to alpelisib or fulvestrant, or to any of the excipients of alpelisib or fulvestrant.\n3. Participant with type I or uncontrolled type II diabetes mellitus (HbA1c \\>7, \\[as per ADA/ACP guidelines 2020\\]).\n4. Participant has a history of severe cutaneous reactions like Stevens-Johnson-Syndrome (SJS), Erythema Multiforme (EM), Toxic Epidermal Necrolysis (TEN), or Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS).\n5. Participant has documented pneumonitis/interstitial lung disease which is active and requiring treatment.\n6. Participant with unresolved osteonecrosis of the jaw.\n7. Participant reports history of acute pancreatitis within 1 year of screening or past medical history of chronic pancreatitis, major surgery, any relevant medical condition, gastrointestinal (GI) condition preventing absorption, Child Pugh score B or C etc.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "PART A: males, post-menopausal women or pre-menopausal women who are receiving ovarian ablation PART B: patients who are PIK3CA mutation positive",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hyderabad",
+          "state": "Andhra Pradesh",
+          "zip": "500034",
+          "country": "India"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Guwahati",
+          "state": "Assam",
+          "zip": "781023",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.1844,
+            "lon": 91.7458
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kochi",
+          "state": "Kerala",
+          "zip": "682041",
+          "country": "India",
+          "geoPoint": {
+            "lat": 9.93988,
+            "lon": 76.26022
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bhopal",
+          "state": "Madhya Pradesh",
+          "zip": "462001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.25469,
+            "lon": 77.40289
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zip": "400 012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zip": "400071",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "440001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "441108",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "411004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110060",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110092",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bhubaneswar",
+          "state": "Odisha",
+          "zip": "751003",
+          "country": "India",
+          "geoPoint": {
+            "lat": 20.27241,
+            "lon": 85.83385
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bhubaneswar",
+          "state": "Odisha",
+          "zip": "751007",
+          "country": "India",
+          "geoPoint": {
+            "lat": 20.27241,
+            "lon": 85.83385
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Chandigarh",
+          "state": "Punjab",
+          "zip": "160055",
+          "country": "India"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ludhiana",
+          "state": "Punjab",
+          "zip": "141008",
+          "country": "India",
+          "geoPoint": {
+            "lat": 30.91204,
+            "lon": 75.85379
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Jaipur",
+          "state": "Rajasthan",
+          "zip": "302017",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.91962,
+            "lon": 75.78781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Sherilingampally",
+          "state": "Telangana",
+          "zip": "500019",
+          "country": "India"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Howrah",
+          "state": "West Bengal",
+          "zip": "711103",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.57688,
+            "lon": 88.31857
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "700029",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "700054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "700063",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Ahmedabad",
+          "zip": "380054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kanpur",
+          "zip": "208002",
+          "country": "India",
+          "geoPoint": {
+            "lat": 26.46523,
+            "lon": 80.34975
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kolkata",
+          "zip": "700016",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kolkata",
+          "zip": "700026",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Kolkata",
+          "zip": "700107",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Puducherry",
+          "zip": "605006",
+          "country": "India",
+          "geoPoint": {
+            "lat": 11.93381,
+            "lon": 79.82979
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Udaipur",
+          "zip": "313011",
+          "country": "India",
+          "geoPoint": {
+            "lat": 24.58584,
+            "lon": 73.71346
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Link to study results",
+          "url": "https://www.novctrd.com/ctrdweb/trialresult/trialresults/pdf?trialResultId=18414"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C585539",
+          "term": "Alpelisib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

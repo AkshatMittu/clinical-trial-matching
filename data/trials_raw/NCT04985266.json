@@ -1,0 +1,1395 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04985266",
+      "orgStudyIdInfo": {
+        "id": "CCR5316"
+      },
+      "organization": {
+        "fullName": "Royal Marsden NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Trial of Early Detection of Molecular Relapse With Circulating Tumour DNA Tracking and Treatment With Palbociclib Plus Fulvestrant Versus Standard Endocrine Therapy in Patients With ER Positive HER2 Negative Breast Cancer",
+      "officialTitle": "A Randomised Trial of Early Detection of Molecular Relapse With Circulating Tumour DNA Tracking and Treatment With Palbociclib Plus Fulvestrant Versus Standard Endocrine Therapy in Patients With ER Positive HER2 Negative Breast Cancer",
+      "acronym": "TRAK-ER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-06-25",
+      "studyFirstSubmitQcDate": "2021-07-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-12-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Royal Marsden NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Pfizer",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "AstraZeneca",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Institute of Cancer Research, United Kingdom",
+          "class": "OTHER"
+        },
+        {
+          "name": "UNICANCER",
+          "class": "OTHER"
+        },
+        {
+          "name": "Gustave Roussy, Cancer Campus, Grand Paris",
+          "class": "OTHER"
+        },
+        {
+          "name": "Invitae Corporation",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Detection of molecular relapse with circulating tumour DNA analysis can identify which patients with ER positive breast cancer are relapsing on adjuvant endocrine therapy. This trial will aim to demonstrate that palbociclib and fulvestrant, can defer or prevent relapse in patients with ctDNA detected molecular relapse.\n\nThe TRAK-ER trial will have two phases, a ctDNA surveillance phase and a randomised therapy trial in patients with positive ctDNA.\n\nThe TRAK-ER trial will establish a ctDNA screening programme for patients with ER positive breast cancer receiving adjuvant endocrine therapy with at least a further three years of standard adjuvant endocrine therapy planned. Patients recruited into the TRAK-ER study will have high-risk clinical features to identify patients at higher risk of future relapse.\n\nctDNA assays will be used to identify which people are at very high risk of relapse (i.e. those with a positive ctDNA result), and randomise this high risk population between standard endocrine therapy versus palbociclib plus fulvestrant for up to two years.",
+      "detailedDescription": "The TRAK-ER trial is a multi-centre, randomised, open-label trial in patients with early stage oestrogen reception positive (ER+) human epidermal growth receptor-2 negative (HER2-) breast cancer, whom have detectable circulating DNA (ctDNA) but no overt macroscopic disease on imaging. TRAK-ER aims to demonstrate that fulvestrant plus palbociclib improves relapse free survival compared to standard endocrine therapy in this patient group.\n\nDespite current treatment, patients with ER+HER2- breast cancer are considered high-risk of distant recurrence for more than the first two decades after initial diagnosis. ctDNA analysis provides a non-invasive, serial source of tumour material which can monitor tumour dynamics and detect molecular relapse.\n\nTRAK-ER will be split into two phases, the first surveillance phase aims to investigate the use of ctDNA to identify and predict the risk of molecular relapse in early ER+/HER2- breast cancer patients whom are receiving adjuvant endocrine therapy with no overt macroscopic disease on imaging. Using ctDNA assays, patients enrolled on TRAK-ER will receive ctDNA testing on a three-monthly basis for up to three years. In the instance where ctDNA is detected, imaging will determine whether overt disease is present. If a patient had a positive ctDNA detection and no macroscopic disease on the staging scan, the patient will be randomised to one of the treatment groups in the second phase of TRAK-ER, the treatment phase.\n\nThe treatment phase of TRAK-ER will be a randomised, open-label study which aims to determine whether fulvestrant plus palbociclib (intervention arm) improves relapse free survival compared to standard endocrine therapy (control arm) in patients carried through from the surveillance phase. Patients on each arm will receive treatment (fulvestrant plus palbociclib or standard endocrine therapy) for up to 24 months. Six monthly imaging will determine the presence of macroscopic disease. If macroscopic disease is observed, the patient will discontinue TRAK-ER treatment and commence standard therapy outside of the TRAK-ER trial."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ER+ Breast Cancer",
+        "HER2-negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard endocrine therapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Standard endocrine therapy will continue for up to 24 months on trial.\n\nStandard endocrine therapies include tamoxifen, and aromatase inhibitors (letrozole, anastrazole, exemestane).",
+          "interventionNames": [
+            "Drug: Tamoxifen",
+            "Drug: Letrozole",
+            "Drug: Exemestane",
+            "Drug: Anastrozole"
+          ]
+        },
+        {
+          "label": "Palbociclib and fulvestrant",
+          "type": "EXPERIMENTAL",
+          "description": "Treatment with palbociclib plus fulvestrant will continue for a maximum of 24 months.\n\nPalbociclib will be given orally once a day on days 1-21 of each 28 day cycle.\n\nFulvestrant 500 mg will be administered on cycle 1 days 1 and 15, cycle 2 day 1 and then every 28 days thereafter (plus or minus 3 days) as two intramuscular injections of 250mg fulvestrant at each visit.",
+          "interventionNames": [
+            "Drug: Palbociclib 125Mg Tab",
+            "Drug: Fulvestrant injection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib 125Mg Tab",
+          "description": "Palbociclib Tablets, 125 mg orally once daily, beginning on Cycle 1, on Days 1-21 of each 28-day cycle.",
+          "armGroupLabels": [
+            "Palbociclib and fulvestrant"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant injection",
+          "description": "Fulvestrant Intramuscular injections, 500 mg as two injection of 250mg fulvestrant in 5ml solution at each visit. No fulvestrant dose reductions are permitted. Administered on days 1, 15 (plus or minus 3 days), 29 (plus or minus 3 days), and every 28 (plus or minus 3 days) days thereafter.",
+          "armGroupLabels": [
+            "Palbociclib and fulvestrant"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen",
+          "description": "As per clinical guidelines",
+          "armGroupLabels": [
+            "Standard endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "As per clinical guidelines",
+          "armGroupLabels": [
+            "Standard endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane",
+          "description": "As per clinical guidelines",
+          "armGroupLabels": [
+            "Standard endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "description": "As per clinical guidelines",
+          "armGroupLabels": [
+            "Standard endocrine therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of positive ctDNA result during surveillance (Surveillance phase)",
+          "description": "Test during the surveillance phase detects presence of ctDNA",
+          "timeFrame": "Up to 36 months from entry to study"
+        },
+        {
+          "measure": "Incidence of positive ctDNA result at first test (Surveillance phase)",
+          "description": "Test during the surveillance phase detects presence of ctDNA in the first test",
+          "timeFrame": "Start of study"
+        },
+        {
+          "measure": "Relapse free survival (Treatment phase)",
+          "description": "Time from randomization to invasive local/regional recurrence (including ipsilateral invasive breast recurrence) or distant recurrence or death from any cause. Patients with second primary invasive cancers (breast or non-breast) would be censored at time of detection.",
+          "timeFrame": "60 months from randomisation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Frequency and Severity of adverse events",
+          "description": "Frequency and severity of Adverse Events (AEs) assessed as per CTCAE v5",
+          "timeFrame": "up to 24 months from randomisation"
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Time from randomisation to death from any cause",
+          "timeFrame": "up to 60 months from randomisation"
+        },
+        {
+          "measure": "Invasive disease free survival",
+          "description": "Time from randomisation to invasive local/regional recurrence (including ipsilateral invasive breast recurrence), new breast cancer (ipsilateral or contralateral) or distant recurrence or death from any cause. Patients with non-invasive recurrences or second primary invasive cancers (non-breast) would be censored at time of detection.",
+          "timeFrame": "up to 60 months from randomisation"
+        },
+        {
+          "measure": "Distant recurrence free survival",
+          "description": "Time from randomization to distant invasive breast cancer recurrence or death from any cause. Patients with new contralateral invasive breast cancers or second primary invasive non-breast cancers would be censored at time of detection.",
+          "timeFrame": "up to 60 months from randomisation"
+        },
+        {
+          "measure": "EQ-5D-5L quality of life assessment: Mobility element",
+          "description": "Assessed using the 5-point scale.",
+          "timeFrame": "up to 24 months from randomisation"
+        },
+        {
+          "measure": "EQ-5D-5L quality of life assessment: Self-care element",
+          "description": "Assessed using the 5-point scale.",
+          "timeFrame": "up to 24 months from randomisation"
+        },
+        {
+          "measure": "EQ-5D-5L quality of life assessment: Usual activities element",
+          "description": "Assessed using the 5-point scale.",
+          "timeFrame": "up to 24 months from randomisation"
+        },
+        {
+          "measure": "EQ-5D-5L quality of life assessment: Pain/ Discomfort element",
+          "description": "Assessed using the 5-point scale.",
+          "timeFrame": "up to 24 months from randomisation"
+        },
+        {
+          "measure": "EQ-5D-5L quality of life assessment: Anxiety/ Depression element",
+          "description": "Assessed using the 5-point scale.",
+          "timeFrame": "up to 24 months from randomisation"
+        },
+        {
+          "measure": "EQ-5D-5L quality of life assessment: Visual Analogue Scale",
+          "description": "Assessed using 0-100 scale.",
+          "timeFrame": "up to 24 months from randomisation"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria for ctDNA Surveillance:\n\n1. Written informed consent to participate in the trial and to donation of tissue and blood samples\n2. Male or female patients aged 18 years or older\n3. ECOG performance status 0, 1 or 2 (see https://ecog-acrin.org/resources/ecog-performance-status)\n4. Histologically proven primary ER+ (Allred score 6/8 or greater, or stain in \u226510% of cancer cells) and HER2- (immunohistochemistry 0/1+ and/or negative by in situ hybridization) breast cancer as determined by local laboratory\n5. Patients with high risk early stage breast cancer according to at least one of the following criteria:\n\n   Primary surgery (no other treatment prior to surgery) A. Four or more involved axillary lymph nodes or positive supraclavicular lymph node at diagnosis, or\n\n   B. Tumour size \\> 5 cm, regardless of lymph node status, or\n\n   C. 1-3 involved axillary lymph nodes and at least one of the following; i) Tumour size \\> 3 cm, ii) histological grade 3 iii) high genomic risk defined as Oncotype Dx Recurrence Score \\>=26, Prosigna score \\>=60, EPclin risk score \\>=4.0, or Mammaprint high risk category, or\n\n   Neoadjuvant chemotherapy (chemotherapy prior to surgery)\n\n   D. At least one lymph node positive (micrometastasis or macrometastasis) after chemotherapy\n\n   E. Lymph node negative and tumour size \\> 3 cm after chemotherapy\n\n   Neoadjuvant endocrine therapy (endocrine based therapy prior to surgery) Use the primary surgery criteria - staging tumour size and lymph node status may be either the pathological staging after endocrine therapy or on the initial clinical staging prior to neoadjuvant therapy\n6. Available tissue from one archival tumour tissue sample (either from diagnostic biopsy, primary surgery or where available residual disease post-neoadjuvant chemotherapy)\n7. No evidence of macroscopic distant metastatic disease or incurable locally advanced disease on staging scans conducted at any time since initial diagnosis.\n8. Patients receiving standard endocrine therapy with aromatase inhibitors (letrozole, anastrazole, exemestane), tamoxifen, or combination of such for a minimum of 6 months\\* and maximum of 7 years duration with an additional three years of endocrine therapy planned. Pre- or peri-menopausal patients may also receive GnRH analogues.\n\n   \\* patients may enrol during the first 6 months of standard endocrine therapy, and wait until at least 6 months of endocrine therapy has been received prior to starting ctDNA surveillance\n9. Patients must have had surgery achieving clear margins (as per local guidelines)\n10. Female and male patients of reproductive potential must be willing to use an adequate method of contraception for the first three years of the trial, if randomised to standard endocrine therapy for the duration of trial treatment through to at least 4 weeks after the last dose of trial treatment, and if randomised to fulvestrant and palbociclib to 2 years after the last dose of fulvestrant (see section 4.6). Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the patient.\n11. Patients willing to have frequent blood tests.\n\nInclusion Criteria for Interventional phase:\n\n1. Signed informed consent for treatment\n2. ECOG performance status 0, 1 or 2\n3. Women of childbearing potential should have a negative serum pregnancy test prior to randomisation. If randomisation occurs more than 72 hours prior to receiving the first dose of treatment the test must be repeated before treatment.\n4. Female and male patients of childbearing potential must be willing to use an adequate method of contraception (section 4.6), starting with the first dose of treatment through 4 weeks after the last dose of treatment if randomised to standard endocrine therapy and 2 years after the last dose of fulvestrant if randomised to fulvestrant and palbociclib. Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the patient. Female patients will be deemed not of childbearing potential if they are postmenopausal or have had irreversible sterilisation\n5. Patient has adequate bone marrow and organ function as defined by the following laboratory values:\n\n   1. Absolute Neutrophil Count (ANC) \u2265 1.5 \u00d7 109/L\n   2. Platelets \u2265 100 \u00d7 109/L\n   3. Haemoglobin \u2265 100 g/L\n   4. INR \u22641.5\n   5. Creatinine \\<1.5 x ULN and creatinine clearance \u226530ml/min\n   6. Total bilirubin \\< ULN except for patients with Gilbert's syndrome who may only be included if the total bilirubin is \u2264 3.0 \u00d7 ULN or direct bilirubin \u2264 1.5 \u00d7 ULN.\n   7. Alanine aminotransferase (ALT) \\< 2.5 x ULN\n   8. Aspartate aminotransferase (AST) \\< 2.5 \u00d7 ULN\n6. Patients must be post-menopausal OR\n\nPre- or peri-menopausal patients or men may be enrolled if they have ovarian/gonadal suppression with licensed GnRH analogues. Patients must have commenced licensed GnRH analogues at least 2 weeks prior to Cycle 1 Day 1 and continue throughout the study if randomised to fulvestrant and palbociclib.\n\nPost-menopausal female patients, as defined by at least one of the following:\n\n* Age \u226560 years;\n* Age \\<60 years and cessation of regular menses for at least 12 consecutive months with no alternative pathological or physiological cause, and serum estradiol and FSH levels within the institutional laboratory's reference range for post-menopausal females;\n* Documented bilateral oophorectomy;\n\nExclusion Criteria for ctDNA Surveillance:\n\n1. Any concurrent or planned treatment for the current diagnosis of breast cancer other than adjuvant endocrine therapy or a bisphosphonate.\n2. Patients with prior exposure to a CDK 4/6 inhibitor as part of standard of care may enrol only after at least 12 months from completing CDK4/6 therapy.\n3. Prior exposure to therapeutic dose of fulvestrant is not permitted. One subtherapeutic dose of fulvestrant is permitted.\n4. Prior diagnosis of cancer including prior diagnosis of breast cancer in the previous 5 years, other than for non-melanoma carcinoma of the skin or cervical carcinoma in situ\n5. Patients previously entered into a therapeutic trial where experimental therapy is continued post-surgery. Patients who have entered a clinical trial of a CDK4/6 inhibitor in the adjuvant setting are not eligible. Patients who received a CDK4/6 inhibitor only before an operation, with no post-operative adjuvant use, are eligible.\n6. Treatment with an unlicensed or investigational product within 4 weeks prior registration to trial\n7. Patient has not recovered to \u2264 grade 1 (except alopecia or certain other toxicities, which in the opinion of the Investigator should not exclude the patient) from related side effects of any prior antineoplastic therapy, not including side-effects of endocrine therapy\n8. Patient with impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral medication (e.g. Crohn's disease, ulcerative diseases, uncontrolled nausea, vomiting, diarrhoea, malabsorption syndrome, or small bowel resection)\n9. Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator' opinion cause unacceptable safety risks, contraindicate patient participation in the clinical trial or compromise compliance with the protocol.\n10. Clinically significant uncontrolled heart disease including any of the following:\n\n    1. History of myocardial infarction (MI), angina pectoris, symptomatic pericarditis, or coronary artery bypass graft (CABG) within 6 months prior to trial entry\n    2. Symptomatic congestive heart failure\n    3. Long QT syndrome or family history of idiopathic sudden death or congenital long QT syndrome.\n    4. Cardiac arrhythmia.\n11. History of pneumonitis, interstitial lung disease or pulmonary fibrosis\n12. Known history of Human Immunodeficiency Virus (HIV) (testing not required as part of study screening)\n13. Known active Hepatitis B or Hepatitis C (testing not required as part of study screening)\n14. Females who are known to be pregnant or breastfeeding\n15. History of bleeding diathesis (i.e. disseminated intravascular coagulation, clotting factor deficiency), other known abnormalities in coagulation or treatment with anticoagulants. Low molecular weight heparin (LMWH), low dose aspirin or clopidogrel are permitted.\n16. Child-Pugh class C hepatic impairment or creatinine clearance \\< 30ml/min.\n17. Patient with bilateral tumours, or unilateral multifocal cancers with multiple separate primary cancers.(Multifocal cancer that reflects a single primary cancer, in the opinion of the investigator, are eligible)\n\nExclusion Criteria for Interventional phase:\n\n1. Evidence of recurrent disease (metastatic or local, see section 6.6 for management of patients with potentially curable local recurrences) on staging scans conducted since positive ctDNA result\n2. Known hypersensitivity to the excipients of palbociclib plus fulvestrant\n3. Any anti-cancer treatment since enrolling in the TRAK-ER study other than hormonal therapy or a bisphosphonate. Prior exposure to fulvestrant is not permitted.\n4. Diagnosis of an alternative cancer since enrolment in the trial other than non-melanoma cancer of the skin or cervical carcinoma in situ\n5. Patient has had major surgery within 4 weeks prior to starting trial treatment or has not recovered from major side effects of such procedure\n6. Patient is currently receiving warfarin or other coumarin derived anti-coagulant, for treatment, prophylaxis or otherwise. Therapy with unfractionated heparin, low molecular weight heparin (LMWH), or a direct-acting oral anticoagulant (DOAC such as rivaroxaban or fondaparinux) is allowed\n7. Patient has not recovered to \u2264 grade 1 (except alopecia or certain other toxicities, which in the opinion of the Investigator should not exclude the patient) from related side effects of any prior antineoplastic therapy, not including side-effects of endocrine therapy\n8. Patient with impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral medication (e.g. Crohn's disease, ulcerative diseases, uncontrolled nausea, vomiting, diarrhoea, malabsorption syndrome, or small bowel resection)\n9. Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator' opinion cause unacceptable safety risks, contraindicate patient participation in the clinical trial or compromise compliance with the protocol.\n10. Clinically significant uncontrolled heart disease including any of the following:\n\n    1. History of myocardial infarction (MI), angina pectoris, symptomatic pericarditis, or coronary artery bypass graft (CABG) within 6 months prior to trial entry\n    2. Symptomatic congestive heart failure\n    3. Long QT syndrome or family history of idiopathic sudden death or congenital long QT syndrome.\n    4. Cardiac arrhythmia.\n11. Patient is currently receiving any of the following substances and cannot be discontinued 7 days prior to Cycle 1 Day 1:\n\n    * Medications that are strong inducers or inhibitors of CYP3A4 (section 8.5.2)\n    * Herbal preparations/medications, dietary supplements, fruits (e.g grapefruit, pomelos, starfruit, Seville oranges) and their juice\n12. History of pneumonitis, interstitial lung disease or pulmonary fibrosis\n13. Known history of HIV (testing not required as part of study screening)\n14. Known active Hepatitis B or Hepatitis C (testing not required as part of study screening)\n15. Patient has a history of non-compliance to medical regimen\n16. History of bleeding diathesis (i.e. disseminated intravascular coagulation, clotting factor deficiency), other known abnormalities in coagulation or treatment with anticoagulants. Low molecular weight heparin (LMWH), low dose aspirin or clopidogrel are permitted.\n17. Females who are known to be pregnant or breastfeeding.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Project Manager",
+          "role": "CONTACT",
+          "phone": "020 7808 2887",
+          "email": "trak-er@rmh.nhs.uk"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Nicholas Turner",
+          "affiliation": "Royal Marsden NHS Foundation Trust",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Institut de Canc\u00e9rologie de l'Ouest",
+          "status": "RECRUITING",
+          "city": "Angers",
+          "zip": "49055",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Anne Patsouris",
+              "role": "CONTACT",
+              "phone": "0241352700",
+              "email": "anne.patsouris@ico.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Annecy Genevois_Site d'Annecy",
+          "status": "RECRUITING",
+          "city": "Annecy",
+          "zip": "90074",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "PI, Dr Marie Vallee",
+              "role": "CONTACT",
+              "phone": "0450635444",
+              "email": "mvallee@ch-annecycygenevois.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.90878,
+            "lon": 6.12565
+          }
+        },
+        {
+          "facility": "Institut du Cancer Avignon Sainte Catherine",
+          "status": "RECRUITING",
+          "city": "Avignon",
+          "zip": "84000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dr Julien Grenier",
+              "role": "CONTACT",
+              "phone": "+33490276397",
+              "email": "j.grenier@isc84.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Simone Veil de Blois",
+          "status": "RECRUITING",
+          "city": "Blois",
+          "zip": "41016",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Oliver Arsene",
+              "role": "CONTACT",
+              "phone": "+33(0)254556405",
+              "email": "arseneo@ch-blois.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.59432,
+            "lon": 1.32912
+          }
+        },
+        {
+          "facility": "Institut Bergoni\u00e9",
+          "status": "RECRUITING",
+          "city": "Bordeaux",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Monica Arnedos",
+              "role": "CONTACT",
+              "email": "m.arnedos@bordeaux.bergonie.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "Centre Jean Perrin",
+          "status": "RECRUITING",
+          "city": "Clermont-Ferrand",
+          "zip": "63011",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "PI: Dr Xavier Durando",
+              "role": "CONTACT",
+              "phone": "+334773278005",
+              "email": "xavier.durando@clermont.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Centre George Fran\u00e7ois Leclerc",
+          "status": "RECRUITING",
+          "city": "Dijon",
+          "zip": "21079",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Sylvain Ladoire",
+              "role": "CONTACT",
+              "phone": "+33380737775",
+              "email": "sladoire@cgfl.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Groupe Hospitalier Mutualiste de Grenoble",
+          "status": "RECRUITING",
+          "city": "Grenoble",
+          "zip": "38000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Elise Bonnet",
+              "role": "CONTACT",
+              "phone": "+33(0)476285232",
+              "email": "elise.bonnet@avec.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.17869,
+            "lon": 5.71479
+          }
+        },
+        {
+          "facility": "Clinique Ch\u00e9nieux",
+          "status": "RECRUITING",
+          "city": "Limoges",
+          "zip": "87000",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dominque Genet",
+              "role": "CONTACT",
+              "phone": "+33(0)555454800",
+              "email": "dg@imagemed-87.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Universitaire de Limoges",
+          "status": "RECRUITING",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Elise Deluche",
+              "role": "CONTACT",
+              "email": "elise.deluche@chu-limoges.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Centre L\u00e9on B\u00e9rard",
+          "status": "RECRUITING",
+          "city": "Lyon",
+          "zip": "69373",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dr Thomas Bachelot",
+              "role": "CONTACT",
+              "phone": "+33478782654",
+              "email": "thomas.bachelot@lyon.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Institut Paoli Calmettes",
+          "status": "RECRUITING",
+          "city": "Marseille",
+          "zip": "13273",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dr Renaud Sabatier",
+              "role": "CONTACT",
+              "phone": "+33491223789",
+              "email": "sabatierr@ipc.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Institut de Canc\u00e9rologie de l'Ouest",
+          "status": "RECRUITING",
+          "city": "Nantes",
+          "zip": "44805",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "PI: Dr Marie Robert",
+              "role": "CONTACT",
+              "email": "marie.robert@ico.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Centre Antoine Lacassagne",
+          "status": "RECRUITING",
+          "city": "Nice",
+          "zip": "06189",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "PI: Dr Caroline Bailleux",
+              "role": "CONTACT",
+              "phone": "+33492031114",
+              "email": "Caroline.bailleux@nice.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Gustave Roussy Cancer Campus",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "zip": "94800",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Fabrice Andre",
+              "role": "CONTACT",
+              "phone": "01.42.11.42.93",
+              "email": "fabrice.andre@gustaveroussy.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "H\u00f4pital Am\u00e9ricain de Paris",
+          "status": "WITHDRAWN",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Institut Godinot",
+          "status": "RECRUITING",
+          "city": "Reims",
+          "zip": "51726",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dr Christelle Jouannaud",
+              "role": "CONTACT",
+              "phone": "+33326504383",
+              "email": "christelle.jouannaud@reims.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "Centre Eug\u00e8ne Marquis",
+          "status": "RECRUITING",
+          "city": "Rennes",
+          "zip": "25042",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dr Fanny Le Du",
+              "role": "CONTACT",
+              "phone": "+33299252956",
+              "email": "f.ledu@rennes.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Centre Henri Becquerel",
+          "status": "RECRUITING",
+          "city": "Rouen",
+          "zip": "76038",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Marianne Leheurteur",
+              "role": "CONTACT",
+              "email": "marianne.leheurteur@chb.unicancer.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "CHU de Saint Etienne-Institut de Canc\u00e9rologie",
+          "status": "RECRUITING",
+          "city": "Saint-Priest-en-Jarez",
+          "zip": "42270",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Gilles Freyer",
+              "role": "CONTACT",
+              "phone": "+33(0)477822937"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.4739,
+            "lon": 4.37678
+          }
+        },
+        {
+          "facility": "Institut Claudius Regaud",
+          "status": "RECRUITING",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Dr Florence Dolenc",
+              "role": "CONTACT",
+              "phone": "+33531155122",
+              "email": "dalenc.florence@juct-oncopole.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Barnet Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "London",
+          "state": "Barnet",
+          "zip": "EN5 3DJ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Neha Dr Chopra",
+              "role": "CONTACT",
+              "phone": "02073528171",
+              "email": "neha.chopra@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Royal Cornwall Hospitals NHS Trust",
+          "status": "RECRUITING",
+          "city": "Truro",
+          "state": "Cornwall",
+          "zip": "TR1 3LJ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Alistair Thomson",
+              "role": "CONTACT",
+              "phone": "01872258303",
+              "email": "alistairthomson1@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.26526,
+            "lon": -5.05436
+          }
+        },
+        {
+          "facility": "University Hospitals Dorset: Royal Bournemouth Hospital",
+          "status": "RECRUITING",
+          "city": "Bournemouth",
+          "zip": "BH7 7DW",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Amit Chakrabarti",
+              "role": "CONTACT",
+              "email": "amit.chakrabarti@uhd.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.72048,
+            "lon": -1.8795
+          }
+        },
+        {
+          "facility": "Royal Sussex Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Brighton",
+          "zip": "BN2 5BE",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Prof Gianfilippo Bertelli",
+              "role": "CONTACT",
+              "phone": "01273696955",
+              "email": "g.bertelli@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.82838,
+            "lon": -0.13947
+          }
+        },
+        {
+          "facility": "Bristol Haematology and Oncology Centre",
+          "status": "RECRUITING",
+          "city": "Bristol",
+          "zip": "BS2 8ED",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Jeremy Braybrooke",
+              "role": "CONTACT",
+              "phone": "01173426295",
+              "email": "Jeremy.Braybrooke@UHBW.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.45523,
+            "lon": -2.59665
+          }
+        },
+        {
+          "facility": "Velindre Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Cardiff",
+          "zip": "CF14 2TL",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Simon Waters",
+              "role": "CONTACT",
+              "phone": "02920615888",
+              "email": "Simon.waters@wales.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          }
+        },
+        {
+          "facility": "Velindre University NHS Trust",
+          "status": "RECRUITING",
+          "city": "Cardiff",
+          "zip": "CF14 2TL",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Simon Waters",
+              "role": "CONTACT",
+              "phone": "02920 615888",
+              "email": "Simon.waters@wales.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          }
+        },
+        {
+          "facility": "Darlington Memorial Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Darlington",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "TBC",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 54.52429,
+            "lon": -1.55039
+          }
+        },
+        {
+          "facility": "Western General",
+          "status": "RECRUITING",
+          "city": "Edinburgh",
+          "zip": "EH4 2XU",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Olga Oikonomidou",
+              "role": "CONTACT",
+              "phone": "01315372193",
+              "email": "olga.oikonomidou@nhs.scot"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        },
+        {
+          "facility": "Royal Devon and Exeter Hospital",
+          "status": "RECRUITING",
+          "city": "Exeter",
+          "zip": "EX2 5DW",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Peter Stephens",
+              "role": "CONTACT",
+              "phone": "01392402118",
+              "email": "peter.stephens4@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.7236,
+            "lon": -3.52751
+          }
+        },
+        {
+          "facility": "Beatson West of Scotland Cancer Centre",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Glasgow",
+          "zip": "G12 0YN",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Prof Iain Macpherson",
+              "role": "CONTACT",
+              "phone": "01413017128",
+              "email": "Iain.macpherson@ggc.scot.nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.86515,
+            "lon": -4.25763
+          }
+        },
+        {
+          "facility": "North West Anglia NHS Foundation Trust: Hinchingbrooke Hospital",
+          "status": "RECRUITING",
+          "city": "Huntingdon",
+          "zip": "PE29 6NT",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Indrani Bhattacharya",
+              "role": "CONTACT",
+              "phone": "01480416428",
+              "email": "indrani.bhattacharya@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.33049,
+            "lon": -0.18651
+          }
+        },
+        {
+          "facility": "St James's University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Leeds",
+          "zip": "LS9 7FT",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr David Jackson",
+              "role": "CONTACT",
+              "email": "davidpjackson@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.79648,
+            "lon": -1.54785
+          }
+        },
+        {
+          "facility": "The Clatterbridge Cancer Centre NHS Foundation Trust",
+          "status": "RECRUITING",
+          "city": "Liverpool",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Professor Carlo Palmieri",
+              "role": "CONTACT",
+              "phone": "0151 556 5277",
+              "email": "cpalmi@liverpool.ac.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.41058,
+            "lon": -2.97794
+          }
+        },
+        {
+          "facility": "Barts Health NHS Trust",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "EC1A 7BE",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Peter Hall",
+              "role": "CONTACT",
+              "phone": "0787 655 4899",
+              "email": "peter.hall12@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Mount Vernon Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "HA6 2RN",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Andreas Makris",
+              "role": "CONTACT",
+              "phone": "0333 332 5470",
+              "email": "amakris@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "University College London Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "NW1 2BU",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Rebecca Roylance",
+              "role": "CONTACT",
+              "email": "r.roylance@ucl.ac.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "The Royal Free Hospital",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "NW3 2QG",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Amna Sheri",
+              "role": "CONTACT",
+              "phone": "02077940500",
+              "phoneExt": "31918",
+              "email": "amna.sheri@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "The Royal Marsden NHS Foundation Trust",
+          "status": "RECRUITING",
+          "city": "London",
+          "zip": "SW3 6JJ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Project Manager",
+              "role": "CONTACT",
+              "phone": "02078082887",
+              "email": "trak-er@rmh.nhs.uk"
+            },
+            {
+              "name": "Nicholas Turner",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Maidstone Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Maidstone",
+          "zip": "ME16 9QQ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Catherine Harper-Wynne",
+              "role": "CONTACT",
+              "phone": "01622228631",
+              "email": "charperwynne@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.26667,
+            "lon": 0.51667
+          }
+        },
+        {
+          "facility": "The Christie NHS Foundation Trust",
+          "status": "RECRUITING",
+          "city": "Manchester",
+          "zip": "M20 4BX",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Ciara O'Brien",
+              "role": "CONTACT",
+              "email": "Ciara.obrien3@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        },
+        {
+          "facility": "Nottingham University Hopsitals NHS Trust",
+          "status": "RECRUITING",
+          "city": "Nottingham",
+          "zip": "NG5 1PB",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Sarah Khan, PI",
+              "role": "CONTACT",
+              "phone": "01159691169",
+              "email": "sarah.khan@nuh.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.9536,
+            "lon": -1.15047
+          }
+        },
+        {
+          "facility": "Oxford Cancer & Haematology Centre, Churchill Hospital,",
+          "status": "RECRUITING",
+          "city": "Oxford",
+          "zip": "OX3 7LE",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Mark Tuthill",
+              "role": "CONTACT",
+              "phone": "01865 72033",
+              "email": "mark.tuthill@ouh.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.75222,
+            "lon": -1.25596
+          }
+        },
+        {
+          "facility": "North West Anglia NHS Foundation Trust: Peterborough Hospital",
+          "status": "RECRUITING",
+          "city": "Peterborough",
+          "zip": "PE3 9GZ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Sarah Ayers",
+              "role": "CONTACT",
+              "email": "s.ayers@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.57364,
+            "lon": -0.24777
+          }
+        },
+        {
+          "facility": "Derriford Hospital - UHPNT",
+          "status": "RECRUITING",
+          "city": "Plymouth",
+          "zip": "PL6 8DH",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Sidharth Dubey",
+              "role": "CONTACT",
+              "phone": "01752 431957",
+              "email": "sdubey@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.37153,
+            "lon": -4.14305
+          }
+        },
+        {
+          "facility": "University Hospitals Dorset: Poole Hospital",
+          "status": "RECRUITING",
+          "city": "Poole",
+          "zip": "BH15 2JB",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Amit Chakrabarti",
+              "role": "CONTACT",
+              "email": "amit.chakrabarti@uhd.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.71429,
+            "lon": -1.98458
+          }
+        },
+        {
+          "facility": "Weston Park Hospital",
+          "status": "RECRUITING",
+          "city": "Sheffield",
+          "zip": "S10 2SJ",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "Matthew Winter",
+              "role": "CONTACT",
+              "phone": "01142265079",
+              "email": "matthewwinter@nhs.net"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.38297,
+            "lon": -1.4659
+          }
+        },
+        {
+          "facility": "Somerset NHS Foundation Trust",
+          "status": "RECRUITING",
+          "city": "Taunton",
+          "zip": "TA1 5DA",
+          "country": "United Kingdom",
+          "contacts": [
+            {
+              "name": "PI: Dr Saiqa Spensley",
+              "role": "CONTACT",
+              "phone": "01823 342417",
+              "email": "Saiqa.Spensley@SomersetFT.nhs.uk"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.01494,
+            "lon": -3.10293
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "23484797",
+          "type": "BACKGROUND",
+          "citation": "Dawson SJ, Tsui DW, Murtaza M, Biggs H, Rueda OM, Chin SF, Dunning MJ, Gale D, Forshew T, Mahler-Araujo B, Rajan S, Humphray S, Becq J, Halsall D, Wallis M, Bentley D, Caldas C, Rosenfeld N. Analysis of circulating tumor DNA to monitor metastatic breast cancer. N Engl J Med. 2013 Mar 28;368(13):1199-209. doi: 10.1056/NEJMoa1213261. Epub 2013 Mar 13."
+        },
+        {
+          "pmid": "30206110",
+          "type": "BACKGROUND",
+          "citation": "O'Leary B, Cutts RJ, Liu Y, Hrebien S, Huang X, Fenwick K, Andre F, Loibl S, Loi S, Garcia-Murillas I, Cristofanilli M, Huang Bartlett C, Turner NC. The Genetic Landscape and Clonal Evolution of Breast Cancer Resistance to Palbociclib plus Fulvestrant in the PALOMA-3 Trial. Cancer Discov. 2018 Nov;8(11):1390-1403. doi: 10.1158/2159-8290.CD-18-0264. Epub 2018 Sep 11."
+        },
+        {
+          "pmid": "28445469",
+          "type": "BACKGROUND",
+          "citation": "Abbosh C, Birkbak NJ, Wilson GA, Jamal-Hanjani M, Constantin T, Salari R, Le Quesne J, Moore DA, Veeriah S, Rosenthal R, Marafioti T, Kirkizlar E, Watkins TBK, McGranahan N, Ward S, Martinson L, Riley J, Fraioli F, Al Bakir M, Gronroos E, Zambrana F, Endozo R, Bi WL, Fennessy FM, Sponer N, Johnson D, Laycock J, Shafi S, Czyzewska-Khan J, Rowan A, Chambers T, Matthews N, Turajlic S, Hiley C, Lee SM, Forster MD, Ahmad T, Falzon M, Borg E, Lawrence D, Hayward M, Kolvekar S, Panagiotopoulos N, Janes SM, Thakrar R, Ahmed A, Blackhall F, Summers Y, Hafez D, Naik A, Ganguly A, Kareht S, Shah R, Joseph L, Marie Quinn A, Crosbie PA, Naidu B, Middleton G, Langman G, Trotter S, Nicolson M, Remmen H, Kerr K, Chetty M, Gomersall L, Fennell DA, Nakas A, Rathinam S, Anand G, Khan S, Russell P, Ezhil V, Ismail B, Irvin-Sellers M, Prakash V, Lester JF, Kornaszewska M, Attanoos R, Adams H, Davies H, Oukrif D, Akarca AU, Hartley JA, Lowe HL, Lock S, Iles N, Bell H, Ngai Y, Elgar G, Szallasi Z, Schwarz RF, Herrero J, Stewart A, Quezada SA, Peggs KS, Van Loo P, Dive C, Lin CJ, Rabinowitz M, Aerts HJWL, Hackshaw A, Shaw JA, Zimmermann BG; TRACERx consortium; PEACE consortium; Swanton C. Phylogenetic ctDNA analysis depicts early-stage lung cancer evolution. Nature. 2017 Apr 26;545(7655):446-451. doi: 10.1038/nature22364."
+        },
+        {
+          "pmid": "24553385",
+          "type": "BACKGROUND",
+          "citation": "Bettegowda C, Sausen M, Leary RJ, Kinde I, Wang Y, Agrawal N, Bartlett BR, Wang H, Luber B, Alani RM, Antonarakis ES, Azad NS, Bardelli A, Brem H, Cameron JL, Lee CC, Fecher LA, Gallia GL, Gibbs P, Le D, Giuntoli RL, Goggins M, Hogarty MD, Holdhoff M, Hong SM, Jiao Y, Juhl HH, Kim JJ, Siravegna G, Laheru DA, Lauricella C, Lim M, Lipson EJ, Marie SK, Netto GJ, Oliner KS, Olivi A, Olsson L, Riggins GJ, Sartore-Bianchi A, Schmidt K, Shih lM, Oba-Shinjo SM, Siena S, Theodorescu D, Tie J, Harkins TT, Veronese S, Wang TL, Weingart JD, Wolfgang CL, Wood LD, Xing D, Hruban RH, Wu J, Allen PJ, Schmidt CM, Choti MA, Velculescu VE, Kinzler KW, Vogelstein B, Papadopoulos N, Diaz LA Jr. Detection of circulating tumor DNA in early- and late-stage human malignancies. Sci Transl Med. 2014 Feb 19;6(224):224ra24. doi: 10.1126/scitranslmed.3007094."
+        },
+        {
+          "pmid": "31369045",
+          "type": "BACKGROUND",
+          "citation": "Garcia-Murillas I, Chopra N, Comino-Mendez I, Beaney M, Tovey H, Cutts RJ, Swift C, Kriplani D, Afentakis M, Hrebien S, Walsh-Crestani G, Barry P, Johnston SRD, Ring A, Bliss J, Russell S, Evans A, Skene A, Wheatley D, Dowsett M, Smith IE, Turner NC. Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer. JAMA Oncol. 2019 Oct 1;5(10):1473-1478. doi: 10.1001/jamaoncol.2019.1838."
+        },
+        {
+          "pmid": "26311728",
+          "type": "BACKGROUND",
+          "citation": "Garcia-Murillas I, Schiavon G, Weigelt B, Ng C, Hrebien S, Cutts RJ, Cheang M, Osin P, Nerurkar A, Kozarewa I, Garrido JA, Dowsett M, Reis-Filho JS, Smith IE, Turner NC. Mutation tracking in circulating tumor DNA predicts relapse in early breast cancer. Sci Transl Med. 2015 Aug 26;7(302):302ra133. doi: 10.1126/scitranslmed.aab0021."
+        },
+        {
+          "pmid": "26030518",
+          "type": "BACKGROUND",
+          "citation": "Turner NC, Ro J, Andre F, Loi S, Verma S, Iwata H, Harbeck N, Loibl S, Huang Bartlett C, Zhang K, Giorgetti C, Randolph S, Koehler M, Cristofanilli M; PALOMA3 Study Group. Palbociclib in Hormone-Receptor-Positive Advanced Breast Cancer. N Engl J Med. 2015 Jul 16;373(3):209-19. doi: 10.1056/NEJMoa1505270. Epub 2015 Jun 1."
+        },
+        {
+          "pmid": "27959613",
+          "type": "BACKGROUND",
+          "citation": "Finn RS, Martin M, Rugo HS, Jones S, Im SA, Gelmon K, Harbeck N, Lipatov ON, Walshe JM, Moulder S, Gauthier E, Lu DR, Randolph S, Dieras V, Slamon DJ. Palbociclib and Letrozole in Advanced Breast Cancer. N Engl J Med. 2016 Nov 17;375(20):1925-1936. doi: 10.1056/NEJMoa1607303."
+        },
+        {
+          "pmid": "30345905",
+          "type": "BACKGROUND",
+          "citation": "Turner NC, Slamon DJ, Ro J, Bondarenko I, Im SA, Masuda N, Colleoni M, DeMichele A, Loi S, Verma S, Iwata H, Harbeck N, Loibl S, Andre F, Puyana Theall K, Huang X, Giorgetti C, Huang Bartlett C, Cristofanilli M. Overall Survival with Palbociclib and Fulvestrant in Advanced Breast Cancer. N Engl J Med. 2018 Nov 15;379(20):1926-1936. doi: 10.1056/NEJMoa1810527. Epub 2018 Oct 20."
+        },
+        {
+          "pmid": "25633797",
+          "type": "BACKGROUND",
+          "citation": "Asghar U, Witkiewicz AK, Turner NC, Knudsen ES. The history and future of targeting cyclin-dependent kinases in cancer therapy. Nat Rev Drug Discov. 2015 Feb;14(2):130-46. doi: 10.1038/nrd4504."
+        },
+        {
+          "pmid": "20855825",
+          "type": "BACKGROUND",
+          "citation": "Di Leo A, Jerusalem G, Petruzelka L, Torres R, Bondarenko IN, Khasanov R, Verhoeven D, Pedrini JL, Smirnova I, Lichinitser MR, Pendergrass K, Garnett S, Lindemann JP, Sapunar F, Martin M. Results of the CONFIRM phase III trial comparing fulvestrant 250 mg with fulvestrant 500 mg in postmenopausal women with estrogen receptor-positive advanced breast cancer. J Clin Oncol. 2010 Oct 20;28(30):4594-600. doi: 10.1200/JCO.2010.28.8415. Epub 2010 Sep 20."
+        },
+        {
+          "pmid": "24317176",
+          "type": "BACKGROUND",
+          "citation": "Di Leo A, Jerusalem G, Petruzelka L, Torres R, Bondarenko IN, Khasanov R, Verhoeven D, Pedrini JL, Smirnova I, Lichinitser MR, Pendergrass K, Malorni L, Garnett S, Rukazenkov Y, Martin M. Final overall survival: fulvestrant 500 mg vs 250 mg in the randomized CONFIRM trial. J Natl Cancer Inst. 2014 Jan;106(1):djt337. doi: 10.1093/jnci/djt337. Epub 2013 Dec 7."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

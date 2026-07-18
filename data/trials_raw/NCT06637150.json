@@ -1,0 +1,224 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06637150",
+      "orgStudyIdInfo": {
+        "id": "SCHBCC-N081"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dalpicilib-Enhanced Vs. Standard Endocrine Therapy in ER+ HER2- Early Breast Cancer",
+      "officialTitle": "A Phase III Randomized Controlled Trial Comparing Dalpicilib-Enhanced Adjuvant Endocrine Therapy with Standard Adjuvant Endocrine Therapy in ER+ HER2- Lymph Node-Negative Early Breast Cancer with Risk Factors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-09-28",
+      "studyFirstSubmitQcDate": "2024-10-09",
+      "studyFirstPostDateStruct": {
+        "date": "2024-10-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-10-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhimin Shao",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to conduct a randomized controlled clinical trial to compare the efficacy and safety of dalpicilib combined with endocrine therapy versus standard endocrine therapy in ER-positive, HER2-negative, lymph node-negative patients with risk factors, in order to further optimize the regimen for adjuvant endocrine therapy in breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1388,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "standard endocrine therapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "standard endocrine therapy",
+          "interventionNames": [
+            "Drug: endocrine therapy"
+          ]
+        },
+        {
+          "label": "standard endocrine therapy plus dalpicilib",
+          "type": "EXPERIMENTAL",
+          "description": "standard endocrine therapy plus dalpicilib",
+          "interventionNames": [
+            "Drug: Dalpicilib",
+            "Drug: endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dalpicilib",
+          "description": "Dalpicilib 100 mg once daily from day 1 to day 21, every 4 weeks, for a total of 3 years, in combination with endocrine therapy for 5 years.",
+          "armGroupLabels": [
+            "standard endocrine therapy plus dalpicilib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "endocrine therapy",
+          "description": "standard endocrine therapy",
+          "armGroupLabels": [
+            "standard endocrine therapy",
+            "standard endocrine therapy plus dalpicilib"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease Free Survival",
+          "description": "Invasive Disease Free Survival",
+          "timeFrame": "From enrollment to 3 years post-treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "3-Year Disease-Free Survival",
+          "timeFrame": "From enrollment to 3 years post-treatment"
+        },
+        {
+          "measure": "Overall Survival",
+          "description": "Overall Survival",
+          "timeFrame": "From enrollment to 3 years post-treatment"
+        },
+        {
+          "measure": "safety",
+          "description": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+          "timeFrame": "From enrollment to 3 years post-treatment"
+        },
+        {
+          "measure": "Patient reported outcomes",
+          "description": "Patient-Reported Outcomes (PROs) Assessed by the EORTC QLQ-C30 Questionnaire. Provide a brief description of what aspects of the patient's health or experience the tool will measure (e.g., quality of life, symptom burden, treatment side effects).",
+          "timeFrame": "From enrollment to 3 years post-treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women aged 18-70 years\n2. ECOG score of 0-1\n3. Histologically confirmed unilateral invasive cancer (regardless of pathology type)\n4. No macroscopic or microscopic tumor residue after surgical resection\n5. Early-stage breast cancer, pathologically confirmed as ER-positive and HER2-negative (ER-positive defined as immunohistochemical detection of ER \\&gt;10% of tumor cells positive; HER2 0-1+ or HER2 2+ but FISH negative, with no amplification, defined as HER2-negative)\n6. Postoperative pathological staging of pT1c or above, N0M0, and meeting one of the following criteria: (1) G3; (2) G2 and meeting one of the following: i. Ki-67 \u226520%; ii. 21-gene recurrence score \u226526 or high genomic risk profile; iii. Age \u226440 years and vascular invasion positive\n7. No prior neoadjuvant treatment\n8. Time from surgery or completion of chemotherapy or radiotherapy (whichever occurs later) to randomization does not exceed 8 weeks\n9. Good postoperative recovery, at least 1 week after surgery\n10. Normal function of major organs, meeting the following criteria: (1) Hematological criteria: HB \u226590 g/L (no blood transfusion in the last 14 days); ANC \u22651.5 \u00d7 10\\^9 /L; PLT \u2265100 \u00d7 10\\^9 /L; (2) Biochemical criteria: TBIL \u22641.5 \u00d7 ULN (upper limit of normal); ALT and AST \u22643 \u00d7 ULN; serum Cr \u22641.5 \u00d7 ULN\n11. Women of childbearing age must use contraception during treatment\n12. Subjects voluntarily join this study, sign informed consent, demonstrate good compliance, and cooperate with follow-up\n\nExclusion Criteria:\n\n1. Bilateral breast cancer or ductal/lobular carcinoma in situ (DCIS/LCIS)\n2. Received treatment for advanced disease\n3. Metastasis at any site\n4. Any tumor \\&gt; T4a (with skin involvement, fixation, inflammatory breast cancer)\n5. Clinically or radiologically suspected malignancy in the contralateral breast not confirmed and requiring biopsy\n6. Received neoadjuvant therapy, including chemotherapy, radiotherapy, and endocrine therapy\n7. History of malignant tumors within the past 5 years (excluding basal cell carcinoma of the skin and cervical carcinoma in situ), including contralateral breast cancer\n8. Patient has been enrolled in other clinical trials\n9. Patient has severe systemic diseases and/or uncontrolled infections that prevent participation in the study\n10. Severe cardiovascular or cerebrovascular diseases within 6 months prior to randomization (e.g., unstable angina, chronic heart failure, uncontrolled hypertension \\&gt;150/90 mmHg, myocardial infarction, or stroke)\n11. Known allergy to relevant medications\n12. Women of childbearing age who refuse contraception during treatment and for 8 weeks after treatment completion\n13. Pregnant or breastfeeding women\n14. Positive pregnancy test before drug administration after joining the trial\n15. Individuals with mental illness or cognitive impairment who cannot understand the trial protocol and its side effects, unable to comply with the protocol and follow-up (systematic assessment required prior to enrollment)\n16. Individuals without personal freedom and independent civil capacity",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "breast cancer institute of Fudan University Cancer Hospital, shanghai, shanghai",
+          "city": "Shanghai",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

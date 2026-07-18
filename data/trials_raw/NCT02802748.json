@@ -1,0 +1,454 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02802748",
+      "orgStudyIdInfo": {
+        "id": "SOLTI-1501"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2015-004714-24",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Phase 0 Study of Metronomic Oral Vinorelbine and Letrozole in HR+/HER2-negative Early Breast Cancer Patients (VENTANA)",
+      "officialTitle": "Randomized, Open-label, Three-arm, Parallel, Phase 0 Study of Metronomic Oral Vinorelbine and Letrozole Versus Letrozole or Vinorelbine Alone in Post-menopausal Women With Hormone Receptor-positive HER2-negative Early Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2018-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2018-01",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-06-07",
+      "studyFirstSubmitQcDate": "2016-06-13",
+      "studyFirstPostDateStruct": {
+        "date": "2016-06-16",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-09-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2018-09-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Pierre Fabre Laboratories",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "VENTANA is a \"window-of-opportunity\" trial that will explore whether, similar to CDK4/6 inhibitors, Oral Metronomic Vinorelbine in combination with Letrozole induces a superior anti-proliferative effect than Letrozole alone.",
+      "detailedDescription": "VENTANA is a phase 0 multicenter, window of opportunity, three-arm, randomized clinical trial of oral metronomic vinorelbine (VNB) and letrozole versus either treatment alone in postmenopausal women with newly diagnosed untreated HR+ and HER2-negative, stage I-III operable breast cancer. Other eligibility criteria include primary tumor size 1 cm (cT1-3) and N0-1, ECOG PS 0-1 and evaluable diagnostic tumor sample.\n\nPrimary objective is to test if Oral Metronomic Vinorelbine and Letrozole induce a superior anti-proliferative effect than either drug alone in patients with early breast cancer defined as Luminal by PAM50/HER2-negative. This will be evaluated by measuring the expression of 11 proliferative genes contained in the PAM50/Prosigna\u00ae array (BIRC5, CCNB1, CDC20, CDCA1, CEP55, KNTC2, MKI67, PTTG1, RRM2, TYMS and UBE2C), as surrogate biomarker of its anticancer activity. By evaluating other breast cancer-related gene signatures (560 genes), the antiangiogenic and immunogenic potential of treatment arms will be compared and other genes regulated in a treatment-specific manner identified. These analyses will be performed in different PAM50-defined subtypes (Luminal, LuminalA or LuminalB). Clinical efficacy and safety of treatments will also be evaluated.\n\nPatients will first undergo screening and mandatory collection of core tumor biopsies for study analysis. Patients are randomized (1:1:1) to receive Letrozole 2.5mg daily, oral Vinorelbine 50mg 3 days a week or Letrozole 2.5mg daily and oral Vinorelbine 50mg 3 times a week. After 3 weeks of treatment, patients will undergo surgery, and both pre-treatment and post-treatment surgery samples will be analyzed. Alternatively, if surgery will be delayed, a tumor core biopsy will be collected. Anyway, post-treatment sample should be collected within 5 days after end of treatment in order to observe the biological response.\n\nAxillar and mammary surgery will be done according to local standards; however, sentinel lymph node biopsy previous to surgery is not permitted. Following surgical excision, adjuvant treatment will be as per investigator\u00b4s choice and local standards of care outside the scope of this protocol. End of study is 28 days (\u00b13 days) after last study drug dose with a safety follow-up visit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Early Breast Cancer",
+        "Hormone Receptor-positive",
+        "Window-of-opportunity",
+        "PAM50",
+        "Luminal A",
+        "Luminal B",
+        "proliferation signature",
+        "metronomic vinorelbine",
+        "letrozole"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metronomic Vinorelbine + Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "* Oral Vinorelbine: 50 mg (30 mg + 20 mg) three times a week, for 3 weeks\n* Letrozole: 2.5mg daily, for 3 weeks",
+          "interventionNames": [
+            "Drug: Oral Vinorelbine",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Letrozole alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Letrozole: 2.5mg daily, for 3 weeks",
+          "interventionNames": [
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Metronomic Vinorelbine alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Oral Vinorelbine: 50 mg (30 mg + 20 mg) three times a week, for 3 weeks",
+          "interventionNames": [
+            "Drug: Oral Vinorelbine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Oral Vinorelbine",
+          "description": "Metronomic Schedule of Vinorelbine administered orally in a schedule monday-wednesday-friday, tuesday-thursday-saturday, etc",
+          "armGroupLabels": [
+            "Metronomic Vinorelbine + Letrozole",
+            "Metronomic Vinorelbine alone"
+          ],
+          "otherNames": [
+            "Navelbine\u00ae"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Letrozole will be administered orally at 2.5 mg QD for 3 weeks.",
+          "armGroupLabels": [
+            "Letrozole alone",
+            "Metronomic Vinorelbine + Letrozole"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Changes in the expression of the PAM50 proliferation signature upon treatment in patients defined as Luminal by PAM50",
+          "description": "* Outcome measure determined by following formula: Mean suppression of proliferation signature score = 100 - \\[geometric mean (post treatment proliferation score/pre-treatment proliferation score \u00b7 100)\\].\n* Comparison of the Oral Metronomic Vinorelbine (VNB)+Letrozole arms versus VNB or Letrozole monotherapy arms in patients defined as Luminal by PAM50.",
+          "timeFrame": "At the time of surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in the expression of the PAM50 proliferation signature upon treatment in patients defined as Luminal by IHC and separately, in patients defined as either Luminal A or Luminal B by PAM50.",
+          "description": "* Outcome measure determined by following formula: Mean suppression of proliferation signature score = 100 - \\[geometric mean (post treatment proliferation score/pre-treatment proliferation score \u00b7 100)\\].\n* Comparison of the 3 treatment arms in the entire study population (evaluable patients defined as Luminal by IHC) and separately, in patients defined as either Luminal A or Luminal B by PAM50",
+          "timeFrame": "At the time of surgery"
+        },
+        {
+          "measure": "Changes in % of Ki67-positive cells (per IHC) upon treatment",
+          "description": "Comparison of the 3 treatment arms in the entire PAM50-defined Luminal population (LuminalA+LuminalB) and separately, in the LuminalA or LuminalB subtypes.",
+          "timeFrame": "At time of surgery"
+        },
+        {
+          "measure": "Changes in the expression of angiogenic gene signature upon treatment",
+          "description": "Comparison of the 3 treatment arms in the entire PAM50-defined Luminal population (LuminalA+LuminalB) and separately, in the LuminalA or LuminalB subtypes.",
+          "timeFrame": "At the time of surgery"
+        },
+        {
+          "measure": "Changes in the expression of immune-response-related gene signature upon treatment",
+          "description": "Comparison of the 3 treatment arms in the entire PAM50-defined Luminal population (LuminalA+LuminalB) and separately, in the LuminalA or LuminalB subtypes.",
+          "timeFrame": "At time of surgery"
+        },
+        {
+          "measure": "Changes in the expression of breast cancer related genes (contained in a 560 gene Custom CodeSet) upon treatment",
+          "description": "* Expression data of breast cancer genes will be log base 2 transformed and normalized using 5 house-keeping genes\n* Analysis will be performed in the entire PAM50-defined Luminal population (LuminalA+LuminalB) and separately, in the LuminalA or LuminalB subtypes.\n* Aim of this outcome measure is to identify those genes with a significant difference between the VNB+Letrozole arms compared to the VNB or Letrozole monotherapy arms.",
+          "timeFrame": "At the time of surgery"
+        },
+        {
+          "measure": "Objective Response Rate (ORR) according to RECIST v1.1, assessed by ultrasound.",
+          "timeFrame": "Pre-surgery (3 weeks treatment)"
+        },
+        {
+          "measure": "Safety profile",
+          "description": "* Incidence and severity of Adverse Events (assessed by CTCAE v.4.03)\n* Incidence of treatment interruptions due to toxicity",
+          "timeFrame": "Up to 7 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent for all study procedures in accordance with local regulatory requirements before protocol-specific procedures are started.\n* Postmenopausal status\n* Histologically confirmed invasive breast carcinoma, with all of the following characteristics: Primary tumor greater than or equal to (\\>/=) 1cm in largest diameter (cT1-3) and N0-Stage I to operable Stage III breast cancer\n* Scheduled or possibility of scheduling primary surgery within study window (surgery or biopsy within 5 days after treatment completion)\n* HR-positive breast cancer defined as \u22651% of anti-ER and/or anti-PgR stained tumor cells by IHC (per local assessment)\n* HER2-negative BC by IHC (score 0 or 1+) and/or FISH/CISH/SISH (defined as a ratio of HER2/CEP17\\<2 or single-probe average HER2 copy number \\<4 signals/cell), as per local assessment.\n* Known percentage of Ki67-positive tumor cells within pre-treatment sample or possibility of local assessment.\n* Available pre-treatment core or possibility to take a new biopsy with enough tumor sample for study analysis\n* ECOG performance status of 0 or 1\n* Adequate organ function, determined by laboratory tests performed within 7 days before treatment start\n\nExclusion Criteria:\n\n* Patients with cT4 or cN2-3 stage breast tumors\n* Bilateral invasive, multicentric or metastatic breast cancer\n* Patients with prior excisional biopsy of primary tumor and/or of axillar lymph nodes or or sentinel lymph node biopsy\n* Patients for whom upfront chemotherapy is clinically judged appropriate as optimal neoadjuvant treatment\n* Patients requiring imminent surgical procedure\n* Any prior treatment for breast cancer except for patients with Lobular Carcinoma In Situ (LCIS) treated with surgery or with Ductal Carcinoma In Situ (DCIS) treated exclusively with mastectomy. In both cases, surgery must have taken place \\>5 years prior diagnosis of current breast cancer\n* Other concurrent secondary malignancies, except for appropriately treated non-melanoma skin carcinoma, in situ melanoma and/or in situ cervical/colon cancer\n* Treatment with any investigational medicinal product or participation in another therapeutic clinical trial concurrently or in the 28 days prior randomization\n* Current uncontrolled severe systemic disease that could interfere with the intended therapy (e.g. clinical significant cardiovascular disease, pulmonary or metabolic disease, wound healing disorders, severe infection, heart failure, ischemic heart disease)\n* Hereditary fructose intolerance\n* Major surgical procedure or significant traumatic lesion within 28 days prior to treatment allocation or anticipated need for major surgery during the course of the study treatment, except if related with the breast cancer\n* Any psychological, family, sociological or geographical circumstance that could potentially represent an obstacle to compliance with the study protocol and the follow-up schedule; these circumstances will be discussed with the patient before enrolment in the trial",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Aleix Prat, MD, PhD",
+          "affiliation": "Hospital Clinic of Barcelona",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Universitari Vall d'Hebron",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednic de Barcelona",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital de Le\u00f3n",
+          "city": "Le\u00f3n",
+          "zip": "24071",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.60003,
+            "lon": -5.57032
+          }
+        },
+        {
+          "facility": "Hospital Universitario Ram\u00f3n y Cajal",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitari Sant Joan de Reus",
+          "city": "Reus",
+          "zip": "43201",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.15612,
+            "lon": 1.10687
+          }
+        },
+        {
+          "facility": "Cl\u00ednica Quir\u00f3n Sagrado Coraz\u00f3n",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Fundaci\u00f3n Instituto Valenciano de Oncolog\u00eda",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario Lozano Blesa",
+          "city": "Zaragoza",
+          "zip": "50009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "31533777",
+          "type": "DERIVED",
+          "citation": "Adamo B, Bellet M, Pare L, Pascual T, Vidal M, Perez Fidalgo JA, Blanch S, Martinez N, Murillo L, Gomez-Pardo P, Lopez-Gonzalez A, Amillano K, Canes J, Galvan P, Gonzalez-Farre B, Gonzalez X, Villagrasa P, Ciruelos E, Prat A. Oral metronomic vinorelbine combined with endocrine therapy in hormone receptor-positive HER2-negative breast cancer: SOLTI-1501 VENTANA window of opportunity trial. Breast Cancer Res. 2019 Sep 18;21(1):108. doi: 10.1186/s13058-019-1195-z."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "SOLTI Breast Cancer Research Group",
+          "url": "http://www.gruposolti.org"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077235",
+          "term": "Vinorelbine"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014748",
+          "term": "Vinca Alkaloids"
+        },
+        {
+          "id": "D046948",
+          "term": "Secologanin Tryptamine Alkaloids"
+        },
+        {
+          "id": "D026121",
+          "term": "Indole Alkaloids"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007211",
+          "term": "Indoles"
+        },
+        {
+          "id": "D006574",
+          "term": "Heterocyclic Compounds, 2-Ring"
+        },
+        {
+          "id": "D000072471",
+          "term": "Heterocyclic Compounds, Fused-Ring"
+        },
+        {
+          "id": "D054836",
+          "term": "Indolizidines"
+        },
+        {
+          "id": "D007212",
+          "term": "Indolizines"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

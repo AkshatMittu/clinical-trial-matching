@@ -1,0 +1,2304 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06307457",
+      "orgStudyIdInfo": {
+        "id": "A5481188"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCT06307457",
+          "type": "REGISTRY",
+          "domain": "ClinicalTrials.gov"
+        }
+      ],
+      "organization": {
+        "fullName": "Pfizer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of HR+/HER2- Metastatic Breast Cancer Patients Treated With Palbociclib Together With an Aromatase Inhibitor From 2017 to 2023 in Denmark.",
+      "officialTitle": "Impact of Age and Comorbidities on Treatment Outcomes of First-line Treatment With Palbociclib in Combination With an Aromatase Inhibitor (AI) in Patients Diagnosed With HR+/HER2 - Metastatic Breast Cancer - Danish Non-Interventional Study"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-03-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-19",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-04-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-03-05",
+      "studyFirstSubmitQcDate": "2024-03-11",
+      "studyFirstPostDateStruct": {
+        "date": "2024-03-12",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-04-10",
+      "resultsFirstSubmitQcDate": "2025-06-09",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-06-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pfizer",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to describe the effect of the medicine palbociclib when given together with an aromatase inhibitor for treatment of breast cancer. The study will consider participants who:\n\n* have advanced or metastatic breast cancer that is spread to other parts of the body.\n* have HR+/HER2- (hormone receptor positive\\* / human epidermal growth factor receptor 2 negative\\*\\*) breast cancer types.\n\n  * Hormone receptor positive (HR+): are cells that have a group of proteins that bind to a specific hormone. For example, some breast cancer cells have receptors for the hormones estrogen or progesterone.\n\nThese cells are hormone receptor positive, and they need estrogen or progesterone to grow. This can affect how the cancer is treated. Knowing if the cancer is hormone receptor positive may help plan treatment.\n\n* Human epidermal growth factor receptor 2 negative (HER2-): cells that have a small amount or none of a protein called HER2 on their surface. In normal cells, HER2 helps control cell growth. Cancer cells that are HER2 negative may grow more slowly and are less likely to recur (come back) or spread to other parts of the body than cancer cells that have a large amount of HER2 on their surface. Checking to see if a cancer is HER2 negative may help plan treatment.\n\n  * have started treatment in the period between January 2017 and December 2021.\n\nThe study will describe the treatment effect for different patient groups in terms of age and comorbidities. Comorbidity is the condition of having two or more diseases at the same time. The data is collected by the Danish Breast Cancer Group in the period between 2017 to 2023."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Metastatic Breast Cancer (mBC)",
+        "ICD10: C50",
+        "Advanced Breast Cancer",
+        "HR+/HER2-",
+        "Hormone receptor positive / Human Epidermal growth factor Receptor 2 negative",
+        "Endocrine sensitive",
+        "Endocrine resistant",
+        "de novo mBC",
+        "Denmark",
+        "Danish Breast Cancer Group (DBCG)",
+        "Palbociclib",
+        "Aromatase Inhibitor (AI)",
+        "Real-World Evidence (RWE)",
+        "Non-Interventional Study (NIS)",
+        "Age",
+        "Comorbidities",
+        "First-line Treatment",
+        "Charlson Comorbidity Index (CCI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 604,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Palbociclib in combination with AI",
+          "description": "Patients with HR+/HER2- locally advanced or metastatic breast cancer treated with palbociclib in combination with AI, in Denmark.",
+          "interventionNames": [
+            "Drug: Palbociclib in combination with AI"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib in combination with AI",
+          "description": "Patients with HR+/HER2- locally advanced or metastatic breast cancer treated with palbociclib in combination with AI as first-line treatment, in Denmark.",
+          "armGroupLabels": [
+            "Palbociclib in combination with AI"
+          ],
+          "otherNames": [
+            "Ibrance"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Progression of disease was based on scans and blood testing results. Disease progression was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 millimeters (mm). Index date was date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body. Kaplan-Meier method was used for analysis.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Participants were censored for OS by 1 February 2024. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PFS Based on Age of Participants",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Progression of disease was based on scans and blood testing results. Disease progression was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. Kaplan-Meier method was used for analysis. PFS per age category (\\< 65 years, 65-75 years and \\> 75 years) were reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Based on Age of Participants",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Participants were censored for OS by 1 February 2024. OS per age category such as \\< 65 years, 65-75 years and \\>75 years were reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "PFS Per Charlson Comorbidity Index (CCI) Score",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. CCI was used as data source for comorbidity. Each comorbidity recorded for participant, had score between 0 to 6 as per comorbidity burden, if it was part of CCI. Higher score=more severe comorbidity status. CCI score 0:participants with no comorbidity besides BC disease, CCI score 1:participant with one comorbidity with score of 1,e.g.,myocardial infarction or diabetes mellitus(DM), CCI score 2:participant with two comorbidities each classified with score of 1 or one single comorbidity classified with score of 2,e.g.,DM with organ damage, CCI score of 3or higher: participant with severe comorbidity, i.e. those having one comorbidity classified with score of 6(e.g., Human Immunodeficiency Virus/Acquired Immuno Deficiency Syndrome),or two or more comorbidities each classified with scores of1-2,all in addition to participant's BC disease. Index date=date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Per CCI Score",
+          "description": "OS: time from date of relapse or stage IV disease to death at any cause. CCI was used as data source for comorbidity in study. For each comorbidity recorded for participant score between 0 to 6 was assigned based on comorbidity burden, whether it was part of CCI.Higher score=more severe comorbidity status.CCI scores: CCI score 0:participants with no comorbidity besides BC disease, CCI score 1:participant with one comorbidity with score of 1,e.g., myocardial infarction or DM,CCI score 2:participant with two comorbidities each classified with score of 1 or one single comorbidity classified with score of 2,e.g.,DM with organ damage, CCI score of 3 or higher: participant with severe comorbidity,i.e.those having one comorbidity classified with score of 6(e.g., Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome),or two or more comorbidities each classified with scores of 1-2,all in addition to participant's BC disease. Index date=date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "PFS Per Number of Comorbidities",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Participants were split into three comorbidity groups - no comorbidity (0), one comorbidity and two or more comorbidities. Comorbidities included myocardial infarction, congestive heart failure (CHF), peripheral vascular disease, cerebrovascular disease, dementia, chronic pulmonary disease, connective tissue disease, ulcer disease, mild liver disease, DM, hemiplegia, moderate-severe renal disease, DM with end organ damage, any tumor, leukemia, lymphoma, moderate-severe liver disease, metastatic solid tumor and acquired immune deficiency syndrome/human immune virus (AIDS/HIV). Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Per Number of Comorbidities",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Participants were split into three comorbidity groups - no comorbidity (0), one comorbidity and two or more comorbidities. Comorbidities included myocardial infarction, CHF, peripheral vascular disease, cerebrovascular disease, dementia, chronic pulmonary disease, connective tissue disease, ulcer disease, mild liver disease, DM, hemiplegia, moderate-severe renal disease, DM with end organ damage, any tumor, leukemia, lymphoma, moderate-severe liver disease, metastatic solid tumor and AIDS/HIV. Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "PFS Per Type of Comorbidity",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Comorbidities were categorized into five main disease groups: cardiac disease, vascular disease, metabolic disease, psychiatric disease and blood and lymphatic system. Results for cardiac disease, vascular disease and metabolic disease have been reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Per Type of Comorbidity",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Comorbidities were categorized into five main disease groups: Cardiac disease, vascular disease, metabolic disease, psychiatric disease and blood and lymphatic system. Results for cardiac disease, vascular disease and metabolic disease have been reported in this outcome measure. Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "PFS Per Visceral Disease Status",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Visceral disease status was defined as metastases in the visceral organs, e.g., lung, liver. Non-visceral disease status was defined as metastases in the non-visceral organs, e.g., bone, skin, lymph nodes. PFS in participants with visceral and non-visceral disease status is reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Per Visceral Disease Status",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Visceral disease status was defined as metastases in the organs, e.g., lung, liver. Non-visceral disease status was defined as metastases in the non-visceral organs, e.g., bone, skin, lymph nodes. OS per visceral disease status was reported as visceral and non-visceral disease status in this outcome measure. Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "PFS Per Bone Disease Status",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. PFS was reported in participants with bone only (metastasis within bones) and non-bone only (metastasis within organs excluding bones) disease status in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Per Bone Disease Status",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. OS was reported in participants with bone only (metastasis within bones) and non-bone only (metastasis within organs excluding bones) disease status in this outcome measure. Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "PFS Per Endocrine Status",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Endocrine resistant participants were defined as recurrent participants with advanced disease within 12 months of completing adjuvant endocrine therapy or during adjuvant endocrine therapy. Endocrine sensitive participants were defined as recurrent participants with advanced disease after 12 months of completing adjuvant endocrine therapy, recurrent participants who received no adjuvant endocrine therapy or participants with de novo, advanced breast cancer. De novo participants were defined as newly metastatic participants. Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        },
+        {
+          "measure": "OS Per Endocrine Status",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. OS per endocrine status was reported in participants with endocrine resistant, endocrine sensitive and de novo metastatic status in this outcome measure. Endocrine resistant participants were defined as recurrent participants with advanced disease within 12 months of completing adjuvant endocrine therapy or during adjuvant endocrine therapy. Endocrine sensitive participants were defined as recurrent participants with advanced disease after 12 months of completing adjuvant endocrine therapy, recurrent participants who received no adjuvant endocrine therapy or participants with de novo, advanced breast cancer. De novo participants were defined as newly metastatic participants. Index date was the date of relapse or stage IV disease.",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with breast cancer (ICD-10: C50)\n* A diagnosis of HR+/HER2- locally advanced or metastatic breast cancer\n* Endocrine sensitive, endocrine resistant, or de novo mBC patient\n* Inclusion date: Date of relapse/stage IV disease/progression leading to initiation of palbociclib+AI\n\nExclusion Criteria:\n\n* There are no exclusion criteria for this study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The full dataset consists of endocrine sensitive, endocrine resistant and de novo HR+/HER2- mBC patients treated with palbociclib as first-line treatment (01 January 2017- 31 December 2021). Patients will be censored for OS and PFS by 31 December 2023.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pfizer CT.gov Call Center",
+          "affiliation": "Pfizer",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Copenhagen University Hospital, Rigshospitalet",
+          "city": "Copenhagen",
+          "zip": "2100",
+          "country": "Denmark",
+          "geoPoint": {
+            "lat": 55.67594,
+            "lon": 12.56553
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40500959",
+          "type": "DERIVED",
+          "citation": "Alan Celik, Dahl LS, Garly R, Glavicic V, Sharma MB, Yammeni S, Khan H, Hauberg DS, Kapel HS, Knoop A, Berg T. Impact of age and comorbidities on real-world outcomes in advanced breast cancer patients treated with palbociclib in first line: a nation-wide Danish retrospective study. Acta Oncol. 2025 Jun 11;64:778-783. doi: 10.2340/1651-226X.2025.43226."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "To obtain contact information for a study center near you, click here.",
+          "url": "https://pmiform.com/clinical-trial-info-request?StudyID=A5481188"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical\\_trials/trial\\_data\\_and\\_results/data\\_requests."
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Data collected retrospectively from 1 January 2017 to 1 February 2024 from Danish Breast Cancer Group (DBCG) registry and was evaluated for approximately 1.3 months (duration from start of the study to end of the study) in this retrospective study.",
+      "recruitmentDetails": "Participants diagnosed with hormone receptor positive (HR+) or human epidermal growth factor receptor (HER2) metastatic breast cancer (mBC) who initiated treatment with palbociclib in combination with aromatase inhibitor (AI) as first line treatment between 1 January 2017 to 31 December 2021 were observed.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "All Participants",
+          "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "604"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "604"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "All Participants",
+          "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "604"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "604"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66.8",
+                      "spread": "10.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "604"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "604"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race and Ethnicity Not Collected",
+          "populationDescription": "Race and Ethnicity were not collected from any participant.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Progression-Free Survival (PFS)",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Progression of disease was based on scans and blood testing results. Disease progression was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 millimeters (mm). Index date was date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body. Kaplan-Meier method was used for analysis.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "30.6",
+                      "lowerLimit": "27.4",
+                      "upperLimit": "34.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Overall Survival (OS)",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Participants were censored for OS by 1 February 2024. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55.6",
+                      "lowerLimit": "51.8",
+                      "upperLimit": "58.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Based on Age of Participants",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Progression of disease was based on scans and blood testing results. Disease progression was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. Kaplan-Meier method was used for analysis. PFS per age category (\\< 65 years, 65-75 years and \\> 75 years) were reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants aged < 65 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "212"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.8",
+                      "lowerLimit": "22.2",
+                      "upperLimit": "30.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants aged between 65-75 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "243"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "35.7",
+                      "lowerLimit": "30.4",
+                      "upperLimit": "42.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants aged > 75 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "149"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29.8",
+                      "lowerLimit": "23.6",
+                      "upperLimit": "37.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for all age groups.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.031",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Based on Age of Participants",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Participants were censored for OS by 1 February 2024. OS per age category such as \\< 65 years, 65-75 years and \\>75 years were reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants aged <65 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "212"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52.6",
+                      "lowerLimit": "48.6",
+                      "upperLimit": "59.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants aged between 65-75 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "243"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60.8",
+                      "lowerLimit": "55.6",
+                      "upperLimit": "78.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants aged >75 years",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "149"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.1",
+                      "lowerLimit": "41.4",
+                      "upperLimit": "58.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for all age groups.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.012",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Per Charlson Comorbidity Index (CCI) Score",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. CCI was used as data source for comorbidity. Each comorbidity recorded for participant, had score between 0 to 6 as per comorbidity burden, if it was part of CCI. Higher score=more severe comorbidity status. CCI score 0:participants with no comorbidity besides BC disease, CCI score 1:participant with one comorbidity with score of 1,e.g.,myocardial infarction or diabetes mellitus(DM), CCI score 2:participant with two comorbidities each classified with score of 1 or one single comorbidity classified with score of 2,e.g.,DM with organ damage, CCI score of 3or higher: participant with severe comorbidity, i.e. those having one comorbidity classified with score of 6(e.g., Human Immunodeficiency Virus/Acquired Immuno Deficiency Syndrome),or two or more comorbidities each classified with scores of1-2,all in addition to participant's BC disease. Index date=date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants with CCI score 0",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "400"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.8",
+                      "lowerLimit": "28.3",
+                      "upperLimit": "36.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with CCI score 1",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "101"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.0",
+                      "lowerLimit": "26.0",
+                      "upperLimit": "45.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with CCI score 2",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29.7",
+                      "lowerLimit": "17.1",
+                      "upperLimit": "38.3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with CCI score 3+",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.5",
+                      "lowerLimit": "18.0",
+                      "upperLimit": "33.2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for all CCI scores.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.061",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Per CCI Score",
+          "description": "OS: time from date of relapse or stage IV disease to death at any cause. CCI was used as data source for comorbidity in study. For each comorbidity recorded for participant score between 0 to 6 was assigned based on comorbidity burden, whether it was part of CCI.Higher score=more severe comorbidity status.CCI scores: CCI score 0:participants with no comorbidity besides BC disease, CCI score 1:participant with one comorbidity with score of 1,e.g., myocardial infarction or DM,CCI score 2:participant with two comorbidities each classified with score of 1 or one single comorbidity classified with score of 2,e.g.,DM with organ damage, CCI score of 3 or higher: participant with severe comorbidity,i.e.those having one comorbidity classified with score of 6(e.g., Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome),or two or more comorbidities each classified with scores of 1-2,all in addition to participant's BC disease. Index date=date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants with CCI score 0",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "400"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57.6",
+                      "lowerLimit": "53.9",
+                      "upperLimit": "66.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with CCI score 1",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "101"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.1",
+                      "lowerLimit": "43.6",
+                      "upperLimit": "58.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with CCI score 2",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53.1",
+                      "lowerLimit": "43.3",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with CCI score 3+",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45.2",
+                      "lowerLimit": "37.7",
+                      "upperLimit": "58.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for all CCI scores.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.080",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Per Number of Comorbidities",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Participants were split into three comorbidity groups - no comorbidity (0), one comorbidity and two or more comorbidities. Comorbidities included myocardial infarction, congestive heart failure (CHF), peripheral vascular disease, cerebrovascular disease, dementia, chronic pulmonary disease, connective tissue disease, ulcer disease, mild liver disease, DM, hemiplegia, moderate-severe renal disease, DM with end organ damage, any tumor, leukemia, lymphoma, moderate-severe liver disease, metastatic solid tumor and acquired immune deficiency syndrome/human immune virus (AIDS/HIV). Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants with 0 comorbidity",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "400"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.8",
+                      "lowerLimit": "28.3",
+                      "upperLimit": "36.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with 1 comorbidity",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "147"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.9",
+                      "lowerLimit": "23.8",
+                      "upperLimit": "37.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with 2+ comorbidities",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23.6",
+                      "lowerLimit": "19.3",
+                      "upperLimit": "35.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for all number of comorbidities.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.2",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Per Number of Comorbidities",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Participants were split into three comorbidity groups - no comorbidity (0), one comorbidity and two or more comorbidities. Comorbidities included myocardial infarction, CHF, peripheral vascular disease, cerebrovascular disease, dementia, chronic pulmonary disease, connective tissue disease, ulcer disease, mild liver disease, DM, hemiplegia, moderate-severe renal disease, DM with end organ damage, any tumor, leukemia, lymphoma, moderate-severe liver disease, metastatic solid tumor and AIDS/HIV. Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants with 0 comorbidity",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "400"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57.6",
+                      "lowerLimit": "53.9",
+                      "upperLimit": "66.7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with 1 comorbidity",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "147"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.1",
+                      "lowerLimit": "44.5",
+                      "upperLimit": "58.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with 2+ comorbidities",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "57"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52.7",
+                      "lowerLimit": "41.2",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for all number of comorbidities.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.093",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Per Type of Comorbidity",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Comorbidities were categorized into five main disease groups: cardiac disease, vascular disease, metabolic disease, psychiatric disease and blood and lymphatic system. Results for cardiac disease, vascular disease and metabolic disease have been reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" signifies participants evaluable for this outcome measure and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "113"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants with cardiac disease",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "27.9",
+                      "lowerLimit": "22.2",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with vascular disease",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.3",
+                      "lowerLimit": "22.9",
+                      "upperLimit": "44.9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with metabolic disease",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25.5",
+                      "lowerLimit": "17.7",
+                      "upperLimit": "36.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for participants with cardiac disease comorbidity reported.",
+              "nonInferiorityType": "OTHER",
+              "pValue": ">0.9",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for participants with vascular disease comorbidity reported.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.9",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for participants with metabolic disease comorbidity reported.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.4",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Per Type of Comorbidity",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Comorbidities were categorized into five main disease groups: Cardiac disease, vascular disease, metabolic disease, psychiatric disease and blood and lymphatic system. Results for cardiac disease, vascular disease and metabolic disease have been reported in this outcome measure. Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" signifies participants evaluable for this outcome measure and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "113"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "For participants with cardiac disease",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "23"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "61.2",
+                      "lowerLimit": "45.6",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with vascular disease",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47.4",
+                      "lowerLimit": "42.9",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "For participants with metabolic disease",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "45"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.1",
+                      "lowerLimit": "39.8",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for participants cardiac disease comorbidity reported.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.7",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for participants with vascular disease comorbidity reported.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.3",
+              "statisticalMethod": "Log Rank"
+            },
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for participants with metabolic disease comorbidity reported.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.7",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Per Visceral Disease Status",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Visceral disease status was defined as metastases in the visceral organs, e.g., lung, liver. Non-visceral disease status was defined as metastases in the non-visceral organs, e.g., bone, skin, lymph nodes. PFS in participants with visceral and non-visceral disease status is reported in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Participants with non-visceral disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "283"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.6",
+                      "lowerLimit": "31.1",
+                      "upperLimit": "39.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with visceral disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "321"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24.2",
+                      "lowerLimit": "19.8",
+                      "upperLimit": "30.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for visceral disease status.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.005",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Per Visceral Disease Status",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. Visceral disease status was defined as metastases in the organs, e.g., lung, liver. Non-visceral disease status was defined as metastases in the non-visceral organs, e.g., bone, skin, lymph nodes. OS per visceral disease status was reported as visceral and non-visceral disease status in this outcome measure. Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Participants with non-visceral disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "283"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "59.2",
+                      "lowerLimit": "56.6",
+                      "upperLimit": "69.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with visceral disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "321"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.6",
+                      "lowerLimit": "44.0",
+                      "upperLimit": "55.7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for visceral disease status.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.005",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Per Bone Disease Status",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. PFS was reported in participants with bone only (metastasis within bones) and non-bone only (metastasis within organs excluding bones) disease status in this outcome measure. Index date was the date of relapse or stage IV disease. Stage IV disease means that the cancer has spread to distant parts of the body.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Participants with bone only disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "144"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34.6",
+                      "lowerLimit": "27.7",
+                      "upperLimit": "42.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with non-bone only disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "460"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29.0",
+                      "lowerLimit": "25.4",
+                      "upperLimit": "33.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for bone disease status.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.14",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Per Bone Disease Status",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. OS was reported in participants with bone only (metastasis within bones) and non-bone only (metastasis within organs excluding bones) disease status in this outcome measure. Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Participants with bone only disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "144"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.3",
+                      "lowerLimit": "51.8",
+                      "upperLimit": "NA",
+                      "comment": "Upper limit of 95% CI was not estimable due to insufficient number of participants with event."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with non-bone only disease status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "460"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54.2",
+                      "lowerLimit": "50.1",
+                      "upperLimit": "58.6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for bone disease status.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.2",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS Per Endocrine Status",
+          "description": "PFS was defined as the time from the index date to progression or death, whichever occurred first. Participants were censored for PFS by 1 February 2024. Progression was based on radiological, clinical, and biochemical examination from the treating departments. Endocrine resistant participants were defined as recurrent participants with advanced disease within 12 months of completing adjuvant endocrine therapy or during adjuvant endocrine therapy. Endocrine sensitive participants were defined as recurrent participants with advanced disease after 12 months of completing adjuvant endocrine therapy, recurrent participants who received no adjuvant endocrine therapy or participants with de novo, advanced breast cancer. De novo participants were defined as newly metastatic participants. Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Participants with endocrine resistant status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.7",
+                      "lowerLimit": "13.8",
+                      "upperLimit": "37.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with endocrine sensitive status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "537"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31.8",
+                      "lowerLimit": "28.5",
+                      "upperLimit": "34.6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with de novo metastatic status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "198"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "32.0",
+                      "lowerLimit": "25.5",
+                      "upperLimit": "43.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for endocrine status.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.047",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "OS Per Endocrine Status",
+          "description": "OS was defined as the time from date of relapse or stage IV disease (index date) to death at any cause. OS per endocrine status was reported in participants with endocrine resistant, endocrine sensitive and de novo metastatic status in this outcome measure. Endocrine resistant participants were defined as recurrent participants with advanced disease within 12 months of completing adjuvant endocrine therapy or during adjuvant endocrine therapy. Endocrine sensitive participants were defined as recurrent participants with advanced disease after 12 months of completing adjuvant endocrine therapy, recurrent participants who received no adjuvant endocrine therapy or participants with de novo, advanced breast cancer. De novo participants were defined as newly metastatic participants. Index date was the date of relapse or stage IV disease.",
+          "populationDescription": "Analysis population included all eligible participants whose data were retrieved and observed in the study. All participants under \"Overall Number of Participants Analyzed\" contributed data to the table but may not have data evaluable for every row and \"Number Analyzed\" signifies participants evaluable for specified rows.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "From index date to disease progression or death or censoring date, whichever occurred first (data collected from 1 January 2017 to 1 February 2024 [maximum up to 7.09 years] and observed retrospectively for approximately 1.3 months of this study)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "All Participants",
+              "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "604"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Participants with endocrine resistant status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43.5",
+                      "lowerLimit": "32.2",
+                      "upperLimit": "59.2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with endocrine sensitive status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "537"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56.6",
+                      "lowerLimit": "52.6",
+                      "upperLimit": "60.8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participants with de novo metastatic status",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "198"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.9",
+                      "lowerLimit": "52.6",
+                      "upperLimit": "70.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "groupDescription": "Statistical data for this outcome measure is provided combined for endocrine status.",
+              "nonInferiorityType": "OTHER",
+              "pValue": "0.041",
+              "statisticalMethod": "Log Rank"
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "All-cause mortality: From date of metastatic breast cancer diagnosis until the end of follow-up (from 01 January 2017 and 1 February 2024, maximum up to 7.09 years). Data for non-serious adverse events and serious adverse events (SAEs) were not assessed/evaluated during the study; hence timeframe is not applicable for non-SAEs and SAEs",
+      "description": "Due to non-interventional nature of the study minimum criteria for reporting an adverse event could not be met, hence SAEs and other AEs were not planned to be assessed/evaluated and reported.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "All Participants",
+          "description": "Participants with HR+/HER2 mBC who initiated treatment with palbociclib as first line in combination with AI between 01 January 2017 and 31 December 2021 was observed retrospectively for approximately 1.3 months in this study.",
+          "deathsNumAffected": 322,
+          "deathsNumAtRisk": 604,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 0,
+          "otherNumAffected": 0,
+          "otherNumAtRisk": 0
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days. Investigator will postpone single center publications until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results."
+      },
+      "pointOfContact": {
+        "title": "Pfizer ClinicalTrials.gov Call Center",
+        "organization": "Pfizer Inc.",
+        "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+        "phone": "1-800-718-1021"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2025-02-17",
+          "uploadDate": "2025-04-07T17:17",
+          "filename": "Prot_000.pdf",
+          "size": 3485685
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2024-03-01",
+          "uploadDate": "2025-04-07T17:19",
+          "filename": "SAP_001.pdf",
+          "size": 1432576
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

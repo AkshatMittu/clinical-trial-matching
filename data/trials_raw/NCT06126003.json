@@ -1,0 +1,267 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06126003",
+      "orgStudyIdInfo": {
+        "id": "BIOMAP-201"
+      },
+      "organization": {
+        "fullName": "BioCorteX Inc",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Gut and Tumor Microbiome in Patients With Early Stage (II-III), Locally Advanced or Advanced ER-positive and HER2-negative Breast Cancer.",
+      "officialTitle": "A Multi-center, 2-arm Observational Study Exploring the Role of the Gut and Tumor Microbiome in the Differential Immune Profile of Patients With Early Stage (II-III), Locally Advanced or Advanced ER-positive and HER2-negative Breast Cancer (Arm-1)."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Did not reach enrollment goals",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-07-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-11-06",
+      "studyFirstSubmitQcDate": "2023-11-06",
+      "studyFirstPostDateStruct": {
+        "date": "2023-11-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-07-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-08-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "BioCorteX Inc",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Tempus AI",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to collect samples of blood and stool and analyse primary tumor from participants with breast cancer to see how the bacteria in the body affect cancer and how well it responds to treatment. By comparing samples and data from multiple participants with breast cancer, it may be possible to identify how a person's gut health and tumor microenvironment affects how they respond to certain cancer treatments.",
+      "detailedDescription": "After being informed about the study and potential risks, all participants giving written informed consent will provide a pre-treatment stool sample looking at the gut microbiome, primary tumor sequencing analysis to infer tumor microbiome, and a blood sample for the CyTOF whole blood Immune Profile. Blood tests (full blood count, renal profile, liver profile, C-reactive protein), medical history, concomitant medications, and the Eastern Cooperative Oncology Group (ECOG) performance level will be obtained through a mixture of self-reported and data collated from the electronic health record (EHR). Two food frequency questionnaires will be given to participants to complete at two timepoints: at screening and at end of study. There are 5 study visits. Participants will provide a stool sample for gut microbiome sequencing at weeks 2 and 4 of the study. During the Week 6 visit, participants will provide final stool samples for gut microbiome analysis, and a blood sample for CyTOF whole blood Immune Profile. ECOG performance status and adverse event data will be obtained from EHR."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 2,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1: Advanced ER-positive and HER2-negative Breast Cancer",
+          "description": "Advanced ER+ and HER2- breast cancer participants due to receive standard of care CDK4/6 inhibitors (palbociclib, ribociclib, or abemaciclib) in combination with endocrine therapy.",
+          "interventionNames": [
+            "Other: Observation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Observation",
+          "description": "No Intervention",
+          "armGroupLabels": [
+            "Arm 1: Advanced ER-positive and HER2-negative Breast Cancer"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Interaction between the gut microbiome, tumor microbiome and serum immune profile for patients with early stage (II-III), locally advanced or advanced ER-positive and HER2-negative breast cancer.",
+          "description": "Microbiome data obtained from fecal samples will be compared using alpha and beta diversity metrics.",
+          "timeFrame": "Screening, week 2, week 4, week 6"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nArm-1: Early stage (II-III), locally advanced or advanced ER-positive and HER2-negative Breast Cancer\n\n1. Signed, written, voluntary, and informed consent\n2. Histological confirmation of early stage (II-III) locally advanced or advanced ER positive and HER2 negative breast cancer\n3. Tumor DNA sequencing has been completed by selected NGS vendor(s) at the time of or prior to treatment initiation\n4. Female participants between 18 - 85 years of age\n5. ECOG performance status that is equal to 0 or 1 at the time of screening.\n6. Must be willing to provide blood for immune profile analysis on study enrollment and at specified study time points\n7. Must be willing and able to perform stool sample collection\n8. Participants due to receive standard of care CDK4/6 inhibitors (palbociclib, ribociclib, or abemaciclib) in combination with endocrine therapy\n\nExclusion Criteria:\n\nArm-1: Early stage (II-III), locally advanced or advanced ER-positive and HER2-negative Breast Cancer\n\n1. Adult males\n2. Mental incapacity, as determined by an investigator\n3. Participant is pregnant, breastfeeding, or plans to become pregnant during the course of the study\n4. Experiencing active brain metastasis/metastases\n5. Active participation in an immuno-oncology or interventional clinical trial\n6. Participation in any experimental trial in the 3 months prior to screening\n7. Participant has relapsed on prior endocrine therapy for this instance of cancer, or has discontinued any prior adjuvant endocrine therapy within 6 months of screening\n8. History of inflammatory bowel disease, chronic diarrhea or malabsorption syndromes, or significant prior bowel resection as judged by the study investigator\n9. Use of immunosuppressants, including steroids, within 4 weeks of the first sample collection\n10. Oral or intravenous antibiotic usage within 3 months of the first sample collection",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Only females are allowed to participate in Arm-1.",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Participants from the U.S. only who meet the Eligibility criteria (and no exclusion criteria) will be selected. The study will enroll at approxiumately 10 sites, including community-based cancer treatement centers and academic institutions with cancer treatment centers.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nik Sharma, PhD",
+          "affiliation": "BioCorteX Inc",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cancer Care Specialists of Illinois",
+          "city": "Decatur",
+          "state": "Illinois",
+          "zip": "62526",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.84031,
+            "lon": -88.9548
+          }
+        },
+        {
+          "facility": "OptumCare Cancer Care",
+          "city": "Las Vegas",
+          "state": "Nevada",
+          "zip": "89102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.17497,
+            "lon": -115.13722
+          }
+        },
+        {
+          "facility": "New Jersey Cancer Care, PA",
+          "city": "Belleville",
+          "state": "New Jersey",
+          "zip": "07042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79371,
+            "lon": -74.15014
+          }
+        },
+        {
+          "facility": "Cayuga Medical Center",
+          "city": "Ithaca",
+          "state": "New York",
+          "zip": "14850",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.44063,
+            "lon": -76.49661
+          }
+        },
+        {
+          "facility": "Toledo Clinic Cancer Center",
+          "city": "Toledo",
+          "state": "Ohio",
+          "zip": "43623",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66394,
+            "lon": -83.55521
+          }
+        },
+        {
+          "facility": "Valley Cancer Associates, PA",
+          "city": "Harlingen",
+          "state": "Texas",
+          "zip": "78550",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.19063,
+            "lon": -97.6961
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019370",
+          "term": "Observation"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008722",
+          "term": "Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

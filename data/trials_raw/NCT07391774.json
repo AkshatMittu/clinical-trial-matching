@@ -1,0 +1,2002 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07391774",
+      "orgStudyIdInfo": {
+        "id": "NCI-2026-00634"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2026-00634",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "EA1242",
+          "type": "OTHER",
+          "domain": "ECOG-ACRIN Cancer Research Group"
+        },
+        {
+          "id": "EA1242",
+          "type": "OTHER",
+          "domain": "CTEP"
+        },
+        {
+          "id": "U10CA180820",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U10CA180820"
+        }
+      ],
+      "organization": {
+        "fullName": "National Cancer Institute (NCI)",
+        "class": "NIH"
+      },
+      "briefTitle": "Testing Whether Hormone Therapy With Ribociclib is as Effective as Chemotherapy Followed by Hormone Therapy With Ribociclib for the Treatment of High Anatomic Stage Breast Cancer With Low Recurrence Risk, The RxFINE-Low Trial",
+      "officialTitle": "A Phase III Trial of Rx Therapy Guided by Genomic Risk Assessment for High Anatomic Stage ER-pos/HER2-neg Breast Cancer With RS\u226425 (RxFINE-Low)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2027-02-14",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-07-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-07-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-02-05",
+      "studyFirstSubmitQcDate": "2026-02-05",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "National Cancer Institute (NCI)",
+        "class": "NIH"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase III trial compares standard of care hormone therapy plus ribociclib to chemotherapy followed by hormone therapy plus ribociclib for the treatment of patients with high anatomic stage breast cancer with low risk of the cancer returning (low risk recurrence). Ribociclib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Hormone therapy, with letrozole, anastrozole or exemestane, lowers the amount of estrogen made by the body. This may help stop the growth of tumor cells that need estrogen to grow. Chemotherapy drugs work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Hormone therapy plus ribociclib may work as well as chemotherapy followed by hormone therapy plus ribociclib for the treatment of high anatomic stage breast cancer with low recurrence risk.",
+      "detailedDescription": "PRIMARY OBJECTIVE:\n\nI. To determine whether optimal adjuvant endocrine therapy with CDK4/6 inhibitor is non-inferior to adjuvant chemotherapy followed by optimal endocrine therapy with CDK4/6 inhibitor as evaluated by invasive breast cancer-free survival (iBCFS).\n\nSECONDARY OBJECTIVES:\n\nI. To compare 5-year invasive disease-free survival (iDFS), distant disease-free survival (DDFS), distant recurrence-free survival (DRFS), recurrence-free interval (RFI), overall survival (OS), and breast cancer-specific survival (BCSS) in patients who receive adjuvant chemotherapy versus patients who do not.\n\nII. To compare the short-term and long-term toxicity profiles of each arm.\n\nEXPLORATORY OBJECTIVE:\n\nI. To create a biorepository of tumor tissue and peripheral blood biospecimens for future research.\n\nOUTLINE:\n\nSTEP 0: Patients undergo Oncotype DX risk recurrence testing. Patients with an Oncotype DX recurrence score of 0-25 proceed to step 1. Patients with a recurrence score of 26-100 do not continue on the study.\n\nSTEP 1: Patients are randomized to 1 of 2 arms.\n\nARM A: Patients receive their physician's choice of standard of care chemotherapy. Patients then receive their physician's choice of standard of care hormone therapy with letrozole, anastrozole, or exemestane orally (PO) once daily (QD) on days 1-28 of each cycle, as well as ribociclib PO QD on days 1-21 of each cycle. Cycles repeat every 28 days for at least 60 months for hormone therapy and up to 3 years for ribociclib, in the absence of disease progression or unacceptable toxicity. Patients also undergo computed tomography (CT) scan, bone scan, or fludeoxyglucose (FDG) positron emission tomography (PET)-CT scan and may optionally undergo blood sample collection throughout the study.\n\nARM B: Patients receive their physician's choice of standard of care hormone therapy with letrozole, anastrozole, or exemestane PO QD on days 1-28 of each cycle and ribociclib PO QD on days 1-21 of each cycle. Cycles repeat every 28 days for at least 60 months for hormone therapy and up to 3 years for ribociclib, in the absence of disease progression or unacceptable toxicity. Patients undergo CT scan, bone scan, or FDG PET-CT scan and may optionally undergo blood sample collection throughout the study.\n\nPatients are followed every 3 months for 12 months from randomization, every 6 months for years 1-5 from randomization, then every 12 months for years 5-10 from randomization."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anatomic Stage II Breast Cancer AJCC v8",
+        "Anatomic Stage IIIA Breast Cancer AJCC v8",
+        "Anatomic Stage IIIC Breast Cancer AJCC v8",
+        "Estrogen Receptor-Positive Breast Carcinoma",
+        "HER2-Negative Breast Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1978,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A (chemotherapy, hormone therapy, ribociclib)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients receive their physician's choice of standard of care chemotherapy. Patients then receive their physician's choice of standard of care hormone therapy with letrozole, anastrozole, or exemestane PO QD on days 1-28 of each cycle, as well as ribociclib PO QD on days 1-21 of each cycle. Cycles repeat every 28 days for at least 60 months for hormone therapy and up to 3 years for ribociclib, in the absence of disease progression or unacceptable toxicity. Patients also undergo CT scan, bone scan, or FDG PET-CT scan and may optionally undergo blood sample collection throughout the study.",
+          "interventionNames": [
+            "Drug: Anastrozole",
+            "Procedure: Biospecimen Collection",
+            "Procedure: Bone Scan",
+            "Drug: Chemotherapy",
+            "Procedure: Computed Tomography",
+            "Drug: Exemestane",
+            "Drug: Letrozole",
+            "Procedure: Oncotype DX Breast Cancer Assay",
+            "Procedure: Positron Emission Tomography",
+            "Drug: Ribociclib Succinate"
+          ]
+        },
+        {
+          "label": "Arm B (hormone therapy, ribociclib)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive their physician's choice of standard of care hormone therapy with letrozole, anastrozole, or exemestane PO QD on days 1-28 of each cycle and ribociclib PO QD on days 1-21 of each cycle. Cycles repeat every 28 days for at least 60 months for hormone therapy and up to 3 years for ribociclib, in the absence of disease progression or unacceptable toxicity. Patients undergo CT scan, bone scan, or FDG PET-CT scan and may optionally undergo blood sample collection throughout the study.",
+          "interventionNames": [
+            "Drug: Anastrozole",
+            "Procedure: Biospecimen Collection",
+            "Procedure: Bone Scan",
+            "Procedure: Computed Tomography",
+            "Drug: Exemestane",
+            "Drug: Letrozole",
+            "Procedure: Oncotype DX Breast Cancer Assay",
+            "Procedure: Positron Emission Tomography",
+            "Drug: Ribociclib Succinate"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Anastrazole",
+            "Arimidex",
+            "ICI D1033",
+            "ICI-D1033",
+            "ZD-1033"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biospecimen Collection",
+          "description": "Undergo blood sample collection",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Biological Sample Collection",
+            "Biospecimen Collected",
+            "Sample Collection",
+            "Specimen Collection"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Bone Scan",
+          "description": "Undergo bone scan",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Bone Scintigraphy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Chemotherapy",
+          "description": "Receive standard of care chemotherapy",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Chemo",
+            "Chemotherapy (NOS)",
+            "Chemotherapy, Cancer, General"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Computed Tomography",
+          "description": "Undergo CT scan",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "CAT",
+            "CAT Scan",
+            "Computed Axial Tomography",
+            "Computerized Axial Tomography",
+            "Computerized axial tomography (procedure)",
+            "Computerized Tomography",
+            "Computerized Tomography (CT) scan",
+            "CT",
+            "CT Scan",
+            "Diagnostic CAT Scan",
+            "Diagnostic CAT Scan Service Type",
+            "tomography"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Aromasin",
+            "FCE-24304"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "CGS 20267",
+            "CGS-20267",
+            "CGS20267",
+            "Femara",
+            "Fempro"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Oncotype DX Breast Cancer Assay",
+          "description": "Undergo risk recurrence testing",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Oncotype DX"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Positron Emission Tomography",
+          "description": "Undergo FDG PET scan",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Medical Imaging, Positron Emission Tomography",
+            "PET",
+            "PET Scan",
+            "Positron emission tomography (procedure)",
+            "Positron Emission Tomography Scan",
+            "Positron-Emission Tomography",
+            "PT"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ribociclib Succinate",
+          "description": "Given PO",
+          "armGroupLabels": [
+            "Arm A (chemotherapy, hormone therapy, ribociclib)",
+            "Arm B (hormone therapy, ribociclib)"
+          ],
+          "otherNames": [
+            "Kisqali"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive breast cancer-free survival (iBCFS)",
+          "description": "Invasive disease defined as the first occurrence of one of the following events: local invasive recurrence following mastectomy, local invasive recurrence in the ipsilateral breast following lumpectomy, regional recurrence, distant recurrence, or contralateral invasive breast cancer. The distribution of iBCFS will be estimated using the Kaplan-Meier method. The hazard ratio will be estimated using Cox proportional hazard model. The primary analysis will compare treatment groups defined by the randomized treatment assignment (intent-to-treat analysis). A secondary analysis will be performed comparing groups defined by treatment received (per protocol analysis).",
+          "timeFrame": "From randomization to invasive disease or death, up to 10 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Invasive disease free survival",
+          "description": "Occurrence of invasive disease defined as the first occurrence of one of the following events: local invasive recurrence following mastectomy, local invasive recurrence in the ipsilateral breast following lumpectomy, regional recurrence, distant recurrence, contralateral invasive breast cancer, or second non-breast primary cancer (excluding squamous or basal cell carcinoma of the skin). Will be defined according to Standardized Definitions for Efficacy End Points (in Adjuvant Breast Cancer Trials) (STEEP) criteria and analyzed similarly as iBCFS.",
+          "timeFrame": "From randomization to the first occurrence of invasive disease or death, up to 10 years"
+        },
+        {
+          "measure": "Distant disease free survival",
+          "description": "Will be defined according to STEEP criteria and analyzed similarly as iBCFS.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Distant recurrence free survival",
+          "description": "Will be defined according to STEEP criteria and analyzed similarly as iBCFS.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Recurrence-free interval",
+          "description": "Will be defined according to STEEP criteria and analyzed similarly as iBCFS.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Will be defined according to STEEP criteria and analyzed similarly as iBCFS.",
+          "timeFrame": "From randomization to death, up to 10 years"
+        },
+        {
+          "measure": "Breast cancer specific survival",
+          "description": "Will be defined according to STEEP criteria and analyzed similarly as iBCFS.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Incidence of short term adverse events",
+          "description": "Adverse events will be graded using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE). Will be summarized by treatment group and the NCI CTCAE worst grade.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Incidence of long term adverse events",
+          "description": "Adverse events will be graded using the NCI CTCAE. Will be summarized by treatment group and the NCI CTCAE worst grade.",
+          "timeFrame": "Up to 10 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Primary outcome treatment effect by sex",
+          "description": "Estimates of treatment effect and the corresponding 95% confidence intervals (CIs) will be provided.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Primary outcome treatment effect by race",
+          "description": "Estimates of treatment effect and the corresponding 95% CIs will be provided.",
+          "timeFrame": "Up to 10 years"
+        },
+        {
+          "measure": "Primary outcome treatment effect by ethnicity",
+          "description": "Estimates of treatment effect and the corresponding 95% CIs will be provided.",
+          "timeFrame": "Up to 10 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* STEP 0: Patient must be \u2265 18 years of age\n* STEP 0: Patient must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2 within 28 days prior to Step 0 pre-registration\n* STEP 0: Patient must be a postmenopausal woman or a man\n\n  * NOTE: Menopause can be determined by any of the following:\n\n    * Prior bilateral oophorectomy\n    * Age \u2265 60 years\n    * Age \\< 60 years with amenorrhea for \u2265 12 months and estradiol and follicle stimulating hormone (FSH) levels in the postmenopausal range\n  * NOTE: FSH and estradiol levels should be repeated as clinically indicated to ensure menopausal status in patients with breast cancer with chemotherapy-induced amenorrhea\n* STEP 0: Patient must meet one of the following staging criteria postoperatively according to American Joint Committee on Cancer (AJCC) 8th edition criteria\n\n  * pT0-T3 with 3 positive ipsilateral lymph nodes (micro-or macrometastatic disease) and no planned axillary lymph node dissection after definitive surgery in the breast and axilla with curative intent.\n  * pT0-T3 with N2 or N3\n  * pT3 with N0-N3\n\n    * NOTES:\n\n      * Patients with T4 breast cancer are not eligible.\n      * Positive isolated tumor cells (ITCs) in axillary nodes without micro- or macrometastasis are considered N0 for eligibility purposes.\n      * ITC does not contribute to nodal count for staging purposes\n* STEP 0: Patient must have a primary breast tumor that is estrogen receptor (ER) positive with \\> 10% ER expression by immunohistochemistry (IHC) as per 2020 American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) Estrogen Receptor Testing Guideline.\n\n  * NOTE: ER 1-10% are reported as ER low positive. These tumors have less endocrine-sensitive disease and are not eligible)\n* STEP 0: Patient must have a primary breast tumor that is HER2-negative by current ASCO/CAP guidelines utilizing immunohistochemistry and/or fluorescence in situ hybridization (FISH)\n* STEP 0: Patient may have multicentric or multifocal breast cancer if the highest stage tumor meets eligibility criteria outlined above, and the tumor sites are felt to represent a single disease process by local pathology or other sites of disease are also ER-positive (\\> 10%) and HER2 negative, if such testing is completed. If local pathology feels that multicentric or multifocal disease may represent distinct disease processes repeat disease receptor testing is required other sites of disease must also be also ER-positive (\\> 10%) and HER2-negative\n* STEP 0: For patients who have undergone a lumpectomy, the margins of the resected specimen or re-excision must be histologically free of invasive tumor and ductal carcinoma in situ (DCIS) as determined by the local pathologist. If pathologic examination demonstrates tumor at the line of resection, additional excisions may be performed to obtain clear margins. Positive posterior margin is allowed if surgeon deems no further resection possible. Patients with margins positive for lobular carcinoma in situ (LCIS) are eligible without additional resection\n* STEP 0: For patients who have undergone mastectomy, the margins must be free of residual gross tumor. Patients with microscopic positive margins are eligible if post-mastectomy radiation treatment (RT) of the chest wall will be administered\n* STEP 0: Patient must have undergone axillary staging with sentinel lymph node biopsy (SLNB), targeted axillary dissection (TAD), or axillary lymph node dissection (ALND)\n* STEP 0: Patient must have no evidence of locoregional or distant metastatic disease by clinical history and physical exam. Treating physician can consider additional imaging evaluation per National Comprehensive Cancer Network (NCCN) guidelines and/or institutional practice\n* STEP 0: Patient must be able to have Oncotype DX testing performed.\n\n  * If Oncotype DX testing was previously performed, the results of Recurrence Score (RS) must be available and must meet Step 1 eligibility criteria.\n  * If Oncotype DX testing was not performed yet, tissue from the core, excisional biopsy or surgical specimen of the tumor lesion must be available and must be shipped to Exact Sciences for determination of the Oncotype DX Recurrence Score (RS) for eligibility and stratification.\n\n    * NOTE: Exact Sciences will notify the submitting institution of Recurrence Score results within two (2) weeks of receipt of the tumor specimen. Institutions will receive an email notification of eligibility status once Recurrence Score results are entered into Rave by the submitting institution\n* STEP 0: Patient must have had their final cancer surgery for breast cancer (including re-excision of margins) less than 16 weeks prior to Step 0 Pre-Registration.\n\n  * NOTE: This excludes additional surgery for reconstructive purposes\n* STEP 0: Patients with a prior or concurrent malignancy whose natural history or treatment does not have the potential to interfere with the safety or efficacy assessment of the investigational regimen are eligible for this trial\n* STEP 0: Patients with synchronous DCIS or LCIS are eligible\n* STEP 0: Patient with prior history of ER-negative DCIS diagnosed at least 5 years prior to Step 0 Pre-Registration without evidence of recurrence are eligible\n* STEP 0: Patient must not have a prior history of invasive ER-positive breast cancer. Patients with a history of ER-negative breast cancer are eligible if they were diagnosed at least 5 years prior to Step 0 Pre-Registration and have had no evidence of recurrence\n* STEP 0: Patients must not have received prior endocrine therapy such as tamoxifen, raloxifene, or aromatase inhibitors for chemoprevention within 5 years prior to Step 0 Pre-Registration with the exception of a short course of endocrine therapy of less than 6 weeks duration prior to Step 0 Pre-Registration.\n\n  * NOTE: The Oncotype Dx for study eligibility must be performed on specimen obtained prior to initiation of any endocrine therapy\n* STEP 0: Patient must not be concurrently using systemic hormone replacement therapy (HRT). If receiving HRT at the time of breast cancer diagnosis, this must be discontinued prior to Step 0 Pre-Registration with appropriate washout\n* STEP 0: Absolute neutrophil count (ANC) \u2265 1,500/\u00b5L (obtained \u2264 28 days prior to Step 0 Pre-Registration)\n* STEP 0: Hemoglobin \u2265 9.0 g/dL (obtained \u2264 28 days prior to Step 0 Pre-Registration)\n* STEP 0: Platelets \u2265 100,000/\u00b5L (obtained \u2264 28 days prior to Step 0 Pre-Registration)\n* STEP 0: Total bilirubin \u2264 institutional upper limit of normal (ULN) or \\< 1.5 x ULN for patients who have a bilirubin elevation in patients with well documented Gilbert's disease or similar syndrome involving slow conjugation of bilirubin (obtained \u2264 28 days prior to Step 0 Pre-Registration)\n* STEP 0: Aspartate aminotransferase (AST)(serum glutamic oxaloacetic transaminase \\[SGOT\\]) and alanine aminotransferase (ALT) (serum glutamic pyruvic transaminase \\[SGPT\\]) \u2264 2.5 \u00d7 institutional ULN (obtained \u2264 28 days prior to Step 0 Pre-Registration)\n* STEP 0: Estimated glomerular filtration rate (eGFR) \u2265 30 mL/minute/1.73 m\\^2 (obtained \u2264 28 days prior to Step 0 Pre-Registration)\n* STEP 0: Human immunodeficiency virus (HIV)-infected patients on effective anti-retroviral therapy with undetectable viral load within 6 months of Step 0 Pre-Registration are eligible for this trial\n* STEP 0: For patients with evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable on suppressive therapy, if indicated\n* STEP 0: Patients with a history of hepatitis C virus (HCV) infection must have been treated and cured. For patients with HCV infection who are currently on treatment, they are eligible if they have an undetectable HCV viral load\n* STEP 0: Patients with known history or current symptoms of cardiac disease, or history of treatment with cardiotoxic agents, should have a clinical risk assessment of cardiac function using the New York Heart Association Functional Classification. To be eligible for this trial, patients should be class 2 or better\n* STEP 0: Patient must have a standard 12-lead electrocardiogram (ECG) within 28 days prior to Step 0 Pre-Registration, documenting:\n\n  * QT interval using Fridericia's correction (QTcF) \\< 450 msec.\n  * Resting heart rate 50-90 beats per minute (determined from the ECG)\n* STEP 0: Patient must have the ability to understand and the willingness to sign a written informed consent document. Patients with impaired decision-making capacity (IDMC) who have a legally authorized representative (LAR) or caregiver and/or family member available will also be considered eligible\n* STEP 0: Patient must not have comorbidities considered a safety risk for standard adjuvant chemotherapy, endocrine therapy or CDK4/6 inhibitor as per Investigator's discretion\n* STEP 0: Patient must not have a contraindication to adjuvant chemotherapy based on treating physician's discretion\n* STEP 0: Patient must not have received prior chemotherapy for this malignancy\n* STEP 0: Patient must not have received prior CDK4/6 inhibitor\n* STEP 0: Patient must not have a known contraindication to ribociclib per current Food and Drug Administration (FDA) indication\n* STEP 0: Patient must not have a known hypersensitivity to any of the excipients of ribociclib and/or endocrine therapy (ET) (e.g. rare hereditary problems of galactose intolerance, the Lapp lactase deficiency, glucose-galactose malabsorption, and soy allergy)\n* STEP 0: Males must not expect to father children and males and their partners must be willing to use highly effective methods of contraception while on protocol treatment. Males must not donate sperm while on protocol treatment and for at least 12 weeks following the last dose of protocol treatment.\n\nHighly effective methods include the following:\n\n* Intrauterine device\n* Bilateral tubal occlusion\n* Vasectomized partner\n* Sexual abstinence If the highly effective contraceptive methods are contraindicated or strictly declined by the patient, or in the event of sexual activity of low frequency, a combination of male condom with cap, diaphragm, or sponge with spermicide (double-barrier methods) is also considered an acceptable birth control method. Local regulation/guidelines are to be followed with regard to highly effective birth control method, if more restrictive\n\n  * STEP 1: Patient must meet all Step 0 Pre-Registration eligibility criteria at the time of their Step 1 randomization\n  * STEP 1: Patient must not have had any major surgery or radiotherapy within 14 days prior to Step 1 randomization\n  * STEP 1: Patient must have a Recurrence Score (RS) of 0-25 from Oncotype DX testing from diagnostic biopsy or surgical specimen as reported by the Exact Sciences assay",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nancy Chan",
+          "affiliation": "ECOG-ACRIN Cancer Research Group",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "NEA Baptist Memorial Hospital and Fowler Family Cancer Center - Jonesboro",
+          "status": "RECRUITING",
+          "city": "Jonesboro",
+          "state": "Arkansas",
+          "zip": "72401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "870-936-7066",
+              "email": "Emily.Carvell@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.8423,
+            "lon": -90.70428
+          }
+        },
+        {
+          "facility": "Alta Bates Summit Medical Center-Herrick Campus",
+          "status": "RECRUITING",
+          "city": "Berkeley",
+          "state": "California",
+          "zip": "94704",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "email": "clinicalresearch@sutterhealth.org"
+            },
+            {
+              "name": "Kristie A. Bobolis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.87159,
+            "lon": -122.27275
+          }
+        },
+        {
+          "facility": "Palo Alto Medical Foundation Health Care",
+          "status": "RECRUITING",
+          "city": "Palo Alto",
+          "state": "California",
+          "zip": "94301",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "email": "clinicalresearch@sutterhealth.org"
+            },
+            {
+              "name": "Kristie A. Bobolis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.44188,
+            "lon": -122.14302
+          }
+        },
+        {
+          "facility": "Sutter Roseville Medical Center",
+          "status": "RECRUITING",
+          "city": "Roseville",
+          "state": "California",
+          "zip": "95661",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "email": "clinicalresearch@sutterhealth.org"
+            },
+            {
+              "name": "Kristie A. Bobolis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.75212,
+            "lon": -121.28801
+          }
+        },
+        {
+          "facility": "University of California Davis Comprehensive Cancer Center",
+          "status": "RECRUITING",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "916-734-3089"
+            },
+            {
+              "name": "Helen K. Chew",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "California Pacific Medical Center-Pacific Campus",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "email": "clinicalresearch@sutterhealth.org"
+            },
+            {
+              "name": "Kristie A. Bobolis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Mills Health Center",
+          "status": "RECRUITING",
+          "city": "San Mateo",
+          "state": "California",
+          "zip": "94401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "email": "clinicalresearch@sutterhealth.org"
+            },
+            {
+              "name": "Kristie A. Bobolis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.56299,
+            "lon": -122.32553
+          }
+        },
+        {
+          "facility": "Sutter Solano Medical Center/Cancer Center",
+          "status": "RECRUITING",
+          "city": "Vallejo",
+          "state": "California",
+          "zip": "94589",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "email": "clinicalresearch@sutterhealth.org"
+            },
+            {
+              "name": "Kristie A. Bobolis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.10409,
+            "lon": -122.25664
+          }
+        },
+        {
+          "facility": "Stamford Hospital/Bennett Cancer Center",
+          "status": "RECRUITING",
+          "city": "Stamford",
+          "state": "Connecticut",
+          "zip": "06904",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "203-323-8944"
+            },
+            {
+              "name": "K.M. S. Lo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.05343,
+            "lon": -73.53873
+          }
+        },
+        {
+          "facility": "Helen F Graham Cancer Center",
+          "status": "RECRUITING",
+          "city": "Newark",
+          "state": "Delaware",
+          "zip": "19713",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "302-623-4450",
+              "email": "lbarone@christianacare.org"
+            },
+            {
+              "name": "Gregory A. Masters",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.68372,
+            "lon": -75.74966
+          }
+        },
+        {
+          "facility": "Medical Oncology Hematology Consultants PA",
+          "status": "RECRUITING",
+          "city": "Newark",
+          "state": "Delaware",
+          "zip": "19713",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "302-623-4450",
+              "email": "lbarone@christianacare.org"
+            },
+            {
+              "name": "Gregory A. Masters",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.68372,
+            "lon": -75.74966
+          }
+        },
+        {
+          "facility": "Kootenai Health - Coeur d'Alene",
+          "status": "RECRUITING",
+          "city": "Coeur d'Alene",
+          "state": "Idaho",
+          "zip": "83814",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "406-969-6060",
+              "email": "mccinfo@mtcancer.org"
+            },
+            {
+              "name": "John M. Schallenkamp",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.67768,
+            "lon": -116.78047
+          }
+        },
+        {
+          "facility": "Kootenai Clinic Cancer Services - Post Falls",
+          "status": "RECRUITING",
+          "city": "Post Falls",
+          "state": "Idaho",
+          "zip": "83854",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "406-969-6060",
+              "email": "mccinfo@mtcancer.org"
+            },
+            {
+              "name": "John M. Schallenkamp",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.71796,
+            "lon": -116.95159
+          }
+        },
+        {
+          "facility": "Kootenai Clinic Cancer Services - Sandpoint",
+          "status": "RECRUITING",
+          "city": "Sandpoint",
+          "state": "Idaho",
+          "zip": "83864",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "406-969-6060",
+              "email": "mccinfo@mtcancer.org"
+            },
+            {
+              "name": "John M. Schallenkamp",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.27659,
+            "lon": -116.55325
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Bloomington",
+          "status": "RECRUITING",
+          "city": "Bloomington",
+          "state": "Illinois",
+          "zip": "61704",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.4842,
+            "lon": -88.99369
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Canton",
+          "status": "RECRUITING",
+          "city": "Canton",
+          "state": "Illinois",
+          "zip": "61520",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.55809,
+            "lon": -90.03512
+          }
+        },
+        {
+          "facility": "SIH Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Carterville",
+          "state": "Illinois",
+          "zip": "62918",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "618-985-3333",
+              "email": "clinical.research@sih.net"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.76005,
+            "lon": -89.0773
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Carthage",
+          "status": "RECRUITING",
+          "city": "Carthage",
+          "state": "Illinois",
+          "zip": "62321",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.41643,
+            "lon": -91.13625
+          }
+        },
+        {
+          "facility": "Cancer Care Specialists of Illinois - Decatur",
+          "status": "RECRUITING",
+          "city": "Decatur",
+          "state": "Illinois",
+          "zip": "62526",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "217-876-4762",
+              "email": "morganthaler.jodi@mhsil.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.84031,
+            "lon": -88.9548
+          }
+        },
+        {
+          "facility": "Decatur Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Decatur",
+          "state": "Illinois",
+          "zip": "62526",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "217-876-4762",
+              "email": "morganthaler.jodi@mhsil.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.84031,
+            "lon": -88.9548
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Eureka",
+          "status": "RECRUITING",
+          "city": "Eureka",
+          "state": "Illinois",
+          "zip": "61530",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.72143,
+            "lon": -89.27286
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Galesburg",
+          "status": "RECRUITING",
+          "city": "Galesburg",
+          "state": "Illinois",
+          "zip": "61401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.94782,
+            "lon": -90.37124
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Kewanee Clinic",
+          "status": "RECRUITING",
+          "city": "Kewanee",
+          "state": "Illinois",
+          "zip": "61443",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.24559,
+            "lon": -89.92483
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Macomb",
+          "status": "RECRUITING",
+          "city": "Macomb",
+          "state": "Illinois",
+          "zip": "61455",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.45921,
+            "lon": -90.6718
+          }
+        },
+        {
+          "facility": "SSM Health Good Samaritan",
+          "status": "RECRUITING",
+          "city": "Mount Vernon",
+          "state": "Illinois",
+          "zip": "62864",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "618-899-1894",
+              "email": "gayla.hall@ssmhealth.com"
+            },
+            {
+              "name": "Jay W. Carlson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.31727,
+            "lon": -88.90312
+          }
+        },
+        {
+          "facility": "Cancer Care Center of O'Fallon",
+          "status": "RECRUITING",
+          "city": "O'Fallon",
+          "state": "Illinois",
+          "zip": "62269",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "217-876-4762",
+              "email": "morganthaler.jodi@mhsil.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.59227,
+            "lon": -89.91121
+          }
+        },
+        {
+          "facility": "HSHS Saint Elizabeth's Hospital",
+          "status": "RECRUITING",
+          "city": "O'Fallon",
+          "state": "Illinois",
+          "zip": "62269",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "217-876-4762",
+              "email": "morganthaler.jodi@mhsil.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.59227,
+            "lon": -89.91121
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Ottawa Clinic",
+          "status": "RECRUITING",
+          "city": "Ottawa",
+          "state": "Illinois",
+          "zip": "61350",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.34559,
+            "lon": -88.84258
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Pekin",
+          "status": "RECRUITING",
+          "city": "Pekin",
+          "state": "Illinois",
+          "zip": "61554",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.56754,
+            "lon": -89.64066
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Peoria",
+          "status": "RECRUITING",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61615",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Peru",
+          "status": "RECRUITING",
+          "city": "Peru",
+          "state": "Illinois",
+          "zip": "61354",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.32753,
+            "lon": -89.12897
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Princeton",
+          "status": "RECRUITING",
+          "city": "Princeton",
+          "state": "Illinois",
+          "zip": "61356",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.36809,
+            "lon": -89.46481
+          }
+        },
+        {
+          "facility": "Southern Illinois University School of Medicine",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62702",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "217-545-7929"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Springfield Clinic",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62702",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "800-444-7541"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Springfield Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62781",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "217-528-7541",
+              "email": "pallante.beth@mhsil.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Illinois CancerCare - Washington",
+          "status": "RECRUITING",
+          "city": "Washington",
+          "state": "Illinois",
+          "zip": "61571",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "309-243-3605",
+              "email": "andersonj@illinoiscancercare.com"
+            },
+            {
+              "name": "Bryan A. Faller",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.70365,
+            "lon": -89.40731
+          }
+        },
+        {
+          "facility": "Mary Greeley Medical Center",
+          "status": "RECRUITING",
+          "city": "Ames",
+          "state": "Iowa",
+          "zip": "50010",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-956-4132"
+            },
+            {
+              "name": "Joseph J. Merchant",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.03471,
+            "lon": -93.61994
+          }
+        },
+        {
+          "facility": "McFarland Clinic - Ames",
+          "status": "RECRUITING",
+          "city": "Ames",
+          "state": "Iowa",
+          "zip": "50010",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-239-4734",
+              "email": "ksoder@mcfarlandclinic.com"
+            },
+            {
+              "name": "Joseph J. Merchant",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.03471,
+            "lon": -93.61994
+          }
+        },
+        {
+          "facility": "UI Health Care Mission Cancer and Blood - Ankeny Clinic",
+          "status": "RECRUITING",
+          "city": "Ankeny",
+          "state": "Iowa",
+          "zip": "50023",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-3305"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.72971,
+            "lon": -93.60577
+          }
+        },
+        {
+          "facility": "Saint Anthony Regional Hospital",
+          "status": "RECRUITING",
+          "city": "Carroll",
+          "state": "Iowa",
+          "zip": "51401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-689-7658",
+              "email": "sbenson@iora.org"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.06582,
+            "lon": -94.86693
+          }
+        },
+        {
+          "facility": "Mercy Hospital",
+          "status": "RECRUITING",
+          "city": "Cedar Rapids",
+          "state": "Iowa",
+          "zip": "52403",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "319-365-4673"
+            },
+            {
+              "name": "Deborah W. Wilbur",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.00833,
+            "lon": -91.64407
+          }
+        },
+        {
+          "facility": "Oncology Associates at Mercy Medical Center",
+          "status": "RECRUITING",
+          "city": "Cedar Rapids",
+          "state": "Iowa",
+          "zip": "52403",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "319-363-2690"
+            },
+            {
+              "name": "Deborah W. Wilbur",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.00833,
+            "lon": -91.64407
+          }
+        },
+        {
+          "facility": "UI Health Care Mission Cancer and Blood - West Des Moines Clinic",
+          "status": "RECRUITING",
+          "city": "Clive",
+          "state": "Iowa",
+          "zip": "50325",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-3305"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.60304,
+            "lon": -93.72411
+          }
+        },
+        {
+          "facility": "Iowa Methodist Medical Center",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50309",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-6727"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "UI Health Care Mission Cancer and Blood - Des Moines Clinic",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50309",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-3305"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "Broadlawns Medical Center",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50314",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-282-2200"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "Mercy Medical Center - Des Moines",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50314",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-3305"
+            },
+            {
+              "name": "Richard L. Deming",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "UI Health Care Mission Cancer and Blood - Laurel Clinic",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50314",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-3305"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "McFarland Clinic - Trinity Cancer Center",
+          "status": "RECRUITING",
+          "city": "Fort Dodge",
+          "state": "Iowa",
+          "zip": "50501",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-956-4132"
+            },
+            {
+              "name": "Joseph J. Merchant",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.49747,
+            "lon": -94.16802
+          }
+        },
+        {
+          "facility": "UI Healthcare Mission Cancer and Blood - Fort Dodge",
+          "status": "RECRUITING",
+          "city": "Fort Dodge",
+          "state": "Iowa",
+          "zip": "50501",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-282-2921",
+              "email": "trials@missioncancer.com"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.49747,
+            "lon": -94.16802
+          }
+        },
+        {
+          "facility": "McFarland Clinic - Marshalltown",
+          "status": "RECRUITING",
+          "city": "Marshalltown",
+          "state": "Iowa",
+          "zip": "50158",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-956-4132"
+            },
+            {
+              "name": "Joseph J. Merchant",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.04943,
+            "lon": -92.90798
+          }
+        },
+        {
+          "facility": "UI Health Care Mission Cancer and Blood - Waukee Clinic",
+          "status": "RECRUITING",
+          "city": "Waukee",
+          "state": "Iowa",
+          "zip": "50263",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "515-241-3305"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.61166,
+            "lon": -93.88523
+          }
+        },
+        {
+          "facility": "Baptist Memorial Hospital and Cancer Center-Golden Triangle",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Mississippi",
+          "zip": "39705",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.49567,
+            "lon": -88.42726
+          }
+        },
+        {
+          "facility": "Baptist Cancer Center-Grenada",
+          "status": "RECRUITING",
+          "city": "Grenada",
+          "state": "Mississippi",
+          "zip": "38901",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.769,
+            "lon": -89.80842
+          }
+        },
+        {
+          "facility": "Baptist Memorial Hospital and Cancer Center-Union County",
+          "status": "RECRUITING",
+          "city": "New Albany",
+          "state": "Mississippi",
+          "zip": "38652",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.49427,
+            "lon": -89.00784
+          }
+        },
+        {
+          "facility": "Baptist Memorial Hospital and Cancer Center-Oxford",
+          "status": "RECRUITING",
+          "city": "Oxford",
+          "state": "Mississippi",
+          "zip": "38655",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.3665,
+            "lon": -89.51925
+          }
+        },
+        {
+          "facility": "Baptist Memorial Hospital and Cancer Center-Desoto",
+          "status": "RECRUITING",
+          "city": "Southhaven",
+          "state": "Mississippi",
+          "zip": "38671",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.99176,
+            "lon": -90.12759
+          }
+        },
+        {
+          "facility": "Bozeman Health Deaconess Hospital",
+          "status": "RECRUITING",
+          "city": "Bozeman",
+          "state": "Montana",
+          "zip": "59715",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "406-969-6060",
+              "email": "mccinfo@mtcancer.org"
+            },
+            {
+              "name": "John M. Schallenkamp",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.67965,
+            "lon": -111.03856
+          }
+        },
+        {
+          "facility": "Benefis Sletten Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Great Falls",
+          "state": "Montana",
+          "zip": "59405",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "406-969-6060",
+              "email": "mccinfo@mtcancer.org"
+            },
+            {
+              "name": "John M. Schallenkamp",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.50024,
+            "lon": -111.30081
+          }
+        },
+        {
+          "facility": "Community Medical Center",
+          "status": "RECRUITING",
+          "city": "Missoula",
+          "state": "Montana",
+          "zip": "59804",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "406-969-6060",
+              "email": "mccinfo@mtcancer.org"
+            },
+            {
+              "name": "John M. Schallenkamp",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.87215,
+            "lon": -113.994
+          }
+        },
+        {
+          "facility": "Roswell Park Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14263",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "800-767-9355",
+              "email": "askroswell@roswellpark.org"
+            },
+            {
+              "name": "Ellis G. Levine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Lexington Medical Center",
+          "status": "RECRUITING",
+          "city": "West Columbia",
+          "state": "South Carolina",
+          "zip": "29169",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "803-935-8300",
+              "email": "research@lexhealth.org"
+            },
+            {
+              "name": "Steven A. Madden",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.99349,
+            "lon": -81.07398
+          }
+        },
+        {
+          "facility": "Baptist Memorial Hospital and Cancer Center-Collierville",
+          "status": "RECRUITING",
+          "city": "Collierville",
+          "state": "Tennessee",
+          "zip": "38017",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.04204,
+            "lon": -89.66453
+          }
+        },
+        {
+          "facility": "Baptist Memorial Hospital and Cancer Center-Memphis",
+          "status": "RECRUITING",
+          "city": "Memphis",
+          "state": "Tennessee",
+          "zip": "38120",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Site Public Contact",
+              "role": "CONTACT",
+              "phone": "901-226-1366",
+              "email": "BCCclintrials@bmhcc.org"
+            },
+            {
+              "name": "Elizabeth John",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.14953,
+            "lon": -90.04898
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "NCI is committed to sharing data in accordance with NIH policy. For more details on how clinical trial data is shared, access the link to the NIH data sharing policy page.",
+      "url": "https://grants.nih.gov/policy/sharing.htm"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D009682",
+          "term": "Magnetic Resonance Spectroscopy"
+        },
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013057",
+          "term": "Spectrum Analysis"
+        },
+        {
+          "id": "D002623",
+          "term": "Chemistry Techniques, Analytical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,4087 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05827081",
+      "orgStudyIdInfo": {
+        "id": "CLEE011O12001"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2022-503001-38-00",
+          "type": "REGISTRY",
+          "domain": "EU CT Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Phase IIIb Study of Ribociclib + ET in Early Breast Cancer",
+      "officialTitle": "A Phase IIIb Study to Characterize the Efficacy and Safety of Adjuvant Ribociclib Plus Endocrine Therapy in a Close-to-clinical Practice Patient Population With HR+ HER2- Early Breast Cancer (Adjuvant WIDER)",
+      "acronym": "Adjuvant WIDER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": true,
+        "nctId": "NCT05038631",
+        "statusForNctId": "AVAILABLE"
+      },
+      "startDateStruct": {
+        "date": "2024-02-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-09-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-09-20",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-04-12",
+      "studyFirstSubmitQcDate": "2023-04-12",
+      "studyFirstPostDateStruct": {
+        "date": "2023-04-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this open-label, multicenter, phase IIIb, single-arm study is to characterize the efficacy and safety of the combination of ribociclib and standard adjuvant endocrine therapy (ET) on invasive breast cancer-free survival (iBCFS), in a close to clinical practice patient population with HR-positive (HR+), HER2-negative (HER2-), Anatomic Stage Group III, IIB, and a subset of Stage IIA Early Breast Cancer (EBC).",
+      "detailedDescription": "The study consists of Screening, Treatment, and Follow-up periods.\n\n* Treatment Period: all participants who complete screening will receive ribociclib 400 mg orally once daily on days 1 to 21 of a 28-day cycle, in combination with daily ET for 36 months (approximately 39 cycles) from the date of first dose. The Treatment Period starts when the patient receives their first dose of ribociclib and ends at the time of the 30-day Safety Follow-up. All treated participants should have a Safety Follow-up call conducted 30 days after the last dose of study treatment.\n* Follow-up period: participants will be followed from 30 days after study treatment (i.e., ribociclib) completion/discontinuation (i.e. 30-day Safety Follow-up) until death, withdrawal of consent, lost to follow-up, or until 48 months after the last participant has received their first dose of study treatment (i.e. End of Study \\[EOS\\]), whichever occurs first."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early Breast Cancer"
+      ],
+      "keywords": [
+        "Hormone receptor positive (HR+)",
+        "Human epidermal growth factor receptor-2 negative (HER2-)",
+        "Early breast cancer (EBC)",
+        "premenopausal",
+        "postmenopausal",
+        "male breast cancer",
+        "ribociclib",
+        "LEE011",
+        "Endocrine therapy (ET)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1400,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ribociclib + endocrine therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive ribociclib 400 mg orally once daily on days 1 to 21 of a 28-day cycle, in combination with daily endocrine therapy (ET) for 36 months (approximately 39 cycles). ET consists of:\n\n* For postmenopausal women: letrozole 2.5 mg orally once daily continuously, anastrozole 1 mg orally once daily continuously, or exemestane 25 mg once daily continuously.\n* For pre/perimenopausal women, and men: letrozole 2.5 mg orally once daily continuously, anastrozole 1 mg orally once daily continuously, or exemestane 25 mg once daily continuously, combined with goserelin subcutaneously (at 3.6 mg once every 4 weeks if the one-month depot formulation is used or at 10.8 mg once every 3 months if the three-month depot formulation is used) or leuprolide subcutaneously (at 3.75 mg once every 4 weeks if the one-month depot formulation is used or at 11.25 mg once every 3 months if the three-month depot formulation is used)",
+          "interventionNames": [
+            "Drug: Ribociclib",
+            "Drug: Letrozole",
+            "Drug: Ansastrozole",
+            "Drug: Goserelin",
+            "Drug: Leuprolide",
+            "Drug: Exemestane"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ribociclib",
+          "description": "Ribociclib 400 mg orally once daily on days 1-21 of a 28 day cycle followed by 7 days rest",
+          "armGroupLabels": [
+            "Ribociclib + endocrine therapy"
+          ],
+          "otherNames": [
+            "LEE011"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Letrozole 2.5 mg orally once daily continuously",
+          "armGroupLabels": [
+            "Ribociclib + endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ansastrozole",
+          "description": "Anastrozole 1 mg orally once daily continuously.",
+          "armGroupLabels": [
+            "Ribociclib + endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Goserelin",
+          "description": "Goserelin administered subcutaneously at 3.6 mg once every 4 weeks if the one-month depot formulation is used or at 10.8 mg once every 3 months if the three-month depot formulation is used",
+          "armGroupLabels": [
+            "Ribociclib + endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Leuprolide",
+          "description": "Leuprolide administered subcutaneously at 3.75 mg once every 4 weeks if the one-month depot formulation is used or at 11.25 mg once every 3 months if the three-month depot formulation is used",
+          "armGroupLabels": [
+            "Ribociclib + endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane",
+          "description": "Exemestane 25 mg once daily continuously",
+          "armGroupLabels": [
+            "Ribociclib + endocrine therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Breast Cancer Free Survival (iBCFS) rate at 3 years",
+          "description": "iBCFS is defined as the time from the date of first dose to the date of the first event of invasive ipsilateral breast tumor recurrence, local/regional invasive recurrence, distant recurrence, death (any cause), or contralateral invasive BC. iBCFS will be assessed using STEEP criteria version 2.0 (Standardized Definitions for Efficacy End Points in Adjuvant Breast Cancer Trials), as assessed by Investigator.\n\nThe iBCFS rate at 3 years will be assessed.",
+          "timeFrame": "At 3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence and severity of adverse events (AEs) using CTCAE v4.03",
+          "description": "To evaluate Safety of ribociclib + ET",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Invasive Disease-Free Survival (iDFS)",
+          "description": "iDFS is defined as the time from the date of first dose of study treatment to the date of the first event of invasive ipsilateral breast tumor recurrence, local/regional invasive recurrence, distant recurrence, death (any cause), contralateral invasive BC, or second primary non-breast invasive cancer (excluding basal and squamous cell carcinomas of the skin). iDFS will be assessed using STEEP 2.0 as assessed by the investigator.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Distant Disease-Free Survival (DDFS)",
+          "description": "Distant Disease-Free Survival (DDFS) is defined as the time from the date of first dose of study treatment to the date of the first event of recurrence at a distant site, death (any cause), or second primary non-breast invasive cancer (excluding in situ/non-invasive cancers and basal and squamous cell carcinomas of the skin).\n\nDDFS will be assessed using STEEP 2.0 as assessed by the investigator.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Distant Relapse-Free Survival (DRFS)",
+          "description": "Distant Relapse Free Survival (DRFS) is defined as the time from the date of first dose of study treatment to the date of the first event of recurrence at a distant site or death (any cause). DRFS will be assessed using STEEP 2.0 as assessed by the investigator.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Recurrence-Free Interval (RFI)",
+          "description": "RFI is defined as the time from date of first dose to date of first event of invasive recurrence in the ipsilateral breast or locoregionally, at a distant site, or death from breast cancer. RFI will be assessed using STEEP 2.0 as per investigator assessment.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Relative dose intensity (RDI) of ribociclib",
+          "description": "RDI is defined as the ratio of the dose intensity delivered to the planned dose intensity.",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS is defined as time from the start of study treatment to date of death due to any cause.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Time To Discontinuation (TTD) of ribociclib",
+          "description": "TTD is defined as the time from starting ribociclib to the time to treatment discontinuation due to any cause.",
+          "timeFrame": "Up to 3 years"
+        },
+        {
+          "measure": "Changes from baseline in Functional Assessment of Cancer Therapy - Breast (FACT-B) score",
+          "description": "The FACT-B is a questionnaire that consists of 37 items with items from FACT-General (FACT-G) questionnaire (27 items) and from the Breast Cancer Subscale (BCS, 10 items). FACT-B consists of five subscales that address different aspects of the participant's quality of life: physical well-being (PWB), social/family well-being (SWB), emotional well-being (EWB), functional well-being (FWB), and BCS.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Changes from baseline in Functional Assessment of Cancer Therapy - Endocrine Symptoms (FACT-ES) score",
+          "description": "The FACT-ES is a questionnaire that consists of 19 items which assesses endocrine complaints and adverse events.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Changes from baseline in Functional Assessment of Chronic Illness Therapy - Fatigue (FACIT-F) score",
+          "description": "The FACIT-F is a 13-item questionnaire designed to assess self-reported fatigue and its impact on daily activities and functions.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Changes from baseline in European Quality of Life-5 Dimensions (EQ-5D-5L) score",
+          "description": "EQ-5D-5L is a standardized participant completed questionnaire that measures health-related quality of life and translates that score into an index value or utility score. EQ-5D-5L consists of two components: a health state profile and an optional visual analogue scale (VAS). EQ-5D-5L health state profile is comprised of 5 dimensions: mobility, self-care, usual activities, pain/discomfort and anxiety/depression.",
+          "timeFrame": "Up to approximately 6 years"
+        },
+        {
+          "measure": "Changes from baseline in Work Productivity and Activity Impairment Questionnaire (WPAI-GH) score",
+          "description": "WPAI-GH measures the impact of health problems on the participant's productivity, in paid or unpaid activities, in the last 7 days. It is 6-item scale measuring absenteeism, presenteeism, and impairments in unpaid activity.",
+          "timeFrame": "Up to approximately 6 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion criteria:\n\n* Participant is an adult, male or female \u2265 18 years of age at the time of informed consent form signature (IC).\n* Participant has a histologically and/or cytologically confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive breast cancer (BC) based on the most recently analyzed tissue sample tested by a local laboratory prior to enrollment.\n* Participant has HER2- BC defined as a negative in situ hybridization test or an immunohistochemistry (IHC) status of 0, 1+ or 2+. If IHC is 2+, a negative in situ hybridization (FISH, CISH, or SISH) test is required by local laboratory testing based on the most recently analyzed tissue sample.\n* Participants may have already received any standard neoadjuvant and/or adjuvant ET, including tamoxifen or toremifene at the time of informed consent signature, but enrollment should occur within 36 months of prior ET start date and participants should have at least 3 years remaining of endocrine adjuvant therapy.\n* For participants with prior ET treatment \\> 12 months, restaging is highly recommended (unless contradictory to local regulations) to rule out disease recurrence prior to enrollment.\n* The number of participants with prior ET between 12 and 36 months will be capped at 30%. The cap will not apply to Black or African American participants.\n* Participant has no contraindication to receive adjuvant ET in the study.\n* Participant after surgical resection where tumor was removed completely, with the final surgical specimen microscopic margins free from tumor, and belongs to one of the following categories:\n\n  * Anatomic Stage Group III, or\n  * Anatomic Stage Group IIB, or\n  * A subset of Anatomic Stage Group IIA.\n* Participant has an Eastern Cooperative Oncology Group (ECOG) Performance Status of 0, 1 or 2.\n* Participant has adequate bone marrow and organ function.\n* ECG values assessed by KardiaMobile-6L device, or standard 12-lead ECG per local investigator where KardiaMobile-6L cannot be used, as:\n\n  * QTcF interval at Screening \\< 450 msec (QT interval using Fridericia's correction).\n  * Mean resting heart rate 50-99 beats per minute (determined from the ECG).\n\nKey Exclusion criteria:\n\n* Participant with distant metastases of BC beyond regional lymph nodes (Stage IV according to AJCC 8th edition) and/or evidence of recurrence after curative surgery.\n* Participant is concurrently using other antineoplastic therapy with the exception of adjuvant ET.\n* Participant has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator's judgment, cause unacceptable safety risks, contraindicate participant participation in the clinical study or compromise compliance with the protocol, or limit life expectancy to \u22645 years.\n* Clinically significant, uncontrolled heart disease and/or cardiac repolarization abnormality.\n* Pregnant or breast-feeding (lactating) women or women who plan to become pregnant or breast-feed during the trial.\n* Women of child-bearing potential (CBP), defined as all women physiologically capable of becoming pregnant, unless they are using highly effective methods of contraception while taking study treatment and for 21 days after stopping the treatment.\n\nOther inclusion/exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT",
+          "phone": "1-888-669-6682",
+          "email": "novartis.email@novartis.com"
+        },
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT",
+          "phone": "+41613241111",
+          "email": "novartis.email@novartis.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Central Alabama Research",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35209",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lorie Szymela",
+              "role": "CONTACT",
+              "email": "LSzymela@centralalabamaresearch.com"
+            },
+            {
+              "name": "David Mooney",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Alaska Oncology and Hematology LLC",
+          "status": "RECRUITING",
+          "city": "Anchorage",
+          "state": "Alaska",
+          "zip": "99508",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Talia Wyckoff",
+              "role": "CONTACT",
+              "phone": "907-279-3155",
+              "email": "talia@alaskaoncology.com"
+            },
+            {
+              "name": "Steven Liu",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 61.21806,
+            "lon": -149.90028
+          }
+        },
+        {
+          "facility": "Western Reg MC-COH Phoenix",
+          "status": "RECRUITING",
+          "city": "Goodyear",
+          "state": "Arizona",
+          "zip": "85338",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Susan Sheerin-Fadden",
+              "role": "CONTACT",
+              "phone": "623-207-3381",
+              "email": "ssheerinfadden@coh.org"
+            },
+            {
+              "name": "Cynthia Lynch",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.43532,
+            "lon": -112.35821
+          }
+        },
+        {
+          "facility": "CARTI Cancer Center",
+          "status": "RECRUITING",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Johnson",
+              "role": "CONTACT",
+              "phone": "501-906-3000",
+              "email": "Emily.Johnson@carti.com"
+            },
+            {
+              "name": "Issam Sam Makhoul",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "Beverly Hills Cancer Center",
+          "status": "RECRUITING",
+          "city": "Beverly Hills",
+          "state": "California",
+          "zip": "90211",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Oscar Canlas",
+              "role": "CONTACT",
+              "phone": "310-432-8900",
+              "email": "ocanlas@bhcancercenter.com"
+            },
+            {
+              "name": "Linnea Chap",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.07362,
+            "lon": -118.40036
+          }
+        },
+        {
+          "facility": "Onco Inst of Hope and Innovation",
+          "status": "RECRUITING",
+          "city": "Cerritos",
+          "state": "California",
+          "zip": "90703",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sabrina Mora",
+              "role": "CONTACT",
+              "phone": "562-698-6888",
+              "email": "sabrina.mora@heliosclinical.com"
+            },
+            {
+              "name": "Pamela Miel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.85835,
+            "lon": -118.06479
+          }
+        },
+        {
+          "facility": "City of Hope National Medical",
+          "status": "RECRUITING",
+          "city": "Duarte",
+          "state": "California",
+          "zip": "91010",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ester Yang",
+              "role": "CONTACT",
+              "phone": "+1 6263598111#65994",
+              "email": "eyang@coh.org"
+            },
+            {
+              "name": "Thanh Nga Doan",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.13945,
+            "lon": -117.97729
+          }
+        },
+        {
+          "facility": "Providence Medical Foundation",
+          "status": "RECRUITING",
+          "city": "Fullerton",
+          "state": "California",
+          "zip": "92835",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Teresa Olea",
+              "role": "CONTACT",
+              "phone": "714-449-6200",
+              "email": "teresa.olea@stjoe.org"
+            },
+            {
+              "name": "Giribala R Patel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.87029,
+            "lon": -117.92534
+          }
+        },
+        {
+          "facility": "Los Angeles Cancer Network Good Samaritan",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90017",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tannya Lovato",
+              "role": "CONTACT",
+              "phone": "213-977-1214",
+              "email": "tannya.lovato@lahomg.com"
+            },
+            {
+              "name": "Lasika Chandradatta Seneviratne",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "El Camino Hospital",
+          "status": "RECRUITING",
+          "city": "Mountain View",
+          "state": "California",
+          "zip": "94040",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Zoe Higgins",
+              "role": "CONTACT",
+              "email": "zoe_higgins@elcaminohealth.org"
+            },
+            {
+              "name": "Priya Jayachandran",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.38605,
+            "lon": -122.08385
+          }
+        },
+        {
+          "facility": "Palo Alto Medical Foundation",
+          "status": "RECRUITING",
+          "city": "Mountain View",
+          "state": "California",
+          "zip": "94040",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christine Lee",
+              "role": "CONTACT",
+              "phone": "650-853-5763",
+              "email": "christine.lee4@sutterhealth.org"
+            },
+            {
+              "name": "Natalia Colocci",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.38605,
+            "lon": -122.08385
+          }
+        },
+        {
+          "facility": "UC Irvine Medical Center",
+          "status": "RECRUITING",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephany Ruiz",
+              "role": "CONTACT",
+              "phone": "714-456-6288",
+              "email": "ruizs11@hs.uci.edu"
+            },
+            {
+              "name": "Ritesh Parajuli",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Sutter Inst Medical Research",
+          "status": "RECRUITING",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95816-5199",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Clara Dunn",
+              "role": "CONTACT",
+              "phone": "916-453-5742",
+              "email": "dunncm@sutterhealth.org"
+            },
+            {
+              "name": "Nitin Rohatgi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "School Of Medicine",
+          "status": "RECRUITING",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Apinya Vorasaph",
+              "role": "CONTACT",
+              "email": "avorasaph@health.ucdavis.edu"
+            },
+            {
+              "name": "Mili Arora",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Sharp Rees Stealy Medical Group Inc",
+          "status": "RECRUITING",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92101",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Danica Griffin",
+              "role": "CONTACT",
+              "email": "danica.griffin@sharp.com"
+            },
+            {
+              "name": "Kenneth Johnson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "AdventHealth Medical Group Hematology and Oncology",
+          "status": "RECRUITING",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Melanie Burland",
+              "role": "CONTACT",
+              "email": "Melanie.Burland@adventhealth.com"
+            },
+            {
+              "name": "Nadine G Mikhaeel Kamel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Rocky Mountain Cancer Centers",
+          "status": "RECRUITING",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80218",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kayleigh Lorbiecki",
+              "role": "CONTACT",
+              "phone": "303-321-0302",
+              "email": "kayleigh.lorbiecki@usoncology.com"
+            },
+            {
+              "name": "Mabel Mardones",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Georgetown University Lombardi Cancer Center",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007-2197",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Julie Castle",
+              "role": "CONTACT",
+              "phone": "202-687-8676",
+              "email": "bickmorj@georgetown.edu"
+            },
+            {
+              "name": "Katia Khoury",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Medstar Washington Hospital Center",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stacy Malloy",
+              "role": "CONTACT",
+              "phone": "202-877-2146",
+              "email": "Stacy.K.Malloy@medstar.net"
+            },
+            {
+              "name": "Ami Chitalia",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "AdventHealth Altamonte Springs",
+          "status": "RECRUITING",
+          "city": "Altamonte Springs",
+          "state": "Florida",
+          "zip": "32701",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Daena Senatus",
+              "role": "CONTACT",
+              "email": "daena.senatus@adventhealth.com"
+            },
+            {
+              "name": "Wassim Mchayleh",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.66111,
+            "lon": -81.36562
+          }
+        },
+        {
+          "facility": "Holy Cross Health",
+          "status": "RECRUITING",
+          "city": "Fort Lauderdale",
+          "state": "Florida",
+          "zip": "33308",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Eileen Georgi",
+              "role": "CONTACT",
+              "phone": "954-771-8000",
+              "email": "Eileen.Georgi@holy-cross.com"
+            },
+            {
+              "name": "Karim Arnaout",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.12231,
+            "lon": -80.14338
+          }
+        },
+        {
+          "facility": "Hialeah Hospital",
+          "status": "RECRUITING",
+          "city": "Hialeah",
+          "state": "Florida",
+          "zip": "33013",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jonathan Matias",
+              "role": "CONTACT",
+              "email": "jmatias@bioresearchpartner.com"
+            },
+            {
+              "name": "Luis G Rangel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.8576,
+            "lon": -80.27811
+          }
+        },
+        {
+          "facility": "Memorial Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Hollywood",
+          "state": "Florida",
+          "zip": "33021",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Florencia Brunengo",
+              "role": "CONTACT",
+              "email": "fbrunengo@mhs.net"
+            },
+            {
+              "name": "Adriana Milillo Naraine",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.0112,
+            "lon": -80.14949
+          }
+        },
+        {
+          "facility": "Jupiter Medical Center",
+          "status": "RECRUITING",
+          "city": "Jupiter",
+          "state": "Florida",
+          "zip": "33458",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christine Leonard",
+              "role": "CONTACT",
+              "phone": "561-263-5768",
+              "email": "christine.leonard@jupitermed.com"
+            },
+            {
+              "name": "Danielle Krol",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.93422,
+            "lon": -80.09421
+          }
+        },
+        {
+          "facility": "Ocala Research Institute, Inc",
+          "status": "RECRUITING",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34474",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michelle Jackson",
+              "role": "CONTACT",
+              "phone": "352-351-7126",
+              "email": "Michelle.Jackson@usoncology.com"
+            },
+            {
+              "name": "Anju Vasudevan",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "University Cancer and Blood Center LLC",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "state": "Georgia",
+          "zip": "30607",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christen Nicole Cooper Pope",
+              "role": "CONTACT",
+              "email": "npope@universitycancer.com"
+            },
+            {
+              "name": "Amanda Hathaway",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.96095,
+            "lon": -83.37794
+          }
+        },
+        {
+          "facility": "Summit Cancer Care PC",
+          "status": "RECRUITING",
+          "city": "Savannah",
+          "state": "Georgia",
+          "zip": "31405",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Theresa Williams",
+              "role": "CONTACT",
+              "email": "twilliams@summitcancercare.com"
+            },
+            {
+              "name": "Mark A Taylor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.08354,
+            "lon": -81.09983
+          }
+        },
+        {
+          "facility": "Hawaii Cancer Care",
+          "status": "RECRUITING",
+          "city": "Honolulu",
+          "state": "Hawaii",
+          "zip": "96813",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Angelei Gommesen",
+              "role": "CONTACT",
+              "email": "AngeleiJan.Gommesen@aoncology.com"
+            },
+            {
+              "name": "Arnold K N Yee",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 21.30694,
+            "lon": -157.85833
+          }
+        },
+        {
+          "facility": "Affiliated Oncologists IL",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60415",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Angela Malone",
+              "role": "CONTACT",
+              "email": "angela.malone@usoncology.com"
+            },
+            {
+              "name": "Rami Haddad",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Hope And Healing Care",
+          "status": "RECRUITING",
+          "city": "Hinsdale",
+          "state": "Illinois",
+          "zip": "60521",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Asma Jabeen",
+              "role": "CONTACT",
+              "email": "ajabeen@hopenheal.care"
+            },
+            {
+              "name": "Srilata Gundala",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.80086,
+            "lon": -87.93701
+          }
+        },
+        {
+          "facility": "Midwestern Reg MC COH Chicago",
+          "status": "RECRUITING",
+          "city": "Zion",
+          "state": "Illinois",
+          "zip": "60099",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Afua Amoabin",
+              "role": "CONTACT",
+              "phone": "847-872-4561",
+              "email": "aamoabin@coh.org"
+            },
+            {
+              "name": "Ajaz Khan",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.44613,
+            "lon": -87.83285
+          }
+        },
+        {
+          "facility": "Investigative Clinical R of Indiana",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46260",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Zara Edgell",
+              "role": "CONTACT",
+              "email": "zedgell@investigativeicr.com"
+            },
+            {
+              "name": "Ruemu Birhiray",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "University of Iowa Health Care",
+          "status": "RECRUITING",
+          "city": "Waukee",
+          "state": "Iowa",
+          "zip": "50263",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Theresa Caon",
+              "role": "CONTACT",
+              "email": "tcaon@missioncancer.com"
+            },
+            {
+              "name": "Seema Harichand-Herdt",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.61166,
+            "lon": -93.88523
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center",
+          "status": "RECRUITING",
+          "city": "Westwood",
+          "state": "Kansas",
+          "zip": "66205",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chasity Cupp",
+              "role": "CONTACT",
+              "email": "ccupp@kumc.edu"
+            },
+            {
+              "name": "Priyanka Sharma",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.04056,
+            "lon": -94.6169
+          }
+        },
+        {
+          "facility": "Cancer Center of Kansas",
+          "status": "RECRUITING",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67214-3728",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michelle Comstock",
+              "role": "CONTACT",
+              "phone": "316-262-4467",
+              "email": "michelle.comstock@cancercenterofkansas.com"
+            },
+            {
+              "name": "Shaker R Dakhil",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Willis-Knighton Cancer Center",
+          "status": "RECRUITING",
+          "city": "Shreveport",
+          "state": "Louisiana",
+          "zip": "71103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Briana Barrow",
+              "role": "CONTACT",
+              "email": "bbarrow@wkhs.com"
+            },
+            {
+              "name": "Prakash Peddi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.52515,
+            "lon": -93.75018
+          }
+        },
+        {
+          "facility": "Mercy Medical Center",
+          "status": "RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alexandra Cline",
+              "role": "CONTACT",
+              "phone": "+1 410 332 1200",
+              "email": "acline@mdmercy.com"
+            },
+            {
+              "name": "David Andrew Riseberg",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Maryland Oncology Hematology P A",
+          "status": "RECRUITING",
+          "city": "Silver Spring",
+          "state": "Maryland",
+          "zip": "20904",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Teresa Saavedra",
+              "role": "CONTACT",
+              "email": "teresa.saavedra@usoncology.com"
+            },
+            {
+              "name": "Carol Tweed",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.99067,
+            "lon": -77.02609
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tara Hassani Goodarzi",
+              "role": "CONTACT",
+              "email": "tara.hassanigoodarzi@bmc.org"
+            },
+            {
+              "name": "Jose J Acevedo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana Farber Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lauryn Vassel",
+              "role": "CONTACT",
+              "phone": "617-632-5607",
+              "email": "lauryn_vassel@dfci.harvard.edu"
+            },
+            {
+              "name": "Erica Mayer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana Farber Brigham Women Cancer",
+          "status": "RECRUITING",
+          "city": "Milford",
+          "state": "Massachusetts",
+          "zip": "01757",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Laura Melancon",
+              "role": "CONTACT",
+              "phone": "617-732-9850",
+              "email": "laurae_melancon@dfci.harvard.edu"
+            },
+            {
+              "name": "Natalie Sinclair",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.13982,
+            "lon": -71.51617
+          }
+        },
+        {
+          "facility": "Minnesota Oncology Hematology P A",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55404",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heather Quammen",
+              "role": "CONTACT",
+              "email": "heather.quammen@usoncology.com"
+            },
+            {
+              "name": "Eric Lander",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Allina Hlth Cancer Inst Minneapolis",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jonathan Alexander",
+              "role": "CONTACT",
+              "phone": "612-863-9466",
+              "email": "jonathan.alexander@allina.com"
+            },
+            {
+              "name": "Daniel Carlson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Jackson Oncology Associates",
+          "status": "RECRUITING",
+          "city": "Jackson",
+          "state": "Mississippi",
+          "zip": "39202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Teresa Davis",
+              "role": "CONTACT",
+              "phone": "601-974-5547",
+              "email": "tdavis@jacksononcology.com"
+            },
+            {
+              "name": "Justin T Baker",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          }
+        },
+        {
+          "facility": "HCA Midwest Division",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64132",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katie Burnside",
+              "role": "CONTACT",
+              "email": "katherine.burnside@hcahealthcare.com"
+            },
+            {
+              "name": "Anis Toumeh",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "WA Uni School Of Med",
+          "status": "RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Elizabeth Ainsworth",
+              "role": "CONTACT",
+              "phone": "314-747-8085",
+              "email": "ainsworth@wustl.edu"
+            },
+            {
+              "name": "Katherine Clifton",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Intermountain Healthcare",
+          "status": "RECRUITING",
+          "city": "Billings",
+          "state": "Montana",
+          "zip": "59102",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kelsi Margaris",
+              "role": "CONTACT",
+              "email": "kelsi.margaris@imail.org"
+            },
+            {
+              "name": "Patrick Cobb",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.78329,
+            "lon": -108.50069
+          }
+        },
+        {
+          "facility": "Nebraska Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68154",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heather Cordes",
+              "role": "CONTACT",
+              "phone": "+1 402 334 4773",
+              "email": "hcordes@nebraskacancer.com"
+            },
+            {
+              "name": "Margaret Barbara Block",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Renown Regional Medical Center",
+          "status": "RECRUITING",
+          "city": "Reno",
+          "state": "Nevada",
+          "zip": "89502",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Bayley Stoner",
+              "role": "CONTACT",
+              "email": "Bayley.Stoner@renown.org"
+            },
+            {
+              "name": "Lee Schwartzberg",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.52963,
+            "lon": -119.8138
+          }
+        },
+        {
+          "facility": "Cancer Care Specialists",
+          "status": "RECRUITING",
+          "city": "Reno",
+          "state": "Nevada",
+          "zip": "89511",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Layla Quinonez",
+              "role": "CONTACT",
+              "email": "Lquinonez@ccsreno.com"
+            },
+            {
+              "name": "Sowjanya Reganti",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.52963,
+            "lon": -119.8138
+          }
+        },
+        {
+          "facility": "MD Anderson Cancer Center At Cooper",
+          "status": "RECRUITING",
+          "city": "Camden",
+          "state": "New Jersey",
+          "zip": "08103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Naimik Patel",
+              "role": "CONTACT",
+              "email": "patel-naimik@cooperhealth.edu"
+            },
+            {
+              "name": "Ahmed Kamel Abou Hussein",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.92595,
+            "lon": -75.11962
+          }
+        },
+        {
+          "facility": "Summit Health",
+          "status": "RECRUITING",
+          "city": "Florham Park",
+          "state": "New Jersey",
+          "zip": "07932",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mehmet Kurt",
+              "role": "CONTACT",
+              "phone": "973-538-5210",
+              "email": "mkurt4@summithealth.com"
+            },
+            {
+              "name": "Steven Papish",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.78788,
+            "lon": -74.38821
+          }
+        },
+        {
+          "facility": "The Valley Hospital",
+          "status": "RECRUITING",
+          "city": "Ridgewood",
+          "state": "New Jersey",
+          "zip": "07450",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Clark",
+              "role": "CONTACT",
+              "email": "eclark2@valleyhealth.com"
+            },
+            {
+              "name": "Amanda Podolski",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.97926,
+            "lon": -74.11653
+          }
+        },
+        {
+          "facility": "Presbyterian Medical Group",
+          "status": "RECRUITING",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Monique Robertson",
+              "role": "CONTACT",
+              "phone": "505-559-6100",
+              "email": "mrobertso2@phs.org"
+            },
+            {
+              "name": "Yashvin Onkarappa Mangala",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "Queens Cancer Center of Queens Hospital",
+          "status": "RECRUITING",
+          "city": "Jamaica",
+          "state": "New York",
+          "zip": "11432",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Linda Bulone",
+              "role": "CONTACT",
+              "phone": "718-883-3751",
+              "email": "buLoneL@nychhc.org"
+            },
+            {
+              "name": "Ellen Hagopian",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.69149,
+            "lon": -73.80569
+          }
+        },
+        {
+          "facility": "Optum Health",
+          "status": "RECRUITING",
+          "city": "Lake Success",
+          "state": "New York",
+          "zip": "11042",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rabia Khan",
+              "role": "CONTACT",
+              "phone": "+1 516 488 2918#183",
+              "email": "rabia.khan2@uhn.ca"
+            },
+            {
+              "name": "Jonathan Goldberg",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.77066,
+            "lon": -73.71763
+          }
+        },
+        {
+          "facility": "Mount Sinai School of Medicine",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Weronika Bucwinska",
+              "role": "CONTACT",
+              "email": "weronika.bucwinska@mssm.edu"
+            },
+            {
+              "name": "Melanie Kier",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Duke Cancer Network",
+          "status": "RECRUITING",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Catrin Davies",
+              "role": "CONTACT",
+              "email": "catrin.davies@duke.edu"
+            },
+            {
+              "name": "Madhu Chaudhry",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "Cone Health Cancer Center",
+          "status": "RECRUITING",
+          "city": "Greensboro",
+          "state": "North Carolina",
+          "zip": "27403",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nikki Eldreth",
+              "role": "CONTACT",
+              "phone": "336-832-1100",
+              "email": "Nikki.Eldreth@conehealth.com"
+            },
+            {
+              "name": "Vinay Gudena",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.07264,
+            "lon": -79.79198
+          }
+        },
+        {
+          "facility": "Sanford Research USD Fargo",
+          "status": "RECRUITING",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58122",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Riley Klueber",
+              "role": "CONTACT",
+              "phone": "701-234-2371",
+              "email": "riley.klueber@sanfordhealth.org"
+            },
+            {
+              "name": "Anu Goel Gaba",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "Good Samaritan Regional Medical Center",
+          "status": "RECRUITING",
+          "city": "Corvallis",
+          "state": "Oregon",
+          "zip": "97330",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Esther VanTil",
+              "role": "CONTACT",
+              "phone": "541-768-5800",
+              "email": "evantil@samhealth.org"
+            },
+            {
+              "name": "John Strother",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.56457,
+            "lon": -123.26204
+          }
+        },
+        {
+          "facility": "Oncology Associates of Oregon PC",
+          "status": "RECRUITING",
+          "city": "Eugene",
+          "state": "Oregon",
+          "zip": "97401-8122",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Emily Baltes Thompson",
+              "role": "CONTACT",
+              "email": "emily.baltesthompson@usoncology.com"
+            },
+            {
+              "name": "Miho Dougherty",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.05207,
+            "lon": -123.08675
+          }
+        },
+        {
+          "facility": "Northwest Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97210",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heather Firneisz",
+              "role": "CONTACT",
+              "phone": "971-708-7600",
+              "email": "Heather.Firneisz@usoncology.com"
+            },
+            {
+              "name": "Jay Andersen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Oregon Oncology Specialists Salem",
+          "status": "RECRUITING",
+          "city": "Salem",
+          "state": "Oregon",
+          "zip": "97301",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kyla Kinney",
+              "role": "CONTACT",
+              "email": "kkinney@orcancer.com"
+            },
+            {
+              "name": "Janelle Meyer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.9429,
+            "lon": -123.0351
+          }
+        },
+        {
+          "facility": "Consultants In Med Onco And Hema",
+          "status": "RECRUITING",
+          "city": "Drexel Hill",
+          "state": "Pennsylvania",
+          "zip": "19026",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maureen Lisowski",
+              "role": "CONTACT",
+              "email": "maureen.Lisowski@usoncology.com"
+            },
+            {
+              "name": "Alexander Deak",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.94706,
+            "lon": -75.29213
+          }
+        },
+        {
+          "facility": "Univ of Pittsburg Med Ctr Pinnacle",
+          "status": "RECRUITING",
+          "city": "Harrisburg",
+          "state": "Pennsylvania",
+          "zip": "17109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Alex Dagan",
+              "role": "CONTACT",
+              "phone": "717-652-3000",
+              "email": "daganaj@upmc.edu"
+            },
+            {
+              "name": "Marija Balic",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.2737,
+            "lon": -76.88442
+          }
+        },
+        {
+          "facility": "Allegheny Health Network",
+          "status": "RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15212",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sarah Montini",
+              "role": "CONTACT",
+              "email": "sarah.montini@ahn.org"
+            },
+            {
+              "name": "Joseph Liput",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Rhode Island Hospital",
+          "status": "RECRUITING",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02903",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Janine Grigelevich",
+              "role": "CONTACT",
+              "phone": "401-444-7525",
+              "email": "jgrigelevich@brownhealth.org"
+            },
+            {
+              "name": "Stephanie Graff",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Bon Secours St Francis Cancer Center",
+          "status": "RECRUITING",
+          "city": "Greenville",
+          "state": "South Carolina",
+          "zip": "29607",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shea Pekari",
+              "role": "CONTACT",
+              "phone": "+1 864 603 6214",
+              "email": "shea_pekari@bshsi.org"
+            },
+            {
+              "name": "Stephen Howard Dyar",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.85262,
+            "lon": -82.39401
+          }
+        },
+        {
+          "facility": "Lexington Medical Center",
+          "status": "RECRUITING",
+          "city": "West Columbia",
+          "state": "South Carolina",
+          "zip": "29169",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Katharine Madden",
+              "role": "CONTACT",
+              "phone": "803-794-7511",
+              "email": "kdmadden@lexhealth.org"
+            },
+            {
+              "name": "Steven Madden",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.99349,
+            "lon": -81.07398
+          }
+        },
+        {
+          "facility": "Regional Medical Oncology NC",
+          "status": "RECRUITING",
+          "city": "Wilson",
+          "state": "South Carolina",
+          "zip": "27893",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Merdith Best",
+              "role": "CONTACT",
+              "email": "meredith.best@regionaloncology.com"
+            },
+            {
+              "name": "Keith Lerro",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.66322,
+            "lon": -80.11841
+          }
+        },
+        {
+          "facility": "Sanford USD Medical Center",
+          "status": "RECRUITING",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jane Veerman",
+              "role": "CONTACT",
+              "phone": "605-328-8000",
+              "email": "jane.veerman@sanfordhealth.org"
+            },
+            {
+              "name": "Allison Watson",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "Sarah Cannon Research Institute",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Madeleine Enos",
+              "role": "CONTACT",
+              "phone": "615-329-7270",
+              "email": "madeleine.enos@scri.com"
+            },
+            {
+              "name": "Denise A Yardley",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "El Paso Texas Oncology",
+          "status": "RECRUITING",
+          "city": "El Paso",
+          "state": "Texas",
+          "zip": "79902",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mary Williams",
+              "role": "CONTACT",
+              "email": "mary.williams2@usoncology.com"
+            },
+            {
+              "name": "Ines Sanchez-Rivera",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.75872,
+            "lon": -106.48693
+          }
+        },
+        {
+          "facility": "Kelsey Seybold Clinic",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77025",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shawndra Alexander",
+              "role": "CONTACT",
+              "phone": "713-442-1224",
+              "email": "shawndra.alexander@kelseyresearch.com"
+            },
+            {
+              "name": "Sunil Patel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "University of Texas",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030-4099",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cynthia Tamez",
+              "role": "CONTACT",
+              "phone": "713-794-5783",
+              "email": "ctamez@mdanderson.org"
+            },
+            {
+              "name": "Jason Mouabbi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Texas Oncology P A Plano East",
+          "status": "RECRUITING",
+          "city": "Plano",
+          "state": "Texas",
+          "zip": "75075",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kristy Dillard",
+              "role": "CONTACT",
+              "phone": "972-867-3577",
+              "email": "Kristy.Dillard@usoncology.com"
+            },
+            {
+              "name": "Carlos Taboada",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.01984,
+            "lon": -96.69889
+          }
+        },
+        {
+          "facility": "Texas Oncology PA Tyler",
+          "status": "RECRUITING",
+          "city": "Tyler",
+          "state": "Texas",
+          "zip": "75702",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Anna Self",
+              "role": "CONTACT",
+              "email": "Anna.Self@usoncology.com"
+            },
+            {
+              "name": "Sasha Davis",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.35126,
+            "lon": -95.30106
+          }
+        },
+        {
+          "facility": "Bon Secours Virginia Health System",
+          "status": "RECRUITING",
+          "city": "Midlothian",
+          "state": "Virginia",
+          "zip": "23114",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Tozeane Samuels",
+              "role": "CONTACT",
+              "phone": "804-894-8665",
+              "email": "tozeane_samuels@bshsi.org"
+            },
+            {
+              "name": "William Irvin",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.50598,
+            "lon": -77.64916
+          }
+        },
+        {
+          "facility": "Virginia Oncology Associates",
+          "status": "RECRUITING",
+          "city": "Norfolk",
+          "state": "Virginia",
+          "zip": "23502",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jordan Pettaway",
+              "role": "CONTACT",
+              "email": "jordan.pettaway@usoncology.com"
+            },
+            {
+              "name": "Michael A Danso",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.84681,
+            "lon": -76.28522
+          }
+        },
+        {
+          "facility": "Kadlec Clinic Hematology and Onco",
+          "status": "RECRUITING",
+          "city": "Kennewick",
+          "state": "Washington",
+          "zip": "99336",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heather Harris",
+              "role": "CONTACT",
+              "phone": "509-783-0144",
+              "email": "heather.e.harris@kadlec.org"
+            },
+            {
+              "name": "Ying Zhuo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.21125,
+            "lon": -119.13723
+          }
+        },
+        {
+          "facility": "Providence Regional Cancer System",
+          "status": "RECRUITING",
+          "city": "Lacey",
+          "state": "Washington",
+          "zip": "98503",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Deidre Dillon",
+              "role": "CONTACT",
+              "phone": "360-754-3934",
+              "email": "deidre.dillon@providence.org"
+            },
+            {
+              "name": "Mijung Lee",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.03426,
+            "lon": -122.82319
+          }
+        },
+        {
+          "facility": "Valley Medical Center Research",
+          "status": "RECRUITING",
+          "city": "Renton",
+          "state": "Washington",
+          "zip": "98055",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Dione Froman",
+              "role": "CONTACT",
+              "email": "Dione_Froman@valleymed.org"
+            },
+            {
+              "name": "Navanshu Arora",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.48288,
+            "lon": -122.21707
+          }
+        },
+        {
+          "facility": "Northwest Medical Specialties",
+          "status": "RECRUITING",
+          "city": "Tacoma",
+          "state": "Washington",
+          "zip": "98405",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Patricia Walsh",
+              "role": "CONTACT",
+              "phone": "253-428-8756",
+              "email": "pwalsh@nwmsonline.com"
+            },
+            {
+              "name": "Sibel Blau",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.25288,
+            "lon": -122.44429
+          }
+        },
+        {
+          "facility": "Medical College of Wisconsin",
+          "status": "RECRUITING",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53226",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marshall Apps",
+              "role": "CONTACT",
+              "phone": "414-805-5249",
+              "email": "mapps@mcw.edu"
+            },
+            {
+              "name": "Lubna Chaudhary",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Caba",
+          "state": "Buenos Aires",
+          "zip": "C1426ANZ",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "La Plata",
+          "state": "Buenos Aires",
+          "zip": "B1902CMV",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.92126,
+            "lon": -57.95442
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "C\u00f3rdoba",
+          "zip": "X5004BAL",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Gateshead",
+          "state": "New South Wales",
+          "zip": "2290",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -32.98208,
+            "lon": 151.69188
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tiwi",
+          "state": "Northern Territory",
+          "zip": "810",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -12.35876,
+            "lon": 130.878
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Clayton",
+          "state": "Victoria",
+          "zip": "3168",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.91667,
+            "lon": 145.11667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "East Melbourne",
+          "state": "Victoria",
+          "zip": "3002",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.81667,
+            "lon": 144.9879
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "zip": "40170-110",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "zip": "41825-010",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Belo Horizonte",
+          "state": "Minas Gerais",
+          "zip": "30220-140",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -19.92083,
+            "lon": -43.93778
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90470-340",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90560-032",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90610-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "05652-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Rio de Janeiro",
+          "zip": "22281-100",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Rio de Janeiro",
+          "zip": "22775-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "zip": "01323-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "zip": "04501 000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Victoria",
+          "state": "British Columbia",
+          "zip": "V8R 6V5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Halifax",
+          "state": "Nova Scotia",
+          "zip": "B3H 2Y9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.64269,
+            "lon": -63.57688
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Oakville",
+          "state": "Ontario",
+          "zip": "L6M1M1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.45011,
+            "lon": -79.68292
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1H 8L6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 0A9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3T 1E2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4A 3J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "zip": "G1S 4L8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Saskatoon",
+          "state": "Saskatchewan",
+          "zip": "S7N 4H4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 52.13238,
+            "lon": -106.66892
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100044",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510080",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Harbin",
+          "state": "Heilongjiang",
+          "zip": "150081",
+          "country": "China",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "zip": "450003",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "zip": "450008",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "zip": "210029",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Nanchang",
+          "state": "Jiangxi",
+          "zip": "330009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Changchun",
+          "state": "Jilin",
+          "zip": "130021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Jinan",
+          "state": "Shandong",
+          "zip": "250021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Jinan",
+          "state": "Shandong",
+          "zip": "250117",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Jining",
+          "state": "Shandong",
+          "zip": "272000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 35.405,
+            "lon": 116.58139
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "610041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "610072",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "\u00dcr\u00fcmqi",
+          "state": "Xinjiang",
+          "zip": "830000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.80096,
+            "lon": 87.60046
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310006",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Wenzhou",
+          "state": "Zhejiang",
+          "zip": "325000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 27.99942,
+            "lon": 120.66682
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100039",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100730",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510060",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Qingdao",
+          "zip": "266000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.06488,
+            "lon": 120.38042
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Shijiazhuang",
+          "zip": "050035",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "zip": "300480",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Freiburg im Breisgau",
+          "state": "Baden-Wurttemberg",
+          "zip": "79106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "81377",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Regensburg",
+          "state": "Bavaria",
+          "zip": "93053",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.01513,
+            "lon": 12.10161
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Weiden in Der Oberpfalz",
+          "state": "Bavaria",
+          "zip": "92637",
+          "country": "Germany"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Langen",
+          "state": "Hesse",
+          "zip": "63225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98955,
+            "lon": 8.66852
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Hildesheim",
+          "state": "Lower Saxony",
+          "zip": "31134",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.15077,
+            "lon": 9.95112
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Bergisch Gladbach",
+          "state": "North Rhine-Westphalia",
+          "zip": "51465",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.9856,
+            "lon": 7.13298
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Bielefeld",
+          "state": "North Rhine-Westphalia",
+          "zip": "33604",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 8.53333
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "D\u00fcsseldorf",
+          "state": "North Rhine-Westphalia",
+          "zip": "40225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "M\u00f6nchengladbach",
+          "state": "North Rhine-Westphalia",
+          "zip": "41061",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Velbert",
+          "state": "North Rhine-Westphalia",
+          "zip": "42551",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33537,
+            "lon": 7.04348
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Dresden",
+          "state": "Saxony",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "L\u00fcbeck",
+          "state": "Schleswig-Holstein",
+          "zip": "23563",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Augsburg",
+          "zip": "86150",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.37154,
+            "lon": 10.89851
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Augsburg",
+          "zip": "86179",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.37154,
+            "lon": 10.89851
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Berlin",
+          "zip": "10967",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Berlin",
+          "zip": "13125",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Bottrop",
+          "zip": "46236",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.52392,
+            "lon": 6.9285
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "B\u00f6blingen",
+          "zip": "71032",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.68212,
+            "lon": 9.01171
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Dessau",
+          "zip": "06847",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.83864,
+            "lon": 12.24555
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Erlangen",
+          "zip": "91054",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Essen",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kiel",
+          "zip": "24105",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Leipzig",
+          "zip": "04277",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "WITHDRAWN",
+          "city": "Mainz",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "M\u00fcnchen",
+          "zip": "80637",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ravensburg",
+          "zip": "88214",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.78198,
+            "lon": 9.61062
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "zip": "999077",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kowloon",
+          "zip": "999077",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.31667,
+            "lon": 114.18333
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tuenmen",
+          "zip": "999077",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.39175,
+            "lon": 113.97157
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Hyderabad",
+          "state": "Andhra Pradesh",
+          "zip": "500034",
+          "country": "India"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "zip": "560017",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zip": "400 012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Pune",
+          "state": "Maharasthra",
+          "zip": "411028",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110029",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Bhubaneswar",
+          "state": "Odisha",
+          "zip": "751007",
+          "country": "India",
+          "geoPoint": {
+            "lat": 20.27241,
+            "lon": 85.83385
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "zip": "600 035",
+          "country": "India",
+          "geoPoint": {
+            "lat": 13.08784,
+            "lon": 80.27847
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Kolkata",
+          "state": "West Bengal",
+          "zip": "700054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 22.56263,
+            "lon": 88.36304
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Ahmedabad",
+          "zip": "380054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Beersheba",
+          "zip": "8457108",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.25181,
+            "lon": 34.7913
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Petah Tikva",
+          "zip": "4941492",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ramat Gan",
+          "zip": "5265601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tel Aviv",
+          "zip": "6423906",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Alc Cuahutemoc",
+          "state": "Mexico City",
+          "zip": "06720",
+          "country": "Mexico"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tlalpan",
+          "state": "Mexico City",
+          "zip": "14080",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.29513,
+            "lon": -99.16206
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Monterrey",
+          "state": "Nuevo Le\u00f3n",
+          "zip": "64460",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Coimbra",
+          "zip": "3000-075",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Lisbon",
+          "zip": "1400-038",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Lisbon",
+          "zip": "1649-035",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Porto",
+          "zip": "4100-180",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Porto",
+          "zip": "4200 319",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Porto",
+          "zip": "4200-072",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "Pan Oncology",
+          "status": "RECRUITING",
+          "city": "Rio Piedras",
+          "zip": "00935",
+          "country": "Puerto Rico",
+          "contacts": [
+            {
+              "name": "Nathalia Verge",
+              "role": "CONTACT",
+              "phone": "+1 787 407 3333",
+              "email": "nathalia.verge@panoncologytrials.com"
+            },
+            {
+              "name": "Omayra Gonzalez Rodriguez",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 18.39745,
+            "lon": -66.04989
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Bundang Gu",
+          "state": "Gyeonggi-do",
+          "zip": "13620",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Gyeonggi-do",
+          "state": "Korea",
+          "zip": "10408",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.58944,
+            "lon": 126.76917
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Incheon",
+          "state": "Korea",
+          "zip": "405 760",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.45646,
+            "lon": 126.70515
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "state": "Korea",
+          "zip": "02841",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "state": "Yangcheon Gu",
+          "zip": "07985",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seongnam Gyeonggi",
+          "zip": "463-712",
+          "country": "South Korea"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "05505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "06273",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "06591",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Hualien City",
+          "zip": "970",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 23.97694,
+            "lon": 121.60444
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kaohsiung City",
+          "zip": "80756",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tainan",
+          "zip": "71004",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 22.99083,
+            "lon": 120.21333
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "zip": "10002",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "zip": "11490",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Sakarya",
+          "state": "Adapazari",
+          "zip": "54290",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.50333,
+            "lon": 32.07583
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ankara",
+          "state": "Bilkent-Cankaya",
+          "zip": "06800",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Istanbul",
+          "state": "Fatih",
+          "zip": "34098",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Istanbul",
+          "state": "Kadikoy",
+          "zip": "34722",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Izmir",
+          "state": "Karsiyaka",
+          "zip": "35575",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Denizli",
+          "state": "Kinikli",
+          "zip": "20070",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 37.77417,
+            "lon": 29.0875
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Antalya",
+          "state": "Konyaalti",
+          "zip": "07070",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 36.90812,
+            "lon": 30.69556
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Istanbul",
+          "state": "Sariyer",
+          "zip": "34457",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ankara",
+          "state": "Sihhiye-Altindag",
+          "zip": "06230",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Diyarbak\u0131r",
+          "state": "Sur",
+          "zip": "21280",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 37.91363,
+            "lon": 40.21721
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Istanbul",
+          "state": "Uskudar",
+          "zip": "34662",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ankara",
+          "state": "Yenimahalle",
+          "zip": "06200",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ankara",
+          "state": "Yenimahalle",
+          "zip": "06500",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Adana",
+          "state": "Yuregir",
+          "zip": "01230",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 36.98615,
+            "lon": 35.32531
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ankara",
+          "zip": "06520",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Istanbul",
+          "zip": "34147",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.01384,
+            "lon": 28.94966
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Izmir",
+          "zip": "35100",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kecioren Ankara",
+          "zip": "06010",
+          "country": "Turkey (T\u00fcrkiye)"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Konya",
+          "zip": "42080",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 37.87135,
+            "lon": 32.48464
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Samsun",
+          "zip": "55200",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.27976,
+            "lon": 36.3361
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D018567",
+          "term": "Breast Neoplasms, Male"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D017273",
+          "term": "Goserelin"
+        },
+        {
+          "id": "D016729",
+          "term": "Leuprolide"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

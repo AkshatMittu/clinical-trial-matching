@@ -1,0 +1,2121 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04595565",
+      "orgStudyIdInfo": {
+        "id": "GBG102 - SASCIA"
+      },
+      "organization": {
+        "fullName": "GBG Forschungs GmbH",
+        "class": "OTHER"
+      },
+      "briefTitle": "Sacituzumab Govitecan in Primary HER2-negative Breast Cancer",
+      "officialTitle": "Phase III Postneoadjuvant Study Evaluating Sacituzumab Govitecan, an Antibody Drug Conjugate in Primary HER2-negative Breast Cancer Patients With High Relapse Risk After Standard Neoadjuvant Treatment - SASCIA",
+      "acronym": "SASCIA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-10-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-03-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-03-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-04-07",
+      "studyFirstSubmitQcDate": "2020-10-14",
+      "studyFirstPostDateStruct": {
+        "date": "2020-10-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "GBG Forschungs GmbH",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Gilead Sciences",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Austrian Breast & Colorectal Cancer Study Group",
+          "class": "NETWORK"
+        },
+        {
+          "name": "Spanish Breast Cancer Research Group (GEICAM)",
+          "class": "UNKNOWN"
+        },
+        {
+          "name": "ETOP IBCSG Partners Foundation",
+          "class": "NETWORK"
+        },
+        {
+          "name": "Cancer Trials Ireland",
+          "class": "NETWORK"
+        },
+        {
+          "name": "UNICANCER",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Phase III, prospective, multi-center, randomized, open label, parallel group, study in patients with HER2-negative breast cancer with residual disease after neoadjuvant chemotherapy with 1:1 allocation to:\n\n* Arm A: Sacituzumab govitecan (days 1, 8 q3w for eight cycles);\n* Arm B: treatment of physician\u00b4s choice (TPC, defined as capecitabine or platinum-based chemotherapy for eight cycles or observation.\n\nTreatment in either arm will be given for eight cycles.\n\nIn patients with HR-positive breast cancer, endocrine-based therapy, which includes the use of CDK4/6 inhibitors, will be administered according to local guidelines. The start of endocrine therapy will be at the discretion of the investigator; however, it will be encouraged to start after surgery/radiotherapy in patients without additional cytotoxic agents.\n\nAdjuvant pembrolizumab can be given until the completion of radiotherapy before randomization. Within the study the use of pembrolizumab in patients with TNBC who received pembrolizumab as neoadjuvant therapy is allowed as monotherapy in the TPC arm, according to the approval of pembrolizumab in this setting.",
+      "detailedDescription": "Neoadjuvant chemotherapy (NACT) allows monitoring of tumor response to treatment and a pathological complete response (pCR) is associated with superior survival. This association is strongest in the most aggressive subtype, i.e. in patients with triple-negative breast cancer (TNBC). Patients with TNBC not achieving a pCR have a 5-year event free survival rate of about 50%. The association between pCR and prognosis is less pronounced in HR-positive/HER2-negative patients. However, the CPS+EG scoring system for prognosis after neoadjuvant chemotherapy, taking into account clinical stage, post treatment pathological stage, estrogen receptor status and grade, leads to an improved estimate of prognosis allowing to select patients at high risk of relapse for post-neoadjuvant therapy. Patients with TNBC not achieving a pCR as well as those with HR-positive/HER2-negative tumors and a CPS+EG score of 3 or 2/ypN+ are at high risk of relapse, warranting additional experimental therapies after NACT.\n\nThere is proof of concept, that post-neoadjuvant therapy can significantly improve survival. First data was provided by the CREATE X trial, randomizing patients with residual tumor after neoadjuvant chemotherapy to either capecitabine or observation. CREATE X included HER2-negative patients and demonstrated a significant improvement in disease-free survival (DFS) and overall survival (OS) in the overall population, which was confined to the TNBC subgroup.\n\nRecently, the randomized post-neoadjuvant phase III KATHERINE study demonstrated an improved invasive disease-free survival in HER2-positive patients without pCR after trastuzumab +/- pertuzumab treated postoperatively with T-DM1, an antibody-drug-conjugate compared to trastuzumab.\n\nSacituzumab govitecan has demonstrated unprecedented activity in heavily pretreated patients with metastatic triple-negative and HR-positive/HER2-negative breast cancer, even after prior immune-checkpoint inhibitors or CDK4/6 and mTOR inhibitors. Based on the results of the phase I/II study, sacituzumab govitecan was granted a breakthrough therapy designation for the treatment of patients with advanced or metastatic TNBC who have received at least two previous lines of treatment for metastatic disease. The efficacy of sacituzumab govitecan in advanced TNBC was confirmed in the phase III ASCENT trial. Based on this study, sacituzumab govitecan received regular approval. Additionally, the TROPiCS-02 study showed an improvement in progression-free survival and OS over single-agent chemotherapy and a manageable safety profile in patients with heavily pre-treated HR-positive/HER2-negative endocrine-resistant, unresectable locally advanced or metastatic BC."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HER2-negative Breast Cancer",
+        "Triple Negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1332,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sacituzumab govitecan",
+          "type": "EXPERIMENTAL",
+          "description": "Sacituzumab govitecan is administered intravenously 10 mg/kg body weight on days 1, 8 q3w for eight cycles.",
+          "interventionNames": [
+            "Drug: Sacituzumab govitecan"
+          ]
+        },
+        {
+          "label": "Treatment of physician\u00b4s choice",
+          "type": "OTHER",
+          "description": "TPC, defined as capecitabine or platinum-based chemotherapy for eight cycles or Observation.",
+          "interventionNames": [
+            "Drug: Capecitabine",
+            "Drug: Carboplatin",
+            "Drug: Cisplatin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Capecitabine",
+          "description": "2000 mg/m\u00b2 day 1-14 q21 day cycle for eight cycles",
+          "armGroupLabels": [
+            "Treatment of physician\u00b4s choice"
+          ],
+          "otherNames": [
+            "Xeloda"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "AUC 5 q3w or AUC 1.5 weekly for eight 3 weekly cycles",
+          "armGroupLabels": [
+            "Treatment of physician\u00b4s choice"
+          ],
+          "otherNames": [
+            "Paraplatin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cisplatin",
+          "description": "25mg/m3 weekly or 75 mg/m3 q3w",
+          "armGroupLabels": [
+            "Treatment of physician\u00b4s choice"
+          ],
+          "otherNames": [
+            "Platinol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Sacituzumab govitecan",
+          "description": "10 mg/kg body weight on days 1, 8 q3w",
+          "armGroupLabels": [
+            "Sacituzumab govitecan"
+          ],
+          "otherNames": [
+            "Trodelvy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive disease free survival (iDFS) between patients treated with sacituzumab govitecan vs. treatment of physician's choice.",
+          "description": "iDFS is defined as time from randomization until first iDFS event: local invasive recurrence following mastectomy, local invasive recurrence in the ipsilateral breast following lumpectomy, regional recurrence, distant recurrence, contralateral invasive breast cancer, second non-breast primary cancer (excluding squamous or basal cell carcinoma of the skin), or death from any cause. (according to Hudis (J Clin Oncol 2007) )\n\nThere will be one interim analysis for efficacy after 2/3 of the events to allow for early stopping of the trial due to overwhelming efficacy.",
+          "timeFrame": "Assuming 3.25 years of recruitment with 12 months ramp-up and 42 patients per month at peak and 3 years of follow-up after the last patient in, 396 events will be needed and final analysis is expected 75 months after study start."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To compare overall survival (OS) between patients treated with sacituzumab govitecan vs. treatment of physician's choice.",
+          "description": "OS is defined as the time from randomization until death from any cause.\n\nOne interim analysis of the key secondary endpoint OS will be performed at the time of the final analysis of the iDFS.",
+          "timeFrame": "Assuming 3.25 years of recruitment 398 events will be needed with a power of 80% and final analysis is expected after 99 months (8.3 years after first patient in, 2 years after final analysis of iDFS)."
+        },
+        {
+          "measure": "Distant disease-free survival (DDFS) between patients treated with sacituzumab govitecan vs. treatment of physician's choice.",
+          "description": "DDFS is defined as the time from randomization until distant recurrence of disease, second primary invasive cancer (non-breast, excluding squamous or basal cell carcinoma of the skin), and death due to any cause.",
+          "timeFrame": "DDFS will be analyzed at the time of the final iDFS analysis (is expected 75 months after study start)"
+        },
+        {
+          "measure": "To compare the invasive breast cancer-free survival (iBCFS) between both groups.",
+          "description": "iBCFS is defined as the time from randomization until first iDFS event excluding any second non-breast primary cancer.",
+          "timeFrame": "iBCFS will be analyzed at the time of the final iDFS analysis (is expected 75 months after study start)"
+        },
+        {
+          "measure": "Locoregional recurrences-free interval between patients treated with sacituzumab govitecan vs. treatment of physician's choice.",
+          "description": "LRRFI is defined as the time from randomization until any loco-regional (ipsilateral breast (invasive), chest wall, local/regional lymph nodes) recurrence of disease or any invasive contralateral breast cancer whichever occurs first. Distant recurrence, secondary malignancy and death are considered as competing risks and will be accounted for in the analysis.",
+          "timeFrame": "Time-to-Event Outcome Measure up to 75 month after study start."
+        },
+        {
+          "measure": "iDFS in stratified subgroups.",
+          "description": "HR-negative vs. HR-positive ypN+ vs. ypN0.",
+          "timeFrame": "Will be analyzed at the time of the final iDFS analysis (is expected 75 months after study start)"
+        },
+        {
+          "measure": "OS in stratified subgroups.",
+          "description": "HR-negative vs. HR-positive ypN+ vs. ypN0.",
+          "timeFrame": "Will be analyzed after 99 months (8.3 years after first patient in, 2 years after final analysis of iDFS)"
+        },
+        {
+          "measure": "iDFS in exploratory subgroups.",
+          "description": "Prior platinum therapy (TNBC)\n\n* Prior immune-checkpoint inhibitor therapy (TNBC)\n* Experimental arm vs. active TPC in TNBC, overall and in subgroups of different active TPC\n* low vs. high TROP2-expression",
+          "timeFrame": "Will be analyzed at the time of the final iDFS analysis (is expected 75 months after study start)"
+        },
+        {
+          "measure": "OS in exploratory subgroups.",
+          "description": "Prior platinum therapy (TNBC)\n\n* Prior immune-checkpoint inhibitor therapy (TNBC)\n* Experimental arm vs. active TPC in TNBC, overall and in subgroups of different active TPC\n* low vs. high TROP2-expression",
+          "timeFrame": "Will be analyzed after 99 months (8.3 years after first patient in, 2 years after final analysis of iDFS)"
+        },
+        {
+          "measure": "Safety - To compare safety between patients treated with sacituzumab govitecan vs. treatment of physician's choice.",
+          "description": "Frequency and severity of adverse events graded according to the NCI Common Terminology Criteria for Adverse Events (CTCAE) version 5.0.\n\nOne interim analysis for safety will be performed after first 50 patients completed 4 cycles of treatment.",
+          "timeFrame": "Final safety analysis will take place when interim analysis of the primary endpoint is performed (all patients will have completed treatment, estimated 54 months from study start)"
+        },
+        {
+          "measure": "Compliance - To compare dose-density, dose reductions, dose delays, treatment interruptions and treatment discontinuation rates between patients treated with sacituzumab govitecan vs. treatment of physician's choice.",
+          "description": "Safety, tolerability, and treatment compliance: the number and percentage of patients whose treatment had to be reduced, delayed or permanently stopped will be summarized for each treatment arm, reasons for dose modification, delay and premature termination will be categorized according to the main reason and will be presented in frequency tables. Treatment arms will be compared regarding the occurrence of any adverse events (AE) (grade 1-5), low grade AE (grade 1-2), and high grade AE (grade 3-5) using Fisher's exact test. Those tests are descriptive in nature and no adjustments for multiple comparisons will be made.",
+          "timeFrame": "Analysis with final safety analysis expected 54 months after study start."
+        },
+        {
+          "measure": "Patient reported outcome: Functional Assessment of Cancer Therapy - Breast Cancer (FACT-B)",
+          "description": "For each treatment group and at each time point, the number and percentage of patients who completed the instrument will be summarized, as well as the reasons for non-completion of these questionnaires, if known.\n\nFor each of the FACT-B scales (37 items; 5 point Likert-typ scale; scale from 0-148; the higher the score, the better the QOL) the results will be summarized using descriptive statistics for each treatment group at each time point. Results based on the observed values as well as changes from baseline (including both within group and between group differences) will be displayed.",
+          "timeFrame": "Through study completion and until 12 months after End of treatment of single patients."
+        },
+        {
+          "measure": "Patient reported outcome: Functional Assessment of Cancer Therapy - Cognitive function issues (FACT-Cog)",
+          "description": "For each treatment group and at each time point, the number and percentage of patients who completed the instrument will be summarized, as well as the reasons for non-completion of these questionnaires, if known.\n\nFor each of the FACT-cog scales (37 items; 5 point Likert-type scale; scale from 0-126; the higher the score, the better the QOL) the results will be summarized using descriptive statistics for each treatment group at each time point. Results based on the observed values as well as changes from baseline (including both within group and between group differences) will be displayed.",
+          "timeFrame": "Through study completion and until 12 months after End of treatment of single patients."
+        },
+        {
+          "measure": "Patient reported outcome: Health Questionnaire 5-Level EQ-5D (EQ-5D-5L)",
+          "description": "For each treatment group and at each time point, the number and percentage of patients who completed the instrument will be summarized, as well as the reasons for non-completion of the questionnair, if known.\n\nFor the EQ-5D-5L instrument (6 items; 5 times 5 point Likert-type scale; 1-digit number that expresses the level selected for the item; 1 visual analogue scale (0-100mm); the higher the score, the better the QOL) the results will be summarized using descriptive statistics for each treatment group at each time point. Results based on the observed values as well as changes from baseline (including both within group and between group differences) will be displayed.",
+          "timeFrame": "Through study completion and until 12 months after End of treatment of single patients."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Written informed consent prior to beginning specific protocol procedures, including expected cooperation of the patients for the treatment and follow-up, must be obtained and documented according to the local regulatory requirements.\n2. Age at diagnosis at least 18 years.\n3. Willingness and ability to provide archived formalin fixed paraffin embedded tissue (FFPE) block from surgery after neoadjuvant chemotherapy and from core biopsy before start of neoadjuvant chemotherapy, which will be used for centralized prospective confirmation of HR status, HER2 status, Ki-67 and tumor-infiltrating lymphocytes (TILs) and for retrospective exploratory correlation between genes, proteins, and mRNAs relevant to sensitivity/resistance to the investigational agents. For patients with bilateral carcinoma, FFPE blocks from both sides have to be provided for central testing.\n4. Histologically confirmed unilateral or bilateral primary invasive carcinoma of the breast, confirmed histologically by core biopsy. The lead tumor has to be defined by the investigator based on the inclusion criteria for the respective subtype and on the risk status.\n5. Centrally confirmed HER2-negative (IHC score 0-1 or FISH negative according to ASCO/CAP guideline) and either\n\n   * HR-positive (\u22651% positive stained cells) disease or\n   * HR-negative (\\<1% positive stained cells) assessed preferably on tissue from postneoadjuvant residual invasive disease of the breast, or if not possible, of residual nodal invasion. If not evaluable, core of diagnostic biopsy will be used. In case of bilateral breast cancer, HER2-negative status has to be confirmed for both sides.\n6. Patients with residual invasive disease after neoadjuvant chemotherapy at high risk of recurrence defined by either:\n\n   * For HR-negative: any residual invasive disease \\> ypT1mi and/or ypN1\\>1mm\n   * For HR-positive disease: a CPS+EG score \u2265 3 or CPS+EG score 2 and ypN+ using local ER and grade assessed on core biopsies taken before start of neoadjuvant treatment.\n7. Adequate surgical treatment including resection of clinically evident disease and ipsilateral axillary lymph node dissection. SNB before NACT is discouraged. Axillary dissection before NACT is not permitted. Axillary dissection, including Targeted Axillary Dissection (TAD) should be performed according to guidelines. Histologic complete resection (R0) of all invasive and in situ tumors is required.\n8. Patients must have received neoadjuvant taxane-based chemotherapy for 16 weeks (anthracyclines are permitted). This period must include 6 weeks of a taxane containing neoadjuvant chemotherapy (exception: for patients with progressive disease that occurred after at least 6 weeks of taxane-containing neoadjuvant chemotherapy, a total treatment period of less than 16 weeks is also eligible).\n9. No clinical evidence for locoregional or distant relapse during or after preoperative chemotherapy. Local progression during chemotherapy is not an exclusion criterion if adequate local control could be obtained.\n10. In case of local progression during neoadjuvant therapy, distant metastases must be excluded by adequate imaging (CT/MRI recommend) prior to entering the trial.\n11. Immune checkpoint inhibitor / immunotherapy during (neo)adjuvant therapy is allowed until the completion of radiotherapy.\n12. Patients with known gBRCA1/2 mutation without indication to adjuvant olaparib therapy are allowed to participate in the trial.\n13. An interval of less than 16 weeks since the date of final surgery or less than 10 weeks from completing radiotherapy (whichever occurs last) and the date of randomization is required.\n14. Radiotherapy should be delivered before the start of study treatment. Radiotherapy to the breast is indicated in all patients with breast conserving surgery and to the chest wall and lymph nodes according to local guidelines as well as in all patients with cT3/4 or ypN+ disease treated by mastectomy.\n15. Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1.\n16. Resolution of all acute toxic effects of prior anti-cancer therapy or surgical procedure or radiotherapy to NCI CTCAE v 5.0 grade \u2264 1 (except alopecia or other toxicities not considered a safety risk for the patients at the investigator\u00b4s discretion).\n17. Estimated life expectancy of at least 5 years irrespective of the diagnosis of breast cancer.\n18. The patient must be accessible for scheduled visits, treatment and follow-up.\n19. Normal cardiac function after neoadjuvant chemotherapy must be confirmed according to local guidelines. Results for LVEF must be above the normal limit of the institution.\n20. Laboratory requirements:\n\n    Hematology\n    * Absolute neutrophil count (ANC) \u22651.5 x 109 / L\n    * Platelets \u2265100 x 109 / L\n    * Hemoglobin \u226510 g/dL (\u22656.2 mmol/L) Hepatic function\n    * Total bilirubin \\<1.25x UNL\n    * AST and ALT \u22641.5x UNL\n    * Alkaline phosphatase \u22642.5x UNL Renal Function\n    * \\<1.25x ULN creatinine or creatinine clearance \u226530 ml/min (according to Cockroft-Gault, if creatinine is above UNL).\n21. Negative pregnancy test (urine or serum) within 14 days prior to randomization for all women of childbearing potential. A woman is considered to be of childbearing potential if she is not postmenopausal. Postmenopausal is defined as:\n\n    * Age \u226560 years\n    * Age \\<60 years and \u226512 continuous months of amenorrhea with no identified cause other than menopause\n    * Surgical sterilization (bilateral oophorectomy and/or hysterectomy).\n22. For women of childbearing potential and males with partners of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods that result in a failure rate of \\< 1% per year during the treatment period and for at least 6 months after the last dose of sacituzumab govitecan for female patients and for at least 3 months for male patients; for at least 6 months after the last dose of capecitabine or carboplatin/cisplatin for female patients and for at least 3 months after the last dose of capecitabine or 6 months after the last dose of carboplatin/cisplatin for male patients. Examples of non-hormonal contraceptive methods with a failure rate of \\< 1% per year include: bilateral tubal ligation; male partner sterilization; intrauterine devices.\n23. Complete staging work-up prior to the initiation of neoadjuvant chemotherapy. Missing staging investigations must be performed prior to randomization.\n\nExclusion Criteria:\n\n1. Known hypersensitivity reaction to one of the compounds or substances used in this protocol.\n2. Patients with definitive clinical or radiologic evidence of stage IV cancer (metastatic disease) are not eligible.\n3. Patients with known gBRCA1/2 mutation and indicated or planned adjuvant olaparib therapy if available.\n4. Patients with a history of any malignancy are ineligible with the following exceptions:\n\n   * Patient has been disease-free for at least 5 years and is at low risk for recurrence of that malignancy\n   * CIS of the cervix, basal cell and squamous cell carcinomas of the skin.\n5. Female patients: pregnancy or lactation at the time of randomization or intention to become pregnant during the study and up to 6 months after sacituzumab govitecan and up to 6 months after treatment with capecitabine or carboplatin/cisplatin.\n6. Severe and relevant co-morbidity that would interact with the application of cytotoxic agents or the participation in the study, including Gilbert\u00b4s disease, Crigler-Najjar-Syndrome, known hepatitis B, hepatitis C, known HIV positivity or known autoimmune disease other than diabetes, vitiligo, or stable thyroid disease, vitiligo, or other autoimmune skin disease with dermatologic manifestations only are permitted provided all of the following conditions are met:\n\n   * Rash must cover \\< 10% of body surface area\n   * Disease is well controlled at baseline and requires only low-potency topical corticosteroids\n   * No occurrence of acute exacerbations of the underlying condition requiring psoralen plus ultraviolet A radiation (PUVA), methotrexate, retinoids, biologic agents, oral calcineurin inhibitors, or high-potency or oral corticosteroids within the previous 12 months.\n7. Any condition that interferes with the safe administration of the treatment of physician\u00b4s choice in case the patient is randomized into the TPC arm.\n8. Known or suspected congestive heart failure (\\>NYHA I) and/or coronary heart disease, angina pectoris requiring antianginal medication, previous history of myocardial infarction, evidence of prior infarction on ECG, uncontrolled or poorly controlled arterial hypertension (i.e. BP \\>150/90 mmHg under treatment with at maximum three antihypertensive drugs), rhythm abnormalities requiring permanent treatment (excluding chronic atrial fibrillation not requiring a pacemaker), clinically significant valvular heart disease, supraventricular and nodal arrhythmias requiring a pacemaker or not controlled with medication;conduction abnormality requiring a pacemaker.\n9. History of idiopathic pulmonary fibrosis, organizing pneumonia (e.g. bronchiolitis obliterans), drug-induced pneumonitis, idiopathic pneumonitis or active pneumonitis on chest CT scan.\n10. Receipt of live attenuated vaccination within 30 days prior to study entry or within 30 days of receiving chemotherapy.\n11. History of significant neurological or psychiatric disorders including psychotic disorders, dementia or seizures that would prohibit the understanding and giving of informed consent.\n12. Any condition that, in the opinion of the investigator, would interfere with evaluation of study treatment or interpretation of patient safety or study results.\n13. Known allergic reactions to irinotecan.\n14. Concurrent treatment with:\n\n    * Chronic corticosteroids prior to study entry with the exceptions of intranasal and inhaled corticosteroids or systemic corticosteroids at physiological doses, which are not to exceed 10 mg/day of prednisone, or equivalent corticosteroid.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Frederik Marm\u00e9, MD, Prof.",
+          "affiliation": "ASCO, ESMO, GBG, AGO, DKG, DGS, DKG",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "MUG - Univ.-Klinik f. Frauenheilkunde u. Geburtshilfe Graz",
+          "city": "Graz",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "MUG - Univ.-Klinik f. Innere Medizin Graz",
+          "city": "Graz",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "MUI - Univ. Klinik f. Frauenheilkunde Innsbruck",
+          "city": "Innsbruck",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Ordensklinikum Linz GmbH - BHS",
+          "city": "Linz",
+          "zip": "4010",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "TumorZentrum Kepler Uniklinikum Linz",
+          "city": "Linz",
+          "zip": "4020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "LKH Salzburg - PMU",
+          "city": "Salzburg",
+          "zip": "5020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.79941,
+            "lon": 13.04399
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum St. P\u00f6lten",
+          "city": "Sankt P\u00f6lten",
+          "zip": "3100",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20762,
+            "lon": 15.63725
+          }
+        },
+        {
+          "facility": "MUW - AKH Wien",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "MUW - Med. Univ.-Klinik AKH Wien",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Salzkammergut-Klinikum V\u00f6cklabruck",
+          "city": "V\u00f6cklabruck",
+          "zip": "4840",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.00279,
+            "lon": 13.65652
+          }
+        },
+        {
+          "facility": "Klinikum Wels-Grieskirchen GmbH",
+          "city": "Wels",
+          "zip": "4600",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.16667,
+            "lon": 14.03333
+          }
+        },
+        {
+          "facility": "Landesklinikum Wr. Neustadt",
+          "city": "Wiener Neustadt",
+          "zip": "2700",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.80485,
+            "lon": 16.23196
+          }
+        },
+        {
+          "facility": "CHU UCL Namur/Site Sainte Elisabeth",
+          "city": "Namur",
+          "zip": "5000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.4669,
+            "lon": 4.86746
+          }
+        },
+        {
+          "facility": "Institut de canc\u00e9rologie de l'ouest (Angers)",
+          "city": "Angers",
+          "zip": "49055",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Institut Sainte Catherine",
+          "city": "Avignon",
+          "zip": "84918",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Clinique Tivoli Ducos",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "Institut Bergoni\u00e9",
+          "city": "Bordeaux",
+          "zip": "33000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "CH Fleyriat",
+          "city": "Bourg-en-Bresse",
+          "zip": "1000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.20574,
+            "lon": 5.2258
+          }
+        },
+        {
+          "facility": "Centre Fran\u00e7ois Baclesse",
+          "city": "Caen",
+          "zip": "14000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "Centre Jean Perrin 5",
+          "city": "Clermont-Ferrand",
+          "zip": "63011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Centre Georges Fran\u00e7ois Leclerc",
+          "city": "Dijon",
+          "zip": "21000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Centre Oscar Lambret",
+          "city": "Lille",
+          "zip": "59020",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU de Limoges",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Centre Leon Berard",
+          "city": "Lyon",
+          "zip": "69373",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Institut Paoli-Calmettes",
+          "city": "Marseille",
+          "zip": "13009",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "Institut r\u00e9gional du Cancer de Montpellier - ICM Val d'Aurelle",
+          "city": "Montpellier",
+          "zip": "34298",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "H\u00f4pital priv\u00e9 du Confluent",
+          "city": "Nantes",
+          "zip": "44277",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21725,
+            "lon": -1.55336
+          }
+        },
+        {
+          "facility": "Centre Antoine Lacassagne",
+          "city": "Nice",
+          "zip": "6189",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "Institut Curie (Paris)",
+          "city": "Paris",
+          "zip": "75005",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de Pau",
+          "city": "Pau",
+          "zip": "64000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.31117,
+            "lon": -0.35583
+          }
+        },
+        {
+          "facility": "H\u00f4pital Priv\u00e9 Des C\u00f4tes d'Armor- Centre CARIO-HPCA",
+          "city": "Pl\u00e9rin",
+          "zip": "22190",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.53451,
+            "lon": -2.76975
+          }
+        },
+        {
+          "facility": "Institut Godinot",
+          "city": "Reims",
+          "zip": "51100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "Centre Eug\u00e8ne Marquis",
+          "city": "Rennes",
+          "zip": "35042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "Centre Henri Becquerel",
+          "city": "Rouen",
+          "zip": "76000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Gcs Rissa",
+          "city": "Sarcelles",
+          "zip": "95200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.99739,
+            "lon": 2.37821
+          }
+        },
+        {
+          "facility": "Institut de Canc\u00e9rologie Strasbourg Europe-ICANS",
+          "city": "Strasbourg",
+          "zip": "67200",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Institut Claudius Regaud IUCTO",
+          "city": "Toulouse",
+          "zip": "31059",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "CHU Bretonneau",
+          "city": "Tours",
+          "zip": "37044",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.39484,
+            "lon": 0.70398
+          }
+        },
+        {
+          "facility": "Gustave Roussy Cancer Campus",
+          "city": "Villejuif",
+          "zip": "94800",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "Kreiskliniken B\u00f6blingen gGmbH",
+          "city": "B\u00f6blingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "71032",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.68212,
+            "lon": 9.01171
+          }
+        },
+        {
+          "facility": "Klinikum Esslingen GmbH",
+          "city": "Esslingen am Neckar",
+          "state": "Baden-Wurttemberg",
+          "zip": "73730",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.73961,
+            "lon": 9.30473
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Freiburg",
+          "city": "Freiburg im Breisgau",
+          "state": "Baden-Wurttemberg",
+          "zip": "79106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "ViDia Christliche Kliniken Karlsruhe",
+          "city": "Karlsruhe",
+          "state": "Baden-Wurttemberg",
+          "zip": "76135",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.00937,
+            "lon": 8.40444
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Mannheim, Frauenklinik",
+          "city": "Mannheim",
+          "state": "Baden-Wurttemberg",
+          "zip": "68167",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.4891,
+            "lon": 8.46694
+          }
+        },
+        {
+          "facility": "medius Kliniken gGmbH N\u00fcrtingen",
+          "city": "N\u00fcrtingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "72622",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.62565,
+            "lon": 9.34203
+          }
+        },
+        {
+          "facility": "Klinikum am Steinenberg",
+          "city": "Reutlingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "72764",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.49144,
+            "lon": 9.20427
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Ulm",
+          "city": "Ulm",
+          "state": "Baden-Wurttemberg",
+          "zip": "89075",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "Schwarzwald-Baar-Klinikum",
+          "city": "Villingen-Schwenningen",
+          "state": "Baden-Wurttemberg",
+          "zip": "78052",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.06226,
+            "lon": 8.49358
+          }
+        },
+        {
+          "facility": "Gemeinschaftspraxis Dres. Heinrich / Bangerter",
+          "city": "Augsburg",
+          "state": "Bavaria",
+          "zip": "86150",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.37154,
+            "lon": 10.89851
+          }
+        },
+        {
+          "facility": "Sozialstiftung Bamberg, Klinik am Bruderwald",
+          "city": "Bamberg",
+          "state": "Bavaria",
+          "zip": "96049",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.89873,
+            "lon": 10.90067
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinik Erlangen",
+          "city": "Erlangen",
+          "state": "Bavaria",
+          "zip": "91054",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "Klinikum Landshur GmbH",
+          "city": "Landshut",
+          "state": "Bavaria",
+          "zip": "84034",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.52961,
+            "lon": 12.16179
+          }
+        },
+        {
+          "facility": "MVZ InnMed-Filiale Traunstein",
+          "city": "Traunstein",
+          "state": "Bavaria",
+          "zip": "83278",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.86825,
+            "lon": 12.64335
+          }
+        },
+        {
+          "facility": "Charit\u00e9 Campus Mitte, BIH Charit\u00e9 Rahel Hirsch",
+          "city": "Berlin",
+          "state": "Brandenburg",
+          "zip": "10117",
+          "country": "Germany"
+        },
+        {
+          "facility": "Schwerpunktpraxis der Gyn\u00e4kologie und Onkologie",
+          "city": "F\u00fcrstenwalde",
+          "state": "Brandenburg",
+          "zip": "15517",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.36067,
+            "lon": 14.06185
+          }
+        },
+        {
+          "facility": "Mammazentrum Hamburg",
+          "city": "Hamburg",
+          "state": "Free and Hanseatic City of Hamburg",
+          "zip": "20364",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "H\u00e4mato-Onkologie im Medicum",
+          "city": "Bremen",
+          "state": "Free Hanseatic City of Bremen",
+          "zip": "28209",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07582,
+            "lon": 8.80717
+          }
+        },
+        {
+          "facility": "Hochwaldkrankenhaus, Gesundheitszentrum Wetterau gGmbH",
+          "city": "Bad Nauheim",
+          "state": "Hesse",
+          "zip": "61231",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.36463,
+            "lon": 8.73859
+          }
+        },
+        {
+          "facility": "Centrum f\u00fcr H\u00e4matologie und Onkologie am Bethanien-Krankenhaus",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "60389",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "AGAPLESION Markus Krankenhaus",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "60431",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Klinikum der J. W. Goethe Universit\u00e4t",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "60590",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Klinikum Stadt Hanau",
+          "city": "Hanau",
+          "state": "Hesse",
+          "zip": "63450",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.13423,
+            "lon": 8.91418
+          }
+        },
+        {
+          "facility": "Elisabeth Krankenhaus",
+          "city": "Kassel",
+          "state": "Hesse",
+          "zip": "34117",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.31667,
+            "lon": 9.5
+          }
+        },
+        {
+          "facility": "Klinikum Kassel GmbH, Gyn\u00e4kologische Ambulanz",
+          "city": "Kassel",
+          "state": "Hesse",
+          "zip": "34125",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.31667,
+            "lon": 9.5
+          }
+        },
+        {
+          "facility": "Sana Klinikum Offenbach",
+          "city": "Offenbach",
+          "state": "Hesse",
+          "zip": "63069",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.10061,
+            "lon": 8.76647
+          }
+        },
+        {
+          "facility": "Helios Klinik Wiesbaden",
+          "city": "Wiesbaden",
+          "state": "Hesse",
+          "zip": "65199",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.08601,
+            "lon": 8.24435
+          }
+        },
+        {
+          "facility": "Studien GbR Braunschweig",
+          "city": "Braunschweig",
+          "state": "Lower Saxony",
+          "zip": "38100",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.26594,
+            "lon": 10.52673
+          }
+        },
+        {
+          "facility": "MVZ II der Niels Stensen Kliniken",
+          "city": "Georgsmarienh\u00fctte",
+          "state": "Lower Saxony",
+          "zip": "49124",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.20296,
+            "lon": 8.0448
+          }
+        },
+        {
+          "facility": "DIAKOVERE Henriettenstift Gyn\u00e4kologie",
+          "city": "Hanover",
+          "state": "Lower Saxony",
+          "zip": "30559",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "Klinikum Oldenburg A\u00f6R",
+          "city": "Oldenburg",
+          "state": "Lower Saxony",
+          "zip": "26133",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.14039,
+            "lon": 8.21479
+          }
+        },
+        {
+          "facility": "MVZ in der Klinik Dr. Hancken",
+          "city": "Stade",
+          "state": "Lower Saxony",
+          "zip": "21680",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.59407,
+            "lon": 9.47302
+          }
+        },
+        {
+          "facility": "Gemeinschaftspraxis Dallacker / Eilers",
+          "city": "Wolfenb\u00fcttel",
+          "state": "Lower Saxony",
+          "zip": "38304",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.16442,
+            "lon": 10.54095
+          }
+        },
+        {
+          "facility": "Klinikum S\u00fcdstadt",
+          "city": "Rostock",
+          "state": "Mecklenburg-Vorpommern",
+          "zip": "18059",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.0887,
+            "lon": 12.14049
+          }
+        },
+        {
+          "facility": "Onkologische Schwerpunktpraxis, Studiengesellschaft Onkologie Bielefeld GbR",
+          "city": "Bielefeld",
+          "state": "Nordrhein-Wastfalen",
+          "zip": "33604",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 8.53333
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Aachen",
+          "city": "Aachen",
+          "state": "North Rhine-Westphalia",
+          "zip": "52074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Marienhospital Bottrop gGmbH",
+          "city": "Bottrop",
+          "state": "North Rhine-Westphalia",
+          "zip": "46236",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.52392,
+            "lon": 6.9285
+          }
+        },
+        {
+          "facility": "St. Elisabeth-Krankenhaus, Brustzentrum K\u00f6ln-Hohenlind",
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "50935",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "Kliniken der Stadt K\u00f6ln",
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "51067",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "St, Johannes Hospital",
+          "city": "Dortmund",
+          "state": "North Rhine-Westphalia",
+          "zip": "44137",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.51494,
+            "lon": 7.466
+          }
+        },
+        {
+          "facility": "Heinrich-Heine-Universit\u00e4t D\u00fcsseldorf",
+          "city": "D\u00fcsseldorf",
+          "state": "North Rhine-Westphalia",
+          "zip": "40225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Praxis Dr. B. Adhami",
+          "city": "Erkelenz",
+          "state": "North Rhine-Westphalia",
+          "zip": "41812",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.07947,
+            "lon": 6.31531
+          }
+        },
+        {
+          "facility": "Kliniken Essen-Mitte Evang. Huyssens-Stiftung/Knappschaft GmbH",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Essen",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45147",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum M\u00fcnster",
+          "city": "M\u00fcnster",
+          "state": "North Rhine-Westphalia",
+          "zip": "48149",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          }
+        },
+        {
+          "facility": "Oncologianova GmbH",
+          "city": "Recklinghausen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45659",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.61379,
+            "lon": 7.19738
+          }
+        },
+        {
+          "facility": "Helios Universit\u00e4tsklinikum Wuppertal",
+          "city": "Wuppertal",
+          "state": "North Rhine-Westphalia",
+          "zip": "42283",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.25627,
+            "lon": 7.14816
+          }
+        },
+        {
+          "facility": "Praxisklinik f\u00fcr H\u00e4matologie und Onkologie",
+          "city": "Koblenz",
+          "state": "Rhineland-Palatinate",
+          "zip": "56068",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.35357,
+            "lon": 7.57883
+          }
+        },
+        {
+          "facility": "Uniklinikum, Klinik f\u00fcr Geburtshilfe und Gyn\u00e4kologie",
+          "city": "Mainz",
+          "state": "Rhineland-Palatinate",
+          "zip": "55131",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.98185,
+            "lon": 8.28008
+          }
+        },
+        {
+          "facility": "MVZ H\u00e4matologie-Onkologie Mayen/Koblenz GmbH",
+          "city": "Mayen",
+          "state": "Rhineland-Palatinate",
+          "zip": "56729",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.32797,
+            "lon": 7.22277
+          }
+        },
+        {
+          "facility": "Onkologische Schwerpunkt- Praxis Speyer",
+          "city": "Speyer",
+          "state": "Rhineland-Palatinate",
+          "zip": "67346",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32083,
+            "lon": 8.43111
+          }
+        },
+        {
+          "facility": "Klinikum Worms",
+          "city": "Worms",
+          "state": "Rhineland-Palatinate",
+          "zip": "67550",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.63278,
+            "lon": 8.35916
+          }
+        },
+        {
+          "facility": "Caritasklinik St. Theresia",
+          "city": "Saarbr\u00fccken",
+          "state": "Saarland",
+          "zip": "66113",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.23262,
+            "lon": 7.00982
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Carl Gustav Carus an der Technischen Universit\u00e4t Dresden",
+          "city": "Dresden",
+          "state": "Saxony",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Klinikum Oberg\u00f6ltzsch Rodewisch",
+          "city": "Rodewisch",
+          "state": "Saxony",
+          "zip": "08228",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.53083,
+            "lon": 12.41329
+          }
+        },
+        {
+          "facility": "Kreiskrankenhaus Torgau",
+          "city": "Torgau",
+          "state": "Saxony",
+          "zip": "04860",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.56016,
+            "lon": 12.99617
+          }
+        },
+        {
+          "facility": "Universit\u00e4sklinik Halle/Saale",
+          "city": "Halle",
+          "state": "Saxony-Anhalt",
+          "zip": "06120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.48158,
+            "lon": 11.97947
+          }
+        },
+        {
+          "facility": "Johanniter Krankenhaus Genthin-Stendal",
+          "city": "Stendal",
+          "state": "Saxony-Anhalt",
+          "zip": "39576",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.6069,
+            "lon": 11.85867
+          }
+        },
+        {
+          "facility": "MediOnko-Institut GbR",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "10367",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "SRH Wald-Klinikum Gera gGmbH, Brustzentrum Ostth\u00fcringen",
+          "city": "Gera",
+          "state": "Thuringia",
+          "zip": "07548",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.88029,
+            "lon": 12.08187
+          }
+        },
+        {
+          "facility": "MVZ Nordhausen gGmbH im S\u00fcdharz Krankenhaus",
+          "city": "Nordhausen",
+          "state": "Thuringia",
+          "zip": "99734",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.5018,
+            "lon": 10.7957
+          }
+        },
+        {
+          "facility": "SRH Zentralklinikum Suhl",
+          "city": "Suhl",
+          "state": "Thuringia",
+          "zip": "98527",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.60911,
+            "lon": 10.69401
+          }
+        },
+        {
+          "facility": "H\u00e4matologie-Onkologie im Zentrum MVZ GmbH",
+          "city": "Augsburg",
+          "zip": "86150",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.37154,
+            "lon": 10.89851
+          }
+        },
+        {
+          "facility": "HELIOS Klinikum Berlin Buch",
+          "city": "Berlin",
+          "zip": "13125",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Knappschaft Kliniken Marienhospital Bottrop GmbH, Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Bottrop",
+          "zip": "46236",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.52392,
+            "lon": 6.9285
+          }
+        },
+        {
+          "facility": "DONAUISAR Klinikum Deggendorf",
+          "city": "Deggendorf",
+          "zip": "94469",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.84085,
+            "lon": 12.96068
+          }
+        },
+        {
+          "facility": "Rotkreuzklinikum M\u00fcnchen",
+          "city": "M\u00fcnchen",
+          "zip": "80634",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Klinikum Passau",
+          "city": "Passau",
+          "zip": "94032",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.5665,
+            "lon": 13.43122
+          }
+        },
+        {
+          "facility": "Klinikum Ernst von Bergmann gGmbH",
+          "city": "Potsdam",
+          "zip": "14467",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.39886,
+            "lon": 13.06566
+          }
+        },
+        {
+          "facility": "MVZ f\u00fcr H\u00e4matologie und Onkologie Ravensburg GmbH",
+          "city": "Ravensburg",
+          "zip": "88212",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.78198,
+            "lon": 9.61062
+          }
+        },
+        {
+          "facility": "Schwarzwald-Baar-Klinikum",
+          "city": "Villingen-Schwenningen",
+          "zip": "78052",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.06226,
+            "lon": 8.49358
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum W\u00fcrzburg",
+          "city": "W\u00fcrzburg",
+          "zip": "97080",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        },
+        {
+          "facility": "Cork University Hospital",
+          "city": "Cork",
+          "zip": "T12 DFK4",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 51.89797,
+            "lon": -8.47061
+          }
+        },
+        {
+          "facility": "St Vincent's University Hospital",
+          "city": "Dublin",
+          "zip": "D04 T6F4",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "St James's Hospital",
+          "city": "Dublin",
+          "zip": "D08 NHY1",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Beaumont Hospital",
+          "city": "Dublin",
+          "zip": "D09V2N0",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "University Hospital Limerick",
+          "city": "Limerick",
+          "zip": "V94 F858",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 52.66472,
+            "lon": -8.62306
+          }
+        },
+        {
+          "facility": "University Hospital Waterford",
+          "city": "Waterford",
+          "zip": "X91 ER8E",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 52.25833,
+            "lon": -7.11194
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Cruces",
+          "city": "Barakaldo",
+          "state": "Bizkaia",
+          "zip": "48903",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.29639,
+            "lon": -2.98813
+          }
+        },
+        {
+          "facility": "COMPLEJO HOSPITALARIO UNIVERSITARIO A CORU\u00d1A-Hospital Teresa Herrera (CHUAC)",
+          "city": "A Coru\u00f1a",
+          "zip": "15009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario Universitario de Albacete",
+          "city": "Albacete",
+          "zip": "2006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.99424,
+            "lon": -1.85643
+          }
+        },
+        {
+          "facility": "Hospital Universitario Fundaci\u00f3n Alcorc\u00f3n",
+          "city": "Alcorc\u00f3n",
+          "zip": "28922",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.34582,
+            "lon": -3.82487
+          }
+        },
+        {
+          "facility": "Hospital Virgen de Los Lirios",
+          "city": "Alcoy",
+          "zip": "03804",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.70545,
+            "lon": -0.47432
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Alicante",
+          "city": "Alicante",
+          "zip": "3010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Institut Catala D'oncologia",
+          "city": "Badalona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital de La Santa Creu I Sant Pau",
+          "city": "Barcelona",
+          "zip": "08041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Consorcio Hospitalario Provincial de Castell\u00f3n",
+          "city": "Castellon",
+          "zip": "12002",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.98567,
+            "lon": -0.04935
+          }
+        },
+        {
+          "facility": "Hospital San Pedro de Alc\u00e1ntara",
+          "city": "C\u00e1ceres",
+          "zip": "10003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47649,
+            "lon": -6.37224
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Fuenlabrada",
+          "city": "Fuenlabrada",
+          "zip": "28942",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.28419,
+            "lon": -3.79415
+          }
+        },
+        {
+          "facility": "Hospital Galdakao-Usansolo",
+          "city": "Galdakao",
+          "zip": "48960",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.23073,
+            "lon": -2.8429
+          }
+        },
+        {
+          "facility": "Hospital Universitario Clinico San Cecilio",
+          "city": "Granada",
+          "zip": "18016",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario de Ja\u00e9n",
+          "city": "Ja\u00e9n",
+          "zip": "23007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Hospital Universitario Severo Ochoa",
+          "city": "Legan\u00e9s",
+          "zip": "28911",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.32718,
+            "lon": -3.7635
+          }
+        },
+        {
+          "facility": "Clinica Universidad de Navarra",
+          "city": "Madrid",
+          "zip": "28027",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Ram\u00f3n Y Cajal",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario San Carlos",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Paz",
+          "city": "Madrid",
+          "zip": "28046",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Consorci Sanitari Del Maresme",
+          "city": "Matar\u00f3",
+          "zip": "08304",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54211,
+            "lon": 2.4445
+          }
+        },
+        {
+          "facility": "Hospital Clinico Universitario Virgen de la Victoria",
+          "city": "M\u00e1laga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital General Universitario Morales Meseguer",
+          "city": "Murcia",
+          "zip": "3008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario Virgen de La Arrixaca",
+          "city": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          }
+        },
+        {
+          "facility": "Hospital Universitari Son Ll\u00e1tzer",
+          "city": "Palma de Mallorca",
+          "zip": "'07198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Hospital Universitari Son Espases",
+          "city": "Palma de Mallorca",
+          "zip": "07120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Clinica Universidad de Navarra",
+          "city": "Pamplona",
+          "zip": "31008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.81687,
+            "lon": -1.64323
+          }
+        },
+        {
+          "facility": "Hospital Universitario Quir\u00f3nsalud Madrid",
+          "city": "Pozuelo de Alarc\u00f3n",
+          "zip": "28223",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.43293,
+            "lon": -3.81338
+          }
+        },
+        {
+          "facility": "Hospital Universitari Sant Joan de Reus",
+          "city": "Reus",
+          "zip": "43204",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.15612,
+            "lon": 1.10687
+          }
+        },
+        {
+          "facility": "Parc Tauli Hospital Universitari",
+          "city": "Sabadell",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Salamanca",
+          "city": "Salamanca",
+          "zip": "37007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.96882,
+            "lon": -5.66388
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Canarias",
+          "city": "San Crist\u00f3bal de La Laguna",
+          "zip": "38320",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.4853,
+            "lon": -16.32014
+          }
+        },
+        {
+          "facility": "Hospital Universitario Ntra.Sra. de Candelaria",
+          "city": "Santa Cruz de Tenerife",
+          "zip": "38010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.46824,
+            "lon": -16.25462
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario Universitario de Santiago (Chus)",
+          "city": "Santiago de Compostela",
+          "zip": "15706",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de La Macarena",
+          "city": "Seville",
+          "zip": "41009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Quir\u00f3nsalud Sagrado Coraz\u00f3n",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "University Hospital Virgen Del Rocio S.L.",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Iniversitario De Toledo",
+          "city": "Toledo",
+          "zip": "45007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.8581,
+            "lon": -4.02263
+          }
+        },
+        {
+          "facility": "Fundaci\u00f3n Instituto Valenciano de Oncolog\u00eda",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Clinico Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Consorci Hospital General Universitari de Valencia",
+          "city": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Valladolid",
+          "city": "Valladolid",
+          "zip": "47003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65541,
+            "lon": -4.72353
+          }
+        },
+        {
+          "facility": "Hospital Universitario Araba-Txagorritxu",
+          "city": "Vitoria-Gasteiz",
+          "zip": "01009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.84998,
+            "lon": -2.67268
+          }
+        },
+        {
+          "facility": "Kantonsspital Graub\u00fcnden",
+          "city": "Chur",
+          "zip": "7000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.84986,
+            "lon": 9.53287
+          }
+        },
+        {
+          "facility": "Breast Center KSSG",
+          "city": "Sankt Gallen",
+          "zip": "9007",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "Brust-Zentrum Z\u00fcrich",
+          "city": "Zurich",
+          "zip": "8008",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "RESULT",
+          "citation": "Marm\u00e9 F, Hanusch C, Furlanetto J, et al. Safety interim analysis (SIA) of the phase III postneoadjuvant SASCIA study evaluating sacituzumab govitecan (SG) in patients with primary HER2-negative breast cancer (BC) at high relapse risk after neoadjuvant treatment. ESMO Breast 2022; 58O, proffered paper presentation. https://doi.org/10.1016/j.annonc.2022.03.075"
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "GBG website",
+          "url": "https://www.gbg.de/en/trials/sascia.php"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Italy"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000069287",
+          "term": "Capecitabine"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D002945",
+          "term": "Cisplatin"
+        },
+        {
+          "id": "C000608132",
+          "term": "sacituzumab govitecan"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003841",
+          "term": "Deoxycytidine"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D003853",
+          "term": "Deoxyribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D017606",
+          "term": "Chlorine Compounds"
+        },
+        {
+          "id": "D007287",
+          "term": "Inorganic Chemicals"
+        },
+        {
+          "id": "D017672",
+          "term": "Nitrogen Compounds"
+        },
+        {
+          "id": "D017671",
+          "term": "Platinum Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

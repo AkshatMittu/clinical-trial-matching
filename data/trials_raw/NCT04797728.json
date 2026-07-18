@@ -1,0 +1,276 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04797728",
+      "orgStudyIdInfo": {
+        "id": "ELIPSE (SOLTI-1905)"
+      },
+      "organization": {
+        "fullName": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Elacestrant in Preoperative Setting, a Window of Opportunity Study",
+      "officialTitle": "Elacestrant in Preoperative Setting, a Window of Opportunity Study",
+      "acronym": "ELIPSE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-10",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-02-08",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-02-25",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2021-03-12",
+      "studyFirstSubmitQcDate": "2021-03-12",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Radius Health, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "ELIPSE is a window of opportunity, prospective, multicenter, phase 0 trial which evaluates the effect of Elacestrant on proliferation after 4 weeks of treatment in postmenopausal women with Estrogen Receptor-positive (ER+) and Human Epidermal Growth Factor Receptor 2-negative (HER2-negative) early breast cancer (BC) amenable to surgery.",
+      "detailedDescription": "The main hypothesis is that Elacestrant induces a significant proliferative arrest (Ki67 \u2264 2.7%) in ER+ and HER2-negative BC na\u00efve to Endocrine Therapy (ET). To test this hypothesis, a total of 24 patients will be recruited.\n\nSecondary objectives will include correlative molecular and histological analyses at the tumor tissue, changes in Ki67 and the identification of molecular biomarkers and gene signatures of response to Elacestrant. Molecular analysis of tumor circulating DNA (ctDNA) in blood will be also performed.\n\nThe study population consists of postmenopausal women with cT1c-3 (minimal 15 mm of largest diameter) cN0 cM0, ER+ and HER2-negative breast operable tumors.\n\nPatients who fulfil all eligibility criteria will then start treatment in Elacestrant monotherapy cohort as follows: Elacestrant continuously at 400 mg given orally (PO), once a day, in a continuous schedule (QD). After 4 weeks (+/- 2 days) of Elacestrant treatment, surgery will be performed in accordance to local practice. If the tumor is not surgically removed after 4 weeks (+/-3 days), a tumor biopsy will be obtained. In this case, patients may continue further neoadjuvant treatment under physicians' criteria.\n\nTwo biopsies of the same lesion will be mandatory: first the screening sample and second the surgical sample. A core biopsy will be collected if surgery is not performed for any reason. Complete Cell Cycle Arrest (CCCA) (determined by Ki67 \u2264 2.7%) and relative changes in the PAM50 subtypes in tumor samples will be analyzed at baseline and after 4-weeks of Elacestrant therapy at central laboratory. Ki67 status at baseline will be performed at local sites for inclusion criteria (Ki67 at diagnostic \u226510%). Extensive RNA-based and blood analyses will be performed in tumor specimens at the same timepoints.\n\nSafety assessments will include the incidence, nature, and severity of Adverse Events (AEs) and laboratory abnormalities graded per the NCI CTCAE v.5.0"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Hormone Receptor Positive Breast Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 23,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Elacestrant",
+          "type": "EXPERIMENTAL",
+          "description": "400 mg given orally (PO), once a day, in a continuous schedule (QD). 4 weeks (+/- 2 days) of elacestrant treatment",
+          "interventionNames": [
+            "Drug: Elacestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Elacestrant",
+          "description": "Elacestrant continuously at 400 mg given orally (PO), once a day, in a continuous schedule (QD) for 4 weeks (+/- 2 days)",
+          "armGroupLabels": [
+            "Elacestrant"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Complete Cell Cycle Arrest",
+          "description": "Ki67 \u2264 2.7%",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PAM50 (Prediction Analysis of Microarray 50) subtype change",
+          "description": "PAM50 subtype changes upon elacestrant therapy",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "Gene expression change (post-treatment/pre-treatment)",
+          "description": "Differential expression (mean suppression = 100 - \\[geometric mean (post-treatment / pre-treatment \u00b7 100)\\]) of 11 proliferative genes from PAM50 (BIRC5, CCNB1, CDC20, CDCA1, CEP55, KNTC2, MKI67, PTTG1, RRM2, TYMS and UBE2C).",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "Adverse Events",
+          "description": "Frequency and severity of adverse events (evaluated according to CTCAE v.5.0.) and frequency of interruptions due to treatment toxicity.",
+          "timeFrame": "Until End of Study Visit (7-28 days after surgery)"
+        },
+        {
+          "measure": "Global gene expression changes",
+          "description": "Relative changes of expression 770 genes across of 23 categories of BC tumor biology after 4 weeks of treatment. This study will be performed using the Nanostring nCounter Breast 360TM panel",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "Gene expression-based signature of response",
+          "description": "To derive a new gene expression-based signature of response to Elacestrant.",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "Celularity/Tumor Infiltrating Lymphocytes (CelTIL) score",
+          "description": "CelTIL score = -0.8 \u00d7 tumor cellularity (in %) + 1.3 \u00d7 TILs (in %). The minimum and maximum unscaled CelTIL scores will be -80 and 130. This unscaled CelTIL score will then be scaled to reflect a range from 0 to 100 points. TILs determination will be quantified according to the 2014 Guidelines developed by the International TILs Working Group",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "Mean change in Ki67",
+          "description": "Mean change in Ki67 values per central assessment before and after therapy and its 95% confidence interval (CI).",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "Changes in the distribution of somatic mutations",
+          "description": "To identify changes in the distribution of somatic mutations (e.g. PIK3CA, ESR1) between basal and surgery samples",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        },
+        {
+          "measure": "ctDNA (post-treatment/pre-treatment)",
+          "description": "Quantification of ctDNA (post-treatment/pre-treatment)",
+          "timeFrame": "After 4 weeks (+/- 2 days) of elacestrant therapy"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Written and signed informed consent for all study procedures according to local regulatory requirements prior to beginning specific protocol procedures.\n2. Age \u2265 18 years.\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.\n4. Postmenopausal women defined either by:\n\n   1. Age \u226560,\n   2. Age \\< 60 and amenorrhea for \u2265 12 months and FSH and E2 plasmatic levels in the post-menopausal range per local standards or\n   3. Prior bilateral oophorectomy (\u2265 30 days before Day 1 of the study treatment).\n5. Histologically confirmed invasive breast carcinoma eligible for surgery with all the following characteristics:\n\n   1. Primary tumor diameter of at least 15 mm (cT1c-3) as measured by breast US.\n   2. No regional lymph node metastases by imaging or clinical examination (cN0).\n   3. ER+ tumors, irrespective of PgR status, (nuclear stain \\>1%) as assessed locally, defined by the most recent American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP) clinical practice guidelines.\n   4. HER2-negative status, as assessed locally, defined by the most recent American Society of Clinical Oncology/College of American Pathologists (ASCO/CAP)\n   5. In case of multifocal tumors (defined as the presence of two or more foci of cancer within the same breast quadrant), the largest lesion must be measured in at least one dimension of minimal 15 mm per US. This lesion will be designated as 'target' lesion for all subsequent evaluations. ER+ and HER2-negative status must be documented in all the tumor foci if they are independent of the target lesion (does not apply to small tumoral foci around the main lesion).\n   6. Cells staining positive for Ki67 \u2265 10% as locally assessed.\n   7. Available pre-treatment formalin-fixed paraffin-embedded (FFPE) tumor specimen or possibility to obtain one. Minimal sample requirements are: at least 2 tumor cylinders with a minimal tissue surface of 10 mm2, containing \u226510% tumor cells, enough to obtain at least 2 cuts of 10 \u03bcm each. Tumor cylinder will be mandatory.\n6. No clinical or radiographic evidence of distant metastases (M0).\n7. Adequate hematologic and organ function within 14 days before the first study treatment on Day 1, defined by the following:\n\n   1. Neutrophils (ANC \u22651500/\u03bcL).\n   2. Hemoglobin \u22659 g/dL (with no need for transfusions).\n   3. Platelet count \u2265100000/\u03bcL.\n   4. Serum albumin \u22653 g/dL.\n   5. Calculated creatinine clearance of \u226560 mL/min based on the Cockcroft-Gault glomerular filtration rate estimation:\n\n      (140 - age) x (weight in kg) x 0.85 72 x (serum creatinine in mg/dL)\n   6. International normalized ratio (INR) or prothrombin time (PT) \u22641.5 \u00d7 ULN and activated partial thromboplastin time (aPTT) within therapeutic range. History of deep thrombotic episodes or pulmonary embolism, or incremental risk for thrombosis at investigator criteria.\n   7. Potassium, total Calcium (corrected for serum albumin), and Sodium with institutional normal limits or corrected with normal limits with supplement before first dose of study medication.\n8. Ability to swallow study drug and comply with study requirements.\n9. Absence of any psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be discussed with the patient before registration in the trial.\n\nExclusion Criteria:\n\n1. Inoperable locally advanced or inflammatory breast cancer.\n2. Metastatic (Stage IV) breast cancer.\n3. Synchronous invasive bilateral or multicentric breast cancer.\n4. Patients requiring immediate neoadjuvant chemotherapy or immediate surgical intervention.\n5. Patients who have undergone sentinel lymph node biopsy or tumor excisional biopsy prior to study treatment.\n6. Prior malignancy within 3 years prior to randomization, except curatively treated non-melanoma skin cancer, in situ cervical cancer or adequately treated Stage I or II cancer from which the patient is currently in complete remission or other cancer from which the patient has been disease-free for 2 years.\n7. Congenital long QT syndrome or screening QT interval corrected using Fridericia's formula (QTcF) \\> 480 milliseconds or any clinically significant cardiac rhythm abnormalities.\n8. Liver function tests documented within the screening period and on Day 1 of treatment period:\n\n   1. Total bilirubin \\>1.5x the upper limit of normal unless the patient has documented non-malignant disease (e.g. Gilbert\u00b4s syndrome) for whom conjugated bilirubin must be under ULN.\n   2. AST and ALT \\>2.5x ULN.\n   3. Alkaline phosphatase ALP \\>2x ULN.\n9. Concurrent, serious, uncontrolled infections or current known infection with HIV (testing is not mandatory).\n10. Known hypersensitivity to any of the study drugs, including excipients.\n11. History or clinical evidence of any liver or biliary pathology including cirrhosis, infectious disease, inflammatory conditions, steatosis, or cholangitis (including ascending cholangitis, primary sclerosing cholangitis, obstruction, perforation, fistula of biliary tract, spasm of sphincter of Oddi, biliary cyst or biliary atresia).\n12. Known clinically significant history active viral or other hepatitis (e.g., positive for hepatitis B surface antigen \\[HBsAg\\] or hepatitis C virus \\[HCV\\] antibody at screening), current drug or alcohol abuse, or cirrhosis.\n\n    * Patients with past hepatitis B virus (HBV) infection or resolved HBV infection (defined as having a negative HBsAg test and a positive antibody to hepatitis B core antigen \\[HBcAg\\] antibody test) are eligible.\n    * Patients positive for HCV antibody are eligible only if polymerase chain reaction (PCR) is negative for HCV RNA.\n13. Chronic adrenal failure or is receiving concurrent long-term corticosteroid therapy. The following corticosteroid uses are permitted: single doses, topical applications (e.g. for rash), inhaled sprays (e.g. for obstructive airway diseases), eye drops or local injections (e.g. intra-articular).\n14. Lack of physical integrity of the upper gastrointestinal tract, malabsorption syndrome, or inability to swallow pills.\n15. History of or clinical evidence of significant co-morbidities that, in the judgment of the investigator, may interfere with the conduction of the study, the evaluation of response, or with informed consent.\n16. Received an investigational product or been treated with an investigational device within 30 days prior to first drug administration or plans to start any other investigational product or device study within 30 days after last drug administration.\n17. Previous hormonal treatments for other indications such as osteoporosis, breast cancer prevention, hormonal substitutive therapy, such as raloxifen, tamoxifen, estrogen, progestins must have ended at least 24 months prior to trial registration. If a patient is on natural products known to contain progestins, they must be stopped 14 days prior to beginning study treatment.\n18. Used any prescription medication during the prior 1 month that the investigator judges is likely to interfere with the study or to pose an additional risk to the patient in participating.\n19. Major surgical procedure or significant traumatic injury within 30 days prior to enrollment.\n20. Patients with thromboembolic risks.\n21. Assessment by the investigator to be unable or unwilling to comply with the requirements of the protocol.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "ICO Badalona",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital General de Catalunya",
+          "city": "Sant Cugat del Vall\u00e8s",
+          "state": "Barcelona",
+          "zip": "08195",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.47063,
+            "lon": 2.08611
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebron",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic Barcelona",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000626176",
+          "term": "elacestrant"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

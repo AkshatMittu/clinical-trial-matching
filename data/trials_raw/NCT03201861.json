@@ -1,0 +1,342 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03201861",
+      "orgStudyIdInfo": {
+        "id": "SHPD004"
+      },
+      "organization": {
+        "fullName": "RenJi Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Addition of Cisplatin to Adjuvant Chemotherapy for Early Stage Breast Cancer in High-Risk Women",
+      "officialTitle": "Phase 3 Study of Weekly Paclitaxel in Combination With Cisplatin as Adjuvant Chemotherapy for Early Stage Human Epidermal Growth Factor Receptor-2 (HER2) Negative Breast Cancer in High-risk Women"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-07-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-08-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-06-08",
+      "studyFirstSubmitQcDate": "2017-06-25",
+      "studyFirstPostDateStruct": {
+        "date": "2017-06-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-05-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "RenJi Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators hypotheses that paclitaxel combined with cisplatin in a weekly-based regimen as adjuvant chemotherapy is more effective for high risk, HER2 negative breast cancer .",
+      "detailedDescription": "In this trial, patients will be randomly assigned in a 2:1 ratio to receive cisplatin-based adjuvant chemotherapy and to standard adjuvant chemotherapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Tubular Breast Cancer",
+        "Mucinous Breast Cancer",
+        "Invasive Duct Carcinoma of Breast"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 762,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "paclitaxel and cisplatin",
+          "type": "EXPERIMENTAL",
+          "description": "Drug: paclitaxel, cisplatin, epirubicin and cyclophosphamide Patients will be administered paclitaxel (80 mg/m\u00b2 i.v. given weekly on day 1 q day 8 for 12 weeks) and cisplatin (25 mg/m\u00b2 weekly on day 1 ,8,and 15 q day 28 for 3 cycles) followed by epirubicin and cyclophosphamide (EC) (epirubicin 90mg/m\u00b2 i.v.d1, cyclophosphamide 600mg/m\u00b2 i.v.d1) for 4 cycles.",
+          "interventionNames": [
+            "Drug: Paclitaxel, Cisplatin"
+          ]
+        },
+        {
+          "label": "epirubicin and cyclophosphamide",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Drug\uff1aepirubicin, cyclophosphamide, paclitaxel and docetaxel\n\nInvestigators will declare one of the following regimens:\n\nPatients with hormone receptor (HR) positive breast cancer wil be administered epirubicin (90mg/m\u00b2 i.v.d1 q21d) and cyclophosphamide (600mg/m\u00b2 i.v.d1 q21d) for 4 cycles followed by docetaxel (75mg/m\u00b2 i.v.d1 q21d) for 4 cycles.\n\nPatients with triple-negative breast cancer will be administered epirubicin (90mg/m\u00b2 i.v.d1 q21d) and cyclophosphamide (600mg/m\u00b2 i.v.d1 q21d) for 4 cycles followed by weekly paclitaxel (80 mg/m\u00b2 i.v.d1) for 12 weeks or docetaxel (75mg/m\u00b2 i.v.d1 q21d) for 4 cycles.",
+          "interventionNames": [
+            "Drug: EC to docetaxel or paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel, Cisplatin",
+          "description": "weekly paclitaxel and cisplatin",
+          "armGroupLabels": [
+            "paclitaxel and cisplatin"
+          ],
+          "otherNames": [
+            "Taxol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "EC to docetaxel or paclitaxel",
+          "description": "Standard adjuvant chemotherapy recommended by guideline",
+          "armGroupLabels": [
+            "epirubicin and cyclophosphamide"
+          ],
+          "otherNames": [
+            "Taxol"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Disease-Free Survival (DFS) Events",
+          "description": "DFS is defined as the time period between registration and first event",
+          "timeFrame": "up to 5 year follow up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Overall Survival (OS) Events",
+          "description": "OS is defined as the time period between registration and first event",
+          "timeFrame": "up to 5 year follow up"
+        },
+        {
+          "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v3.0.",
+          "description": "Descriptive statistics for the treatment will be given on the number of patients whose treatment had to be reduced, delayed or permanently stopped",
+          "timeFrame": "5 months during adjuvant therapy"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women aged \u226518 years and \u226470 years\n2. Have accepted surgical treatment, histologically confirmed early breast cancer, the pathological types of invasive carcinoma\n3. Not received treatment for breast cancer before operation\n4. Triple-negative breast cancer confirmed by pathology, or pathology confirmed as the HR positive breast cancer at the same time meet the following conditions: axillary lymph node positive breast cancer, tumor size\u22652 cm and Ki - 67 \\>20% or tumor size \u22652 cm and grade III or tumor size \u22652cm and aged \\<35 years\n5. HER2 negative: immunohistochemistry HER2 (1 +) or HER2 (0), or fluorescence in situ hybridization (FISH): not amplified\n6. Performance status (PS) 0-1\n7. Adequate bone marrow function:WBC\u22654.0\u00d7109/L, Absolute neutrophil count\uff08ANC\uff09\u22651.5\u00d7109/L, Platelets\uff08PLT\uff09\u2265100\u00d7109/L, Hemoglobin\uff08Hb\uff09\u226590g/L;aspartate aminotransferase(AST),Alanine aminotransferase (ALT)\u22641.5 upper normal limit , creatinine\u22641.5 upper normal limit, bilirubin\u22641.5 upper normal limit\n8. No obvious main organs dysfunction\n\nExclusion Criteria:\n\n1. metastatic breast cancer\n2. Patient is pregnant or breast feeding\n3. Any evidence of sense or motor nerve disorders\n4. Bilateral Primary Breast Cancer (DCIS in one side not included)\n5. Patients with medical conditions taht indicate intolerant to adjuvant chemotherapy, including uncontrolled cardiovascular disease, severe infection\n6. Have received chemotherapy because of any malignancy other than breast cancer\n7. Known severe hypersensitivity to any drugs in this study",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yueyao Du, M.D.",
+          "role": "CONTACT",
+          "phone": "86-21-68385569",
+          "email": "jessicayy8629@126.com"
+        },
+        {
+          "name": "Jie Zhang, M.D.",
+          "role": "CONTACT",
+          "phone": "86-21-68385516",
+          "email": "doudou090227@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jinsong Lu, M.D.",
+          "affiliation": "Shanghai Jiao Tong University School of Medicine",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Renji Hospital, School of Medicine, Shanghai Jiaotong University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200127",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yueyao Du, M.D.",
+              "role": "CONTACT",
+              "phone": "86-21-68385569",
+              "email": "jessicayy8629@126.com"
+            },
+            {
+              "name": "Jie Zhang, M.D.",
+              "role": "CONTACT",
+              "phone": "86-21-68385516",
+              "email": "doudou090227@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26077235",
+          "type": "BACKGROUND",
+          "citation": "Sparano JA, Zhao F, Martino S, Ligibel JA, Perez EA, Saphner T, Wolff AC, Sledge GW Jr, Wood WC, Davidson NE. Long-Term Follow-Up of the E1199 Phase III Trial Evaluating the Role of Taxane and Schedule in Operable Breast Cancer. J Clin Oncol. 2015 Jul 20;33(21):2353-60. doi: 10.1200/JCO.2015.60.9271. Epub 2015 Jun 15."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D018270",
+          "term": "Carcinoma, Ductal, Breast"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D044584",
+          "term": "Carcinoma, Ductal"
+        },
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D018299",
+          "term": "Neoplasms, Ductal, Lobular, and Medullary"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C111043",
+          "term": "TP protocol"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

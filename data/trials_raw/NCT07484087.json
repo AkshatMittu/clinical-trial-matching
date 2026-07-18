@@ -1,0 +1,261 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07484087",
+      "orgStudyIdInfo": {
+        "id": "PKUPHAblation"
+      },
+      "organization": {
+        "fullName": "Peking University People's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Ablation Compare With Surgery for Early Breast Cancer",
+      "officialTitle": "Prospective, Randomized Controlled Study Comparing Cryo-Thermal Ablation With Traditional Breast-Conserving Surgery in HR-Positive, HER2-Negative Early-Stage Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-03-03",
+      "studyFirstSubmitQcDate": "2026-03-17",
+      "studyFirstPostDateStruct": {
+        "date": "2026-03-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Shu Wang",
+        "investigatorTitle": "director of breast center",
+        "investigatorAffiliation": "Peking University People's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Peking University People's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Breast-conserving surgery has been widely used in clinical practice, but surgical incisions still impact postoperative patient satisfaction with breast appearance. The development of tumor ablation technologies has introduced new possibilities for breast cancer surgical treatment. The hybrid cryo-thermal ablation system, an advanced minimally invasive tumor treatment device independently developed in China, employs a combined approach of deep cryoablation and high-intensity heating for therapy and has been approved for treating solid tumors, including breast cancer.\n\nThis study is a prospective, single-center, randomized controlled trial. Eligible patients with newly diagnosed early-stage breast cancer treated at the Breast Center of Peking University People's Hospital will be enrolled and randomized in a 1:1 ratio to receive either hybrid cryo-thermal ablation (experimental group) or breast-conserving surgery (control group). Data collected will include:\n\nBaseline clinicopathological characteristics\uff0c Surgical details (operation time, intraoperative/postoperative complications, etc.)\uff0c Peripheral blood lymphocyte distribution\uff0c Treatment efficacy (ipsilateral breast tumor recurrence rate, disease-free survival, overall survival)\uff0c Aesthetic outcomes (BREAST-Q score).\n\nPrimary endpoint:\n\nIpsilateral breast local recurrence rate\uff0c\n\nSecondary endpoints:\n\nSafety (incidence of adverse events assessed by CTCAE criteria)\uff0c Disease-free survival and overall survival\uff0c Quality of life assessment (breast satisfaction)\uff0c\n\nExploratory endpoints:\n\nPathological response of ablated tumor tissue\uff0c Correlation analysis between postoperative imaging (MRI/ultrasound) features and recurrence risk."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Early Stage",
+        "Hormone Receptor Positive",
+        "Ablation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 264,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "breast conserving surgery",
+          "type": "EXPERIMENTAL",
+          "description": "According to the \u300aChinese Breast Cancer Diagnosis and Treatment Guidelines\u300b, standard breast-conserving surgery (BCS) was performed, with pathologically confirmed negative margins.",
+          "interventionNames": [
+            "Procedure: breast conserving surgery"
+          ]
+        },
+        {
+          "label": "cryo-thermal ablation",
+          "type": "EXPERIMENTAL",
+          "description": "Under ultrasound guidance, the tumor location and boundaries were precisely marked to ensure the ablation zone covered at least 5 mm beyond the tumor edge, achieving complete oncological safety.",
+          "interventionNames": [
+            "Procedure: cryo-thermal ablation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "breast conserving surgery",
+          "description": "According to the \u300aChinese Breast Cancer Diagnosis and Treatment Guidelines\u300b, standard breast-conserving surgery (BCS) was performed, with pathologically confirmed negative margins.",
+          "armGroupLabels": [
+            "breast conserving surgery"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "cryo-thermal ablation",
+          "description": "Real-time ultrasound imaging to confirm tumor size and shape. Mark the ablation target zone, including the 5-mm peripheral margin. Ablation Procedure Step 1: Probe Insertion Under ultrasound guidance, insert the cryo-thermal ablation probe into the tumor center.\n\nStep 2: Dual-Cycle Ablation (Freeze-Heating-Freeze)\n\nFirst Freeze Cycle:\n\nDuration: 10-15 minutes. Temperature: Rapid cooling to -196\u00b0C (liquid nitrogen). Endpoint: Ice ball fully envelops the tumor + 5-mm margin (confirmed by ultrasound).\n\nHeating Phase:\n\nTemperature: Rapid heating to 80\u00b0C. Duration: 5-10 minutes (thawing and thermal damage enhancement).\n\nSecond Freeze Cycle:\n\nRepeat freezing to ensure complete tumor destruction.",
+          "armGroupLabels": [
+            "cryo-thermal ablation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Ipsilateral Breast Tumor Recurrence Rate",
+          "description": "The time from the date of surgery to the date of ipsilateral breast tumor recurrence, with the occurrence of ipsilateral breast tumor recurrence as the event.",
+          "timeFrame": "3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "complication rate",
+          "description": "intraoperative Complications: Bleeding, vascular/nerve injury.\n\nPostoperative Complications:\n\nInfection, hematoma, skin frostbite (cryoablation-specific), breast deformity, sensory abnormalities.\n\nGrading: Recorded per CTCAE v5.0 (e.g., Grade 1: mild; Grade 3: severe requiring intervention).",
+          "timeFrame": "3 months"
+        },
+        {
+          "measure": "Disease-Free Survival",
+          "description": "Time from study enrollment to the first occurrence of:\n\nIpsilateral locoregional recurrence. Contralateral breast cancer. Distant metastasis, Death from any cause.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "overall survival",
+          "description": "Time from study enrollment to death from any cause.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Quality of Life (QoL)",
+          "description": "Tool: BREAST-Q (validated patient-reported outcome measure) Phychosocial well-being scale, satisfaction with breasts scale\n\nDomains Evaluated:\n\nBreast aesthetics (appearance/satisfaction post-treatment). Psychosocial/sexual well-being. Physical discomfort.",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1.Age \u226550 Years 2.Unifocal disease (single tumor) confirmed by ultrasound, MRI, or mammography. Ultrasound visibility: Essential for precise intraoperative ablation targeting. 3.Pathologically Confirmed Invasive Ductal Carcinoma (IDC)\u3002Diagnostic Method: Core needle biopsy (CNB) confirming IDC.\n\n  4.Histologic Grade: G1 or G2; ER/PR-positive and HER2-negative. 5.TNM stage: IA. Tumor Size: \u22642 cm; Lymph Node Status: Clinically \\& radiologically negative (no palpable/imaging-detected axillary involvement).\n\n  6.Written consent for clinical trial participation and acceptance of random assignment\n\nExclusion Criteria:\n\n* 1.Extensive intraductal component (EIC) suggested by imaging or pathology. 2.Invasion of adjacent skin or muscle. 3.Prior anticancer treatment for the current disease, including but not limited to chemotherapy, endocrine therapy, targeted therapy, or immunotherapy. 5.Refusal to undergo breast-conserving surgery. 6.Pregnancy or lactation. 7.Previous radiotherapy to the affected breast or other contraindications to radiotherapy. 8.Concurrent untreated malignancies or severe systemic diseases\uff0c 9.Known allergy, intolerance, or contraindications to cryotherapy (e.g., cryoglobulinemia, implanted electronic devices). 10.Inability to comply with follow-up or refusal of adjuvant therapy. 11.Vulnerable populations, including individuals with neurological disorders, cognitive impairment, or critical illness.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "50 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "yuan peng, doctor",
+          "role": "CONTACT",
+          "phone": "86+13671287670",
+          "email": "13671287670@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "shu wang, doctor",
+          "affiliation": "Peking University People's Hospital",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peking University People's Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100044",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "yuan peng, Dr",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015412",
+          "term": "Mastectomy, Segmental"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008408",
+          "term": "Mastectomy"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

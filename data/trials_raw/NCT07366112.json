@@ -1,0 +1,239 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07366112",
+      "orgStudyIdInfo": {
+        "id": "PKUPH2025CDK46NAE"
+      },
+      "organization": {
+        "fullName": "Peking University People's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "CDK4/6 Inhibitors Combined With Endocrine Therapy for Neoadjuvant Treatment",
+      "officialTitle": "CDK4/6 Inhibitors Combined With Endocrine Therapy for Neoadjuvant Treatment of Breast Cancer: ctDNA-Guided Personalized Therapy",
+      "acronym": "DNACDKHR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-01-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-18",
+      "studyFirstSubmitQcDate": "2026-01-18",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Shu Wang",
+        "investigatorTitle": "director of breast center",
+        "investigatorAffiliation": "Peking University People's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Peking University People's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Exploring the dynamics of ctDNA following neoadjuvant therapy with CDK4/6 inhibitors combined with endocrine treatment, and its potential to guide de-escalation of adjuvant chemotherapy",
+      "detailedDescription": "Breast cancer remains a leading cause of cancer-related morbidity and mortality globally, with hormone receptor-positive (HR+), HER2-negative (HER2-) subtypes accounting for approximately 70% of cases. While adjuvant chemotherapy is standard for high-risk early-stage HR+/HER2- breast cancer, it carries significant toxicity, and many patients may not derive clinical benefit. Emerging evidence suggests that circulating tumor DNA (ctDNA)-a minimally invasive biomarker reflecting residual disease-may guide personalized treatment de-escalation.\n\nPreclinical and clinical studies demonstrate that ctDNA dynamics correlate with tumor burden and prognosis. In HR+ breast cancer, ctDNA clearance after neoadjuvant therapy is associated with improved survival, while persistent ctDNA post-treatment predicts recurrence. CDK4/6 inhibitors, such as Dalpiciclib, have revolutionized advanced HR+/HER2- breast cancer management by enhancing endocrine therapy efficacy. However, their role in early-stage disease, particularly in a ctDNA-guided de-escalation strategy, remains underexplored. This study addresses this gap by evaluating whether ctDNA-driven decision-making can safely reduce chemotherapy use while maintaining clinical outcomes.\n\nStudy Objectives Primary Objectives: Assess ctDNA clearance rate (defined as conversion from detectable to undetectable ctDNA) after 4 cycles of neoadjuvant CDK4/6i + endocrine therapy.\n\nSecondary Objectives Evaluate 3-year event-free survival (EFS), where events include local/distant recurrence, secondary malignancies, or death.\n\nCompare safety profiles of CDK4/6i + endocrine therapy versus chemotherapy.\n\nEvaluate tumor response metrics:\n\nPathological complete response (pCR) and residual cancer burden (RCB 0-1). Complete cell cycle arrest (CCCA; Ki67 \u22642.7%). Assess objective response rate (ORR) by RECIST 1.1.\n\nExploratory Objectives Correlate ctDNA clearance with long-term outcomes (e.g., EFS, overall survival).\n\nStudy Design\n\nAll patients received 4 cycles of neoadjuvant CDK4/6i + endocrine therapy. Post-Surgery Treatment\uff1a ctDNA-negative post-neoadjuvant: Continue CDK4/6i + endocrine therapy ctDNA-positive post-neoadjuvant: Optional adjuvant chemotherapy followed by CDK4/6i + endocrine therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Receptor-Positive Breast Cancer",
+        "High-risk Breast Cancer",
+        "Early-Stage Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "ctDNA Monitoring"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "All patients receives oral CDK4/6 inhibitor combined with endocrine therapy.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 158,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CDK4/6 inhibitor with endocrine therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive 4 cycles of neoadjuvant CDK4/6 inhibitor with endocrine therapy. Post-surgery treatment is guided by ctDNA status:\n\nctDNA-negative at baseline and post-neoadjuvant, with post-op Ki67 \u226410% \uff1aContinue CDK4/6 inhibitor with endocrine therapy for 2-3 years.\n\nctDNA-positive \u2192 negative, or persistently ctDNA-negative with post-op Ki67 \\>10% :\n\nRandomized 1:1 to:\n\nArm 1: CDK4/6 inhibitor with endocrine therapy for 2-3 years. Arm 2: Adjuvant chemotherapy (investigator's choice) \u2192 CDK4/6 inhibitor with endocrine therapy for 2-3 years.\n\n\uff083\uff09Persistently ctDNA-positive or ctDNA-negative \u2192 positive: Adjuvant chemotherapy \u2192 CDK4/6 inhibitor with endocrine therapy for 2-3 years.\n\nPremenopausal women receive ovarian suppression with LHRH agonists.",
+          "interventionNames": [
+            "Drug: CDK4/6 inhibitor with endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CDK4/6 inhibitor with endocrine therapy",
+          "description": "CDK4/6 inhibitor with endocrine therapy for neoadjuvent therapy",
+          "armGroupLabels": [
+            "CDK4/6 inhibitor with endocrine therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ctDNA Clearance Rate after Neoadjuvant Therapy",
+          "description": "Proportion of patients achieving conversion from detectable to undetectable ctDNA in plasma after 4 cycles of neoadjuvant CDK4/6i+endocronetherapy. ctDNA analysis uses tumor-informed personalized panels (tracking 16 clonal variants via whole-exome sequencing), with clearance defined as \u22652 consecutive negative results at 1% variant allele frequency threshold.",
+          "timeFrame": "From baseline to 4 weeks post-neoadjuvant therapy (pre-surgery)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "3-Year Event-Free Survival (EFS)",
+          "description": "Time from randomization to first occurrence of locoregional/distant recurrence, contralateral breast cancer, secondary malignancy, or death from any cause. Assessed via imaging (CT/MRI), pathology, and clinical exams every 3 months for 3 years. Events are adjudicated by blinded independent review committee.",
+          "timeFrame": "From neoadjuvant therapy to 36 months post-surgery"
+        },
+        {
+          "measure": "Residual Cancer Burden (RCB) 0-1 Rate",
+          "description": "Proportion of patients achieving RCB 0 (pathological complete response) or RCB-1 (minimal residual disease) in surgical specimens. RCB is calculated using standardized criteria (tumor bed area, cellularity, nodal involvement) by blinded central pathology review.",
+          "timeFrame": "At surgery (approximately 16 weeks since neoadjuvant therapy)"
+        },
+        {
+          "measure": "Objective Response Rate (ORR) by RECIST 1.1",
+          "description": "Proportion of patients with complete/partial response per RECIST 1.1 criteria during neoadjuvant phase, measured by MRI/CT. Target lesion size reduction \u226530% (partial) or disappearance (complete) required, confirmed by two consecutive assessments \u22654 weeks apart.",
+          "timeFrame": "Baseline to pre-surgery (week 16)"
+        },
+        {
+          "measure": "Complete Cell Cycle Arrest (CCCA) Rate (Ki67 \u22642.7%)",
+          "description": "Percentage of patients with Ki67 \u22642.7% in post-neoadjuvant tumor biopsies, assessed via immunohistochemistry (IHC) with 3,3'-diaminobenzidine staining. Central laboratory quantification uses Aperio image analysis system (Leica Biosystems).",
+          "timeFrame": "Post-neoadjuvant therapy (pre-surgery, week 16)"
+        },
+        {
+          "measure": "Incidence of Grade \u22653 Treatment-Related Adverse Events (TRAEs)",
+          "description": "Proportion of patients experiencing grade \u22653 adverse events (per NCI CTCAE v5.0) related to Dalpiciclib + AI or chemotherapy, including hematologic (neutropenia, anemia), hepatic (ALT/AST elevation), and cardiac (LVEF decline \u226510%) toxicities. Events are monitored every cycle during neoadjuvant therapy and quarterly during adjuvant phase.",
+          "timeFrame": "From first dose to 30 days after last treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1.Female breast cancer patients aged \u226518 years and \u226475 years, either postmenopausal or premenopausal/perimenopausal; 2.Pathologically confirmed hormone receptor-positive (HR+), HER2-negative invasive breast cancer:\n\n  1. ER-positive and/or PR-positive defined as: \u226510% of tumor cells showing positive staining;\n  2. HER2-negative defined as: standard immunohistochemistry (IHC) result of 0/1+; or IHC 2+ with negative in situ hybridization (ISH) (confirmed by the central pathology laboratory); 3. At least one evaluable lesion per RECIST 1.1, with clinical staging meeting:\n\n  <!-- -->\n\n  1. T1c-2N0M0 with high-risk factors (Grade 3, or Grade 2 with Ki67 \u226520%);\n  2. T3N0M0;\n  3. Any TN+M0; 4.Eastern Cooperative Oncology Group (ECOG) performance status score of 0-1; 5.Willing to participate in the study and voluntarily sign informed consent; 6.Agree to undergo ctDNA testing during treatment; 7.Adequate organ and bone marrow function defined as:\n\n  <!-- -->\n\n  1. Absolute neutrophil count (ANC) \u22651,500/mm\u00b3 (1.5 \u00d7 10\u2079/L) (without granulocyte colony-stimulating factor \\[G-CSF\\] treatment within 14 days);\n  2. Platelet count (PLT) \u2265100,000/mm\u00b3 (100 \u00d7 10\u2079/L) (without corrective therapy within 7 days);\n  3. Hemoglobin (Hb) \u22659 g/dL (90 g/L) (without corrective therapy within 7 days);\n  4. Serum creatinine \u22641.5\u00d7 upper limit of normal (ULN) or creatinine clearance \u226560 mL/min (without corrective therapy within 7 days);\n  5. Total bilirubin (TBIL) \u22641.5\u00d7ULN (without corrective therapy within 7 days);\n  6. Aspartate aminotransferase (AST/SGOT) and alanine aminotransferase (ALT/SGPT) \u22641.5\u00d7ULN (without corrective therapy within 7 days);\n  7. Cardiac function: left ventricular ejection fraction (LVEF) \u226555%; QTc interval corrected by Fridericia's formula (QTcF) \\<470 msec on 12-lead ECG; Women of childbearing potential must have a negative serum pregnancy test within 7 days prior to randomization and agree to use non-hormonal contraception from informed consent signing until 2 months after the last treatment.\n\nExclusion Criteria:\n\n* 1.Bilateral breast cancer; 2.Prior history of breast cancer (including ductal carcinoma in situ or invasive breast cancer); 3.Any prior antitumor therapy for the current breast cancer, including systemic therapies (endocrine, chemotherapy, immunotherapy, biological therapy) or local therapies (radiotherapy, vascular embolization, axillary lymph node biopsy); 4.Diagnosis of any malignancy within 5 years prior to randomization, except cured cervical carcinoma in situ, basal cell carcinoma, or squamous cell carcinoma of the skin; 5.History of severe pulmonary diseases (e.g., interstitial pneumonia); 6. HIV infection, acquired immunodeficiency syndrome (AIDS), active hepatitis B (HBV DNA \u2265500 IU/mL), hepatitis C (HCV antibody-positive with HCV RNA above the lower limit of detection), or co-infection with HBV and HCV; 7.Within 6 months prior to randomization: myocardial infarction, severe/unstable angina, NYHA Class \u2265II heart failure, \u2265Grade 2 persistent arrhythmia (per NCI CTCAE v5.0), atrial fibrillation of any grade, coronary/peripheral artery bypass graft, symptomatic congestive heart failure, cerebrovascular accident (including transient ischemic attack), or symptomatic pulmonary embolism; 8.Severe active infection within 4 weeks prior to randomization (requiring intravenous antibiotics, antifungals, or antivirals) or unexplained fever \\>38.5\u00b0C during screening/before first dose; 9.Known allergy to any component of the study drugs; 10.Current participation in another interventional drug clinical study; 11.Pregnancy or lactation; 12.Refusal to comply with follow-up; 13.Other severe physical/mental illnesses or laboratory abnormalities that may increase study risk, interfere with results, or render the patient unsuitable per investigator judgment.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "yuan peng, doctor",
+          "role": "CONTACT",
+          "phone": "86+13671287670",
+          "email": "13671287670@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "shu wang, doctor",
+          "affiliation": "Peking University People's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peking University People's Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100044",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "yuan peng, Doctor",
+              "role": "CONTACT",
+              "phone": "86+13671287670",
+              "email": "13671287670@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

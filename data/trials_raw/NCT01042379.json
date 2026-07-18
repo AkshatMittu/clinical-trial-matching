@@ -1,0 +1,2382 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01042379",
+      "orgStudyIdInfo": {
+        "id": "097517"
+      },
+      "organization": {
+        "fullName": "QuantumLeap Healthcare Collaborative",
+        "class": "OTHER"
+      },
+      "briefTitle": "I-SPY TRIAL: Neoadjuvant and Personalized Adaptive Novel Agents to Treat Breast Cancer",
+      "officialTitle": "I-SPY Trial (Investigation of Serial Studies to Predict Your Therapeutic Response With Imaging And moLecular Analysis 2)",
+      "acronym": "I-SPY"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2009-12-31",
+      "studyFirstSubmitQcDate": "2010-01-04",
+      "studyFirstPostDateStruct": {
+        "date": "2010-01-05",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2026-05-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "QuantumLeap Healthcare Collaborative",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to further advance the ability to practice personalized medicine by learning which new drug agents are most effective with which types of breast cancer tumors and by learning more about which early indicators of response (tumor analysis prior to surgery via magnetic resonance imaging (MRI) images along with tissue and blood samples) are predictors of treatment success.",
+      "detailedDescription": "I-SPY2 will assess the efficacy of novel drugs in sequence with standard chemotherapy. The goal is identify treatment strategies for subsets on the basis of molecular characteristics (biomarker signatures) of their disease with high estimated pCR rate. As described for previous adaptive trials, novel regimens with sufficiently high activities alone and contribute to treatment strategies that show a high Bayesian predictive probability of being more effective than the dynamic control will graduate from the trial with their corresponding biomarker signature(s). Treatment strategies will be dropped if they show a low probability of improved efficacy with any biomarker signature. New drugs will enter as those that have undergone testing complete their evaluation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms",
+        "Breast Cancer",
+        "Breast Tumors",
+        "Angiosarcoma",
+        "TNBC - Triple-Negative Breast Cancer",
+        "HER2-positive Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "Hormone Receptor Positive Tumor",
+        "Hormone Receptor Negative Tumor",
+        "Early-stage Breast Cancer",
+        "Locally Advanced Breast Cancer"
+      ],
+      "keywords": [
+        "Neoadjuvant",
+        "Breast",
+        "Cancer",
+        "Neoplasm",
+        "Adaptive",
+        "pCR",
+        "Pathologic Complete Response",
+        "Biomarkers signature",
+        "MRI Volume",
+        "Endocrine Therapy",
+        "Chemotherapy",
+        "Immunotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 5000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard Therapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Paclitaxel, Herceptin followed by Doxorubicin and Cyclophosphamide treatment depending on HR/HER-2 status.",
+          "interventionNames": [
+            "Drug: Standard Therapy"
+          ]
+        },
+        {
+          "label": "AMG 386 with or without Trastuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: AMG 386 with or without Trastuzumab",
+            "Drug: AMG 386 and Trastuzumab"
+          ]
+        },
+        {
+          "label": "AMG 479 plus Metformin",
+          "type": "OTHER",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: AMG 479 (Ganitumab) plus Metformin"
+          ]
+        },
+        {
+          "label": "MK-2206 with or without Trastuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: MK-2206 with or without Trastuzumab"
+          ]
+        },
+        {
+          "label": "T-DM1 and Pertuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: T-DM1 and Pertuzumab"
+          ]
+        },
+        {
+          "label": "Pertuzumab and Trastuzumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Arm is closed. Novel Control Investigational Agent.",
+          "interventionNames": [
+            "Drug: Pertuzumab and Trastuzumab"
+          ]
+        },
+        {
+          "label": "Ganetespib",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Ganetespib"
+          ]
+        },
+        {
+          "label": "ABT-888",
+          "type": "OTHER",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: ABT-888"
+          ]
+        },
+        {
+          "label": "Neratinib",
+          "type": "OTHER",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Neratinib"
+          ]
+        },
+        {
+          "label": "PLX3397",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: PLX3397"
+          ]
+        },
+        {
+          "label": "Pembrolizumab 4 cycle",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Pembrolizumab - 4 cycle"
+          ]
+        },
+        {
+          "label": "Talazoparib plus Irinotecan",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Talazoparib plus Irinotecan"
+          ]
+        },
+        {
+          "label": "Patritumab with or without Trastuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Patritumab and Trastuzumab"
+          ]
+        },
+        {
+          "label": "Pembrolizumab 8 cycle",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Pembrolizumab - 8 cycle"
+          ]
+        },
+        {
+          "label": "SGN-LIV1A",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: SGN-LIV1A"
+          ]
+        },
+        {
+          "label": "Durvalumab plus Olaparib",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Durvalumab plus Olaparib"
+          ]
+        },
+        {
+          "label": "SD-101 + Pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: SD-101 + Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Tucatinib",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed.",
+          "interventionNames": [
+            "Drug: Tucatinib plus trastuzumab and pertuzumab"
+          ]
+        },
+        {
+          "label": "Cemiplimab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Cemiplimab"
+          ]
+        },
+        {
+          "label": "Cemiplimab plus REGN3767",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Cemiplimab plus REGN3767"
+          ]
+        },
+        {
+          "label": "Trilaciclib with or without trastuzumab + pertuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Trilaciclib with or without trastuzumab + pertuzumab"
+          ]
+        },
+        {
+          "label": "SYD985 ([vic-]trastuzumab duocarmazine)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: SYD985 ([vic-]trastuzumab duocarmazine)"
+          ]
+        },
+        {
+          "label": "Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) + Carboplatin with or without trastuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) + Carboplatin with or without trastuzumab"
+          ]
+        },
+        {
+          "label": "Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) with or without trastuzumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) with or without trastuzumab"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: Amcenestrant Monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Amcenestrant"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: Amcenestrant + Abemaciclib",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Amcenestrant + Abemaciclib"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: Amcenestrant + Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Amcenestrant + Letrozole"
+          ]
+        },
+        {
+          "label": "ARX788 in Block A and followed by SOC in Block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual for accrual. Novel investigational Agent followed by SOC.",
+          "interventionNames": [
+            "Drug: ARX788"
+          ]
+        },
+        {
+          "label": "ARX788 + Cemiplimab in Block A and followed by SOC in Block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent followed by SOC.",
+          "interventionNames": [
+            "Drug: ARX788 + Cemiplimab"
+          ]
+        },
+        {
+          "label": "VSV-IFN\u03b2-NIS (VOYAGER V1\u2122; VV1) + Cemiplimab in Block A and followed by SOC in block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent followed by SOC.",
+          "interventionNames": [
+            "Drug: VV1 + Cemiplimab"
+          ]
+        },
+        {
+          "label": "Datopotamab Deruxtecan in Block A and followed by SOC in block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent followed by SOC.",
+          "interventionNames": [
+            "Drug: Datopotamab deruxtecan"
+          ]
+        },
+        {
+          "label": "Datopotamab Deruxtecan + Durvalumab in Block A and followed by SOC in block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent followed by SOC.",
+          "interventionNames": [
+            "Drug: Datopotamab deruxtecan + Durvalumab"
+          ]
+        },
+        {
+          "label": "Zanidatamab for Block ABC",
+          "type": "EXPERIMENTAL",
+          "description": "Arm open for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Zanidatamab"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: Lasofoxifene",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Lasofoxifene"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: (Z)-Endoxifen",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Z-endoxifen"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: ARV-471",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: ARV-471"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: ARV-471 + Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: ARV-471 + Letrozole"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: ARV-471 + Abemaciclib",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: ARV-471 + Abemaciclib"
+          ]
+        },
+        {
+          "label": "Endocrine Optimization Pilot: (Z)-Endoxifen + Abemaciclib",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Enrollment completed. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Endoxifen + Abemaciclib"
+          ]
+        },
+        {
+          "label": "Rilvegostomig + TDXd in Block A and followed by SOC in Block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Rilvegostomig + TDXd"
+          ]
+        },
+        {
+          "label": "DAN222 + Niraparib in Block A and followed by SOC in Block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Dan222 + Niraparib"
+          ]
+        },
+        {
+          "label": "Sarilumab + Cemiplimab + Paclitaxel in Block B followed by SOC Block C",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is closed for accrual. Novel investigational Agent.",
+          "interventionNames": [
+            "Drug: Sarilumab + Cemiplimab + Paclitaxel"
+          ]
+        },
+        {
+          "label": "GSK 5733584 in Block A and followed by SOC in Block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is open for accrual. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: GSK 5733584"
+          ]
+        },
+        {
+          "label": "GSK 5733584 + Dostarlimab in Block A and followed by SOC in Block B",
+          "type": "EXPERIMENTAL",
+          "description": "Arm is open for accrual. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: GSK 5733584 + Dostarlimab"
+          ]
+        },
+        {
+          "label": "Ivonescimab in Blocks A and B",
+          "type": "EXPERIMENTAL",
+          "description": "Open for accrual. Novel Investigational Agent.",
+          "interventionNames": [
+            "Drug: Ivonescimab (20mg/kg Q3W)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Standard Therapy",
+          "description": "Paclitaxel: 80 mg/m2 IV during the 12 weekly treatment cycles post randomization; Doxorubicin: 60 mg/m2 IV after completion of the 12 weekly treatment cycles and prior to surgery for weeks 13-16; Cyclophosphamide: 600 mg/m2 IV after completion of the 12 weekly treatment cycles and prior to surgery for weeks 13-16",
+          "armGroupLabels": [
+            "Standard Therapy"
+          ],
+          "otherNames": [
+            "Paclitaxel (Taxol); Doxorubicin (Adriamycin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "AMG 386 with or without Trastuzumab",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "AMG 386 with or without Trastuzumab"
+          ],
+          "otherNames": [
+            "AMG 386 (Trebananib); (Trastuzumab) Herceptin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "AMG 479 (Ganitumab) plus Metformin",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "AMG 479 plus Metformin"
+          ],
+          "otherNames": [
+            "Ganitumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "MK-2206 with or without Trastuzumab",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "MK-2206 with or without Trastuzumab"
+          ],
+          "otherNames": [
+            "(Trastuzumab) Herceptin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "AMG 386 and Trastuzumab",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "AMG 386 with or without Trastuzumab"
+          ],
+          "otherNames": [
+            "AMG 386 (Trebananib); Trastuzumab (Herceptin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "T-DM1 and Pertuzumab",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "T-DM1 and Pertuzumab"
+          ],
+          "otherNames": [
+            "T-DM1 (Trastuzumab emtansine); Pertuzumab (Perjeta)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pertuzumab and Trastuzumab",
+          "description": "Arm is closed for Accrual.\n\nPertuzumab: 840 mg IV (loading dose) week 1 and 420 mg every 3 weeks (weeks 4, 7, 10) post-randomization; Trastuzumab: 4 mg/kg (loading dose) week 1 and 2 mg/kg weekly (weeks 2-12) post-randomization",
+          "armGroupLabels": [
+            "Pertuzumab and Trastuzumab"
+          ],
+          "otherNames": [
+            "Pertuzumab (Perjeta); Trastuzumab (Herceptin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ganetespib",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Ganetespib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ABT-888",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "ABT-888"
+          ],
+          "otherNames": [
+            "Veliparib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Neratinib",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Neratinib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PLX3397",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "PLX3397"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab - 4 cycle",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Pembrolizumab 4 cycle"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Talazoparib plus Irinotecan",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Talazoparib plus Irinotecan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Patritumab and Trastuzumab",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Patritumab with or without Trastuzumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab - 8 cycle",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Pembrolizumab 8 cycle"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SGN-LIV1A",
+          "description": "Arm is closed. SGN-LIV1A: 2.5 mg/kg IV cycles 1,4,7,10 Doxorubicin + Cyclophosphamide: Cycles 13-16",
+          "armGroupLabels": [
+            "SGN-LIV1A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Durvalumab plus Olaparib",
+          "description": "Arm is closed.",
+          "armGroupLabels": [
+            "Durvalumab plus Olaparib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SD-101 + Pembrolizumab",
+          "description": "Arm is closed. SD-101: IT injection 2 mg/ml (1 ml for T2 tumors, 2 ml for \\>T3 tumors) weekly x 4, then every 3 weeks x 2 cycles 1,2,3,4,7,10 Pembrolizumab: 200mg IV cycles 1,4,7,10 Paclitaxel: 80 mg/m2 IV cycles 1-12 Doxorubicin + Cyclophosphamide: Cycles 13-16; Doxorubicin: 60 mg/m2 IV Every 2 or 3 weeks for 4 cycles; Cyclophosphamide: 600 mg/m2 IV Every 2 or 3 weeks for 4 cycles",
+          "armGroupLabels": [
+            "SD-101 + Pembrolizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tucatinib plus trastuzumab and pertuzumab",
+          "description": "Arm is closed. Tucatinib: 300 mg PO BID 12 weeks CLOSED Tucatinib: 250 mg PO BID 12 weeks CLOSED Tucatinib adaptive: 150mg BID days 1-28, 250mg BID days 29-84 Trastuzumab: 4 mg/kg IV (loading dose) cycle 1; 2 mg/kg (thereafter) cycles 2-12 Pertuzumab: 840 mg IV (loading dose) cycle 1; 420 mg (thereafter) cycles 4, 7 and 10 Paclitaxel: 80 mg/m2 IV cycles 1-12 Doxorubicin + Cyclophosphamide: Cycles 13-16; Doxorubicin: 60 mg/m2 IV Every 2 or 3 weeks for 4 cycles; Cyclophosphamide: 600 mg/m2 IV Every 2 or 3 weeks for 4 cycles",
+          "armGroupLabels": [
+            "Tucatinib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cemiplimab",
+          "description": "Cemiplimab: 350 mg q3w X 12 weeks IV cycles 1,4,7,10 Paclitaxel: 80 mg/m2 IV cycles 1-12 Doxorubicin + Cyclophosphamide: Cycles 13-16; Doxorubicin: 60 mg/m2 IV Every 2 or 3 weeks for 4 cycles; Cyclophosphamide: 600 mg/m2 IV Every 2 or 3 weeks for 4 cycles",
+          "armGroupLabels": [
+            "Cemiplimab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cemiplimab plus REGN3767",
+          "description": "Arm is closed.\n\nCemiplimab: 350 mg q3w X 12 weeks IV cycles 1,4,7,10 REGN 3767: 1600 mg q3W X 12 weeks IV cycles 1,4,7,10 Paclitaxel: 80 mg/m2 IV cycles 1-12 Doxorubicin + Cyclophosphamide: Cycles 13-16; Doxorubicin: 60 mg/m2 IV Every 2 or 3 weeks for 4 cycles; Cyclophosphamide: 600 mg/m2 IV Every 2 or 3 weeks for 4 cycles",
+          "armGroupLabels": [
+            "Cemiplimab plus REGN3767"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Trilaciclib with or without trastuzumab + pertuzumab",
+          "description": "Arm closed for accrual.\n\nTrilaciclib: 240 mg/m2 IV weekly cycle 1-16 Paclitaxel: 80 mg/m2 IV cycles 1-12 Doxorubicin + Cyclophosphamide: Cycles 13-16; Doxorubicin: 60 mg/m2 IV Every 2 or 3 weeks for 4 cycles; Cyclophosphamide: 600 mg/m2 IV Every 2 or 3 weeks for 4 cycles\n\nFor HER2+:\n\nPertuzumab: 840 mg IV (loading dose) week 1 and 420 mg every 3 weeks (weeks 4, 7, 10) post-randomization Trastuzumab: 4 mg/kg (loading dose) week 1 and 2 mg/kg weekly (weeks 2-12) post-randomization",
+          "armGroupLabels": [
+            "Trilaciclib with or without trastuzumab + pertuzumab"
+          ],
+          "otherNames": [
+            "Trilaciclib (G1T28); Pertuzumab (Perjeta); Trastuzumab (Herceptin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SYD985 ([vic-]trastuzumab duocarmazine)",
+          "description": "Arm is closed.\n\nSYD985: 1.2 mg/kg IV (q3w x 12 weeks) cycles 1,4,7,10 Doxorubicin + Cyclophosphamide: Cycles 13-16; Doxorubicin: 60 mg/m2 IV Every 2 or 3 weeks for 4 cycles; Cyclophosphamide: 600 mg/m2 IV Every 2 or 3 weeks for 4 cycles",
+          "armGroupLabels": [
+            "SYD985 ([vic-]trastuzumab duocarmazine)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) + Carboplatin with or without trastuzumab",
+          "description": "Arm is closed.\n\nFor HER2+ Dostarlimab (TSR-042), 500 mg, IV, q3wks for wk 1, 4, 7, 10 Trastuzumab, 4 mg/kg cycle 1, then 2 mg/kg cycles 2-12 q1wk, IV, for wk1-12 Oral paclitaxel, 205 mg/m2, oral, daily for Three (3) days in a row each week for weeks 1-12 Oral encequidar, 15 mg, oral, daily for Three (3) days in a row each week for weeks 1-12 Carboplatin, AUC 1.5, IV, q1wk from wk1-12 Followed by Doxorubicin: 60 mg/m2, IV, every 2 or 3 weeks for 4 cycles Cyclophosphamide: 600 mg/m2, IV, every 2 or 3 weeks for 4 cycle\n\nFor HER2- Dostarlimab (TSR-042), 500 mg, IV, q3wks for wk 1, 4, 7, 10 Oral paclitaxel, 205 mg/m2, oral, daily for Three (3) days in a row each week for weeks 1-12 Oral encequidar, 15 mg, oral, daily for Three (3) days in a row each week for weeks 1-12 Carboplatin, AUC 1.5, IV, q1wk from wk1-12 Followed by Doxorubicin: 60 mg/m2, IV, every 2 or 3 weeks for 4 cycles Cyclophosphamide: 600 mg/m2, IV, every 2 or 3 weeks for 4 cycle",
+          "armGroupLabels": [
+            "Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) + Carboplatin with or without trastuzumab"
+          ],
+          "otherNames": [
+            "Oral Paclitaxel + Encequidar (Oraxol); Dostarlimab (TSR-042); Trastuzumab (Herceptin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) with or without trastuzumab",
+          "description": "Arm is closed.\n\nFor HER2+ Dostarlimab (TSR-042), 500 mg, IV, q3wks for wk 1, 4, 7, 10 Trastuzumab, 4 mg/kg cycle 1, then 2 mg/kg cycles 2-12 q1wk, IV, for wk1-12 Oral paclitaxel, 205 mg/m2, oral, daily for Three (3) days in a row each week for weeks 1-12 Oral encequidar, 15 mg, oral, daily for Three (3) days in a row each week for weeks 1-12 Followed by Doxorubicin: 60 mg/m2, IV, every 2 or 3 weeks for 4 cycles Cyclophosphamide: 600 mg/m2, IV, every 2 or 3 weeks for 4 cycle\n\nFor HER2- Dostarlimab (TSR-042), 500 mg, IV, q3wks for wk 1, 4, 7, 10 Oral paclitaxel, 205 mg/m2, oral, daily for Three (3) days in a row each week for weeks 1-12 Oral encequidar, 15 mg, oral, daily for Three (3) days in a row each week for weeks 1-12 Followed by Doxorubicin: 60 mg/m2, IV, every 2 or 3 weeks for 4 cycles Cyclophosphamide: 600 mg/m2, IV, every 2 or 3 weeks for 4 cycle",
+          "armGroupLabels": [
+            "Oral Paclitaxel + Encequidar + Dostarlimab (TSR-042) with or without trastuzumab"
+          ],
+          "otherNames": [
+            "Oral Paclitaxel + Encequidar (Oraxol); Dostarlimab (TSR-042); Trastuzumab (Herceptin)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Amcenestrant",
+          "description": "Arm is closed.\n\nAmcenestrant (SAR439859), 200mg QD, p.o., for 24 weeks.",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: Amcenestrant Monotherapy"
+          ],
+          "otherNames": [
+            "SAR439859"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Amcenestrant + Abemaciclib",
+          "description": "Arm is closed.\n\nAmcenestrant (SAR439859), 200mg QD, p.o., for 24 weeks Abemaciclib (Verzenio), 150mg BID, p.o., for 24 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: Amcenestrant + Abemaciclib"
+          ],
+          "otherNames": [
+            "Amcenestrant (SAR439859), Abemaciclib (Verzenio)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Amcenestrant + Letrozole",
+          "description": "Arm is closed.\n\nAmcenestrant (SAR439859), 200mg QD, p.o., for 24 weeks Letrozole (Femara), 2.5mg QD, p.o., for 24 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: Amcenestrant + Letrozole"
+          ],
+          "otherNames": [
+            "Amcenestrant (SAR439859), Letrozole (Femara)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ARX788",
+          "description": "Arm is closed.\n\nARX788, 1.5 mg/kg Q3W, IV for 12 weeks",
+          "armGroupLabels": [
+            "ARX788 in Block A and followed by SOC in Block B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ARX788 + Cemiplimab",
+          "description": "Arm is closed.\n\nARX788, 1.5 mg/kg Q3W, IV for 12 weeks Cemiplimab, 350 mg Q3W, IV for 12 weeks",
+          "armGroupLabels": [
+            "ARX788 + Cemiplimab in Block A and followed by SOC in Block B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "VV1 + Cemiplimab",
+          "description": "Arm is closed.\n\nVV1, 3x10\\^9 TCID50 once (day-8), Intra-tumoral injection Cemiplimab, 350 mg Q3W, IV for 12 weeks",
+          "armGroupLabels": [
+            "VSV-IFN\u03b2-NIS (VOYAGER V1\u2122; VV1) + Cemiplimab in Block A and followed by SOC in block B"
+          ],
+          "otherNames": [
+            "VOYAGER V1\u2122",
+            "VSV-IFN\u03b2-NIS"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Datopotamab deruxtecan",
+          "description": "Arm is closed.\n\nDato-DXd, 6 mg/kg Q3W, IV for 12 weeks",
+          "armGroupLabels": [
+            "Datopotamab Deruxtecan in Block A and followed by SOC in block B"
+          ],
+          "otherNames": [
+            "Dato-DXd"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Datopotamab deruxtecan + Durvalumab",
+          "description": "Arm is closed.\n\nDato-DXd, 6 mg/kg Q3W, IV for 12 weeks Durvalumab, 1120 mg Q3W, IV for 12 weeks",
+          "armGroupLabels": [
+            "Datopotamab Deruxtecan + Durvalumab in Block A and followed by SOC in block B"
+          ],
+          "otherNames": [
+            "Dato-DXd"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Zanidatamab",
+          "description": "Zanidatamab: IV Infusion at a 2-tiered flat dose. 1,800mg (\\<70 kg) and 2400mg (\u226570 kg).\n\nNeoadjuvant doing of zanidatamab: The initial dose will be administered on Cycle 1 Day 1, with Cycle 2 Day 1 occurring 14 days thereafter, followed by subsequent dosing every 3 weeks (Q3W) for a total of up to 5 doses in block A, up to 4 doses Block B, up to 5 doses Block C.\n\nAdjuvant dosing of zanidatamab: Administered every 3 weeks (Q3W) for a total of 1 year of HER2 based therapy. The total number of adjuvant weeks will be dependent on the number of weeks of exposure of zanidatamab in Blocks A, B, and C.",
+          "armGroupLabels": [
+            "Zanidatamab for Block ABC"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Lasofoxifene",
+          "description": "Arm is closed.\n\nLasofoxifene: 5.0 mg QD, p.o., for 24 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: Lasofoxifene"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Z-endoxifen",
+          "description": "Arm is closed.\n\nZ-endoxifen: 10 mg QD, p.o., for 24 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: (Z)-Endoxifen"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ARV-471",
+          "description": "Arm is closed.\n\nARV-471: 200 mg QD, p.o, for 24 weeks.",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: ARV-471"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ARV-471 + Letrozole",
+          "description": "Arm is closed.\n\nARV-471: 200 mg QD, p.o, for 24 weeks Letrozole: 2.5 mg QD, p.o, for 24 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: ARV-471 + Letrozole"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ARV-471 + Abemaciclib",
+          "description": "Arm is closed.\n\nARV-471: 200 mg QD, p.o, for 24 weeks Abemaciclib: 150 mg BID, p.o, for 24 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: ARV-471 + Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Endoxifen + Abemaciclib",
+          "description": "Z-endoxifen: 80 mg QD, p.o., for 24 weeks Abemaciclib: 150 mg BID, p.o, for 20 weeks",
+          "armGroupLabels": [
+            "Endocrine Optimization Pilot: (Z)-Endoxifen + Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rilvegostomig + TDXd",
+          "description": "Arm closed to accrual\n\nRilvegostomig: 750mg IV Q3W for 12 weeks TDXd: 5.4 mg/kg IV Q3W for 12 weeks",
+          "armGroupLabels": [
+            "Rilvegostomig + TDXd in Block A and followed by SOC in Block B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dan222 + Niraparib",
+          "description": "Arm is closed.\n\nDAN222: 8mg/m2 IV QW for 12 weeks Niraparib: 200mg QD p.p., 12 weeks",
+          "armGroupLabels": [
+            "DAN222 + Niraparib in Block A and followed by SOC in Block B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Sarilumab + Cemiplimab + Paclitaxel",
+          "description": "Arm is closed to accrual.\n\nSarilumab: 200mg Subcutaneous injection Q2W for 12 weeks Cemiplimab: 350mg IV Q3W for 12 weeks Paclitaxel: 80 mg/m2 IV QW for 12 weeks",
+          "armGroupLabels": [
+            "Sarilumab + Cemiplimab + Paclitaxel in Block B followed by SOC Block C"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "GSK 5733584",
+          "description": "Arm is open for accrual.\n\nRoute: Intravenous infusion Dosage Form: 4.8 mg/kg intravenous Q3W for injection. Will receive a max of 12 weeks.",
+          "armGroupLabels": [
+            "GSK 5733584 in Block A and followed by SOC in Block B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "GSK 5733584 + Dostarlimab",
+          "description": "Arm is open for accrual.\n\nGSK 5733584 Route: Intravenous Infusion Dosage Form: 4.8 mg/kg intravenous Q3W for injection x 12 weeks max.\n\nDostarlimab Route: Intravenous Infusion Dosage Form: 500 mg fixed dose intravenous Q3W for infusion x 12 weeks max.",
+          "armGroupLabels": [
+            "GSK 5733584 + Dostarlimab in Block A and followed by SOC in Block B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ivonescimab (20mg/kg Q3W)",
+          "description": "Strengths to be used in trial:\n\n1. 20 mg/kg IV Q3W monotherapy\n2. 20 mg/kg IV Q3W with paclitaxel\n3. 20 mg/kg IV Q3W with carboplatin and paclitaxel.\n\nStandard Regimen:\n\n20 mg/kg IV Q3W. Patients in Block A will receive a minimum of 6 weeks a maximum of 12 weeks of Ivonescimab monotherapy in Block A. Patients that have completed Block A, may receive ivonescimab plus paclitaxel or ivonescimab plus paclitaxel plus carboplatin in Block B (depending on subtype).",
+          "armGroupLabels": [
+            "Ivonescimab in Blocks A and B"
+          ],
+          "otherNames": [
+            "AK112",
+            "SMT112",
+            "PD-1 / VEGF bispecific antibody",
+            "\u4f9d\u8fbe\u65b9\u00ae (Yiwoxi Dankang Zhusheye)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Determine whether adding experimental agents to standard neoadjuvant medications increases the probability of pathologic complete response (pCR) over standard neoadjuvant chemotherapy for each biomarker signature established at trial entry.",
+          "timeFrame": "Post surgery based on upto 36-week treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Establishing predictive and prognostic indices based on qualification and exploratory markers to predict pCR and residual cancer burden (RCB).",
+          "timeFrame": "Blood and Tissue Collection: Baseline, Post-Randomization, Pre-AC, Pre- and Post-Surgery"
+        },
+        {
+          "measure": "To determine three- and five-year relapse-free survival (RFS) and OS among the treatment arms.",
+          "timeFrame": "Three- and Five-Year Post-surgery Follow-up"
+        },
+        {
+          "measure": "To determine incidence of adverse events (AEs), serious adverse events (SAEs), and laboratory abnormalities of each investigational agent tested.",
+          "timeFrame": "Post-Randomization, Pre-AC, Pre-Surgery, Post-Surgery upto One Year during follow-up"
+        },
+        {
+          "measure": "MRI Volume",
+          "timeFrame": "Four time points during the on-study phase: Baseline, Post-randomization, Pre-AC treatment and Pre-Surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed invasive cancer of the breast\n* Clinically or radiologically measureable disease in the breast after diagnostic biopsy, defined as longest diameter greater than or equal to 25 mm (2.5cm)\n* No prior cytotoxic regimens are allowed for this malignancy. Patients may not have had prior chemotherapy or prior radiation therapy to the ipsilateral breast for this malignancy. Prior bis-phosphonate therapy is allowed\n* Age \u226518 years\n* ECOG performance status 0-1\n* Willing to undergo core biopsy of the primary breast lesion to assess baseline biomarkers\n* Non-pregnant and non-lactating\n* No ferromagnetic prostheses. Patients who have metallic surgical implants that are not compatible with an MRI machine are not eligible.\n* Ability to understand and willingness to sign a written informed consent (I-SPY TRIAL Screening Consent)\n* Eligible tumors must meet one of the following criteria: Stage II or III, or T4, any N, M0, including clinical or pathologic inflammatory cancer or Regional Stage IV, where supraclavicular lymph nodes are the only sites metastasis\n* Any tumor ER/PgR status, any HER-2/neu status as measured by local hospital pathology laboratory and meets any tumor assay profile described in protocol section 4.1.2F\n* Normal organ and marrow function: Leukocytes \u2265 3000/\u03bcL, Absolute neutrophil count \u2265 1500/\u03bcL, Platelets \u2265 100,000/\u03bcL, Total bilirubin within normal institutional limits, unless patient has Gilbert's disease, for which bilirubin must be \u2264 2.0 x ULN, AST(SGOT)/ALT (SGPT) \u2264 1.5 x institutional ULN, creatinine \\< 1.5 x institutional ULN\n* No uncontrolled or severe cardiac disease. Baseline ejection fraction (by nuclear imaging or echocardiography) must by \u2265 50%\n* No clinical or imaging evidence of distant metastases by PA and Lateral CXR, Radionuclide Bone scan, and LFTs including total bilirubin, ALT, AST, and alkaline phosphatase\n* Tumor assay profile must include on of the following: MammaPrint High, any ER status, any HER2 status, or MammaPrint Low, ER negative (\\<5%), any HER2 status, or MammaPrint Low, ER positive, HER2/neu positive by any one of the three methods used (IHC, FISH, TargetPrint\u2122)\n* Ability to understand and willingness to sign a written informed consent document (I-SPY 2 TRIAL Consent #2)\n\nExclusion Criteria:\n\n* Use of any other investigational agents within 30 days of starting study treatment\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to the study agent or accompanying supportive medications.\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Won Chang",
+          "role": "CONTACT",
+          "phone": "(855) 866-0505",
+          "email": "w.chang@quantumleaphealth.org"
+        },
+        {
+          "name": "Heather Prisant",
+          "role": "CONTACT",
+          "email": "h.prisant@qlhc.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Laura Esserman, MD, MBA",
+          "affiliation": "University of California, San Francisco",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Erica Stringer-Reasor, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Mayo Clinic - Scottsdale",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85259",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "507-538-7623"
+            },
+            {
+              "name": "Donald Northfelt, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "University of Arizona",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "University of California - Davis, Comprehensive Cancer Center",
+          "status": "RECRUITING",
+          "city": "Davis",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mili Arora, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.54491,
+            "lon": -121.74052
+          }
+        },
+        {
+          "facility": "City of Hope",
+          "status": "RECRUITING",
+          "city": "Duarte",
+          "state": "California",
+          "zip": "91010",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "800-826-4673"
+            },
+            {
+              "name": "Hope Rugo, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.13945,
+            "lon": -117.97729
+          }
+        },
+        {
+          "facility": "University of California San Diego",
+          "status": "RECRUITING",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92093-0698",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "858-822-6194"
+            },
+            {
+              "role": "CONTACT",
+              "phone": "858-822-6194",
+              "email": "CancerCTO@ucsd.edu"
+            },
+            {
+              "name": "Anne Wallace, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "University of Southern California",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kristy Watkins, RN",
+              "role": "CONTACT",
+              "phone": "323-865-0452",
+              "email": "Watkins_K@ccnt.usc.edu"
+            },
+            {
+              "name": "Evanthia Roussos Torres, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "HOAG Memorial Hospital Presbyterian",
+          "status": "RECRUITING",
+          "city": "Newport Beach",
+          "state": "California",
+          "zip": "92663",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chaitali Nangia, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.61891,
+            "lon": -117.92895
+          }
+        },
+        {
+          "facility": "University of California San Francisco (UCSF)",
+          "status": "RECRUITING",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Clinical Research Coordinator",
+              "role": "CONTACT",
+              "phone": "415-443-4296",
+              "email": "ispycrc@ucsf.edu"
+            },
+            {
+              "name": "Amy Jo Chien, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "University of Colorado Cancer Center",
+          "status": "RECRUITING",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "720-848-1622"
+            },
+            {
+              "name": "Anthony Elias, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Virgnia Borges, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Yale Cancer Center",
+          "status": "RECRUITING",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06510",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Trisha Burello, MS",
+              "role": "CONTACT",
+              "phone": "203-737-2848",
+              "email": "trisha.burrello@yale.edu"
+            },
+            {
+              "name": "Tara Snaft, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Lajos Pusztai, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Mariya Rozenblit, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Georgetown University Medical Center",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Minetta Liu, MD",
+              "role": "CONTACT",
+              "phone": "202-444-3677",
+              "email": "Liumc@georgetown.edu"
+            },
+            {
+              "name": "Claudine Isaacs, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "H. Lee Moffitt Cancer Center and Research Institute",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33612",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Hyo Heather Han, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Moffitt Cancer Center",
+          "status": "RECRUITING",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33612",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Heather Han, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Winship Cancer Institute of Emory University",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kevin Kalinsky, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "University of Chicago",
+          "status": "RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60453",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "773-834-2756"
+            },
+            {
+              "name": "Rita Nanda, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Loyola University",
+          "status": "RECRUITING",
+          "city": "Maywood",
+          "state": "Illinois",
+          "zip": "60153",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "708-327-3102"
+            },
+            {
+              "name": "Kathy S Albain, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.8792,
+            "lon": -87.84312
+          }
+        },
+        {
+          "facility": "University of Kansas",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Westwood",
+          "state": "Kansas",
+          "zip": "66205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.04056,
+            "lon": -94.6169
+          }
+        },
+        {
+          "facility": "Herbert-Herman Cancer Center, Sparrow Hospital",
+          "status": "RECRUITING",
+          "city": "Lansing",
+          "state": "Michigan",
+          "zip": "48912",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brittani Thomas, DO",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.73253,
+            "lon": -84.55553
+          }
+        },
+        {
+          "facility": "University of Minnesota",
+          "status": "RECRUITING",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55455",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "612-626-8487"
+            },
+            {
+              "name": "Douglas Yee, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "507-538-7623"
+            },
+            {
+              "name": "Judy C Boughey, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Metro Minnesota Community Oncology Research Consortium, Hennepin County Medical Center",
+          "status": "RECRUITING",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55416",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Satya Bommakanti, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "Rutgers Cancer Institute of New Jersey",
+          "status": "RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08903",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "732-235-7356"
+            },
+            {
+              "name": "Coral Omene, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "Roswell Park Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14263",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ellis Levine, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Laura and Isaac Perlmutter Cancer Center / NYU Langone Health",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yannis Karamitas",
+              "role": "CONTACT",
+              "email": "Yannis.Karamitas@nyulangone.org"
+            },
+            {
+              "name": "Nancy Chan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Columbia University Medical Center",
+          "status": "RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Meghana Trivedi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "University of Rochester Wilmot Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14642",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "email": "WCICTOResearch@urmc.rochester.edu"
+            },
+            {
+              "name": "Carla Folksm, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Montefiore Medical Center",
+          "status": "RECRUITING",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jesus D Anampa",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "Wake Forest Baptist Comprehensive Cancer Center",
+          "status": "RECRUITING",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Angela Howell, MD",
+              "role": "CONTACT",
+              "phone": "336-716-5440",
+              "email": "anhowell@wakehealth.edu"
+            },
+            {
+              "name": "Marissa Howard-McNatt, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Cleveland Clinic",
+          "status": "RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "800-233-2273"
+            },
+            {
+              "name": "Julie Lang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "The Ohio State University, Stefanie Spielman Comprehensive Breast Center",
+          "status": "RECRUITING",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43212",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nicole Williams, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Oregon Health & Science Institute (OHSU)",
+          "status": "RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brienna Palm",
+              "role": "CONTACT",
+              "phone": "503-494-4438",
+              "email": "palmb@ohsu.edu"
+            },
+            {
+              "role": "CONTACT",
+              "phone": "503-494-8573"
+            },
+            {
+              "name": "Alexandra Zimmer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "University of Pennsylvania (U Penn)",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19104",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "215-614-1850"
+            },
+            {
+              "name": "Amy Clark, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "University Pittsburgh Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15213",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Sanford Clinical Research",
+          "status": "RECRUITING",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Amy Sanford, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "Vanderbilt University Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "27204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "University of Texas, Southwestern Medical Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390-9155",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "University of Texas, M.D. Anderson Cancer Center",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77230-1439",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Huntsman Cancer Institute, University of Utah",
+          "status": "RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84112",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christos Vaklavas, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Inova Health System",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Falls Church",
+          "state": "Virginia",
+          "zip": "22042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.88233,
+            "lon": -77.17109
+          }
+        },
+        {
+          "facility": "Swedish Cancer Institute",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "University of Washington",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "19440188",
+          "type": "BACKGROUND",
+          "citation": "Barker AD, Sigman CC, Kelloff GJ, Hylton NM, Berry DA, Esserman LJ. I-SPY 2: an adaptive breast cancer trial design in the setting of neoadjuvant chemotherapy. Clin Pharmacol Ther. 2009 Jul;86(1):97-100. doi: 10.1038/clpt.2009.68. Epub 2009 May 13."
+        },
+        {
+          "pmid": "22187281",
+          "type": "BACKGROUND",
+          "citation": "Esserman LJ, Woodcock J. Accelerating identification and regulatory approval of investigational cancer drugs. JAMA. 2011 Dec 21;306(23):2608-9. doi: 10.1001/jama.2011.1837. No abstract available."
+        },
+        {
+          "pmid": "22649152",
+          "type": "RESULT",
+          "citation": "Esserman LJ, Berry DA, DeMichele A, Carey L, Davis SE, Buxton M, Hudis C, Gray JW, Perou C, Yau C, Livasy C, Krontiras H, Montgomery L, Tripathy D, Lehman C, Liu MC, Olopade OI, Rugo HS, Carpenter JT, Dressler L, Chhieng D, Singh B, Mies C, Rabban J, Chen YY, Giri D, van 't Veer L, Hylton N. Pathologic complete response predicts recurrence-free survival more effectively by cancer subset: results from the I-SPY 1 TRIAL--CALGB 150007/150012, ACRIN 6657. J Clin Oncol. 2012 Sep 10;30(26):3242-9. doi: 10.1200/JCO.2011.39.2779. Epub 2012 May 29."
+        },
+        {
+          "pmid": "22623692",
+          "type": "RESULT",
+          "citation": "Hylton NM, Blume JD, Bernreuter WK, Pisano ED, Rosen MA, Morris EA, Weatherall PT, Lehman CD, Newstead GM, Polin S, Marques HS, Esserman LJ, Schnall MD; ACRIN 6657 Trial Team and I-SPY 1 TRIAL Investigators. Locally advanced breast cancer: MR imaging for prediction of response to neoadjuvant chemotherapy--results from ACRIN 6657/I-SPY TRIAL. Radiology. 2012 Jun;263(3):663-72. doi: 10.1148/radiol.12110748."
+        },
+        {
+          "pmid": "21796368",
+          "type": "RESULT",
+          "citation": "Lin C, Buxton MB, Moore D, Krontiras H, Carey L, DeMichele A, Montgomery L, Tripathy D, Lehman C, Liu M, Olapade O, Yau C, Berry D, Esserman LJ; I-SPY TRIAL Investigators. Locally advanced breast cancers are more likely to present as Interval Cancers: results from the I-SPY 1 TRIAL (CALGB 150007/150012, ACRIN 6657, InterSPORE Trial). Breast Cancer Res Treat. 2012 Apr;132(3):871-9. doi: 10.1007/s10549-011-1670-4. Epub 2011 Jul 28."
+        },
+        {
+          "pmid": "22198468",
+          "type": "RESULT",
+          "citation": "Esserman LJ, Berry DA, Cheang MC, Yau C, Perou CM, Carey L, DeMichele A, Gray JW, Conway-Dorsey K, Lenburg ME, Buxton MB, Davis SE, van't Veer LJ, Hudis C, Chin K, Wolf D, Krontiras H, Montgomery L, Tripathy D, Lehman C, Liu MC, Olopade OI, Rugo HS, Carpenter JT, Livasy C, Dressler L, Chhieng D, Singh B, Mies C, Rabban J, Chen YY, Giri D, Au A, Hylton N; I-SPY 1 TRIAL Investigators. Chemotherapy response and recurrence-free survival in neoadjuvant breast cancer depends on biomarker profiles: results from the I-SPY 1 TRIAL (CALGB 150007/150012; ACRIN 6657). Breast Cancer Res Treat. 2012 Apr;132(3):1049-62. doi: 10.1007/s10549-011-1895-2. Epub 2011 Dec 25."
+        },
+        {
+          "pmid": "41879562",
+          "type": "DERIVED",
+          "citation": "Teng X, Ma J, Zhang J, Zhao M, Meng X, Yin Y, Xiao H, Lai Q, Zhang X, Jiang Y, Cai J. Longitudinal DCE MRI Vascular Textures: Radiologic and Biologic Insights for pCR Prediction in HER2-Negative Breast Cancer. Radiol Artif Intell. 2026 May;8(3):e250734. doi: 10.1148/ryai.250734."
+        },
+        {
+          "pmid": "40777112",
+          "type": "DERIVED",
+          "citation": "Hensley M, Lengfeld J, Stoesz S, Edwards M, Pass F, Hirst GL, Brown-Swigart L, van 't Veer L, Esserman LJ, Beckwith H, Yee D. Detection of serum HER2 in patients treated with neratinib or trastuzumab: analysis of the I-SPY Trial. Front Oncol. 2025 Jul 24;15:1605120. doi: 10.3389/fonc.2025.1605120. eCollection 2025."
+        },
+        {
+          "pmid": "40679371",
+          "type": "DERIVED",
+          "citation": "Gilad M, Partridge SC, Iima M, Md RR, Freiman M. Radiomics-based Machine Learning Prediction of Neoadjuvant Chemotherapy Response in Breast Cancer Using Physiologically Decomposed Diffusion-weighted MRI. Radiol Imaging Cancer. 2025 Jul;7(4):e240312. doi: 10.1148/rycan.240312."
+        },
+        {
+          "pmid": "40639409",
+          "type": "DERIVED",
+          "citation": "Jing B, Wang J. A two-stage dual-task learning strategy for early prediction of pathological complete response to neoadjuvant chemotherapy for breast cancer using dynamic contrast-enhanced magnetic resonance images. Phys Med Biol. 2025 Jul 18;70(14):145030. doi: 10.1088/1361-6560/adee73."
+        },
+        {
+          "pmid": "40551254",
+          "type": "DERIVED",
+          "citation": "Leon-Ferre RA, Dimitroff K, Yau C, Giridhar KV, Mukhtar R, Hirst G, Hylton N, Perlmutter J, DeMichele A, Yee D, van 't Veer L, Rugo H, Symmans WF, Goetz MP, Esserman L, Boughey JC. Combined prognostic impact of initial clinical stage and residual cancer burden after neoadjuvant systemic therapy in triple-negative and HER2-positive breast cancer: an analysis of the I-SPY2 randomized clinical trial. Breast Cancer Res. 2025 Jun 23;27(1):115. doi: 10.1186/s13058-025-02070-1."
+        },
+        {
+          "pmid": "40526879",
+          "type": "DERIVED",
+          "citation": "Wolf DM, Yau C, Campbell M, Glas A, Barcaru A, Mittempergher L, Kuilman M, Brown-Swigart L, Hirst G, Basu A, Magbanua M, Sayaman R, Huppert L, Delson A; I-SPY2 Investigators; Symmans WF, Borowsky A, Pohlmann P, Rugo H, Clark A, Yee D, DeMichele A, Perlmutter J, Petricoin EF, Chien J, Stringer-Reasor E, Shatsky R, Liu M, Han H, Soliman H, Isaacs C, Nanda R, Hylton N, Pusztai L, Esserman L, van 't Veer L. Immune Subtyping Identifies Patients With Hormone Receptor-Positive Early-Stage Breast Cancer Who Respond to Neoadjuvant Immunotherapy (IO): Results From Five IO Arms of the I-SPY2 Trial. JCO Precis Oncol. 2025 Jun;9:e2400776. doi: 10.1200/PO-24-00776. Epub 2025 Jun 17."
+        },
+        {
+          "pmid": "39625569",
+          "type": "DERIVED",
+          "citation": "Rugo HS, Campbell M, Yau C, Jo Chien A, Wallace AM, Isaacs C, Boughey JC, Han HS, Buxton M, Clennell JL, Asare SM, Steeg K, Wilson A, Singhrao R, Matthews JB, Perlmutter J, Fraser Symmans W, Hylton NM, DeMichele AM, Yee D, Van't Veer LJ, Berry DA, Esserman LJ. Pexidartinib and standard neoadjuvant therapy in the adaptively randomized I-SPY2 trial for early breast cancer. Breast Cancer Res Treat. 2025 Feb;209(3):487-492. doi: 10.1007/s10549-024-07555-9. Epub 2024 Dec 3."
+        },
+        {
+          "pmid": "39613746",
+          "type": "DERIVED",
+          "citation": "Rediti M, Venet D, Joaquin Garcia A, Maetens M, Vincent D, Majjaj S, El-Abed S, Di Cosimo S, Ueno T, Izquierdo M, Piccart M, Pusztai L, Loi S, Salgado R, Viale G, Rothe F, Sotiriou C. Identification of HER2-positive breast cancer molecular subtypes with potential clinical implications in the ALTTO clinical trial. Nat Commun. 2024 Nov 29;15(1):10402. doi: 10.1038/s41467-024-54621-3."
+        },
+        {
+          "pmid": "39277672",
+          "type": "DERIVED",
+          "citation": "Shatsky RA, Trivedi MS, Yau C, Nanda R, Rugo HS, Davidian M, Tsiatis B, Wallace AM, Chien AJ, Stringer-Reasor E, Boughey JC, Omene C, Rozenblit M, Kalinsky K, Elias AD, Vaklavas C, Beckwith H, Williams N, Arora M, Nangia C, Roussos Torres ET, Thomas B, Albain KS, Clark AS, Falkson C, Hershman DL, Isaacs C, Thomas A, Tseng J, Sanford A, Yeung K, Boles S, Chen YY, Huppert L, Jahan N, Parker C, Giridhar K, Howard FM, Blackwood MM, Sanft T, Li W, Onishi N, Asare AL, Beineke P, Norwood P, Brown-Swigart L, Hirst GL, Matthews JB, Moore B, Symmans WF, Price E, Heditsian D, LeStage B, Perlmutter J, Pohlmann P, DeMichele A, Yee D, van 't Veer LJ, Hylton NM, Esserman LJ. Datopotamab-deruxtecan plus durvalumab in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial. Nat Med. 2024 Dec;30(12):3737-3747. doi: 10.1038/s41591-024-03267-1. Epub 2024 Sep 14."
+        },
+        {
+          "pmid": "39277671",
+          "type": "DERIVED",
+          "citation": "Khoury K, Meisel JL, Yau C, Rugo HS, Nanda R, Davidian M, Tsiatis B, Chien AJ, Wallace AM, Arora M, Rozenblit M, Hershman DL, Zimmer A, Clark AS, Beckwith H, Elias AD, Stringer-Reasor E, Boughey JC, Nangia C, Vaklavas C, Omene C, Albain KS, Kalinsky KM, Isaacs C, Tseng J, Roussos Torres ET, Thomas B, Thomas A, Sanford A, Balassanian R, Ewing C, Yeung K, Sauder C, Sanft T, Pusztai L, Trivedi MS, Outhaythip A, Li W, Onishi N, Asare AL, Beineke P, Norwood P, Brown-Swigart L, Hirst GL, Matthews JB, Moore B, Fraser Symmans W, Price E, Beedle C, Perlmutter J, Pohlmann P, Shatsky RA, DeMichele A, Yee D, van 't Veer LJ, Hylton NM, Esserman LJ. Datopotamab-deruxtecan in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial. Nat Med. 2024 Dec;30(12):3728-3736. doi: 10.1038/s41591-024-03266-2. Epub 2024 Sep 14."
+        },
+        {
+          "pmid": "39158353",
+          "type": "DERIVED",
+          "citation": "Northrop A, Christofferson A, Umashankar S, Melisko M, Castillo P, Brown T, Heditsian D, Brain S, Simmons C, Hieken T, Ruddy KJ, Mainor C, Afghahi A, Tevis S, Blaes A, Kang I, Asare A, Esserman L, Hershman DL, Basu A. Implementation and impact of an electronic patient reported outcomes system in a phase II multi-site adaptive platform clinical trial for early-stage breast cancer. J Am Med Inform Assoc. 2025 Jan 1;32(1):172-180. doi: 10.1093/jamia/ocae190."
+        },
+        {
+          "pmid": "38745646",
+          "type": "DERIVED",
+          "citation": "Xu J, Gao H, Guan X, Meng J, Ding S, Long Q, Yi W. Circulating tumor DNA: from discovery to clinical application in breast cancer. Front Immunol. 2024 Apr 30;15:1355887. doi: 10.3389/fimmu.2024.1355887. eCollection 2024."
+        },
+        {
+          "pmid": "38180338",
+          "type": "DERIVED",
+          "citation": "Li W, Partridge SC, Newitt DC, Steingrimsson J, Marques HS, Bolan PJ, Hirano M, Bearce BA, Kalpathy-Cramer J, Boss MA, Teng X, Zhang J, Cai J, Kontos D, Cohen EA, Mankowski WC, Liu M, Ha R, Pellicer-Valero OJ, Maier-Hein K, Rabinovici-Cohen S, Tlusty T, Ozery-Flato M, Parekh VS, Jacobs MA, Yan R, Sung K, Kazerouni AS, DiCarlo JC, Yankeelov TE, Chenevert TL, Hylton NM. Breast Multiparametric MRI for Prediction of Neoadjuvant Chemotherapy Response in Breast Cancer: The BMMR2 Challenge. Radiol Imaging Cancer. 2024 Jan;6(1):e230033. doi: 10.1148/rycan.230033."
+        },
+        {
+          "pmid": "38086377",
+          "type": "DERIVED",
+          "citation": "Gallagher RI, Wulfkuhle J, Wolf DM, Brown-Swigart L, Yau C, O'Grady N, Basu A, Lu R, Campbell MJ, Magbanua MJ, Coppe JP; I-SPY 2 Investigators; Asare SM, Sit L, Matthews JB, Perlmutter J, Hylton N, Liu MC, Symmans WF, Rugo HS, Isaacs C, DeMichele AM, Yee D, Pohlmann PR, Hirst GL, Esserman LJ, van 't Veer LJ, Petricoin EF. Protein signaling and drug target activation signatures to guide therapy prioritization: Therapeutic resistance and sensitivity in the I-SPY 2 Trial. Cell Rep Med. 2023 Dec 19;4(12):101312. doi: 10.1016/j.xcrm.2023.101312. Epub 2023 Dec 11."
+        },
+        {
+          "pmid": "37505107",
+          "type": "DERIVED",
+          "citation": "Onishi N, Bareng TJ, Gibbs J, Li W, Price ER, Joe BN, Kornak J, Esserman LJ, Newitt DC, Hylton NM; I-SPY 2 Imaging Working Group; I-SPY 2 Investigator Network. Effect of Longitudinal Variation in Tumor Volume Estimation for MRI-guided Personalization of Breast Cancer Neoadjuvant Treatment. Radiol Imaging Cancer. 2023 Jul;5(4):e220126. doi: 10.1148/rycan.220126."
+        },
+        {
+          "pmid": "37325931",
+          "type": "DERIVED",
+          "citation": "Mukhtar RA, Chau H, Woriax H, Piltin M, Ahrendt G, Tchou J, Yu H, Ding Q, Dugan CL, Sheade J, Crown A, Carr M, Wong J, Son J, Yang R, Chan T, Terando A, Alvarado M, Ewing C, Tonneson J, Tamirisa N, Gould R, Singh P, Godellas C, Larson K, Chiba A, Rao R, Sauder C, Postlewait L, Lee MC, Symmans WF, Esserman LJ, Boughey JC; ISPY-2 Locoregional Working Group. Breast Conservation Surgery and Mastectomy Have Similar Locoregional Recurrence After Neoadjuvant Chemotherapy: Results From 1462 Patients on the Prospective, Randomized I-SPY2 Trial. Ann Surg. 2023 Sep 1;278(3):320-327. doi: 10.1097/SLA.0000000000005968. Epub 2023 Jun 16."
+        },
+        {
+          "pmid": "37029329",
+          "type": "DERIVED",
+          "citation": "Parker BA, Shatsky RA, Schwab RB, Wallace AM; I-SPY 2 Consortium; Wolf DM, Hirst GL, Brown-Swigart L, Esserman LJ, van 't Veer LJ, Ghia EM, Yau C, Kipps TJ. Association of baseline ROR1 and ROR2 gene expression with clinical outcomes in the I-SPY2 neoadjuvant breast cancer trial. Breast Cancer Res Treat. 2023 Jun;199(2):281-291. doi: 10.1007/s10549-023-06914-2. Epub 2023 Apr 8."
+        },
+        {
+          "pmid": "36456573",
+          "type": "DERIVED",
+          "citation": "Lang JE, Forero-Torres A, Yee D, Yau C, Wolf D, Park J, Parker BA, Chien AJ, Wallace AM, Murthy R, Albain KS, Ellis ED, Beckwith H, Haley BB, Elias AD, Boughey JC, Yung RL, Isaacs C, Clark AS, Han HS, Nanda R, Khan QJ, Edmiston KK, Stringer-Reasor E, Price E, Joe B, Liu MC, Brown-Swigart L, Petricoin EF, Wulfkuhle JD, Buxton M, Clennell JL, Sanil A, Berry S, Asare SM, Wilson A, Hirst GL, Singhrao R, Asare AL, Matthews JB, Melisko M, Perlmutter J, Rugo HS, Symmans WF, van 't Veer LJ, Hylton NM, DeMichele AM, Berry DA, Esserman LJ. Safety and efficacy of HSP90 inhibitor ganetespib for neoadjuvant treatment of stage II/III breast cancer. NPJ Breast Cancer. 2022 Dec 1;8(1):128. doi: 10.1038/s41523-022-00493-z."
+        },
+        {
+          "pmid": "36069821",
+          "type": "DERIVED",
+          "citation": "Osdoit M, Yau C, Symmans WF, Boughey JC, Ewing CA, Balassanian R, Chen YY, Krings G, Wallace AM, Zare S, Fadare O, Lancaster R, Wei S, Godellas CV, Tang P, Tuttle TM, Klein M, Sahoo S, Hieken TJ, Carter JM, Chen B, Ahrendt G, Tchou J, Feldman M, Tousimis E, Zeck J, Jaskowiak N, Sattar H, Naik AM, Lee MC, Rosa M, Khazai L, Rendi MH, Lang JE, Lu J, Tawfik O, Asare SM, Esserman LJ, Mukhtar RA. Association of Residual Ductal Carcinoma In Situ With Breast Cancer Recurrence in the Neoadjuvant I-SPY2 Trial. JAMA Surg. 2022 Nov 1;157(11):1034-1041. doi: 10.1001/jamasurg.2022.4118."
+        },
+        {
+          "pmid": "35993306",
+          "type": "DERIVED",
+          "citation": "Trapani D, Ferraro E, Giugliano F, Boscolo Bielo L, Curigliano G, Burstein HJ. Postneoadjuvant treatment for triple-negative breast cancer. Curr Opin Oncol. 2022 Nov 1;34(6):623-634. doi: 10.1097/CCO.0000000000000893. Epub 2022 Aug 19."
+        },
+        {
+          "pmid": "35623341",
+          "type": "DERIVED",
+          "citation": "Wolf DM, Yau C, Wulfkuhle J, Brown-Swigart L, Gallagher RI, Lee PRE, Zhu Z, Magbanua MJ, Sayaman R, O'Grady N, Basu A, Delson A, Coppe JP, Lu R, Braun J; I-SPY2 Investigators; Asare SM, Sit L, Matthews JB, Perlmutter J, Hylton N, Liu MC, Pohlmann P, Symmans WF, Rugo HS, Isaacs C, DeMichele AM, Yee D, Berry DA, Pusztai L, Petricoin EF, Hirst GL, Esserman LJ, van 't Veer LJ. Redefining breast cancer subtypes to guide treatment prioritization and maximize response: Predictive biomarkers across 10 cancer therapies. Cancer Cell. 2022 Jun 13;40(6):609-623.e6. doi: 10.1016/j.ccell.2022.05.005. Epub 2022 May 26."
+        },
+        {
+          "pmid": "34741021",
+          "type": "DERIVED",
+          "citation": "Engebraaten O, Yau C, Berg K, Borgen E, Garred O, Berstad MEB, Fremstedal ASV, DeMichele A, Veer LV', Esserman L, Weyergang A. RAB5A expression is a predictive biomarker for trastuzumab emtansine in breast cancer. Nat Commun. 2021 Nov 5;12(1):6427. doi: 10.1038/s41467-021-26018-z."
+        },
+        {
+          "pmid": "34529000",
+          "type": "DERIVED",
+          "citation": "Symmans WF, Yau C, Chen YY, Balassanian R, Klein ME, Pusztai L, Nanda R, Parker BA, Datnow B, Krings G, Wei S, Feldman MD, Duan X, Chen B, Sattar H, Khazai L, Zeck JC, Sams S, Mhawech-Fauceglia P, Rendi M, Sahoo S, Ocal IT, Fan F, LeBeau LG, Vinh T, Troxell ML, Chien AJ, Wallace AM, Forero-Torres A, Ellis E, Albain KS, Murthy RK, Boughey JC, Liu MC, Haley BB, Elias AD, Clark AS, Kemmer K, Isaacs C, Lang JE, Han HS, Edmiston K, Viscusi RK, Northfelt DW, Khan QJ, Leyland-Jones B, Venters SJ, Shad S, Matthews JB, Asare SM, Buxton M, Asare AL, Rugo HS, Schwab RB, Helsten T, Hylton NM, van 't Veer L, Perlmutter J, DeMichele AM, Yee D, Berry DA, Esserman LJ. Assessment of Residual Cancer Burden and Event-Free Survival in Neoadjuvant Treatment for High-risk Breast Cancer: An Analysis of Data From the I-SPY2 Randomized Clinical Trial. JAMA Oncol. 2021 Nov 1;7(11):1654-1663. doi: 10.1001/jamaoncol.2021.3690."
+        },
+        {
+          "pmid": "32701140",
+          "type": "DERIVED",
+          "citation": "I-SPY2 Trial Consortium; Yee D, DeMichele AM, Yau C, Isaacs C, Symmans WF, Albain KS, Chen YY, Krings G, Wei S, Harada S, Datnow B, Fadare O, Klein M, Pambuccian S, Chen B, Adamson K, Sams S, Mhawech-Fauceglia P, Magliocco A, Feldman M, Rendi M, Sattar H, Zeck J, Ocal IT, Tawfik O, LeBeau LG, Sahoo S, Vinh T, Chien AJ, Forero-Torres A, Stringer-Reasor E, Wallace AM, Pusztai L, Boughey JC, Ellis ED, Elias AD, Lu J, Lang JE, Han HS, Clark AS, Nanda R, Northfelt DW, Khan QJ, Viscusi RK, Euhus DM, Edmiston KK, Chui SY, Kemmer K, Park JW, Liu MC, Olopade O, Leyland-Jones B, Tripathy D, Moulder SL, Rugo HS, Schwab R, Lo S, Helsten T, Beckwith H, Haugen P, Hylton NM, Van't Veer LJ, Perlmutter J, Melisko ME, Wilson A, Peterson G, Asare AL, Buxton MB, Paoloni M, Clennell JL, Hirst GL, Singhrao R, Steeg K, Matthews JB, Asare SM, Sanil A, Berry SM, Esserman LJ, Berry DA. Association of Event-Free and Distant Recurrence-Free Survival With Individual-Level Pathologic Complete Response in Neoadjuvant Treatment of Stages 2 and 3 Breast Cancer: Three-Year Follow-up Analysis for the I-SPY2 Adaptively Randomized Clinical Trial. JAMA Oncol. 2020 Sep 1;6(9):1355-1362. doi: 10.1001/jamaoncol.2020.2535."
+        },
+        {
+          "pmid": "32450725",
+          "type": "DERIVED",
+          "citation": "Perez-Garcia J, Soberino J, Racca F, Gion M, Stradella A, Cortes J. Atezolizumab in the treatment of metastatic triple-negative breast cancer. Expert Opin Biol Ther. 2020 Sep;20(9):981-989. doi: 10.1080/14712598.2020.1769063. Epub 2020 May 25."
+        },
+        {
+          "pmid": "32053137",
+          "type": "DERIVED",
+          "citation": "Nanda R, Liu MC, Yau C, Shatsky R, Pusztai L, Wallace A, Chien AJ, Forero-Torres A, Ellis E, Han H, Clark A, Albain K, Boughey JC, Jaskowiak NT, Elias A, Isaacs C, Kemmer K, Helsten T, Majure M, Stringer-Reasor E, Parker C, Lee MC, Haddad T, Cohen RN, Asare S, Wilson A, Hirst GL, Singhrao R, Steeg K, Asare A, Matthews JB, Berry S, Sanil A, Schwab R, Symmans WF, van 't Veer L, Yee D, DeMichele A, Hylton NM, Melisko M, Perlmutter J, Rugo HS, Berry DA, Esserman LJ. Effect of Pembrolizumab Plus Neoadjuvant Chemotherapy on Pathologic Complete Response in Women With Early-Stage Breast Cancer: An Analysis of the Ongoing Phase 2 Adaptively Randomized I-SPY2 Trial. JAMA Oncol. 2020 May 1;6(5):676-684. doi: 10.1001/jamaoncol.2019.6650."
+        },
+        {
+          "pmid": "32031889",
+          "type": "DERIVED",
+          "citation": "Chien AJ, Tripathy D, Albain KS, Symmans WF, Rugo HS, Melisko ME, Wallace AM, Schwab R, Helsten T, Forero-Torres A, Stringer-Reasor E, Ellis ED, Kaplan HG, Nanda R, Jaskowiak N, Murthy R, Godellas C, Boughey JC, Elias AD, Haley BB, Kemmer K, Isaacs C, Clark AS, Lang JE, Lu J, Korde L, Edmiston KK, Northfelt DW, Viscusi RK, Yee D, Perlmutter J, Hylton NM, Van't Veer LJ, DeMichele A, Wilson A, Peterson G, Buxton MB, Paoloni M, Clennell J, Berry S, Matthews JB, Steeg K, Singhrao R, Hirst GL, Sanil A, Yau C, Asare SM, Berry DA, Esserman LJ; I-SPY 2 Consortium. MK-2206 and Standard Neoadjuvant Chemotherapy Improves Response in Patients With Human Epidermal Growth Factor Receptor 2-Positive and/or Hormone Receptor-Negative Breast Cancers in the I-SPY 2 Trial. J Clin Oncol. 2020 Apr 1;38(10):1059-1069. doi: 10.1200/JCO.19.01027. Epub 2019 Feb 7."
+        },
+        {
+          "pmid": "28851423",
+          "type": "DERIVED",
+          "citation": "Severson TM, Wolf DM, Yau C, Peeters J, Wehkam D, Schouten PC, Chin SF, Majewski IJ, Michaut M, Bosma A, Pereira B, Bismeijer T, Wessels L, Caldas C, Bernards R, Simon IM, Glas AM, Linn S, van 't Veer L. The BRCA1ness signature is associated significantly with response to PARP inhibitor treatment versus control in the I-SPY 2 randomized neoadjuvant setting. Breast Cancer Res. 2017 Aug 25;19(1):99. doi: 10.1186/s13058-017-0861-2."
+        },
+        {
+          "pmid": "27406347",
+          "type": "DERIVED",
+          "citation": "Rugo HS, Olopade OI, DeMichele A, Yau C, van 't Veer LJ, Buxton MB, Hogarth M, Hylton NM, Paoloni M, Perlmutter J, Symmans WF, Yee D, Chien AJ, Wallace AM, Kaplan HG, Boughey JC, Haddad TC, Albain KS, Liu MC, Isaacs C, Khan QJ, Lang JE, Viscusi RK, Pusztai L, Moulder SL, Chui SY, Kemmer KA, Elias AD, Edmiston KK, Euhus DM, Haley BB, Nanda R, Northfelt DW, Tripathy D, Wood WC, Ewing C, Schwab R, Lyandres J, Davis SE, Hirst GL, Sanil A, Berry DA, Esserman LJ; I-SPY 2 Investigators. Adaptive Randomization of Veliparib-Carboplatin Treatment in Breast Cancer. N Engl J Med. 2016 Jul 7;375(1):23-34. doi: 10.1056/NEJMoa1513749."
+        },
+        {
+          "pmid": "27406346",
+          "type": "DERIVED",
+          "citation": "Park JW, Liu MC, Yee D, Yau C, van 't Veer LJ, Symmans WF, Paoloni M, Perlmutter J, Hylton NM, Hogarth M, DeMichele A, Buxton MB, Chien AJ, Wallace AM, Boughey JC, Haddad TC, Chui SY, Kemmer KA, Kaplan HG, Isaacs C, Nanda R, Tripathy D, Albain KS, Edmiston KK, Elias AD, Northfelt DW, Pusztai L, Moulder SL, Lang JE, Viscusi RK, Euhus DM, Haley BB, Khan QJ, Wood WC, Melisko M, Schwab R, Helsten T, Lyandres J, Davis SE, Hirst GL, Sanil A, Esserman LJ, Berry DA; I-SPY 2 Investigators. Adaptive Randomization of Neratinib in Early Breast Cancer. N Engl J Med. 2016 Jul 7;375(1):11-22. doi: 10.1056/NEJMoa1513750."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "I-SPY 2 TRIAL Website",
+          "url": "http://www.ispy2.org"
+        },
+        {
+          "label": "Abstract S5-02 SABCC 2014",
+          "url": "http://d3ciwvs59ifrt8.cloudfront.net/6cac4f3d-e0de-4924-9f2a-9b5b95ea9a0d/25399142-2af5-4a8e-8a21-184e5fc141c7.pdf"
+        },
+        {
+          "label": "Abstract CT227 AACR 2014",
+          "url": "http://d3ciwvs59ifrt8.cloudfront.net/6cac4f3d-e0de-4924-9f2a-9b5b95ea9a0d/e8745ff8-6e60-412c-8e14-930a42d1f477.pdf"
+        },
+        {
+          "label": "Abstract P1-14-03; SABCC 2015",
+          "url": "http://d3ciwvs59ifrt8.cloudfront.net/6cac4f3d-e0de-4924-9f2a-9b5b95ea9a0d/30b6e099-e50c-48dd-a733-2ecb9f7bc6a3.pdf"
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Canada"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D006394",
+          "term": "Hemangiosarcoma"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D000095384",
+          "term": "Pathologic Complete Response"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D018204",
+          "term": "Neoplasms, Connective and Soft Tissue"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009383",
+          "term": "Neoplasms, Vascular Tissue"
+        },
+        {
+          "id": "D018450",
+          "term": "Disease Progression"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "C551398",
+          "term": "trebananib"
+        },
+        {
+          "id": "D000068878",
+          "term": "Trastuzumab"
+        },
+        {
+          "id": "C545764",
+          "term": "ganitumab"
+        },
+        {
+          "id": "C548887",
+          "term": "MK 2206"
+        },
+        {
+          "id": "D000080044",
+          "term": "Ado-Trastuzumab Emtansine"
+        },
+        {
+          "id": "C485206",
+          "term": "pertuzumab"
+        },
+        {
+          "id": "C533237",
+          "term": "STA 9090"
+        },
+        {
+          "id": "C521013",
+          "term": "veliparib"
+        },
+        {
+          "id": "C487932",
+          "term": "neratinib"
+        },
+        {
+          "id": "C000600259",
+          "term": "pexidartinib"
+        },
+        {
+          "id": "C586365",
+          "term": "talazoparib"
+        },
+        {
+          "id": "D000077146",
+          "term": "Irinotecan"
+        },
+        {
+          "id": "C585471",
+          "term": "patritumab"
+        },
+        {
+          "id": "C000600157",
+          "term": "SGN-LIV1A"
+        },
+        {
+          "id": "C000613593",
+          "term": "durvalumab"
+        },
+        {
+          "id": "C531550",
+          "term": "olaparib"
+        },
+        {
+          "id": "C582435",
+          "term": "pembrolizumab"
+        },
+        {
+          "id": "C000705452",
+          "term": "tucatinib"
+        },
+        {
+          "id": "C000627974",
+          "term": "cemiplimab"
+        },
+        {
+          "id": "C000708352",
+          "term": "trilaciclib"
+        },
+        {
+          "id": "C000656468",
+          "term": "trastuzumab duocarmazine"
+        },
+        {
+          "id": "C000719628",
+          "term": "dostarlimab"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "C000710874",
+          "term": "ARX788"
+        },
+        {
+          "id": "C000726995",
+          "term": "zanidatamab"
+        },
+        {
+          "id": "C111332",
+          "term": "Lasofoxifene"
+        },
+        {
+          "id": "C055492",
+          "term": "4-hydroxy-N-desmethyltamoxifen"
+        },
+        {
+          "id": "C545685",
+          "term": "niraparib"
+        },
+        {
+          "id": "C000592401",
+          "term": "sarilumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D008453",
+          "term": "Maytansine"
+        },
+        {
+          "id": "D018942",
+          "term": "Macrolides"
+        },
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D047029",
+          "term": "Lactams, Macrocyclic"
+        },
+        {
+          "id": "D047028",
+          "term": "Macrocyclic Compounds"
+        },
+        {
+          "id": "D002166",
+          "term": "Camptothecin"
+        },
+        {
+          "id": "D000470",
+          "term": "Alkaloids"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

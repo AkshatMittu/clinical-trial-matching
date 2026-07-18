@@ -1,0 +1,363 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03395899",
+      "orgStudyIdInfo": {
+        "id": "011604QM"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-004424-38",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Queen Mary University of London",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pre-operative Immunotherapy Combination Strategies in Breast Cancer",
+      "officialTitle": "A Phase II Study Investigating Preoperative Combination Strategies for Immunotherapy in Patients With Untreated, Operable ER+, HER2-negative Primary Breast Cancer",
+      "acronym": "ECLIPSE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-12-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-08-18",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-08-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-09-18",
+      "studyFirstSubmitQcDate": "2018-01-04",
+      "studyFirstPostDateStruct": {
+        "date": "2018-01-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-06-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-06-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Queen Mary University of London",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Kliniken Essen-Mitte",
+          "class": "OTHER"
+        },
+        {
+          "name": "MedSIR",
+          "class": "OTHER"
+        },
+        {
+          "name": "Asan Medical Center",
+          "class": "OTHER"
+        },
+        {
+          "name": "Hoffmann-La Roche",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "International, open label, window of opportunity phase II trial that aims to evaluate the effects of immunotherapy based treatment combinations in women with untreated, histologically confirmed, operable, ER+, HER2-negative breast cancer.",
+      "detailedDescription": "ECLIPSE is an international, open label, window of opportunity phase II trial that aims to evaluate the effects of immunotherapy based treatment combinations in women with untreated, histologically confirmed, operable, ER+, HER2-negative breast cancer. The study is designed with the flexibility to open new treatment arms as new treatments become available, or modify the patient population e.g. with regards to biomarker status. Only combinations with adequate safety data will be tested. The trial will include Luminal B and non-Luminal B patients irrespective of PD-L1 status, but the number of patients with non-Luminal B tumours will be capped at 50% of the total study population. Luminal B tumours will be defined as high Ki67 (\u226520%) and/or histological grade 3 or alternatively defined via PAM50 assay. All other types will be defined as non-Luminal B.\n\nEligible patients will be randomised with an approximately equal ratio (1:1:1:1) to one of four treatment arms (three experimental arms: (1) Atezolizumab + Cobimetinib, (2) Atezolizumab + Ipatasertib, (3) Atezolizumab + Cobimetinib + Bevacizumab and a control arm: Atezolizumab alone. Additional patients may be enrolled to ensure balance among treatment arms with respect to demographic and baseline characteristics, including potential predictive biomarkers, to enable further subgroup analysis. Thereafter, the randomisation ratio will depend on the number of experimental arms that are open for enrolment (e.g. if an arm is added or enrolment in an arm is suspended pending analysis of results. Randomisation will take into account arm-specific exclusion criteria and patients will be ineligible for a specific arm if they meet any of the exclusion criteria outlined for that arm.\n\nPatients will receive treatment for 3 weeks prior to surgery or neoadjuvant therapy. Thereafter, patients will either be considered for definitive surgery or primary medical treatment (e.g. neoadjuvant chemotherapy) at the discretion of the treating physician. Surgery or neoadjuvant chemotherapy should be started within 3 weeks (\u00b13 days) from the start of the study treatment. Patients will not be allowed to receive endocrine therapy prior to surgery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Estrogen Receptor-positive Breast Cancer"
+      ],
+      "keywords": [
+        "Atezolizumab",
+        "Bevacizumab",
+        "Cobimetinib",
+        "Ipatasertib",
+        "pre-operative",
+        "Window of opportunity"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "No masking - open label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 71,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Atezolizumab alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "1200mg of Atezolizumab D1 C1",
+          "interventionNames": [
+            "Drug: Atezolizumab"
+          ]
+        },
+        {
+          "label": "Atezolizumab + Cobimetinib",
+          "type": "EXPERIMENTAL",
+          "description": "Atezolizumab (1200mg IV D1 C1) + Cobimetinib (60mg PO D1 - 21 of C1)",
+          "interventionNames": [
+            "Drug: Atezolizumab",
+            "Drug: Cobimetinib"
+          ]
+        },
+        {
+          "label": "Atezolizumab + Ipatasertib",
+          "type": "EXPERIMENTAL",
+          "description": "Atezolizumab (1200mg IV D1 C1)+ Ipatasertib (400mg OD D1 - 21 of C1)",
+          "interventionNames": [
+            "Drug: Atezolizumab",
+            "Drug: Ipatasertib"
+          ]
+        },
+        {
+          "label": "Atezolizumab + Ipatasertib + Bevacizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Atezolizumab (1200mg IV D1 C1)+ Cobimetinib (60mg PO D1 - 21 of C1) + Bevacizumab (10mg/kg IV D1 C1)",
+          "interventionNames": [
+            "Drug: Atezolizumab",
+            "Drug: Ipatasertib",
+            "Drug: Bevacizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Atezolizumab",
+          "description": "PD-L1 antibody",
+          "armGroupLabels": [
+            "Atezolizumab + Cobimetinib",
+            "Atezolizumab + Ipatasertib",
+            "Atezolizumab + Ipatasertib + Bevacizumab",
+            "Atezolizumab alone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cobimetinib",
+          "description": "Highly selective small-molecule inhibitor of MEK1 and MEK2",
+          "armGroupLabels": [
+            "Atezolizumab + Cobimetinib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ipatasertib",
+          "description": "Selective, ATP-competitive small molecule inhibitor of all three isoforms of the serine/threonine kinase Akt",
+          "armGroupLabels": [
+            "Atezolizumab + Ipatasertib",
+            "Atezolizumab + Ipatasertib + Bevacizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Highly specific humanized monoclonal antibody that targets VEGF",
+          "armGroupLabels": [
+            "Atezolizumab + Ipatasertib + Bevacizumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "2-fold Increase in GzmB+ CD8+ T cell levels",
+          "timeFrame": "Baseline and at 3weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Status and changes of CD8 in pre- and end-of treatment tumour and/or blood samples",
+          "timeFrame": "Baseline and at 3weeks"
+        },
+        {
+          "measure": "Status and changes of PD-L1 in pre- and end-of treatment tumour and/or blood samples",
+          "timeFrame": "Baseline and at 3weeks"
+        },
+        {
+          "measure": "Percentage change in Ki67 expression between pre- and end of study-treatment tumour biopsies",
+          "timeFrame": "Baseline and at 3weeks"
+        },
+        {
+          "measure": "Percentage change in caspase3 expression",
+          "timeFrame": "Baseline and at 3weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Willing and able to provide written informed consent prior to study entry\n2. Female \u2265 18 years of age\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status 0 to 21\n4. Histologically confirmed operable primary breast cancer\n5. Palpable breast tumour of any size, or tumour with an ultrasound / MRI size of \u2265 1 cm or mammogram\n6. ER+ tumours defined as tumours with \u22651% of tumour cells positive for ER on IHC staining or an IHC score (Allred) of \u2265 3\n7. HER2-negative tumours defined as 0, 1+ or 2+ intensity on IHC and no evidence of amplification of the HER2 gene on ISH.\n8. Patients with either: (a) Luminal B breast cancer defined as: high Ki67 defined as \u226520% and /or histological grade 3 and / or Luminal B according to PAM50 assay or (b) Non-Luminal B breast cancer\n9. Adequate haematologic and end-organ function within 28 days prior to the first study treatment\n10. Patients of childbearing potential are eligible provided they have a negative serum or urine pregnancy test within 14 days of Day 1 Cycle 1 of study treatment, preferably as close to the first dose as possible. Patients must agree to use adequate contraception, defined as those methods with a failure rate of \\< 1 % per year, (IUD, oral contraceptive, sub dermal implant and double barrier (condom with a contraceptive sponge or contraceptive pessary) beginning 14 days before the first dose of study drug and for 5 months after the last dose of investigational product .\n11. Ability to comply with the protocol\n12. Representative formalin-fixed paraffin embedded (FFPE) breast tumour samples with an associated pathology report that are determined to be available and sufficient for central testing OR tumour accessible for biopsy.\n\nExclusion Criteria:\n\n1. Inflammatory breast cancer\n2. Concurrent use of HRT (HRT users must stop HRT a minimum of 28 days before the baseline diagnostic biopsy is taken).\n3. Previous systemic or local treatment for the new primary breast cancer currently under investigation (including surgery, radiotherapy, cytotoxic and endocrine treatments); prior treatment for previous breast cancer or other neoplasms is allowed as long as it was completed \u22651 year prior to Day 1 Cycle 1.\n4. Previous systemic treatment for other neoplasms within 1 year prior to randomisation..\n5. Patients with prior allogeneic stem cell or solid organ transplantation.\n6. Prior treatment with CD137 agonists, AKT inhibitors, anti-CTLA-4, anti-programmed death-1 (PD-1), or anti-PD-L1 therapeutic antibody or pathway-targeting agents.\n7. Patients must not have had oral or IV steroids for 14 days prior to study entry; the use of inhaled corticosteroids, physiologic replacement doses of glucocorticoids (i.e. for adrenal insufficiency) and mineralocorticoids (e.g. fludrocortisone) is allowed.\n8. Received therapeutic oral or intravenous antibiotics within 14 days prior to randomisation (Patients receiving prophylactic antibiotics (e.g., for prevention of a urinary tract infection or chronic obstructive pulmonary disease) are eligible).\n9. Administration of a live, attenuated vaccine (e.g., FluMist\u00ae) within 28 days prior to randomisation, treatment, or within 5 months following the last dose of atezolizumab.\n10. Treatment with systemic immunostimulatory agents (including but not limited to interferons or interleukin \\[IL\\] -2) within 28days or five half-lives of the drug, whichever is shorter, prior to enrolment.\n11. History of autoimmune disease including but not limited to myasthenia gravis, myositis, autoimmune hepatitis, systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, vascular thrombosis associated with antiphospholipid syndrome, Wegener's granulomatosis, Sj\u00f6gren's syndrome, Guillain-Barr\u00e9 syndrome, multiple sclerosis, vasculitis, or glomerulonephritis. Patients with autoimmune-related hypothyroidism on a stable dose of thyroid replacement therapy may be eligible for the study following discussion with the medical monitor.\n12. History of idiopathic pulmonary fibrosis (including pneumonitis or interstitial lung disease), drug-induced pneumonitis, organizing pneumonia (i.e., bronchiolitis obliterans, cryptogenic organizing pneumonia), or evidence of active pneumonitis on screening chest CT scan (History of radiation pneumonitis in the radiation field (fibrosis) is permitted).\n13. History of HIV infection\n14. Known active hepatitis infection (defined as having a positive hepatitis B surface antigen \\[HBsAg\\] test at screening) or hepatitis C. Patients with past hepatitis B virus (HBV) infection or resolved HBV infection (defined as having a negative HBsAg test and a positive antibody to hepatitis B core antigen \\[anti-HBc\\] antibody test) are eligible. Patients positive for hepatitis C virus (HCV) antibody are eligible only if polymerase chain reaction (PCR) is negative for HCV RNA.\n15. Active tuberculosis\n16. History of severe allergic, anaphylactic, or other hypersensitivity reactions to chimeric or humanized antibodies or fusion proteins\n17. Known hypersensitivity or allergy to biopharmaceuticals produced in Chinese hamster ovary cells or any component of the atezolizumab formulation.\n18. Any other disease, metabolic dysfunction, physical examination finding, or clinical laboratory finding that, in the investigator's opinion, gives reasonable suspicion of a disease or condition that contraindicates the use of an investigational drug, may affect the interpretation of the results, render the patient at high risk from treatment complications or interferes with obtaining informed consent.\n19. Psychological, familial, sociological or geographical conditions that do not permit compliance with the study protocol.\n20. Concurrent treatment with other experimental drugs or participation in another clinical trial with therapeutic intent within 28 days prior to randomisation.\n21. Pregnant and lactating female patients.\n22. Major surgical procedure within 4 weeks prior to randomisation or anticipation of need for a major surgical procedure during the course of the study other than for diagnosis.\n23. Malignancies other than breast cancer within 5 years prior to Cycle 1, Day 1, with the exception of those with a negligible risk of metastasis or death and treated with expected curative outcome (such as adequately treated carcinoma in situ of the cervix, basal or squamous cell skin cancer, or ductal carcinoma in situ treated surgically with curative intent)\n24. Severe infections within 28 days prior to enrolment in the study including but not limited to hospitalization for complications of infection, bacteraemia, or severe pneumonia.\n25. Significant cardiovascular disease, such as history of symptomatic congestive heart failure New York Heart Association cardiac disease (Class II or greater with a LVEF \\<50% by either ECHO or MUGA), myocardial infarction within 3 months prior to enrolment, severe cardiac arrhythmia requiring medication or severe conduction abnormalities, unstable arrhythmias, acute coronary syndromes (including unstable angina), or history of coronary angioplasty/stenting/bypass grafting within past 6 months.\n26. Patients with uncontrolled Type 1 diabetes mellitus. Patients with Type 1 diabetes controlled on a stable insulin regimen are eligible .\n27. Evidence of bleeding diathesis or coagulopathy.\n\nExclusion criteria for Atezolizumab + Cobimetinib arm\n\n1. Inability to swallow medication or malabsorption condition that would alter the absorption of orally administered medications.\n2. History of or symptoms of neurosensory retinal detachment, central serous chorioretinopathy, retinal vein occlusion or neovascular macular degeneration.\n3. Patients will be excluded from the study if they are currently known to have any of the following risk factors for ocular toxicity: (a) History of or ongoing serous retinopathy; (b) History of retinal vein occlusion (RVO)\n\nExclusion criteria for Atezolizumab + Ipatasertib arm\n\n1. Inability to swallow medication or malabsorption condition that would alter the absorption of orally administered medications.\n2. Clinically significant abnormalities of glucose metabolism\n3. History of or active inflammatory bowel disease (e.g., Crohn's disease and ulcerative colitis) or active bowel inflammation (e.g., diverticulitis).\n4. Treatment with strong CYP3A inhibitors or strong CYP3A inducers within 2 weeks or 5 drug-elimination half-lives, whichever is longer, prior to initiation of study drug.\n\nExclusion criteria for Atezolizumab + Cobimetinib + Bevacizumab arm\n\n1. Inability to swallow medication or malabsorption condition that would alter the absorption of orally administered medications.\n2. Known history or symptoms of neurosensory retinal detachment, central serous chorioretinopathy, retinal vein occlusion or neovascular macular degeneration.\n3. Patients will be excluded from the study if they are known to have any of the following risk factors for ocular toxicity: (a) History of or ongoing serous retinopathy; (b) History of retinal vein occlusion (RVO)\n4. Uncontrolled hypertension defined by systolic pressure \\> 150 mmHg and/or diastolic pressure \\> 110 mmHg, with or without anti-hypertensive medication Patients with initial blood pressure elevations are eligible if initiation or adjustment of anti-hypertensive medication lowers blood pressure to meet entry criteria.\n5. History of stroke or transient ischemic attack within 6 months prior to randomisation\n6. Clinically significant peripheral vascular disease (e.g., aortic aneurysm requiring surgical repair or recent peripheral arterial thrombosis) within 6 months prior to randomisation\n7. History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to randomisation.\n8. History of haemoptysis (\u2265 1/2 teaspoon of bright red blood per episode) or other serious haemorrhage or at risk of bleeding (gastrointestinal history of bleeds, gastrointestinal ulcers etc.) within 1 month prior to randomisation .\n9. Patients who have had major surgery (or where surgical wounds have not healed) within 28 days prior to C1 D1.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Peter Schmid",
+          "affiliation": "Queen Mary University of London",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Barts Health NHS Trust",
+          "city": "London",
+          "zip": "EC1M 6BQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "type": "RESULT",
+          "citation": "Schmid P, Kockx M, Kim S-B et al Dynamic changes of PD-L1 and T-cell activation in ECLIPSE: A phase II study investigating preoperative immune combination strategies in untreated, operable ER+ primary breast cancer. Cancer Res February 15 2021 (81) (4 Supplement) PD14-06."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000594389",
+          "term": "atezolizumab"
+        },
+        {
+          "id": "C574276",
+          "term": "cobimetinib"
+        },
+        {
+          "id": "C583616",
+          "term": "ipatasertib"
+        },
+        {
+          "id": "D000068258",
+          "term": "Bevacizumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

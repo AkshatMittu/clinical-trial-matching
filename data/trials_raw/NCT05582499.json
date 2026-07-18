@@ -1,0 +1,1622 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05582499",
+      "orgStudyIdInfo": {
+        "id": "FASCINATE-N"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Fudan University Shanghai Cancer Center Breast Cancer Precision Platform Series Study- Neoadjuvant Therapy",
+      "officialTitle": "Fudan University Shanghai Cancer Center Breast Cancer Precision Platform Series Study- Neoadjuvant Therapy (FASCINATE-N)",
+      "acronym": "FASCINATE-N"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-11-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-09-25",
+      "studyFirstSubmitQcDate": "2022-10-13",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhimin Shao",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to establish a prospective, single-center platform research based on clinical subtypes to explore precision neoadjuvant therapy in patients with operable breast cancer who met the indications for neoadjuvant chemotherapy and by the update of basic translational research in the center, especially the refinement of typing, the discovery of new targets and the development of novel targeted drugs, verified the effectiveness of new targeted drugs in neoadjuvant therapy.",
+      "detailedDescription": "FASCINATE-N is a platform that will compare the efficacy of novel drugs alone or in combination with standard chemotherapy with the efficacy of standard therapy alone. The goal is to identify improved treatment regimens for subsets on the basis of clinical subtyping. In this trial, breast cancer patients eligible for inclusion can be randomly divided into the precision treatment group and conventional neoadjuvant chemotherapy group according to molecular typing and subtyping. The research therapy arm can be updated with the update of basic translational research in our center, especially the refinement of typing, the discovery of new targets and the development of novel targeted drugs. As described for previous adaptive trials, regimens that show to be more effective than standard therapy will graduate from the trial with their corresponding biomarker signature(s). Regimens will be dropped if they show a low probability of improved efficacy with any biomarker signature. New drugs will enter as those that have undergone testing complete their evaluation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasm",
+        "Breast Cancer",
+        "Breast Tumors",
+        "Triple-Negative Breast Cancer (TNBC)",
+        "HER2-positive Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "Hormone Receptor Positive Tumor",
+        "Hormone Receptor Negative Tumor",
+        "Early-stage Breast Cancer",
+        "Locally Advanced Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 716,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "L1-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were hormone receptor-positive (HR+) and HER2-negative (HER2-) defined as similarity network fusion 1(SNF1) subtype",
+          "interventionNames": [
+            "Drug: Dalpiciclib",
+            "Drug: Goserelin",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "L1-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR+HER2- with SNF1 subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "L2-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR+HER2- with SNF2 subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "L3-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR+HER2- with SNF3 subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "L4-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR+HER2- with SNF4 subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "L4-low-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-low with SNF4 subtype",
+          "interventionNames": [
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "L4-low-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR+HER2-low with SNF4 subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "TN1-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were triple-negative breast cancer with immunomodulatory (IM) subtype",
+          "interventionNames": [
+            "Drug: Camrelizumab",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "TN1-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were triple-negative breast cancer with IM subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "TN2-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were triple-negative breast cancer with basal-like immune suppressed (BLIS) subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Fluzoparib"
+          ]
+        },
+        {
+          "label": "TN2-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were triple-negative breast cancer with BLIS subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "TN3-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were triple-negative breast cancer with androgen receptor positive HER2 activated (AR HER2) subtype",
+          "interventionNames": [
+            "Drug: Pyrotinib",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "TN3-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were triple-negative breast cancer with AR HER2 subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "TN4-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR-HER2-low",
+          "interventionNames": [
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "TN4-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR-HER2-low",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "TN5-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were triple-negative breast cancer with other subtypes",
+          "interventionNames": [
+            "Drug: SHR-A1921"
+          ]
+        },
+        {
+          "label": "TN5-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were triple-negative breast cancer with other subtypes",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "H1-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2+",
+          "interventionNames": [
+            "Drug: Pyrotinib",
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "H1-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR+HER2+",
+          "interventionNames": [
+            "Drug: Pertuzumab",
+            "Drug: Trastuzumab",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "H2-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR-HER2+",
+          "interventionNames": [
+            "Drug: Pyrotinib"
+          ]
+        },
+        {
+          "label": "H2-2",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "If patients were HR-HER2+",
+          "interventionNames": [
+            "Drug: Pertuzumab",
+            "Drug: Trastuzumab",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "L2-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 2 (SNF2) subtype",
+          "interventionNames": [
+            "Drug: SHR-1316",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "L3-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 3 (SNF3) subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Fluzoparib"
+          ]
+        },
+        {
+          "label": "L4-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 4 (SNF4) subtype",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Apatinib"
+          ]
+        },
+        {
+          "label": "TN5-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were triple-negative breast cancer with other subtypes",
+          "interventionNames": [
+            "Drug: SHR-1316",
+            "Drug: SHR-A1921"
+          ]
+        },
+        {
+          "label": "H1-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "H2-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR-HER2+",
+          "interventionNames": [
+            "Drug: Pyrotinib",
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "TN4-1.2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR-HER2-low",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: Camrelizumab",
+            "Drug: Famitinib"
+          ]
+        },
+        {
+          "label": "L2-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 2 (SNF2) subtype",
+          "interventionNames": [
+            "Drug: Dalpiciclib",
+            "Drug: Goserelin",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "L2-1.3",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 2 (SNF2) subtype",
+          "interventionNames": [
+            "Drug: SHR-1316",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Famitinib"
+          ]
+        },
+        {
+          "label": "L3-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 3 (SNF3) subtype",
+          "interventionNames": [
+            "Drug: Dalpiciclib",
+            "Drug: Goserelin",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "L4-1.1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2- with similarity network fusion 4 (SNF4) subtype",
+          "interventionNames": [
+            "Drug: SHR-A1921"
+          ]
+        },
+        {
+          "label": "L5-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-",
+          "interventionNames": [
+            "Drug: Cyclophosphamide",
+            "Drug: HB1801",
+            "Drug: LEM"
+          ]
+        },
+        {
+          "label": "L5-2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-",
+          "interventionNames": [
+            "Drug: Cyclophosphamide",
+            "Drug: HB1801",
+            "Drug: LEM"
+          ]
+        },
+        {
+          "label": "L6",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-low",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: SHR-1316",
+            "Drug: Famitinib"
+          ]
+        },
+        {
+          "label": "L7",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-low",
+          "interventionNames": [
+            "Drug: Famitinib",
+            "Drug: TQB2102",
+            "Drug: Benmelstobart"
+          ]
+        },
+        {
+          "label": "L8",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-",
+          "interventionNames": [
+            "Drug: TQB2102",
+            "Drug: Anlotinib",
+            "Drug: TQB2868"
+          ]
+        },
+        {
+          "label": "L9",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-low",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Ivonescimab"
+          ]
+        },
+        {
+          "label": "TN6-1",
+          "type": "EXPERIMENTAL",
+          "description": "TNBC",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: SHR-1316",
+            "Drug: Famitinib"
+          ]
+        },
+        {
+          "label": "TN6-2",
+          "type": "EXPERIMENTAL",
+          "description": "TNBC",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: SHR-1316"
+          ]
+        },
+        {
+          "label": "TN7-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR-HER2-low",
+          "interventionNames": [
+            "Drug: TQB2102",
+            "Drug: Benmelstobart"
+          ]
+        },
+        {
+          "label": "TN7-2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR-HER2-low",
+          "interventionNames": [
+            "Drug: TQB2102",
+            "Drug: Benmelstobart",
+            "Drug: Anlotinib"
+          ]
+        },
+        {
+          "label": "TN8",
+          "type": "EXPERIMENTAL",
+          "description": "TNBC",
+          "interventionNames": [
+            "Drug: TQB2102",
+            "Drug: TQB2868"
+          ]
+        },
+        {
+          "label": "TN9",
+          "type": "EXPERIMENTAL",
+          "description": "TNBC",
+          "interventionNames": [
+            "Drug: Carboplatin",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: paclitaxel"
+          ]
+        },
+        {
+          "label": "H3",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: JSKN003"
+          ]
+        },
+        {
+          "label": "H4-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: Pertuzumab",
+            "Drug: Trastuzumab",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "H4-2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "H4-3",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: Pertuzumab",
+            "Drug: Trastuzumab",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "H4-4",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: Pyrotinib",
+            "Drug: SHR-A1811"
+          ]
+        },
+        {
+          "label": "H5",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: SHR-4602"
+          ]
+        },
+        {
+          "label": "H6-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: HRS-4508"
+          ]
+        },
+        {
+          "label": "H6-2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: Pertuzumab",
+            "Drug: HRS-4508"
+          ]
+        },
+        {
+          "label": "L10",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-",
+          "interventionNames": [
+            "Drug: Nab paclitaxel",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: JS207"
+          ]
+        },
+        {
+          "label": "H8-1",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: Goserelin",
+            "Drug: Letrozole",
+            "Drug: HRS-6209"
+          ]
+        },
+        {
+          "label": "H8-2",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: Goserelin",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "TN10",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were TNBC",
+          "interventionNames": [
+            "Drug: JS207",
+            "Drug: 9MW2821"
+          ]
+        },
+        {
+          "label": "L11",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HR+HER2-",
+          "interventionNames": [
+            "Drug: JS207",
+            "Drug: 9MW2821"
+          ]
+        },
+        {
+          "label": "H9",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: Pertuzumab",
+            "Drug: Trastuzumab",
+            "Drug: paclitaxel"
+          ]
+        },
+        {
+          "label": "H10",
+          "type": "EXPERIMENTAL",
+          "description": "If patients were HER2+",
+          "interventionNames": [
+            "Drug: Pertuzumab",
+            "Drug: IBI354"
+          ]
+        },
+        {
+          "label": "TN6-3",
+          "type": "EXPERIMENTAL",
+          "description": "TNBC",
+          "interventionNames": [
+            "Drug: SHR-A1811",
+            "Drug: SHR-1316",
+            "Drug: Nab paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "TN11-1: TNBC patients predicted sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+          "type": "EXPERIMENTAL",
+          "description": "The TN11 arm explores AI-guided multidisciplinary precision therapy in TNBC. Patients are stratified using an established digital pathology-based AI model that predicts sensitivity to the combination therapy of Paclitaxel, Carboplatin, Camrelizumab and Famitinib. Patients predicted to be sensitive (TN11-1) receive this combination therapy directly.",
+          "interventionNames": [
+            "Drug: Camrelizumab",
+            "Drug: Carboplatin",
+            "Drug: Famitinib",
+            "Drug: paclitaxel"
+          ]
+        },
+        {
+          "label": "TN11-2: TNBC patients predicted non-sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+          "type": "EXPERIMENTAL",
+          "description": "TNBC patients predicted to be non-sensitive (TN11-2) to the combination therapy of Paclitaxel, Carboplatin, Camrelizumab and Famitinib first undergo stereotactic body radiation therapy (SBRT). SBRT is delivered to the primary tumor in 3 fractions of 8 Gy (total 24 Gy) over 3-5 days. Following SBRT, patients receive the combination therapy of Paclitaxel, Carboplatin, Camrelizumab and Famitinib.",
+          "interventionNames": [
+            "Drug: Camrelizumab",
+            "Drug: Carboplatin",
+            "Drug: Famitinib",
+            "Drug: paclitaxel",
+            "Radiation: Stereotactic Body Radiation Therapy (SBRT)"
+          ]
+        },
+        {
+          "label": "L12",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with HR+HER2- breast cancer, clinical stage cT1c-4, cN0-3, M0, with either tumor grade \u22652 or Ki-67 \u226520%. Patients first undergo stereotactic body radiotherapy (SBRT) to the primary tumor, followed by combination therapy of Paclitaxel + Epirubicin + Cyclophosphamide + Camrelizumab + Famitinib.",
+          "interventionNames": [
+            "Drug: Camrelizumab",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Famitinib",
+            "Drug: paclitaxel",
+            "Radiation: Stereotactic Body Radiation Therapy (SBRT)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dalpiciclib",
+          "description": "an oral cyclin-dependent kinases (CDK) 4/6 inhibitor",
+          "armGroupLabels": [
+            "L1-1",
+            "L2-1.1",
+            "L3-1.1"
+          ],
+          "otherNames": [
+            "SHR-6390"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pyrotinib",
+          "description": "an irreversible dual pan-erbb receptor tyrosine kinase receptor tyrosine kinase (ERBB) inhibitor",
+          "armGroupLabels": [
+            "H1-1.1",
+            "H2-1.1",
+            "H2-1.2",
+            "H4-4",
+            "TN3-1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SHR-A1811",
+          "description": "an anti-HER2 antibody-drug conjugate (ADC)",
+          "armGroupLabels": [
+            "H1-1.1",
+            "H1-1.2",
+            "H2-1.2",
+            "H4-1",
+            "H4-2",
+            "H4-4",
+            "H5",
+            "H6-1",
+            "H6-2",
+            "H8-1",
+            "H8-2",
+            "H9",
+            "L4-low-1",
+            "L6",
+            "TN4-1.1",
+            "TN4-1.2",
+            "TN6-1",
+            "TN6-2",
+            "TN6-3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SHR-1316",
+          "description": "an anti-programmed death ligand 1 (PD-L1) antibody",
+          "armGroupLabels": [
+            "L2-1.2",
+            "L2-1.3",
+            "L6",
+            "TN5-1.2",
+            "TN6-1",
+            "TN6-2",
+            "TN6-3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Camrelizumab",
+          "description": "an anti-programmed death-1 (PD1) antibody",
+          "armGroupLabels": [
+            "L12",
+            "TN1-1",
+            "TN11-1: TNBC patients predicted sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN11-2: TNBC patients predicted non-sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN4-1.2"
+          ],
+          "otherNames": [
+            "SHR-1210"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SHR-A1921",
+          "description": "Trophoblast cell-surface antigen 2 (TROP2) ADC",
+          "armGroupLabels": [
+            "L4-1.1",
+            "TN5-1.1",
+            "TN5-1.2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pertuzumab",
+          "description": "Pertuzumab",
+          "armGroupLabels": [
+            "H1-2",
+            "H10",
+            "H2-2",
+            "H4-1",
+            "H4-3",
+            "H6-2",
+            "H9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Trastuzumab",
+          "description": "Trastuzumab",
+          "armGroupLabels": [
+            "H1-2",
+            "H2-2",
+            "H4-1",
+            "H4-3",
+            "H9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Goserelin",
+          "description": "goserelin",
+          "armGroupLabels": [
+            "H8-1",
+            "H8-2",
+            "L1-1",
+            "L2-1.1",
+            "L3-1.1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "letrozole",
+          "armGroupLabels": [
+            "H8-1",
+            "H8-2",
+            "L1-1",
+            "L2-1.1",
+            "L3-1.1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nab paclitaxel",
+          "description": "Albumin paclitaxel",
+          "armGroupLabels": [
+            "H1-2",
+            "H2-2",
+            "H4-1",
+            "H4-3",
+            "L1-2",
+            "L10",
+            "L2-1.2",
+            "L2-1.3",
+            "L2-2",
+            "L3-1.2",
+            "L3-2",
+            "L4-1.2",
+            "L4-2",
+            "L4-low-2",
+            "L9",
+            "TN1-1",
+            "TN1-2",
+            "TN2-1",
+            "TN2-2",
+            "TN3-1",
+            "TN3-2",
+            "TN4-2",
+            "TN5-2",
+            "TN6-3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Carboplatin",
+          "armGroupLabels": [
+            "H1-2",
+            "H2-2",
+            "H4-1",
+            "H4-3",
+            "L1-2",
+            "L2-1.2",
+            "L2-1.3",
+            "L2-2",
+            "L3-1.2",
+            "L3-2",
+            "L4-1.2",
+            "L4-2",
+            "L4-low-2",
+            "L9",
+            "TN1-1",
+            "TN1-2",
+            "TN11-1: TNBC patients predicted sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN11-2: TNBC patients predicted non-sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN2-1",
+            "TN2-2",
+            "TN3-1",
+            "TN3-2",
+            "TN4-2",
+            "TN5-2",
+            "TN6-3",
+            "TN9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin",
+          "description": "Epirubicin",
+          "armGroupLabels": [
+            "L10",
+            "L12",
+            "L9",
+            "TN1-1",
+            "TN1-2",
+            "TN2-1",
+            "TN2-2",
+            "TN3-1",
+            "TN3-2",
+            "TN4-2",
+            "TN5-2",
+            "TN9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Cyclophosphamide",
+          "armGroupLabels": [
+            "L10",
+            "L12",
+            "L5-1",
+            "L5-2",
+            "L9",
+            "TN1-1",
+            "TN1-2",
+            "TN2-1",
+            "TN2-2",
+            "TN3-1",
+            "TN3-2",
+            "TN4-2",
+            "TN5-2",
+            "TN9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fluzoparib",
+          "description": "an original poly adenosine diphosphate-ribose polymerase (PARP) inhibitor",
+          "armGroupLabels": [
+            "L3-1.2",
+            "TN2-1"
+          ],
+          "otherNames": [
+            "SHR-3162"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Apatinib",
+          "description": "tyrosine kinase inhibitors",
+          "armGroupLabels": [
+            "L4-1.2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Famitinib",
+          "description": "tyrosine kinase inhibitors",
+          "armGroupLabels": [
+            "L12",
+            "L2-1.3",
+            "L6",
+            "L7",
+            "TN11-1: TNBC patients predicted sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN11-2: TNBC patients predicted non-sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN4-1.2",
+            "TN6-1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "HB1801",
+          "description": "Albumin docetaxel",
+          "armGroupLabels": [
+            "L5-1",
+            "L5-2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "LEM",
+          "description": "liposome-entrapped mitoxantrone",
+          "armGroupLabels": [
+            "L5-1",
+            "L5-2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "TQB2102",
+          "description": "an anti-HER2 ADC",
+          "armGroupLabels": [
+            "L7",
+            "L8",
+            "TN7-1",
+            "TN7-2",
+            "TN8"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Benmelstobart",
+          "description": "an anti-PDL1 antibody",
+          "armGroupLabels": [
+            "L7",
+            "TN7-1",
+            "TN7-2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anlotinib",
+          "description": "an tyrosine kinase inhibitor",
+          "armGroupLabels": [
+            "L8",
+            "TN7-2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "TQB2868",
+          "description": "anti-PD-1/TGF-\u03b2RII",
+          "armGroupLabels": [
+            "L8",
+            "TN8"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ivonescimab",
+          "description": "an anti-PD-1/VEGF bispecific antibody",
+          "armGroupLabels": [
+            "L9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "JS207",
+          "description": "an anti-PD-1/VEGF bispecific antibody",
+          "armGroupLabels": [
+            "L10",
+            "L11",
+            "TN10"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "JSKN003",
+          "description": "an anti-HER2 ADC",
+          "armGroupLabels": [
+            "H3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-4508",
+          "description": "an HER2 inhibitor",
+          "armGroupLabels": [
+            "H6-1",
+            "H6-2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "SHR-4602",
+          "description": "an anti-HER2 ADC",
+          "armGroupLabels": [
+            "H5"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "paclitaxel",
+          "description": "paclitaxel",
+          "armGroupLabels": [
+            "H9",
+            "L12",
+            "TN11-1: TNBC patients predicted sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN11-2: TNBC patients predicted non-sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI",
+            "TN9"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "HRS-6209",
+          "description": "an oral cyclin-dependent kinases 4 (CDK4) inhibitor",
+          "armGroupLabels": [
+            "H8-1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "9MW2821",
+          "description": "a Nectin-4 antibody-drug conjugate (ADC)",
+          "armGroupLabels": [
+            "L11",
+            "TN10"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "IBI354",
+          "description": "an anti-HER2 ADC",
+          "armGroupLabels": [
+            "H10"
+          ]
+        },
+        {
+          "type": "RADIATION",
+          "name": "Stereotactic Body Radiation Therapy (SBRT)",
+          "description": "Stereotactic Body Radiation Therapy (SBRT) is performed within 5 calendar days prior to the initiation of drug therapy. SBRT is delivered to the primary tumor in 3 fractions of 8 Gy each (total 24 Gy) over 3-5 days.",
+          "armGroupLabels": [
+            "L12",
+            "TN11-2: TNBC patients predicted non-sensitive to Paclitaxel+Carboplatin+Camrelizumab+Famitinib by AI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pathological complete response rate (pCR)",
+          "description": "Pathological complete response rate",
+          "timeFrame": "through study completion, up to 24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "invasive disease-free survival (iDFS)",
+          "description": "To determine three-year invasive disease-free survival (iDFS) among the treatment arms",
+          "timeFrame": "Three-year Post-surgery Follow-up"
+        },
+        {
+          "measure": "Overall response rate (ORR)",
+          "description": "Complete response (CR) + partial response (PR)",
+          "timeFrame": "up to 24 weeks"
+        },
+        {
+          "measure": "CTCAE scale (V4.0)",
+          "description": "4\\) To evaluate the rate of adverse effects of patient by the standard CTCAE scale (V4.0)",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Evaluate gene expression profile during treatment",
+          "description": "To measure gene expression profile of baseline and sequential tumor samples during treatment, through RNA-seq platform",
+          "timeFrame": "through study completion, up to 24 weeks"
+        },
+        {
+          "measure": "Number of peripheral blood mononuclear cells (PBMC) count during treatment",
+          "description": "To measure number of peripheral blood mononuclear cells (PBMC) count from baseline and sequential blood samples during treatment, through Flow CytoMetry platform",
+          "timeFrame": "through study completion, up to 24 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Biomarker analysis",
+          "description": "Tumor tissues, paracancerous tissues, ctDNA, blood, fecal samples, tumor pathological whole slide images and MRI images collected from study participants will be used for discovering exploratory biomarkers. The associations between these biomarkers and treatment responses disease status will be investigated.",
+          "timeFrame": "through study completion, up to 24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed invasive breast cancer of clinical stage T1-4N1-3M0 or cT2-4N0M0;\n* Age between18-70 years;\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-1;\n* ER, PR and HER2 status were measured by immunohistochemistry (IHC);\n* LVEF\u226555%\uff1b\n* Definition of SNF subtypes: SNF subtypes confirmed by digital pathology of H\\&E slices;\n* Triple negative subtyping: On the basis of triple-negative pathological diagnosis, AR, cluster of differentiation 8 (CD8) and Forkhead Box C1 (FOXC1) were combined to define the subtyping;\n* At least one measurable lesion according to RECIST version 1.1\n* Normal organ and marrow function: Hemoglobin (HB) \u226590 g/L (No blood was transfused within 14 days), Absolute neutrophil count \u2265 1500/\u03bcL, Platelets \u2265 75,000/\u03bcL, Total bilirubin \u2264 1.5 x ULN), aspartate aminotransferase (AST) (SGOT) and alanine aminotransferase (ALT) (SGPT) \u2264 3 x ULN, creatinine \\< 1 x ULN, endogenous creatinine clearance \\> 50 ml/min (Cockcroft-Gault formula);\n* Non-pregnant and non-lactating, fertile female subjects were required to use a medically approved contraceptive method for the duration of the study treatment and at least 3 months after the last use of the study drug;\n* Ability to understand and willingness to sign a written informed consent\n\nExclusion Criteria:\n\n* Previous cytotoxic chemotherapy, endocrine therapy, biological therapy or radiotherapy for any reason;\n* Patients with New York Heart Association (NYHA) grade II or above heart disease (including grade II);\n* Patients with severe systemic infections or other serious diseases;\n* Patients with known allergy or intolerance to the study drug or its excipients;\n* Other malignant tumors in the past 5 years, except cured cervical carcinoma in situ and non-melanoma skin cancer;\n* Pregnant or lactating patients of childbearing age who refused to take appropriate contraceptive measures during the course of the study;\n* Participated in other trial studies within 30 days before the administration of the first dose of the study drug;\n* Patients who were judged by the investigator to be unsuitable for this study.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zhimin Shao, Professor",
+          "role": "CONTACT",
+          "phone": "+86(021)64175590",
+          "email": "zhimingshao@yahoo.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Zhimin Shao, Professor",
+          "affiliation": "Fudan University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fudan University Shanghai Cancer Center Shanghai, China, 200032",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhimin Shao, M.D.",
+              "role": "CONTACT",
+              "phone": "+86-021-64175590",
+              "phoneExt": "88807",
+              "email": "zhimingshao@yahoo.com"
+            },
+            {
+              "name": "Min He, M.D",
+              "role": "CONTACT",
+              "phone": "+86-021-64175590",
+              "phoneExt": "88603",
+              "email": "minsmiler@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "38362377",
+          "type": "DERIVED",
+          "citation": "Zuo WJ, Chen L, Shen Y, Wang ZH, Liu GY, Yu KD, Di GH, Wu J, Li JJ, Shao ZM. Rational and trial design of FASCINATE-N: a prospective, randomized, precision-based umbrella trial. Ther Adv Med Oncol. 2024 Feb 14;16:17588359231225032. doi: 10.1177/17588359231225032. eCollection 2024."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000720752",
+          "term": "dalpiciclib"
+        },
+        {
+          "id": "C000622954",
+          "term": "pyrotinib"
+        },
+        {
+          "id": "C000631724",
+          "term": "camrelizumab"
+        },
+        {
+          "id": "C485206",
+          "term": "pertuzumab"
+        },
+        {
+          "id": "D000068878",
+          "term": "Trastuzumab"
+        },
+        {
+          "id": "D017273",
+          "term": "Goserelin"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D013660",
+          "term": "Taxes"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D015251",
+          "term": "Epirubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "C000722917",
+          "term": "fluzoparib"
+        },
+        {
+          "id": "C553458",
+          "term": "apatinib"
+        },
+        {
+          "id": "C584390",
+          "term": "famitinib"
+        },
+        {
+          "id": "C000625192",
+          "term": "anlotinib"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D016634",
+          "term": "Radiosurgery"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D004467",
+          "term": "Economics"
+        },
+        {
+          "id": "D004472",
+          "term": "Health Care Economics and Organizations"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D011878",
+          "term": "Radiotherapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D013238",
+          "term": "Stereotaxic Techniques"
+        },
+        {
+          "id": "D019635",
+          "term": "Neurosurgical Procedures"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,298 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05488145",
+      "orgStudyIdInfo": {
+        "id": "STUDY00004350"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2022-03205",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "STUDY00004350",
+          "type": "OTHER",
+          "domain": "Emory University Hospital/Winship Cancer Institute"
+        },
+        {
+          "id": "WINSHIP5532-22",
+          "type": "OTHER",
+          "domain": "Emory University Hospital/Winship Cancer Institute"
+        },
+        {
+          "id": "P30CA138292",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30CA138292"
+        }
+      ],
+      "organization": {
+        "fullName": "Emory University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Feasibility Trial of a Web Based App Intervention in Hormone Positive Breast Cancer Patients to Improve Adherence to Endocrine Therapy",
+      "officialTitle": "A Feasibility Trial of a Web Based App Intervention in Hormone Positive Breast Cancer Patients to Improve Adherence to Endocrine Therapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Insufficient Staff",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-07-01",
+      "studyFirstSubmitQcDate": "2022-08-02",
+      "studyFirstPostDateStruct": {
+        "date": "2022-08-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Jane Meisel",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Emory University"
+      },
+      "leadSponsor": {
+        "name": "Emory University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial looks at the use of an internet-based application (app) intervention in improving adherence to endocrine therapy (ET) among patients with early stage hormone receptor-positive HER2-negative breast cancer. ET can significantly reduce the return of the cancer in patients who are compliant with their treatment regimen. Despite this, adherence to ET is poor due to side effects, lack of social support and timely access to clinicians, and poor patient understanding of the necessity and effectiveness of the therapy. An internet-based app may help patients improve their adherence to ET by providing reminders, side effect mitigation strategies available in the educational videos and from contacting providers/ nurse on the research team directly via the app.",
+      "detailedDescription": "PRIMARY OBJECTIVE:\n\nI. To assess the feasibility of a web-based app as an intervention to carry out functions such as weekly reminders, improving patient provider communication, improving patient education\n\nSECONDARY OBJECTIVES:\n\nI. To evaluate if high level of adherence to endocrine therapy can be maintained by using our web-based app in early-stage hormone positive breast cancer II. To assess whether the web-based app will improve patient satisfaction, whether patients feel the app helped improve their likelihood of adhering to endocrine therapy by making them feel more confident in their side effect management.\n\nOUTLINE: This is a single arm, feasibility study. 30 patients will be enrolled.\n\nIn addition to standard of care, patients will receive access to the web-based application for the study duration (3 months). The app will have the following features: weekly text reminders to continue ET and prompts to report medication side effects, access to educational content explaining common side effects and symptom management strategies, prompts to patients to review this information when they report side effects, and most importantly, the patient will have access to their breast oncology providers to discuss their side effects and ask questions via the app. A feature unique to our app is the educational content readily available to patients. When a patient reports a side effect, the app will direct them to the relevant video explaining that side effect and going over strategies to mitigate them."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anatomic Stage I Breast Cancer AJCC v8",
+        "Anatomic Stage II Breast Cancer AJCC v8",
+        "HER2-Negative Breast Carcinoma",
+        "Hormone Receptor-Positive Breast Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 21,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Single Arm (internet intervention, best practice)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive access to the app in addition to standard of care for 3 months. Through the app, patients receive weekly reminders about hormone therapy, report any side effects, access educational videos that provide tips to help mitigate some of these side effects, and allow patients to send messages to members of our breast cancer team about any questions patients may have about the side effects they may be experiencing.",
+          "interventionNames": [
+            "Other: Best Practice",
+            "Other: Internet-Based Intervention",
+            "Other: Questionnaire Administration",
+            "Other: Survey Administration"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Best Practice",
+          "description": "Receive standard of care",
+          "armGroupLabels": [
+            "Single Arm (internet intervention, best practice)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Internet-Based Intervention",
+          "description": "Receive application intervention",
+          "armGroupLabels": [
+            "Single Arm (internet intervention, best practice)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Questionnaire Administration",
+          "description": "PROMIS medication adherence questionnaire is a well-defined self-report measure of medication-taking habits used to objectively assess adherence to medication and therapy. At the end of the study period, we will perform data analysis.",
+          "armGroupLabels": [
+            "Single Arm (internet intervention, best practice)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Survey Administration",
+          "description": "Improvement in patient satisfaction will be measured by utilizing Consumer Assessment of Healthcare Providers and Systems (CAHPS) Cancer Care Survey scores. Surveys will be conducted among all participants at baseline and at 12 weeks, regardless of their use of the app, to better understand any barriers to using the app and which aspects of the app were most useful to patients.",
+          "armGroupLabels": [
+            "Single Arm (internet intervention, best practice)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Feasibility (Acceptability)",
+          "description": "Feasibility of the web-based app study will encompass:\n\nAcceptability which will be measured by using the System Usability Scale and a score if \\>68 will indicate that the app was acceptable to patients. Acceptability will be summarized using descriptive statistics and confidence intervals will be reported using the Clopper-Pearson method.",
+          "timeFrame": "Up to 1 year"
+        },
+        {
+          "measure": "Feasibility (Compliance)",
+          "description": "Feasibility of the web-based app study will encompass:\n\nCompliance, which is defined as at least 5 responses from patients (via app) over the 12-week period. Compliance will be summarized using descriptive statistics, and confidence intervals will be reported using the Clopper-Pearson method. The goal is to have at least 75% of patients adhere to the app to prove compliance.",
+          "timeFrame": "Up to 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Adherence",
+          "description": "Patients who are adherent to their endocrine therapy for at least 5 days in the week averaged over the 12-week period will be considered to have high level adherence, and those that took their ET for \\<5 days/ week would be considered non-adherent. PROMIS medication adherence questions will be used. In addition, the investigators will be observing pharmacy dispensing history and weekly adherence data reported by patients on the app. The proportion who are adherent will be summarized descriptively using frequencies and percentages, and confidence intervals will be reported using the Clopper-Pearson method.",
+          "timeFrame": "Up to 1 year"
+        },
+        {
+          "measure": "Patient satisfaction",
+          "description": "Patient satisfaction will be measured by utilizing Consumer Assessment of Healthcare Providers and Systems Cancer Care Survey scores. Surveys will be conducted among all participants at baseline and at 12 weeks, regardless of their use of the app, to better understand any barriers to using the app and which aspects of the app were most useful to patients.Satisfaction outcomes will be summarized using descriptive measures. The survey measures the following:\n\nIn the last 6 months, how many times did you visit this cancer center to get care from your drug therapy team? Do not include telephone calls or emails, where 0=None, 1=1 to 5 times, 2=6 to 10 times, 3=11 or more times.In the last 6 months, did you contact this cancer center to get an appointment for an illness, injury, or condition that needed care right away? where1=yes and 2=no.",
+          "timeFrame": "Up to 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Early-stage hormone receptor positive, HER2-negative breast cancer who have completed all recommended (neo)adjuvant chemotherapy, surgery and/or radiation therapy\n* Age \\>= 18\n* Started on an aromatase inhibitor or Tamoxifen within less than or equal to six months prior to time of enrollment\n* Access to internet from a desktop or a smartphone\n* Ability to speak English\n\nExclusion Criteria:\n\n* Patients who are her2 neu positive",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jane L. Meisel, MD",
+          "affiliation": "Emory University Hospital/Winship Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Emory University Hospital Midtown",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30308",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Emory University Hospital/Winship Cancer Institute",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Emory Saint Joseph's Hospital",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30342",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Emory Johns Creek Hospital",
+          "city": "Johns Creek",
+          "state": "Georgia",
+          "zip": "30097",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.02893,
+            "lon": -84.19858
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017410",
+          "term": "Practice Guidelines as Topic"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D017408",
+          "term": "Guidelines as Topic"
+        },
+        {
+          "id": "D011785",
+          "term": "Quality Assurance, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,266 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06874933",
+      "orgStudyIdInfo": {
+        "id": "IIT20240164C"
+      },
+      "organization": {
+        "fullName": "First Affiliated Hospital of Zhejiang University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neoadjuvant Chemotherapy in Combination With Anlotinib and Benmelstobart for HR+/HER2- Breast Cancer (NEOTORCH-BREAST03)",
+      "officialTitle": "A Prospective, Single-Arm Clinical Study on the Treatment of HR+/HER2- Breast Cancer With Neoadjuvant Chemotherapy Combined With Anlotinib and Benmelstobart Monoclonal Antibody"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-05-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-04-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-03-10",
+      "studyFirstSubmitQcDate": "2025-03-10",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-08-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-08-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "First Affiliated Hospital of Zhejiang University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Our center plans to conduct a prospective, single-arm exploratory clinical study to evaluate the efficacy and safety of neoadjuvant chemotherapy combined with Anlotinib and Benmelstobart in the treatment of HR+/HER2- breast cancer. The aim is to further explore the treatment strategy of chemotherapy de-escalation for patients with HR+/HER2- breast cancer, provide more treatment options for breast cancer patients, and offer a potential theoretical basis for the precision treatment of breast cancer.The primary study objective is to evaluate the pathologic complete response\uff08PCR\uff09and RCB0-1 ratio of neodjuvant treatment of HR+/HER2- breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HR+/HER2- Breast Cancer"
+      ],
+      "keywords": [
+        "Breast cancer",
+        "Anlotinib and Benmelstobart",
+        "Adjuvant Chemotherapy",
+        "HR-positive HER2-negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 35,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A: Neoadjuvant Chemotherapy(EC-T) in Combination with Anlotinib and Benmelstobart",
+          "type": "EXPERIMENTAL",
+          "description": "Epirubicin + cyclophosphamide + Benmelstobart are administered by intravenous drip once every 3 weeks for a total of 2 cycles (6 weeks), followed by nab-paclitaxel + Benmelstobart administered by intravenous drip once every 3 weeks for a total of 2 cycles (6 weeks). During the treatment period, Anlotinib is simultaneously combined. It is taken orally once a day, before breakfast. Take the medicine continuously for two weeks, then stop taking it for one week. A cycle is 21 days, and there are a total of 3 cycles.",
+          "interventionNames": [
+            "Drug: Neoadjuvant Chemotherapy in Combination with Anlotinib and Benmelstobart"
+          ]
+        },
+        {
+          "label": "Group B: Neoadjuvant Chemotherapy(T-EC) in Combination with Anlotinib and Benmelstobart",
+          "type": "EXPERIMENTAL",
+          "description": "Nab-paclitaxel + Benmelstobart are administered by intravenous drip once every 3 weeks for a total of 2 cycles (6 weeks), followed by Epirubicin + cyclophosphamide + Benmelstobart, which are administered by intravenous drip once every 3 weeks for a total of 2 cycles (6 weeks). During the treatment period, Anlotinib is also used in combination. It should be taken orally once a day before breakfast, continuously for two weeks, then stop taking it for one week. One cycle is 21 days, and there are a total of 3 cycles.",
+          "interventionNames": [
+            "Drug: Neoadjuvant Chemotherapy in Combination with Anlotinib and Benmelstobart"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Neoadjuvant Chemotherapy in Combination with Anlotinib and Benmelstobart",
+          "description": "Group A: Epirubicin + cyclophosphamide + Benmelstobart are administered by intravenous drip once every 3 weeks for a total of 2 cycles, followed by nab-paclitaxel + Benmelstobart administered by intravenous drip once every 3 weeks for a total of 2 cycles. During the treatment period, Anlotinib is simultaneously combined. It is taken orally once a day, before breakfast. Take the medicine continuously for two weeks, then stop taking it for one week. One cycle is 21 days, and there are a total of 3 cycles.\n\nGroup B: Nab-paclitaxel + Benmelstobart are administered by intravenous drip once every 3 weeks for a total of 2 cycles, followed by Epirubicin + cyclophosphamide + Benmelstobart, which are administered by intravenous drip once every 3 weeks for a total of 2 cycles. During the treatment period, Anlotinib is also used in combination. It should be taken orally once a day before breakfast, continuously for two weeks, then stop taking it for one week.",
+          "armGroupLabels": [
+            "Group A: Neoadjuvant Chemotherapy(EC-T) in Combination with Anlotinib and Benmelstobart",
+            "Group B: Neoadjuvant Chemotherapy(T-EC) in Combination with Anlotinib and Benmelstobart"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "pathologic complete response\uff08PCR\uff09",
+          "description": "The primary study objective is to evaluate the pathologic complete response\uff08PCR\uff09 of neoadjuvant treatment of HR+/HER2- breast cancer with Anlotinib and Benmelstobart",
+          "timeFrame": "2 years"
+        },
+        {
+          "measure": "RCB 0-1 Ratio",
+          "description": "In clinical trials comparing different neoadjuvant treatment regimens, the RCB 0 - 1 Ratio is a crucial evaluation indicator. For example, in a study comparing a traditional chemotherapy regimen with a novel targeted combination chemotherapy regimen, by observing the differences in the RCB 0 - 1 Ratio between the two groups of patients, it can be determined which regimen enables more patients to reach the RCB 0 or RCB 1 status, thus providing a basis for selecting a better treatment option.",
+          "timeFrame": "2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Event Free Survival\uff08EFS)",
+          "description": "Event Free Survival (EFS) refers to the time from the start of randomization (the start of treatment in a single-arm trial) to the first occurrence of any of the following events: disease progression that makes surgical treatment impossible, local or distant recurrence, death due to any cause, etc. It can be used to evaluate the effectiveness of the drug.",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female patients aged between 18 and 75 years old.\n2. With an Eastern Cooperative Oncology Group (ECOG) performance status score of 0 to 1.\n3. Patients with histologically or pathologically confirmed invasive ductal carcinoma of the breast, and simultaneously meeting the following conditions:\n\n   T1c (\u22651 cm) - 4c N0-2; Histologically confirmed as grade 3 by the research center; Immunohistochemical staining results confirm ER+ (\u22651%), HER2 negative (Her2/neu fluorescence in situ hybridization (FISH) ratio \u2264 1.8 or IHC 0 or 1+); and the combined positive score (CPS) is greater than or equal to 10 points. The PD-L1 antibody site detected in our center is 22C3.\n\n   Have not received any previous treatment.\n4. The functional levels of the major organs must meet the following requirements (no blood transfusion, and no use of drugs for increasing white blood cells or platelets within 2 weeks before screening):\n\n   1. Blood routine: Absolute neutrophil count (ANC) \\> 1.5\u00d710\u2079/L; platelet count (PLT) \\> 75\u00d7 10\u2079/L; hemoglobin (Hb) \\> 90 g/L; lymphocyte count \u2265 1.5\u00d710\u2079/L.\n   2. Blood biochemistry: Total bilirubin (TBIL) \\< 1.5\u00d7 the upper limit of normal (ULN); alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \\< 1.5\u00d7ULN; alkaline phosphatase \\< 2.5\u00d7ULN; blood urea nitrogen/urea (BUN/UREA) and creatinine (Cr) \\< 1.5\u00d7ULN.\n   3. Echocardiogram: Left ventricular ejection fraction (LVEF) \\> 55%.\n   4. 12-lead electrocardiogram: The corrected QT interval using the Fridericia method (QTcF) \\< 470 msec.\n5. For premenopausal female patients or those who have not undergone surgical sterilization: Use an effective contraceptive method during the treatment period and for at least 6 months after the last administration of the study treatment.\n6. Voluntarily participate in this study, sign the informed consent form, have good compliance, and be willing to cooperate with the follow-up.\n\nExclusion Criteria:\n\n1. Stage IV breast cancer.\n2. Inflammatory breast cancer.\n3. Have previously received anti-tumor treatment or radiotherapy for any malignant tumor, excluding cured malignant tumors such as carcinoma in situ of the cervix, basal cell carcinoma, or squamous cell carcinoma.\n4. Simultaneously receiving anti-tumor treatment in other clinical trials, including but not limited to chemotherapy, endocrine therapy, biological therapy, bone-modifying drug therapy, or immune checkpoint inhibitor therapy.\n5. Having undergone a major surgical procedure unrelated to breast cancer within 4 weeks before the first administration of the study drug, or the patient has not fully recovered from such a surgical procedure.\n6. Severe heart diseases or disorders, including but not limited to the following diseases:\n\n   A confirmed history of heart failure or systolic dysfunction (left ventricular ejection fraction \\[LVEF\\] less than 50%).\n\n   High-risk uncontrolled arrhythmias, such as atrial tachycardia with a resting heart rate greater than 100 beats per minute (bpm), significant ventricular arrhythmias (such as ventricular tachycardia), or higher-degree atrioventricular block (i.e., Mobitz type II second-degree atrioventricular block or third-degree atrioventricular block).\n\n   Angina pectoris requiring treatment with anti-anginal drugs. Clinically significant valvular heart disease. Electrocardiogram (ECG) showing transmural myocardial infarction. Poorly controlled hypertension (systolic blood pressure greater than 180 mmHg and/or diastolic blood pressure greater than 100 mmHg after drug treatment).\n7. Uncontrolled active infections that require treatment; a history of immunodeficiency, including a positive HIV test result, or suffering from other acquired or congenital immunodeficiency diseases, or a history of organ transplantation.\n8. Patients with active chronic hepatitis B or active hepatitis C (excluding hepatitis B virus carriers, patients with stable hepatitis B after drug treatment \\[negative HBV-DNA test or \\< 50 IU/ml\\], and cured hepatitis C patients \\[negative HCV RNA test\\]).\n9. Have previously received immunotherapy and experienced immune-related adverse events such as immune-related pneumonia or myocarditis, which, as determined by the investigator, may affect the safety of the study drug.\n10. Known history of allergy to the components of this treatment regimen.\n11. Pregnant or lactating female patients, female patients of childbearing potential with a positive baseline pregnancy test result, or patients of childbearing age who are unwilling to use effective contraceptive measures throughout the trial period and within 6 months after the last administration of the study drug.\n12. Suffering from severe concomitant diseases or other comorbidities that may interfere with the planned treatment, or any other situation in which the investigator deems the patient unsuitable for participating in this study.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zhijun Dai, Professor",
+          "role": "CONTACT",
+          "phone": "+86 157 0581 9132",
+          "email": "dzj0911@126.com"
+        },
+        {
+          "name": "Youyi Chen",
+          "role": "CONTACT",
+          "phone": "+8615757515017",
+          "email": "913589289@qq.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hangzhou Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Zhejiang University School of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Zhejiang Cancer Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020360",
+          "term": "Neoadjuvant Therapy"
+        },
+        {
+          "id": "C000625192",
+          "term": "anlotinib"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

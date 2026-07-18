@@ -1,0 +1,704 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04443348",
+      "orgStudyIdInfo": {
+        "id": "20-157"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pre-op Pembro + Radiation Therapy in Breast Cancer (P-RAD)",
+      "officialTitle": "P-RAD: A Randomized Study of Preoperative Chemotherapy, Pembrolizumab and No, Low or High Dose RADiation in Node-Positive, HER2-Negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-12-16",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-06-19",
+      "studyFirstSubmitQcDate": "2020-06-19",
+      "studyFirstPostDateStruct": {
+        "date": "2020-06-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Laura M. Spring, MD",
+        "investigatorTitle": "Medical Oncologist",
+        "investigatorAffiliation": "Massachusetts General Hospital"
+      },
+      "leadSponsor": {
+        "name": "Laura M. Spring, MD",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Merck Sharp & Dohme LLC",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Breast Cancer Research Foundation",
+          "class": "OTHER"
+        },
+        {
+          "name": "Translational Breast Cancer Research Consortium",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This research trial is studying a combination of neoadjuvant radiotherapy (RT), immunotherapy (pembrolizumab) and chemotherapy for lymph node-positive, triple negative (TN) or hormone receptor positive/HER2-negative breast cancer.\n\nThe names of the study interventions involved in this study are:\n\n* Radiation Therapy (RT)\n* Immunotherapy: Pembrolizumab (MK-3475)\n* Chemotherapies:\n\n  * Paclitaxel\n  * Doxorubicin (also called Adriamycin)\n  * Cyclophosphamide\n  * Carboplatin (optional, and in TN only)\n  * Capecitabine (optional, and in TN only)",
+      "detailedDescription": "The main purpose of this study is to find out what is the best dose of preoperative RT when combined with pembrolizumab and chemotherapy. The study will assess if combining the RT with the immunotherapy agent, pembrolizumab, will increase the ability of the immune system to destroy cancer cells.\n\nThe research study procedures include: screening for eligibility and study treatment, including evaluations and follow-up visits.\n\nThe study aims to assess the effectiveness of pembrolizumab (study drug) with or without RT directed to the breast tumor. Participants will then undergo neoadjuvant chemotherapy with pembrolizumab, followed by treatment that can consist of one or more of the following:\n\n* Pembrolizumab (optional, per MD discretion)\n* Standard of Care Treatment\n\n  * Breast surgery (lumpectomy or mastectomy) and axillary surgery\n  * Adjuvant radiation to the entire breast or chest wall, plus or minus the lymph nodes after surgery\n  * Adjuvant chemotherapy (optional Capecitabine for TNBC patients)\n  * Hormone therapy\n\nParticipants will be randomized to 1 of 3 groups. Neither the participant not the research doctor will choose the group that the participant is assigned to. However, the participant will be notified of the group prior to the start of study treatment. Participants will receive study treatment for up to 13 months. Participants will be followed for 2 years after the end of the study treatment.\n\nIt is expected that a total of 120 people will be participating in total.\n\nThis research study is a randomized, phase II study. The U.S. Food and Drug Administration (FDA) has not approved pembrolizumab for your specific disease, but it has been approved for other uses. The U.S. Food and Drug Administration (FDA) has approved the chemotherapies being used in this study (Paclitaxel, Doxorubicin, Cyclophosphamide, Carboplatin, Capecitabine)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple Negative Breast Cancer",
+        "Hormone Receptor Positive (HR+), HER2-negative Breast Cancer",
+        "Biopsy-proven, Positive Lymph Node(s)"
+      ],
+      "keywords": [
+        "Triple Negative Breast Cancer",
+        "Hormone Receptor Positive breast cancer",
+        "Estrogen Receptor Positive breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 120,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A (No RT Boost)",
+          "type": "EXPERIMENTAL",
+          "description": "No RT boost plus pembrolizumab, followed by pembrolizumab plus paclitaxel, doxorubicin and cyclophosphamide chemotherapy.There will be up to a total of 8 cycles of pembrolizumab (4 cycle before surgery and 4 cycles after surgery at the discretion of the study doctor).",
+          "interventionNames": [
+            "Drug: Pembrolizumab",
+            "Drug: Paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Cyclophosphamide",
+            "Drug: Doxorubicin",
+            "Drug: Capecitabine"
+          ]
+        },
+        {
+          "label": "Group B (Low Dose RT Boost)",
+          "type": "EXPERIMENTAL",
+          "description": "Low-dose RT boost plus pembrolizumab, followed by pembrolizumab plus paclitaxel, doxorubicin and cyclophosphamide chemotherapy. There will be up to a total of 8 cycles of pembrolizumab (4 cycle before surgery and 4 cycles after surgery at the discretion of the study doctor).",
+          "interventionNames": [
+            "Radiation: Radiation Therapy Boost",
+            "Drug: Pembrolizumab",
+            "Drug: Paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Cyclophosphamide",
+            "Drug: Doxorubicin",
+            "Drug: Capecitabine"
+          ]
+        },
+        {
+          "label": "Group C (High Dose RT Boost)",
+          "type": "EXPERIMENTAL",
+          "description": "High-dose RT boost plus pembrolizumab followed by pembrolizumab plus paclitaxel, doxorubicin and cyclophosphamide chemotherapy. There will be up to a total of 8 cycles of pembrolizumab (4 cycle before surgery and 4 cycles after surgery at the discretion of the study doctor).",
+          "interventionNames": [
+            "Radiation: Radiation Therapy Boost",
+            "Drug: Pembrolizumab",
+            "Drug: Paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Cyclophosphamide",
+            "Drug: Doxorubicin",
+            "Drug: Capecitabine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "Radiation Therapy Boost",
+          "description": "Participants randomized to the low-dose or high-dose RT boost group will be receiving treatment on Day 1-3 of Cycle 1 of pembrolizumab. Proton therapy may be used in the high dose RT group.",
+          "armGroupLabels": [
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "Neoadjuvant Phase: Day 1 (once every 6 weeks) of Cycles 1-4 (by intravenous infusion) over about 30 minutes.\n\nAdjuvant Phase: Pembrolizumab may be given post-surgery for up to 4 cycles (once every 6 weeks) by intravenous infusion over about 30 minutes. Pembrolizumab after surgery is optional and should be discussed with the study doctor.",
+          "armGroupLabels": [
+            "Group A (No RT Boost)",
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ],
+          "otherNames": [
+            "Keytruda\u00ae."
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Starting Week 3 and administered once per week for 12 weeks (up to 12 doses) by intravenous infusion over about 30 minutes.",
+          "armGroupLabels": [
+            "Group A (No RT Boost)",
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ],
+          "otherNames": [
+            "Taxol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Carboplatin is optional for TNBC patients and should be discussed with the study doctor.\n\nStarting Week 3 and administered once per week for 12 weeks (up to 12 doses) by intravenous infusion over about 30 minutes.",
+          "armGroupLabels": [
+            "Group A (No RT Boost)",
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ],
+          "otherNames": [
+            "Paraplatin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Starting Week 15 and administered every 2 weeks for 4 cycles (up to 4 doses) into your vein (by intravenous infusion).",
+          "armGroupLabels": [
+            "Group A (No RT Boost)",
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ],
+          "otherNames": [
+            "Cytophosphane"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Doxorubicin",
+          "description": "Starting Week 15 and administered every 2 weeks for 4 cycles (up to 4 doses) into your vein (by intravenous infusion). Doxorubicin will be administered after pembrolizumab.",
+          "armGroupLabels": [
+            "Group A (No RT Boost)",
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ],
+          "otherNames": [
+            "Adriamycin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Capecitabine",
+          "description": "Capecitabine after surgery is optional for TNBC patients and should be discussed with the study doctor.\n\nStarting 3-6 weeks after surgery, administered orally twice daily for 6 courses, each 3 weeks long (for a total of 18 weeks).",
+          "armGroupLabels": [
+            "Group A (No RT Boost)",
+            "Group B (Low Dose RT Boost)",
+            "Group C (High Dose RT Boost)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Tumor Infiltrating Lymphocytes (TILs; CD3+/CD8+ T-cell Breast Immunoscore)",
+          "description": "Quantitative immunofluorescence in post-treatment tumor biopsy samples collected on day 14-21 of C1 of Pembrolizumab.",
+          "timeFrame": "14 through 21 Days"
+        },
+        {
+          "measure": "Rate of pathologic response in the lymph node",
+          "description": "Defined as the percentage of patients no evidence of residual cancer cells in all sampled regional lymph nodes following completion of neoadjuvant systemic therapy assessed by the study pathologist at the time of definitive surgery.",
+          "timeFrame": "7 Months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Residual Cancer Burden (RCB) score",
+          "description": "RCB is a measure of residual cancer burden in the breast and regional lymph nodes at the time of definitive surgery following completion of neoadjuvant systemic therapy.",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Pathologic response rate",
+          "description": "Pathologic response rate is measured by the presence or absence of residual cancer cells in all sampled regional lymph nodes. RCB measures residual disease in the breast and lymph nodes at the time of definitive surgery. CD3+/CD8+ T cell Breast Immunoscore greater than 75% versus patients with Post-treatment CD3+/CD8+ T cell Breast Immunoscore less than or equal to 75%.",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Percent change in pre- versus post-treatment intra-tumoral TILs",
+          "description": "Intra-tumoral, peri-tumoral and stromal CD3+, CD8+, and CD3+CD8+ T cell densities will be measured using pan-cytokeratin staining and multiplexed QIF",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Percent changes in pre- versus post-treatment peri-tumoral",
+          "description": "Intra-tumoral, peri-tumoral and stromal CD3+, CD8+, and CD3+CD8+ T cell densities will be measured using pan-cytokeratin staining and multiplexed QIF",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Percent changes in pre- versus post-treatment stromal CD3+ or CD8+ T cell",
+          "description": "Intra-tumoral, peri-tumoral and stromal CD3+, CD8+, and CD3+CD8+ T cell densities will be measured using pan-cytokeratin staining and multiplexed QIF",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Change in TIL counts by H&E in pre-treatment versus post-RT boost tumor biopsy",
+          "description": "TIL counts by H\\&E in pre-treatment versus post-RT boost tumor biopsy specimens in each RT dose and breast cancer subtype cohort.\n\nH\\&E will be performed according to Salgado Criteria \\[1\\].",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Changes in PD-L1 expression",
+          "description": "To quantify changes in PD-L1 expression levels after treatment with Pembro + no, low or high RT boost (at the time of the time of interval biopsy).\n\nQIF for PD-L1 will be performed in pre- and post-treatment FFPE tumor biopsy samples.",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Changes in intratumoral, per-tumoral, and stromal CD4+Foxp3+ T regulatory cell densities",
+          "description": "To quantify changes in intratumoral, per-tumoral, and stromal CD4+Foxp3+ T regulatory cell densities in response to treatment with preoperative Pembro + no, low, or high dose RT boost (at the time of interval biopsy).\n\nQIF for CD4 and Foxp3 will be performed in pre- and post-treatment FFPE tumor biopsy samples. Pan-cytokeratin staining will be used to identify tumor regions",
+          "timeFrame": "24 Weeks"
+        },
+        {
+          "measure": "Number of Participants with Treatment Related Adverse Events as Assessed NCI CTCAE version 5.0",
+          "description": "NCI CTCAE version 5.0",
+          "timeFrame": "Baseline up 6 months post surgery up to 13 months"
+        },
+        {
+          "measure": "Invasive disease-free survival",
+          "description": "iDFS is defined as time from completion of surgery to the first occurrence of the following events: invasive ipsilateral, local, regional, or distant recurrence, or death due to breast cancer.",
+          "timeFrame": "time from completion of surgery to the first occurrence of the following events: invasive ipsilateral, local, regional, or distant recurrence, or death due to breast cancer up to 31 months"
+        },
+        {
+          "measure": "Event-free survival (EFS)",
+          "description": "EFS is defined as the time from the initiation of the study treatment to any of the following events: progression of disease (precluding surgery), recurrence (local or distant), or death due to any cause.",
+          "timeFrame": "time from completion of surgery to the first occurrence of the following events: progression of disease (precluding surgery), recurrence (local or distant), or death due to any cause up to 31 months."
+        },
+        {
+          "measure": "Symptomatic Improvement",
+          "description": "PROMIS Global Health Measure Quality of life (e.g., global, physical, mental, and social health) outcomes will be measured by two PROMIS (Patient-Reported Outcomes Measurement Information System) short forms consisting of 4 questions total. This instrument has demonstrated content-validity, cross-sectional validity, and responsiveness to change in numerous publications\\[93\\].",
+          "timeFrame": "baseline to 21 Weeks"
+        },
+        {
+          "measure": "Change in Symptoms and Satisfaction with Treatment",
+          "description": "(Breast-Q), four domains will be evaluated both before and after surgery: satisfaction with breasts, psychosocial, sexual, and physical well-being. Scores for each domain range from 0-100, with higher scores indicative of better quality of life",
+          "timeFrame": "baseline to Week 3"
+        },
+        {
+          "measure": "Change in Symptoms and Satisfaction with Treatment",
+          "description": "(Breast-Q), four domains will be evaluated both before and after surgery: satisfaction with breasts, psychosocial, sexual, and physical well-being. Scores for each domain range from 0-100, with higher scores indicative of better quality of life",
+          "timeFrame": "baseline to week 21"
+        },
+        {
+          "measure": "Change Patient Reported Outcomes",
+          "description": "PRO-CTCAE will evaluate symptom burden in the previous week using a Likert scale to assess presence/absence, frequency, severity and/or interference for different symptoms. Each symptom will be presented descriptively, using summary statistics and graphical representations across time points.",
+          "timeFrame": "3 years"
+        },
+        {
+          "measure": "Financial Burden",
+          "description": "Recently coined term used to describe the potential financial burden patients experience while receiving medical care. Two questions were adapted from the National Health Interview Survey\\[95\\] and a survey administered to caregivers of participants of the Cancer Car Outcomes Research and Surveillance (CanCORS) study\\[96\\] to assess financial burden and impact on employment-related metrics (e.g., sick leave, unpaid time off work). Financial burden will be assessed at the post-surgery visit.",
+          "timeFrame": "3 to 6 wks after last dose in the Neoadjuvant Period up to 8 Months"
+        },
+        {
+          "measure": "Trial Satisfaction",
+          "description": "The Was It Worth It (WIWI) instrument, also called the \"Trial Satisfaction\" survey, was developed to investigate the patient experience on clinical trials. Multiple cooperative group studies have utilized this instrument at the completion of treatment to measure patient satisfaction relating to clinical trial enrollment, although formal validity and reliability data is not yet available\\[",
+          "timeFrame": "3 to 6 wks after last dose in the Neoadjuvant Period up to 8 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u226518 years old\n* Participant has non-metastatic, T1\\*-T2 and N1-3 and one of the following histologically confirmed disease subtypes:\n\n  \\-- Triple negative breast cancer is defined as ER-negative (\\<1% cells), PR-negative (\\<1% cells) and HER2-negative (\\<2+ HER2 IHC or \\<2.2 HER2/CEP17 ratio by FISH), as per testing at local institution\n  * High-risk HR+/HER2-negative breast cancer is defined as ER\u22651%, HER2-negative (\\<2+ Her2 IHC or \\<2.2 HER2/CEP17 ratio by FISH) and either histologic grade II-III or a high-risk genomic assay score (Oncotype RS\\>25, high risk Mammaprint, PAM-50, EndoPredict or ProSigna score).\n  * Note: Eligibility requires primary tumor size \u22651.0 cm in maximum diameter and axillary node-positive breast cancer\n* Primary breast tumor measuring \u22651.5 cm in maximal diameter as measured by any available standard of care imaging (mammogram, breast ultrasound, breast MRI).\n* Biopsy-proven, axillary lymph node-positive breast cancer at diagnosis. Note: Clinically node-positive disease is classified as cN1-3. cN1: without matted nodes, even if several/multiple appear matted on ultrasound or MRI; cN2: clinically fixed or matted nodes on examination or clinically or imaging-detected internal mammary node involvement.\n* Clips or fiducial placement within the biopsy-proven axillary lymph node and breast primary tumor are required.\n* Multifocal and multicentric disease is permitted; however only one breast tumor may be preoperatively boosted.\n\n  --Note: For patients with multifocal disease and are randomized to receive a preoperative RT boost, all sites of multifocal disease should be contained within the pre-operative boost volume. Subsequently, these patients will not need a post-op boost.\n* Synchronous bilateral invasive breast cancer is permitted; however only one breast tumor may be preoperatively boosted.\n* No indication of distant metastases. Staging scans are not required and are per the discretion of the treating physician.\n* Neoadjuvant chemotherapy (NAC) with paclitaxel, dose-dense doxorubicin and cyclophosphamide (dd AC) is planned. Note: For TNBC patients, administration of carboplatin is optional, as per MD choice. For HR+ patients, carboplatin will not be administered.\n* The boost volume is determined to be able to meet study dose constraints by the treating radiation oncologist.\n* Breast-conserving surgery or mastectomy +/- reconstruction is planned following NAC.\n* ECOG performance status score of 0 or 1.\n* Have adequate organ function as defined in the following table. Bloodwork must be collected within 10 days prior to the start of study treatment.\n\n  * Hematological --- Absolute neutrophil count (ANC) \u22651500/\u00b5L\n\n    * Platelets \u2265100 000/\u00b5L\n    * Hemoglobin \u22659.0 g/dL or \u22655.6 mmol/La\n  * Renal\n\n    \\--- Creatinine \u22641.5 \u00d7 ULN OR Measured or calculated b creatinine clearance (GFR can also be used in place of creatinine or CrCl) OR \u226530 mL/min for participant with creatinine levels \\>1.5 \u00d7 institutional ULN\n  * Hepatic\n\n    * Total bilirubin \u22641.5 \u00d7ULN OR direct bilirubin \u2264ULN for participants with total bilirubin levels \\>1.5 \u00d7 ULN\n    * AST (SGOT) and ALT (SGPT) \u22642.5 \u00d7 ULN\n  * Coagulation\n\n    * International normalized ratio (INR) OR prothrombin time (PT) Activated partial thromboplastin time (aPTT)\n    * \u22641.5 \u00d7 ULN unless participant is receiving anticoagulant therapy as long as PT or aPTT is within therapeutic range of intended use of anticoagulants\n    * ALT (SGPT)=alanine aminotransferase (serum glutamic pyruvic transaminase); AST (SGOT)=aspartate aminotransferase (serum glutamic oxaloacetic transaminase); GFR=glomerular filtration rate; ULN=upper limit of normal.\n    * Criteria must be met without erythropoietin dependency and without packed red blood cell (pRBC) transfusion within last 2 weeks.\n    * Creatinine clearance (CrCl) should be calculated per institutional standard.\n  * Note: This table includes eligibility-defining laboratory value requirements for treatment; laboratory value requirements should be adapted according to local regulations and guidelines for the administration of specific chemotherapies.\n* A female participant is eligible to participate if she is not pregnant, not breastfeeding, and at least one of the following conditions applies:\n\n  \\-- a) Not a woman of childbearing potential (WOCBP) OR b) A WOCBP who agrees to follow the contraceptive guidance throughout the study and for at least 4 months after the last dose of pembrolizumab in such a manner that the risk of pregnancy is minimized.\n* A male participant must agree to use a contraception as detailed in Appendix A of this protocol during the treatment period and for at least 4 months after the last dose of after the last dose of study treatment and refrain from donating sperm during this period.\n* Willingness to adhere to the study visit schedule and the prohibitions and restrictions specified in this protocol.\n* Willingness to undergo mandatory research biopsy of the breast tumor between weeks 2-3 of Cycle 1.\n* Written informed consent obtained from participant and ability for participant to comply with the requirements of the study.\n* Patients unable to read/write English are eligible to participate in the overall study, but will not be required to participate in the Patient-Reported Outcome questionnaires.\n\nExclusion Criteria:\n\n* HER2-positive breast cancer by ASCO/CAP guidelines (HER2 IHC 3+ or \u2265 2.2 HER2/CEP17 ratio by FISH)\n* Inflammatory (cT4d) breast cancer\n* Metastatic breast cancer (M1)\n* Contraindication(s) to breast-conserving therapy or mastectomy\n* Contraindication to radiation therapy including: prior ipsilateral breast or mantle RT, active scleroderma, systemic lupus erythematosis and pregnancy.\n\n  --Note: All cardiac implantable electronic devices are permitted, provided that methods to assess radiation doses and minimize damage to the devices during RT is planned, per institutional guidelines.\n* Prior ipsilateral breast, chest wall or thoracic radiotherapy\n* Prior ipsilateral invasive breast cancer, contralateral breast cancer or a known additional, invasive malignancy that is progressing or required active treatment in the last 5 years.\n\n  --Note: Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin or cervical carcinoma in situ that has undergone potentially curative therapy and a previous diagnosis of ductal carcinoma in situ are not excluded.\n* Has a known history of active tuberculosis (Bacillus tuberculosis\n* Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti PD L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (eg, CTLA-4, OX 40, CD137).\n* Has received prior systemic anti-cancer therapy including investigational agents within 4 weeks prior to randomization.\n\n  --Note: Participants must have recovered from all AEs due to previous therapies to \u2264 Grade 1 or baseline. Participants with \u2264 Grade 2 neuropathy may be eligible. If participant received major surgery, she/he must have recovered adequately from the toxicity and/or complications from the intervention prior to starting study treatment.\n* Has a history of (non-infectious) pneumonitis that required steroids or has current pneumonitis.\n* Has known severe hypersensitivity (\u2265Grade 3) to pembrolizumab and/or any of its excipients.\n* Participants with active, known or suspected autoimmune disease. Participants with vitiligo, type I diabetes mellitus, residual hypothyroidism due to autoimmune condition only requiring hormone replacement, psoriasis not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enroll.\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the study, interfere with the subject's participation for the full duration of the study, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.\n* Known history of Human Immunodeficiency Virus (HIV). Note: No HIV testing is required unless mandated by local health authorities.\n* Known active Hepatitis B (defined as hepatitis B surface antigen \\[HBsAg\\] reactive) or known active hepatitis C virus (defined as HCV RNA \\[qualitative\\] is detected). Note: Testing for hepatitis B or hepatitis C is not required, unless mandated by local health authorities or institutional guidelines.\n* Has received a live vaccine within 30 days prior to the first dose of study drug. Examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, varicella/zoster (chicken pox), yellow fever, rabies, Bacillus Calmette-Gu\u00e9rin (BCG), and typhoid vaccine. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (e.g. FluMist\u00ae) are live attenuated vaccines and are not allowed.\n* Has had an allogenic tissue/solid organ transplant\n* A WOCBP who has a positive urine pregnancy test within 72 hours before the first dose of study treatment (see Appendix A). If the urine test cannot be confirmed as negative, a serum pregnancy test is required. In such cases, the participant must be excluded from participation if the serum pregnancy result is positive.\n* Prohibited Treatments and/or Therapies:Use of immunosuppressants and/or systemic corticosteroids is exclusionary, except the following in the absence of active autoimmune disease:\n\n  * As premedication for chemotherapy\n  * For the prevention of nausea in the three days following chemotherapy\n  * Participants are permitted the use of corticosteroids with minimal systemic absorption (e.g. topical, ocular, intra-articular, intranasal and inhaled)\n  * Systemic corticosteroids at physiologic doses \u2264 10 mg/day of prednisone or equivalent permitted\n  * Adrenal replacement steroid doses including doses \\>10 mg daily prednisone is permitted\n  * A brief (less than 3 weeks) course of corticosteroids for prophylaxis (e.g. CT scan premedication against contrast dye allergy) or for treatment of non-autoimmune conditions (e.g. delayed-type hypersensitivity reaction caused by a contact allergen is permitted (used in the management of cancer or non-cancer-related illnesses). However, use of corticosteroids is allowed for the treatment of immune-related Adverse Events (irAEs), or adrenal insufficiency.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Laura M Spring, MD",
+          "affiliation": "Massachusetts General Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Sibley Memorial Hospital",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Johns Hopkins",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Mayo Clinic - Rochester",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "University of North Carolina Medical Center",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27514",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "North Carolina",
+          "zip": "27710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.99403,
+            "lon": -78.89862
+          }
+        },
+        {
+          "facility": "MD Anderson Cancer Center",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to Sponsor Investigator or designee. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF"
+      ],
+      "timeFrame": "Data can be shared no earlier than 1 year following the date of publication",
+      "accessCriteria": "Contact the Partners Innovations team at http://www.partners.org/innovation"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C582435",
+          "term": "pembrolizumab"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D000069287",
+          "term": "Capecitabine"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D003841",
+          "term": "Deoxycytidine"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D003853",
+          "term": "Deoxyribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

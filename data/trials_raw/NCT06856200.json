@@ -1,0 +1,269 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06856200",
+      "orgStudyIdInfo": {
+        "id": "HB1901-007"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study of Sirolimus (Albumin-Bound) in Combination With Palbociclib and Fulvestrant for the Treatment of Advanced Breast Cancer",
+      "officialTitle": "An Investigator-initiated Study to Evaluate the Safety, Tolerability, and Preliminary Efficacy of Sirolimus\uff08Albumin-bound\uff09in Combination With Palbociclib and Fulvestrant in Patients With Advanced HR- Positive, HER2- Negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-02-28",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-02-26",
+      "studyFirstSubmitQcDate": "2025-02-26",
+      "studyFirstPostDateStruct": {
+        "date": "2025-03-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhimin Shao",
+        "investigatorTitle": "Chief physician",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study adopts a single-center, open-label, non-randomized trial design. It plans to enroll patients with HR- positive, HER2- negative advanced breast cancer who are resistant to (neo)adjuvant endocrine therapy. Dose-escalation and dose-expansion studies will be carried out to evaluate the safety, tolerability, and preliminary efficacy of sirolimus (albumin-bound) in combination with palbociclib and fulvestrant in this patient population, and to confirm the recommended phase 2 dose (RP2D)"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced HR - Positive, HER2 - Negative Breast Cancer",
+        "Resistant to (Neo)Adjuvant Endocrine Therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dose escalation and expansion",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Sirolimus (albumin - bound)",
+            "Drug: Palbociclib",
+            "Drug: Fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sirolimus (albumin - bound)",
+          "description": "Sirolimus (albumin - bound): Dose escalation, intravenous infusion",
+          "armGroupLabels": [
+            "Dose escalation and expansion"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "Palbociclib: the dosage is 125 mg, orally once a day. taken continuously for three weeks followed by a one - week break, with a treatment cycle of four weeks",
+          "armGroupLabels": [
+            "Dose escalation and expansion"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "Fulvestrant: the dosage is 500 mg, intramuscular injection. It is given on the 1st and 15th days of the first cycle, with a treatment cycle of four weeks. After that, it is administered once every four weeks.",
+          "armGroupLabels": [
+            "Dose escalation and expansion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The occurrence and frequency of adverse events (AE)",
+          "timeFrame": "At the end of Cycle 9 (each cycle is 28 days)"
+        },
+        {
+          "measure": "dose - limiting toxicities (DLT)",
+          "timeFrame": "At the end of Cycle 9 (each cycle is 28 days)"
+        },
+        {
+          "measure": "The recommended phase 2 dose",
+          "timeFrame": "At the end of Cycle 9 (each cycle is 28 days)"
+        },
+        {
+          "measure": "4. serious adverse events (SAE)",
+          "timeFrame": "At the end of Cycle 9 (each cycle is 28 days)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\. Subjects should be over 18 years old, regardless of gender. Among them, female patients should be post - menopausal status\n* 2\\. Histologically or cytologically confirmed HR - positive, HER2 - negative advanced breast cancer.\n* 3\\. The investigator assesses that the patient is suitable for palbociclib and fulvestrant treatment at the current stage.\n* 4\\. There is at least one measurable lesion that meets the RECIST V1.1 criteria (only applicable to the dose - expansion stage)\n* 5\\. The Eastern Cooperative Oncology Group (ECOG) performance status score is 0 - 1.\n* 6\\. For patients in the dose - escalation stage, there are no restrictions on previous treatments. The investigator needs to determine that the patient is suitable for enrollment in the study and receiving the investigational drugs at the current stage. For patients in the dose - expansion stage, the following criteria must be met:\n* The patient has received (neo)adjuvant endocrine therapy (either as a single agent or in combination). There should be imaging evidence of breast cancer recurrence or progression during or within 12 months after the completion of (neo)adjuvant endocrine therapy (tamoxifen, AI, or oral SERD).\n* Patients in the recurrent or metastatic stage have not received systemic chemotherapy. (Note 1: A chemotherapy regimen that is terminated due to toxicity during the first cycle or after the completion of treatment, and there is no clinical or imaging evidence of disease progression at the start of subsequent treatment, is not counted as a line of treatment. Note 2: Adjuvant and neoadjuvant chemotherapy are not classified as lines of treatment for ABC. Note 3: Antibody - drug conjugates are classified as chemotherapy)\n* Patients in the recurrent or metastatic stage have not received CDK4/6 inhibitor treatment. (Note 1: It is allowed that the patient has received CDK4/6i during (neo)adjuvant therapy, and there is a disease - free interval of at least 12 months (i.e., at least 12 months between the last day of CDK4/6i treatment and the date of recurrence). In addition, drug replacement in patients without disease progression does not count as a new line of treatment)\n\nExclusion Criteria:\n\n* 1\\. The patient was previously diagnosed with HER2 - positive breast cancer through pathological examination.\n* 2\\. Patients who are judged by the investigator as unsuitable for endocrine therapy (e.g., patients with visceral crisis at immediate risk of life - threatening complications in the short term, including those with a large amount of uncontrolled effusion (pleural, pericardial, and abdominal), lymphangitis carcinomatosa of the lung, or patients with liver involvement \\> 50%).\n* 3\\. Patients who have previously received treatment with fulvestrant or inhibitors such as PI3K/AKT/mTOR.\n* 4\\. Patients with third - space fluid accumulation (such as pericardial effusion, pleural effusion, and ascites) that requires repeated drainage or other treatments but remains uncontrollable, and are judged by the investigator as unsuitable for enrollment.\n* 5\\. Patients with a history of severe lung diseases, such as interstitial lung disease and/or pneumonia, or pulmonary hypertension, or radiation pneumonia requiring glucocorticoid treatment.\n* 6\\. Patients with chronic gastrointestinal dysfunction mainly manifested as diarrhea, such as Crohn's disease, ulcerative colitis, malabsorption, or diarrhea of grade \u2265 1; intestinal obstruction, or other gastrointestinal diseases judged to be clinically significant by the investigator.\n* 7\\. Patients with known coagulation disorders such as bleeding tendency; or patients who need to use anticoagulants, which may affect the intramuscular injection of fulvestrant or the use of LHRH agonists.\n* 8\\. Patients with known hypersensitivity or intolerance to all investigational drugs or their excipients, or any components of LHRH agonists (if applicable).\n* 9\\. Patients with a history of autoimmune diseases (except tuberous sclerosis), a history of immunodeficiency diseases (including positive HIV test), or other acquired or congenital immunodeficiency diseases, or a history of organ transplantation.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zhimin Shao, PhD,MD",
+          "role": "CONTACT",
+          "phone": "+086 64175590",
+          "phoneExt": "88807",
+          "email": "zhimingshao@yahoo.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cancer Hospital Affiliated to Fudan University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "zuo Wenjia",
+              "role": "CONTACT",
+              "phone": "+86 18018678485"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D020123",
+          "term": "Sirolimus"
+        },
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018942",
+          "term": "Macrolides"
+        },
+        {
+          "id": "D007783",
+          "term": "Lactones"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

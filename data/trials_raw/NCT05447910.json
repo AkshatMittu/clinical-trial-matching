@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05447910",
+      "orgStudyIdInfo": {
+        "id": "21-003046"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2022-04802",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        }
+      ],
+      "organization": {
+        "fullName": "Mayo Clinic",
+        "class": "OTHER"
+      },
+      "briefTitle": "Analysis of Letrozole in Patients With Operable Hormone Receptor Positive, HER2 Negative Breast Cancer",
+      "officialTitle": "Comprehensive Single-Cell Transcriptional Analysis of Aromatase Inhibitor-Resistant Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "insufficient funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-09-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-09-27",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-06-28",
+      "studyFirstSubmitQcDate": "2022-07-01",
+      "studyFirstPostDateStruct": {
+        "date": "2022-07-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Mayo Clinic",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to study to collect tissue samples from patients with early stage hormone receptor-positive HER2-negative breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Adenocarcinoma",
+        "Invasive Breast Carcinoma",
+        "Resectable Breast Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Samples store for future research with consent of participants"
+      },
+      "enrollmentInfo": {
+        "count": 21,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients with early-stage hormone receptor-positive HER2-negative breast cancer receiving letrozole",
+          "description": "Patients undergo collection of blood and tissue samples prior to beginning treatment with letrozole and at least two weeks after the start of letrozole treatment, but prior to surgery.",
+          "interventionNames": [
+            "Procedure: Biospecimen Collection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Biospecimen Collection",
+          "description": "Undergo collection of blood and tissue samples",
+          "armGroupLabels": [
+            "Patients with early-stage hormone receptor-positive HER2-negative breast cancer receiving letrozole"
+          ],
+          "otherNames": [
+            "Biological Sample Collection",
+            "Biospecimen Collected",
+            "Specimen Collection"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Differences in tumor microenvironment subpopulations in aromatase inhibitor (AI)-sensitive version (vs.) AI-resistant hormone receptor (HR)+ breast cancer",
+          "description": "Tissue samples from patients with early-stage hormone receptor-positive HER2-negative breast cancer will be collected to compare differences.",
+          "timeFrame": "Up to 8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Effects of estrogen deprivation on the immune microenvironment",
+          "description": "Estrogen receptor will be evaluated by both biopsy and surgical specimens.",
+          "timeFrame": "Up to 8 weeks"
+        },
+        {
+          "measure": "Effects of estrogen deprivation on tumor immune microenvironment",
+          "description": "Estrogen receptor will be evaluated by both biopsy and surgical specimens.",
+          "timeFrame": "Up to 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Postmenopausal and suitable to receive aromatase inhibitor as per physician's discretion\n* Histologically confirmed un-resected operable invasive adenocarcinoma of the breast \u2265 0.5 cm with estrogen receptor (ER) and/or progesterone receptor (PR) positive \u2265 10%, and no human epidermal growth factor receptor 2 (HER2) amplification or overexpression\n* Patients must not have received any prior chemotherapy, radiation therapy, or endocrine therapy for their current breast cancer. Patients who received tamoxifen or raloxifene or another agent for prevention of breast cancer may be included\n* Willing and able to provide research tissue samples\n* Willing and able to provide research blood samples\n\nExclusion Criteria:\n\n* Immunocompromised patients including patients known to be human immunodeficiency virus (HIV) positive or those on chronic steroids\n\n  * NOTE: Must be off systemic steroids at least 14 days prior to pre-registration. However, topical steroids, inhalants or steroid eye drops are permitted\n* Known history of active autoimmune disease that has required systemic treatment within =\\< 30 days (i.e., with use of disease modifying agents, corticosteroids, or immunosuppressive drugs) prior to pre-registration\n\n  * NOTE: Replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency) is not considered a form of systemic treatment. Patients with vitiligo, Graves disease, or psoriasis not requiring systemic treatment within the past 30 days are not excluded. Patients with Celiac disease controlled with diet modification are not excluded",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with early-stage hormone receptor-positive HER2-negative breast cancer",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Saranya Chumsri, M.D.",
+          "affiliation": "Mayo Clinic",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Mayo Clinic in Florida",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224-9980",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Mayo Clinic Clinical Trials",
+          "url": "https://www.mayo.edu/research/clinical-trials"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2022-12-01",
+          "uploadDate": "2025-06-09T11:59",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 979582
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2023-05-08",
+          "uploadDate": "2025-06-09T11:59",
+          "filename": "ICF_001.pdf",
+          "size": 469216
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

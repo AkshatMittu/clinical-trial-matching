@@ -1,0 +1,308 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02823262",
+      "orgStudyIdInfo": {
+        "id": "16-117"
+      },
+      "organization": {
+        "fullName": "Beth Israel Deaconess Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Breast Cancer Treatment Decision Aid for Women Aged 70 and Older",
+      "officialTitle": "A Breast Cancer Treatment Decision Aid for Women Aged 70 and Older"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Did not receive funding for the trial.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-07",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-03",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-06-29",
+      "studyFirstSubmitQcDate": "2016-06-30",
+      "studyFirstPostDateStruct": {
+        "date": "2016-07-06",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2024-01-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mara Schonberg",
+        "investigatorTitle": "Mara Schonberg, MD, MPH",
+        "investigatorAffiliation": "Beth Israel Deaconess Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Beth Israel Deaconess Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Dana-Farber Cancer Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this research study is to evaluate a decision aid to help women aged 70 and older decide on treatment for their breast cancer.",
+      "detailedDescription": "The investigators aim to use this information to further refine and evaluate a decision aid to help newly-diagnosed women aged 70 and older with breast cancer understand the risks and benefits of different types of breast cancer treatment. The Decision Aid (DA) was created for women 70 years or older diagnosed with ER+, HER2-, clinically LN-, 3cm or less breast cancers deciding on breast cancer treatment. The DA was designed considering the health literary, cognitive abilities, treatment outcomes, and competing health issues of older women.\n\nPhase I :\n\n\\- The investigators will obtain and incorporate additional feedback on the DA from women 70 years or older who were diagnosed with breast cancer \\> 6 months ago, their family members, and clinicians, so that the DA can be refined and evaluated by women who were recently treated for breast cancer but not newly diagnosed with breast cancer.\n\nPhase II\n\n\\- The investigators plan to test the efficacy of the revised DA in a randomized control trial (RCT) of 230 diverse women 70 years or older newly diagnosed with ER+, LN-, HER2-, 3 cm or less breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Estrogen Receptor Positive Breast Cancer",
+        "Node-negative Breast Cancer",
+        "Human Epidermal Growth Factor 2 Negative Carcinoma of Breast"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Estrogen Receptor Positive Breast Cancer",
+        "Node-negative Breast Cancer",
+        "Human Epidermal Growth Factor 2 Negative Carcinoma of Breast"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 65,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Decision Aid",
+          "type": "EXPERIMENTAL",
+          "description": "Post Initial Surgical Consultation\n\n* Including background questionnaire and randomization into Decision Aid Group or Control Group:\n* The Decision Aid Group (workbook and CD) explains each treatment including its benefits and risks.\n\n  \\-- The DA asks women 10 questions about their health;the response to each question is associated with a point value and women are asked to tally their points. The DA groups women into 4 health categories based on their health score.\n* Assessment at One week after participants surgical consultation and five months after surgical consultation",
+          "interventionNames": [
+            "Other: Breast Cancer Treatment Decision Aid for women 70+"
+          ]
+        },
+        {
+          "label": "No Decision Aid",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Post Initial Surgical Consultation\n\n* Including background questionnaire and randomization into Decision Aid Group or Control Group:\n* Participant will receive Usual Care assistance when making treatment decisions.\n* Assessment at One week after participants surgical consultation and five months after surgical consultation",
+          "interventionNames": [
+            "Other: Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Breast Cancer Treatment Decision Aid for women 70+",
+          "description": "We developed a decision aid on breast cancer treatment for women 70 years or older newly diagnosed with estrogen receptor positive (ER+), clinically lymph node negative (LN-), HER2 negative (HER2-), breast cancers that are 3 centimeters or less. The DA was written using low literacy principles and provides information on the benefits and risks of mastectomy vs. breast conserving surgery (BCS), radiotherapy after BCS, and of hormonal therapies (e.g., anastrozole). It also considers the impact of competing health issues on older women's treatment choices.",
+          "armGroupLabels": [
+            "Decision Aid"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "armGroupLabels": [
+            "No Decision Aid"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Decisional Conflict Scale at 1 week",
+          "description": "Scores on the decisional conflict scale (DCS, range from 0 \\[none\\] to 100 \\[extremely high decisional conflict\\]",
+          "timeFrame": "Baseline, 1 week"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Knowledge score using our knowledge test",
+          "description": "mean of Correct Response at each time point",
+          "timeFrame": "One week, 5 Months"
+        },
+        {
+          "measure": "Change in Stage of Decision-Making at one week using one-item tool",
+          "description": "One item (responses vary from \"haven't begun to think about the choices to \"considering the options\", to \"have already made a decision.\") This tool is used to differentiate women who are at earlier stages of decision-making compared to women who are in later stages.",
+          "timeFrame": "Baseline, One week"
+        },
+        {
+          "measure": "Self-Efficacy using 11-item scale",
+          "description": "11 item scale (each 5 points), measures self-confidence in making an informed treatment choice. (e.g., I feel confident that I can get the facts about the treatment choices available to me, ask questions without feeling dumb)",
+          "timeFrame": "One week"
+        },
+        {
+          "measure": "Values using importance scale 1-10",
+          "description": "How important is it to you to (0-10): 1) keep your breast, 2) minimize chance of cancer coming back in breast, 3) avoid radiation, 4) do everything possible to treat my breast cancer, 5) minimize length of treatment, 6) do what doctor thinks is best, 7) avoid side effects of treatment",
+          "timeFrame": "One week"
+        },
+        {
+          "measure": "Treatment preferences using two-item tool",
+          "description": "Which surgery do you want to treat your early stage breast cancer? Lumpectomy, lumpectomy and radiation, mastectomy, other surgery, I am not sure; Which medication do you want to treat your early stage breast cancer? tamoxifen, aromatase inhibitor, neither, not sure.",
+          "timeFrame": "One week"
+        },
+        {
+          "measure": "Desired role in decision-making using one-item tool",
+          "description": "Which best describes how you like to make treatment decisions: a) the doctor decides what should be done and does it; b) the doctor presents his or her recommendations to you to accept or reject; c) the doctor discusses alternatives with you and the two of you decide together how to proceed; or d) the doctor presents all available options and allows you to decide",
+          "timeFrame": "One week"
+        },
+        {
+          "measure": "Anxiety using 6-item Spielberger State-Trait Anxiety Inventory short-form",
+          "description": "Spielberger State-Trait Anxiety Inventory short-form; 6 items used widely in cancer studies.",
+          "timeFrame": "One week, 5 months"
+        },
+        {
+          "measure": "Quality of Life using the SF-12 physical and mental component scores",
+          "description": "Health related quality of life measured using the SF-12 physical and mental component at scores at both time points",
+          "timeFrame": "One week, 5 months"
+        },
+        {
+          "measure": "Preparation for Decision-Making using 10 items (1-5 scale",
+          "description": "Patient's perception of how useful the DA is in preparing to communicate with their clinician; 10 items (1-5 scale), Ex: Did this educational material help you organize your thoughts? Assessed at both time points.",
+          "timeFrame": "One week, 5 months"
+        },
+        {
+          "measure": "Actual role in decision-making using one-item tool",
+          "description": "Which best describes how treatment decisions with your surgeon (will also ask about decision with their radiation oncologist/oncologist) were made: a) the surgeon decided what should be done and did it; b) the surgeon presented his/her recommendation to you to accept or reject; c) the surgeon discussed alternatives with you and the two of you decided together how to proceed; d) the surgeon presented all available options and allowed you to decide.",
+          "timeFrame": "5 months"
+        },
+        {
+          "measure": "Decision Regret using one-item tool",
+          "description": "If I had to do it over I would make a different decision about breast cancer treatment (strongly agree to strongly disagree); will ask specifically about surgery/radiation/endocrine therapy",
+          "timeFrame": "5 months"
+        },
+        {
+          "measure": "Satisfaction with treatment decision using 4-item tool",
+          "description": "4 items (scores 4-20). Higher scores\\> satisfaction; Subjects level of agreement with: a) I was adequately informed about the issues; b) the decision about which treatment I would receive was the best decision for me; c) treatment decisions were consistent with my personal values; d) I am satisfied with my treatment choice.",
+          "timeFrame": "5 months"
+        },
+        {
+          "measure": "Satisfaction with the decision process using 4-item tool",
+          "description": "4 items (scores 4-20). Higher scores \\> satisfaction (Cronbach's alpha =0.91). Subjects level of agreement with: a) I wish I would have given more consideration to my options; b) I would have liked to had more information; c) I would have like to have been more active in the decision-making process; d) I did not have as much say as I would have liked.",
+          "timeFrame": "5 months"
+        },
+        {
+          "measure": "Treatment received using chart abstraction",
+          "description": "Type of surgery, radiation, endocrine therapy, abstracted from medical records",
+          "timeFrame": "5 months"
+        },
+        {
+          "measure": "Acceptability using 0-3 scale",
+          "description": "Length; amount of information; clarity (scale 0-3); balance (e.g. the information was slanted towards getting radiation); anxiety provoking (scale 0-3); helpful (scale 0-3); amount read",
+          "timeFrame": "1 week"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Phase I\n\n  * Patient age \u2265 70 yrs\n  * Female patient diagnosed with a first primary ER+, HER2-, LN-, 3cm or less breast cancer \\>6 months ago but \\<2 years ago\n  * Caregiver age \\>21 years\n  * English speaking\n* Phase II\n\n  * Female patient age \u2265 70 yrs newly diagnosed with a first primary ER+, HER2-, LN-, 3cm or less breast cancer\n  * Women newly diagnosed with breast cancer on the day of surgical consult\n\nExclusion Criteria:\n\n* Phase I\n\n  * Patient Age \\< 70 years\n  * Women diagnosed with Paget's disease, inflammatory breast cancer or a phyllodes tumor\n  * Signs of Dementia\n  * Score \\>10 on the Orientation-Memory-Concentration (OMC) test\n  * Non-English Speaking;\n  * Caregiver age \\< 21 years\n  * Women who do not have capacity to participate. --- Before enrolling women in this study, possible participants will be asked 7 questions about the benefits and risks of the study. Women that answer 3 or more of these questions incorrectly will be excluded.\n* Phase II\n\n  * Women with a history of breast cancer (invasive and non-invasive)\n  * Diagnosed with Paget's disease, inflammatory breast cancer or a phyllodes tumor\n  * Signs of Dementia\n  * Score \\>10 on the OMC test (indicative of dementia).\n  * Women who do not have capacity to participate. --- Before enrolling women in this study, possible participants will be asked 7 questions about the benefits and risks of the study. Women that answer 3 or more of these questions incorrectly will be excluded.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "70 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Mara Schonberg, MD MPH",
+          "affiliation": "Beth Israel Deaconess Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,147 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03961880",
+      "orgStudyIdInfo": {
+        "id": "IRMA"
+      },
+      "organization": {
+        "fullName": "University Hospital Tuebingen",
+        "class": "OTHER"
+      },
+      "briefTitle": "Impact of Recurrence Score on Adjuvant Treatment Decisions in Breast Cancer Patients",
+      "officialTitle": "Impact of Recurrence Score on Adjuvant Treatment Decisions and Tumor Cell Dissemination in Estrogen-receptor Positive and HER2 Negative Patients With Early Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-03-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-06-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-05-14",
+      "studyFirstSubmitQcDate": "2019-05-22",
+      "studyFirstPostDateStruct": {
+        "date": "2019-05-23",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University Hospital Tuebingen",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "IRMA is a Prospective, monocenter, non-interventional investigator initiated (IIT) registry that aims to investigate the use of the CE-marked OncotypeDX and its impact on adjuvant therapy recommendations in the clinical routine. Additionally, the proportion of patients with low, intermediate and high RS in predefined clinical subgroups will be determined. To evaluate the impact of the RS on tumor cell dissemination, these subgroups also include DTC-negative versus DTC-positive patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Female"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 270,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Evaluation of the influence of the 21-gene Recurrence-Score (RS) on adjuvant therapy recommendation",
+          "description": "The Recurrence Score is a continuous score that provides an individual estimate of the 10 year risk of distant recurrence and predicts the likelihood of benefit from chemotherapy. The quantitative nature of PCR allows for a continuous score as opposed to a binary result (low vs. high only). Oncotype DX test results assign a Recurrence Score - a number between 0 and 100 - to the early-stage breast cancer or DCIS.\n\nRecurrence Score lower than 18: The cancer has a low risk of recurrence. The benefit of chemotherapy is likely to be small and will not outweigh the risks of side effects.\n\nRecurrence Score of 18 up to and including 30: The cancer has an intermediate risk of recurrence. It's unclear whether the benefits of chemotherapy outweigh the risks of side effects.\n\nRecurrence Score greater than or equal to 31: The cancer has a high risk of recurrence, and the benefits of chemotherapy are likely to be greater than the risks of side effects.",
+          "timeFrame": "1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Evaluation of the association of the RS with tumor cell dissemination into bone marrow",
+          "description": "Bone marrow sampling is performed during primary surgery as part of the clinical routine. The presence of disseminated tumor cells (DTC status) is evaluated by immunostaining.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Correlation of the RS with age",
+          "description": "age in years",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Correlation of the RS with tumor nodal status",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Correlation of the RS with tumor grading",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Correlation of the RS with proliferation marker Ki-67",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* women \u2265 18 years of age\n* histologically proven unilateral primary non-metastatic invasive breast cancer\n* ER-/ or PR- positive and HER2-negative\n* N0-N1 (0-3 involved lymph-nodes). The nodal status may be evaluated clinically.\n* surgery or planed surgery at the Department of women's health, Tuebingen\n* written informed consent into IRMA\n\nExclusion Criteria:\n\n* ER-negative\n* HER2-positive\n* \\> 3 involved lymph-nodes\n* bilateral breast cancer\n* preexisting cancer disease within the last 10 years\n* preexisting invasive ipsi- or contralateral breast cancer (non-invasive ipsi- or contralateral breast cancer is not regarded as an exclusion criteria)\n* primary systemic therapy\n* locally advanced, inoperable or metastatic breast cancer\n* pregnant or lactating patients\n* inadequate general condition (not fit for chemotherapy)",
+      "healthyVolunteers": true,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Women with breast cancer",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Department for Women's Health",
+          "city": "T\u00fcbingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "72086",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    }
+  },
+  "hasResults": false
+}

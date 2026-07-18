@@ -1,0 +1,1796 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01919229",
+      "orgStudyIdInfo": {
+        "id": "CLEE011A2201"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2013-002588-24",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Pharmacodynamics Pre-surgical Study of LEE011 in Early Breast Cancer Patients (MONALEESA-1)",
+      "officialTitle": "A Randomized Pre-surgical Pharmacodynamics Study to Assess the Biological Activity of LEE011 Plus Letrozole Versus Single Agent Letrozole in Primary Breast Cancer",
+      "acronym": "MONALEESA-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-11",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Due to low recruitment, it was decided to terminate the study.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-09",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-08-02",
+      "studyFirstSubmitQcDate": "2013-08-06",
+      "studyFirstPostDateStruct": {
+        "date": "2013-08-08",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2015-09-10",
+      "resultsFirstSubmitQcDate": "2015-11-30",
+      "resultsFirstPostDateStruct": {
+        "date": "2016-01-01",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-11-30",
+      "lastUpdatePostDateStruct": {
+        "date": "2016-01-01",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multi-center, open-label Phase II randomized pre-surgical pharmacodynamics study.",
+      "detailedDescription": "This randomized pre-surgical pharmacodynamics study will assess the biological activity of LEE011 plus letrozole versus single agent letrozole in primary breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early Breast Cancer"
+      ],
+      "keywords": [
+        "HR-positive",
+        "HER2-negative",
+        "Breast cancer",
+        "LEE011",
+        "Letrozole",
+        "CDK",
+        "CDK4",
+        "CDK6",
+        "CDK4/6",
+        "Pharmacodynamics",
+        "Pre-surgical",
+        "Postmenopausal"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 14,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Letrozole",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Letrozole 2.5 mg alone once daily",
+          "interventionNames": [
+            "Drug: letrozole"
+          ]
+        },
+        {
+          "label": "LEE011 400 mg + letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily.",
+          "interventionNames": [
+            "Drug: LEE011 (ribociclib)",
+            "Drug: letrozole"
+          ]
+        },
+        {
+          "label": "LEE011 600mg + letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily.",
+          "interventionNames": [
+            "Drug: LEE011 (ribociclib)",
+            "Drug: letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LEE011 (ribociclib)",
+          "description": "Ribociclib was supplied in 200 mg hard gelatin capsules for oral use.",
+          "armGroupLabels": [
+            "LEE011 400 mg + letrozole",
+            "LEE011 600mg + letrozole"
+          ],
+          "otherNames": [
+            "ribociclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "letrozole",
+          "description": "Letrozole was supplied in 2.5mg tablets for oral use.",
+          "armGroupLabels": [
+            "LEE011 400 mg + letrozole",
+            "LEE011 600mg + letrozole",
+            "Letrozole"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cell Cycle Response Rate Per Cell Proliferation Marker Ki67",
+          "description": "Cell cycle response rate is defined by proportion of patients with natural logarithm of Ki-67 levels (expressed as percentage of baseline values) of less than 1 at the time of surgery. Since the trial was prematurely terminated, no statistical analysis was done.",
+          "timeFrame": "Day 1, Day15"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability of the Combination",
+          "description": "Occurrence, frequency and severity of adverse events (AEs), laboratory abnormalities",
+          "timeFrame": "Up to 30 days after the last dose"
+        },
+        {
+          "measure": "Change From Baseline in Electrocardiogram (ECG) Parameters",
+          "timeFrame": "Baseline, Day 14"
+        },
+        {
+          "measure": "Change From Baseline in Expression of Retinoblastoma Protein (pRB)",
+          "timeFrame": "Baseline, Day 15"
+        },
+        {
+          "measure": "PK (Pharmacokinetics) Parameters, Including But Not Limited to, Cmax, Tmax, AUClast for LEE011 (and Any Relevant Metabolites) and Letrozole.",
+          "timeFrame": "Days 1, 8, 14 and 15"
+        },
+        {
+          "measure": "Change in ECG Morphology",
+          "timeFrame": "Baseline, Day 14"
+        },
+        {
+          "measure": "Correlation Between PK Concentrations and ECG Changes",
+          "description": "Correlation between the QTc interval change from baseline and plasma concentrations of LEE011 and/or any relevant metabolites",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Change From Baseline in Expression of Cyclin-Dependent Kinase 1 (CDK1)",
+          "timeFrame": "Baseline, Day 15"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female patient is \u2265 18 years old at the time of informed consent, with newly diagnosed resectable breast cancer, who received no prior therapy for breast cancer\n* Patient is postmenopausal. Postmenopausal status is defined either by:\n\n  * Prior bilateral oophorectomy\n  * Age \u226560\n  * Age \\<60 and amenorrhea for 12 or more months and FSH (Follicle Stimulating Hormone) and estradiol in the postmenopausal range.\n* Patient has a histologically (and/or cytologically) confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive breast cancer by local laboratory.\n* Patient has a grade II or grade III invasive breast cancer\n* Patient has Human Epidermal Growth Factor Receptor 2 (HER2) negative breast cancer defined as a negative in situ hybridization test or an Immunohistochemistry (IHC) status of 0, 1+ or 2+ (if IHC 2+, a negative in situ hybridization (respectively FISH/CISH/SISH) test is required) by local laboratory testing\n* Patient has at least one breast lesion with a diameter of \u22651.0 cm by the most accurate imaging modality used.\n* Patient has an Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1\n\nExclusion Criteria:\n\n* Patient has received any prior therapy for breast cancer.\n* Patient has a concurrent malignancy or malignancy within 3 years of randomization, with the exception of adequately treated, basal cell skin cancer or squamous cell carcinoma, non-melanomatous skin cancer or curatively resected cervical cancer.\n* Patient has active cardiac disease or a history of cardiac dysfunction including any of the following:\n\n  * History of angina pectoris, symptomatic pericarditis, or myocardial infarction within 12 months prior to study entry\n  * History of documented congestive heart failure (New York Heart Association functional classification III-IV)\n  * Documented cardiomyopathy\n  * Patient has a Left Ventricular Ejection Fraction (LVEF) \\< 50% as determined by Multiple Gated acquisition (MUGA) scan or echocardiogram (ECHO)\n  * History of ventricular, supraventricular, nodal arrhythmias, or any other cardiac arrhythmias, Long QT Syndrome or conduction abnormality in the previous 12 months.\n  * Family history of QTc prolongation or of unexplainable sudden death at \\<50 years of age.\n  * On screening 12 lead ECG, any of the following cardiac parameters: bradycardia (heart rate \\< 50 at rest), tachycardia (heart rate \\> 90 at rest), PR interval \\> 220 msec, QRS interval \\>109 msec, or QTcF \\>450 msec.\n  * Systolic blood pressure \\>160 mmHg or \\<90 mmHg.\n* Patient is currently receiving any of the following medications (see\n\nAppendix 1 for details):\n\n* That are known strong inducers or inhibitors of CYP3A4.\n* That have a narrow therapeutic window and are predominantly metabolized through CYP3A4.\n* That have a known risk to prolong the QT interval or induce Torsades de Pointes.\n\nOther protocol-defined inclusion/exclusion criteria may apply",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Highlands Oncology Group SC",
+          "city": "Fayetteville",
+          "state": "Arkansas",
+          "zip": "72703",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.06258,
+            "lon": -94.15743
+          }
+        },
+        {
+          "facility": "University of California at Los Angeles UCLA SC",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital SC-9",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Texas/MD Anderson Cancer Center Dept of MD Anderson (8)",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030-4009",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Singapore",
+          "state": "Singapore",
+          "zip": "169610",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Barcelona",
+          "state": "Catalonia",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "27336726",
+          "type": "DERIVED",
+          "citation": "Curigliano G, Gomez Pardo P, Meric-Bernstam F, Conte P, Lolkema MP, Beck JT, Bardia A, Martinez Garcia M, Penault-Llorca F, Dhuria S, Tang Z, Solovieff N, Miller M, Di Tomaso E, Hurvitz SA. Ribociclib plus letrozole in early breast cancer: A presurgical, window-of-opportunity study. Breast. 2016 Aug;28:191-8. doi: 10.1016/j.breast.2016.06.008. Epub 2016 Jun 20."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "20 patients were screened, of those 14 patients completed the Screening phase and were randomized. 6 patients discontinued during the Screening phase; 3 patients were considered screen failure and 3 patients discontinued due to patient's decision.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Letrozole",
+          "description": "Letrozole 2.5 mg alone once daily"
+        },
+        {
+          "id": "FG001",
+          "title": "LEE011 400mg + Letrozole",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+        },
+        {
+          "id": "FG002",
+          "title": "LEE011 600mg + Letrozole",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "6"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Subject/guardian decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "The full analysis set (FAS) comprised of all randomized patients. Patients were analyzed according to the treatment they had been assigned to during the randomization procedure.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Letrozole",
+          "description": "Letrozole 2.5 mg alone once daily"
+        },
+        {
+          "id": "BG001",
+          "title": "LEE011 400mg + Letrozole",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+        },
+        {
+          "id": "BG002",
+          "title": "LEE011 600mg + Letrozole",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "4"
+            },
+            {
+              "groupId": "BG001",
+              "value": "6"
+            },
+            {
+              "groupId": "BG002",
+              "value": "4"
+            },
+            {
+              "groupId": "BG003",
+              "value": "14"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "57.0",
+                      "spread": "5.48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "64.2",
+                      "spread": "9.91"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "70.0",
+                      "spread": "4.24"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "63.8",
+                      "spread": "8.66"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Customized",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "< 65 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": ">=65 years",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "14"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Cell Cycle Response Rate Per Cell Proliferation Marker Ki67",
+          "description": "Cell cycle response rate is defined by proportion of patients with natural logarithm of Ki-67 levels (expressed as percentage of baseline values) of less than 1 at the time of surgery. Since the trial was prematurely terminated, no statistical analysis was done.",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Day 1, Day15",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Safety and Tolerability of the Combination",
+          "description": "Occurrence, frequency and severity of adverse events (AEs), laboratory abnormalities",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained, but see Adverse Events (AE) section for all AEs collected.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 30 days after the last dose",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "4"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "6"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "4"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Adverse Events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Serious Adverse Events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Deaths",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other Adverse Events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Electrocardiogram (ECG) Parameters",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, Day 14",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Expression of Retinoblastoma Protein (pRB)",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, Day 15",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PK (Pharmacokinetics) Parameters, Including But Not Limited to, Cmax, Tmax, AUClast for LEE011 (and Any Relevant Metabolites) and Letrozole.",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Days 1, 8, 14 and 15",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change in ECG Morphology",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, Day 14",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Correlation Between PK Concentrations and ECG Changes",
+          "description": "Correlation between the QTc interval change from baseline and plasma concentrations of LEE011 and/or any relevant metabolites",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Day 14",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Change From Baseline in Expression of Cyclin-Dependent Kinase 1 (CDK1)",
+          "populationDescription": "Since the study was terminated, no efficacy data was obtained.",
+          "reportingStatus": "POSTED",
+          "timeFrame": "Baseline, Day 15",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Letrozole",
+              "description": "Letrozole 2.5 mg alone once daily"
+            },
+            {
+              "id": "OG001",
+              "title": "LEE011 400mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily."
+            },
+            {
+              "id": "OG002",
+              "title": "LEE011 600mg + Letrozole",
+              "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Letrozole2.5mgqd",
+          "description": "Letrozole 2.5 mg alone once daily",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 2,
+          "otherNumAtRisk": 4
+        },
+        {
+          "id": "EG001",
+          "title": "LEE400mgqd+Letrozole2.5mgqd",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 400 mg (2 capsules of 200 mg each) once daily.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 6,
+          "otherNumAffected": 5,
+          "otherNumAtRisk": 6
+        },
+        {
+          "id": "EG002",
+          "title": "LEE600mgqd+Letrozole2.5mgqd",
+          "description": "Letrozole 2.5 mg once daily and ribociclib 600 mg (3 capsules of 200 mg each) once daily.",
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 4,
+          "otherNumAffected": 4,
+          "otherNumAtRisk": 4
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "VERTIGO",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "ABDOMINAL PAIN",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "DIARRHOEA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "DYSPEPSIA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "NAUSEA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "STOMATITIS",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "VOMITING",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "ASTHENIA",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "FATIGUE",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "PYREXIA",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "HYPERSENSITIVITY",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "HERPES ZOSTER",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "POST PROCEDURAL INFECTION",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "PROCEDURAL PAIN",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "SEROMA",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "ALANINE AMINOTRANSFERASE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "ASPARTATE AMINOTRANSFERASE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "BLOOD ALKALINE PHOSPHATASE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "BLOOD CREATININE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "ELECTROCARDIOGRAM QT PROLONGED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "LIPASE INCREASED",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "DECREASED APPETITE",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "HYPOMAGNESAEMIA",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "BREAST PAIN",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "DYSPNOEA",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "ERYTHEMA",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        },
+        {
+          "term": "HOT FLUSH",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA 17.1",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 4
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 6
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 4
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "The terms and conditions of Novartis' agreements with its investigators may vary. However, Novartis does not prohibit any investigator from publishing. Any publications from a single-site are postponed until the publication of pooled data (i.e.,data from all sites) in clinical trial or disclosure of trial results in their entirety."
+      },
+      "pointOfContact": {
+        "title": "Study Director",
+        "organization": "Novartis Pharmaceuticals",
+        "email": "trialandresults.registries@novartis.com",
+        "phone": "862-778-8300"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Belgium",
+        "France",
+        "Italy",
+        "Netherlands"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

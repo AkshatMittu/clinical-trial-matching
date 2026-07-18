@@ -1,0 +1,260 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07616453",
+      "orgStudyIdInfo": {
+        "id": "2026-0417"
+      },
+      "organization": {
+        "fullName": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy and Safety of Culmerciclib Plus Aromatase Inhibitors in a Response-Adapted Neoadjuvant Strategy for Highly Proliferative ER-Positive/HER2-Negative Breast Cancer",
+      "officialTitle": "Neoadjuvant Trastuzumab-rezetecan Plus Pertuzumab or Nab-Paclitaxel, Carboplatin, Trastuzumab, and Pyrotinib After Suboptimal Response to Neoadjuvant Dual HER2-Targeted Therapy Combined With Chemotherapy in HER2-Positive Early Breast Cancer: A Response-Guided Phase II Study (TAYLOR-002)",
+      "acronym": "TAYLOR-002"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-05-06",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-05-05",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-05-05",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-05-24",
+      "studyFirstSubmitQcDate": "2026-05-24",
+      "studyFirstPostDateStruct": {
+        "date": "2026-06-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective, response-adapted phase II study evaluates the efficacy and safety of neoadjuvant culmerciclib in combination with aromatase inhibitors in patients with highly proliferative ER-positive/HER2-negative breast cancer. All patients initially receive induction treatment with culmerciclib plus endocrine therapy, followed by on-treatment assessment of biological and clinical response. Patients demonstrating an adequate response continue the same regimen, whereas those with a suboptimal response are transitioned to alternative treatment strategies prior to surgery. This adaptive approach aims to optimize treatment selection, improve therapeutic efficacy, and avoid unnecessary exposure to ineffective therapy.",
+      "detailedDescription": "This is a prospective, response-adapted, phase II study designed to evaluate an individualized neoadjuvant treatment strategy based on culmerciclib in combination with aromatase inhibitors in patients with highly proliferative ER-positive/HER2-negative early breast cancer. The study incorporates an adaptive treatment algorithm guided by on-treatment assessment of tumor response, with the aim of optimizing therapeutic efficacy while minimizing unnecessary treatment exposure.\n\nAll eligible patients initially receive neoadjuvant treatment with culmerciclib plus endocrine therapy according to the study protocol. Following completion of a predefined initial treatment phase, tumor response is assessed using biological and clinical evaluation methods.\n\nPatients who achieve an adequate response continue the same neoadjuvant regimen to complete the planned course of therapy. In contrast, patients demonstrating a suboptimal response are transitioned to alternative treatment strategies prior to surgery. Subsequent treatment selection and management are conducted according to protocol-defined principles and investigator assessment.\n\nThis response-adapted strategy is intended to address the clinical heterogeneity of endocrine sensitivity in ER-positive/HER2-negative breast cancer. By tailoring treatment intensity according to early response, the study seeks to maximize therapeutic benefit in responsive patients while facilitating timely treatment modification for those less likely to benefit from the initial regimen.\n\nPrimary and secondary objectives include evaluation of clinical efficacy, safety and tolerability of the response-adapted neoadjuvant strategy, and the feasibility of treatment modification based on early response assessment. Exploratory analyses will investigate potential biomarkers associated with treatment response and resistance, with the goal of informing future individualized treatment approaches."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HR+/HER2- Early Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 45,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Culmerciclib plus AI",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Culmerciclib",
+            "Drug: Aromatase Inhibitors"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Culmerciclib",
+          "description": "CDK2/4/6 inhibitor",
+          "armGroupLabels": [
+            "Culmerciclib plus AI"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aromatase Inhibitors",
+          "description": "Letrozole or anastrozole",
+          "armGroupLabels": [
+            "Culmerciclib plus AI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Complete cell cycle arrest (CCCA)",
+          "description": "Ki67\u22642.7%",
+          "timeFrame": "4 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "the proportion of patients with Residual Cancer Burden (RCB) class 0-1",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Total Pathological Complete Response (tpCR) Rate",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Event-Free Survival (EFS)",
+          "description": "EFS is defined as the time from randomization to any of the following events: precludes surgery, local or distant recurrence, second primary malignancy, or death due to any cause.",
+          "timeFrame": "Approximately five years"
+        },
+        {
+          "measure": "Adverse Event (AE)",
+          "description": "An AE is defined as any untoward medical occurrence in a study participant administered a medicinal product, temporally associated with study intervention, without presumption of causality.",
+          "timeFrame": "Approximately three years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria Female patients aged \u226518 and \u226475 years. Histologically confirmed estrogen receptor (ER)-positive (\u226510%) and HER2-negative breast cancer, according to the 2018 ASCO/CAP guidelines. HER2-negative status is defined as immunohistochemistry (IHC) 0 or 1+, or IHC 2+ with negative in situ hybridization (ISH) (ISH ratio \\<2.0), as confirmed by a certified pathology laboratory.\n\nKi-67 \u226520% assessed on core needle biopsy samples. Newly diagnosed, treatment-na\u00efve patients with stage I-IIIA disease according to the AJCC 8th edition.\n\nEastern Cooperative Oncology Group (ECOG) performance status of 0-1.\n\nAdequate bone marrow function:\n\n1. Absolute neutrophil count \u22651.5 \u00d7 10\u2079/L (without growth factor support within 14 days);\n2. Platelet count \u2265100 \u00d7 10\u2079/L (without transfusion or supportive therapy within 7 days);\n3. Hemoglobin \u2265100 g/L (without transfusion within 7 days).\n\nAdequate hepatic and renal function:\n\n1. Total bilirubin \u22641 \u00d7 upper limit of normal (ULN);\n2. Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) \u22643 \u00d7 ULN (\u22645 \u00d7 ULN in patients with liver metastases);\n3. Blood urea nitrogen and serum creatinine \u22641.5 \u00d7 ULN, and creatinine clearance \u226550 mL/min (calculated using the Cockcroft-Gault formula).\n\nLeft ventricular ejection fraction (LVEF) \u226550% as assessed by echocardiography. QT interval \u2264480 ms on 12-lead electrocardiogram (ECG). Ability and willingness to undergo tumor biopsy. Provision of written informed consent. Exclusion Criteria Prior receipt of any anticancer therapy, including chemotherapy, radiotherapy, targeted therapy, or endocrine therapy.\n\nConcurrent treatment with other anticancer agents. Bilateral breast cancer, inflammatory breast cancer, or occult breast cancer. Stage IV breast cancer. Breast cancer not confirmed by histopathology. History of other malignancies within the past 5 years, except for adequately treated carcinoma in situ of the cervix.\n\nSevere dysfunction of major organs, including heart, liver, or kidneys. Conditions affecting oral drug administration or absorption, including inability to swallow, chronic diarrhea, or intestinal obstruction.\n\nParticipation in another interventional clinical trial within 4 weeks prior to enrollment.\n\nKnown hypersensitivity to any component of the study drugs; history of immunodeficiency, including HIV infection, active hepatitis B or C infection, other acquired or congenital immunodeficiency disorders, or history of organ transplantation.\n\nHistory of significant cardiovascular disease, including but not limited to clinically significant arrhythmias requiring treatment, myocardial infarction, heart failure, or any other cardiac condition deemed unsuitable by the investigator.\n\nPregnant or breastfeeding women; women of childbearing potential with a positive pregnancy test at baseline, or unwilling to use effective contraception during the study period.\n\nAny serious concomitant disease that, in the investigator's judgment, may compromise patient safety or compliance with the study, including but not limited to uncontrolled hypertension, severe diabetes, or active infection.\n\nHistory of neurological or psychiatric disorders, including epilepsy or dementia.\n\nAny other condition that, in the investigator's opinion, makes the patient unsuitable for participation in the study.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Yunxiang Zhou",
+          "role": "CONTACT",
+          "phone": "15868131018",
+          "email": "yxzhou@zju.edu.cn"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Yiding Chen",
+          "affiliation": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "2nd Affiliated Hospital, School of Medicine, Zhejiang University",
+          "status": "RECRUITING",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310009",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Yunxiang Zhou",
+              "role": "CONTACT",
+              "phone": "15868131018",
+              "email": "yxzhou@zju.edu.cn"
+            },
+            {
+              "role": "CONTACT",
+              "email": "yxzhou@zju.edu.cn"
+            },
+            {
+              "name": "Yunxiang Zhou",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D047072",
+          "term": "Aromatase Inhibitors"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D065088",
+          "term": "Steroid Synthesis Inhibitors"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004965",
+          "term": "Estrogen Antagonists"
+        },
+        {
+          "id": "D006727",
+          "term": "Hormone Antagonists"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

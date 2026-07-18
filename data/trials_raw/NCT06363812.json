@@ -1,0 +1,228 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06363812",
+      "orgStudyIdInfo": {
+        "id": "The POST"
+      },
+      "organization": {
+        "fullName": "Fondazione Sandro Pitigliani",
+        "class": "OTHER"
+      },
+      "briefTitle": "Probability of OncotypeDx to Reallocate As Low or High Risk of Recurrence Breast Cancer Patients with Uncertain Biology",
+      "officialTitle": "Prospective Study Evaluating the Probability of OncotypeDx to Allocate At Low or High Risk of Recurrence Early ER Positive HER2 Negative Breast Cancer Patients with Uncertain Biological Behavior Evaluated by Pathological Parameters"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-03-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-05-15",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-04-09",
+      "studyFirstSubmitQcDate": "2024-04-09",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-12",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Fondazione Sandro Pitigliani",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Genomic Health\u00ae, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Istituto Toscano Tumori",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "In some cases of hormone receptor positive, human epidermal growth factor receptor 2 (HER2) negative early breast cancer the benefit of adding adjuvant chemotherapy to hormonal treatment, estimated on the basis of the classical clinico-pathological parameters, is unclear. In these cases the application of a genomic test could be useful in guiding the therapeutic choice.",
+      "detailedDescription": "Oncotype Dx (ODx) is a 21-gene assay that classifies primary ER+ breast tumors into three categories of recurrence risk: High (HR), Intermediate (IR) and Low (LR).\n\nAvailable data show that\n\n1. patients with ODx low score breast cancer perform well without chemotherapy,\n2. chemotherapy has an additive value to endocrine therapy in patients with ODx high score tumors, and\n3. the role of chemotherapy is unknown in patients with ODx intermediate score cancer.\n\nIn this study, the investigators aim to evaluate the capability of ODx to help in guiding the choice of systemic adjuvant treatment in a group of patients with ER+ and HER2- , node negative (pN0) or micrometastatic (pNmi) breast cancer with uncertain biological behavior for whom there is uncertainty about the indication of adjuvant chemotherapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "estrogen receptor positive",
+        "HER2 negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 258,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "the proportion of tumor samples with a useful OncotypeDx",
+          "description": "number of low risk and high risk at OncotypeDx divided by the total number of tests",
+          "timeFrame": "15 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "the proportion of patients in which the result of the test has induced a modification in the initial treatment plan",
+          "description": "number of cases with a therapeutic change divided by the total number of tested cases",
+          "timeFrame": "15 days"
+        },
+        {
+          "measure": "the proportion of tumor samples with an intermediate risk or not evaluable at OncotypeDx",
+          "description": "number of intermediate risk and not evaluable at OncotypeDx divided by the total number of tests",
+          "timeFrame": "15 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histological diagnosis of infiltrating ductal or lobular ER+ HER2- early breast cancer adequately treated with surgery\n* Nodal status: no regional lymph node metastasis (pN0) or micrometastatic regional lymph node (pN1mic)\n* Uncertain biological behavior defined by all of the following parameters: ER \\>20% and progesterone receptor (PgR) \\>20% and Ki67 between 14% and 30% and G2\n* Written informed consent\n\nExclusion Criteria:\n\n* pathologic tumor stage (pT) \\> 5 cm (not applicable to the internal control group)\n* Prior neoadjuvant therapy\n* Evidence of metastatic disease\n* No axillary exploration (sentinel lymph node biopsy or axillary dissection)\n* Multifocal or multicentral or bilateral tumors",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "primary care clinic",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Laura Biganzoli, MD",
+          "affiliation": "Hospital of Prato",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital of Prato",
+          "city": "Prato",
+          "zip": "59100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.8805,
+            "lon": 11.09699
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "20005174",
+          "type": "BACKGROUND",
+          "citation": "Albain KS, Barlow WE, Shak S, Hortobagyi GN, Livingston RB, Yeh IT, Ravdin P, Bugarini R, Baehner FL, Davidson NE, Sledge GW, Winer EP, Hudis C, Ingle JN, Perez EA, Pritchard KI, Shepherd L, Gralow JR, Yoshizawa C, Allred DC, Osborne CK, Hayes DF; Breast Cancer Intergroup of North America. Prognostic and predictive value of the 21-gene recurrence score assay in postmenopausal women with node-positive, oestrogen-receptor-positive breast cancer on chemotherapy: a retrospective analysis of a randomised trial. Lancet Oncol. 2010 Jan;11(1):55-65. doi: 10.1016/S1470-2045(09)70314-6. Epub 2009 Dec 10."
+        },
+        {
+          "pmid": "19436038",
+          "type": "BACKGROUND",
+          "citation": "Cheang MC, Chia SK, Voduc D, Gao D, Leung S, Snider J, Watson M, Davies S, Bernard PS, Parker JS, Perou CM, Ellis MJ, Nielsen TO. Ki67 index, HER2 status, and prognosis of patients with luminal B breast cancer. J Natl Cancer Inst. 2009 May 20;101(10):736-50. doi: 10.1093/jnci/djp082. Epub 2009 May 12."
+        },
+        {
+          "pmid": "20212256",
+          "type": "BACKGROUND",
+          "citation": "Dowsett M, Cuzick J, Wale C, Forbes J, Mallon EA, Salter J, Quinn E, Dunbier A, Baum M, Buzdar A, Howell A, Bugarini R, Baehner FL, Shak S. Prediction of risk of distant recurrence using the 21-gene recurrence score in node-negative and node-positive postmenopausal patients with breast cancer treated with anastrozole or tamoxifen: a TransATAC study. J Clin Oncol. 2010 Apr 10;28(11):1829-34. doi: 10.1200/JCO.2009.24.4798. Epub 2010 Mar 8."
+        },
+        {
+          "pmid": "15894097",
+          "type": "BACKGROUND",
+          "citation": "Early Breast Cancer Trialists' Collaborative Group (EBCTCG). Effects of chemotherapy and hormonal therapy for early breast cancer on recurrence and 15-year survival: an overview of the randomised trials. Lancet. 2005 May 14-20;365(9472):1687-717. doi: 10.1016/S0140-6736(05)66544-0."
+        },
+        {
+          "pmid": "26957642",
+          "type": "BACKGROUND",
+          "citation": "Harris LN, Ismaila N, McShane LM, Hayes DF. Use of Biomarkers to Guide Decisions on Adjuvant Systemic Therapy for Women With Early-Stage Invasive Breast Cancer: American Society of Clinical Oncology Clinical Practice Guideline Summary. J Oncol Pract. 2016 Apr;12(4):384-9. doi: 10.1200/JOP.2016.010868. Epub 2016 Mar 8. No abstract available."
+        },
+        {
+          "pmid": "16720680",
+          "type": "BACKGROUND",
+          "citation": "Paik S, Tang G, Shak S, Kim C, Baker J, Kim W, Cronin M, Baehner FL, Watson D, Bryant J, Costantino JP, Geyer CE Jr, Wickerham DL, Wolmark N. Gene expression and benefit of chemotherapy in women with node-negative, estrogen receptor-positive breast cancer. J Clin Oncol. 2006 Aug 10;24(23):3726-34. doi: 10.1200/JCO.2005.04.7985. Epub 2006 May 23."
+        },
+        {
+          "pmid": "10963602",
+          "type": "BACKGROUND",
+          "citation": "Perou CM, Sorlie T, Eisen MB, van de Rijn M, Jeffrey SS, Rees CA, Pollack JR, Ross DT, Johnsen H, Akslen LA, Fluge O, Pergamenschikov A, Williams C, Zhu SX, Lonning PE, Borresen-Dale AL, Brown PO, Botstein D. Molecular portraits of human breast tumours. Nature. 2000 Aug 17;406(6797):747-52. doi: 10.1038/35021093."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

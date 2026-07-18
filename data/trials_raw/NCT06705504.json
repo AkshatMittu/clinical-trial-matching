@@ -1,0 +1,289 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06705504",
+      "orgStudyIdInfo": {
+        "id": "CLEE011A3002"
+      },
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Real-world Study of Effectiveness and Safety in HR+/HER2- Breast Cancer Patients Treated With Ribociclib or Alpelisib",
+      "officialTitle": "Real-world Effectiveness and Safety in HR+/HER2- Advanced or Metastatic BC Patients Treated With Ribociclib or Alpelisib: A European Non-interventional Retrospective Study (REASSURE)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-11",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-06-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-11-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-11-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-11-22",
+      "studyFirstSubmitQcDate": "2024-11-22",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-26",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-11-22",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study was a multinational and multicenter cohort study of patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) advanced or metastatic breast cancer (aBC/mBC) treated with ribociclib or alpelisib between the period of 01 January 2018 and 30 September 2021. Patients who were receiving active treatment for malignancies other than BC or participating in a clinical trial were excluded. This study was conducted retrospectively with secondary use of data."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Receptor Positive HER-2 Negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 435,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Institut de Canc\u00e9rologie de l'Ouest (ICO) Cohort",
+          "description": "Patients with HR+/HER2- advanced or metastatic BC who were registered in IQVIA's oncology evidence network (OEN), ICO, and initiated treatment with ribociclib or alpelisib."
+        },
+        {
+          "label": "L'Institut Curie (Curie) Cohort",
+          "description": "Patients with HR+/HER2- advanced or metastatic BC who were registered in IQVIA's OEN, Curie, and initiated treatment with ribociclib or alpelisib."
+        },
+        {
+          "label": "Instituto Portugu\u00eas de Oncologia do Porto (IPO-Porto) Cohort",
+          "description": "Patients with HR+/HER2- advanced or metastatic BC who were registered in IQVIA's OEN, IPO-Porto, and initiated treatment with ribociclib or alpelisib."
+        },
+        {
+          "label": "Czech Republic Cohort",
+          "description": "Patients with HR+/HER2- advanced or metastatic BC who were registered in Czech Republic local sites or clinics proposed by Novartis affiliates and initiated treatment with ribociclib or alpelisib."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Real-world Progression-free Survival (rwPFS)",
+          "description": "rwPFS was defined as the time from the index date to the date of the first documented progression or death due to any cause. If a patient did not have an event, rwPFS was censored at the date of the last adequate tumor assessment. The index date was defined as the date of the first treatment with ribociclib or alpelisib.",
+          "timeFrame": "Up to 51 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Age",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients by Age Group",
+          "description": "Age groups:\n\n* Younger than 65 years\n* 65 years or older",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Gender",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Year of Index Date",
+          "description": "The index date was defined as the date of the first treatment with ribociclib or alpelisib.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients With a History of Breast Cancer",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients by Comorbidity",
+          "description": "Comorbidities included:\n\n* Diabetes mellitus\n* Cardiovascular disease\n* Cerebrovascular disease\n* Chronic obstructive pulmonary disease (COPD)\n* Dementia\n* Depression\n* Heart Failure\n* Hypertension\n* Hypothyroidism\n* Ischemic heart disease\n* Liver disease\n* Myocardial infarction\n* Osteoporosis\n* Peripheral vascular disease\n* Renal Disease\n* Rheumatological disease\n* Ulcer disease\n* Other",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Body Mass Index (BMI)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients per BMI Category",
+          "description": "BMI Categories:\n\n* Underweight: below 18.5 kilograms per meter squared (kg/m\\^2)\n* Healthy/normal weight: 18.5 to 24.9 kg/m\\^2\n* Pre-obesity: 25 to 29.9 kg/m\\^2\n* Obesity: 30 kg/m\\^2 and higher",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients by Menopausal Status",
+          "description": "Menopausal status:\n\n* Pre- or peri-menopausal\n* Post-menopausal",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of patients per Charlson Comorbidity Index (CCI) Score Category",
+          "description": "CCI predicts the ten-year mortality for a patient who may have a range of comorbid conditions. Comorbidity was assessed using the CCI, categorized as low (0-1) and high (\u22652).",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Duration of Disease Recurrence",
+          "description": "Disease recurrence categories:\n\n* 12 months or less\n* More than 12 months",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients by Smoking Status",
+          "description": "Smoking status:\n\n* Current smoker\n* Former smoker\n* Never smoked",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Primary Tumor Type",
+          "description": "Tumor types:\n\n* Invasive ductal\n* Lobular carcinoma\n* Other",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Disease Site",
+          "description": "Disease site categories:\n\n* Non-visceral\n* Visceral\n* Multiple",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients With Primary Metastatic Disease",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Number of Metastatic Sites",
+          "description": "Categories for number of metastatic sites: 0, 1, 2, 3, 4 or more.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Type of Metastases",
+          "description": "Metastases:\n\n* Local/breast metastases\n* Bone metastases\n* Lung metastases\n* Liver metastases\n* Central nervous system metastases\n* Lymph node metastases\n* Other metastases",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Time From Diagnosis to Metastasis",
+          "description": "Categories:\n\n* 24 months or less\n* More than 24 months\n* Metastatic BC at diagnosis",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients With Asymptomatic Disease",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Tumor Grade",
+          "description": "Tumor Grades:\n\n* Grade 1\n* Grade 2\n* Grade 3",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Stage of Cancer",
+          "description": "Cancer Stages: I, IIA, IIB, IIIA, IIIB, IIIC, and IV.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients by Eastern Cooperative Oncology Group (ECOG) Performance Score",
+          "description": "ECOG performance score describes a patient's level of functioning in terms of their ability to care for themself, daily activity, and physical ability (walking, working, etc.). Scores ranged from a lower value of 0 (fully active, able to carry out all pre-disease performance without restriction) up to 4 (completely disabled; cannot carry out any selfcare; totally confined to bed or chair).",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Previous Types of Treatment",
+          "description": "Treatment categories:\n\n* Chemotherapy\n* Surgery\n* Radiotherapy\n* Adjuvant endocrine therapy\n* Everolimus treatment",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by the Number of Prior Lines of Endocrine Therapy (ET)",
+          "description": "Categories for number of lines of ET: 0, 1, 2, and 3 or more.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Resistant to ET",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Sensitive to Hormonal Therapy",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by Line of Cyclin-dependent Kinase 4/6 Inhibitor (CDK4/6i) Treatment Received",
+          "description": "CDK4/6i lines of treatment:\n\n* Adjuvant\n* 1st metastatic line\n* 2nd metastatic line\n* 3rd metastatic line or later",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Number of Patients Categorized by the Number of Previous Lines of Treatment",
+          "description": "Categories for number of lines of treatment: 0, 1, 2, and 3 or more.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Baseline Neutrophil-to-lymphocyte Ratio (NLr)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Baseline Platelet-to-lymphocyte Ratio (PLr)",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Baseline Lymphocytes-to-monocytes Ratio (LMr)",
+          "timeFrame": "Baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Confirmed diagnosis of locally advanced/metastatic not amenable to surgery HR+/HER2- BC (progressed following prior therapy or de novo) for whom the treating physician took the decision to initiate treatment with ribociclib or alpelisib.\n* Patients with at least one prescription for ribociclib or alpelisib during the index period (01 January 2018 to 30 September 2021).\n\nExclusion criteria:\n\n* Patients who were participating in any interventional clinical trial that included investigational or marketed products at the time of index (ribociclib, alpelisib, and other); patients who were participating in other investigator-initiated research or non-interventional study (NIS) could be included as long as their standard of care was not altered by the study.\n* Patients on active treatment for malignancies other than HR+/HER2- aBC/mBC at the time of index.\n* IPO-Porto cohort only:\n\n  * Patients who had participated or were participating in any interventional clinical trial that included investigational or marketed products at the time of index (ribociclib, alpelisib, and others).\n  * Patients who underwent part of the treatment for locally advanced/metastatic not amenable to surgery HR+/HER2- BC outside the center.",
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "This was a retrospective, noninterventional cohort study.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis",
+          "city": "East Hanover",
+          "state": "New Jersey",
+          "zip": "07936",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8201,
+            "lon": -74.36487
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    }
+  },
+  "hasResults": false
+}

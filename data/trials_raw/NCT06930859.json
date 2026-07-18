@@ -1,0 +1,721 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06930859",
+      "orgStudyIdInfo": {
+        "id": "CLEE011O1RU02"
+      },
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Non-interventional Study to Assess the Effectiveness and Safety of Ribociclib in the Adjuvant Therapy of Hormone Receptor Positive (HR+) HER2-negative Stage II and III Breast Cancer in Real Clinical Practice in Russia",
+      "officialTitle": "Non-interventional Study to Assess the Effectiveness and Safety of Ribociclib in the Adjuvant Therapy of Hormone Receptor Positive (HR+) HER2-negative Stage II and III Breast Cancer in Real Clinical Practice in Russia",
+      "acronym": "ELEGANCE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-12-03",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2032-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-09",
+      "studyFirstSubmitQcDate": "2025-04-09",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective, observational, multicenter study aims at evaluating the efficacy of adjuvant ribociclib in combination with hormone therapy (aromatase inhibitor \u00b1 GnRH aginost) in various subgroups of patients with HR+HER2- stage II-III breast cancer in real clinical practice in Russia. Subgroup division will be based on the tumor grade, lymph node involvement, and the response to test hormone therapy. The study will consist of two cohorts: a prospective one with patients receiving adjuvant therapy with ribociclib combined with Aromatase inhibitors (AI), and a retrospective one with patients receiving adjuvant therapy with AI alone. Thus, both primary data collection and secondary use of data will be organized."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 2766,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ribociclib+AI",
+          "description": "Patients with HR+ HER2- stage II-III breast cancer receiving adjuvant ribociclib plus AI (aromatase inhibitor)",
+          "interventionNames": [
+            "Drug: Ribociclib",
+            "Drug: Letrozole",
+            "Drug: Anastrozole"
+          ]
+        },
+        {
+          "label": "Monotherapy AI",
+          "description": "Patients with HR+ HER2- stage II-III breast cancer receiving adjuvant AI (aromatase inhibitor) monotherapy",
+          "interventionNames": [
+            "Drug: Letrozole",
+            "Drug: Anastrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ribociclib",
+          "description": "CDK4/6 inhibitor",
+          "armGroupLabels": [
+            "Ribociclib+AI"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Aromatase inhibitor",
+          "armGroupLabels": [
+            "Monotherapy AI",
+            "Ribociclib+AI"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "description": "Aromatase inhibitor",
+          "armGroupLabels": [
+            "Monotherapy AI",
+            "Ribociclib+AI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive breast cancer-free survival (IBCFS) according to the Standardized Definitions for Efficacy End Points (STEEP) criteria in a prospective cohort",
+          "description": "IBCFS at M36, M48, and M60 according to the STEEP 2.0 criteria in a prospective cohort (defined as the time from the start of therapy to one of the listed events: ipsilateral invasive recurrence of breast cancer, locoregional invasive recurrence, distant recurrence, breast cancer-related death, death not associated with breast cancer progression, death from unknown cause, contralateral invasive recurrence of breast cancer) depending on the tumor grade (G2/G3) and the status of lymph node involvement (N0/N1/N2-3)",
+          "timeFrame": "Months 36, 48, 60"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Invasive breast cancer-free survival in prospective and retrospective cohorts depending on the tumor grade (G2/G3) and on the status of lymph nodes involvement (N0/N1/N2-3).",
+          "description": "IBCFS at M36, M48, and M60 according to the STEEP 2.0 criteria in prospective and retrospective cohorts (defined as the time from the start of therapy to one of the listed events: ipsilateral invasive recurrence of breast cancer, locoregional invasive recurrence, distant recurrence, breast cancer-related death, death not associated with breast cancer progression, death from unknown cause, contralateral invasive recurrence of breast cancer) depending on the tumor grade (G2/G3) and on the status of lymph nodes involvement (N0/N1/N2-3).",
+          "timeFrame": "Months 36, 48, 60"
+        },
+        {
+          "measure": "Invasive disease-free survival (IDFS) in prospective and retrospective cohorts depending on the tumor grade (G2/G3) and on the status of lymph nodes involvement (N0/N1/N2-3).",
+          "description": "IDFS is defined as the time from surgery until first occurrence of invasive breast cancer recurrence, distant recurrence, or death from any cause",
+          "timeFrame": "Months 36, 48, 60"
+        },
+        {
+          "measure": "Recurrence-free survival (RFS) in the prospective and retrospective cohorts depending on the tumor grade (G2/G3) and on the status of lymph nodes involvement (N0/N1/N2-3).",
+          "description": "Recurrence-free survival is the length of time after the treatment of the cancer ends that the patient survives without cancer symptoms.",
+          "timeFrame": "Months 36, 48, 60"
+        },
+        {
+          "measure": "Number of doses taken relative to the total planned doses of ribociclib %",
+          "description": "To evaluate the dose intensity of ribociclib.",
+          "timeFrame": "Months 36"
+        },
+        {
+          "measure": "Number of participants with AEs/SAEs including those of special interest, in patients receiving ribociclib",
+          "description": "The frequency of AE/SAE of varying severity, including those of special interest (neutropenia, elevated ALT/AST, prolonged QT interval), expressed as a percentage of the total study population receiving ribociclib",
+          "timeFrame": "Months 3, 6, 9, 12, 24, 36"
+        },
+        {
+          "measure": "Number of patients who discontinued ribociclib for any reason, due to any AE, and due to AEs of special interest",
+          "description": "The frequency of ribociclib discontinuation for any reason, due to any AE, and due to AEs of special interest (neutropenia, elevated ALT/AST, prolonged QT interval), expressed as a percentage of the total study population receiving ribociclib",
+          "timeFrame": "Months 3, 6, 9, 12, 24, 36"
+        },
+        {
+          "measure": "Patients' quality of life evaluated through a questionnaire",
+          "description": "The number (%) of patients in each response category (no problems, mild problems, moderate problems, severe problems, and extremely severe problems) according to the questionnaire scale (mobility, self-care, normal activities, pain/discomfort, anxiety/depression). The scale on 5 particular symptoms from 1 (no difficulties) to 5 (severe limitations).",
+          "timeFrame": "Months 3, 6, 9, 12, 24, 36, 48, 60"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients from the prospective cohort of the study must meet all of the following criteria:\n\n1. Signed and dated Informed Consent Form (ICF) not later than 28 days after the initiation of adjuvant therapy with ribociclib in combination with aromatase inhibitors (\u00b1GnRH agonists).\n2. Age \u226518 years at the time of signing the ICF.\n3. Histologically verified HR+ HER2-negative stage II-III breast cancer, for which radical treatment was carried out.\n4. The adjuvant hormone therapy with aromatase inhibitors (\u00b1GnRH agonists) may be started not earlier than 12 months before initiation of therapy with ribociclib.\n5. ECOG performance status 0-1\n\nPatients from the retrospective cohort of the study must meet all of the following criteria:\n\n1. Age \u226518 years at the initiation of hormone therapy.\n2. Histologically verified HR+ HER2-negative stage II-III breast cancer, for which radical treatment was carried out.\n3. Initiation of adjuvant hormone monotherapy with aromatase inhibitors (\u00b1GnRH agonists) in the index period from July 1, 2019 to July 1, 2020.\n4. Presence of the necessary information in the source documentation.\n\nExclusion Criteria:\n\nPatients enrolled in the study in prospective cohort should not meet any of the following criteria.\n\n1. History of therapy with abemaciclib or palbociclib\n2. Therapy with ribociclib in combination with AI for more than 28 days at the time of signing the Informed Consent Form\n3. Active therapy for other malignant neoplasms\n4. Participation in interventional clinical studies at the time of signing the Informed Consent Form\n\nPatients enrolled in the study in retrospective cohort should not meet any of the following criteria.\n\n1. Neoadjuvant or adjuvant therapy with CDK4/6 inhibitors\n2. A history of another concomitant malignant neoplasm requiring active therapy\n3. Participation in interventional clinical studies at the time of treatment for breast cancer\n4. Patients experiencing a recurrence during adjuvant hormone therapy can participate if they meet the other inclusion and exclusion criteria.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with HR+HER2- stage II-III breast cancer receiving adjuvant therapy with ribociclib combined with AI will be include in prospective cohort.\n\nPatients with HR+HER2- stage II-III breast cancer receiving adjuvant therapy with AI alone will be included in retrospective cohort.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT",
+          "phone": "+41613241111",
+          "email": "novartis.email@novartis.com"
+        },
+        {
+          "name": "Novartis Pharmaceuticals",
+          "role": "CONTACT"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kaluga",
+          "state": "Russia",
+          "zip": "248007",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.53063,
+            "lon": 36.27
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Pskov",
+          "state": "Russia",
+          "zip": "180000",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.81922,
+            "lon": 28.33181
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ryazan",
+          "state": "Russia",
+          "zip": "390011",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.62696,
+            "lon": 39.70415
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Saint Petersburg",
+          "state": "Russia",
+          "zip": "197758",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Surgut",
+          "state": "Tymen Area",
+          "zip": "628402",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 61.25757,
+            "lon": 73.41775
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Arkhangelsk",
+          "zip": "163045",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 64.5461,
+            "lon": 40.55183
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Barnaul",
+          "zip": "656045",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.36199,
+            "lon": 83.72786
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Bryansk",
+          "zip": "241028",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 53.27096,
+            "lon": 34.32143
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Irkutsk",
+          "zip": "664035",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 52.29566,
+            "lon": 104.29076
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ivanovo",
+          "zip": "153040",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.99988,
+            "lon": 40.97257
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Izhevsk",
+          "zip": "426009",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85225,
+            "lon": 53.19862
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kemerovo",
+          "zip": "650036",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.35417,
+            "lon": 86.10435
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Khabarovsk",
+          "zip": "680042",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 48.46204,
+            "lon": 135.0971
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Khanty-Mansiysk",
+          "zip": "628012",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 61.00187,
+            "lon": 69.02728
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Khimky",
+          "zip": "121552",
+          "country": "Russia"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Kirov",
+          "zip": "610021",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 58.59809,
+            "lon": 49.65783
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Krasnoyarsk",
+          "zip": "660022",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.03742,
+            "lon": 92.93136
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Moscow",
+          "zip": "115304",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Moscow",
+          "zip": "115522",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Moscow",
+          "zip": "125284",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Moscow",
+          "zip": "129110",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 55.75204,
+            "lon": 37.61781
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Moscow Region Balas",
+          "zip": "143900",
+          "country": "Russia"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Perm",
+          "zip": "614066",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 58.01046,
+            "lon": 56.25017
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Pyatigorsk",
+          "zip": "357502",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 44.05,
+            "lon": 43.05036
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Rostov-on-Don",
+          "zip": "344006",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 47.21997,
+            "lon": 39.70769
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Saint Petersburg",
+          "zip": "194017",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Saint Petersburg",
+          "zip": "194291",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Saint Petersburg",
+          "zip": "197758",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 59.93863,
+            "lon": 30.31413
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Saransk",
+          "zip": "430032",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.18485,
+            "lon": 45.17166
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Sestroretsk",
+          "zip": "197706",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 60.09801,
+            "lon": 29.96378
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tver'",
+          "zip": "170008",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85836,
+            "lon": 35.90057
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Tyumen",
+          "zip": "625023",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.15222,
+            "lon": 65.52722
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Ufa",
+          "zip": "450054",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 54.74306,
+            "lon": 55.96779
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Vladikavkaz",
+          "zip": "362002",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 43.04101,
+            "lon": 44.66986
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Vladivostok",
+          "zip": "690105",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 43.10562,
+            "lon": 131.87353
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Volgograd",
+          "zip": "400138",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 48.71378,
+            "lon": 44.4976
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Voronezh",
+          "zip": "394036",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 51.66833,
+            "lon": 39.19204
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Yaroslavl",
+          "zip": "150054",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 57.62987,
+            "lon": 39.87368
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Yekaterinburg",
+          "zip": "620036",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 56.85733,
+            "lon": 60.61529
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "status": "RECRUITING",
+          "city": "Yuzhno-Sakhalinsk",
+          "zip": "693010",
+          "country": "Russia",
+          "geoPoint": {
+            "lat": 46.9543,
+            "lon": 142.73559
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,945 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04906395",
+      "orgStudyIdInfo": {
+        "id": "TOL2506A"
+      },
+      "organization": {
+        "fullName": "Tolmar Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Ovarian Suppression Evaluating Subcutaneous Leuprolide Acetate in Breast Cancer",
+      "officialTitle": "Phase 3,Single Arm,Open-Label Study Evaluating Ovarian Suppression Following 3 Month Leuprolide Acetate For Injectable Suspension (TOL2506) in Combination With Endocrine Therapy in Premenopausal Subjects With Hormone-Receptor-Positive (HR+),Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Breast Cancer",
+      "acronym": "OVELIA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-07-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-04-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-05-12",
+      "studyFirstSubmitQcDate": "2021-05-24",
+      "studyFirstPostDateStruct": {
+        "date": "2021-05-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Tolmar Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a phase 3, single arm, open-label study evaluating the effectiveness of TOL2506 to suppress ovarian function in premenopausal women with HR+, HER2-negative breast cancer. The study will also aim to assess the safety of TOL2506 in men with HR+, HER2-negative breast cancer. The Screening Period will be conducted in two parts: 1) an abbreviated, initial screening where premenopausal status will be determined prior to neoadjuvant or adjuvant chemotherapy (if planned) and 2) the full screening assessment conducted after neoadjuvant or adjuvant chemotherapy (or for subjects who enter the study without having received chemotherapy). Following the Screening Period, eligible subjects will enter into the 48 week Treatment Period in 1 of 2 groups: those who will receive tamoxifen concurrently with TOL2506 or those who will initiate therapy with an AI (letrozole, anastrozole, or exemestane) beginning 6 weeks after the first administration of TOL2506, upon confirmation that estradiol (E2) levels of \\< 20 pg/mL (testosterone levels \\< 50 ng/dL in males) have been achieved. After Week 12, subjects will be allowed to switch from receiving an AI to receiving tamoxifen or from tamoxifen to AI at the discretion of the Investigator. However, a switch is not permitted 28 days prior to a dosing visit (eg, Week 24, 36, and 48 where a pre-dose blood sample for PK and PD analysis will be drawn). At the end of the Treatment Period, upon completion of the End of Study Visit (Visit 9, Week 48) subjects may be eligible to participate in a Safety Extension Study under a separate Protocol."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Ovarian Suppression",
+        "HR+",
+        "HER2-",
+        "Oncology",
+        "Premenopausal"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 250,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active Comparator: TOL2506",
+          "type": "EXPERIMENTAL",
+          "description": "TOL2506 in combinatination with standard endocrine therapy (Tamoxifen \\& Aromatase Inhibitors)",
+          "interventionNames": [
+            "Drug: TOL2506",
+            "Drug: Tamoxifen",
+            "Drug: Letrozole Tablets",
+            "Drug: Anastrozole Tablets",
+            "Drug: Exemestane Tablets"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TOL2506",
+          "description": "Leuprolide Acetate for injectable suspension, 30 mg. Subcutaneous injection every 3 months.",
+          "armGroupLabels": [
+            "Active Comparator: TOL2506"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen",
+          "description": "20 mg once daily or 10 mg 2 times daily - either tablet or solution",
+          "armGroupLabels": [
+            "Active Comparator: TOL2506"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole Tablets",
+          "description": "One 2.5 mg tablet taken orally once daily",
+          "armGroupLabels": [
+            "Active Comparator: TOL2506"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole Tablets",
+          "description": "One 1 mg tablet taken orally once daily",
+          "armGroupLabels": [
+            "Active Comparator: TOL2506"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane Tablets",
+          "description": "One 25 mg tablet taken orally once daily",
+          "armGroupLabels": [
+            "Active Comparator: TOL2506"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Suppression of ovarian function",
+          "description": "LH level \\< 4 IU/L at Week 6",
+          "timeFrame": "6 weeks after the first administration of TOL2506"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Suppression of ovarian function overall (LH, E2, menses; treatments pooled)",
+          "description": "Percent of all subjects with LH \\< 4 IU/L, E2 \\<20 pg/mL in subjects treated with TOL2506 + endocrine therapy (tamoxifen or aromatase inhibitors) at every measurement from Week 6 to Week 48",
+          "timeFrame": "Week 6 to Week 48"
+        },
+        {
+          "measure": "Suppression of ovarian function overall (LH, E2, menses; TOL2506 + tamoxifen)",
+          "description": "Percent of all subjects with LH \\< 4 IU/L, E2 \\<20 pg/mL in subjects treated with TOL2506 + tamoxifen at every measurement from Week 6 to Week 48",
+          "timeFrame": "Week 6 to Week 48"
+        },
+        {
+          "measure": "Suppression of ovarian function overall (LH, E2; TOL2506 + aromatase inhibitor)",
+          "description": "Percent of all subjects with LH \\< 4 IU/L, E2 \\<20 pg/mL in subjects treated with TOL2506 + aromatase inhibitor at every measurement from Week 6 to Week 48",
+          "timeFrame": "Week 6 to Week 48"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nFemale\n\n1. Able to understand the investigational nature of this study and provide written informed consent prior to the participation in the trial\n2. Age 18 to 49, inclusive\n3. Diagnosis of Stage I, II, or III HR+, HER2-negative breast cancer (ER\\>1% and/or, PR\\>1%, HER2-negative per ASCO CAP guidelines)\n4. Is a candidate for endocrine therapy + ovarian suppression LH \\> 4 IU/L within 28 days prior to Day 1\n5. Is premenopausal as defined by:\n\n   * E2 \\> 30 pg/mL\n   * follicle stimulating hormone (FSH) \\< 40 IU/L\n   * regular menses (eg, menstrual cycle length of 21 to 35 days) Note: premenopausal status must be determined before neo/adjuvant chemotherapy in patients for which it is planned or prior to Day 1 in patients who did not have prior chemotherapy. If premenopausal status was not determined prior to chemotherapy, E2 and FSH must meet the above criteria when measured 2 weeks or more after the end of the final cycle of chemotherapy.\n\nExclusion Criteria:\n\n1. Body mass index (BMI) \\< 18.00 kg/m2 or \\> 35.00 kg/m2\n2. Breastfeeding\n3. Life expectancy \\< 12 months\n4. Eastern Cooperative Oncology Group (ECOG) performance status \u2265 3\n5. Unacceptable hepatic function as determined by any of the following:\n\n   1. Alanine aminotransferase (ALT) \u2265 2X upper limit of normal (ULN)\n   2. Aspartate aminotransferase (AST) \u2265 2X ULN\n   3. Bilirubin \u2265 2X ULN\n   4. Alkaline phosphatase \u2265 2X ULN\n   5. Severe hepatic impairment (Child-Pugh Class C)\n6. Unacceptable renal function as determined by any of the following:\n\n   1. Creatinine \u2265 3X ULN\n   2. Creatinine clearance \u2264 30 mL/minute\n   3. Creatinine clearance \u2264 60 mL/minute in subjects with bone density 1.5 standard deviations below the young adult normal mean\n7. History of significantly abnormal ECG or screening 12-lead ECG demonstrating any of the following:\n\n   1. HR \\> 100 BPM\n   2. QRS \\> 120 msec\n   3. QTc \\> 450 msec\n   4. PR \\> 220 msec\n8. Prior (within 28 days prior to Day 1) and/or concomitant use of medications known to prolong the QT/QTc interval\n9. Prior use of tamoxifen, other SERMs (eg, raloxifene) or antagonists (eg, fulvestrant), aromatase inhibitor, mammalian target of rapamycin (mTOR) inhibitors, or hormone replacement therapy within 3 months before breast cancer diagnosis\n10. Concomitant use of anticancer mediations other than those specified for use by the protocol\n11. Prior neoadjuvant or adjuvant endocrine therapy since diagnosis of breast cancer\n12. History of treatment for osteopenia/osteoporosis or baseline bone mineral density Z-score \u2264 -2.0\n13. Prior (within 6 months prior to Day 1) or current use of drugs known to increase bone mineral density (ie, bisphosphonates, denosumab, teriparatide, abaloparatide, romosozumab) or use of supplements known to increase bone mineral density (ie, calcitonin, fluoride, strontium) within 28 days prior to Day 1\n14. Low trauma fracture(s) occurring within 12 months prior to subject's first visit (defined as a fracture that results from a fall from a standing height or less, excluding fingers, toes, face and skull)\n15. Conditions that preclude bone mineral density measurement (lumbar spine/bilateral hip surgery with hardware in place, abdominal clips, umbilical ring \\[not willing to remove\\] or weight that exceeds the DEXA machine limitation)\n16. Any other medical condition or serious illness, presence of a second malignancy under current treatment or follow-up, or the presence of clinically significant findings on the physical exam, laboratory testing, medical history (including conditions that may be associated with low bone mass), that in the opinion of the Investigator may interfere with trial conduct, subject safety, or interpretation of study results\n17. Already receiving and/or previously received GnRH analogs within 1 year before breast cancer diagnosis\n18. Psychiatric, addictive, or other disorders that would preclude study compliance\n19. Use of medications that may impact subject safety and/or affect the PK of the drug and hormonal assessments including but not limited to:\n\n    1. Oral or transdermal hormonal therapy within 30 days prior to subject's first visit\n    2. Estrogen, progesterone, or androgens within 30 days prior to subject's first visit\n    3. Hormonal contraceptives within 30 days prior to subject's first visit\n    4. Medications known to result in clinically important decreases in bone mass taken within 6 months prior to subject's first visit\n20. Known hypersensitivity, idiosyncratic, or allergic reactions to GnRH, GnRH agonist/analogs or to any of the components of the IP\n21. Sexually active with a male partner and not willing to use non-hormonal contraceptive methods throughout the study\n22. Is of childbearing potential with a positive serum pregnancy test at Screening or urine pregnancy test at Day 1\n23. Exposure to any investigational agent within 30 days prior to the first dose of TOL2506\n\nSee contact information to obtain inclusion/exclusion criteria for males",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "E P Hamilton",
+          "affiliation": "SCRI Development Innovations, LLC",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Marin Cancer Care, Inc",
+          "city": "Greenbrae",
+          "state": "California",
+          "zip": "94904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.94854,
+            "lon": -122.5247
+          }
+        },
+        {
+          "facility": "Cypress Hematology and Oncology",
+          "city": "Parker",
+          "state": "Colorado",
+          "zip": "80138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.5186,
+            "lon": -104.76136
+          }
+        },
+        {
+          "facility": "Mount Sinai Hospital",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Baptist Health Louisville",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "Maryland Oncology Hematology, P.A.",
+          "city": "Glenn Dale",
+          "state": "Maryland",
+          "zip": "20769",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98761,
+            "lon": -76.82053
+          }
+        },
+        {
+          "facility": "Nebraska Cancer Specialists",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Montefiore - Einstein Center for Cancer Care at Montefiore Medical Park",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10461",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "Oncology Hematology Care Clinical Trials",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Lankenau Medical Center",
+          "city": "Wynnewood",
+          "state": "Pennsylvania",
+          "zip": "19096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.00289,
+            "lon": -75.27074
+          }
+        },
+        {
+          "facility": "Tennessee Oncology, PLLC",
+          "city": "Chattanooga",
+          "state": "Tennessee",
+          "zip": "37404",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.04563,
+            "lon": -85.30968
+          }
+        },
+        {
+          "facility": "Tennessee Oncology, PLLC",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Texas Oncology-Austin",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78731",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Texas Oncology- Dallas Presbyterian Hospital",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75231",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        },
+        {
+          "facility": "Texas Oncology- San Antonio",
+          "city": "New Braunfels",
+          "state": "Texas",
+          "zip": "78130",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.703,
+            "lon": -98.12445
+          }
+        },
+        {
+          "facility": "Texas Oncology- Northeast Texas",
+          "city": "Tyler",
+          "state": "Texas",
+          "zip": "75702",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.35126,
+            "lon": -95.30106
+          }
+        },
+        {
+          "facility": "Texas Oncology- Deke Slayton Cancer Center",
+          "city": "Webster",
+          "state": "Texas",
+          "zip": "77598",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.53773,
+            "lon": -95.11826
+          }
+        },
+        {
+          "facility": "Seattle Cancer Center Alliance",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Hospital Britanico de Buenos Aires",
+          "city": "Buenos Aires",
+          "state": "Buenos Aires F.D.",
+          "zip": "C1480AEB",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Instituto Oncologico de Cordoba (IONC)",
+          "city": "C\u00f3rdoba",
+          "state": "C\u00f3rdoba Province",
+          "zip": "5000",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Centro Privado de RMI Rio Cuarto",
+          "city": "R\u00edo Cuarto",
+          "state": "C\u00f3rdoba Province",
+          "zip": "5800",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -33.13044,
+            "lon": -64.35272
+          }
+        },
+        {
+          "facility": "Instituto Medico de la Fundacion Estudios Clinicos",
+          "city": "Rosario",
+          "state": "Santa Fe Province",
+          "zip": "S2000DEJ",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Hospital Provincial del Centenario",
+          "city": "Rosario",
+          "state": "Santa Fe Province",
+          "zip": "S2000KDS",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Hospital Aleman",
+          "city": "Buenos Aires",
+          "zip": "C118AAT",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Fundacion CENIT",
+          "city": "CABA",
+          "zip": "C1125ABD",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Sanatorio Allende- Sede Nueva Cordoba",
+          "city": "C\u00f3rdoba",
+          "zip": "X5000JHQ",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Oncocentro Servicos Medicos e Hospitalares Ltda",
+          "city": "Fortaleza",
+          "state": "Cear\u00e1",
+          "zip": "60135-237",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Centro Regional Integrado de Oncologia",
+          "city": "Fortaleza",
+          "state": "Cear\u00e1",
+          "zip": "60335-480",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Hospital Sao Rafael",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "zip": "41253-190",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital Araujo Jorge",
+          "city": "Goi\u00e2nia",
+          "state": "Goi\u00e1s",
+          "zip": "74605-070",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -16.67861,
+            "lon": -49.25389
+          }
+        },
+        {
+          "facility": "Onconeo",
+          "city": "Campo Grande",
+          "state": "Mato Grosso do Sul",
+          "zip": "79002-061",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.44278,
+            "lon": -54.64639
+          }
+        },
+        {
+          "facility": "Hospital do Cancer de Londrina",
+          "city": "Londrina",
+          "state": "Paran\u00e1",
+          "zip": "86015-520",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.31028,
+            "lon": -51.16278
+          }
+        },
+        {
+          "facility": "Uniao Brasileira de Educacao e Assistencia",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90610-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital de Amor Amazonia",
+          "city": "Porto Velho",
+          "state": "Rond\u00f4nia",
+          "zip": "76834-899",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.76194,
+            "lon": -63.90389
+          }
+        },
+        {
+          "facility": "Fundacao Pio XII",
+          "city": "Barretos",
+          "state": "S\u00e3o Paulo",
+          "zip": "14784-400",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.55722,
+            "lon": -48.56778
+          }
+        },
+        {
+          "facility": "Centro de Estudos e Pesquisas de Hematologia e Oncologia da Faculdade de Medicina do ABC",
+          "city": "Santo Andr\u00e9",
+          "state": "S\u00e3o Paulo",
+          "zip": "09060-650",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.66389,
+            "lon": -46.53833
+          }
+        },
+        {
+          "facility": "Clinica de Pesquisa e Centro de Estudos em Oncologia Ginecologica e Mamaria",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "01317-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Irmamandade de Santa Casa de Misericordia de Porto Alegre",
+          "city": "Porto Alegre",
+          "zip": "90020-090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Instituto de Educacao, Pesquisa e Gestao em Saude",
+          "city": "Rio de Janeiro",
+          "zip": "22775-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Sunnybrook Odette Cancer Centre Clinical Research Program",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Princess Margaret Cancer Centre",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 1Z5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "HCG City Cancer Centre",
+          "city": "Vijayawada",
+          "state": "Andhra Pradesh",
+          "zip": "520002",
+          "country": "India",
+          "geoPoint": {
+            "lat": 16.50745,
+            "lon": 80.6466
+          }
+        },
+        {
+          "facility": "Apollo Hospitals",
+          "city": "Visakhapatnam",
+          "state": "Andhra Pradesh",
+          "zip": "530040",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.68009,
+            "lon": 83.20161
+          }
+        },
+        {
+          "facility": "HCG Cancer Centre",
+          "city": "Visakhapatnam",
+          "state": "Andhra Pradesh",
+          "zip": "530040",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.68009,
+            "lon": 83.20161
+          }
+        },
+        {
+          "facility": "Hemato Oncology Clinic Ahmedabad Pvt. Ltd.",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "zip": "380054",
+          "country": "India",
+          "geoPoint": {
+            "lat": 23.02579,
+            "lon": 72.58727
+          }
+        },
+        {
+          "facility": "Unique Hospital Multispecialty & Research Institute",
+          "city": "Surat",
+          "state": "Gujarat",
+          "zip": "395002",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.19594,
+            "lon": 72.83023
+          }
+        },
+        {
+          "facility": "SRV AGADI Hospital and Research Centre",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "zip": "560027",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Oncoville Cancer Hospital and Research Center",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "zip": "560072",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.97194,
+            "lon": 77.59369
+          }
+        },
+        {
+          "facility": "Mysore Medical College and Research Institute",
+          "city": "Mysore",
+          "state": "Karnataka",
+          "zip": "570001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 12.29791,
+            "lon": 76.63925
+          }
+        },
+        {
+          "facility": "KIMS-Kingsway Hospitals, SPANV Medisearch Lifesciences",
+          "city": "Nagpur",
+          "state": "Maharashtra",
+          "zip": "440001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 21.14631,
+            "lon": 79.08491
+          }
+        },
+        {
+          "facility": "HCG Manavata Cancer Centre",
+          "city": "Nashik",
+          "state": "Maharashtra",
+          "zip": "42202",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.99727,
+            "lon": 73.79096
+          }
+        },
+        {
+          "facility": "Indrayani Hospital and Cancer Institute",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "412105",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Erode Cancer Centre Private Ltd.",
+          "city": "Erode",
+          "state": "Tamil Nadu",
+          "zip": "638012",
+          "country": "India",
+          "geoPoint": {
+            "lat": 11.3428,
+            "lon": 77.72741
+          }
+        },
+        {
+          "facility": "Apollo Cancer Hospitals",
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "zip": "500096",
+          "country": "India",
+          "geoPoint": {
+            "lat": 17.38405,
+            "lon": 78.45636
+          }
+        },
+        {
+          "facility": "Swami Harshankaranand Ji Hospital & Research Centre",
+          "city": "Varanasi",
+          "state": "Uttar Pradesh",
+          "zip": "221004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 25.31668,
+            "lon": 83.01041
+          }
+        },
+        {
+          "facility": "Amiisto Atencion Medica Integral, Investigacion Y Terapia Oncologica S.A De C.V.",
+          "city": "Mexico City",
+          "state": "Mexico City",
+          "zip": "07300",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Unidad de Medicina Especializada SMA",
+          "city": "San Juan del R\u00edo",
+          "state": "Quer\u00e9taro",
+          "zip": "76800",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.38897,
+            "lon": -99.99637
+          }
+        },
+        {
+          "facility": "Clinica EMA",
+          "city": "Mexico City",
+          "zip": "03339",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "FAICIC S. de R.L. de C.V.",
+          "city": "Veracruz",
+          "zip": "91900",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.18095,
+            "lon": -96.1429
+          }
+        },
+        {
+          "facility": "FDI Clinical Research",
+          "city": "San Juan",
+          "zip": "00927",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

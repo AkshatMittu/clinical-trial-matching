@@ -1,0 +1,4406 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06065748",
+      "orgStudyIdInfo": {
+        "id": "CO44657"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2022-502980-39-00",
+          "type": "REGISTRY",
+          "domain": "EU CT Number"
+        }
+      ],
+      "organization": {
+        "fullName": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate Efficacy and Safety of Giredestrant Compared With Fulvestrant (Plus a CDK4/6 Inhibitor), in Participants With ER-Positive, HER2-Negative Advanced Breast Cancer Resistant to Adjuvant Endocrine Therapy (pionERA Breast Cancer)",
+      "officialTitle": "A Phase III Randomized, Open-Label Study Evaluating Efficacy and Safety of Giredestrant Compared With Fulvestrant, Both Combined With a CDK4/6 Inhibitor, in Patients With Estrogen Receptor-Positive, HER2-Negative Advanced Breast Cancer With Resistance to Prior Adjuvant Endocrine Therapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-12-11",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-02-19",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-02-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-09-26",
+      "studyFirstSubmitQcDate": "2023-09-26",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-04",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase III, randomized, open-label multicenter study that will evaluate the efficacy and safety of giredestrant compared with fulvestrant, both in combination with the investigator's choice of a CDK4/6 inhibitor (palbociclib, ribociclib or abemaciclib), in participants with estrogen receptor-positive (ER+), human epidermal growth factor receptor 2-negative (HER2-) advanced breast cancer who have developed resistance to adjuvant endocrine therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Estrogen Receptor-Positive, HER2-Negative Advanced Breast Cancer"
+      ],
+      "keywords": [
+        "oral Selective Estrogen Receptor Degrader (SERD)",
+        "CDK4/6 inhibitor (CDK4/6i)",
+        "ESR1 mutation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1050,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Giredestrant + Investigator's Choice of CDK4/6i",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in the experimental arm will receive giredestrant plus the investigator's choice of CDK4/6 inhibitor (CDK4/6i): palbociclib, ribociclib, or abemaciclib.",
+          "interventionNames": [
+            "Drug: Giredestrant",
+            "Drug: Abemaciclib",
+            "Drug: Palbociclib",
+            "Drug: Ribociclib",
+            "Drug: LHRH Agonist",
+            "Diagnostic Test: FoundationOne Liquid CDx Assay (F1LCDx)"
+          ]
+        },
+        {
+          "label": "Fulvestrant + Investigator's Choice of CDK4/6i",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants in the control arm will receive fulvestrant plus the investigator's choice of CDK4/6 inhibitor (CDK4/6i): palbociclib, ribociclib, or abemaciclib.",
+          "interventionNames": [
+            "Drug: Fulvestrant",
+            "Drug: Abemaciclib",
+            "Drug: Palbociclib",
+            "Drug: Ribociclib",
+            "Drug: LHRH Agonist",
+            "Diagnostic Test: FoundationOne Liquid CDx Assay (F1LCDx)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Giredestrant",
+          "description": "Giredestrant 30 milligrams (mg) orally (PO) once a day (QD) on Days 1-28 of each 28-day cycle until progressive disease (PD) or unacceptable toxicity.",
+          "armGroupLabels": [
+            "Giredestrant + Investigator's Choice of CDK4/6i"
+          ],
+          "otherNames": [
+            "RO7197597",
+            "RG6171",
+            "GDC-9545"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "Fulvestrant 500 mg intramuscularly (IM) on Days 1 and 15 of Cycle 1 and on Day 1 of each subsequent 28-day cycle until PD or unacceptable toxicity.",
+          "armGroupLabels": [
+            "Fulvestrant + Investigator's Choice of CDK4/6i"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Abemaciclib",
+          "description": "If chosen by the investigator as the CDK4/6i, participants will receive abemaciclib 150 mg PO twice per day (BID) on Days 1-28 of each 28-day cycle until PD or unacceptable toxicity.",
+          "armGroupLabels": [
+            "Fulvestrant + Investigator's Choice of CDK4/6i",
+            "Giredestrant + Investigator's Choice of CDK4/6i"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "If chosen by the investigator as the CDK4/6i, participants will receive palbociclib 125 mg PO QD on Days 1-21 of each 28-day cycle until PD or unacceptable toxicity.",
+          "armGroupLabels": [
+            "Fulvestrant + Investigator's Choice of CDK4/6i",
+            "Giredestrant + Investigator's Choice of CDK4/6i"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ribociclib",
+          "description": "If chosen by the investigator as the CDK4/6i, participants will receive ribociclib 600 mg PO QD on Days 1-21 of each 28-day cycle until PD or unacceptable toxicity.",
+          "armGroupLabels": [
+            "Fulvestrant + Investigator's Choice of CDK4/6i",
+            "Giredestrant + Investigator's Choice of CDK4/6i"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "LHRH Agonist",
+          "description": "Only pre/perimenopausal female participants and male participants will receive a luteinizing hormone-releasing hormone (LHRH) agonist locally approved for use in breast cancer on Day 1 of each 28-day treatment cycle.",
+          "armGroupLabels": [
+            "Fulvestrant + Investigator's Choice of CDK4/6i",
+            "Giredestrant + Investigator's Choice of CDK4/6i"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "FoundationOne Liquid CDx Assay (F1LCDx)",
+          "description": "F1LCDx is a next-generation sequencing (NGS)-based in vitro diagnostic test that detects and analyses genomic alterations in circulating cell-free DNA (cfDNA) isolated from plasma derived from the anti-coagulated peripheral whole blood of cancer patients. It will be used to determine the eligibility of participants requiring confirmation of ESR1 mutation status (mutation detected \\[ESR1m\\] vs. no mutation detected \\[ESR1nmd\\]).",
+          "armGroupLabels": [
+            "Fulvestrant + Investigator's Choice of CDK4/6i",
+            "Giredestrant + Investigator's Choice of CDK4/6i"
+          ],
+          "otherNames": [
+            "F1LCDx"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-Free Survival (PFS) in the ESR1 mutation (ESR1m) Subgroup",
+          "description": "PFS is defined as the time from randomization to the first occurrence of PD, as determined by the investigator according to Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1), or death from any cause during the study.",
+          "timeFrame": "From randomization to first occurrence of progressive disease (PD) or death (up to 5 years)"
+        },
+        {
+          "measure": "PFS in the Full Analysis Set (FAS) Population",
+          "timeFrame": "From randomization to first occurrence of PD or death (up to 5 years)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PFS in the ESR1 no-mutation-detected (ESR1nmd) Subgroup",
+          "timeFrame": "From randomization to first occurrence of PD or death (up to 5 years)"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS is defined as the time from randomization to death from any cause. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until death from any cause (up to 5 years)"
+        },
+        {
+          "measure": "Confirmed Objective Response Rate (cORR)",
+          "description": "The cORR is defined as the percentage of participants with a complete response (CR) or partial response (PR) on two consecutive occasions at least 4 weeks apart, as determined by the investigator according to RECIST v1.1. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until treatment discontinuation (up to 5 years)"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "DOR is defined as the time from the first occurrence of a documented objective response to PD, as determined by the investigator according to RECIST v1.1, or death from any cause (whichever occurs first). It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From the first occurrence of a documented objective response to PD or death (up to 5 years)"
+        },
+        {
+          "measure": "Clinical Benefit Rate (CBR)",
+          "description": "The CBR is defined as the percentage of participants with stable disease for at least (\u2265)24 weeks or a CR or PR, as determined by the investigator according to RECIST v1.1. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until treatment discontinuation (up to 5 years)"
+        },
+        {
+          "measure": "Time to Chemotherapy",
+          "description": "Time to chemotherapy is defined as the time from randomization until the start date of the first chemotherapy or death from any cause (whichever occurs first). It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until the start of chemotherapy or death (up to 5 years)"
+        },
+        {
+          "measure": "Time to Confirmed Deterioration (TTCD) in Pain Severity",
+          "description": "TTCD in pain severity is defined as the time from randomization to the first documentation of \u22652-point increase from baseline on the \"worst pain\" item score of the Brief Pain Inventory-Short Form (BPI-SF). It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until end of follow-up (up to 5 years)"
+        },
+        {
+          "measure": "TTCD in Pain Presence and Interference",
+          "description": "TTCD in pain presence and interference is defined as the time from randomization to the first documentation of \u226510-point increase in pain score, as determined using the European Organisation for Research and Treatment of Cancer Quality of Life-Core 30 (EORTC QLQ-C30) questionnaire. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until end of follow-up (up to 5 years)"
+        },
+        {
+          "measure": "TTCD in Physical Functioning",
+          "description": "TTCD in physical functioning (PF) is defined as the time from randomization to the first documentation of \u226510-point decrease in PF score, as determined using the EORTC QLQ-C30 questionnaire. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until end of follow-up (up to 5 years)"
+        },
+        {
+          "measure": "TTCD in Role Functioning",
+          "description": "TTCD in role functioning (RF) is defined as the time from randomization to the first documentation of \u226510-point decrease in RF score, as determined using the EORTC QLQ-C30 questionnaire. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until end of follow-up (up to 5 years)"
+        },
+        {
+          "measure": "TTCD in Global Health Status/Quality of Life",
+          "description": "TTCD in in Global Health Status/Quality of Life (GHS/QoL) is defined as the time from randomization to the first documentation of \u226510-point decrease in GHS/QoL score, as determined using the EORTC QLQ-C30 questionnaire. It will be analyzed in the FAS and in the ESR1m and ESR1nmd subgroups.",
+          "timeFrame": "From randomization until end of follow-up (up to 5 years)"
+        },
+        {
+          "measure": "Incidence and Severity of Adverse Events",
+          "description": "Incidence will be reported as the number of participants with at least one adverse event, with severity determined according to the National Cancer Institute Common Terminology Criteria for Adverse Events, version 5 (NCI CTCAE v5.0).",
+          "timeFrame": "From Baseline until 28 days after the final dose of study treatment (up to 5 years)"
+        },
+        {
+          "measure": "Number of Participants with Vital Sign Abnormalities Over the Course of the Study",
+          "description": "Vital signs include respiratory rate, pulse rate, systolic and diastolic blood pressure, and temperature.",
+          "timeFrame": "From Baseline until 28 days after the final dose of study treatment (up to 5 years)"
+        },
+        {
+          "measure": "Number of Participants with Clinical Laboratory Test Abnormalities for Hematology and Biochemistry Parameters Over the Course of the Study",
+          "timeFrame": "From Baseline until 28 days after the final dose of study treatment (up to 5 years)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Locally advanced or metastatic adenocarcinoma of the breast, not amenable to treatment with curative intent\n* Documented estrogen receptor-positive (ER+), HER2-negative (HER2-) tumor assessed locally on the most recent tumor biopsy (or an archived tumor sample if a recent tumor sample is not available for testing)\n* Confirmed ESR1 mutation status (ESR1m versus ESR1nmd) in baseline circulating tumor DNA (ctDNA) through central laboratory testing\n* Resistance to prior adjuvant endocrine therapy (ET), which is defined as having relapsed with prior standard adjuvant ET, on-treatment after \\>/=12 months or off-treatment within 12 months of completion. Prior use of adjuvant CDK4/6i is allowed (if relapse occurred \\>/=12 months since completion).\n* No prior systemic anti-cancer therapy for advanced disease\n* Measurable disease as defined per RECIST v.1.1 or non-measurable (including bone-only) disease\n* Eastern Cooperative Oncology Group Performance Status (ECOG PS) 0-1\n* For pre/perimenopausal women and for men: willing to undergo and maintain treatment with approved LHRH agonist therapy (as per local guidelines) for the duration of study treatment\n\nExclusion Criteria:\n\n* Prior systemic therapy (e.g., prior chemotherapy, immunotherapy, or biologic therapy) for locally advanced unresectable or metastatic breast cancer\n* Prior treatment with another SERD (e.g., fulvestrant, oral SERDs) or novel ER-targeting agents\n* Advanced, symptomatic, visceral spread that is at risk of life-threatening complications in the short term\n* Active cardiac disease or history of cardiac dysfunction\n* Clinically significant history of liver disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Reference Study ID Number: CO44657 https://forpatients.roche.com/ No attachments to email below.",
+          "role": "CONTACT",
+          "phone": "888-662-6728 (U.S. Only)",
+          "email": "global-roche-genentech-trials@gene.com"
+        },
+        {
+          "name": "Fastest response: use the inquiry form. https://www.gene.com/contact-us/submit-medical-inquiry",
+          "role": "CONTACT"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Clinical Trials",
+          "affiliation": "Hoffmann-La Roche",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Southern Cancer Center",
+          "status": "RECRUITING",
+          "city": "Daphne",
+          "state": "Alabama",
+          "zip": "36526",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.60353,
+            "lon": -87.9036
+          }
+        },
+        {
+          "facility": "Sutter Auburn Faith Hospital",
+          "status": "WITHDRAWN",
+          "city": "Auburn",
+          "state": "California",
+          "zip": "95602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89657,
+            "lon": -121.07689
+          }
+        },
+        {
+          "facility": "La Hematology Oncology Medical Group",
+          "status": "RECRUITING",
+          "city": "Glendale",
+          "state": "California",
+          "zip": "91260",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14251,
+            "lon": -118.25508
+          }
+        },
+        {
+          "facility": "Marin Cancer Care Inc",
+          "status": "RECRUITING",
+          "city": "Greenbrae",
+          "state": "California",
+          "zip": "94904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.94854,
+            "lon": -122.5247
+          }
+        },
+        {
+          "facility": "Kaiser Permanente - Harbor City",
+          "status": "RECRUITING",
+          "city": "Harbor City",
+          "state": "California",
+          "zip": "90710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.79002,
+            "lon": -118.29785
+          }
+        },
+        {
+          "facility": "USC Norris Comprehensive Cancer Center",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "USC Norris Cancer Center",
+          "status": "RECRUITING",
+          "city": "Newport Beach",
+          "state": "California",
+          "zip": "92663",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.61891,
+            "lon": -117.92895
+          }
+        },
+        {
+          "facility": "Sutter Medical Group, Roseville Clinic",
+          "status": "WITHDRAWN",
+          "city": "Roseville",
+          "state": "California",
+          "zip": "95661",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.75212,
+            "lon": -121.28801
+          }
+        },
+        {
+          "facility": "Sutter Health Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95816",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "The Lundquist Institute for BioMedical Innovation at Harbor-UCLA Medical Cente",
+          "status": "RECRUITING",
+          "city": "Torrance",
+          "state": "California",
+          "zip": "90502",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.83585,
+            "lon": -118.34063
+          }
+        },
+        {
+          "facility": "Rocky Mountain Cancer Centers",
+          "status": "RECRUITING",
+          "city": "Littleton",
+          "state": "Colorado",
+          "zip": "80120-4413",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.61332,
+            "lon": -105.01665
+          }
+        },
+        {
+          "facility": "Georgetown University Medical Center",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "MedStar Washington Hosp Center",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "AdventHealth Altamonte",
+          "status": "RECRUITING",
+          "city": "Altamonte Springs",
+          "state": "Florida",
+          "zip": "32701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.66111,
+            "lon": -81.36562
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists - Broadway",
+          "status": "RECRUITING",
+          "city": "Fort Myers",
+          "state": "Florida",
+          "zip": "33901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          }
+        },
+        {
+          "facility": "Cancer Specialists of North Florida",
+          "status": "RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32256",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists - North;725 6th Ave South (St. Petersburg)",
+          "status": "RECRUITING",
+          "city": "St. Petersburg",
+          "state": "Florida",
+          "zip": "33701-4553",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.77086,
+            "lon": -82.67927
+          }
+        },
+        {
+          "facility": "Comprehensive Hematology Oncology",
+          "status": "RECRUITING",
+          "city": "St. Petersburg",
+          "state": "Florida",
+          "zip": "33709",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.77086,
+            "lon": -82.67927
+          }
+        },
+        {
+          "facility": "Florida Cancer Specialists - EAST - SCRI - PPDS",
+          "status": "RECRUITING",
+          "city": "West Palm Beach",
+          "state": "Florida",
+          "zip": "33401-3406",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.71534,
+            "lon": -80.05337
+          }
+        },
+        {
+          "facility": "Grady Health System",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Winship Cancer Institute of Emory University",
+          "status": "RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30329",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Advocate Lutheran General Hospital",
+          "status": "RECRUITING",
+          "city": "Park Ridge",
+          "state": "Illinois",
+          "zip": "60068",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.01114,
+            "lon": -87.84062
+          }
+        },
+        {
+          "facility": "Springfield Clinic",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62702",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Mission Cancer + Blood - IMMC",
+          "status": "RECRUITING",
+          "city": "Des Moines",
+          "state": "Iowa",
+          "zip": "50309",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.60054,
+            "lon": -93.60911
+          }
+        },
+        {
+          "facility": "Baptist Health Lexington",
+          "status": "RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Baptist Health Hamburg",
+          "status": "RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40509",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Baptist Health Louisville",
+          "status": "RECRUITING",
+          "city": "Louisville",
+          "state": "Kentucky",
+          "zip": "40207",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.25424,
+            "lon": -85.75941
+          }
+        },
+        {
+          "facility": "New England Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Scarborough",
+          "state": "Maine",
+          "zip": "04074",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.57814,
+            "lon": -70.32172
+          }
+        },
+        {
+          "facility": "Maryland Oncology Hematology",
+          "status": "RECRUITING",
+          "city": "Annapolis",
+          "state": "Maryland",
+          "zip": "21401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.97859,
+            "lon": -76.49184
+          }
+        },
+        {
+          "facility": "Frederick Health Hospital",
+          "status": "WITHDRAWN",
+          "city": "Frederick",
+          "state": "Maryland",
+          "zip": "21702",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.41427,
+            "lon": -77.41054
+          }
+        },
+        {
+          "facility": "Dana Farber Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Henry Ford Hospital",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "HCA Midwest Division",
+          "status": "RECRUITING",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64132",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "Cancer Care Center of O'Fallon",
+          "status": "RECRUITING",
+          "city": "O'Fallon",
+          "state": "Missouri",
+          "zip": "62269",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.81061,
+            "lon": -90.69985
+          }
+        },
+        {
+          "facility": "Oncology Hematology West - Grand Island",
+          "status": "RECRUITING",
+          "city": "Grand Island",
+          "state": "Nebraska",
+          "zip": "68803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.92501,
+            "lon": -98.34201
+          }
+        },
+        {
+          "facility": "Oncology Hematology West - Legacy",
+          "status": "RECRUITING",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68130-2042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Astera Cancer Care East Brunswick",
+          "status": "RECRUITING",
+          "city": "East Brunswick",
+          "state": "New Jersey",
+          "zip": "08816",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.42788,
+            "lon": -74.41598
+          }
+        },
+        {
+          "facility": "Capital Health Regional Medical Center",
+          "status": "WITHDRAWN",
+          "city": "Pennington",
+          "state": "New Jersey",
+          "zip": "08534",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.32844,
+            "lon": -74.79072
+          }
+        },
+        {
+          "facility": "Queens Hospital Cancer Center",
+          "status": "RECRUITING",
+          "city": "Jamaica",
+          "state": "New York",
+          "zip": "11432",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69149,
+            "lon": -73.80569
+          }
+        },
+        {
+          "facility": "Duke Women Cancer Care",
+          "status": "RECRUITING",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Oncology Hematology Care",
+          "status": "WITHDRAWN",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45242",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Asante Rogue Regional Medical Center",
+          "status": "RECRUITING",
+          "city": "Medford",
+          "state": "Oregon",
+          "zip": "97504-8332",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.32652,
+            "lon": -122.87559
+          }
+        },
+        {
+          "facility": "Alliance Cancer Specialists",
+          "status": "RECRUITING",
+          "city": "Bensalem",
+          "state": "Pennsylvania",
+          "zip": "19020",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.10455,
+            "lon": -74.95128
+          }
+        },
+        {
+          "facility": "Ann B. Barshinger Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17604",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        },
+        {
+          "facility": "Abramson Cancer Center; Univ of Pennsylvania; Clinical Research Unit",
+          "status": "RECRUITING",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "WellSpan Oncology Research",
+          "status": "WITHDRAWN",
+          "city": "York",
+          "state": "Pennsylvania",
+          "zip": "17403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.9626,
+            "lon": -76.72774
+          }
+        },
+        {
+          "facility": "Brown University Health",
+          "status": "RECRUITING",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina",
+          "status": "RECRUITING",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "Avera Cancer Institute - Aberdeen",
+          "status": "RECRUITING",
+          "city": "Aberdeen",
+          "state": "South Dakota",
+          "zip": "57401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.4647,
+            "lon": -98.48648
+          }
+        },
+        {
+          "facility": "Avera Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "West Cancer Center",
+          "status": "RECRUITING",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "SCRI Oncology Partners",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Texas Oncology Cancer Center",
+          "status": "RECRUITING",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78731",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "JPS Oncology & Infusion Center",
+          "status": "RECRUITING",
+          "city": "Fort Worth",
+          "state": "Texas",
+          "zip": "76104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.72541,
+            "lon": -97.32085
+          }
+        },
+        {
+          "facility": "Texas Oncology - DFW",
+          "status": "RECRUITING",
+          "city": "Irving",
+          "state": "Texas",
+          "zip": "75063",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.81402,
+            "lon": -96.94889
+          }
+        },
+        {
+          "facility": "Virginia Cancer Specialists, PC",
+          "status": "RECRUITING",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Virginia Commonwealth University - Massey Cancer Center",
+          "status": "RECRUITING",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Northwest Medical Specialties",
+          "status": "RECRUITING",
+          "city": "Tacoma",
+          "state": "Washington",
+          "zip": "98405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.25288,
+            "lon": -122.44429
+          }
+        },
+        {
+          "facility": "West Virginia University Hospitals Inc",
+          "status": "RECRUITING",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26056",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        },
+        {
+          "facility": "Aurora BayCare Medical Center",
+          "status": "RECRUITING",
+          "city": "Green Bay",
+          "state": "Wisconsin",
+          "zip": "54311",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.51916,
+            "lon": -88.01983
+          }
+        },
+        {
+          "facility": "Aurora St Lukes Medical Center",
+          "status": "RECRUITING",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Centro de Investigaciones M\u00e9dicas y Desarrollo LC S.R.L",
+          "status": "RECRUITING",
+          "city": "Buenos Aires",
+          "zip": "C1113AAE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Inst. de Oncologia Angel H. Roffo",
+          "status": "RECRUITING",
+          "city": "Buenos Aires",
+          "zip": "C1417DTB",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Centro Oncologico Korben",
+          "status": "RECRUITING",
+          "city": "Ciudad Autonoma Buenos Aires",
+          "zip": "C1426AGE",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Sanatorio Allende",
+          "status": "RECRUITING",
+          "city": "C\u00f3rdoba",
+          "zip": "X5000JHQ",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.40648,
+            "lon": -64.18853
+          }
+        },
+        {
+          "facility": "Centro Oncologico Riojano Integral (CORI)",
+          "status": "RECRUITING",
+          "city": "La Rioja",
+          "zip": "F5300COE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -29.41328,
+            "lon": -66.85637
+          }
+        },
+        {
+          "facility": "Hospital Alem\u00e1n",
+          "status": "RECRUITING",
+          "city": "Recoleta",
+          "zip": "C1118AAT",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.58565,
+            "lon": -58.39347
+          }
+        },
+        {
+          "facility": "Instituto de Oncolog\u00eda de Rosario",
+          "status": "RECRUITING",
+          "city": "Rosario",
+          "zip": "S2000KZE",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Sanatorio Parque S.A.",
+          "status": "WITHDRAWN",
+          "city": "Rosario",
+          "zip": "S2000QGB",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Hospital Provincial del Centenario",
+          "status": "RECRUITING",
+          "city": "Rosario",
+          "zip": "S2002KDS",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -32.94682,
+            "lon": -60.63932
+          }
+        },
+        {
+          "facility": "Centro Oncol\u00f3gico de Excelencia",
+          "status": "RECRUITING",
+          "city": "San Juan",
+          "zip": "J5400",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -31.53726,
+            "lon": -68.52568
+          }
+        },
+        {
+          "facility": "Northern Beaches Hospital",
+          "status": "RECRUITING",
+          "city": "Frenchs Forest",
+          "state": "New South Wales",
+          "zip": "2086",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.74821,
+            "lon": 151.22322
+          }
+        },
+        {
+          "facility": "Nepean Hospital",
+          "status": "RECRUITING",
+          "city": "Kingswood",
+          "state": "New South Wales",
+          "zip": "2747",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.75614,
+            "lon": 150.72346
+          }
+        },
+        {
+          "facility": "Mater Hospital",
+          "status": "RECRUITING",
+          "city": "North Sydney",
+          "state": "New South Wales",
+          "zip": "2060",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -33.839,
+            "lon": 151.2072
+          }
+        },
+        {
+          "facility": "Sunshine Coast Haematology and Oncology Clinic",
+          "status": "RECRUITING",
+          "city": "Buderim",
+          "state": "Queensland",
+          "zip": "4556",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -26.68443,
+            "lon": 153.05705
+          }
+        },
+        {
+          "facility": "Mater Misericordiae Limited",
+          "status": "RECRUITING",
+          "city": "South Brisbane",
+          "state": "Queensland",
+          "zip": "4101",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -27.48034,
+            "lon": 153.02049
+          }
+        },
+        {
+          "facility": "Cancer Research SA",
+          "status": "RECRUITING",
+          "city": "Adelaide",
+          "state": "South Australia",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -34.92866,
+            "lon": 138.59863
+          }
+        },
+        {
+          "facility": "Barwon Health",
+          "status": "RECRUITING",
+          "city": "Geelong",
+          "state": "Victoria",
+          "zip": "3220",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -38.14711,
+            "lon": 144.36069
+          }
+        },
+        {
+          "facility": "Sunshine Hospital",
+          "status": "RECRUITING",
+          "city": "St Albans",
+          "state": "Victoria",
+          "zip": "3021",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -37.74496,
+            "lon": 144.80049
+          }
+        },
+        {
+          "facility": "South West Healthcare",
+          "status": "WITHDRAWN",
+          "city": "Warrnambool",
+          "state": "Victoria",
+          "zip": "3280",
+          "country": "Australia",
+          "geoPoint": {
+            "lat": -38.38176,
+            "lon": 142.48799
+          }
+        },
+        {
+          "facility": "Lkh-Univ. Klinikum Graz",
+          "status": "RECRUITING",
+          "city": "Graz",
+          "zip": "8036",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.06733,
+            "lon": 15.44197
+          }
+        },
+        {
+          "facility": "Medical University Innsbruck",
+          "status": "WITHDRAWN",
+          "city": "Innsbruck",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Ordensklinikum Linz Barmherzige Schwestern",
+          "status": "RECRUITING",
+          "city": "Linz",
+          "zip": "4010",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.30639,
+            "lon": 14.28611
+          }
+        },
+        {
+          "facility": "O\u00f6. Gesundheits- und Spitals-AG/LKH Steyr",
+          "status": "RECRUITING",
+          "city": "Steyr",
+          "zip": "4400",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.04274,
+            "lon": 14.42127
+          }
+        },
+        {
+          "facility": "Medizinische Universit\u00e4t Wien",
+          "status": "WITHDRAWN",
+          "city": "Vienna",
+          "zip": "1090",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        },
+        {
+          "facility": "Cliniques Universitaires St-Luc",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "GHdC Site Les Viviers",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Charleroi",
+          "zip": "6060",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.41136,
+            "lon": 4.44448
+          }
+        },
+        {
+          "facility": "UZ Gent",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Ghent",
+          "zip": "9000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.05,
+            "lon": 3.71667
+          }
+        },
+        {
+          "facility": "UZ Leuven Gasthuisberg",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "CHU de Li\u00e8ge (Sart Tilman)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Li\u00e8ge",
+          "zip": "4000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "AZ St Maarten Campus Leopoldstr",
+          "status": "RECRUITING",
+          "city": "Mechelen",
+          "zip": "2800",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.02574,
+            "lon": 4.47762
+          }
+        },
+        {
+          "facility": "Clinique Ste-Elisabeth",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Namur",
+          "zip": "5000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.4669,
+            "lon": 4.86746
+          }
+        },
+        {
+          "facility": "ZAS Sint Augustinus Wilrijk",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "city": "Wilrijk",
+          "zip": "2610",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 51.16734,
+            "lon": 4.39513
+          }
+        },
+        {
+          "facility": "Crio - Centro Regional Integrado de Oncologia",
+          "status": "RECRUITING",
+          "city": "Fortaleza",
+          "state": "Cear\u00e1",
+          "zip": "60336-232",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "CEDOES - Diagn\u00f3stico e Pesquisa",
+          "status": "RECRUITING",
+          "city": "Vit\u00f3ria",
+          "state": "Esp\u00edrito Santo",
+          "zip": "29055-450",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.31944,
+            "lon": -40.33778
+          }
+        },
+        {
+          "facility": "Obras Sociais Irma Dulce - Osid",
+          "status": "RECRUITING",
+          "city": "Salvador",
+          "state": "Estado de Bahia",
+          "zip": "40415-006",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Hospital S\u00edrio-Liban\u00eas",
+          "status": "RECRUITING",
+          "city": "Bras\u00edlia",
+          "state": "Federal District",
+          "zip": "70200-730",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -15.77972,
+            "lon": -47.92972
+          }
+        },
+        {
+          "facility": "Hospital Araujo Jorge",
+          "status": "RECRUITING",
+          "city": "Goi\u00e2nia",
+          "state": "Goi\u00e1s",
+          "zip": "74605-070",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -16.67861,
+            "lon": -49.25389
+          }
+        },
+        {
+          "facility": "Hospital Sao Domingos",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Lu\u00eds",
+          "state": "Maranh\u00e3o",
+          "zip": "65060-645",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -2.52972,
+            "lon": -44.30278
+          }
+        },
+        {
+          "facility": "Hospital do C\u00e2ncer de Londrina",
+          "status": "RECRUITING",
+          "city": "Londrina",
+          "state": "Paran\u00e1",
+          "zip": "86015-520",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.31028,
+            "lon": -51.16278
+          }
+        },
+        {
+          "facility": "Hospital do Cancer de Pernambuco - HCP",
+          "status": "RECRUITING",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "zip": "50040-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Vencer Oncocl\u00ednica - Centro de Pesquisa do Piau\u00ed",
+          "status": "RECRUITING",
+          "city": "Teresina",
+          "state": "Piau\u00ed",
+          "zip": "64049-200",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -5.08917,
+            "lon": -42.80194
+          }
+        },
+        {
+          "facility": "Oncosite - Centro de Pesquisa Clinica Em Oncologia Ltda",
+          "status": "RECRUITING",
+          "city": "Iju\u00ed",
+          "state": "Rio Grande do Sul",
+          "zip": "98700-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -28.38778,
+            "lon": -53.91472
+          }
+        },
+        {
+          "facility": "Santa Casa de Misericordia de Porto Alegre",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90020-090",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Moinhos de Vento",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Sao Lucas - PUCRS",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90610-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital Nossa Senhora da Conceicao",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "91350-200",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Hospital de Cancer de Barretos",
+          "status": "RECRUITING",
+          "city": "Barretos",
+          "state": "S\u00e3o Paulo",
+          "zip": "14784-400",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -20.55722,
+            "lon": -48.56778
+          }
+        },
+        {
+          "facility": "Hospital Amaral Carvalho",
+          "status": "RECRUITING",
+          "city": "Ja\u00fa",
+          "state": "S\u00e3o Paulo",
+          "zip": "17210-120",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.29639,
+            "lon": -48.55778
+          }
+        },
+        {
+          "facility": "Hospital S\u00edrio-Liban\u00eas",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "01308-050",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Clinica de Pesquisa e Centro de Estudos em Oncologia Ginecologica e Mamaria Ltda",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "01317-001",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Hospital A. C. Camargo",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "01509-010",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Instituto D'Or de Pesquisa e Ensino",
+          "status": "RECRUITING",
+          "city": "Rio de Janeiro",
+          "zip": "22281-100",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.90642,
+            "lon": -43.18223
+          }
+        },
+        {
+          "facility": "Cross Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "Royal Victoria Regional Health Centre",
+          "status": "RECRUITING",
+          "city": "Barrie",
+          "state": "Ontario",
+          "zip": "L4M 6M2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.40011,
+            "lon": -79.66634
+          }
+        },
+        {
+          "facility": "Credit Valley Hospital/Carlo Fidani Peel Regional Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Mississauga",
+          "state": "Ontario",
+          "zip": "L5M 2N1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.5789,
+            "lon": -79.6583
+          }
+        },
+        {
+          "facility": "Lakeridge Health Oshawa",
+          "status": "RECRUITING",
+          "city": "Oshawa",
+          "state": "Ontario",
+          "zip": "L1G 2B9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.90012,
+            "lon": -78.84957
+          }
+        },
+        {
+          "facility": "Thunder Bay Regional Health Sciences Centre",
+          "status": "RECRUITING",
+          "city": "Thunder Bay",
+          "state": "Ontario",
+          "zip": "P7B 6V4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.38202,
+            "lon": -89.25018
+          }
+        },
+        {
+          "facility": "North York General Hospital",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M2K 1E1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Princess Margaret Cancer Center",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 2M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "CIUSSS du Saguenay Lac-Saint-Jean, Chicoutimi Hospital",
+          "status": "RECRUITING",
+          "city": "Chicoutimi",
+          "state": "Quebec",
+          "zip": "G7H 5H6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.41963,
+            "lon": -71.06369
+          }
+        },
+        {
+          "facility": "CISSS Chaudi\u00e8re-Appalaches",
+          "status": "RECRUITING",
+          "city": "L\u00e9vis",
+          "state": "Quebec",
+          "zip": "G6V 3Z1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.80326,
+            "lon": -71.17793
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de l'Universite de Montreal (CHUM)",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 0C2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "McGill University Health Centre - Glen Site",
+          "status": "WITHDRAWN",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4A 3J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "CHU de Qu\u00e9bec - H\u00f4pital du Saint-Sacrement",
+          "status": "RECRUITING",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "zip": "G1S 4L8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Hopital regional de saint jerome",
+          "status": "RECRUITING",
+          "city": "Saint-J\u00e9r\u00f4me",
+          "state": "Quebec",
+          "zip": "J7Z 5T3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.78036,
+            "lon": -74.00365
+          }
+        },
+        {
+          "facility": "Centre hospitalier regional de Trois-Rivieres",
+          "status": "RECRUITING",
+          "city": "Trois-Rivi\u00e8res",
+          "state": "Quebec",
+          "zip": "G8Z 3R9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.34515,
+            "lon": -72.5477
+          }
+        },
+        {
+          "facility": "Allan Blair Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Regina",
+          "state": "Saskatchewan",
+          "zip": "S4T 7T1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 50.45008,
+            "lon": -104.6178
+          }
+        },
+        {
+          "facility": "Saskatoon Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Saskatoon",
+          "state": "Saskatchewan",
+          "zip": "SK S7N 4H4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 52.13238,
+            "lon": -106.66892
+          }
+        },
+        {
+          "facility": "Hospital las Higueras",
+          "status": "RECRUITING",
+          "city": "Concepci\u00f3n",
+          "state": "Regi\u00f3n Bio Bio",
+          "zip": "Alto Horno 777",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -36.82699,
+            "lon": -73.04977
+          }
+        },
+        {
+          "facility": "Medicina de Precisi\u00f3n - Celerity",
+          "status": "RECRUITING",
+          "city": "Las Condes",
+          "zip": "7560908",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.41636,
+            "lon": -70.56413
+          }
+        },
+        {
+          "facility": "Cl\u00ednica Puerto Montt",
+          "status": "RECRUITING",
+          "city": "Port Montt",
+          "zip": "5500243",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -41.4693,
+            "lon": -72.94237
+          }
+        },
+        {
+          "facility": "Oncovida",
+          "status": "RECRUITING",
+          "city": "Providencia",
+          "zip": "750000",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.43107,
+            "lon": -70.60454
+          }
+        },
+        {
+          "facility": "Centro De Cancer Universidad Catolica",
+          "status": "RECRUITING",
+          "city": "Santiago",
+          "zip": "8330032",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Instituto Nacional del Cancer",
+          "status": "RECRUITING",
+          "city": "Santiago",
+          "zip": "8380000",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Icegclinic",
+          "status": "RECRUITING",
+          "city": "Santiago",
+          "country": "Chile",
+          "geoPoint": {
+            "lat": -33.45694,
+            "lon": -70.64827
+          }
+        },
+        {
+          "facility": "Beijing Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100142",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "the First Hospital of Jilin University",
+          "status": "RECRUITING",
+          "city": "Changchun",
+          "zip": "130021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          }
+        },
+        {
+          "facility": "Hunan Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Changsha",
+          "zip": "410013",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          }
+        },
+        {
+          "facility": "West China Hospital of Sichuan University",
+          "status": "RECRUITING",
+          "city": "Chengdu",
+          "zip": "610041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Sichuan Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Chengdu",
+          "zip": "610072",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital, Chongqing Medical University",
+          "status": "WITHDRAWN",
+          "city": "Chongqing",
+          "zip": "400016",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          }
+        },
+        {
+          "facility": "Fujian Medical University Union Hospital",
+          "status": "RECRUITING",
+          "city": "Fuzhou",
+          "zip": "350001",
+          "country": "China",
+          "geoPoint": {
+            "lat": 26.06139,
+            "lon": 119.30611
+          }
+        },
+        {
+          "facility": "No. 900 Hospital (Fuzhou General Hospital)",
+          "status": "RECRUITING",
+          "city": "Fuzhou",
+          "zip": "350009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 26.06139,
+            "lon": 119.30611
+          }
+        },
+        {
+          "facility": "Cancer Center, Sun Yat-sen University of Medical Sciences",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510060",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Zhejiang University College",
+          "status": "RECRUITING",
+          "city": "Hangzhou",
+          "zip": "310009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Harbin Medical University Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Harbin",
+          "zip": "150081",
+          "country": "China",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "Jinan Central Hospital",
+          "status": "RECRUITING",
+          "city": "Jinan",
+          "zip": "250013",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "Shandong Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Jinan",
+          "zip": "250117",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "The First People's Hospital of Yunnan Province",
+          "status": "RECRUITING",
+          "city": "Kunming",
+          "zip": "650034",
+          "country": "China",
+          "geoPoint": {
+            "lat": 25.03889,
+            "lon": 102.71833
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital to Henan University of Science and Technology",
+          "status": "RECRUITING",
+          "city": "Luoyang",
+          "zip": "471031",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.67345,
+            "lon": 112.43684
+          }
+        },
+        {
+          "facility": "Guangxi Cancer Hospital of Guangxi Medical University",
+          "status": "RECRUITING",
+          "city": "Nanning",
+          "zip": "530021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 22.81667,
+            "lon": 108.31667
+          }
+        },
+        {
+          "facility": "Zhongshan Hospital Fudan University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Fudan University Shanghai Cancer Center",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200120",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Shanxi Province Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Taiyuan",
+          "zip": "030013",
+          "country": "China",
+          "geoPoint": {
+            "lat": 37.86944,
+            "lon": 112.56028
+          }
+        },
+        {
+          "facility": "Taizhou Hospital of Zhejiang Province",
+          "status": "WITHDRAWN",
+          "city": "Taizhou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.49069,
+            "lon": 119.90812
+          }
+        },
+        {
+          "facility": "Tianjin Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Tianjin",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        },
+        {
+          "facility": "The Tumor Hospital of Xinjiang Medical University",
+          "status": "RECRUITING",
+          "city": "\u00dcr\u00fcmqi",
+          "zip": "830000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.80096,
+            "lon": 87.60046
+          }
+        },
+        {
+          "facility": "Union Hospital Tongji Medical College Huazhong University of Science and Technology",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "zip": "430022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Hubei Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "zip": "430079",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "The Second Affiliated Hospital of Xi'an Jiao Tong University",
+          "status": "RECRUITING",
+          "city": "Xi'an",
+          "zip": "710004",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        },
+        {
+          "facility": "Xi'an International Medical Center Hospital",
+          "status": "RECRUITING",
+          "city": "Xi'an",
+          "zip": "710100",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        },
+        {
+          "facility": "The Affiliated Hospital of Xuzhou Medical University",
+          "status": "RECRUITING",
+          "city": "Xuzhou",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.20442,
+            "lon": 117.28386
+          }
+        },
+        {
+          "facility": "Zhejiang Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Zhejiang",
+          "zip": "310022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 25.3238,
+            "lon": 105.583
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital of Zhengzhou University",
+          "status": "RECRUITING",
+          "city": "Zhengzhou",
+          "zip": "450052",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Fundaci\u00f3n CTIC - Centro de Tratamiento e Investigaci\u00f3n sobre C\u00e1ncer Luis Carlos Sarmiento Angulo",
+          "status": "RECRUITING",
+          "city": "Bogota, D.C.",
+          "zip": "110131",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 4.60971,
+            "lon": -74.08175
+          }
+        },
+        {
+          "facility": "Clinica Colsanitas S.A. sede Clinica Universitaria Colombia",
+          "status": "RECRUITING",
+          "city": "Bogot\u00e1 D.C.",
+          "zip": "51000",
+          "country": "Colombia"
+        },
+        {
+          "facility": "IPS Salud SURA Chipichape Cali",
+          "status": "RECRUITING",
+          "city": "Cali",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 3.43054,
+            "lon": -76.5199
+          }
+        },
+        {
+          "facility": "Oncomedica S.A.",
+          "status": "RECRUITING",
+          "city": "Monter\u00eda",
+          "zip": "230002",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 8.75081,
+            "lon": -75.87823
+          }
+        },
+        {
+          "facility": "Sociedad de Oncolog\u00eda y hematolog\u00eda del Cesar Ltda",
+          "status": "RECRUITING",
+          "city": "Valledupar",
+          "zip": "200001",
+          "country": "Colombia",
+          "geoPoint": {
+            "lat": 10.46538,
+            "lon": -73.2531
+          }
+        },
+        {
+          "facility": "Clinica CIMCA",
+          "status": "RECRUITING",
+          "city": "San Jos\u00e9",
+          "zip": "10103",
+          "country": "Costa Rica",
+          "geoPoint": {
+            "lat": 9.93388,
+            "lon": -84.08489
+          }
+        },
+        {
+          "facility": "ICIMED Instituto de Investigaci\u00f3n en Ciencias M\u00e9dicas",
+          "status": "RECRUITING",
+          "city": "San Jos\u00e9",
+          "zip": "10108",
+          "country": "Costa Rica",
+          "geoPoint": {
+            "lat": 9.93388,
+            "lon": -84.08489
+          }
+        },
+        {
+          "facility": "Proclinical Pharma",
+          "status": "WITHDRAWN",
+          "city": "San Jos\u00e9",
+          "zip": "11303",
+          "country": "Costa Rica",
+          "geoPoint": {
+            "lat": 9.93388,
+            "lon": -84.08489
+          }
+        },
+        {
+          "facility": "Kuopio Uni Hospital",
+          "status": "RECRUITING",
+          "city": "Kuopio",
+          "zip": "70211",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 62.89238,
+            "lon": 27.67703
+          }
+        },
+        {
+          "facility": "Tampere University Hospital",
+          "status": "RECRUITING",
+          "city": "Tampere",
+          "zip": "33520",
+          "country": "Finland",
+          "geoPoint": {
+            "lat": 61.49911,
+            "lon": 23.78712
+          }
+        },
+        {
+          "facility": "ICO Paul Papin",
+          "status": "RECRUITING",
+          "city": "Angers",
+          "zip": "49055",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "Institut Sainte Catherine",
+          "status": "RECRUITING",
+          "city": "Avignon",
+          "zip": "84918",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Hopital Jean Minjoz",
+          "status": "RECRUITING",
+          "city": "Besan\u00e7on",
+          "zip": "25030",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.24878,
+            "lon": 6.01815
+          }
+        },
+        {
+          "facility": "Centre Francois Baclesse",
+          "status": "RECRUITING",
+          "city": "Caen",
+          "zip": "14076",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "Centre Jean Perrin",
+          "status": "RECRUITING",
+          "city": "Clermont-Ferrand",
+          "zip": "63011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Saint Louis",
+          "status": "RECRUITING",
+          "city": "La Rochelle",
+          "zip": "17019",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.16308,
+            "lon": -1.15222
+          }
+        },
+        {
+          "facility": "Centre Oscar Lambret",
+          "status": "RECRUITING",
+          "city": "Lille",
+          "zip": "59020",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Centre Leon Berard",
+          "status": "RECRUITING",
+          "city": "Lyon",
+          "zip": "69373",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Centre Cancerologie Grand Montpellier",
+          "status": "RECRUITING",
+          "city": "Montpellier",
+          "zip": "34070",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Institut Jean Godinot",
+          "status": "RECRUITING",
+          "city": "Reims",
+          "zip": "51056",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "Centre Eugene Marquis",
+          "status": "RECRUITING",
+          "city": "Rennes",
+          "zip": "35042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "IUCT Oncopole",
+          "status": "RECRUITING",
+          "city": "Toulouse",
+          "zip": "31100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Gustave Roussy",
+          "status": "RECRUITING",
+          "city": "Villejuif",
+          "zip": "94805",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "Sozialstiftung Bamberg, Klinikum am Bruderwald, Gyn\u00e4kologie",
+          "status": "RECRUITING",
+          "city": "Bamberg",
+          "zip": "96049",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.89873,
+            "lon": 10.90067
+          }
+        },
+        {
+          "facility": "St. Elisabeth Krankenhaus K\u00f6ln GmbH",
+          "status": "RECRUITING",
+          "city": "Cologne",
+          "zip": "50935",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "DONAU ISAR Klinikum Deggendorf",
+          "status": "WITHDRAWN",
+          "city": "Deggendorf",
+          "zip": "94469",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.84085,
+            "lon": 12.96068
+          }
+        },
+        {
+          "facility": "Gynonco D\u00fcsseldorf, MVZ Medical Center GmbH",
+          "status": "COMPLETED",
+          "city": "D\u00fcsseldorf",
+          "zip": "40235",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Erlangen",
+          "status": "RECRUITING",
+          "city": "Erlangen",
+          "zip": "91054",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "Kliniken Essen-Mitte",
+          "status": "RECRUITING",
+          "city": "Essen",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Praxis f\u00fcr Interdisziplin\u00e4re Onkologie und H\u00e4matologie GbR",
+          "status": "RECRUITING",
+          "city": "Freiburg im Breisgau",
+          "zip": "79110",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "Nationales Centrum f\u00fcr Tumorerkrankungen (NCT)",
+          "status": "RECRUITING",
+          "city": "Heidelberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum des Saarlandes",
+          "status": "RECRUITING",
+          "city": "Homburg/Saar",
+          "zip": "66424",
+          "country": "Germany"
+        },
+        {
+          "facility": "Brustzentrum Rhein-Ruhr Servicegesellschaft mbH",
+          "status": "RECRUITING",
+          "city": "M\u00f6nchengladbach",
+          "zip": "41061",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "Rotkreuzklinikum M\u00fcnchen",
+          "status": "RECRUITING",
+          "city": "M\u00fcnchen",
+          "zip": "80637",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Anticancer Hospital Ag. Savas",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "zip": "115 22",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "Aretaieio Hospital of Athens",
+          "status": "RECRUITING",
+          "city": "Athens",
+          "zip": "115 28",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 37.98376,
+            "lon": 23.72784
+          }
+        },
+        {
+          "facility": "University Hospital of Larissa",
+          "status": "RECRUITING",
+          "city": "Larissa",
+          "zip": "411 10",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 39.62847,
+            "lon": 22.42112
+          }
+        },
+        {
+          "facility": "University Hospital of Patras Medical Oncology",
+          "status": "RECRUITING",
+          "city": "P\u00e1trai",
+          "zip": "265 04",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 38.2462,
+            "lon": 21.73508
+          }
+        },
+        {
+          "facility": "European Interbalkan Medical Center",
+          "status": "RECRUITING",
+          "city": "Thessaloniki",
+          "zip": "570 01",
+          "country": "Greece",
+          "geoPoint": {
+            "lat": 40.64072,
+            "lon": 22.93493
+          }
+        },
+        {
+          "facility": "Oncomedica",
+          "status": "RECRUITING",
+          "city": "Guatemala City",
+          "zip": "01009",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.64072,
+            "lon": -90.51327
+          }
+        },
+        {
+          "facility": "Celan S.A.",
+          "status": "RECRUITING",
+          "city": "Guatemala City",
+          "zip": "01010",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.64072,
+            "lon": -90.51327
+          }
+        },
+        {
+          "facility": "INTEGRA Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Guatemala City",
+          "zip": "01010",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.64072,
+            "lon": -90.51327
+          }
+        },
+        {
+          "facility": "Onco Go, S.A.",
+          "status": "RECRUITING",
+          "city": "Guatemala City",
+          "zip": "01010",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.64072,
+            "lon": -90.51327
+          }
+        },
+        {
+          "facility": "Grupo Angeles",
+          "status": "RECRUITING",
+          "city": "Guatemala City",
+          "zip": "01015",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.64072,
+            "lon": -90.51327
+          }
+        },
+        {
+          "facility": "Medi-k",
+          "status": "RECRUITING",
+          "city": "Guatemala City",
+          "zip": "01016",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.64072,
+            "lon": -90.51327
+          }
+        },
+        {
+          "facility": "Centro Medico Integral de Cancerologia CEMIC",
+          "status": "RECRUITING",
+          "city": "Salcaj\u00e1",
+          "zip": "09002",
+          "country": "Guatemala",
+          "geoPoint": {
+            "lat": 14.87964,
+            "lon": -91.45699
+          }
+        },
+        {
+          "facility": "Pamela Youde Nethersole Eastern Hospital",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Queen Mary Hospital",
+          "status": "RECRUITING",
+          "city": "Hong Kong",
+          "country": "Hong Kong",
+          "geoPoint": {
+            "lat": 22.27832,
+            "lon": 114.17469
+          }
+        },
+        {
+          "facility": "Orszagos Onkologiai Intezet",
+          "status": "RECRUITING",
+          "city": "Budapest",
+          "zip": "1122",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 47.49835,
+            "lon": 19.04045
+          }
+        },
+        {
+          "facility": "B\u00e1cs-Kiskun V\u00e1rmegyei Oktat\u00f3k\u00f3rh\u00e1z",
+          "status": "RECRUITING",
+          "city": "Kecskem\u00e9t",
+          "zip": "6000",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 46.90618,
+            "lon": 19.69128
+          }
+        },
+        {
+          "facility": "B-A-Z V\u00e1rmegyei K\u00f6zponti K\u00f3rh\u00e1z \u00e9s Egyetemi Oktat\u00f3k\u00f3rh\u00e1z",
+          "status": "RECRUITING",
+          "city": "Miskolc",
+          "zip": "3526",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 48.10327,
+            "lon": 20.77806
+          }
+        },
+        {
+          "facility": "Nograd Varmegyei Szent Lazar Korhaz",
+          "status": "RECRUITING",
+          "city": "Salg\u00f3tarj\u00e1n",
+          "zip": "3100",
+          "country": "Hungary",
+          "geoPoint": {
+            "lat": 48.09872,
+            "lon": 19.80303
+          }
+        },
+        {
+          "facility": "HealthCare Global Enterprises Limited",
+          "status": "RECRUITING",
+          "city": "Banglore",
+          "state": "Karnataka",
+          "zip": "560027",
+          "country": "India"
+        },
+        {
+          "facility": "MVR Cancer Centre and Research Institute",
+          "status": "RECRUITING",
+          "city": "Kozhikode",
+          "state": "Kerala",
+          "zip": "673601",
+          "country": "India",
+          "geoPoint": {
+            "lat": 11.24802,
+            "lon": 75.7804
+          }
+        },
+        {
+          "facility": "Regional Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Trivandrum",
+          "state": "Kerala",
+          "zip": "695011",
+          "country": "India",
+          "geoPoint": {
+            "lat": 8.4855,
+            "lon": 76.94924
+          }
+        },
+        {
+          "facility": "Sir H. N. Reliance Foundation Hospital and Research Centre",
+          "status": "RECRUITING",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "zip": "400004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.07283,
+            "lon": 72.88261
+          }
+        },
+        {
+          "facility": "Grant Medical Foundation, Ruby Hall Clinic",
+          "status": "RECRUITING",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "411001",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Sahyadri Speciality Hospital",
+          "status": "RECRUITING",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "411004",
+          "country": "India",
+          "geoPoint": {
+            "lat": 18.51957,
+            "lon": 73.85535
+          }
+        },
+        {
+          "facility": "Sunact Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Thane",
+          "state": "Maharashtra",
+          "zip": "400615",
+          "country": "India",
+          "geoPoint": {
+            "lat": 19.19704,
+            "lon": 72.96355
+          }
+        },
+        {
+          "facility": "Max Super Speciality Hospital",
+          "status": "WITHDRAWN",
+          "city": "New Delhi",
+          "state": "National Capital Territory of Delhi",
+          "zip": "110017",
+          "country": "India",
+          "geoPoint": {
+            "lat": 28.62137,
+            "lon": 77.2148
+          }
+        },
+        {
+          "facility": "Hadassah Ein Karem Hospital",
+          "status": "RECRUITING",
+          "city": "Jerusalem",
+          "zip": "9112000",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 31.76904,
+            "lon": 35.21633
+          }
+        },
+        {
+          "facility": "Rabin Medical Center",
+          "status": "RECRUITING",
+          "city": "Petah Tikva",
+          "zip": "4910000",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08707,
+            "lon": 34.88747
+          }
+        },
+        {
+          "facility": "Sheba MC",
+          "status": "RECRUITING",
+          "city": "Ramat Gan",
+          "zip": "5265601",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08227,
+            "lon": 34.81065
+          }
+        },
+        {
+          "facility": "Sourasky Medical Center",
+          "status": "RECRUITING",
+          "city": "Tel Aviv",
+          "zip": "6423900",
+          "country": "Israel",
+          "geoPoint": {
+            "lat": 32.08088,
+            "lon": 34.78057
+          }
+        },
+        {
+          "facility": "Presidio Ospedaliero di Summa-Perrino",
+          "status": "RECRUITING",
+          "city": "Brindisi",
+          "state": "Apulia",
+          "zip": "72100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.63215,
+            "lon": 17.93607
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera di Rilievo Nazionale e di Alta Specialita San Giuseppe Moscati",
+          "status": "RECRUITING",
+          "city": "Avellino",
+          "state": "Campania",
+          "zip": "83100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.91494,
+            "lon": 14.79103
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria Federico II",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "state": "Campania",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Istituto Nazionale Tumori Irccs Fondazione g. PASCALE",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "state": "Campania",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Policlinico S.Orsola-Malpighi",
+          "status": "RECRUITING",
+          "city": "Bologna",
+          "state": "Emilia-Romagna",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "I.R.S.T Srl IRCCS",
+          "status": "RECRUITING",
+          "city": "Meldola",
+          "state": "Emilia-Romagna",
+          "zip": "47014",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.12775,
+            "lon": 12.0626
+          }
+        },
+        {
+          "facility": "A.O. Universitaria Di Parma",
+          "status": "RECRUITING",
+          "city": "Parma",
+          "state": "Emilia-Romagna",
+          "zip": "43100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.79935,
+            "lon": 10.32618
+          }
+        },
+        {
+          "facility": "RCCS - Centro di Riferimento",
+          "status": "RECRUITING",
+          "city": "Aviano (PN)",
+          "state": "Friuli Venezia Giulia",
+          "zip": "33081",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.07056,
+            "lon": 12.59472
+          }
+        },
+        {
+          "facility": "A.O. Universitaria S. Maria Della Misericordia Di Udine",
+          "status": "RECRUITING",
+          "city": "Udine",
+          "state": "Friuli Venezia Giulia",
+          "zip": "33100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.0693,
+            "lon": 13.23715
+          }
+        },
+        {
+          "facility": "Policlinico Universitario Agostino Gemelli",
+          "status": "RECRUITING",
+          "city": "Rome",
+          "state": "Lazio",
+          "zip": "00168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "Universit\u00e0 Campus Bio-Medico di Roma",
+          "status": "RECRUITING",
+          "city": "Rome",
+          "state": "Lazio",
+          "zip": "128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 41.89193,
+            "lon": 12.51133
+          }
+        },
+        {
+          "facility": "Asst Papa Giovanni XXIII",
+          "status": "RECRUITING",
+          "city": "Bergamo",
+          "state": "Lombardy",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "Asst Degli Spedali Civili Di Brescia",
+          "status": "RECRUITING",
+          "city": "Brescia",
+          "state": "Lombardy",
+          "zip": "25123",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.53558,
+            "lon": 10.21472
+          }
+        },
+        {
+          "facility": "Asst Di Cremona",
+          "status": "RECRUITING",
+          "city": "Cremona",
+          "state": "Lombardy",
+          "zip": "26100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.13325,
+            "lon": 10.02129
+          }
+        },
+        {
+          "facility": "Irccs Istituto Nazionale Dei Tumori (Int)",
+          "status": "RECRUITING",
+          "city": "Milan",
+          "state": "Lombardy",
+          "zip": "20133",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "Istituto Clinico Humanitas",
+          "status": "RECRUITING",
+          "city": "Rozzano",
+          "state": "Lombardy",
+          "zip": "20089",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "A.O.U. Maggiore della Carit\u00e0",
+          "status": "RECRUITING",
+          "city": "Novara",
+          "state": "Piedmont",
+          "zip": "28100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          }
+        },
+        {
+          "facility": "Humanitas Centro Catanese Di Oncologia",
+          "status": "RECRUITING",
+          "city": "Misterbianco (CT)",
+          "state": "Sicily",
+          "zip": "95045",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.51803,
+            "lon": 15.00913
+          }
+        },
+        {
+          "facility": "Ospedale Di Macerata",
+          "status": "RECRUITING",
+          "city": "Province of Macerata",
+          "state": "The Marches",
+          "zip": "62100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.29789,
+            "lon": 13.45293
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliera Universitaria Careggi",
+          "status": "RECRUITING",
+          "city": "Florence",
+          "state": "Tuscany",
+          "zip": "50134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "IOV - Istituto Oncologico Veneto - IRCCS",
+          "status": "RECRUITING",
+          "city": "Padova",
+          "state": "Veneto",
+          "zip": "35128",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.26618,
+            "lon": 11.77208
+          }
+        },
+        {
+          "facility": "University of Nairobi - Institute of Tropical and Infectious Diseases",
+          "status": "RECRUITING",
+          "city": "Nairobi",
+          "country": "Kenya",
+          "geoPoint": {
+            "lat": -1.28333,
+            "lon": 36.81667
+          }
+        },
+        {
+          "facility": "Panamerican Clinical Research S.A de C.V.",
+          "status": "RECRUITING",
+          "city": "Guadalajara",
+          "state": "Jalisco",
+          "zip": "44670",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          }
+        },
+        {
+          "facility": "RENATI INNOVATION S.A.P.I. de C.V",
+          "status": "RECRUITING",
+          "city": "Guadalajara",
+          "state": "Jalisco",
+          "zip": "44680",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 20.67738,
+            "lon": -103.34749
+          }
+        },
+        {
+          "facility": "Productos y Servicios Oncologicos Acacias SA de CV",
+          "status": "RECRUITING",
+          "city": "Mexico City",
+          "state": "Mexico CITY (federal District)",
+          "zip": "03240",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Centro de Atencion Oncologica Viva S de RL de CV",
+          "status": "RECRUITING",
+          "city": "Mexico City",
+          "state": "Mexico CITY (federal District)",
+          "zip": "06760",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Hospital Zambrano Hellion TecSalud",
+          "status": "RECRUITING",
+          "city": "Monterrey",
+          "state": "Nuevo Le\u00f3n",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 25.68435,
+            "lon": -100.31721
+          }
+        },
+        {
+          "facility": "Centro de Investigacion Clinica de Oaxaca",
+          "status": "RECRUITING",
+          "city": "Oaxaca City",
+          "state": "Oaxaca",
+          "zip": "68020",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 17.06025,
+            "lon": -96.72544
+          }
+        },
+        {
+          "facility": "PanAmerican Clinical Research, Quer\u00e9taro",
+          "status": "RECRUITING",
+          "city": "Quer\u00e9aro",
+          "state": "Quer\u00e9taro",
+          "zip": "76230",
+          "country": "Mexico"
+        },
+        {
+          "facility": "CENEIT Oncologicos",
+          "status": "RECRUITING",
+          "city": "Mexico City",
+          "zip": "03100",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Clinica Alivia sucursal Coyoacan",
+          "status": "RECRUITING",
+          "city": "Mexico City",
+          "zip": "04010",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Christchurch Hospital",
+          "status": "RECRUITING",
+          "city": "Christchurch",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -43.53333,
+            "lon": 172.63333
+          }
+        },
+        {
+          "facility": "Palmerston North Hospital",
+          "status": "RECRUITING",
+          "city": "Palmerston North",
+          "zip": "4442",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -40.35636,
+            "lon": 175.61113
+          }
+        },
+        {
+          "facility": "Whangarei Hospital",
+          "status": "RECRUITING",
+          "city": "Whangarei",
+          "zip": "0110",
+          "country": "New Zealand",
+          "geoPoint": {
+            "lat": -35.73167,
+            "lon": 174.32391
+          }
+        },
+        {
+          "facility": "Centro Medico Monte Carmelo",
+          "status": "RECRUITING",
+          "city": "Arequipa",
+          "zip": "04001",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -16.39899,
+            "lon": -71.53747
+          }
+        },
+        {
+          "facility": "Hospital Goyeneche",
+          "status": "RECRUITING",
+          "city": "Arequipa",
+          "zip": "5154",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -16.39899,
+            "lon": -71.53747
+          }
+        },
+        {
+          "facility": "Cl\u00ednica Santa Beatriz",
+          "status": "COMPLETED",
+          "city": "Lima",
+          "zip": "15072",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Hospital Nacional Arzobispo Loayza",
+          "status": "RECRUITING",
+          "city": "Lima",
+          "zip": "1",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Oncosalud Sac",
+          "status": "RECRUITING",
+          "city": "Lima",
+          "zip": "41",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Instituto Nacional de Enfermedades Neoplasicas",
+          "status": "RECRUITING",
+          "city": "Lima",
+          "zip": "Lima 34",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Clinica Internacional, Sede San Borja",
+          "status": "RECRUITING",
+          "city": "Lima",
+          "zip": "Lima 41",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Instituto Peruano de Oncolog\u00eda y Radioterapia",
+          "status": "RECRUITING",
+          "city": "Lima",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -12.04318,
+            "lon": -77.02824
+          }
+        },
+        {
+          "facility": "Clinica San Antonio;Investigaciones Trujillo S.A.C.",
+          "status": "RECRUITING",
+          "city": "Trujillo",
+          "zip": "13008",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -8.11599,
+            "lon": -79.02998
+          }
+        },
+        {
+          "facility": "Clinica Peruana Americana",
+          "status": "WITHDRAWN",
+          "city": "Trujillo",
+          "zip": "13011",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -8.11599,
+            "lon": -79.02998
+          }
+        },
+        {
+          "facility": "Instituto Regional de Enfermedades Neoplasicas - IREN Norte",
+          "status": "RECRUITING",
+          "city": "Trujillo",
+          "zip": "13014",
+          "country": "Peru",
+          "geoPoint": {
+            "lat": -8.11599,
+            "lon": -79.02998
+          }
+        },
+        {
+          "facility": "Instytut \"Centrum Zdrowia Matki Polki\"",
+          "status": "RECRUITING",
+          "city": "?\u00f3d?",
+          "zip": "93-338",
+          "country": "Poland"
+        },
+        {
+          "facility": "Centrum Onkologii im. Prof. Franciszka ?ukaszczyka",
+          "status": "RECRUITING",
+          "city": "Bydgoszcz",
+          "zip": "85-796",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.1235,
+            "lon": 18.00762
+          }
+        },
+        {
+          "facility": "Szpital Morski Im. Pck",
+          "status": "RECRUITING",
+          "city": "Gdynia",
+          "zip": "81-519",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.51889,
+            "lon": 18.53188
+          }
+        },
+        {
+          "facility": "Narodowy Instytut Onkologii Odzia? w Gliwicach",
+          "status": "RECRUITING",
+          "city": "Gliwice",
+          "zip": "44-102",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.29761,
+            "lon": 18.67658
+          }
+        },
+        {
+          "facility": "?wi?tokrzyskie Centrum Onkologii",
+          "status": "RECRUITING",
+          "city": "Kielce",
+          "zip": "25-734",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.87033,
+            "lon": 20.62752
+          }
+        },
+        {
+          "facility": "Przychodnia Lekarska KOMED, Roman Karaszewski",
+          "status": "RECRUITING",
+          "city": "Konin",
+          "zip": "62-500",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22338,
+            "lon": 18.25121
+          }
+        },
+        {
+          "facility": "Szpital Wojew\u00f3dzki im. Miko?aja Kopernika",
+          "status": "RECRUITING",
+          "city": "Koszalin",
+          "zip": "75-581",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 54.19438,
+            "lon": 16.17222
+          }
+        },
+        {
+          "facility": "Centrum Onkologii Ziemi Lubelskiej im. sw. Jana z Dukli",
+          "status": "RECRUITING",
+          "city": "Lublin",
+          "zip": "20-090",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 51.25058,
+            "lon": 22.57009
+          }
+        },
+        {
+          "facility": "Opolskie Centrum Onkologii",
+          "status": "WITHDRAWN",
+          "city": "Opole",
+          "zip": "45-061",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 50.67119,
+            "lon": 17.92604
+          }
+        },
+        {
+          "facility": "Mazowiecki Szpital Wojew\u00f3dzki im. ?w. Jana Paw?a II",
+          "status": "RECRUITING",
+          "city": "Siedlce",
+          "zip": "08-110",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.16772,
+            "lon": 22.29006
+          }
+        },
+        {
+          "facility": "Zachodniopomorskie Centrum Onkologii",
+          "status": "RECRUITING",
+          "city": "Szczecin",
+          "zip": "71-730",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 53.42894,
+            "lon": 14.55302
+          }
+        },
+        {
+          "facility": "Narodowy Inst.Onkologii im.Sklodowskiej-Curie Panstw.Inst.Bad",
+          "status": "RECRUITING",
+          "city": "Warsaw",
+          "zip": "02-781",
+          "country": "Poland",
+          "geoPoint": {
+            "lat": 52.22977,
+            "lon": 21.01178
+          }
+        },
+        {
+          "facility": "IPO de Coimbra",
+          "status": "RECRUITING",
+          "city": "Coimbra",
+          "zip": "3000-075",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 40.20686,
+            "lon": -8.41996
+          }
+        },
+        {
+          "facility": "Hospital de S. Francisco Xavier",
+          "status": "RECRUITING",
+          "city": "Lisbon",
+          "zip": "1495-005",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Hospital da Luz",
+          "status": "RECRUITING",
+          "city": "Lisbon",
+          "zip": "1500-650",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "IPO do Porto",
+          "status": "RECRUITING",
+          "city": "Porto",
+          "zip": "4200-072",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "CHVNG/E_Unidade 1",
+          "status": "RECRUITING",
+          "city": "Vila Nova de Gaia",
+          "zip": "4434-502",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.12401,
+            "lon": -8.61241
+          }
+        },
+        {
+          "facility": "PanOncology Trials",
+          "status": "RECRUITING",
+          "city": "San Juan",
+          "zip": "00935",
+          "country": "Puerto Rico",
+          "geoPoint": {
+            "lat": 18.46633,
+            "lon": -66.10572
+          }
+        },
+        {
+          "facility": "Spitalul Clinic Filantropia",
+          "status": "RECRUITING",
+          "city": "Bucharest",
+          "zip": "011171",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Institutul Oncologic Prof. Dr. Alexandru Trestioreanu",
+          "status": "RECRUITING",
+          "city": "Bucharest",
+          "zip": "022328",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.43225,
+            "lon": 26.10626
+          }
+        },
+        {
+          "facility": "Amethyst Cluj",
+          "status": "WITHDRAWN",
+          "city": "Cluj County",
+          "zip": "407280",
+          "country": "Romania"
+        },
+        {
+          "facility": "Institutul Oncologic Prof. Dr. Ion Chiricuta Cluj Napoca",
+          "status": "RECRUITING",
+          "city": "Cluj-Napoca",
+          "zip": "400015",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 46.76667,
+            "lon": 23.6
+          }
+        },
+        {
+          "facility": "Centrul de Oncologie Sfantul Nectarie",
+          "status": "WITHDRAWN",
+          "city": "Craiova",
+          "zip": "200347",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 44.31667,
+            "lon": 23.8
+          }
+        },
+        {
+          "facility": "Institutul Regional de Oncologie Iasi",
+          "status": "RECRUITING",
+          "city": "Ia\u0219i",
+          "zip": "700483",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 47.16667,
+            "lon": 27.6
+          }
+        },
+        {
+          "facility": "Centrul de Oncologie Oncohelp",
+          "status": "RECRUITING",
+          "city": "Timi\u0219oara",
+          "zip": "300239",
+          "country": "Romania",
+          "geoPoint": {
+            "lat": 45.75372,
+            "lon": 21.22571
+          }
+        },
+        {
+          "facility": "National University Hospital",
+          "status": "RECRUITING",
+          "city": "Singapore",
+          "zip": "119228",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "National Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Singapore",
+          "zip": "168583",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Icon Cancer Centre Gleneagles",
+          "status": "RECRUITING",
+          "city": "Singapore",
+          "zip": "258499",
+          "country": "Singapore",
+          "geoPoint": {
+            "lat": 1.28967,
+            "lon": 103.85007
+          }
+        },
+        {
+          "facility": "Institute of Oncology Ljubljana",
+          "status": "RECRUITING",
+          "city": "Ljubljana",
+          "zip": "1000",
+          "country": "Slovenia",
+          "geoPoint": {
+            "lat": 46.05108,
+            "lon": 14.50513
+          }
+        },
+        {
+          "facility": "Cancercare Rondebosch Oncology",
+          "status": "WITHDRAWN",
+          "city": "Cape Town",
+          "zip": "7700",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.92584,
+            "lon": 18.42322
+          }
+        },
+        {
+          "facility": "Cancercare",
+          "status": "RECRUITING",
+          "city": "Port Elizabeth",
+          "zip": "6045",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -33.96109,
+            "lon": 25.61494
+          }
+        },
+        {
+          "facility": "Steve Biko Academic Hospital",
+          "status": "RECRUITING",
+          "city": "Pretoria",
+          "zip": "0002",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -25.74486,
+            "lon": 28.18783
+          }
+        },
+        {
+          "facility": "Wits Clinical Research",
+          "status": "RECRUITING",
+          "city": "Soweto",
+          "zip": "2013",
+          "country": "South Africa",
+          "geoPoint": {
+            "lat": -26.26781,
+            "lon": 27.85849
+          }
+        },
+        {
+          "facility": "Kyungpook National University Chilgok Hospital",
+          "status": "RECRUITING",
+          "city": "Daegu",
+          "zip": "41404",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.87028,
+            "lon": 128.59111
+          }
+        },
+        {
+          "facility": "Seoul National University Bundang Hospital",
+          "status": "RECRUITING",
+          "city": "Seongnam-si",
+          "zip": "13620",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.43861,
+            "lon": 127.13778
+          }
+        },
+        {
+          "facility": "Korea University Anam Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "02841",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Seoul National University Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Severance Hospital, Yonsei University Health System",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Asan Medical Center",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "05505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Gangnam Severance Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "06273",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Ewha Womans University Mokdong Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "07985",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Samsung Medical Center",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "135-710",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Ulsan University Hosiptal",
+          "status": "RECRUITING",
+          "city": "Ulsan",
+          "zip": "44033",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 35.53722,
+            "lon": 129.31667
+          }
+        },
+        {
+          "facility": "Institut Catala d?Oncologia Hospital Germans Trias i Pujol",
+          "status": "RECRUITING",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital de Jerez de la Frontera",
+          "status": "RECRUITING",
+          "city": "Jerez de la Frontera",
+          "state": "Cadiz",
+          "zip": "11407",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.68645,
+            "lon": -6.13606
+          }
+        },
+        {
+          "facility": "Hospital Quiron de Madrid",
+          "status": "RECRUITING",
+          "city": "Pozuelo de Alarc\u00f3n",
+          "state": "Madrid",
+          "zip": "28223",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.43293,
+            "lon": -3.81338
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de La Arrixaca",
+          "status": "RECRUITING",
+          "city": "EL Palmar (EL Palmar)",
+          "state": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.93939,
+            "lon": -1.16095
+          }
+        },
+        {
+          "facility": "Hospital Alvaro Cunqueiro",
+          "status": "RECRUITING",
+          "city": "Vigo",
+          "state": "Pontevedra",
+          "zip": "36213",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.23282,
+            "lon": -8.72264
+          }
+        },
+        {
+          "facility": "Hospital Universitari Dexeus - Grupo Quironsalud",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08028",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebron",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Juan Ramon Jimenez",
+          "status": "RECRUITING",
+          "city": "Huelva",
+          "zip": "21005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.26638,
+            "lon": -6.94004
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario de Jaen-Hospital Universitario Medico Quirurgico",
+          "status": "RECRUITING",
+          "city": "Ja\u00e9n",
+          "zip": "23007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Centro Oncologico MD Anderson Internacional",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28033",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital de Madrid Norte Sanchinarro- Centro Integral Oncologico Clara Campal",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28050",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen Macarena",
+          "status": "RECRUITING",
+          "city": "Seville",
+          "zip": "41009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen del Rocio",
+          "status": "RECRUITING",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Instituto Valenciano Oncologia",
+          "status": "RECRUITING",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Arnau de Vilanova (Valencia) Servicio de Oncologia",
+          "status": "RECRUITING",
+          "city": "Valencia",
+          "zip": "46015",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hsin-Chu Branch of National Taiwan University Hospital",
+          "status": "RECRUITING",
+          "city": "Hsinchu",
+          "zip": "300",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.80361,
+            "lon": 120.96861
+          }
+        },
+        {
+          "facility": "China Medical University Hospital",
+          "status": "RECRUITING",
+          "city": "Taichung",
+          "zip": "404",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Veterans General Hospital",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "zip": "00112",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "National Taiwan Uni Hospital",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "zip": "100",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Koo Foundation Sun Yat-Sen Cancer Center",
+          "status": "RECRUITING",
+          "city": "Taipei",
+          "zip": "11259",
+          "country": "Taiwan",
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Veterans General Hospital - Taichung",
+          "status": "RECRUITING",
+          "city": "Xitun Dist.",
+          "zip": "40705",
+          "country": "Taiwan"
+        },
+        {
+          "facility": "Chulalongkorn Hospital",
+          "status": "RECRUITING",
+          "city": "Bangkok",
+          "zip": "10330",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "National Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Bangkok",
+          "zip": "10400",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "Rajavithi Hospital",
+          "status": "RECRUITING",
+          "city": "Bangkok",
+          "zip": "10400",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.75398,
+            "lon": 100.50144
+          }
+        },
+        {
+          "facility": "Chulabhorn Hospital",
+          "status": "RECRUITING",
+          "city": "Lak Si",
+          "zip": "10210",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 13.88724,
+            "lon": 100.5792
+          }
+        },
+        {
+          "facility": "Maharaj Nakorn Chiang Mai Hospital;Depart of Radiology",
+          "status": "RECRUITING",
+          "city": "Muang Chiang MAI Delivery Branch 3",
+          "zip": "50200",
+          "country": "Thailand"
+        },
+        {
+          "facility": "Songklanagarind Hospital",
+          "status": "RECRUITING",
+          "city": "Songkhla",
+          "zip": "90110",
+          "country": "Thailand",
+          "geoPoint": {
+            "lat": 7.19882,
+            "lon": 100.5951
+          }
+        },
+        {
+          "facility": "Sakarya Training and Research Hospital",
+          "status": "RECRUITING",
+          "city": "Adapazar\u0131",
+          "zip": "54290",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 40.78056,
+            "lon": 30.40333
+          }
+        },
+        {
+          "facility": "Ankara City Hospital",
+          "status": "RECRUITING",
+          "city": "Ankara",
+          "zip": "06800",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 39.91987,
+            "lon": 32.85427
+          }
+        },
+        {
+          "facility": "Bakirkoy Dr. Sadi Konuk Egitim ve Arastirma Hastanesi, Tibbi Onkoloji",
+          "status": "RECRUITING",
+          "city": "Bakirkoy / Istanbul",
+          "zip": "34147",
+          "country": "Turkey (T\u00fcrkiye)"
+        },
+        {
+          "facility": "Izmir Ataturk Training and Research Hospital",
+          "status": "RECRUITING",
+          "city": "Izmir",
+          "zip": "35360",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 38.41273,
+            "lon": 27.13838
+          }
+        },
+        {
+          "facility": "Goztepe Prof.Dr. Suleyman Yalcin City Hospital",
+          "status": "RECRUITING",
+          "city": "Kadik\u00f6y",
+          "zip": "34722",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.06639,
+            "lon": 41.01294
+          }
+        },
+        {
+          "facility": "Mersin City Education and Research Hospital",
+          "status": "RECRUITING",
+          "city": "Mersin",
+          "zip": "33240",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 36.81196,
+            "lon": 34.63886
+          }
+        },
+        {
+          "facility": "Medikal Park Samsun",
+          "status": "RECRUITING",
+          "city": "Samsun",
+          "zip": "55200",
+          "country": "Turkey (T\u00fcrkiye)",
+          "geoPoint": {
+            "lat": 41.27976,
+            "lon": 36.3361
+          }
+        },
+        {
+          "facility": "Hacettepe Uni Medical Faculty Hospital",
+          "status": "RECRUITING",
+          "city": "Sihhiye/Ankara",
+          "zip": "06230",
+          "country": "Turkey (T\u00fcrkiye)"
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Please use this form to submit your questions for a faster response: https://www.gene.com/contact-us/submit-medical-inquiry. Do not include or attach any medical records when emailing or completing the form. A nurse will respond within 24 business hours.",
+          "url": "https://www.gene.com/contact-us/submit-medical-inquiry"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "For eligible studies, qualified researchers may request access to individual patient level clinical data. See Roche's commitment to transparency of clinical study information here: https://go.roche.com/data\\_sharing"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000720132",
+          "term": "giredestrant"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        },
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

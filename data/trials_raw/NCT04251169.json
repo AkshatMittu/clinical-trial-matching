@@ -1,0 +1,2887 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04251169",
+      "orgStudyIdInfo": {
+        "id": "SOLTI-1716"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2018-003367-58",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pembrolizumab + Paclitaxel in HR+/HER2- Non-luminal (by PAM50) Advanced Breast Cancer After CDK4/6 Inhibitor Progression",
+      "officialTitle": "Targeting Non-Luminal Disease by PAM50 With Pembrolizumab + Paclitaxel in Hormone Receptor-positive/HER2-negative Advanced/Metastatic Breast Cancer, Who Have Progressed on or After CDK 4/6 Inhibitor Treatment",
+      "acronym": "TATEN"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "The enrollment was stopped prematurely due to the lack of funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2024-04-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2024-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-01-30",
+      "studyFirstSubmitQcDate": "2020-01-30",
+      "studyFirstPostDateStruct": {
+        "date": "2020-01-31",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2025-04-24",
+      "resultsFirstSubmitQcDate": "2025-06-02",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-06-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-06-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Merck Sharp & Dohme LLC",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an open-label, single arm, multicenter phase II study evaluating treatment with pembrolizumab in combination with paclitaxel in patients with locally advanced or metastatic non-luminal hormone receptor-positive (HR+), human epidermal growth factor receptor 2-negative (HER2-) (hereafter referred to as HR+/HER2-) breast cancer who had recurrence or progression while receiving previous therapy with a cyclin-dependent kinase (CDK) inhibitor in the adjuvant setting or to treat advanced disease (or both).",
+      "detailedDescription": "The study will utilize a 2-stage, single arm, Simon's 2-stage design with one (efficacy) interim and a final analysis. The interim analysis will be conducted when 15 patients are evaluable for Overall Response Rate (ORR) as determined locally by the investigator through the use of Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v.1.1). If 5 or fewer responses are observed in up to 15 patients of the evaluable population (EP), the trial will be terminated in favor of the null for futility. Otherwise, up to a further 31 patients may be evaluated, for a maximum total of 46 evaluable patients. If a total of 19 or more responses are seen at the end of the second stage, then the null will have been rejected in favor of the alternative; and further investigation of the combination is warranted.\n\nRecruitment will not be halted during the interim analysis period. Therefore, no interruption in the accrual will be done during the interim analysis in order to maintain the dynamic of accrual in the trial.\n\nAfter confirmation of all eligibility criteria, eligible patients will receive pembrolizumab 200 mg every 3 weeks (on Day 1 \\[D1\\] of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m\u00b2 administered at Days 1, 8, and 15 of each 21-day cycle beginning at Cycle 2. Treatment will continue until disease progression, the development of unacceptable toxicity, withdrawal of consent, 24 months from the date of the first dose of pembrolizumab, or end of study, whichever occurs first.\n\nAll patients will be followed for survival from screening until the last patient recruited has been followed for 12 months, has progressed, or has died, whichever occurs first. The patient will be followed for survival approximately every 3 months (\u00b1 21 days) until death, withdrawal of consent, loss to follow-up, or study termination by the sponsor. In addition, information regarding use of subsequent anti-cancer agents for metastatic hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) during the survival follow-up period will be collected.\n\nTumor assessments per RECIST v.1.1 and Immune-Related Response Evaluation Criteria in Solid Tumors (iRECIST) will be performed every 9 weeks (63 days \u00b1 5 days) until disease progression, treatment discontinuation, the start of new anti-cancer treatment, withdrawal of consent, death, or the end of the study, whichever occurs first. Tumor assessments will be performed on the specified schedule regardless of treatment delays.\n\nSafety assessments will include the incidence, nature, and severity of adverse events (AEs) and laboratory abnormalities graded per the National Cancer Institute Common Terminology Criteria for Adverse Events version 5 (NCI CTCAE v.5).\n\nLaboratory safety assessments will include the regular monitoring of hematology, blood chemistry, and pregnancy test."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pembrolizumab + Paclitaxel",
+          "type": "EXPERIMENTAL",
+          "description": "Pembrolizumab 200 mg every 3 weeks (on Day 1 \\[D1\\] of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m\u00b2 administered at Days 1, 8, and 15 of each 21-day cycle beginning at Cycle 2.",
+          "interventionNames": [
+            "Drug: Pembrolizumab",
+            "Drug: Paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "Pembrolizumab 200 mg will be administered as a 30-minute intravenous (IV) infusion every 3 weeks beginning in Cycle 1",
+          "armGroupLabels": [
+            "Pembrolizumab + Paclitaxel"
+          ],
+          "otherNames": [
+            "Keytruda"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour intravenous (IV) infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab",
+          "armGroupLabels": [
+            "Pembrolizumab + Paclitaxel"
+          ],
+          "otherNames": [
+            "NSC-125973"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Overall Response Rate of Pembrolizumab in Combination With Paclitaxel in HR+/HER2- Non-luminal Subtype Advanced Breast Cancer Defined by the PAM50 Assay",
+          "description": "ORR defined as the proportion of patients with best overall response of complete response (CR) or partial response (PR), as per local investigator\u00b4s assessment and according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Benefit Rate (CBR)",
+          "description": "Proportion of patients with a best overall response of CR, PR or an overall lesion response of Stable Disease (SD) or Non-PR/Non-progression disease (PD) lasting \u2265 24 weeks, based on local investigator\u00b4s assessment according to RECIST v1.1.\n\nThe CBR and its exact 90% confidence interval (CI).",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months."
+        },
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "PFS is defined as the time from the date of allocation to the date of the first documented progression or death due to any cause occurring in the study. PFS will be assessed based on local investigator's assessment according to RECIST v1.1.\n\nPFS will be censored if no PFS event is observed before the cut-off date. The censoring date will be the date of last adequate tumor assessment before the cut-off date. If a PFS event is observed after two or more missing or non-adequate tumor assessments, then PFS will be censored at the last adequate tumor assessment. If a PFS event is observed after a single missing or non-adequate tumor assessment, the actual date of event will be used. It is not intended to censor patients for new anticancer therapy prior to documented disease progression in the primary analysis.",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months."
+        },
+        {
+          "measure": "Duration of Response (DoR)",
+          "description": "Time from the first occurrence of a documented objective response to disease progression, as determined locally by the investigator through use of RECIST v.1.1, or death from any cause, whichever occurs first.\n\nDOR only applies to patients whose best overall response is CR or PR according to RECIST v1.1 based on tumor response data per local investigator's assessment. The start date is the date of first documented response of CR or PR (i.e., the start date of response, not the date when response was confirmed), and the end date is defined as the date of the first documented progression or death due to underlying cancer. Patients continuing without progression or death due to underlying cancer will be censored at the date of their last adequate tumor assessment.",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months."
+        },
+        {
+          "measure": "Time to Response (TtR)",
+          "description": "Time from allocation to the first objective tumor response (tumor shrinkage of \u226530%) observed for patients who achieved a CR or PR.\n\nTtR only applies to patients whose best overall response is CR or PR according to RECIST v1.1 based on tumor response data per local investigator's assessment.",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months."
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Time from allocation to death from any cause. Data for patients who are alive at the time of the analysis data cutoff will be censored at the last date they were known to be alive. Data from patients without post-baseline information will be censored at the date of allocation.\n\nThe results from log-rank test will be provided. The OS curve will be estimated by the Kaplan-Meier methodology, and the 95% CI will be estimated by the Cox proportional-hazards models.",
+          "timeFrame": "From date of randomization to death, unacceptable toxicity, consent withdrawal or study termination, whichever came first, assessed after a median follow-up of 26 months (interquartile range [IQR]: 16.6-not reached [NR])."
+        },
+        {
+          "measure": "PFS on Study Treatment Compared to PFS on Prior Line of Therapy (Pre-PFS)",
+          "description": "Time from allocation to the first occurrence of disease progression, as determined locally by the investigator through the use of RECIST v.1.1, or death from any cause, whichever occurs first compared to PFS on prior line of therapy.\n\nPre-PFS only applies to patients whose received have previous treatment for metastatic disease. The average of the Pre-PFS/PFS ratios will be calculated.",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months."
+        },
+        {
+          "measure": "Incidence, Duration and Severity of Adverse Events (AEs) of the Combination of Pembrolizumab With Paclitaxel",
+          "description": "Incidence, duration and severity of AEs assessed by the NCI Common Terminology for Classification of Adverse Events (CTCAE) version 5,",
+          "timeFrame": "Toxicities were assessed during the whole treatment period (from baseline until 90 days after a patients' final treatment, up to 35 months)."
+        },
+        {
+          "measure": "Number of Patients With Dose Interruptions, Reductions, Delays and Treatment Discontinuation of the Combination of Pembrolizumab With Paclitaxel",
+          "description": "Quantification of dose interruptions, reductions, dose intensity, delays and treatment discontinuation will be recorded in the electronic case report form (eCRF)",
+          "timeFrame": "Tolerability will be assessed during the whole treatment period (from baseline until patients' final treatment which is defined as the end of the Treatment Phase of the study, up to 34 months)."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male/female participants who are at least 18 years of age on the day of signing informed consent with histologically confirmed diagnosis of locally advanced or metastatic, histologically documented hormone receptor positive (estrogen receptor \\[ER\\] and/or progesterone receptor \\[PR\\] expression \\>1%) and human epidermal growth factor receptor 2-negative (HER2-) breast cancer by local testing, not amenable to surgical therapy will be enrolled in this study.\n\n   1. HER2 negativity is defined as either of the following by local laboratory assessment: Immunohistochemistry (IHC) 0, IHC 1+ or IHC 2+/in situ hybridisation (ISH) negative as per American Society of Clinical Oncology (ASCO)-College of American Pathologists Guideline (CAP) guideline (ISH negative is defined as a ratio of HER2 to chromosome 17 centromere (CEP17) \\<2.0)117.\n   2. ER and/or PR positivity are defined as \\>1% of cells expressing HR via IHC analysis as per ASCO-CAP guideline118\n2. The participant (or legally acceptable representative if applicable) provides written informed consent for the trial.\n3. Eligible for taxane therapy.\n4. No prior chemotherapy for inoperable locally advanced or metastatic breast cancer.\n5. Prior radiation therapy for metastatic disease is permitted. Subjects who were treated with radiation therapy may participate as long as at least 2 weeks have elapsed since the last dose of radiation therapy or have recovered from the effects of radiation before allocation whichever is the latest.\n6. Disease refractory to CDK4/6 inhibitors, defined as recurrence during or within 12 months after the end of adjuvant treatment or progression during or within 6 months after the end of treatment for advanced/metastatic disease.\n\n   Notes: CDK4/6 inhibitors do not have to be the last treatment prior to randomization. Other prior anticancer endocrine therapy, e.g. aromatase inhibitors, fulvestrant or tamoxifen, are also allowed.\n7. Previous chemotherapy with a taxane for early breast cancer (neoadjuvant or adjuvant setting) is permitted.\n8. Availability of formalin-fixed paraffin-embedded (FFPE) tumor block, collected during advanced/metastatic disease, with an associated pathology report. The tumor tissue should be of good quality based on total and viable tumor content and must be evaluated centrally for PAM50 analysis prior to enrollment. Patients whose tumor tissue is not evaluable for central testing are not eligible. If PAM50 analysis of tumor sample has alredy been performed at central lab (i.e analysis from other SOLTI clinical trial) PAM50 result can be valid for this study.\n\n   1. Acceptable samples include core needle biopsies for deep tumor tissue or excisional, incisional, punch, or forceps biopsies for cutaneous, subcutaneous, or mucosal lesions or biopsies from bone metastases.\n   2. Fine needle aspiration, brushing, cell pellet from pleural effusion and lavage samples are not acceptable.\n9. Non-Luminal subtype as per PAM50 analysis (i.e. HER2-enriched or Basal-like).\n10. Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1. Evaluation of ECOG is to be performed within 10 days prior to the date of allocation/randomization.\n11. Life expectancy \u2265 12 weeks\n12. Measurable disease, as defined by Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1). (Note: Previously irradiated lesions can be considered as measurable disease only if disease progression has been unequivocally documented at that site since radiation.)\n13. Adequate hematologic and end-organ function, defined by the study protocol with results obtained within 10 days prior to the first study treatment at Cycle 1, Day 1 (C1D1):\n\n    Male participants:\n14. A male participant must agree to use contraception during the treatment period and for at least 180 days after the last dose of paclitaxel and 120 days form the last doses of pembrolizumab and refrain from donating sperm during this period.\n\n    Female participants:\n15. A female participant is eligible to participate if she is not pregnant not breastfeeding, and at least one of the following conditions applies: a.) Not a woman of childbearing potential (WOCBP) as defined in Appendix 3 OR b.) A WOCBP who agrees to follow the contraceptive guidance in Appendix 3 during the treatment period and for at least 180 days after the last dose of paclitaxel and 120 days from the last dose of pembrolizumab.\n\nExclusion Criteria:\n\n1. A WOCBP who has a positive urine pregnancy test within 72 hours prior to Cycle 1, Day 1 (C1D1). If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n2. Has received prior therapy with an anti-PD1, anti-PD-L1, or anti-PD-L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor.\n3. History of hypersensitivity reactions to paclitaxel or other drugs formulated in the same solvent as paclitaxel (polyoxyethylated castor oil).\n4. Resolution of all acute toxic effects of prior anti-cancer therapy or major surgical procedures to National Cancer Institute Common Terminology Criteria for Adverse Events version 5.0 (NCI CTCAE v5.0) Grade \u2264 1 (except alopecia or other toxicities not considered a safety risk for the patient at investigator\u00b4s discretion).\n\n   Note: Placement of central venous access catheter(s) (e.g., port or similar) is not considered a major surgical procedure and is therefore permitted.\n5. Has received a live vaccine within 30 days prior to the first dose of study drug. Examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, varicella/zoster (chicken pox), yellow fever, rabies, Bacillus Calmette-Gu\u00e9rin (BCG), and typhoid vaccine. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (eg, FluMist\u00ae) are live attenuated vaccines and are not allowed. Note: It is not recommended the use of live or attenuated COVID-19 vaccines within 30 days of initiation or during study treatment. However, if vaccination with these vaccines is required, please ask for advice on how to proceed the Medical Monitor.\n6. Uncontrolled pleural effusion, pericardial effusion, or ascites (Note: patients with indwelling catheters, such as PleurX\u00ae are allowed).\n7. Uncontrolled hypercalcemia (\\>1.5 mmol/L \\[\\>6 mg/dL\\] ionized calcium or serum calcium \\[uncorrected for albumin\\] \\>3 mmol/L \\[\\>12 mg/dL\\] or corrected serum calcium \\>upper limit of normal (ULN) or clinically significant (symptomatic) hypercalcemia\n8. Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to the first dose of study drug.\n9. Has a known additional malignancy that is progressing or has required active treatment within the past 3 years. Note: Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin or carcinoma in situ (e.g. breast carcinoma, cervical cancer in situ) that have undergone potentially curative therapy are not excluded.\n10. Has known active Central Nervous System metastases and/or carcinomatous meningitis. Participants with previously treated brain metastases may participate provided they are radiologically stable, i.e. without evidence of progression for at least 4 weeks by repeat imaging (note that the repeat imaging should be performed during study screening), clinically stable and without requirement of steroid treatment for at least 14 days prior to first dose of study treatment.\n11. Has severe hypersensitivity (\u2265Grade 3) to pembrolizumab and/or any of its excipients.\n12. Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.\n13. Has a history of (non-infectious) pneumonitis/interstitial lung disease that required steroids or has current pneumonitis/interstitial lung disease.\n14. Prior allogeneic stem cell or solid organ transplantation\n15. Has an active infection requiring systemic therapy.\n16. Has a known history of Human Immunodeficiency Virus (HIV).\n17. Has a known history of Hepatitis B (defined as Hepatitis B surface antigen \\[HBsAg\\] reactive) or known active Hepatitis C virus (HCV) (defined as HCV RNA \\[qualitative\\] is detected) infection. Note: no testing for Hepatitis B and Hepatitis C is required unless mandated by local health authority.\n18. Has a known history of active Tuberculosis Bacillus.\n19. Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the study, interfere with the subject's participation for the full duration of the study, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.\n20. Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.\n21. Is pregnant or breastfeeding or expecting to conceive or father children within the projected duration of the study, starting with the screening visit through 120 days after the last dose of pembrolizumab or 180 days after the last dose of paclitaxel.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Aleix Prat, MD, PhD",
+          "affiliation": "Hospital Clinic, Barcelona, Spain",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Eva Ciruelos, MD, PhD",
+          "affiliation": "Hospital 12 de Octubre, Madrid, Spain",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "ICO Hospitalet",
+          "city": "L'Hospitalet de Llobregat",
+          "state": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.35967,
+            "lon": 2.10028
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d'Hebr\u00f3n",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic de Barcelona",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de octubre",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Quiron Salud Sagrado Corazon Sevilla",
+          "city": "Seville",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Fundaci\u00f3n Instituto Valenciano de Oncolog\u00eda",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Valencia",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "A total of 162 patients were assessed for eligibility. Of these, 35 were excluded due to unsuitable or unavailable tumor samples (21), exclusion criteria (11), or consent withdrawal (3). The remaining 126 underwent PAM50 molecular pre-screening, and 21 were identified as having HER2-enriched or basal-like tumors, making them eligible for the trial. Among these 21 eligible patients, 20 were enrolled, while one was not recruited due to the trial closing prematurely.",
+      "recruitmentDetails": "Participants were recruited from seven hospitals across Spain based on predefined eligibility criteria. The first participant was enrolled on September 16, 2020, and the last participant completed the study on April 30, 2024.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Pembrolizumab + Paclitaxel",
+          "description": "Pembrolizumab 200 mg every 3 weeks (on day 1 \\[D1\\] of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes intravenous (IV) infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "20"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Pembrolizumab + Paclitaxel",
+          "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "54",
+                      "lowerLimit": "33",
+                      "upperLimit": "70"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Arabic or North African",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Caucasian",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "White",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Spain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Previous (neo)adjuvant chemotherapy (CT)",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Menopausal status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Premenopausal",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Postmenopausal",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lines of endocrine therapy (ET) for metastatic breast cancer (mBC)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "1",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "2",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "3",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Most recent treatment line",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "AI + CDK4/6i",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Fulvestrant + CDK46i",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Fulvestrant + Alpelisib",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Exemestane + Everolimus",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Type of cyclin-dependent kinase 4 and 6 inhibitor (CDK4/6i)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Palbociclib",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Ribociclib",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Overall Response Rate of Pembrolizumab in Combination With Paclitaxel in HR+/HER2- Non-luminal Subtype Advanced Breast Cancer Defined by the PAM50 Assay",
+          "description": "ORR defined as the proportion of patients with best overall response of complete response (CR) or partial response (PR), as per local investigator\u00b4s assessment and according to Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria",
+          "populationDescription": "Two patients exited the trial prior to their first post-baseline tumor assessment, and were thus excluded from the ORR analysis. The reasons for early study exit were rapid clinical progression and investigator's decision due to a drug-unrelated concomitant condition, respectively. There are 18 out of the 20 total patients evaluable for this outcome as defined in the protocol.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "NO",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "YES",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Benefit Rate (CBR)",
+          "description": "Proportion of patients with a best overall response of CR, PR or an overall lesion response of Stable Disease (SD) or Non-PR/Non-progression disease (PD) lasting \u2265 24 weeks, based on local investigator\u00b4s assessment according to RECIST v1.1.\n\nThe CBR and its exact 90% confidence interval (CI).",
+          "populationDescription": "Two patients exited the trial prior to their first post-baseline tumor assessment, and were thus excluded from the CBR analysis. The reasons for early study exit were rapid clinical progression and investigator's decision due to a drug-unrelated concomitant condition, respectively. There are 18 out of the 20 total patients evaluable for this outcome as defined in the protocol.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "NO",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                },
+                {
+                  "title": "YES",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Progression Free Survival (PFS)",
+          "description": "PFS is defined as the time from the date of allocation to the date of the first documented progression or death due to any cause occurring in the study. PFS will be assessed based on local investigator's assessment according to RECIST v1.1.\n\nPFS will be censored if no PFS event is observed before the cut-off date. The censoring date will be the date of last adequate tumor assessment before the cut-off date. If a PFS event is observed after two or more missing or non-adequate tumor assessments, then PFS will be censored at the last adequate tumor assessment. If a PFS event is observed after a single missing or non-adequate tumor assessment, the actual date of event will be used. It is not intended to censor patients for new anticancer therapy prior to documented disease progression in the primary analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.1",
+                      "lowerLimit": "5.9",
+                      "upperLimit": "10.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Duration of Response (DoR)",
+          "description": "Time from the first occurrence of a documented objective response to disease progression, as determined locally by the investigator through use of RECIST v.1.1, or death from any cause, whichever occurs first.\n\nDOR only applies to patients whose best overall response is CR or PR according to RECIST v1.1 based on tumor response data per local investigator's assessment. The start date is the date of first documented response of CR or PR (i.e., the start date of response, not the date when response was confirmed), and the end date is defined as the date of the first documented progression or death due to underlying cancer. Patients continuing without progression or death due to underlying cancer will be censored at the date of their last adequate tumor assessment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.3",
+                      "lowerLimit": "3.7",
+                      "upperLimit": "31.1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Time to Response (TtR)",
+          "description": "Time from allocation to the first objective tumor response (tumor shrinkage of \u226530%) observed for patients who achieved a CR or PR.\n\nTtR only applies to patients whose best overall response is CR or PR according to RECIST v1.1 based on tumor response data per local investigator's assessment.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "11"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3.9",
+                      "lowerLimit": "3.9",
+                      "upperLimit": "5.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival (OS)",
+          "description": "Time from allocation to death from any cause. Data for patients who are alive at the time of the analysis data cutoff will be censored at the last date they were known to be alive. Data from patients without post-baseline information will be censored at the date of allocation.\n\nThe results from log-rank test will be provided. The OS curve will be estimated by the Kaplan-Meier methodology, and the 95% CI will be estimated by the Cox proportional-hazards models.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "months",
+          "timeFrame": "From date of randomization to death, unacceptable toxicity, consent withdrawal or study termination, whichever came first, assessed after a median follow-up of 26 months (interquartile range [IQR]: 16.6-not reached [NR]).",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26",
+                      "lowerLimit": "18",
+                      "upperLimit": "NA",
+                      "comment": "The upper limit of the 95% CI could not be estimated using the Kaplan-Meier method. The upper bound of the confidence interval is 'not reached' due to an insufficient number of overall survival events. The Kaplan-Meier method requires a minimum number of events to estimate this value reliably. The study was terminated before enough events had occurred, and the calculation could not be performed based on the data available at the time of study closure."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "PFS on Study Treatment Compared to PFS on Prior Line of Therapy (Pre-PFS)",
+          "description": "Time from allocation to the first occurrence of disease progression, as determined locally by the investigator through the use of RECIST v.1.1, or death from any cause, whichever occurs first compared to PFS on prior line of therapy.\n\nPre-PFS only applies to patients whose received have previous treatment for metastatic disease. The average of the Pre-PFS/PFS ratios will be calculated.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Ratio",
+          "timeFrame": "From the date of randomization to disease progression, death, unacceptable toxicity, consent withdrawal, or study termination, whichever occurred first, assessed for up to 33 months.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "18"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.10",
+                      "spread": "0.64"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Incidence, Duration and Severity of Adverse Events (AEs) of the Combination of Pembrolizumab With Paclitaxel",
+          "description": "Incidence, duration and severity of AEs assessed by the NCI Common Terminology for Classification of Adverse Events (CTCAE) version 5,",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Toxicities were assessed during the whole treatment period (from baseline until 90 days after a patients' final treatment, up to 35 months).",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Patients with TRAEs",
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 3 TRAEs",
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Grade 4-5 TRAEs",
+              "categories": [
+                {
+                  "title": "Yes",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "No",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "20"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Patients With Dose Interruptions, Reductions, Delays and Treatment Discontinuation of the Combination of Pembrolizumab With Paclitaxel",
+          "description": "Quantification of dose interruptions, reductions, dose intensity, delays and treatment discontinuation will be recorded in the electronic case report form (eCRF)",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Tolerability will be assessed during the whole treatment period (from baseline until patients' final treatment which is defined as the end of the Treatment Phase of the study, up to 34 months).",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab + Paclitaxel",
+              "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Discontinuations due disease progression",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Discontinuations Due to Adverse Events",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Treatment-emergent adverse events (TEAEs) were events occurring after first study drug administration, absent at baseline or worsened by treatment. Deaths and serious adverse events (SAEs) were recorded from treatment start until 90 days post-final dose or 30 days post-treatment if new anti-cancer therapy began. Non-fatal adverse events (AEs) were recorded until 30 days post-treatment or until new therapy started, whichever came first. Data was collected for up to 35 months.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Pembrolizumab + Paclitaxel",
+          "description": "Pembrolizumab 200 mg every 3 weeks (on D1 of each 21-day cycle, beginning in Cycle 1) in combination with paclitaxel 80 mg/m2 administered at days 1, 8, 15 of each 21-day cycle beginning at cycle 2.\n\nPembrolizumab: Pembrolizumab 200 mg will be administered as 30 minutes IV infusion every 3 weeks beginning in Cycle 1\n\nPaclitaxel: Paclitaxel will be administered at the 80 mg/m2 dose via 1-hour IV infusion on Days 1, 8, and 15 of every 21-day cycle (beginning in Cycle 2). On days of scheduled infusions of pembrolizumab and paclitaxel (i.e., Day 1 of every cycle), paclitaxel is to be administered after infusion of pembrolizumab",
+          "deathsNumAffected": 12,
+          "deathsNumAtRisk": 20,
+          "seriousNumAffected": 7,
+          "seriousNumAtRisk": 20,
+          "otherNumAffected": 20,
+          "otherNumAtRisk": 20
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Gastritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary tumour thrombotic microangiopathy",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Adrenal insufficiency",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hepatitis",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Lymphopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "osinophilia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Leukopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Thrombocytopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Diarrhoea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "8",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Haemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "dysphagia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Inguinal hernia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Rectal haemorrhage",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Neurotoxicity",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "neuropathy peripheral",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Paraesthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Polyneuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Ataxia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Dystonia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Neuralgia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Oedema",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Mucosal dryness",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Erythema",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Onycholysis",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Nail dystrophy",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "nail pigmentation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Onychalgia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Skin toxicity",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Limb discomfort",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Muscle spasms",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Muscular weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Periarthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Rotator cuff syndrome",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Sacral pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "transaminases increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood cholesterol increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood triglycerides increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood magnesium decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Bilirubin conjugated increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood albumin decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood bilirubin increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood calcium decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood lactate dehydrogenase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Blood thyroid stimulating hormone increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Gamma-glutamyltransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Tri-iodothyronine decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Cystitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Device related infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "gingivitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Herpes zoster",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Lymphangitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Nasopharyngitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Oral herpes",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Systemic candida",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Viral infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hypothyroidism",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hyperthyroidism",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Decreased appetite",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Diabetes mellitus",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hypercalcaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hypercholesterolaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hypomagnesaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Weight loss poor",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "dyspnoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Aphonia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Rhinorrhoea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Lymphoedema",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Diastolic hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hot flush",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Infusion related reaction",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Immunisation reaction",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Limb injury",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Dry eye",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Visual acuity reduced",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Dysuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Renal impairment",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Breast pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Breast ulceration",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        },
+        {
+          "term": "Tumour pain",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "MedDRA (26.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 20
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Although the study fulfilled the criteria for Stage II, enrollment was prematurely discontinued due to financial constraints and a limited supply of pembrolizumab."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Sara Cano",
+        "organization": "SOLTI",
+        "email": "info@gruposolti.org",
+        "phone": "34 664 449 862"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-05-10",
+          "uploadDate": "2025-04-24T03:18",
+          "filename": "Prot_000.pdf",
+          "size": 3110367
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2021-09-07",
+          "uploadDate": "2025-04-24T03:19",
+          "filename": "SAP_001.pdf",
+          "size": 1640664
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C582435",
+          "term": "pembrolizumab"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

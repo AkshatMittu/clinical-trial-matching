@@ -1,0 +1,2021 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03366844",
+      "orgStudyIdInfo": {
+        "id": "IIT2017-07-HO-PembroRT"
+      },
+      "organization": {
+        "fullName": "Cedars-Sinai Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Breast Cancer Study of Preoperative Pembrolizumab + Radiation",
+      "officialTitle": "Preoperative Combination of Pembrolizumab and Radiation Therapy in Patients With Operable Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "startDateStruct": {
+        "date": "2017-12-22",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2030-12-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-11-25",
+      "studyFirstSubmitQcDate": "2017-12-04",
+      "studyFirstPostDateStruct": {
+        "date": "2017-12-08",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-02-23",
+      "resultsFirstSubmitQcDate": "2023-04-06",
+      "resultsFirstPostDateStruct": {
+        "date": "2023-04-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Stephen Shiao",
+        "investigatorTitle": "Associate Professor of Radiation Oncology and Medicine",
+        "investigatorAffiliation": "Cedars-Sinai Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Stephen Shiao",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "United States Department of Defense",
+          "class": "FED"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is being done to assess the feasibility of pembrolizumab (study drug) combined with standard radiation to the tumor (tumor boost) before patients undergo standard treatment that can consist of one or more of the following: breast-conserving surgery, radiation to the entire breast/chest wall after surgery, and chemotherapy.\n\nStudy participants will receive two doses of the study drug intravenously (through the vein) before their planned breast surgery or chemotherapy. The study drug will be administered three weeks apart. At the time of the second dose, radiation to the tumor in the affected breast will be given. This type of radiation treatment is called a \"tumor boost\", which is a standard part of radiation therapy for breast cancer that may occur either before or after planned breast-conserving surgery. Patients will receive breast surgery or begin chemotherapy approximately six weeks after your first dose of the study drug.",
+      "detailedDescription": "With more than 1 million new cases diagnosed yearly worldwide, breast cancer is a global public health burden. Over the past decade, molecular subtyping of breast cancer has identified intrinsic subtypes that may be at enhanced risk for both local and distant recurrence. This study focuses on the immunogenicity of high-risk breast cancer subtypes that are likely to display a dense lymphocytic infiltration including including TNBC and HR+/HER2- tumors.\n\nImmune build up via immune co-stimulatory molecules permits the ensuing immune response to strengthen and destroy cancer systemically. Thus, the effect of the anti-tumor immune response initiated by the radiation to an intact tumor by combination with checkpoint blockade is increased.\n\nPembrolizumab is an optimal immunotherapy agent to study, as this agent has recently been FDA approved for use in multiple tumor types. It is therefore ready to be tested for efficacy in other disease sites and in combination with other treatments."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "invasive adenocarcinoma of the breast",
+        "ER-positive and HER2-negative breast cancer",
+        "Triple negative breast cancer (TNBC)",
+        "immunotherapy",
+        "checkpoint inhibitor",
+        "HR-positive"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Single Arm with Two Cohorts\n\n1. Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm\n2. Cohort 2: TNBC patients with primary tumors measuring at least 2cm",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 66,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pembrolizumab with RT Boost",
+          "type": "EXPERIMENTAL",
+          "description": "Study drug plus \"tumor boost\" before standard of care treatment",
+          "interventionNames": [
+            "Drug: Pembrolizumab",
+            "Radiation: RT Boost"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "checkpoint inhibitor",
+          "armGroupLabels": [
+            "Pembrolizumab with RT Boost"
+          ],
+          "otherNames": [
+            "Keytruda",
+            "MK-3475"
+          ]
+        },
+        {
+          "type": "RADIATION",
+          "name": "RT Boost",
+          "description": "The second dose of pembrolizumab will be given in conjunction with an RT boost, consisting of 8 Gy for 3 fractions.",
+          "armGroupLabels": [
+            "Pembrolizumab with RT Boost"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Patients Who do Not Necessitate a Delay in Standard of Care Treatment After Receiving the Investigational Combination of Preoperative Pembrolizumab and Radiation",
+          "description": "Feasibility of preoperative radiation and Pembrolizumab in newly diagnosed, non-metastatic patients with triple negative breast cancer.",
+          "timeFrame": "8 weeks after trial initiation"
+        },
+        {
+          "measure": "Changes in Tumor Infiltrating Lymphocyte Score (TILs)",
+          "description": "An increase in the tumor-infiltrating lymphocyte score (TILs) as measured by Salgado criteria. An increase in TILs is an indicator of immune system engagement (range is 0-100 in percent), therefore increase indicates better outcome. A lead in with pembrolizumab alone followed by the combination of pembrolizumab with RT will allow for serial assessment of TILs. This will establish the contribution of RT to the immune response generated by pembrolizumab. The working group's consensus for Salgado criteria is that TILs may provide more biological relevant information when scored as a continuous variable. The percentage of stromal TILs is a semi quantitative parameter for this assessment (0%-100%). No formal recommendation for a clinically relevant TIL threshold(s) can be given at this stage. The consensus was that a valid methodology is currently more important than issues of thresholds for clinical use, which will be determined once a solid methodology is in place.",
+          "timeFrame": "8 weeks after trial initiation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pembrolizumab-related Adverse Events",
+          "description": "Treatment toxicities. Number of AEs attributed to Pembrolizumab (considered at least possibly related, probably related, or related).",
+          "timeFrame": "15 weeks after trial initiation"
+        },
+        {
+          "measure": "Immune-related Adverse Events",
+          "description": "Treatment toxicities. Number of immune-related AEs (irAEs).",
+          "timeFrame": "Assessed up to one year post-treatment"
+        },
+        {
+          "measure": "Invasive Disease-free Survival After Preoperative Radiation and Pembrolizumab",
+          "description": "Disease-free survival, as described from time from occurrence of surgery to time from first recurrence from or death from breast cancer",
+          "timeFrame": "From treatment start date until date of documented recurrence or death from breast cancer, assessed up to 19 weeks after start of treatment"
+        },
+        {
+          "measure": "Pathological Complete Response Rate",
+          "description": "Absence of invasive disease in the breast and lymph nodes at the time of curative-intent surgery.",
+          "timeFrame": "From treatment start date until the time of curative-intent surgery, approximately 8 weeks."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed histologic diagnosis of invasive adenocarcinoma of the breast, and\n* ER, PR and HER2 testing (on outside or Cedars-Sinai biopsy report), and\n\n  * High-risk, ER-positive and HER2-negative breast cancer patients. ER-positive disease is defined as ER\\>10%, any PR and HER2-negative by ASCO CAP guidelines. High-risk disease will be defined by the presence of at least 2 of the following 3 criteria: histologic grade II-III, Ki-67 \\> 20%, ER expression \\< 75% by IHC)\n  * TNBC patients (defined as ER\\<10%, PR\\<10%, HER2-neu 0-1+ by IHC or FISH-negative; or as per MD discretion)\n* Operable tumor measuring \u22652 cm in maximal diameter as measured by any available standard of care imaging (mammogram, breast ultrasound, breast MRI)\n* Any nodal status\n* Multifocal disease is permitted; largest focus must measure \u22652 cm\n* Synchronous bilateral invasive breast cancer is permitted\n* No indication of distant metastases\n* Breast-conserving therapy is planned\n* Tumor amenable to preoperative radiation therapy boost as determined by radiation oncologist\n* ECOG performance status score of 0 or 1\n* Screening laboratory values must meet the following criteria:\n\n  i. White blood cells (WBCs) \u2265 2000/\u03bcL ii. Absolute neutrophil count (ANC) \u2265 1500/\u03bcL iii. Platelets \u2265 100 x 103/\u03bcL iv. Hemoglobin \u2265 11.0 g/dL v. Serum creatinine \u2264 2 mg/dL (or glomerular filtration rate \u2265 40 ml/min) vi. AST \u2264 2.5 x upper limit of normal (ULN) vii. ALT \u2264 2.5 x ULN viii. Total bilirubin within normal limits (except subjects with Gilbert's syndrome, who must have total bilirubin \\< 3.0 mg/dL) ix. INR \u2264 1.5 x ULN unless participant is receiving anticoagulant therapy as long as PT or aPTT is within therapeutic range of intended use of anticoagulant(s) x. Negative HIV screening test xi. Negative screening tests for Hepatitis B and Hepatitis C. Patients with positive results that do not indicate true active or chronic infection may enroll after discussion and consensus agreement by the treating physician and principal investigator.\n* Women of childbearing potential (WOCBP) must be using an acceptable method of contraception to avoid pregnancy throughout the study and for at least 4 months after the last dose of pembrolizumab in such a manner that the risk of pregnancy is minimized.\n* WOCBP must have a negative serum pregnancy test within 14 days prior to the first dose of pembrolizumab.\n* Women must not be breastfeeding.\n* Willingness to adhere to the study visit schedule and the prohibitions and restrictions specified in this protocol.\n* Willingness to undergo mandatory Week 4 research biopsy\n* Written informed consent obtained from subject and ability for subject to comply with the requirements of the study.\n\nExclusion Criteria:\n\n* HER2-positive breast cancer defined as IHC3+ or IHC2+ with FISH\\>2 AND copy number \\>4 OR FISH \\<2 AND copy number \\>6\n* Inflammatory breast cancer\n* Contraindication(s) to breast-conserving therapy\n* Contraindication to radiation therapy or planned partial breast irradiation\n* Patients with cosmetic breast augmentations, specifically sub glandular implants with altered breast tissue, at the time of diagnosis\n* Evidence of metastatic disease.\n* Diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to the first dose of study drug.\n* Known additional malignancy that is progressing or has required active treatment within the past 3 years. Note: Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin, or carcinoma in situ (e.g. breast carcinoma, cervical cancer in situ) that have undergone potentially curative therapy are not excluded.\n* Medical history and concurrent diseases\n\n  * Active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.\n  * History of (non-infectious) pneumonitis that required steroids or has current pneumonitis.\n  * Active infection requiring systemic therapy.\n  * Any serious or uncontrolled medical disorder that, in the opinion of the investigator, may increase the risk associated with study participation or study drug administration, impair the ability of the subject to receive protocol therapy, or interfere with the interpretation of study results.\n  * Known history of Human Immunodeficiency Virus (HIV) (HIV 1/2 antibodies).\n  * Known history of Hepatitis B (e.g., HBsAg reactive) or known active Hepatitis C (e.g., HCV RNA \\[qualitative\\] is detected).\n* Prohibited Treatments and/or Therapies\n\n  * Chronic use of immunosuppressants and/or systemic corticosteroids (used in the management of cancer or non-cancer-related illnesses). However, use of corticosteroids is allowed for the treatment of immune related Adverse Events (irAEs), or adrenal insufficiency.\n  * Live vaccines within 30 days prior to the first dose of study treatment and while participating in the study. Examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, varicella/zoster, yellow fever, rabies, BCG, and typhoid vaccine. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (eg, FluMist\u00ae) are live attenuated vaccines and are not allowed.\n  * Prior treatment with an anti-PD-1, anti-PD-L1, or anti PD L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (eg, CTLA-4, OX 40, CD137)\n  * Prior systemic anti-cancer therapy including investigational agents within 4 weeks prior to study start. Note: Participants must have recovered from all AEs due to previous therapies to \u2264Grade 1 or baseline. Participants with \u2264Grade 2 neuropathy may be eligible. Note: If participant received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting study treatment.\n  * Prior radiotherapy within 2 weeks of start of study treatment to sites outside the breast. Participants must have recovered from all radiation-related toxicities, not require corticosteroids, and not have had radiation pneumonitis.\n  * Currently participating in or has participated in a study of an investigational agent or has used an investigational device within 4 weeks prior to the first dose of study treatment. Note: Participants who have entered the follow-up phase of an investigational study may participate as long as it has been 4 weeks after the last dose of the previous investigational agent.\n* For subjects who agree to the research breast MRI sub-study: Four or more previous gadolinium contrast scans due to the risk of brain deposits following repeated use of gadolinium-based contrast agents.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Stephen Shiao, MD, PHD",
+          "affiliation": "Cedars-Sinai Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39298718",
+          "type": "DERIVED",
+          "citation": "Ho AY, Shiao S, Kobald SA, Chen J, Duda DG, Ly A, Bossuyt V, Cho HL, Arnold B, Knott S, Gupta GP, McAndrew P, Karlan S, Tighiouart M, Muzikansky A, Basho R, McArthur H. PEARL: A Phase Ib/II Biomarker Study of Adding Radiation Therapy to Pembrolizumab Before Neoadjuvant Chemotherapy in Human Epidermal Growth Factor Receptor 2-Negative Breast Cancer. J Clin Oncol. 2024 Dec 20;42(36):4282-4293. doi: 10.1200/JCO.24.00003. Epub 2024 Sep 19."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "The trial opened to accrual on 12/14/2017 with first subject enrolled on study 12/22/2017. A total of 85 patients consented, 10 subjects failed screening, 10 withdrew consent prior to starting study intervention and were replaced. 66 subjects completed study intervention but 6 were deemed unevaluable. Total target accrual of 60 subjects was met with the last subject off treatment as of 01/26/2022. Last data collection for all primary endpoints confirmed on February 6, 2025.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Pembrolizumab With RT Boost",
+          "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "66"
+                }
+              ]
+            },
+            {
+              "type": "Phase 1b",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Phase 1b began with 10 TNBC subjects enrolled.",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "Phase II",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "Phase II proceeded with 50 subjects enrolled into the TNBC Cohort and 10 subjects into the HR+ Cohort.",
+                  "numSubjects": "50"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "60"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "6"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Unevaluable for co-primary endpoint (did not complete all required biopsies)",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Pembrolizumab With RT Boost",
+          "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "60"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "53",
+                      "lowerLimit": "31",
+                      "upperLimit": "93"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "53",
+                      "spread": "14"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "50"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "42"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "60"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Patients Who do Not Necessitate a Delay in Standard of Care Treatment After Receiving the Investigational Combination of Preoperative Pembrolizumab and Radiation",
+          "description": "Feasibility of preoperative radiation and Pembrolizumab in newly diagnosed, non-metastatic patients with triple negative breast cancer.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "8 weeks after trial initiation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab With RT Boost",
+              "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "OTHER",
+              "paramType": "Proportion",
+              "paramValue": "0.60",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.465",
+              "ciUpperLimit": "0.724",
+              "estimateComment": "95% confidence interval for one proportion were estimated using the Exact (Clopper-Pearson) method."
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Changes in Tumor Infiltrating Lymphocyte Score (TILs)",
+          "description": "An increase in the tumor-infiltrating lymphocyte score (TILs) as measured by Salgado criteria. An increase in TILs is an indicator of immune system engagement (range is 0-100 in percent), therefore increase indicates better outcome. A lead in with pembrolizumab alone followed by the combination of pembrolizumab with RT will allow for serial assessment of TILs. This will establish the contribution of RT to the immune response generated by pembrolizumab. The working group's consensus for Salgado criteria is that TILs may provide more biological relevant information when scored as a continuous variable. The percentage of stromal TILs is a semi quantitative parameter for this assessment (0%-100%). No formal recommendation for a clinically relevant TIL threshold(s) can be given at this stage. The consensus was that a valid methodology is currently more important than issues of thresholds for clinical use, which will be determined once a solid methodology is in place.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "score on a scale",
+          "timeFrame": "8 weeks after trial initiation",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PembroRT - Cohort: TNBC",
+              "description": "Single Arm with 2 Cohorts: Cohort: TNBC patients with primary tumors measuring at least 2cm. All subjects receive pembrolizumab with an RT boost, consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            },
+            {
+              "id": "OG001",
+              "title": "PembroRT - Cohort: HR+",
+              "description": "Single Arm with 2 Cohorts: Cohort: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm. All subjects receive pembrolizumab with an RT boost, consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "34"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-6.06",
+                      "spread": "29.85"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-0.11",
+                      "spread": "8.68"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pembrolizumab-related Adverse Events",
+          "description": "Treatment toxicities. Number of AEs attributed to Pembrolizumab (considered at least possibly related, probably related, or related).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Adverse Events (AEs)",
+          "timeFrame": "15 weeks after trial initiation",
+          "typeUnitsAnalyzed": "Adverse Events (AEs)",
+          "denomUnitsSelected": "Adverse Events (AEs)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab With RT Boost",
+              "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "60"
+                }
+              ]
+            },
+            {
+              "units": "Adverse Events (AEs)",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "990"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "453"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Immune-related Adverse Events",
+          "description": "Treatment toxicities. Number of immune-related AEs (irAEs).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_UNITS",
+          "unitOfMeasure": "Adverse Eventss (AEs)",
+          "timeFrame": "Assessed up to one year post-treatment",
+          "typeUnitsAnalyzed": "Adverse Eventss (AEs)",
+          "denomUnitsSelected": "Adverse Eventss (AEs)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab With RT Boost",
+              "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "60"
+                }
+              ]
+            },
+            {
+              "units": "Adverse Eventss (AEs)",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "990"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Invasive Disease-free Survival After Preoperative Radiation and Pembrolizumab",
+          "description": "Disease-free survival, as described from time from occurrence of surgery to time from first recurrence from or death from breast cancer",
+          "populationDescription": "Median survival estimates not applicable at this moment due to lack of events.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From treatment start date until date of documented recurrence or death from breast cancer, assessed up to 19 weeks after start of treatment",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Pembrolizumab With RT Boost",
+              "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "60"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "53"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pathological Complete Response Rate",
+          "description": "Absence of invasive disease in the breast and lymph nodes at the time of curative-intent surgery.",
+          "populationDescription": "The analysis population includes patients starting from Phase II so there are a total of 50 evaluable subjects (40 TNBC; 10 HR+).",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From treatment start date until the time of curative-intent surgery, approximately 8 weeks.",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "PembroRT - Cohort: TNBC",
+              "description": "Single Arm with 2 Cohorts: Cohort: TNBC patients with primary tumors measuring at least 2cm. All subjects receive pembrolizumab with an RT boost, consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            },
+            {
+              "id": "OG001",
+              "title": "PembroRT - Cohort: HR+",
+              "description": "Single Arm with 2 Cohorts: Cohort: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm. All subjects receive pembrolizumab with an RT boost, consisting of 8 Gy for 3 fractions, before standard of care treatment."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "40"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "From week 1 until week 19 for all AEs, and immune-related AEs (irAEs) up until 1 year post treatment, up to 14 months.",
+      "description": "From week 1 until week 19 for all AEs, and immune-related AEs (irAEs) up until 1 year post treatment, up to 14 months.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Pembrolizumab With RT Boost",
+          "description": "Single Arm with 2 Cohorts: Cohort 1: High-risk, ER-positive and HER2-negative breast cancer patients with primary tumors measuring at least 2cm; Cohort 2: TNBC patients with primary tumors measuring at least 2cm. All subjects receive study intervention: pembrolizumab (checkpoint inhibitor) with the second dose of pembrolizumab given in conjunction with an RT boost (\"tumor boost\"), consisting of 8 Gy for 3 fractions, before standard of care treatment.",
+          "deathsNumAffected": 6,
+          "deathsNumAtRisk": 60,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 60,
+          "otherNumAffected": 49,
+          "otherNumAtRisk": 60
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Adrenal insufficiency",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Hypotension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Lung infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Pneumonitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Sepsis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Syncope",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 60
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 73,
+              "numAffected": 49,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 64,
+              "numAffected": 49,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 41,
+              "numAffected": 29,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 28,
+              "numAffected": 26,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Peripheral sensory neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 26,
+              "numAffected": 26,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 26,
+              "numAffected": 24,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 29,
+              "numAffected": 24,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 23,
+              "numAffected": 20,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 17,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 16,
+              "numAffected": 15,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 16,
+              "numAffected": 14,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 14,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 15,
+              "numAffected": 13,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 13,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 14,
+              "numAffected": 11,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 12,
+              "numAffected": 11,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 11,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 10,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Anemia Hemoglobin (Hgb)",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 9,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Breast pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 9,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 9,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 9,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 8,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 8,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 8,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Bruising",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 7,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Gastroesophageal reflux",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Other",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 7,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Paresthesia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 6,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 6,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Other",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 6,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Flu like symptoms",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Hemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Nasal congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Other",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Postnasal drip",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dry mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Edema limbs",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Erythema multiforme",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Flatulence",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Hypothyroidism",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Localized edema",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Other",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Other",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "notes": "Other",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Rash acneiform",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        },
+        {
+          "term": "Sore throat",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 60
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "limitationsAndCaveats": {
+        "description": "Co-primary outcome for change in TILs is incomplete at the time of this results submission, as some TILs data not currently available. Current results for this outcome measure is reported according to current available data. Additional data may be reported at a later date."
+      },
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Stephen Shiao, MD, PhD",
+        "organization": "Cedars-Sinai Medical Center",
+        "email": "Stephen.Shiao@cshs.org",
+        "phone": "310-423-2836"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2020-12-15",
+          "uploadDate": "2023-02-13T13:56",
+          "filename": "Prot_SAP_002.pdf",
+          "size": 1015007
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2021-01-22",
+          "uploadDate": "2021-03-29T14:18",
+          "filename": "ICF_001.pdf",
+          "size": 231981
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2023-03-21",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C582435",
+          "term": "pembrolizumab"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

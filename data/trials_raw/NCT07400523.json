@@ -1,0 +1,356 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07400523",
+      "orgStudyIdInfo": {
+        "id": "SYSKY-2026-047"
+      },
+      "organization": {
+        "fullName": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Ribociclib in Hormone Receptor-positive, HER2-negative Early Breast Cancer With Residual Disease After Neoadjuvant Chemotherapy",
+      "officialTitle": "Ribociclib Plus Aromatase Inhibitor Versus Aromatase Inhibitor Alone in Hormone Receptor-positive, HER2-negative Early Breast Cancer With Residual Disease After Neoadjuvant Chemotherapy: an Open-label, Multicenter, Randomized, Phase III Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-02-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-02-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-02-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-02-03",
+      "studyFirstSubmitQcDate": "2026-02-03",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-27",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-28",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Chang Gong",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University"
+      },
+      "leadSponsor": {
+        "name": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a multi-center, open-lable, prospective, randomized phase III clinical trial to investigate the efficacy and safety of adjuvant ribociclib combined with aromatase inhibitor in hormone receptor-positive, HER2-negative early breast cancer with residual disease after neoadjuvant chemotherapy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 446,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ribociclib plus aromatase inhibitor",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ribociclib plus aromatase inhibitor"
+          ]
+        },
+        {
+          "label": "Aromatase inhibitor",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Aromatase inhibitor"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ribociclib plus aromatase inhibitor",
+          "description": "Ribociclib (oral 600 mg once daily for 3 weeks on, 1 week off) plus daily aromatase inhibitor (letrozole oral 2\u00b75 mg/day, anastrozole oral 1 mg/day, or exemestane oral 5 mg/day)",
+          "armGroupLabels": [
+            "Ribociclib plus aromatase inhibitor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aromatase inhibitor",
+          "description": "Daily aromatase inhibitor (letrozole oral 2\u00b75 mg/day, anastrozole oral 1 mg/day, or exemestane oral 5 mg/day)",
+          "armGroupLabels": [
+            "Aromatase inhibitor"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "3-year invasive disease-free survival",
+          "description": "The time from random assignment until the presence of invasive ipsilateral breast tumor recurrence, local-regional invasive recurrence, distant recurrence, invasive contralateral breast cancer, second primary invasive cancer (non-breast), or any-cause death assessed by the investigator",
+          "timeFrame": "during the 3 years after random assignment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "3-year recurrence-free survival",
+          "description": "The time from random assignment until the presence of invasive ipsilateral breast tumor recurrence, local-regional invasive recurrence, distant recurrence, or any-cause death assessed by the investigator",
+          "timeFrame": "during the 3 years after random assignment"
+        },
+        {
+          "measure": "3-year distant disease-free survival",
+          "description": "The time from random assignment until the presence of distant recurrence, second primary invasive cancer (non-breast), or any-cause death assessed by the investigator",
+          "timeFrame": "during the 3 years after random assignment"
+        },
+        {
+          "measure": "3-year overall survival",
+          "description": "The time from random assignment until any-cause death assessed by the investigator",
+          "timeFrame": "during the 3 years after random assignment"
+        },
+        {
+          "measure": "Health-related quality of life 1",
+          "description": "The score of European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Core-30 (QLQ-C30)",
+          "timeFrame": "within 7 days before the first treatment and the end of each cycle (each cycle is 28 days)"
+        },
+        {
+          "measure": "Health-related quality of life 2",
+          "description": "The score of European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Breast Cancer-Specific Module (QLQ-BR42)",
+          "timeFrame": "within 7 days before the first treatment and the end of each cycle (each cycle is 28 days)"
+        },
+        {
+          "measure": "Safety (adverse events)",
+          "description": "Safety will be assessed according to the National Cancer Institute Common Terminology Criteria for Adverse Events (version 5.0)",
+          "timeFrame": "from signing the informed consent form until 28 days after completion of study treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willingness for study participation with written informed consent\n* Female with age at least 18 years\n* Histologically confirmed unilateral or bilateral primary invasive breast cancer\n* Residual invasive disease post-neoadjuvant either in the breast or as residual nodal invasion\n* Histologically confirmed hormone receptor-positive (\u22651% ER and/or PR positive stained cells) and HER2-negative (IHC 2+ with FISH-negative or IHC 0-1+) assessed preferably on core biopsy of the breast or tissue from post-neoadjuvant residual invasive disease, or if no other tissue is available the residual tumor of the lymph node can be assessed. In case of bilateral breast cancer, tumor tissue of both sides needs to be assessable\n* Histologically confirmed Ki67 expression assessed preferably on core biopsy or post-neoadjuvant residual invasive disease of the breast, or if not possible, of residual nodal invasion. In case of bilateral breast cancer, tumor tissue of both sides needs to be assessable\n* QTc interval \\< 450 msec with mean resting heart rate 50-99 beats/min (determined by ECG)\n* Patients must have received neoadjuvant chemotherapy of at least 18 weeks. This period must include 6 weeks of a taxane-containing neoadjuvant therapy (Exception: For patients with progressive disease that occurred after at least 6 weeks of taxane-containing neoadjuvant treatment, a total treatment period of less than 18 weeks is also eligible)\n* Adequate surgical treatment including resection of all clinically evident disease and ipsilateral axillary lymph node dissection. Histologically complete resection (R0) of the invasive and ductal in situ tumor is required in case of breast conserving surgery as the final treatment. No evidence of gross residual disease (R2) is required after total mastectomy (R1 resection is acceptable). Axillary dissection is not required in patients with a negative sentinel-node biopsy before (pN0, pN+\\[mic\\]) or after (ypN0, ypN+\\[mic\\]) neoadjuvant chemotherapy\n* Less than 16 weeks interval since the date of final surgery or less than 10 weeks from completing radiotherapy (whichever occurs last) at date of randomization\n* Completion of adjuvant radiotherapy according to standard guidelines (e.g. NCCN) is strongly recommended. If radiotherapy is not performed the reason for this needs to be documented in the eCRF\n* No clinical evidence for locoregional or distant relapse during or after preoperative chemotherapy. Local progression during chemotherapy is not an exclusion criterion\n* c/pT3N0; c/pT2N0 with MammaPrint high-risk, G3, G2+Ki67 \u226520%, or lymphovascular invasion\n* Eastern Cooperative Oncology Group performance status 0 or 1\n* Resolution of all acute toxic effects of prior anti-cancer therapy or surgical procedures to NCI CTCAE version 4.0 Grade \u22641 (except alopecia or other toxicities not considered a safety risk for the patient at investigator's discretion)\n* Estimated life expectancy of at least 5 years irrespective of the diagnosis of breast cancer\n* The patient must be accessible for scheduled visits, treatment and follow-up. Patients registered on this trial must be treated at the participating center which could be the Principal or a Co- investigator's site\n\nExclusion Criteria:\n\n* c/pN+\n* Known severe hypersensitivity reactions to compounds similar to ribociclib or to aromatase inhibitor\n* Inadequate organ function immediate prior to randomization including: Hemoglobin \\<10g/dL (100g/L); ANC \\< 2000/mm\u00b3 (\\< 2.0 x 10\\^9/L); Platelets \\<100,000/mm\u00b3 (\\< 100 x 10\\^9/L); AST or ALT \\>1.5 x upper limit of normal (ULN); alkaline phosphatase \\> 2.5 x ULN, total serum bilirubin \\> 1.25 x ULN; serum creatinine \\>1.25 x ULN or estimated creatinine clearance \\< 60 mL/min as calculated using the method standard for the institution; severe and relevant co-morbidity that would interact with the participation in the study\n* Evidence for infection including wound infections, Human Immunodeficiency Virus (HIV) or any type of Hepatitis\n* The cumulative dose of doxorubicin is more than 450mg/m\u00b2 or epirubicin is more than 900mg/m\u00b2\n* Uncontrolled electrolyte disorders (eg, hypocalcemia, hypokalemia, hypomagnesemia)\n* Any of the following within 6 months of randomization: myocardial infarction, severe/unstable angina, ongoing cardiac dysrhythmias of NCI CTCAE version 4.0 Grade \u22652, atrial fibrillation of any grade, coronary/peripheral artery bypass graft, symptomatic congestive heart failure, cerebrovascular accident including transient ischemic attack, or symptomatic pulmonary embolism\n* Active inflammatory bowel disease or chronic diarrhea, short bowel syndrome, or any upper gastrointestinal surgery including gastric resection\n* Prior malignancy (including invasive or ductal in-situ breast cancer) within 5 years prior to randomization, except curatively treated basal cell carcinoma of the skin and carcinoma in situ of the cervix\n* Current severe acute or uncontrolled chronic systemic disease (e.g. diabetes mellitus) or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this study\n* Recent (within the past year) or active suicidal behavior\n* Pregnancy or lactation period. Women of childbearing potential must implement adequate non-hormonal contraceptive measures (barrier methods, intrauterine contraceptive devices, sterilization) during study treatment and for 90 days after discontinuation. A serum pregnancy test must be negative in premenopausal women or women with amenorrhea of less than 12 months\n* Major surgery within 2 weeks prior to randomization\n* 10 weeks or more have passed since completion of radiotherapy at day of randomization and 16 weeks interval since the date of final surgery have passed\n* Prior treatment with any CDK4/6 inhibitor\n* Patients treated within the last 7 days prior to randomization and/or concurrent use of drugs known to be strong CYP3A4 inhibitors or inducers\n* Concurrent treatment with other experimental drugs. Participation in another clinical trial with any investigational not marketed drug within 30 days prior to randomization",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Chang Gong, Professor",
+          "role": "CONTACT",
+          "phone": "86+13925089353",
+          "email": "gchang@mail.sysu.edu.cn"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Affiliated Hospital of Guangdong Medical University",
+          "status": "RECRUITING",
+          "city": "Zhanjiang",
+          "state": "Guangdong",
+          "zip": "524000",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Shengchao Huang",
+              "role": "CONTACT",
+              "phone": "+86 13828223780"
+            }
+          ],
+          "geoPoint": {
+            "lat": 21.23391,
+            "lon": 110.38749
+          }
+        },
+        {
+          "facility": "Sun Yat-sen Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Chang Gong",
+              "role": "CONTACT",
+              "phone": "86+13925089353",
+              "email": "gchang@mail.sysu.edu.cn"
+            }
+          ],
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "the First Affiliated Hospital of Guangzhou Medical University",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Weige Tan",
+              "role": "CONTACT",
+              "phone": "86+2081568636",
+              "email": "tanweige@gzhmu.edu.cn"
+            }
+          ],
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Shantou Central Hospital",
+          "status": "RECRUITING",
+          "city": "Shantou",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Siqi Qiu",
+              "role": "CONTACT",
+              "phone": "86+075488550450",
+              "email": "s_patrick@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 23.35489,
+            "lon": 116.67876
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Individual participant data that underlie the results reported in future research article after de-identification and the study protocol will be shared beginning 3 months and ending 5 years following publication. Proposals should be directed to gchang@mail.sysu.edu.cn and data will be shared by email.",
+      "infoTypes": [
+        "STUDY_PROTOCOL"
+      ],
+      "timeFrame": "beginning 3 months and ending 5 years following publication of future research article",
+      "accessCriteria": "Researchers who provide a methodologically sound proposal, that need to be approved by an approved accredited ethics committee"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D047072",
+          "term": "Aromatase Inhibitors"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D065088",
+          "term": "Steroid Synthesis Inhibitors"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004965",
+          "term": "Estrogen Antagonists"
+        },
+        {
+          "id": "D006727",
+          "term": "Hormone Antagonists"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

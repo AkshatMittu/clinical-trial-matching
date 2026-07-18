@@ -1,0 +1,1038 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01564056",
+      "orgStudyIdInfo": {
+        "id": "GERICO11/PACS10"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2011-004744-22",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "UC-0103/1102",
+          "type": "OTHER",
+          "domain": "UNICANCER"
+        }
+      ],
+      "organization": {
+        "fullName": "UNICANCER",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adjuvant Systemic Treatment for (ER)-Positive HER2-negative Breast Carcinoma in Women Over 70 According to Genomic Grade (GG): Chemotherapy + Endocrine Treatment Versus Endocrine Treatment",
+      "officialTitle": "Adjuvant Systemic Treatment for Oestrogen-receptor (ER)-Positive HER2-negative Breast Carcinoma in Women Over 70 According to Genomic Grade (GG): Chemotherapy + Endocrine Treatment Versus Endocrine Treatment. A French UNICANCER Geriatric Oncology Group (GERICO) and Breast Group (UCBG) Multicentre Phase III Trial",
+      "acronym": "ASTER 70s"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-06",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2012-04-12",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-04-11",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-03",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2012-03-23",
+      "studyFirstSubmitQcDate": "2012-03-23",
+      "studyFirstPostDateStruct": {
+        "date": "2012-03-27",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2025-06-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "UNICANCER",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to evaluate the benefit of adjuvant chemotherapy on overall survival for elderly patients with breast cancer, in a sub group with a high risk of relapse according to Genomic Grade test.",
+      "detailedDescription": "The purpose of this trial is to address the question of the added value of adjuvant chemotherapy on survival in 70+ BC patients with ER+ disease, deemed \"at risk of relapse\" (pN+ or pN0 with a high prognostic classifier, namely GG by RT-PCR) and planned to receive as well adjuvant endocrine treatment. This benefit will be weighed with the competition exerted by comorbidities on mortality.\n\nAs in many recently developed trials evaluating specific strategies for the elderly (e.g. CALGB 49907 (8); bevacizumab and colorectal cancer in the PRODIGE 20 elderly program supported by the PHRC 2010), the choice of chemotherapy regimen will be left to the investigator between 3 \"standard\" ones: TC x 4 (no anthracyclines), AC x 4 or MC x 4 (better cardiac tolerance), in order to obtain enrolment of a less highly selected population, more representative of the general population to the difference of the high selection classically observed in standard oncology trials.\n\nIn parallel, patients not included in the randomized part (whatever reason) and treated with adjuvant endocrine treatment only will be followed up as a separate observational cohort.\n\n1. Screening All women 70+ having undergone surgery for invasive pN0 or pN+, ER+ HER2- BC, will be screened and invited to participate. Pre-selection will be possible pre-operatively.\n2. Prognostic signature After having signed a written informed consent, the prognostic signature Genomic Grade (GG) will be assessed by RT-PCR.\n3. Randomization (Group I) Only the patients with a Genomic Grade (GG) considered as high will be randomized (1:1): endocrine treatment only (Arm A) versus endocrine treatment + adjuvant chemotherapy (Arm B).\n\n   Randomization1:1 between arm A and B will be done using minimization stratified according to pN status (pN+ vs pN0), G8 (\u2264 vs \\> 14), and center.\n\n   Given (i) the high potential of less cardiotoxic regimen including liposomal formulations for anthracyclines or excluding anthracyclines and (ii) the wish to capture the whole population to depict the heterogeneity of ageing from 70, adjuvant chemotherapy (Arm B) will be left to the choice of investigator amongst 3 standard regimen of same duration, 4 cycles given every 3 weeks + primary prophylactic GCSF:\n   * AC = doxorubicin 60 mg/m\u00b2 + cyclophosphamide 600 mg/m\u00b2\n   * TC = docetaxel 75 mg/m\u00b2 + cyclophosphamide 600 mg/m\u00b2\n   * MC = liposomal non pegylated doxorubicin (Myocet) 60 mg/m\u00b2 + cyclophosphamide 600 mg/m\u00b2\n4. Patients not randomized (Group II) Patients not randomized for any reason (low GG, randomization refusal or treatment refusal, etc.) will enter a surveillance program and will be able to participate to other specific geriatric studies (GERICO project to evaluate the impact of comprehensive geriatric assessment on quality of life, treatment administered and BC survival after 75 years; EORTC study to validate the scale specifically developed for elderly ELD15).\n\n   The Group II will present a triple interest and will participate, together with randomized patients, to achieve the following objectives:\n   * validation of the prognostic value of Genomic Grade and performance of the test in the elderly BC population, as compared to standardized routine histopathological parameters,\n   * translational studies to identify molecular signatures,\n   * collection of descriptive data including comorbidities and polymedication.\n5. Endocrine treatment and radiotherapy In both Groups (I and II), the endocrine treatment will be left to the choice of the investigator (tamoxifen, aromatase inhibitor or sequential) and radiotherapy will follow standard guidelines."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Adjuvant systemic treatment",
+        "Breast cancer",
+        "Elderly patients"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1989,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A: ENDOCRINE TREATMENT",
+          "type": "OTHER",
+          "description": "HORMONOTHERAPY (Tamoxifen, aromatase inhibitor or sequential hormonotherapy) is left to the investigator judgement in both groups (I and II).",
+          "interventionNames": [
+            "Drug: HORMONOTHERAPY"
+          ]
+        },
+        {
+          "label": "Arm B: CHEMOTHERAPY + ENDOCRINE TREATMENT",
+          "type": "EXPERIMENTAL",
+          "description": "HORMONOTHERAPY (Tamoxifen, aromatase inhibitor or sequential hormonotherapy) is left to the investigator judgement in both groups (I and II).\n\nCHEMOTHERAPY regimen will be chosen amongst the following ones:\n\n* TC (docetaxel + cyclophosphamide)\n* AC (doxorubicin + cyclophosphamide)\n* MC (liposomal non pegylated doxorubicin \\[Myocet\u00ae\\]+ cyclophosphamide)",
+          "interventionNames": [
+            "Drug: CHEMOTHERAPY then HORMONOTHERAPY"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "HORMONOTHERAPY",
+          "description": "Hormonotherapy will be administered during 5 years following chemotherapy when allocated.\n\n(Tamoxifen, aromatase inhibitor or sequential hormonotherapy) is left to the investigator judgement in both groups (I and II).",
+          "armGroupLabels": [
+            "Arm A: ENDOCRINE TREATMENT"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "CHEMOTHERAPY then HORMONOTHERAPY",
+          "description": "CHEMOTHERAPY regimen will be chosen amongst the following ones:\n\ni) 4 cycles of TC (docetaxel + cyclophosphamide)\n\n* Docetaxel 75 mg/m\u00b2 IV infusion at hospital every 21 days\n* Cyclophosphamide 600 mg/m\u00b2 IV infusion at hospital every 21 days\n\nii) 4 cycles of AC (doxorubicin + cyclophosphamide)\n\n* Doxorubicin 60 mg/m\u00b2 IV infusion at hospital every 21 days\n* Cyclophosphamide 600 mg/m\u00b2 IV infusion at hospital every 21 days\n\niii) 4 cycles of MC (liposomal non pegylated doxorubicin \\[Myocet\u00ae\\]+ cyclophosphamide)\n\n* Myocet\u00ae 60 mg/m\u00b2 IV infusion at hospital every 21 days\n* Cyclophosphamide 600 mg/m\u00b2 IV infusion at hospital every 21 days\n\nHORMONOTHERAPY (Tamoxifen, aromatase inhibitor or sequential hormonotherapy) is left to the investigator judgement in both groups (I and II).",
+          "armGroupLabels": [
+            "Arm B: CHEMOTHERAPY + ENDOCRINE TREATMENT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Overall survival",
+          "description": "The OS is defined as the interval between the date of randomization and the date of death from any cause.",
+          "timeFrame": "Median follow-up = 4 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Specific overall survival",
+          "description": "The specific OS is defined as the interval between the date of randomization and the date of death due to cancer. Alive patients or dead patients from another cause will be censored at the last follow-up",
+          "timeFrame": "median follow-up = 4 years"
+        },
+        {
+          "measure": "Disease-free survival (DFS)",
+          "description": "The DFS is defined as the interval between the date of randomization and the date of breast cancer relapse (local, regional or distant) or the date of invasive contralateral breast cancer or death from any cause, whichever occurs first.",
+          "timeFrame": "median follow-up = 4 years"
+        },
+        {
+          "measure": "Event-free survival (ESF)",
+          "description": "The EFS is defined as the interval between the date of randomization and the date of breast cancer relapse (local, regional or distant) or the date of invasive contralateral breast cancer or the date of second neoplasia, or the date of death from any cause, whichever occurs first.",
+          "timeFrame": "median follow-up = 4 years"
+        },
+        {
+          "measure": "Acute and late toxicity during the study",
+          "description": "The National Cancer Institute-Common Terminology Criteria for Adverse Events version 4.0 (NCI-CTCAE v4.0) is widely accepted in the community of oncology research as the leading rating scale for adverse events. This scale, divided into 5 grades (1 = \"mild\", 2 = \"moderate\", 3 = \"severe\", 4 = \"life-threatening\", and 5 = \"death\") determined by the investigator, will make it possible to assess the severity of the disorders.",
+          "timeFrame": "Throughout treatment completion, up to 4 years"
+        },
+        {
+          "measure": "Geriatric Assessment",
+          "description": "the geriatric questionnaires (CCI \\& listing comedications, G8, IADL or MMSE) will be completed by a geriatrician or a person trained to geriatric assessment before randomization, at the end of the chemotherapy in arm B or 16 weeks after the randomization in arm A (endocrine treatment only), and then each year during a 4-year follow-up period, for both arms.",
+          "timeFrame": "at the end of the chemotherapy in arm B or 16 weeks after the randomization in arm A (endocrine treatment only), and then each year during a 4-year follow-up period, for both arms"
+        },
+        {
+          "measure": "Four-Year Mortality Index for Older Adults(Lee Score)",
+          "description": "A 4-year mortality score including items depicting functional status, nutritional status and comorbidities, three key issues in elderly, will be systematically calculated.",
+          "timeFrame": "At the inclusion"
+        },
+        {
+          "measure": "Quality of life questionnaire - Core 30 (QLQ-C30)",
+          "description": "Developed by the EORTC, this self-reported questionnaire assesses the health-related quality of life of cancer patients in clinical trials.\n\nThe questionnaire includes five functional scales (physical, everyday activity, cognitive, emotional, and social), three symptom scales (fatigue, pain, nausea and vomiting), a health/quality of life overall scale, and a number of additional elements assessing common symptoms (including dyspnea, loss of appetite, insomnia, constipation, and diarrhea), as well as, the perceived financial impact of the disease.\n\nAll of the scales and single-item measures range in score from 0 to 100. A high scale score represents a higher response level.",
+          "timeFrame": "At baseline, week 16, 5 months, 6 months, 1 year, 2 years, 3 years, and 4 years"
+        },
+        {
+          "measure": "Quality of life questionnaire - Elderly cancer patients (QLQ-ELD15)",
+          "description": "The EORTC QLQ-ELD15, a validated HRQOL questionnaire for cancer patients aged greater than or equal to 70 years, is intended to supplement the QLQ-C30.\n\nThe QLQ-ELD15 contains 15 items incorporating five scales to assess mobility, family support, worries about future, autonomy and maintaining purpose, and burden of illness. All items are rated on a four-point Likert-type scale (1 = \"not at all\", 2 = \"a little\", 3 = \"quite a bit\", and 4 = \"very much\"), and are linearly transformed to a 0-100 scale. High scores indicate poor mobility, good family support, less worried about the future, poor autonomy and maintaining purpose, and high burden of illness.",
+          "timeFrame": "At baseline, week 16, 5 months, 6 months, 1 year, 2 years, 3 years, and 4 years"
+        },
+        {
+          "measure": "Usefulness of GG by RT-PCR",
+          "description": "The prognostic signature of the GG test will be evaluated in an elderly population by comparison to standardized routine histopathological criteria and to the results obtained in the general non elderly population. In the whole cohort (n=2000) results of the GG will be compared to routine histopathological characteristics (pN, histological grade, mitotic count, Ki67 index, determination of Elston and Ellis histological grade) as determined locally or centrally for assessment of patient prognosis.",
+          "timeFrame": "two weeks after surgery (local histo. and GG test) then after inclusions are performed (central histo.)"
+        },
+        {
+          "measure": "Cost-effectiveness analysis",
+          "description": "In parallel with efficacy analysis, measured by an objective clinical result indicator of state of health, such as the number of year gained (overall survival), costs for the two treatment strategies (endocrine treatment only or endocrine treatment and chemotherapy) in adjuvant systematic treatment will be also estimated. This study should provide information for decision-makers about the incremental efficacy obtained in relation to the incremental cost.",
+          "timeFrame": "at the end of the chemotherapy in arm B or 16 weeks after randomization in arm A, and then each year during a 4-year follow-up period, for both arms of the group I."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women aged \u2265 70 yo,\n* Histologically proven invasive breast cancer (regardless of the type),\n* Complete surgery performed before enrolment: radical modified mastectomy or breast conservative surgery, with either a sentinel lymph node procedure or axillary lymph node dissection,\n* Any N status (pN+ or pN0),\n* No clinically or radiologically detectable metastases (M0),\n* Oestrogen receptor (ER)-positive, as defined by a \u2265 10% tumor stained cells by immunohistochemistry (IHC),\n* HER2 negative status (i.e. IHC score 0 or 1+, or IHC score 2+ and FISH/SISH/CISH negative),\n* Normal haematological function: ANC \u2265 1,500/mm3; platelets count \u2265 100,000/mm3; haemoglobin \\> 9 g/dl,\n* Normal hepatic function: total bilirubin \u2264 1.25 ULN; ASAT and ALAT \u2264 1.5 ULN; alkaline phosphatases \u2264 3 ULN,\n* Creatinine clearance (MDRD formula) \u2265 40 mL/min,\n* PS (ECOG) \u2264 2,\n* Patient able to comply with the protocol,\n* Patients must have signed a written informed consent form prior to any study specific procedures, including the agreement for the use of archived tumoral material for genomic screening and data collection,\n* Patients must be affiliated to a Social Health Insurance.\n\nExclusion Criteria:\n\n* Any metastatic impairment, including homolateral sub-clavicular node involvement, regardless of its type,\n* Any tumor \u2265 T4a (UICC1987) (cutaneous invasion, deep adherence, inflammatory breast cancer),\n* ER-negative breast cancer (i.e. \\<10% tumor stained cells by IHC),\n* HER2 overexpression, defined as IHC score 3+ or score 2+ and FISH/SISH/CISH positive,\n* Any chemotherapy, hormonal therapy or radiotherapy for breast cancer before surgery,\n* PS (ECOG) \u2265 3,\n* Any specific contra-indication to the study drugs (including but not limited to hypersensitivity to the study drugs or their components),\n* Patient deprived of freedom or under tutelage,\n* Patient unable to comply with the required medical follow-up for geographic, social or psychological reasons.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "70 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Etienne Brain",
+          "affiliation": "Institut Curie, Saint Cloud",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Clinique du Sud Luxembourg",
+          "city": "Arlon",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 5.81667
+          }
+        },
+        {
+          "facility": "Cliniques universitaires Saint-Luc - UCL",
+          "city": "Brussels",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Grand Hopital de Charleroi (GHdC)",
+          "city": "Charleroi",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.41136,
+            "lon": 4.44448
+          }
+        },
+        {
+          "facility": "H\u00f4pital INDC entit\u00e9 Jolimontoise",
+          "city": "Haine-Saint-Paul",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.45544,
+            "lon": 4.1885
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de l'Ardenne",
+          "city": "Libramont",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 49.91741,
+            "lon": 5.37318
+          }
+        },
+        {
+          "facility": "CHC - Les Cliniques Saint-Joseph",
+          "city": "Li\u00e8ge",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.63373,
+            "lon": 5.56749
+          }
+        },
+        {
+          "facility": "CHU Ambroise Par\u00e9",
+          "city": "Mons",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.45413,
+            "lon": 3.95229
+          }
+        },
+        {
+          "facility": "Clinique et Maternit\u00e9 Sainte-Elisabeth",
+          "city": "Namur",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.4669,
+            "lon": 4.86746
+          }
+        },
+        {
+          "facility": "Cliniques Saint-Pierre Ottignies",
+          "city": "Ottignies",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.66535,
+            "lon": 4.56679
+          }
+        },
+        {
+          "facility": "Centre H\u00f4spitalier de Wallonie Picarde (CHWAPI)",
+          "city": "Tournai",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.60715,
+            "lon": 3.38932
+          }
+        },
+        {
+          "facility": "CHPLT Verviers",
+          "city": "Verviers",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.58907,
+            "lon": 5.86241
+          }
+        },
+        {
+          "facility": "CHU Mont-Godinne",
+          "city": "Yvoir",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.3279,
+            "lon": 4.88059
+          }
+        },
+        {
+          "facility": "Clinique Claude Bernard",
+          "city": "Albi",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.9298,
+            "lon": 2.148
+          }
+        },
+        {
+          "facility": "Centre Paul Papin",
+          "city": "Angers",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.47156,
+            "lon": -0.55202
+          }
+        },
+        {
+          "facility": "CH d'Ard\u00e8che m\u00e9ridionale",
+          "city": "Aubenas",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.61975,
+            "lon": 4.39033
+          }
+        },
+        {
+          "facility": "Institut Sainte Catherine",
+          "city": "Avignon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "Polyclinique Urbain V",
+          "city": "Avignon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.94834,
+            "lon": 4.80892
+          }
+        },
+        {
+          "facility": "H\u00f4pital Avicenne",
+          "city": "Bobigny",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.90982,
+            "lon": 2.45012
+          }
+        },
+        {
+          "facility": "Institut Bergoni\u00e9",
+          "city": "Bordeaux",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.84124,
+            "lon": -0.58046
+          }
+        },
+        {
+          "facility": "CHU de Brest",
+          "city": "Brest",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Centre Fran\u00e7ois Baclesse",
+          "city": "Caen",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.18585,
+            "lon": -0.35912
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Ren\u00e9 Dubos",
+          "city": "Cergy-Pontoise",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.03894,
+            "lon": 2.07805
+          }
+        },
+        {
+          "facility": "CH de Cholet",
+          "city": "Cholet",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.05893,
+            "lon": -0.87974
+          }
+        },
+        {
+          "facility": "H\u00f4pital Antoine B\u00e9cl\u00e8re",
+          "city": "Clamart",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.80299,
+            "lon": 2.26692
+          }
+        },
+        {
+          "facility": "Centre Jean Perrin",
+          "city": "Clermont-Ferrand",
+          "zip": "63011",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.77969,
+            "lon": 3.08682
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Alpes L\u00e9man",
+          "city": "Contamine-sur-Arve",
+          "zip": "74130",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.14223,
+            "lon": 6.33215
+          }
+        },
+        {
+          "facility": "Groupement Hospitalier Public du Sud de l'Oise - site de Creil",
+          "city": "Creil",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.25672,
+            "lon": 2.48477
+          }
+        },
+        {
+          "facility": "CHI de Cr\u00e9teil",
+          "city": "Cr\u00e9teil",
+          "zip": "94010",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "H\u00f4pital Henri Mondor",
+          "city": "Cr\u00e9teil",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.79266,
+            "lon": 2.46569
+          }
+        },
+        {
+          "facility": "CH de Dax",
+          "city": "Dax",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.71032,
+            "lon": -1.05366
+          }
+        },
+        {
+          "facility": "Centre d'oncologie et de radioth\u00e9rapie du Parc",
+          "city": "Dijon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "Centre Georges-Fran\u00e7ois Leclerc",
+          "city": "Dijon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.31344,
+            "lon": 5.01391
+          }
+        },
+        {
+          "facility": "CH Jean Monnet",
+          "city": "\u00c9pinal",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.18324,
+            "lon": 6.45304
+          }
+        },
+        {
+          "facility": "Clinique Sainte Marguerite",
+          "city": "Hy\u00e8res",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.12038,
+            "lon": 6.12857
+          }
+        },
+        {
+          "facility": "CHD de Vend\u00e9e",
+          "city": "La Roche-sur-Yon",
+          "zip": "85000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.66974,
+            "lon": -1.42757
+          }
+        },
+        {
+          "facility": "CH de Lagny sur Marne",
+          "city": "Lagny-sur-Marne",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.86667,
+            "lon": 2.71667
+          }
+        },
+        {
+          "facility": "CH du Mans",
+          "city": "Le Mans",
+          "zip": "72000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "Clinique Victor Hugo",
+          "city": "Le Mans",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.0021,
+            "lon": 0.20251
+          }
+        },
+        {
+          "facility": "Clinique Hartmann",
+          "city": "Levallois-Perret",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.89389,
+            "lon": 2.28864
+          }
+        },
+        {
+          "facility": "Centre Oscar Lambret",
+          "city": "Lille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "CHU de Limoges",
+          "city": "Limoges",
+          "zip": "87042",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.83362,
+            "lon": 1.24759
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de Bretagne Sud",
+          "city": "Lorient",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.74817,
+            "lon": -3.37177
+          }
+        },
+        {
+          "facility": "Centre L\u00e9on B\u00e9rard",
+          "city": "Lyon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.74906,
+            "lon": 4.84789
+          }
+        },
+        {
+          "facility": "Institut Paoli-Calmettes",
+          "city": "Marseille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.29695,
+            "lon": 5.38107
+          }
+        },
+        {
+          "facility": "CH de M\u00e2con - Les Chanaux",
+          "city": "M\u00e2con",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.31407,
+            "lon": 4.82823
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Intercommunal de Meulan - Les Mureaux",
+          "city": "Meulan-en-Yvelines",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.00768,
+            "lon": 1.90602
+          }
+        },
+        {
+          "facility": "CH Layn\u00e9",
+          "city": "Mont-de-Marsan",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.89022,
+            "lon": -0.49713
+          }
+        },
+        {
+          "facility": "Clinique du Pont de Chaume",
+          "city": "Montauban",
+          "zip": "82017",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.01759,
+            "lon": 1.3542
+          }
+        },
+        {
+          "facility": "Centre Val d'Aurelle - Paul Lamarque",
+          "city": "Montpellier",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "Centre Antoine Lacassagne",
+          "city": "Nice",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.70313,
+            "lon": 7.26608
+          }
+        },
+        {
+          "facility": "CHR d'Orl\u00e9ans",
+          "city": "Orl\u00e9ans",
+          "zip": "45100",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.90248,
+            "lon": 1.90407
+          }
+        },
+        {
+          "facility": "Groupe Hospitalier Paris St Joseph",
+          "city": "Paris",
+          "zip": "75014",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Groupe Hospitalier des Diaconesses - Croix Saint Simon",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Institut Curie - H\u00f4pital Claudius Regaud",
+          "city": "Paris",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        },
+        {
+          "facility": "Polyclinique de Francheville",
+          "city": "P\u00e9rigueux",
+          "zip": "24000",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.18691,
+            "lon": 0.71439
+          }
+        },
+        {
+          "facility": "Centre Hospitalier Lyon Sud",
+          "city": "Pierre-B\u00e9nite",
+          "zip": "69310",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.70359,
+            "lon": 4.82424
+          }
+        },
+        {
+          "facility": "CHU de Poitiers",
+          "city": "Poitiers",
+          "zip": "86021",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.58261,
+            "lon": 0.34348
+          }
+        },
+        {
+          "facility": "CH de la R\u00e9gion d'Annecy",
+          "city": "Pringy",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.94622,
+            "lon": 6.12608
+          }
+        },
+        {
+          "facility": "Institut du Cancer Courlancy",
+          "city": "Reims",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "Institut Jean Godinot",
+          "city": "Reims",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.26526,
+            "lon": 4.02853
+          }
+        },
+        {
+          "facility": "Centre Eug\u00e8ne Marquis",
+          "city": "Rennes",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.11109,
+            "lon": -1.67431
+          }
+        },
+        {
+          "facility": "CH de Rodez",
+          "city": "Rodez",
+          "country": "France",
+          "geoPoint": {
+            "lat": 44.35258,
+            "lon": 2.57338
+          }
+        },
+        {
+          "facility": "Centre Henri Becquerel",
+          "city": "Rouen",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Clinique Mathilde",
+          "city": "Rouen",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.44313,
+            "lon": 1.09932
+          }
+        },
+        {
+          "facility": "Institut Curie - H\u00f4pital Ren\u00e9 Huguenin",
+          "city": "Saint-Cloud",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.84598,
+            "lon": 2.20289
+          }
+        },
+        {
+          "facility": "CHI Poissy Saint Germain",
+          "city": "Saint-Germain-en-Laye",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.89643,
+            "lon": 2.0904
+          }
+        },
+        {
+          "facility": "CHP Saint Gr\u00e9goire",
+          "city": "Saint-Gr\u00e9goire",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.15101,
+            "lon": -1.68579
+          }
+        },
+        {
+          "facility": "ICO -Centre Ren\u00e9 Gauducheau",
+          "city": "Saint-Herblain",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.21154,
+            "lon": -1.651
+          }
+        },
+        {
+          "facility": "Clinique Mutualiste de l'Estuaire",
+          "city": "Saint-Nazaire",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.27506,
+            "lon": -2.2179
+          }
+        },
+        {
+          "facility": "Institut de Canc\u00e9rologie de la Loire",
+          "city": "Saint-Priest-en-Jarez",
+          "country": "France",
+          "geoPoint": {
+            "lat": 45.4739,
+            "lon": 4.37678
+          }
+        },
+        {
+          "facility": "RISSA Sarcelles (GCS Recherche & Innovation Sant\u00e9 Sarcelles)",
+          "city": "Sarcelles",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.99739,
+            "lon": 2.37821
+          }
+        },
+        {
+          "facility": "CH de Senlis",
+          "city": "Senlis",
+          "country": "France",
+          "geoPoint": {
+            "lat": 49.20724,
+            "lon": 2.58661
+          }
+        },
+        {
+          "facility": "Centre Paul Strauss",
+          "city": "Strasbourg",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "H\u00f4pitaux Universitaires de Strasbourg",
+          "city": "Strasbourg",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Strasbourg Oncologie Lib\u00e9rale",
+          "city": "Strasbourg",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.58392,
+            "lon": 7.74553
+          }
+        },
+        {
+          "facility": "Hopitaux du L\u00e9man",
+          "city": "Thonon-les-Bains",
+          "country": "France",
+          "geoPoint": {
+            "lat": 46.37049,
+            "lon": 6.47985
+          }
+        },
+        {
+          "facility": "CHI de Toulon - Hopital Sainte Musse",
+          "city": "Toulon",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.12442,
+            "lon": 5.92836
+          }
+        },
+        {
+          "facility": "Clinique Pasteur",
+          "city": "Toulouse",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Clinique Saint Jean du Languedoc",
+          "city": "Toulouse",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Institut Claudius Regaud",
+          "city": "Toulouse",
+          "country": "France",
+          "geoPoint": {
+            "lat": 43.60426,
+            "lon": 1.44367
+          }
+        },
+        {
+          "facility": "Centre Alexis Vautrin",
+          "city": "Vand\u0153uvre-l\u00e8s-Nancy",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.66115,
+            "lon": 6.17114
+          }
+        },
+        {
+          "facility": "Centre Saint Yves",
+          "city": "Vannes",
+          "zip": "56001",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.65688,
+            "lon": -2.76205
+          }
+        },
+        {
+          "facility": "CH Bretagne Atlantique",
+          "city": "Vannes",
+          "zip": "56017",
+          "country": "France",
+          "geoPoint": {
+            "lat": 47.65688,
+            "lon": -2.76205
+          }
+        },
+        {
+          "facility": "Institut Gustave Roussy",
+          "city": "Villejuif",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40752909",
+          "type": "DERIVED",
+          "citation": "Brain E, Mir O, Bourbouloux E, Rigal O, Ferrero JM, Kirscher S, Allouache D, D'Hondt V, Savoye AM, Durando X, Duhoux FP, Venat-Bouvet L, Blot E, Canon JL, Rollot-Trad F, Bonnefoi H, Roque T, Lemonnier J, Latouche A, Henriques J, Lacroix-Triki M, Vernerey D; GERICO&UCBG/Unicancer. Adjuvant chemotherapy and hormonotherapy versus adjuvant hormonotherapy alone for women aged 70 years and older with high-risk breast cancer based on the genomic grade index (ASTER 70s): a randomised phase 3 trial. Lancet. 2025 Aug 2;406(10502):489-500. doi: 10.1016/S0140-6736(25)00832-3."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

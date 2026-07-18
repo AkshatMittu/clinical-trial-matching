@@ -1,0 +1,310 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04113863",
+      "orgStudyIdInfo": {
+        "id": "RF-2016-02362383"
+      },
+      "organization": {
+        "fullName": "Mario Negri Institute for Pharmacological Research",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of ATRA Activity in Combination With Anastrozole in Pre-operative Phase of Operable Early Breast Cancer",
+      "officialTitle": "A Randomized Phase 2 Clinical Trial to Evaluate the Activity of ATRA in Combination With Anastrozole in Pre-operative Phase of Operable HR-positive/HER2-negative Early Breast Cancer (ATRA)",
+      "acronym": "ATRA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-03",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Low enrolment rate",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-06-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-01-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-06-26",
+      "studyFirstSubmitQcDate": "2019-10-01",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Mario Negri Institute for Pharmacological Research",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an Italian, single center, randomized, phase II study. ATRA (all-trans retinoic acid) and derivatives (retinoids) are promising anticancer agents and exert their anti-proliferative, differentiating and apoptotic effects through the nuclear retinoic acid receptors, including RAR\u03b1 (retinoic acid receptor alpha). Although the clinical use of ATRA in haematological malignancies (Acute Promyelocytic Leukemia, APL) is well established, its use in solid tumors is limited. However, some recent pre-clinical evidence suggests a possible role of ATRA in the treatment of specific subtypes of HR-positive (Hormonal Receptor)/HER2-negative early breast cancer (eBC).\n\nMoving from pre-clinical evidence and given the well-known retinoid mechanism of action, The hypotheses is that ATRA contributes to tumor regression in a specific sub-population of eBCs. Using a preoperative \"window-of-opportunity\" model, aimed at testing the activity of ATRA in combination with anastrozole in postmenopausal women with newly diagnosed, resectable, HR+/HER2- eBCs.",
+      "detailedDescription": "This is an Italian, single center, randomized, phase II study. ATRA (all-trans retinoic acid) and derivatives (retinoids) are promising anticancer agents and exert their anti-proliferative, differentiating and apoptotic effects through the nuclear retinoic acid receptors, including RAR\u03b1 (retinoic acid receptor alpha). Although the clinical use of ATRA in haematological malignancies (Acute Promyelocytic Leukemia, APL) is well established, its use in solid tumors is limited. However, some recent pre-clinical evidence suggests a possible role of ATRA in the treatment of specific subtypes of HR-positive (Hormonal Receptor)/HER2-negative early breast cancer (eBC).\n\nThis is a prospective, randomized Phase 2 window-of opportunity pre-operative clinical trial to study the activity of ATRA in combination with anastrozole in HR+/HER2- eBCs. All patients will receive primary treatment with anastrozole p.o. (intended as standard of care) and will be randomized to add or not ATRA p.o. Patients will receive study treatments by continuous once-daily administration for a period of 4 weeks before definitive surgery. Treatment will start 28 days before the scheduled surgical resection and will be completed at the time of surgery, scheduled no more than 1 week after completion of the study treatment. The interval between diagnostic core biopsy, baseline clinical evaluation and study entry must be no more than 4 weeks.\n\nThe study will compare the anti-tumor activity of the treatments in the two arms (ATRA+anastrozole or Aa vs. anastrozole alone or a). In this comparison, the primary outcome measure is the proportion of complete BC cells cycle arrest (defined as Ki67 \\< 2.7%), as previously reported. Indeed, the responder patients will be defined according the achievement of an absolute value of Ki67 \\< 2.7% because of its predictive value on relapse-free survival. The study aims at demonstrating that the ATRA+anastrozole (Aa) arm is characterized by significant therapeutic superiority over the anastrozole (a) arm.\n\nClinical and ultrasound examinations, trascriptome analysis on formalin-fixed paraffin-embedded (FFPE) samples will be performed, at baseline and at the time of definitive surgery"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasm Female"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 76,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ARM A - Anastrozole",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Anastrozole at the dosage of 1 mg/die. Treatment will last 28 days",
+          "interventionNames": [
+            "Drug: Anastrozole 1mg"
+          ]
+        },
+        {
+          "label": "ARM B - Anastrozole + ATRA",
+          "type": "EXPERIMENTAL",
+          "description": "Anastrozole at the dosage of 1mg/die in combination with ATRA at the total dosage of 45mg/m2/die (two daily administrations of 22.5 mg/m2 each). Treatment will last 28 days",
+          "interventionNames": [
+            "Drug: all-trans retinoic acid",
+            "Drug: Anastrozole 1mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "all-trans retinoic acid",
+          "description": "Vesanoid will be supplied orally at the total dosage of 45mg/m2/d (two daily administrations of 22.5 mg/m2 each). Treatment will last 28 days",
+          "armGroupLabels": [
+            "ARM B - Anastrozole + ATRA"
+          ],
+          "otherNames": [
+            "Vesanoid"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole 1mg",
+          "description": "Anastrozole will be administered orally at the dosage of 1 mg/die.",
+          "armGroupLabels": [
+            "ARM A - Anastrozole",
+            "ARM B - Anastrozole + ATRA"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Responders",
+          "description": "Evaluate the proportion of responder patients in the 2 arm (Aa vs. a) according to the Ki67 assessment, measured at baseline and after treatment",
+          "timeFrame": "At time of surgery. Analyses will be performed approximately 24 months after the enrolment of the first patient, i.e. when all the 112 patients required by simple size specifications complete their treatment schedule and reach the surgical phase."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Ki67 reduction",
+          "description": "To assess the activity of ATRA according to the % of Ki67 reduction, measured before and after treatment",
+          "timeFrame": "At time of surgery. Analyses will be performed approximately 24 months after the enrolment of the first patient, i.e. when all the 112 patients required by simple size specifications complete their treatment schedule and reach the surgical phase."
+        },
+        {
+          "measure": "ORR (Overall Response Rate)",
+          "description": "To assess the activity of ATRA in terms of tumor size reduction and response rate, according to the RECIST criteria, after 4 weeks of therapy.",
+          "timeFrame": "At time of surgery. Analyses will be performed approximately 24 months after the enrolment of the first patient, i.e. when all the 112 patients required by simple size specifications complete their treatment schedule and reach the surgical phase."
+        },
+        {
+          "measure": "ATRA-21",
+          "description": "To validate the predictive power of ATRA-21, a gene-expression model associated with ATRA activity.",
+          "timeFrame": "At time of surgery. Analyses will be performed approximately 24 months after the enrolment of the first patient, i.e. when all the 112 patients required by simple size specifications complete their treatment schedule and reach the surgical phase."
+        },
+        {
+          "measure": "Safety evaluation",
+          "description": "Patients will be monitored for adverse events (AEs) weekly using the definitions and criteria for grading provided in the Common Terminology Criteria for adverse Events (CTCAE) 4.03.",
+          "timeFrame": "Safety assessments will occur at day 1 (D1) and after 2 weeks (D14) and after 4 weeks (D28) during treatment."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed, informed consent\n2. Histologically confirmed non-metastatic operable primary invasive HR-positive breast cancer subjected to diagnostic core biopsy\n3. Menopausal status\n4. HR-positive/HER2-negative eBC defined as\n\n   * ER\\>1% on immunohistochemistry (IHC) staining\n   * HER2 score equal to 0, 1+, 2+ (if FISH neg) on IHC staining\n5. Available paraffin-embedded tumor block (FFPE) taken at diagnostic biopsy for Ki67 determination (IHC)\n6. Adequate bone marrow, hepatic and renal function including the following:\n\n   1. Hb \u2265 9.0 g/dL, absolute neutrophil count \u2265 1.5 x 109/L, platelets \u2265100 x 109/L\n   2. Total bilirubin \u2264 1.5 x upper normal limit, excluding cases where elevated bilirubin can be attributed to Gilberts Syndrome\n   3. AST (SGOT), ALT (SGPT) \u2264 2.5 x upper normal limit (or 5x UNL in the presence of liver metastases)\n   4. Creatinine \u2264 1.5 x upper normal limit\n7. Age \u2265 18 years\n8. Performance status (PS) \u2264 1 (ECOG scale)\n\nExclusion Criteria:\n\n1. Presence of metastatic disease\n2. Pre-menopausal status\n3. Previous investigational treatment for any condition within 4 weeks of randomization date\n4. Treatment including radiation therapy, chemotherapy, biotherapy and/or hormonal therapy for the currently diagnosed breast cancer prior to study entry\n5. Co-existing active infection or serious concurrent illness\n6. Any medical or other condition that in the Investigator's opinion renders the patient unsuitable for this study due to unacceptable risk\n7. Psychiatric disorders or altered mental status precluding understanding of the informed consent process and/or completion of the necessary studies\n8. Gastrointestinal disorders that may interfere with absorption of the study drug.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Ospedale Santa Maria della Misericordia di Udine",
+          "city": "Udine",
+          "state": "UD",
+          "zip": "33100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 46.0693,
+            "lon": 13.23715
+          }
+        },
+        {
+          "facility": "ASST Papa Giovanni XXIII",
+          "city": "Bergamo",
+          "zip": "24127",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D014212",
+          "term": "Tretinoin"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D014801",
+          "term": "Vitamin A"
+        },
+        {
+          "id": "D012176",
+          "term": "Retinoids"
+        },
+        {
+          "id": "D002338",
+          "term": "Carotenoids"
+        },
+        {
+          "id": "D011090",
+          "term": "Polyenes"
+        },
+        {
+          "id": "D000475",
+          "term": "Alkenes"
+        },
+        {
+          "id": "D006839",
+          "term": "Hydrocarbons, Acyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D053138",
+          "term": "Cyclohexenes"
+        },
+        {
+          "id": "D003510",
+          "term": "Cyclohexanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D010860",
+          "term": "Pigments, Biological"
+        },
+        {
+          "id": "D001685",
+          "term": "Biological Factors"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

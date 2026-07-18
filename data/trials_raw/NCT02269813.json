@@ -1,0 +1,300 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02269813",
+      "orgStudyIdInfo": {
+        "id": "WSG-PRIMe"
+      },
+      "organization": {
+        "fullName": "West German Study Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "PRospective Study to Measure the Impact of MammaPrint on Adjuvant Treatment in Hormone Receptor-positive HER2-negative Breast Cancer Patients (PRIMe)",
+      "officialTitle": "PRospective Study to Measure the Impact of MammaPrint on Adjuvant Treatment in Hormone Receptor-positive HER2-negative Breast Cancer Patients (PRIMe)",
+      "acronym": "PRIMe"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2016-03-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2016-09-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2014-10-14",
+      "studyFirstSubmitQcDate": "2014-10-20",
+      "studyFirstPostDateStruct": {
+        "date": "2014-10-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-08-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-08-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "West German Study Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Agendia",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "PRIMe is a prospective, case-only trial designed to measure the impact of MammaPrint on physician chemotherapy intention in the two discordant groups (ET/POOR, CT/GOOD) in stage 1 and 2 HR-positive HER2-negative breast cancer patients. The design also provides for assessment of several important secondary indicators. Eligible patients will have their tumor sample analyzed for MammaPrint, BluePrint and TargetPrint. Patients cannot start treatment before the MammaPrint result is received and taken into consideration for the adjuvant treatment plan."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "MammaPrint",
+        "BluePrint",
+        "TargetPrint"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "CASE_CONTROL",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 452,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ET/GOOD",
+          "description": "Endocrine therapy only.",
+          "interventionNames": [
+            "Other: MammaPrint",
+            "Other: BluePrint",
+            "Other: TargetPrint"
+          ]
+        },
+        {
+          "label": "CT/POOR",
+          "description": "Chemoendocrine therapy according to national guidelines.",
+          "interventionNames": [
+            "Other: MammaPrint",
+            "Other: BluePrint",
+            "Other: TargetPrint"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "MammaPrint",
+          "armGroupLabels": [
+            "CT/POOR",
+            "ET/GOOD"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "BluePrint",
+          "armGroupLabels": [
+            "CT/POOR",
+            "ET/GOOD"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "TargetPrint",
+          "armGroupLabels": [
+            "CT/POOR",
+            "ET/GOOD"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Measure the impact of MammaPrint on adjuvant treatment decisions in discordant groups (ET/POOR and CT/GOOD) in stage-1/2, HR+, HER2- breast cancer and test whether these impacts each exceed a pre-determined compliance threshold.",
+          "description": "Compliance, assessed in terms of the fraction of patients in each discordant group whose physicians switch their chemotherapy intention following MammaPrint test disclosure is used to measure the impact of MammaPrint on adjuvant treatment decisions.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess the incremental cost-effectiveness of MammaPrint in terms of cost and quality-adjusted life years within a health economic context using the impacts measured in this trial as well as the predictive impact demonstrated in previous trials.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Measure the impacts of MammaPrint on adjuvant treatment decisions (physician chemotherapy intention) and compare with previous trials involving MammaPrint or other tests.",
+          "description": "The planned analysis includes assessment of the incremental cost-effectiveness (ICER) of MammaPrint within a health economic context (i.e., taking cost and quality-adjusted life years into account).",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Measure rate (by incidence) and severity (by Common Toxicity Criteria) of treatment-related serious adverse events stratified by whether or not patient received adjuvant chemotherapy.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess change in patients' decisional conflict status and anxiety levels before and after MammaPrint results via questionnaire, stratified by the four groups (2 concordant and 2 discordant).",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess investigators' confidence in treatment recommendations before and after MammaPrint results were known via questionnaire.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess concordance of final treatment intention and treatment actually received by number of patients.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess concordance of TargetPrint ER, PR and HER2 results with locally assessed IHC/FISH ER, PR and HER2 by number of patients.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Compare clinical subtype based on IHC/FISH ER, PR, HER2 and Ki-67 (St Gallen 2013) with BluePrint molecular subtype by diagnostic definition of subtype.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess concordance of MammaPrint, BluePrint and TargetPrint in multi-centric breast cancer by number of patients.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Assess the combined switch rate in the two concordant groups (ET/GOOD) and (CT/POOR) and verify that it is lower than the switch rate in both discordant groups by number of patients.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Perform descriptive sub-analysis in pre- and post-menopausal women by switch percentages.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        },
+        {
+          "measure": "Perform cross-validation with other adjuvant breast cancer studies by switch rate, if available.",
+          "timeFrame": "Up to 6 months after end of treatment."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women with histologically proven invasive stage 1 and 2 breast cancer\n* Hormone receptor positive according to local standards\n* HER2 negative - i.e. IHC 0-1+, or FISH or other ISH non-amplified (locally assessed)\n* Axillary lymph node status: 0-3 involved (macro metastases i.e. \\>2mm OR micro metastases i.e. \\>0.2-2mm)\n* \u2265 18 years of age at time of consent\n* Patients must be eligible to receive adjuvant chemotherapy and endocrine therapy as defined by a good Karnofsky index, no hematological, cardiological or hepatic contraindications nor any impeding comorbidity\n* Written informed consent\n\nExclusion Criteria:\n\n* \u22654 involved axillary nodes\n* Multi-centric disease with more than 2 clinically relevant lesions\n* HR negative OR HER2 positive/amplified (locally assessed)\n* Previous diagnosis of malignancy unless disease free for 10 years\n* Metastatic disease\n* Tumor sample shipped to Agendia with \u2264 30% tumor cells or that fails QA or QC criteria\n* Women who have started or completed adjuvant chemotherapy or neo-adjuvant chemotherapy for current breast cancer",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study population will comprise patients for whom the investigator will advise either endocrine therapy or chemotherapy + endocrine therapy. Patients confirmed to be low/high risk by the gene signature will receive the respective treatment. Patients with discordant results will be investigated for investigator's chemotherapy intention after MammaPrint results are available.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nadia Harbeck, Prof. Dr.",
+          "affiliation": "Scientific Director",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Ulrike Nitz, Prof. Dr.",
+          "affiliation": "General Manager/Medical Director",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medizinische Universit\u00e4t Innsbruck Universit\u00e4tsklinik f\u00fcr Frauenheilkunde",
+          "city": "Innsbruck",
+          "zip": "6020",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 47.26266,
+            "lon": 11.39454
+          }
+        },
+        {
+          "facility": "Breast Center of the University of Munich (LMU)",
+          "city": "Munich",
+          "zip": "81377",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Kantonsspital St.Gallen",
+          "city": "Sankt Gallen",
+          "zip": "9007",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C062271",
+          "term": "Blueprint Asept"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

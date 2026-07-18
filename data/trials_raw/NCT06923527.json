@@ -1,0 +1,394 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06923527",
+      "orgStudyIdInfo": {
+        "id": "2000039112"
+      },
+      "organization": {
+        "fullName": "Yale University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Circulating Tumor DNA",
+      "officialTitle": "A Single Arm Phase II Trial of Circulating Tumor DNA-guided Adjuvant Therapy With Elacestrant in Adults With Hormone Receptor Positive HER2 Negative Breast Cancers at Risk for Late Recurrence (CATE)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-03-27",
+      "studyFirstSubmitQcDate": "2025-04-03",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Mariya Rozenblit",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "Yale University"
+      },
+      "leadSponsor": {
+        "name": "Yale University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Johns Hopkins University",
+          "class": "OTHER"
+        },
+        {
+          "name": "Stemline Therapeutics, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a single-arm, phase II study examining elacestrant in the adjuvant treatment of patients with ER+ breast cancer who test positive for circulating tumor DNA (ctDNA) during the screening period of the trial. Our trial will proceed in three separate phases: screening, treatment, and follow-up.",
+      "detailedDescription": "This is a single-arm, phase II study examining elacestrant in the adjuvant treatment of patients with ER+ breast cancer who test positive for circulating tumor DNA (ctDNA) during the screening period of the trial. Patients with ER+ breast cancer anatomic stage IIB or III at diagnosis who are at least five years from diagnosis and have completed intended course of adjuvant endocrine therapy and are currently off endocrine therapy will be screened with ctDNA testing. Patients who test positive for ctDNA during the screening phase will receive treatment with elacestrant for one year and continue ctDNA testing and imaging with CT scans every three months. During the follow-up period, patients in the study will continue to be ctDNA tested every six months and monitored for one year. If patients remain ctDNA positive at the completion of 12 months of study treatment, since they remain at increased risk of recurrence, they can choose to continue for an additional 12 months for a maximum of 24 months, they may also resume standard endocrine therapy or continue with standard of care surveillance during follow up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "ER+ Breast Cancer"
+      ],
+      "keywords": [
+        "stage IIB",
+        "stage III",
+        "ctDNA"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Single Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Administration of elacestrant will follow the FDA approved dose and schedule for patients with ER+ metastatic breast cancer. Elacestrant 345 mg will be administered orally once daily for 12 cycles or until disease progression or unacceptable toxicity",
+          "interventionNames": [
+            "Drug: Elacestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Elacestrant",
+          "description": "Administration of elacestrant will follow the FDA approved dose and schedule for patients with ER+ metastatic breast cancer. Elacestrant 345 mg will be administered orally once daily for 12 cycles or until disease progression or unacceptable toxicity. The pills shall be administered with food (to reduce nausea and vomiting) at approximately the same time each day, and the prescription will be provided with the standard \"Swallow tablets whole; do not chew, crush, or split\" warning label.",
+          "armGroupLabels": [
+            "Single Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Assessing Elacestrant's Impact on ctDNA Clearance in ER+HER2- Breast Cancer Patients",
+          "description": "This study evaluates whether treatment with elacestrant improves the clearance of circulating tumor DNA (ctDNA) in patients with estrogen receptor-positive (ER+), human epidermal growth factor receptor 2-negative (HER2-) breast cancer. Patients included in the study have detectable ctDNA in their plasma but show no evidence of metastatic disease on imaging, and the results will be compared against historical control data.",
+          "timeFrame": "Every 3 months during the treatment phase and at 3-month intervals for 12 months following the end of treatment"
+        },
+        {
+          "measure": "Investigating Elacestrant's Effect on 18-Month Invasive Disease-Free Survival in ER+HER2- Breast Cancer Patients",
+          "description": "To determine whether treatment with elacestrant improves the 18-month invasive disease-free survival rate in patients with estrogen receptor-positive (ER+), human epidermal growth factor receptor 2-negative (HER2-) breast cancer. The study focuses on patients with detectable circulating tumor DNA (ctDNA) in their plasma but who have no observable metastatic disease on imaging, comparing the outcomes to historical controls.",
+          "timeFrame": "From the start of treatment through 18 months post-initiation of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of ctDNA Positivity in Screened ER+HER2- Breast Cancer Patients",
+          "description": "To estimate the incidence rate of circulating tumor DNA (ctDNA) positivity among patients screened for the study who have estrogen receptor-positive (ER+), human epidermal growth factor receptor 2-negative (HER2-) breast cancer.",
+          "timeFrame": "At baseline screening prior to treatment"
+        },
+        {
+          "measure": "Proportion of Patients with Metastatic Disease at First Positive ctDNA Result",
+          "description": "This secondary outcome measure estimates the proportion of patients who present with clinically apparent metastatic disease (evident on imaging) at the time of their first positive ctDNA result.",
+          "timeFrame": "From baseline screening through the first positive ctDNA detection, up to 12 months"
+        },
+        {
+          "measure": "Time to Relapse Between First Positive ctDNA and Clinical Recurrence of Metastatic Disease",
+          "description": "To assess the duration between the first detection of positive ctDNA and the clinical recurrence of metastatic disease, as confirmed by imaging.",
+          "timeFrame": "From the first positive ctDNA detection through clinical recurrence, up to 24 months"
+        },
+        {
+          "measure": "Association of ctDNA Clearance with Recurrence-Free Survival and Overall Survival",
+          "description": "To evaluate whether clearance of ctDNA is associated with improved recurrence-free survival (RFS) and overall survival (OS) in ER+HER2- breast cancer patients",
+          "timeFrame": "From baseline through 36 months post-treatment initiation"
+        },
+        {
+          "measure": "Safety, Tolerability, and Adherence to Elacestrant Treatment Protocol",
+          "description": "To assess the safety and tolerability of the elacestrant treatment, as well as patients' adherence to the treatment protocol.",
+          "timeFrame": "From baseline through the end of the treatment phase, up to 18 months"
+        },
+        {
+          "measure": "Patient-Reported Outcomes, Fear of Recurrence and Anxiety Levels During Elacestrant Treatment",
+          "description": "To evaluate global patient-reported outcomes , fear of recurrence and anxiety levels during the elacestrant treatment phase.",
+          "timeFrame": "From baseline through the end of the treatment phase, assessed every 3 months up to 18 months"
+        },
+        {
+          "measure": "Assessing AmDTx-MBCS' Impact on Decreasing Fear of Recurrence Scores",
+          "description": "AmDTx-MBCS is a mobile health platform that combines psychoeducation, mindfulness/meditation, and cognitive based therapy practices. Investigators will evaluate the effect of AmDTx-MBCS on global patient-reported outcomes , fear of recurrence and anxiety levels during the elacestrant treatment phase.",
+          "timeFrame": "Participation in the application will be offered at the first screening visit. Fear of recurrence will be assessed from baseline through the end of the treatment phase, assessed every 3 months up to 18 months."
+        },
+        {
+          "measure": "Diet and Physical Activity Levels in Breast Cancer Patients",
+          "description": "To assess self reported diet and physical activity levels among screened participants via Behavioral Risk Factor Surveillance System (BRFSS) and International Physical Activity Questionnaires (IPAQ) questionnaires.",
+          "timeFrame": "At the first screening visit only"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria for Screening:\n\n1. Adults aged 18 years and older.\n2. Previous diagnosis of anatomic stage IIB or anatomic stage III histopathologically or cytologically confirmed ER+, HER2-, breast cancer per local laboratory as per ASCO/CAP guidelines. In the context of this trial, ER status will be considered positive if \\>10% of tumor cells demonstrate positive nuclear staining by immunohistochemistry, with or without progesterone receptor positivity. Patients with PR positive but ER-negative are not eligible.\n3. Participants must have been diagnosed with ER+HER2- breast cancer at least five years ago and no more than 20 years ago and must have completed adjuvant endocrine therapy.\n4. Participants must be off endocrine therapy for at least four weeks prior to screening.\n\nExclusion Criteria for Screening:\n\n1. Known current metastatic disease.\n2. Known contraindication to receiving elacestrant as per FDA package insert.\n3. Current treatment with endocrine therapy.\n4. Prior treatment with elacestrant or other investigational SERDs.\n5. Current or past invasive cancer other than breast cancer, except:\n\n   1. Adequately treated basal or squamous cell carcinoma of the skin.\n   2. Cancer survivors of previously diagnosed invasive cancer who were treated with curative intent and have no evidence of disease recurrence for five years or more and are considered low risk for future recurrence by the treating physician.\n6. Patients in the screening phase, or in the randomized trial (treatment phase), cannot start receiving therapy on another therapeutic clinical trial.\n7. Current use of strong and moderate CYP3A4 inducers/inhibitors or other prohibited concomitant medication unless an acceptable substitute is available, and the prohibited medication is discontinued at least five half-lives prior to initiation of elacestrant.\n8. Participants who are pregnant.\n\nInclusion Criteria for Treatment:\n\n1. ctDNA positivity by NEXT Personal assay.\n2. No evidence of metastatic disease on staging scans.\n\n   a. If imaging, after review with a radiologist, is low probability for metastatic disease, patients may proceed with enrollment. Patients with suspicious but inconclusive imaging results should undergo a diagnostic biopsy; if biopsy is negative patients are eligible for enrollment. Patients with positive imaging that is conclusive of metastatic disease, or biopsy proven metastatic disease, are not eligible.\n3. At the time of informed consent signature for treatment, participants may be either postmenopausal, premenopausal, or perimenopausal.\n\n   a. Postmenopausal status is defined by: i. Age \u226560. ii. Age \\<60 and amenorrhea for 12 or more months (without an alternative cause) and FSH and estradiol level within postmenopausal range per local laboratory reference.\n\n   iii. Documentation of bilateral oophorectomy, at least one month before first dose of trial therapy.\n\n   b. Premenopausal and perimenopausal participants must be willing to concurrently receive an LHRH agonist, and the LHRH agonist must be initiated at least three to four weeks before the start of elacestrant and are planning to continue LHRH agonist treatment during treatment with elacestrant. This is based on the current FDA approval of elacestrant in the metastatic setting which is limited to postmenopausal participants.\n\n   c. Premenopausal or perimenopausal participants must be willing to use a highly effective method of contraception for the duration of trial treatment and for 120 days after the last dose of elacestrant OR if using barrier method of contraception must be willing to use a second form of contraception like occlusive cap with spermicidal foam / gel / film / cream / suppository.\n\n   i. Highly effective methods of contraception are non-hormonal (cooper) intrauterine device (IUD), surgical sterilization (bilateral tubal occlusion/ligation, partner who has had a vasectomy), and sexual abstinence.\n4. ECOG performance status of 0 or 1.\n5. Patient has adequate bone marrow and organ function, as defined by the following laboratory values:\n\n   1. Absolute neutrophil count (ANC) \\>1.0 x 109/L.\n   2. Platelets \\>100 x 109/L.\n   3. Hemoglobin \\> 8.0 g/dL.\n   4. Potassium, sodium, calcium, and magnesium CTCAE v5.0 grade \\<1.\n   5. Cockcroft-Gault based creatinine clearance \\>50 mL/min.\n   6. ALT and AST \\<3 x ULN and total serum bilirubin \\<1.5 x ULN.\n   7. Hypercholesterolemia and hypertriglyceridemia CTCAE v5.0 grade \\<1.\n\nExclusion Criteria for Treatment:\n\n1. Any concurrent severe and uncontrolled medical condition that would, in the sponsor-investigator's opinion, cause unacceptable safety risks or compromise compliance with the protocol including but not limited to:\n2. Impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral medication (uncontrolled Crohn's disease or ulcerative colitis, uncontrolled chronic nausea, vomiting, diarrhea, malabsorption, or small bowel resection).\n3. Females who are pregnant or breastfeeding.\n4. Moderate to severe liver impairment (Child-Pugh Class B and C).\n5. Hypercholesterolemia or hypertriglyceridemia \\> CTCAE v5.0 grade 1.\n6. Participants who are currently or are planning lactation during elacestrant treatment. Lactation during and at least one week following the last dose of elacestrant is not allowed",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Laura Kane",
+          "role": "CONTACT",
+          "phone": "773-369-6904",
+          "email": "laura.kane@yale.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Mariya Rozenblit, MD",
+          "affiliation": "Yale University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Yale University",
+          "status": "RECRUITING",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06510",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Carl Brown",
+              "role": "CONTACT",
+              "phone": "2037854095",
+              "email": "carl.brown@yale.edu"
+            },
+            {
+              "name": "Mariya Rozenblit, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Lombardi Comprehensive Cancer Center at Georgetown University Medical Center",
+          "status": "RECRUITING",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lana Kheir",
+              "role": "CONTACT",
+              "phone": "202-444-2223",
+              "email": "lk814@georgetown.edu"
+            },
+            {
+              "name": "Katia Khoury, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Sidney Kimmel Comprehensive Cancer Center at John Hopkins",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sharon White",
+              "role": "CONTACT",
+              "phone": "410-614-1361",
+              "email": "HopkinsBreastTrials@jhmi.edu"
+            },
+            {
+              "name": "Jenna Canzoniero, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ilana Schlam Camhi, MD MPH",
+              "role": "CONTACT",
+              "phone": "8773387425",
+              "email": "ilana_schlam@dfci.harvard.edu"
+            },
+            {
+              "name": "Ilana M Schlam Camhi, MD MPH",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Montefiore Einstein Comprehensive Cancer Center",
+          "status": "RECRUITING",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10461",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Fernando Gonterman",
+              "role": "CONTACT",
+              "phone": "718-405-8126",
+              "email": "fgonterman@montefiore.org"
+            },
+            {
+              "name": "Jesus Anampa, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "UPMC Hillman Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15232",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joshua Plassmeyer, 412-648-6417",
+              "role": "CONTACT",
+              "email": "plassmeyerjm@upmc.edu"
+            },
+            {
+              "name": "Julia Foldi, MD PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "The University of Texas MD Anderson Cancer Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Pamela Lewis",
+              "role": "CONTACT",
+              "phone": "713-563-4527",
+              "email": "plewis@mdanderson.org"
+            },
+            {
+              "name": "Carlos H Barcenas, MD MSc",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000626176",
+          "term": "elacestrant"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

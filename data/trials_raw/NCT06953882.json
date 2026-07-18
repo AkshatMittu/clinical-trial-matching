@@ -1,0 +1,404 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06953882",
+      "orgStudyIdInfo": {
+        "id": "2000038734"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "BCRF-23-184",
+          "type": "OTHER_GRANT",
+          "domain": "The Breast Cancer Research Foundation Inc."
+        }
+      ],
+      "organization": {
+        "fullName": "Yale University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Impact of Omitting Chemo Based on Patient's Selection for ER-Positive, HER2-Negative Breast Cancer With Ribociclib and Endocrine Therapy",
+      "officialTitle": "SELECT: A Phase II Adjuvant Trial Evaluating the Impact of Omitting Chemotherapy Based on Patient's Selection for Moderate to High-Anatomical Risk, Low-Genomic Risk, ER-Positive, HER2- Negative Breast Cancer With a Combination Regimen of Ribociclib and Optimized Endocrine Therapy",
+      "acronym": "SELECT"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-07-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-01",
+      "studyFirstSubmitQcDate": "2025-04-29",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Yale University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Novartis",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Breast Cancer Research Foundation",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase II, two-arm, single center, patient preference study designed to evaluate the impact of omitting adjuvant chemotherapy in moderate to high-anatomical risk, low-genomic risk (men or premenopausal women T2-3N0 and RS 16-25, or T1-3N1-2 and RS \u2264 25, and postmenopausal women T2-3N0 and RS 26-30, or T1-3N1 and RS 26-30, or T1-3N2 and RS \u2264 25),",
+      "detailedDescription": "This is a Phase II, two-arm, single-center, patient-preference clinical trial designed to evaluate the impact of omitting adjuvant chemotherapy in moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer treated with a combination regimen of ribociclib and optimized ET. The trial will enroll 140 participants with resected moderate to high-anatomic risk, low-genomic risk (men or premenopausal women T2-3N0 and RS 16-25, or T1-3N1-2 and RS \u2264 25, and postmenopausal women T2-3N0 and RS 26-30, or T1-3N1 and RS 26-30, or T1-3N2 and RS \u2264 25), ER-positive, HER2-negative breast cancer. Participants will have the option to decide whether to include adjuvant chemotherapy in their treatment plan. Arm 1 will receive the combination of ribociclib and optimized ET. Arm 2 will be treated with adjuvant chemotherapy followed by a combination of ribociclib and optimized ET. Enrollment will be closely monitored to ensure that there are 70 evaluable participants in each arm of the study to ensure we can estimate one-year discontinuation rate with a reasonable level of precision."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HER2 Negative Breast Cancer"
+      ],
+      "keywords": [
+        "premenopausal women T1-3N1-2",
+        "postmenopausal women T3N1",
+        "postmenopausal women T3N2",
+        "ER-positive"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 140,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ribociclib + Optimized Endocrine Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Combination of ribociclib and optimized endocrine therapy",
+          "interventionNames": [
+            "Drug: Ribociclib 400mg",
+            "Drug: Letrozole 2.5mg",
+            "Drug: Anastrazole 1mg",
+            "Drug: Goserelin 3.6 MG"
+          ]
+        },
+        {
+          "label": "Adjuvant Chemotherapy + Ribociclib & Optimized Endocrine Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Adjuvant chemotherapy followed by a combination of ribociclib and optimized endocrine therapy",
+          "interventionNames": [
+            "Drug: Ribociclib 400mg",
+            "Drug: Letrozole 2.5mg",
+            "Drug: Anastrazole 1mg",
+            "Drug: Goserelin 3.6 MG",
+            "Radiation: Adjuvant chemotherapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ribociclib 400mg",
+          "description": "400 mg (2 x 200 mg tablets by mouth) once daily on days 1 to 21 of a 28-day cycle, followed by seven days off ribociclib (Days 22 to 28).",
+          "armGroupLabels": [
+            "Adjuvant Chemotherapy + Ribociclib & Optimized Endocrine Therapy",
+            "Ribociclib + Optimized Endocrine Therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole 2.5mg",
+          "description": "Letrozole will be administered as an endocrine therapy. The regimen will differ depending on the demographic of the patient. For postmenopausal women: Letrozole 2.5 mg by mouth daily continuously. For men or premenopausal women: Letrozole 2.5 mg by mouth daily continuously.",
+          "armGroupLabels": [
+            "Adjuvant Chemotherapy + Ribociclib & Optimized Endocrine Therapy",
+            "Ribociclib + Optimized Endocrine Therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrazole 1mg",
+          "description": "For postmenopausal women: Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously. For men or premenopausal women: Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously.",
+          "armGroupLabels": [
+            "Adjuvant Chemotherapy + Ribociclib & Optimized Endocrine Therapy",
+            "Ribociclib + Optimized Endocrine Therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Goserelin 3.6 MG",
+          "description": "For men or premenopausal women: Letrozole 2.5 mg by mouth daily continuously or anastrozole 1 mg by mouth daily continuously, concurrently with goserelin 3.6 mg monthly injection.",
+          "armGroupLabels": [
+            "Adjuvant Chemotherapy + Ribociclib & Optimized Endocrine Therapy",
+            "Ribociclib + Optimized Endocrine Therapy"
+          ]
+        },
+        {
+          "type": "RADIATION",
+          "name": "Adjuvant chemotherapy",
+          "description": "Adjuvant chemotherapy dose modifications in Arm 2 will be per institutional guidelines and investigator discretion.",
+          "armGroupLabels": [
+            "Adjuvant Chemotherapy + Ribociclib & Optimized Endocrine Therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Discontinuation rate of ribociclib in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "Discontinuation rate of ribociclib in participants with resected moderate to high-anatomical risk, low-genomic risk (men or premenopausal women T2-3N0 and RS 16-25, or T1-3N1-2 and RS \u2264 25, and postmenopausal women T2-3N0 and RS 26-30, or T1-3N1 and RS 26-30, or T1-3N2 and RS \u2264 25), ER-positive, HER2-negative breast cancer who choose to forgo adjuvant chemotherapy in their treatment regimen. One-year treatment discontinuation is defined as treatment discontinuation within one year for any reason (e.g., adverse events, disease recurrence, patient/investigator decision, lost to follow up, etc).",
+          "timeFrame": "Within one year of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Invasive disease-free survival in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "iDFS is defined as the time from initiation of treatment to the first diagnosis of local invasive recurrence following mastectomy, local invasive recurrence in the ipsilateral breast following lumpectomy, regional recurrence, distant recurrence, contralateral invasive breast cancer, second non-breast primary cancer (excluding squamous or basal cell carcinoma of the skin), or death from any cause prior to recurrence or second primary cancer using STEEP criteria as assessed by investigator. iDFS using STEEP criteria, assessed separately in the participants who select to omit adjuvant chemotherapy (arm 1) and those who include adjuvant chemotherapy in their treatment regimen (arm 2).",
+          "timeFrame": "Defined as the time from initiation of treatment to three years post-survival"
+        },
+        {
+          "measure": "Change from Baseline in Severity of Symptoms in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to assess the change from baseline in the severity of symptoms. This will be measured using the Functional Assessment of Cancer Therapy-General (FACT-G) GP5. FACT-G GP5 will be scored from scale of 0-4; with 0 indicating \"not at all\" and 4 indicating \"very much\". The objective is to describe patient-reported outcomes (PRO) for these measures in participants in arm 1 and arm 2.",
+          "timeFrame": "At baseline, every three months during the first year and every six months during years 2 and 3"
+        },
+        {
+          "measure": "Change from Baseline in Physical Functioning and Global Health Status/Quality of Life in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to evaluate the change from baseline in the physical functioning sub-scale score and global health status/Quality of Life scale score of participants. This will be measured using the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30). This questionnaire is scored from 1 to 4; with 1 indicating 'not at all' and 4 indicating 'very much'. The objective is to describe patient-reported outcomes related to health-related quality-of-life in participants in arm 1 and arm 2.",
+          "timeFrame": "At baseline, every three months during the first year and every six months during years 2 and 3"
+        },
+        {
+          "measure": "Factors Impacting Decision Making in Adjuvant Treatment Decisions in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to to identify and understand the factors that impact participants' decision-making processes, as assessed by a modified version of the Control Preferences Scale. This tool uses a card-sorting method, where participants are asked to rank five cards with different decision-making roles. It is then scored by the participant's preference order over the five cards. The objective is to explore the factors influencing the decision to include or omit adjuvant treatment among participants in arm 1 and arm 2. This assessment will help in understanding the preferences and considerations of patients regarding their treatment plans.",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Changes in fear of cancer recurrence in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to assess the changes in fear of cancer recurrence among participants, measured using the Fear of Cancer Recurrence-7 (FCR-7) scale. The first six items on the scale are scored on a 5-point scale, with 1 indicating \"not at all\" and 5 indicating \"all the time\". The seventh item assesses the extent to which Fear of Cancer Recurrence interferes with thoughts and activities on a 10 point scale, where 0 indicates \"not at all\" and 10 indicates \"a great deal\". The sale is then totaled; a score of less greater than 4 on items 1-6 or greater than 7 on item 7 suggests a significant level of fear of cancer recurrence. This evaluation aims to provide insights into the emotional and psychological impact of cancer treatment decisions.",
+          "timeFrame": "At baseline, six months, and one year"
+        },
+        {
+          "measure": "Change from Baseline in Anxiety/Depression in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to assess the change from baseline in anxiety and depression of participants. This will be measured using the Patient Health Questionnaire-9 (PHQ-9). PHQ-9 will be scored from 0 to 3, with 0 indicating 'not at all' and 3 indicating 'nearly every day'. The scores will then be tallied, with scores ranging from 0-27, where higher scores will indicate greater depression severity. The objective is to describe patient-reported outcomes (PRO) for these measures in participants in arm 1 and arm 2.",
+          "timeFrame": "At baseline, every three months during the first year and every six months during years 2 and 3"
+        },
+        {
+          "measure": "Changes in decision regret in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to assess the changes in decision regret among participants, measured using the Decision Regret Scale. This scale is scored from 1 to 5, where 1 indicates \"strongly agree\" and 5 indicates \"strongly disagree\". This evaluation aims to provide insights into the emotional and psychological impact of cancer treatment decisions",
+          "timeFrame": "At baseline, six months, and one year"
+        },
+        {
+          "measure": "Change from Baseline in Severity of Symptoms in patients with resected moderate to high-anatomical risk, low-genomic risk, ER-positive, HER2-negative breast cancer",
+          "description": "This seeks to assess the change from baseline in the severity of symptoms. This will be measured using the Common Terminology Criteria for Adverse Events-Patient Reported Outcome (CTCAE-PRO). CTCAE-PRO will be scored from \"none/not at all\" to \"very severe/severe\". The objective is to describe patient-reported outcomes (PRO) for these measures in participants in arm 1 and arm 2.",
+          "timeFrame": "At baseline, every three months during the first year and every six months during years 2 and 3"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female or male age \u2265 18 years old and have the ability to understand and the willingness to sign a written informed consent document.\n2. Participants may have ipsilateral or contralateral synchronous breast cancer if the highest stage tumor meets entry criteria, and the other sites of disease would not require chemotherapy or HER2-directed therapy.\n3. Participants may have multicentric or multifocal breast cancer if the highest stage tumor meets entry criteria, and the other sites of disease would not require chemotherapy or HER2-directed therapy.\n4. Participants underwent a total mastectomy, skin-sparing mastectomy, nipple-sparing mastectomy, or a lumpectomy.\n5. Participants must have undergone axillary staging with sentinel node biopsy (SNB), targeted axillary dissection (TAD), or axillary lymph node dissection (ALND).\n6. The following staging criteria must be met postoperatively according to AJCC 8th edition criteria: men or premenopausal women T2-3N0 and RS 16-25, or T1-3N1-2 and RS \u2264 25, and postmenopausal women T2-3N0 and RS 26-30, or T1-3N1 and RS 26-30, or T1-3N2 and RS \u2264 25.\n7. The tumor must be ER-positive (\u2265 10%), HER2-negative, by current ASCO/CAP guidelines based on testing results. HER2-negative breast cancer is defined as a negative in situ hybridization test or an immunohistochemistry (IHC) status of 0 or 1+. If IHC is 2+, a negative in situ hybridization (FISH, CISH, or SISH) test is required to confirm the participant's HER2-negative status (based on the most recently analyzed tissue sample tested by a local laboratory).\n8. Participants with known menopausal status at the time of screen.\n\n   a. Postmenopausal status is defined as: i. Participant underwent bilateral oophorectomy, or ii. Age \u2265 60 years, or Age \\< 60 years and amenorrhea for 12 or more months (in the absence of chemotherapy, tamoxifen, toremifene or ovarian suppression) and Follicle-stimulating hormone (FSH) and plasma estradiol are in the postmenopausal ranges per local normal ranges. Note: All women who do not meet the criteria for postmenopausal status are considered premenopausal for the purpose of this trial.\n9. HIV-infected participants with undetectable viral load within 6 months and in long term anti-retroviral therapy that would not have a significant drug-drug interaction with ribociclib are eligible for this trial.\n10. Radiation therapy should be used according to standard guidelines.\n11. Participants must have an ECOG performance status of 0 to 1 within 28 days prior to registration of the study.\n12. Participant is able to swallow oral medications.\n13. Participants must have adequate organ and marrow function as defined below. All laboratory values must be obtained within 28 days prior to registration of the study.\n\n    1. Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 109/L.\n    2. Platelets \u2265 100 \u00d7 109/L.\n    3. Hemoglobin \u2265 9.0 g/dL.\n    4. Estimated glomerular filtration rate (eGFR) \u2265 30 mL/min/1.73m2 according to the Modification of Diet in Renal Disease (MDRD) formula.\n    5. Alanine transaminase (ALT) \\< 2.5 \u00d7 Upper Limit Normal (ULN).\n    6. Aspartate transaminase (AST) \\< 2.5 \u00d7 ULN.\n    7. Total serum bilirubin \\< ULN; or total bilirubin \u2264 3.0 \u00d7 ULN or direct bilirubin \u2264 1.5 \u00d7 ULN in patients with well documented Gilbert's Syndrome.\n    8. Patient must have the following laboratory values within normal limits or corrected to within normal limits with supplements (the local laboratory value should be documented within normal limits after the correction) before enrollment:\n\n       * Potassium.\n       * Magnesium.\n       * Total Calcium (corrected for serum albumin).\n14. Standard 12-lead ECG values assessed as: QTcF interval (using Fridericia's correction) at screening \\< 450 msec. Resting heart rate 50-90 beats per minute (determined from the ECG).\n15. Participant must be willing and able to comply with scheduled visits, treatment plans, laboratory tests, and other trial procedures.\n16. Participants must adhere to the following reproductive and contraceptive requirements while on study treatment and within three months after receiving the last dose of the treatment drugs.\n\n    a. General requirements: i. Participants must not be pregnant or breastfeeding. ii. Participants must not donate or freeze eggs for future use related to assisted reproduction during the course of this study or within three months after receiving the last dose of the treatment drugs.\n\n    b. For participants of childbearing potential: i. A participant of childbearing potential is defined as an individual who is premenopausal and capable of becoming pregnant. This includes individuals using contraception, those who are sexually inactive, and those with partners who have undergone a vasectomy. A participant is considered of childbearing potential if they have reached menarche, have not yet met the criteria for postmenopause (defined as more than 12 consecutive months of amenorrhea without any other medical cause), and have not undergone surgical sterilization (such as hysterectomy or oophorectomy).\n\n    ii. A negative highly sensitive serum pregnancy test (for \u03b2-hCG) must be obtained within two weeks of starting the treatment drug administration.\n\n    iii. Participants must practice at least one highly effective method of contraception.\n\n    c. Highly effective methods of contraception include, but are not limited to: i. Total abstinence (no sexual relations), when this is in line with your preferred and usual lifestyle. Periodic abstinence like calendar, ovulation, symptothermal, post-ovulation methods, and withdrawal are not acceptable methods of contraception.\n\n    ii. Total hysterectomy (surgical removal of the uterus and cervix) or tubal ligation (getting your \"tubes tied\") at least six weeks before taking study treatment.\n\n    iii. Your male partner has already been sterilized with the appropriate documentation. The sterilized male partner should be your sole partner.\n\n    iv. Placement of an intrauterine device (IUD) v. The use of oral (estrogen and progesterone), injected or implanted hormonal methods of contraception or intrauterine system (IUS) or any other form of hormonal contraception (e.g., hormone vaginal ring, hormonal-based IUD or transdermal hormone contraception) is not allowed in this study.\n17. Participant has no contraindication for the adjuvant ET in the trial and is planned to be treated with ET for five years or more.\n\nExclusion Criteria:\n\nParticipants who meet any of the following criteria will be excluded from study entry:\n\n1. Definitive clinical or radiologic evidence of distant metastases of breast cancer beyond regional lymph nodes (stage IV according to AJCC 8th edition) and/or evidence of recurrence after curative surgery.\n2. T4 tumors, including inflammatory breast cancer.\n3. N3 tumors.\n4. Participants that have received neoadjuvant chemotherapy or biotherapy.\n5. Participant is concurrently using hormone replacement therapy.\n6. Participants with a known hypersensitivity to any of the excipients of ribociclib and/or ET (e.g. rare hereditary problems of galactose intolerance, the Lapp lactase deficiency, glucose-galactose malabsorption, and soy allergy).\n7. Participant has received any CDK4/6 inhibitor.\n8. Participant has a concurrent invasive malignancy or a prior invasive malignancy that requires systemic therapy or place them at more than minimal risk of mortality in the next 5 years.\n9. Participant has known active hepatitis B virus (HBV) or hepatitis C virus (HCV) infection (testing is not mandatory, unless required by local regulation).\n10. Life expectancy of \\<5 years due to co-morbid conditions in the opinion of the treating investigator.\n11. Non-epithelial breast malignancies such as sarcoma or lymphoma.\n12. Hormonally based contraceptive measures must be discontinued prior to registration (including progestin/progesterone IUDs).\n13. Pregnancy or lactating women or women who plan to become pregnant or breast-feed during the trial.\n\n    a. Note: Pregnancy testing according to institutional standards for women of childbearing potential must be performed at screening.\n14. Clinically significant, uncontrolled heart disease and/or cardiac repolarization abnormality, including any of the following:\n\n    1. History of documented myocardial infarction (MI), angina pectoris, symptomatic pericarditis, or coronary artery bypass graft within six months prior to screening\n    2. Documented cardiomyopathy\n    3. Long QT syndrome or family history of idiopathic sudden death or congenital long QT syndrome, or any of the following:\n\n    i. Risk factors for Torsades de Pointes (TdP) including uncorrected hypokalemia or hypomagnesemia, history of cardiac failure, or history of clinically significant/symptomatic bradycardia ii. Concomitant medication(s) with a known risk to prolong the QT interval and/or known to cause TdP that cannot be discontinued or replaced by safe alternative medication (e.g. within five half-lives or seven days prior to starting trial treatment) iii. Inability to determine the QTcF interval d. Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, high-grade Atrioventricular (AV) block (e.g. bifascicular block, Mobitz type II- and third-degree AV block) e. Uncontrolled arterial hypertension.\n15. Participant is currently receiving any of the following substances within 7 days before registration:\n\n    1. Concomitant medications, herbal supplements, and/or fruits (e.g. grapefruit, pummelos, starfruit, Seville oranges) and their juices that are known as strong inhibitors or inducers of CYP3A4/5.\n    2. Medications that have a narrow therapeutic window and are predominantly metabolized through CYP3A4/5.\n16. Participant is currently receiving or has received systemic corticosteroids \u2264 2 weeks prior to starting trial treatment or has not fully recovered from side effects of such treatment. Note: The following uses of corticosteroids are permitted: a short duration (\\<5 days) of systemic corticosteroids, any duration of topical applications (e.g. for rash), inhaled sprays (e.g. for obstructive airways diseases), eye drops or local injections (e.g. intra-articular).\n17. Participant has impairment of GI function or GI disease that may significantly alter the absorption of the oral trial treatments (e.g. uncontrolled ulcerative diseases, uncontrolled nausea, vomiting or diarrhea, malabsorption syndrome, or small bowel resection).\n18. Participant has any other concurrent severe and/or uncontrolled medical condition that would, in the principal investigator's judgment, cause unacceptable safety risks, contraindicate patient participation in the clinical trial or compromise compliance with the protocol (e.g. chronic pancreatitis, chronic active hepatitis, liver cirrhosis or any other significant liver disease, active untreated or uncontrolled fungal, bacterial or viral infections, active infection requiring systemic anti-bacterial therapy, etc.).\n19. Participation in other studies involving investigational drug(s) within 30 days prior to registration or within 5 half-lives of the investigational drug(s) (whichever is longer), or participation in any other type of medical research judged not to be scientifically or medically compatible with this trial. If the participant is enrolled or planned to be enrolled in another study that does not involve an investigational drug, the agreement of the Sponsor-Investigator is required to establish eligibility.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Stephanie Ladd",
+          "role": "CONTACT",
+          "phone": "954-895-0576",
+          "email": "stephanie.ladd@yale.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Jing Du",
+          "affiliation": "Yale University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Yale University",
+          "status": "RECRUITING",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06511",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Carl Brown",
+              "role": "CONTACT",
+              "phone": "203-785-4095",
+              "email": "carl.brown@yale.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D017273",
+          "term": "Goserelin"
+        },
+        {
+          "id": "D017024",
+          "term": "Chemotherapy, Adjuvant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,477 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06518837",
+      "orgStudyIdInfo": {
+        "id": "042403"
+      },
+      "organization": {
+        "fullName": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "briefTitle": "Tirzepatide for Weight Loss Intervention in Early-Stage Hormone Receptor Positive/HER2 Negative Breast Cancer",
+      "officialTitle": "FITWISE: Feasibility Study of Tirzepatide for Weight Loss Intervention in Early-Stage Hormone Receptor Positive/HER2 Negative Breast Cancer",
+      "acronym": "FITWISE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-09-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-06-27",
+      "studyFirstSubmitQcDate": "2024-07-18",
+      "studyFirstPostDateStruct": {
+        "date": "2024-07-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Coral Omene",
+        "investigatorTitle": "Program Director, Breast Cancer Disparities Research; Associate Professor of Medicine",
+        "investigatorAffiliation": "Rutgers Cancer Institute of New Jersey"
+      },
+      "leadSponsor": {
+        "name": "Rutgers, The State University of New Jersey",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Ludwig Institute for Cancer Research",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "This clinical trial aims to evaluate the effectiveness of tirzepatide in achieving a 5% or more body weight reduction in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The study will also assess the safety and tolerability of tirzepatide, its feasibility based on discontinuation rates, and completion of treatment. Secondary objectives include evaluating 3-year invasive disease-free survival (IDFS) and distant relapse-free survival (DRFS), changes in BMI and body fat distribution, metabolic markers, and circulating tumor DNA (ctDNA).",
+      "detailedDescription": "The primary objective of this clinical trial is to determine the proportion of patients who achieve a 5% or greater reduction in body weight by the end of the study treatment with tirzepatide, during adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. Secondary objectives include assessing the safety and tolerability of tirzepatide for weight loss during this treatment. The feasibility of using tirzepatide for weight loss intervention will be evaluated through discontinuation rates and completion of the treatment course. Additionally, the trial will determine the 3-year invasive disease-free survival (IDFS) and 3-year distant relapse-free survival (DRFS) with the use of tirzepatide. The study will also assess changes in Body Mass Index (BMI), body fat distribution (measured via Waist/Hip Ratio (WHR) and waist circumference), and obesity-related metabolic markers (including Blood Pressure, fasting insulin, fasting blood glucose, HgbA1c, cholesterol, LDL, HDL, triglycerides, IGF1, estrogen, and testosterone). Finally, the trial will monitor for circulating tumor DNA (ctDNA) and assess changes when using tirzepatide for weight loss in the adjuvant treatment of HR+/Her2- breast cancer. Quality of Life assessments will be obtained and exploratory objectives investigating adipokines (adiponectin, leptin) and their receptors, metabolomic pathways and immune cell metabolism will be conducted."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Receptor-Positive Breast Cancer",
+        "HER2-Negative Breast Cancer"
+      ],
+      "keywords": [
+        "Weight Loss",
+        "Body Weight Reduction",
+        "Feasibility of Weight Loss Intervention",
+        "invasive Disease-Free Survival (IDFS)",
+        "Body Mass Index (BMI)",
+        "Body Fat Distribution",
+        "Metabolic Markers",
+        "Circulating Tumor DNA (ctDNA)",
+        "Tirzepatide",
+        "GIP and GLP-1 dual agonist",
+        "Black patients",
+        "distant relapse-free survival (DRFS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Tirzepatide will be administered subcutaneously in the stomach, upper arm, or thigh. Administer once weekly at any time of day, with or without meals. Start with an initial dosage of 2.5 mg. After 4 weeks, increase to 5 mg weekly. Further increases may be made in 2.5 mg increments after at least 4 weeks on the current dose, aiming for a target of 15 mg (i.e., 2.5 mg, 5 mg, 7.5 mg, 10 mg, 12.5 mg, or 15 mg). Consider treatment tolerability when selecting the maintenance dose. If not tolerated, consider the next lower maintenance dose. Recommended maintenance doses are 5 mg, 10 mg, or 15 mg, with 5 mg as the lowest evaluable dose. The 2.5 mg dose is not a maintenance dose. The maximum allowed dosage is 15 mg once weekly.\n\n20 Black and 20 Non-Black breast cancer patients will be enrolled. More black patients will be enrolled to enrich this cohort with the population that has an established significant disparity in HR+ breast cancer and obesity related outcomes.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tirzepatide",
+          "type": "EXPERIMENTAL",
+          "description": "Tirzepatide will be administered subcutaneously in the stomach, upper arm, or thigh, rotating injection sites with each dose. Administer once weekly at any time of day, with or without meals. Start with an initial dosage of 2.5 mg. After 4 weeks, increase to 5 mg weekly. Further increases may be made in 2.5 mg increments after at least 4 weeks on the current dose, aiming for a target of 15 mg (i.e., 2.5 mg, 5 mg, 7.5 mg, 10 mg, 12.5 mg, or 15 mg). Consider treatment tolerability when selecting the maintenance dose. If not tolerated, consider the next lower maintenance dose. Recommended maintenance doses are 5 mg, 10 mg, or 15 mg, with 5 mg as the lowest evaluable dose. The 2.5 mg dose is not a maintenance dose. The maximum allowed dosage is 15 mg once weekly.",
+          "interventionNames": [
+            "Drug: Tirzepatide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tirzepatide",
+          "description": "The intervention aims to assess the feasibility, safety, and efficacy of tirzepatide for weight loss in patients with early-stage hormone receptor-positive, HER2-negative breast cancer, potentially improving treatment outcomes and overall health.",
+          "armGroupLabels": [
+            "Tirzepatide"
+          ],
+          "otherNames": [
+            "LY3298176 (development code name)",
+            "Mounjaro (brand name in certain regions)",
+            "Zepbound (brand name in certain regions)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Weight Loss Reduction with Tirzepatide during Adjuvant Treatment for HR+/Her2- Breast Cancer (Measured by Body Weight Reduction)",
+          "description": "To determine the effectiveness of tirzepatide in facilitating a 5% or more weight loss in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer.",
+          "timeFrame": "Through study completion, total of two years."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability of Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer (Measured by Incidence of Adverse Events Using CTCAE v5.0)",
+          "description": "This outcome assesses the safety and tolerability of tirzepatide for weight loss in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to monitor and document the incidence of adverse events (AEs) associated with tirzepatide use, utilizing the Common Terminology Criteria for Adverse Events (CTCAE) version 5.0. This assessment will help determine the risk profile of tirzepatide and ensure that the benefits of weight loss outweigh potential adverse effects in this patient population.",
+          "timeFrame": "Adverse events will be monitored through study completion for two years."
+        },
+        {
+          "measure": "Feasibility of Tirzepatide for Weight Loss Intervention during Adjuvant Treatment for HR+/Her2- Breast Cancer (Assessed by Discontinuation Rates and Completion of Treatment Course).",
+          "description": "This outcome measures the feasibility of using tirzepatide for weight loss intervention in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to assess the intervention's practicality by evaluating discontinuation rates and the completion of the treatment course. High completion rates and low discontinuation rates will indicate that tirzepatide is a feasible weight loss intervention in this patient population.",
+          "timeFrame": "Feasibility will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Clinical Efficacy of Tirzepatide during Adjuvant Treatment for HR+/Her2- Breast Cancer (Measured by 3-Year Invasive Disease-Free Survival and 3-Year Distant Relapse-Free Survival)",
+          "description": "This outcome measures the clinical efficacy of tirzepatide in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to determine the 3-year invasive disease-free survival (IDFS) and the 3-year distant relapse-free survival (DRFS) rates. These metrics will help evaluate whether weight loss using tirzepatide contributes to preventing cancer recurrence and metastasis in this patient population.",
+          "timeFrame": "Patients will be monitored for recurrence through study completion and an additional year, for total three years."
+        },
+        {
+          "measure": "Assessment of Obesity Measurements Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer, as measured by Waist/Hip Ratio (WHR), and waist circumference.",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metrics in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in Body Mass Index (BMI), body fat distribution as measured by Waist/Hip Ratio (WHR), and waist circumference. These assessments will help determine the effectiveness of tirzepatide in improving body fat distribution and reducing obesity in this patient population. Weight and height will be combined to report BMI in kg/m\\^2 and waist circumference reported in inches.",
+          "timeFrame": "Obesity measurements will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity Measurements Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer, Weight and height will be combined to report BMI in kg/m^2.",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metrics in patients undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in Body Mass Index (BMI), body fat distribution These assessments will help determine the effectiveness of tirzepatide in improving body fat distribution and reducing obesity in this patient population. Weight and height will be combined to report BMI in kg/m\\^2.",
+          "timeFrame": "Obesity measurements will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer Assessment of Blood Pressure Changes unit of Measure: Millimeters of mercury (mm Hg).",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, blood pressure (mm Hg),assessment of blood pressure changes unit of measure: millimeters of mercury (mm Hg)These assessments will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer Assessment of fasting insulin changes, unit of Measure: Milli-international units per liter (mIU/L)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, Assessment of Fasting Insulin changes, unit of measure: milli-international units per liter (mIU/L)This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer, Assessment of Fasting Blood Glucose Changes, Unit of Measure: Millimoles per liter (mmol/L)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, assessment of fasting blood glucose changes unit of measure: millimoles per liter (mmol/L). This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer Assessment of HgbA1c Changes, Unit of Measure: Millimoles per mole (mmol/mol)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-assessment of HgbA1c Changes unit of measure: millimoles per mole (mmol/mol). This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer Assessment of Cholesterol (Total, LDL, HDL) Changes Unit of Measure: Milligrams per deciliter (mg/dl)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, assessment of cholesterol (Total, LDL, HDL) changes unit of measure: milligrams per deciliter (mg/dl)This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer, Assessment of Triglyceride Changes Unit of Measure: Millimoles per liter (mmol/L)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, assessment of triglyceride changes unit of measure: millimoles per liter (mmol/L)This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer, Assessment of IGF1 Changes, Unit of Measure: Nanograms per milliliter (ng/ml)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, assessment of IGF1 changes unit of measure: nanograms per milliliter (ng/ml)This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer, Assessment of Estrogen Changes, Unit of Measure: Picograms per milliliter (pg/ml)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, assessment of estrogen changes unit of measure: Picograms per milliliter (pg/ml)This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Assessment of Obesity-Related Metabolic Markers Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer Assessment of Testosterone Changes, Unit of Measure: Nanograms per deciliter (ng/dL)",
+          "description": "This outcome measures the impact of tirzepatide on obesity-related metabolic markers in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to evaluate changes in various metabolic markers, assessment of testosterone changes unit of measure: nanograms per deciliter (ng/dL)This assessment will help determine the effectiveness of tirzepatide in improving metabolic health and reducing obesity-related risks in this participant population.",
+          "timeFrame": "Metabolic markers will be evaluated through study completion for two years."
+        },
+        {
+          "measure": "Monitoring Circulating Tumor DNA (ctDNA) Levels Using Tirzepatide for Weight Loss during Adjuvant Treatment for HR+/Her2- Breast Cancer (Detection and Changes in ctDNA Levels during Treatment).",
+          "description": "This outcome measures the effect of tirzepatide on circulating tumor DNA (ctDNA) levels, which potentially serve as an early indicator of cancer recurrence in participants undergoing adjuvant treatment for hormone receptor-positive, HER2-negative (HR+/Her2-) breast cancer. The primary focus is to detect ctDNA and monitor changes in its levels throughout the treatment duration. Assessing ctDNA levels can provide insights into the molecular response to obesity treatment using tirzepatide.",
+          "timeFrame": "ctDNA levels will be monitored through study completion for two years."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Consent: Be willing and able to provide written informed consent for the trial.\n* Age: Male or Female patients aged 18 years or older.\n* Breast Cancer Diagnosis: Have hormone receptor-positive (HR+), HER2-negative (HER2-) breast cancer previously diagnosed by biopsy. HR status is defined as estrogen receptor (ER) \\>10% and/or progesterone receptor (PR) \\>10%; HER2 status is defined as immunohistochemistry (IHC) 0 or 1+ or IHC 2+, fluorescence in situ hybridization (FISH) negative.\n* Stage: Have previously untreated early-stage, clinical or anatomic stage I, II, or III hormone receptor-positive breast cancer.\n* Definitive Treatment: Have had definitive treatment with curative intent for breast cancer, including surgery, chemotherapy, and radiotherapy as indicated.\n* Body Mass Index (BMI): Have a BMI of 30 kg/m\u00b2 or more, or a BMI of 27 kg/m\u00b2 or more with one weight-related complication (e.g., hypertension, type 2 diabetes, dyslipidemia, obstructive sleep apnea, or cardiovascular disease).\n* Performance Status: Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2.\n* Cardiac Function: Have a left ventricular ejection fraction (LVEF) of 50% or greater, or greater than the institution's lower limit of normal (LLN), as assessed by echocardiogram (ECHO) or multigated acquisition (MUGA) scan performed at screening.\n* Organ Function: Demonstrate adequate organ function in screening labs.\n* Tumor Specimens: Have archived biopsy or surgical tumor specimens available as tumor blocks or unstained slides.\n\nExclusion Criteria:\n\n* Other Clinical Studies: Is currently enrolled, or will enroll in, a different clinical study in which investigational therapeutic procedures are performed or investigational therapies are administered while participating in this study.\n* Stage IV Breast Cancer: Have stage IV, metastatic breast cancer.\n* Cancer Type: Have HER2-positive or triple-negative breast cancer.\n* Active Malignancy: Have a concomitant active malignancy.\n* Performance Status: Have an Eastern Cooperative Oncology Group (ECOG) performance status greater than 2.\n* Body Mass Index: Have a BMI of less than 27 kg/m\u00b2.\n* Type 1 Diabetes Mellitus: Have type 1 diabetes mellitus.\n* Gastric Emptying Abnormality: Have a known clinically important gastric emptying abnormality (e.g., severe gastroparesis or gastric outlet obstruction) or chronically took drugs that directly affect gastrointestinal motility.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Coral Omene, MD., PhD",
+          "role": "CONTACT",
+          "phone": "732-235-3374",
+          "email": "co273@cinj.rutgers.edu"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Coral Omene, MD., PhD",
+          "affiliation": "Rutgers Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Trinitas Comprehensive Cancer Center",
+          "status": "RECRUITING",
+          "city": "Elizabeth",
+          "state": "New Jersey",
+          "zip": "07202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD.,PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.66399,
+            "lon": -74.2107
+          }
+        },
+        {
+          "facility": "RWJ Barnabas Health - Robert Wood Johnson University Hospital, Hamilton",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hamilton",
+          "state": "New Jersey",
+          "zip": "08690",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD.,PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.20706,
+            "lon": -74.08125
+          }
+        },
+        {
+          "facility": "RWJBarnabas Health - Cooperman Barnabas, Livingston",
+          "status": "RECRUITING",
+          "city": "Livingston",
+          "state": "New Jersey",
+          "zip": "07039",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD.,PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.79593,
+            "lon": -74.31487
+          }
+        },
+        {
+          "facility": "RWJBarnabas Health - Monmouth Medical Center",
+          "status": "RECRUITING",
+          "city": "Long Branch",
+          "state": "New Jersey",
+          "zip": "07740",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD., PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.30428,
+            "lon": -73.99236
+          }
+        },
+        {
+          "facility": "Rutgers Cancer Institute",
+          "status": "RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08901",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene,, MD.PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "RWJBarnabas Health - Newark Beth Israel Medical Center",
+          "status": "RECRUITING",
+          "city": "Newark",
+          "state": "New Jersey",
+          "zip": "07112",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD., PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.73566,
+            "lon": -74.17237
+          }
+        },
+        {
+          "facility": "RWJ Barnabas Health - Robert Wood Johnson University Hospital, Somerset",
+          "status": "RECRUITING",
+          "city": "Somerville",
+          "state": "New Jersey",
+          "zip": "08876",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Coral Omene, MD., PhD",
+              "role": "CONTACT",
+              "phone": "732-235-3374",
+              "email": "co273@cinj.rutgers.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.57427,
+            "lon": -74.60988
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D015431",
+          "term": "Weight Loss"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001836",
+          "term": "Body Weight Changes"
+        },
+        {
+          "id": "D001835",
+          "term": "Body Weight"
+        },
+        {
+          "id": "D012816",
+          "term": "Signs and Symptoms"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000098860",
+          "term": "Tirzepatide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D000067757",
+          "term": "Glucagon-Like Peptide-1 Receptor"
+        },
+        {
+          "id": "D000067756",
+          "term": "Glucagon-Like Peptide Receptors"
+        },
+        {
+          "id": "D043562",
+          "term": "Receptors, G-Protein-Coupled"
+        },
+        {
+          "id": "D011956",
+          "term": "Receptors, Cell Surface"
+        },
+        {
+          "id": "D008565",
+          "term": "Membrane Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D011964",
+          "term": "Receptors, Gastrointestinal Hormone"
+        },
+        {
+          "id": "D018000",
+          "term": "Receptors, Peptide"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

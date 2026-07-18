@@ -1,0 +1,342 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05150652",
+      "orgStudyIdInfo": {
+        "id": "MCC-21-BRE-54"
+      },
+      "organization": {
+        "fullName": "University of Kentucky",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neoadjuvant Endocrine Therapy in ER-positive, HER2-negative Early Stage Breast Cancer",
+      "officialTitle": "Phase 2 Study of Neoadjuvant Endocrine Therapy in ER-positive, HER2-negative Early Stage Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-02-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-11-24",
+      "studyFirstSubmitQcDate": "2021-12-08",
+      "studyFirstPostDateStruct": {
+        "date": "2021-12-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-01-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-01-07",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Irada Ibrahim-zada",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "University of Kentucky"
+      },
+      "leadSponsor": {
+        "name": "Irada Ibrahim-zada",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this study is to access whether treatment of early state estrogen-rich breast cancers with neoadjuvant endocrine therapy will result in higher rates of margin negativity on lumpectomy specimen."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "Node-negative Breast Cancer",
+        "Breast Carcinoma"
+      ],
+      "keywords": [
+        "Neoadjuvant endocrine therapy",
+        "Early stage"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Neoadjuvant Endocrine Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will begin treatment with Anastrozole. If not tolerated well, participants will discontinue and begin treatment using Letrozole. If not tolerated well, participants will discontinue and begin treatment using Exemestane. If not tolerated well, participants will discontinue and begin treatment on Tamoxifen.",
+          "interventionNames": [
+            "Drug: Anastrozole 1mg",
+            "Drug: Letrozole 2.5mg",
+            "Drug: Exemestane 25 mg",
+            "Drug: Tamoxifen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Anastrozole 1mg",
+          "description": "Participants will take 1mg of anastrozole once daily, orally, for up to six cycles of 28 days.",
+          "armGroupLabels": [
+            "Neoadjuvant Endocrine Therapy"
+          ],
+          "otherNames": [
+            "Arimidex"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole 2.5mg",
+          "description": "Participants will take 2.5mg of Letrozole once daily, orally, for up to six cycles of 28 days.",
+          "armGroupLabels": [
+            "Neoadjuvant Endocrine Therapy"
+          ],
+          "otherNames": [
+            "Femara"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane 25 mg",
+          "description": "Participants will take 25mg of Exemestane once daily, orally, for up to six cycles of 28 days.",
+          "armGroupLabels": [
+            "Neoadjuvant Endocrine Therapy"
+          ],
+          "otherNames": [
+            "Aromasin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen",
+          "description": "Participants will take 20mg of Tamoxifen once daily, orally, for up to six cycles of 28 days.",
+          "armGroupLabels": [
+            "Neoadjuvant Endocrine Therapy"
+          ],
+          "otherNames": [
+            "Soltamox"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in margin status",
+          "description": "Evaluate the effect of neoadjuvant endocrine therapy (6-months course) on margin status of breast conservation surgery for women with early stage, low-risk breast cancer, defined as ER-positive, HER2-negative, node-negative breast carcinoma (single lesion only). Negative margin status is defined as no tumor on ink.",
+          "timeFrame": "Baseline, 6-months after neoadjuvant treatment and surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Residual cancer burden",
+          "description": "The following parameters are required from pathologic examination in order to calculate Residual Cancer Burden (RCB) after neoadjuvant treatment: Primary tumor bed area, overall cancer cellularity (as percentage of area), percentage of cancer that is in situ disease, number of positive lymph nodes and diameter of largest metastasis. These parameters are filled in in the calculator that is available online to calculate the Residual Cancer Burden index: http://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3",
+          "timeFrame": "After neoadjuvant treatment and surgery (approximately 6 months from diagnosis)"
+        },
+        {
+          "measure": "Pattern of response",
+          "description": "Pattern of response (pathologic complete response, concentric shrinking with similar cellularity, size unchanged with decreased cellularity, no treatment response)",
+          "timeFrame": "After neoadjuvant treatment and surgery (approximately 6 months from diagnosis)"
+        },
+        {
+          "measure": "Change in satisfaction with cosmetic outcome",
+          "description": "The Breast-Q\u00a9 is a patient reported outcome measure for breast surgery that measures patient reported satisfaction and quality of life (QOL) developed by Memorial Sloan Kettering Cancer Center. It is comprised of 10 scales that address: 1) psychosocial well-being, 2) sexual well-being, 3) satisfaction with breasts, 4) physical well-being, 5) adverse effects of radiation, 6) satisfaction with information - breast surgeon, 7) satisfaction with information - radiation oncologist, 8) satisfaction with surgeon, 9) satisfaction with medical team, 10) satisfaction with office staff. Each module is scored from 0-100 where higher scores reflect a better outcome.",
+          "timeFrame": "After neoadjuvant treatment and surgery (approximately 6 months and 12 months post-surgery)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in largest caliper measurement",
+          "description": "Largest caliper measurement (millimeters) on post-therapy imaging vs. largest final size of tumor",
+          "timeFrame": "Baseline, 6-months after neoadjuvant treatment and surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Pathologically confirmed invasive breast cancer, clinically stage I-II.\n* Clinically lymph node negative\n* Eligible for anti-endocrine treatment (per medical oncologist)\n* Postmenopausal women\n* Ability to understand and the willingness to sign a written informed consent document\n\nExclusion Criteria:\n\n* Progesterone receptor negativity\n* High grade tumor\n* Synchronous non-breast malignancy\n* Receiving any other investigational agents that could impact the efficacy of this trial regimen\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to Anastrozole, Letrozole, Exemestane, Tamoxifen or other agents used in study\n* Uncontrolled intercurrent illness\n* Medical, psychiatric or other condition and/or social situations that would limit compliance with study requirements",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Irada Ibrahim-zada, MD",
+          "affiliation": "University of Kentucky",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Kentucky Markey Cancer Center",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40536",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "36410913",
+          "type": "DERIVED",
+          "citation": "McDonald HG, Cassim EB, Harper MM, Burke EE, Marcinkowski EF, Cavnar MJ, Pandalai PK, Kim J. The Development of Investigator-Initiated Clinical Trials in Surgical Oncology. Surg Oncol Clin N Am. 2023 Jan;32(1):13-25. doi: 10.1016/j.soc.2022.07.003. Epub 2022 Nov 3."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

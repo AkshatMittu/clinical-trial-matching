@@ -1,0 +1,661 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05896566",
+      "orgStudyIdInfo": {
+        "id": "IBCSG 67-22"
+      },
+      "organization": {
+        "fullName": "ETOP IBCSG Partners Foundation",
+        "class": "NETWORK"
+      },
+      "briefTitle": "A Window-of-Opportunity Trial of Giredestrant +/- Triptorelin vs. Anastrozole + Triptorelin in Premenopausal Patients With ER-positive/HER2-negative Early Breast Cancer",
+      "officialTitle": "A Window-of-Opportunity Trial of Giredestrant +/- Triptorelin vs. Anastrozole + Triptorelin in Premenopausal Patients With ER-positive/HER2-negative Early Breast Cancer",
+      "acronym": "PREcoopERA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-01-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-18",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-09-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2023-05-31",
+      "studyFirstSubmitQcDate": "2023-05-31",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-02-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "ETOP IBCSG Partners Foundation",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "Hoffmann-La Roche",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "PREcoopERA is a randomized (2:2:1), multicenter, open-label, three-arm (A, B, C), Window-of-Opportunity (WOO) trial to evaluate the activity and safety of giredestrant (A) versus giredestrant plus triptorelin (B) versus anastrozole plus triptorelin (C).",
+      "detailedDescription": "The primary objectives are:\n\n* to determine if 4 weeks of giredestrant plus triptorelin provides greater anti-proliferative activity than anastrozole plus triptorelin among premenopausal patients with ER-positive/HER2-negative operable invasive breast cancer.\n* to determine if 4 weeks of giredestrant without triptorelin provides anti-proliferative activity that is similar (non-inferior) to giredestrant plus triptorelin among premenopausal patients with ER-positive/HER2-negative operable invasive breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Window of opportunity trial with no therapeutic intent, no efficacy.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 231,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A: Giredestrant",
+          "type": "EXPERIMENTAL",
+          "description": "Giredestrant",
+          "interventionNames": [
+            "Drug: Giredestrant"
+          ]
+        },
+        {
+          "label": "Arm B: Giredestrant plus triptorelin",
+          "type": "EXPERIMENTAL",
+          "description": "Giredestrant plus triptorelin",
+          "interventionNames": [
+            "Drug: Giredestrant",
+            "Drug: Triptorelin"
+          ]
+        },
+        {
+          "label": "Arm C: Anastrozole plus triptorelin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Anastrozole plus triptorelin",
+          "interventionNames": [
+            "Drug: Triptorelin",
+            "Drug: Anastrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Giredestrant",
+          "description": "Giredestrant: 30 mg daily, PO from day 1 until the day of re-biopsy/surgery.",
+          "armGroupLabels": [
+            "Arm A: Giredestrant",
+            "Arm B: Giredestrant plus triptorelin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Triptorelin",
+          "description": "Triptorelin: 3.75 mg IM on day 1. Note: If re-biopsy/surgery cannot be done on day 29 (\u00b13 days) from the first injection, then a second dose of triptorelin should be given on day 29 (\u00b13 days).",
+          "armGroupLabels": [
+            "Arm B: Giredestrant plus triptorelin",
+            "Arm C: Anastrozole plus triptorelin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "description": "Anastrozole: 1 mg daily, PO from day 1 until the day of re-biopsy/surgery.",
+          "armGroupLabels": [
+            "Arm C: Anastrozole plus triptorelin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Ki 67",
+          "description": "The primary endpoint is the change in Ki 67 (Ki 67-labeling index, the percentage immunostaining cells measured by IHC in central laboratory) between the pre-treatment tumor biopsy and a post-treatment tumor re-biopsy (analyzed on the natural logarithm scale).",
+          "timeFrame": "From date of randomisation until 29 \u00b13 days post-randomisation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Complete cell cycle arrest (CCCA)",
+          "description": "Complete cell cycle arrest (CCCA), defined as Ki 67 \u22642.7% on the post -treatment tumor re-biopsy on day 29 (\u00b13 days), by visual image analysis.",
+          "timeFrame": "From date of randomisation until 29 \u00b13 days post-randomisation"
+        },
+        {
+          "measure": "Adverse events according to CTCAE v5.0",
+          "description": "Record all AEs (including SAEs and AESIs) and assign the appropriate grade according to the CTCAE v5.0.",
+          "timeFrame": "From the date of enrolment until last patient last visit (approximately 28 months after randomisation of the first patient)]"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Premenopausal women age \u226518 years, premenopausal status defined as:\n\nEstradiol (E2) in the premenopausal range (according to institution parameters) or Patient has been menstruating regularly during the 6 months prior to screening and has not used any form of hormonal contraception or any other hormonal treatments during this time.\n\n* Histologically confirmed, operable invasive breast carcinoma.\n* Eligible for upfront breast conservative surgery or upfront mastectomy: stage I, stage II or operable stage III (excludes T4) (AJCC Cancer Staging Manual 8th edition 2017).46 Tumor size must be \u22651.0 cm Multicentric and multifocal tumors and bilateral breast cancers are allowed but investigators must ensure the same tumor foci is biopsied pre-treatment and post-treatment (e.g., via clipping of the biopsied tumor foci).\n* Documented estrogen receptor (ER)-positive tumor in accordance to ASCO/CAP guidelines (Allison et al. 2020),47 assessed locally and defined as \u22651% of tumor cells stained positive.\n* Documented human epidermal growth factor receptor-2 (HER2)-negative tumor in accordance to 2018 ASCO/CAP guidelines (Wolff et al. 2018)48, as determined per local assessment.\n* Ki 67 \u226510% in diagnostic biopsy as determined per local assessment.\n* Eastern Cooperative Oncology Group Performance Status 0-1.\n* Resting heart rate \u226540 bpm.\n* Normal hematologic status\n* Normal renal function\n* Normal liver function\n* INR \\<1.5\u00d7 ULN and PTT \\<1.5x ULN Except for patients receiving anticoagulation therapy. For patients receiving warfarin, a stable INR between 2 and 3 is required. For patients receiving heparin, PTT between 1.5 and 2.5 x ULN (or value before patient started heparin treatment) is required.\n\nIf anticoagulation therapy is required for a prosthetic heart valve, stable INR between 2.5 and 3.5 is permitted.\n\n* Negative serum or urine beta HCG pregnancy test within 5 weeks prior to randomization.\n\nPregnancy test will be repeated on day 1, before the first dose of WOO treatment.\n\nWomen of childbearing potential must use highly effective contraceptive methods during the treatment period and for 10 days after the final dose.\n\n* Written Informed Consent (IC) must be signed and dated by the patient and the Investigator prior to randomization.\n* The patient has been informed of and agrees to data transfer and handling, in accordance with national data protection guidelines.\n* The patient agrees to the submission of tumor (diagnostic pre-treatment core biopsy and post-treatment re-biopsy) and blood samples for central pathology review (CPR) and for translational studies as part of this protocol.\n\nExclusion Criteria:\n\n* Stage IV (metastatic) breast cancer.\n* Inflammatory breast cancer (cT4d).\n* Previous systemic or local treatment for the primary breast cancer currently under investigation.\n* Received any GnRH/LHRH analog within 12 months prior to randomization\n* Major surgery within 4 weeks prior to randomization.\n* Known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including hepatitis.\n* Other severe acute or chronic medical or psychiatric condition or laboratory abnormality that may increase the risk associated with study participation or investigational product administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the patient inappropriate for entry into this study.\n* History of documented hemorrhagic diathesis, coagulopathy, or thromboembolism.\n* Active cardiac disease or history of cardiac dysfunction, including any of the following:\n\nHistory or presence of symptomatic bradycardia or resting heart rate \\<50 bpm at screening. Patients on stable dose of a beta-blocker or calcium channel antagonist for pre-existing baseline conditions (e.g., hypertension) may be permitted if resting heart rate is \u226550 bpm.\n\nHistory of angina pectoris, symptomatic pericarditis, myocardial infarction, or any cardiac arrhythmias (e.g., ventricular, supraventricular, nodal arrhythmias, or conduction abnormality) within 12 months prior to study entry History of documented congestive heart failure (New York Heart Association Class II-IV) or cardiomyopathy Left ventricular ejection fraction \\<50% as determined by multiple-gated acquisition scan or echocardiogram QT interval corrected through use of Fridericia's formula (QTcF) \\>470 ms based on mean value of triplicate ECGs, history of long or short QT syndrome, Brugada syndrome or known history of corrected QT interval prolongation, or torsades de pointes History or presence of an abnormal ECG that is clinically significant in the investigator's opinion, including complete left bundle branch block, second- or third-degree heart block, sick sinus syndrome, or evidence of prior myocardial infarction\n\n* History of ventricular dysrhythmias or risk factors for ventricular dysrhythmias such as structural heart disease (e.g., severe left ventricular systolic dysfunction, left ventricular hypertrophy), coronary heart disease (symptomatic or with ischemia demonstrated by diagnostic testing), clinically significant electrolyte abnormalities (e.g., hypokalemia, hypomagnesemia, hypocalcemia), or family history of long QT syndrome.\n* Current treatment with medications that are well known to prolong the QT interval.\n* Treatment with strong CYP3A4 inhibitors or inducers within 14 days or 5 drug elimination half-lives (whichever is longer) prior to initiation of study treatment.\n* Known issues with swallowing oral medication.\n* Active inflammatory bowel disease or chronic diarrhea, short bowel syndrome, or major upper gastrointestinal surgery including gastric resection.\n* Serious infection requiring oral or IV antibiotics, or other clinically significant infection within 14 days prior to screening.\n* Any active tumor of non-breast-cancer histology.\n* Women who are pregnant or in the period of lactating.\n* Any concurrent disease or serious medical condition or abnormality in clinical laboratory tests that, in the investigator's judgment, precludes the patient's safe participation in and completion of the study.\n* Judgement by the investigator that the patient should not participate in the study if the patient is unlikely to comply with study procedures, restrictions and requirements.\n* Contraindications or known hypersensitivity to the trial medication or excipients.\n* Treatment with any investigational agents within 30 days prior to expected start of trial treatment.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Elisabetta Munzone, MD",
+          "affiliation": "European Institute of Oncology, Milano",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Gustave Roussy Cancer Center",
+          "city": "Villejuif",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "HELIOS Klinikum Berlin Buch",
+          "city": "Berlin",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Praxisklinik Krebsheilkunde formerly MediOnko-Institut GbR",
+          "city": "Berlin",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "KEM / Kliniken Essen Mitte",
+          "city": "Essen",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Klinikum der J. W. Goethe Universit\u00e4t",
+          "city": "Frankfurt",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 10.53333
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Schleswig-Holstein",
+          "city": "Kiel",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.32133,
+            "lon": 10.13489
+          }
+        },
+        {
+          "facility": "St. Elisabeth Krankenhaus",
+          "city": "Leipzig",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Mannheim GmbH",
+          "city": "Mannheim",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.4891,
+            "lon": 8.46694
+          }
+        },
+        {
+          "facility": "Klinikum S\u00fcdstadt",
+          "city": "Rostock",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.0887,
+            "lon": 12.14049
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Ulm",
+          "city": "Ulm",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "Helios Klinikum Wuppertal GmbH",
+          "city": "Wuppertal",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.25627,
+            "lon": 7.14816
+          }
+        },
+        {
+          "facility": "St. James Hospital",
+          "city": "Dublin",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "University Hospital Galway",
+          "city": "Galway",
+          "country": "Ireland",
+          "geoPoint": {
+            "lat": 53.27245,
+            "lon": -9.05095
+          }
+        },
+        {
+          "facility": "Clinica Oncologica AOU Riuniti Ancona",
+          "city": "Ancona",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.60717,
+            "lon": 13.5103
+          }
+        },
+        {
+          "facility": "Humanitas Gavazzeni",
+          "city": "Bergamo",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.69601,
+            "lon": 9.66721
+          }
+        },
+        {
+          "facility": "ASL BR Azienda Sanitaria Locale",
+          "city": "Brindisi",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.63215,
+            "lon": 17.93607
+          }
+        },
+        {
+          "facility": "IRCCS Ospedale Policlinico San Martino",
+          "city": "Genova",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "Istituto oncologico romagnolo per lo studio dei tumori \"Dino Amadori\"",
+          "city": "Meldola",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.12775,
+            "lon": 12.0626
+          }
+        },
+        {
+          "facility": "Istituto Europeo di Oncologia",
+          "city": "Milan",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "AOU maggiore della carita",
+          "city": "Novara",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.44694,
+            "lon": 8.62118
+          }
+        },
+        {
+          "facility": "Istituti Clinici Scientifici Maugeri SpA-SB",
+          "city": "Pavia",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.19205,
+            "lon": 9.15917
+          }
+        },
+        {
+          "facility": "Azienda USL Toscana Centro",
+          "city": "Prato",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.8805,
+            "lon": 11.09699
+          }
+        },
+        {
+          "facility": "Rimini Oncology department",
+          "city": "Rimini",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.05755,
+            "lon": 12.56528
+          }
+        },
+        {
+          "facility": "Policlinico universitario Agostino Gemelli IRCCS Rome",
+          "city": "Roma",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Institut Catala D'oncologia ICO-Badalona",
+          "city": "Badalona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Institut Catala d'Oncologia - Hospitalet",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "CIOCC (Centro Integral Oncol\u00f3gico Clara Campal)",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitari Son Espases",
+          "city": "Palma de Mallorca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "H. la F\u00e9",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Kantonsspital Baden AG",
+          "city": "Baden",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.47333,
+            "lon": 8.30592
+          }
+        },
+        {
+          "facility": "Praxis Dr. Thorn, Praxis fur ambulante Tumortherapie (Praxis Thorn (Bethesda))",
+          "city": "Basel",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          }
+        },
+        {
+          "facility": "Onc Inst of Southern Switzerland (IOSI)",
+          "city": "Bellinzona",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.19278,
+            "lon": 9.01703
+          }
+        },
+        {
+          "facility": "Centre du Sein (Hopital Fribourgeois-Freiburger Spital)",
+          "city": "Fribourg",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.80237,
+            "lon": 7.15128
+          }
+        },
+        {
+          "facility": "La Chaux-de-fonds, RH Neuchatelois (Hopital Les Cadolles)",
+          "city": "La Chaux-de-Fonds",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.09993,
+            "lon": 6.82586
+          }
+        },
+        {
+          "facility": "St. Anna Hirslanden",
+          "city": "Lucerne",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          }
+        },
+        {
+          "facility": "Brustzentrum Thurgau ( Spital AG)",
+          "city": "Thurgau",
+          "country": "Switzerland"
+        },
+        {
+          "facility": "Universitiy Hospital Zurich",
+          "city": "Zurich",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "removedCountries": [
+        "Hungary",
+        "Sweden"
+      ]
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000720132",
+          "term": "giredestrant"
+        },
+        {
+          "id": "D017329",
+          "term": "Triptorelin Pamoate"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

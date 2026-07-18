@@ -1,0 +1,233 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06341894",
+      "orgStudyIdInfo": {
+        "id": "OBU-II-BC-126"
+      },
+      "organization": {
+        "fullName": "The First Affiliated Hospital with Nanjing Medical University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Efficacy and Safety of Dalpiciclib With Endocrine Therapy as Adjuvant Treatment in HR+/ HER2- Early Breast Cancer",
+      "officialTitle": "Efficacy and Safety of Dalpiciclib With Endocrine Therapy as Adjuvant Treatment in Patients With Hormone Receptor-positive, HER2-negative Early Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-11-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-02-24",
+      "studyFirstSubmitQcDate": "2024-03-25",
+      "studyFirstPostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-03-25",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-04-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Liu Xiaoan",
+        "investigatorTitle": "Professor",
+        "investigatorAffiliation": "The First Affiliated Hospital with Nanjing Medical University"
+      },
+      "leadSponsor": {
+        "name": "The First Affiliated Hospital with Nanjing Medical University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigator conduct a phase II multi-center, open-label trial to evaluate efficacy and safety of dalpiciclib with endocrine therapy as adjuvant treatment in patients with medium /high risk hormone receptor-positive, HER2-negative Early Breast Cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1163,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Dalpiciclib and endocrine therapy",
+          "interventionNames": [
+            "Drug: Dalpiciclib",
+            "Drug: Endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dalpiciclib",
+          "description": "CDK4/6 inhibitor dalpiciclib, 100mg orally qd",
+          "armGroupLabels": [
+            "Treatment"
+          ],
+          "otherNames": [
+            "CDK4/6 inhibitor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Endocrine therapy",
+          "description": "Fulvestrant/AI",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "invasive Disease-free Survival (iDFS)",
+          "description": "Invasive disease-free survival time is defined as the time from date of enrollment until the first disease recurrence or death from any cause",
+          "timeFrame": "From enrollment until time of events up to 3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Disease-free Survival (DFS)",
+          "description": "Disease-free survival time is defined as the time from date of enrollment until the first disease recurrence\uff08including carcinoma in situ\uff09or death from any cause.",
+          "timeFrame": "From enrollment until time of events up to 3 years"
+        },
+        {
+          "measure": "AEs and SAEs",
+          "description": "Adverse events and Adverse events and serious adverse events according to CACTE 5.0",
+          "timeFrame": "From the first administration to one months after the last drug administration\uff0cup to one month"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient is \u2265 18 years-old\n* Patient is female with known menopausal status (postmenopausal or premenopausal/perimenopause)\n* Patient with histologically confirmed HR+/HER2- early breast cancer (immunohistochemical ER and/or PR\u226510%)\n* Histologically confirmed invasive breast cancer with anatomic stages of IIA-IIIC stage (T2-4N0-3M0), of which stage IIA only included T1N1M0\n* Patients with or without neoadjuvant or adjuvant chemotherapy/ radiotherapy were eligible for inclusion\n* From operation to enrollment should not exceed 12 months\n* Patient has an Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1\n\nExclusion Criteria:\n\n* metastatic disease (Stage IV) or inflammatory breast cancer\n* Previous or current history of malignant neoplasms, except for curatively treated:Basal and squamous cell carcinoma of the skin,Carcinoma in situ of the cervix.\n* Clinically relevant cardiovascular disease:Known history of uncontrolled or symptomatic angina, clinically significant arrhythmias, congestive heart failure, transmural myocardial infarction, uncontrolled hypertension \u2265180/110);\n* A history of allergy to the drugs in this study\uff1b\n* Unable or unwilling to swallow tablets\n* History of gastrointestinal disease with diarrhea as the major symptom.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Xiaoan Liu, Professor",
+          "role": "CONTACT",
+          "phone": "025-68308162",
+          "email": "liuxiaoan@126.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The First Affiliated Hospital of Nanjing Medical University",
+          "status": "RECRUITING",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Xiaoan Liu, Professor",
+              "role": "CONTACT",
+              "phone": "025-68308162",
+              "email": "liuxiaoan@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000720752",
+          "term": "dalpiciclib"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

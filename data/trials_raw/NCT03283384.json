@@ -1,0 +1,621 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03283384",
+      "orgStudyIdInfo": {
+        "id": "BOOG-2017-01"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-000676-29",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Borstkanker Onderzoek Groep",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Tailoring NEOadjuvant Therapy in Hormone Receptor Positive, HER2 Negative, Luminal Breast Cancer.",
+      "officialTitle": "Tailoring NEOadjuvant Therapy in Hormone Receptor Positive, HER2 Negative, Luminal Breast Cancer.",
+      "acronym": "NEOLBC"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-06-15",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-12-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2027-08",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-08-28",
+      "studyFirstSubmitQcDate": "2017-09-12",
+      "studyFirstPostDateStruct": {
+        "date": "2017-09-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-19",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Borstkanker Onderzoek Groep",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "Novartis",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Philips Healthcare",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this prospective, randomized, multicenter, open-label, phase II study is to test if chemotherapy can be replaced by the combination of ribociclib plus letrozole as a neo-adjuvant therapy for patients with non-metastatic primary luminal breast cancer.",
+      "detailedDescription": "Based on Ki67 levels after two weeks of initial letrozole treatment in postmenopausal patients with hormone receptor positive, HER2 negative, stage II/III breast cancer, patients are either advised to continue letrozole treatment (if Ki67 \\<1%) or will be randomized between standard chemotherapy (AC-T) or ribociclib in combination with letrozole (if Ki67 \u22651%)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms"
+      ],
+      "keywords": [
+        "Breast cancer",
+        "Ribociclib",
+        "Letrozole",
+        "Chemotherapy",
+        "CDK4",
+        "CDK6",
+        "Ki67",
+        "NEOLBC"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Advise letrozole, treatment choice free.",
+          "type": "OTHER",
+          "description": "All patients initially start with two weeks of letrozole treatment. Patients with a Ki67 of \\<1% in the biopsy taken after those two weeks of treatment are advised to stay on letrozole treatment until surgery. However, treatment choice is free.",
+          "interventionNames": [
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Chemotherapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "All patients initially start with two weeks of letrozole treatment. Patients with a Ki67 of \u22651% in the biopsy taken after those two weeks of treatment are randomized between chemotherapy (standard AC-T chemotherapy) or ribociclib plus letrozole (ribociclib 600 mg/day (days 1-21, q4 weeks) plus letrozole 2.5 mg daily (days 1-28, q4 weeks)).",
+          "interventionNames": [
+            "Drug: Chemotherapy"
+          ]
+        },
+        {
+          "label": "Ribociclib plus letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "All patients initially start with two weeks of letrozole treatment. Patients with a Ki67 of \u22651% in the biopsy taken after those two weeks of treatment are randomized between chemotherapy (standard AC-T chemotherapy) or ribociclib plus letrozole (ribociclib 600 mg/day (days 1-21, q4 weeks) plus letrozole 2.5 mg daily (days 1-28, q4 weeks)).",
+          "interventionNames": [
+            "Drug: Ribociclib plus letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Letrozole 2.5 mg daily.",
+          "armGroupLabels": [
+            "Advise letrozole, treatment choice free."
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Chemotherapy",
+          "description": "Dose dense AC-T chemotherapy: consisting of 4 cycles of AC (doxorubicin and cyclophosphamide at a dose of 60 and 600 mg/m\u00b2 as an i.v. bolus, respectively) 2-weekly, plus G-CSF (6 mg once per cycle) 24-48 hr after chemotherapy, followed by cycles of T (4 cycles docetaxel 100 mg/m\u00b2 3-weekly or 12 cycles paclitaxel 80 mg/m2 weekly).",
+          "armGroupLabels": [
+            "Chemotherapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ribociclib plus letrozole",
+          "description": "Ribociclib 600 mg/day (days 1-21, q4 weeks) plus letrozole 2.5 mg daily (days 1-28, q4 weeks).",
+          "armGroupLabels": [
+            "Ribociclib plus letrozole"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference in complete cell cycle arrest (CCCA; defined as Ki67 IHC <1%) between ribociclib plus letrozole and chemotherapy in the surgical specimen.",
+          "description": "Determine if ribociclib plus letrozole gives a \u2265100% improvement in CCCA as compared to chemotherapy in the surgical specimen.",
+          "timeFrame": "CCCA will be determined in the surgical specimen, which is around 7 months after start of initial letrozole treatment."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Correlation between Ki67 IHC scored manually, IHC scored automatically (Vectra \u00ae 3) and Ki67 mRNA.",
+          "description": "The correlation between the different Ki67 measurements will be determined in the primary core biopsy, two weeks biopsy and surgical specimen.",
+          "timeFrame": "Ki67 measurements will be done in the primary core biopsy (baseline), two weeks biopsy (done after two weeks of initial letrozole treatment) and the surgical specimen (which is around 7 months after start of initial letrozole treatment)."
+        },
+        {
+          "measure": "Correlation between ER pathway activity at baseline, after two weeks letrozole and at surgery and clinical outcome.",
+          "description": "The ER pathway activity will be determined in the primary core biopsy, two weeks biopsy and surgical specimen and then correlated with clinical outcome.\n\nActivity will be determined using a Bayesian network model of the ER transcriptional program, which interprets the pathway target genes' mRNA levels (from Affymetrix HG-U133Plus2.0 arrays) and infers a probability that the ER pathway is active in a certain sample.",
+          "timeFrame": "ER pathway activity will measured in the primary core biopsy (baseline), two weeks biopsy (done after two weeks of initial letrozole treatment) and the surgical specimen (which is around 7 months after start of initial letrozole treatment)."
+        },
+        {
+          "measure": "Difference in pathologic response (pCR and response according to Miller and Payne) between the randomized study arms.",
+          "description": "The pathologic response will be determined in the surgical specimen of the patients in the randomized study arms where after the difference between the two groups can be determined.",
+          "timeFrame": "pCR and response according to Miller and Payne will be determined in the surgical specimen, which is around 7 months after start of initial letrozole treatment."
+        },
+        {
+          "measure": "Change in tumor biology and biomarkers (ER, PR, HER2, Rb, Ki67) at baseline, after 2 weeks letrozole and at surgery.",
+          "description": "Tumor biology and biomarkers will be determined in the primary core biopsy, two weeks biopsy and surgical specimen, where after the change in tumor biology and biomarkers over time can be determined.",
+          "timeFrame": "Tumor biology and biomarkers will be assessed in the primary core biopsy (baseline), two weeks biopsy (done after two weeks of initial letrozole treatment) and the surgical specimen (which is around 7 months after start of initial letrozole treatment)."
+        },
+        {
+          "measure": "Toxicity according to NCI CTCAE v4.03 all grades and grade III/IV.",
+          "description": "Toxicities are graded according to NCI CTCAE v4.03.",
+          "timeFrame": "Toxicity will be assessed from start treatment up to 30 days following the last dose of treatment."
+        },
+        {
+          "measure": "Correlation of tumor measurements between standard MRI (using RECIST 1.1) and palpation (largest diameter in cm) at baseline, after AC/before T or 8 weeks of definitive neoadjuvant therapy and pre-surgery.",
+          "description": "The correlation of tumor measurements between MRI and palpation will be determined at three different time points.",
+          "timeFrame": "Tumor measurements (MRI and palpation) will be performed at baseline, after AC/before T or 8 weeks of definitive neoadjuvant therapy and pre-surgery (which is around 7 months after start of initial letrozole treatment)."
+        },
+        {
+          "measure": "Descriptive analysis of event free survival (EFS) at 3 and 5 years.",
+          "description": "EFS is defined as the time from randomization to the first date of local, regional, or distant relapse, second primary invasive breast cancer including contralateral breast cancer, progression according to RECIST 1.1 or death due to any cause which ever occurred first.",
+          "timeFrame": "EFS will be determined after 3 and 5 years."
+        },
+        {
+          "measure": "Descriptive analysis of overall survival (OS) at 3 and 5 years.",
+          "description": "OS is defined as the time from randomization to date of death.",
+          "timeFrame": "Time Frame: OS will be determined after 3 and 5 years."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in ER\u03b1 DNA binding signatures (Chip-seq) between baseline and after 2 weeks letrozole.",
+          "description": "ER\u03b1 DNA binding will be determined in the primary core biopsy and two weeks biopsy, where after the change in these measurements over time can be determined.",
+          "timeFrame": "ER\u03b1 DNA binding signatures will be assessed in the primary core biopsy (baseline) and the two weeks biopsy (done after two weeks of initial letrozole treatment)."
+        },
+        {
+          "measure": "Change in gene expression profiles (RNA-seq) between baseline and after 2 weeks letrozole.",
+          "description": "Gene expression profiling will be determined in the primary core biopsy and two weeks biopsy, where after the change in these measurements over time can be determined.",
+          "timeFrame": "Gene expression profiles will be assessed in the primary core biopsy (baseline) and the two weeks biopsy (done after two weeks of initial letrozole treatment)."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Postmenopausal women presenting with histological proven (core biopsy material) hormone receptor positive (ER\u226550%, PR any), HER2 negative, stage II/ III breast cancer.\n* Measurable disease (breast and/or lymph nodes)\n* WHO 0-2\n* Adequate bone marrow function (within 4 weeks prior to registration): WBC\u22653.0x109/l, neutrophils \u22651.5 x 109/l, platelets \u2265100 x 109/l\n* Adequate liver function (within 4 weeks prior to registration): bilirubin \u22641.5 x upper limit of normal (UNL) range, ALAT and/or ASAT \u22642.5 x UNL, Alkaline Phosphatase \u22645 x UNL\n* Adequate renal function (within 4 weeks prior to registration): the calculated creatinine clearance should be \u226550 ml/min\n* Accessible for treatment and follow-up\n* Written informed consent\n\nInclusion criteria randomization specific:\n\nIn order to be eligible to be randomized in this study, a subject must meet all of the following criteria:\n\n* Registration in the NEOLBC trial before 2 weeks biopsy\n* Use of letrozole\n* Outcome central Ki67 determination in two weeks biopsy available.\n\nExclusion Criteria:\n\n* Evidence of distant metastases (M1)\n* Previous invasive breast cancer\n* Prior chemotherapy, radiation therapy or hormonal therapy with the exception of patients who received letrozole \u2264 14 days (+ max. 4 days) prior to registration and who are still on letrozole.\n* Previous malignancy within 5 years, with exception of a history of a previous basal cell carcinoma of the skin or pre-invasive carcinoma of the cervix.\n* Peripheral neuropathy \\> grade 2, whatever the cause\n* Serious other diseases as infections (hepatitis B, C and HIV), recent myocardial infarction, clinical signs of cardiac failure or clinically significant arrhythmias or on screening, any of the following cardiac parameters: bradycardia (heart rate \\<50 at rest) or QTcF \u2265450 msec.\n* Known hypersensitivity reaction to any of the components of the treatment (peanuts, soy)\n* Currently receiving warfarin or other coumarin derived anti-coagulant, for treatment, prophylaxis or otherwise. Therapy with heparin, low molecular weight heparin (LMWH), or fondaparinux is allowed.\n* Currently receiving any of the following substances and cannot be discontinued 7 days prior to randomisation:\n\n  * Known strong inducers or inhibitors of CYP3A4/5, including grapefruit, grapefruit hybrids, pummelo's, star-fruit, pomegranate and Seville oranges.\n  * That have a known risk to prolong the QT interval or induce Torsades de Pointes.\n  * That have a narrow therapeutic window and are predominantly metabolized through CYP3A4/5.\n  * Herbal preparations/medications, dietary supplements.\n* Medical or psychological condition which in the opinion of the investigator would not permit the patient to complete the study or sign meaningful informed consent.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Judith R Kroep, MD PhD",
+          "affiliation": "Leiden University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Sabine C Linn, Prof. MD",
+          "affiliation": "NKI-AvL",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "Gerrit-Jan Liefers, MD PhD",
+          "affiliation": "Leiden University Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        },
+        {
+          "name": "A. E van Leeuwen-Stok, PhD",
+          "affiliation": "BOOG Study Center",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Jeroen Bosch Ziekenhuis",
+          "city": "'s-Hertogenbosch",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.69917,
+            "lon": 5.30417
+          }
+        },
+        {
+          "facility": "Ziekenhuisgroep Twente",
+          "city": "Almelo",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.35667,
+            "lon": 6.6625
+          }
+        },
+        {
+          "facility": "Ziekenhuis Amstelland",
+          "city": "Amstelveen",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.30083,
+            "lon": 4.86389
+          }
+        },
+        {
+          "facility": "Nederlands Kanker Instituut - Antoni van Leeuwenhoek",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Onze Lieve Vrouwe Gasthuis",
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.37403,
+            "lon": 4.88969
+          }
+        },
+        {
+          "facility": "Gelre Ziekenhuizen",
+          "city": "Apeldoorn",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.21,
+            "lon": 5.96944
+          }
+        },
+        {
+          "facility": "Amphia Ziekenhuis",
+          "city": "Breda",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.58656,
+            "lon": 4.77596
+          }
+        },
+        {
+          "facility": "Stichting Reinier Haga Groep (Reinier de Graaf Gasthuis)",
+          "city": "Delft",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.00667,
+            "lon": 4.35556
+          }
+        },
+        {
+          "facility": "Stichting Deventer Ziekenhuisgroep",
+          "city": "Deventer",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.255,
+            "lon": 6.16389
+          }
+        },
+        {
+          "facility": "Catharina Ziekenhuis",
+          "city": "Eindhoven",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          }
+        },
+        {
+          "facility": "Maxima Medisch Centrum",
+          "city": "Eindhoven",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.44083,
+            "lon": 5.47778
+          }
+        },
+        {
+          "facility": "Groene Hart Ziekenhuis",
+          "city": "Gouda",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.01667,
+            "lon": 4.70833
+          }
+        },
+        {
+          "facility": "Spaarne Gasthuis",
+          "city": "Haarlem",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.38084,
+            "lon": 4.63683
+          }
+        },
+        {
+          "facility": "Ziekenhuis St. Jansdal",
+          "city": "Harderwijk",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.34167,
+            "lon": 5.62083
+          }
+        },
+        {
+          "facility": "Tergooi Ziekenhuizen",
+          "city": "Hilversum",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.22333,
+            "lon": 5.17639
+          }
+        },
+        {
+          "facility": "Westfriesgasthuis",
+          "city": "Hoorn",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.6425,
+            "lon": 5.05972
+          }
+        },
+        {
+          "facility": "Leiden University Medical Center",
+          "city": "Leiden",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.15833,
+            "lon": 4.49306
+          }
+        },
+        {
+          "facility": "Academisch Ziekenhuis Maastricht",
+          "city": "Maastricht",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 50.84833,
+            "lon": 5.68889
+          }
+        },
+        {
+          "facility": "Canisius-Wilhelmina Ziekenhuis",
+          "city": "Nijmegen",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.8425,
+            "lon": 5.85278
+          }
+        },
+        {
+          "facility": "Laurentius Ziekenhuis",
+          "city": "Roermond",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.19417,
+            "lon": 5.9875
+          }
+        },
+        {
+          "facility": "Bravis Ziekenhuis",
+          "city": "Roosendaal",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.53083,
+            "lon": 4.46528
+          }
+        },
+        {
+          "facility": "Antonius Ziekenhuis",
+          "city": "Sneek",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 53.03297,
+            "lon": 5.6589
+          }
+        },
+        {
+          "facility": "Haaglanden Medisch Centrum",
+          "city": "The Hague",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.07667,
+            "lon": 4.29861
+          }
+        },
+        {
+          "facility": "HAGA Ziekenhuis",
+          "city": "The Hague",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.07667,
+            "lon": 4.29861
+          }
+        },
+        {
+          "facility": "Ziekenhuis Rivierenland",
+          "city": "Tiel",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.88667,
+            "lon": 5.42917
+          }
+        },
+        {
+          "facility": "Elisabeth Tweesteden Ziekenhuis",
+          "city": "Tilburg",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.55551,
+            "lon": 5.0913
+          }
+        },
+        {
+          "facility": "VieCuri Medisch Centrum",
+          "city": "Venlo",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.37,
+            "lon": 6.16806
+          }
+        },
+        {
+          "facility": "Streekziekenhuis Koningin Beatrix",
+          "city": "Winterswijk",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 51.9725,
+            "lon": 6.71944
+          }
+        },
+        {
+          "facility": "Isala",
+          "city": "Zwolle",
+          "country": "Netherlands",
+          "geoPoint": {
+            "lat": 52.5125,
+            "lon": 6.09444
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Information NEOLBC study on BOOG website (sponsor).",
+          "url": "https://www.boogstudycenter.nl/studie/286/neolbc.html"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

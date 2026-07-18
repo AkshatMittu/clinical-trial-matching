@@ -1,0 +1,2064 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03213041",
+      "orgStudyIdInfo": {
+        "id": "NU 16B14"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NU 16B14",
+          "type": "OTHER",
+          "domain": "Northwestern University"
+        },
+        {
+          "id": "P30CA060553",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30CA060553"
+        },
+        {
+          "id": "NCI-2017-00330",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        }
+      ],
+      "organization": {
+        "fullName": "Northwestern University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Pembrolizumab and Carboplatin in Treating Patients With Circulating Tumor Cells Positive Metastatic Breast Cancer",
+      "officialTitle": "I-CURE-1: A Phase II, Single Arm Study of Pembroluzimab Combined With Carboplatin in Patients With Circulating Tumor Cells (CTCs) Positive Her-2 Negative Metastatic Breast Cancer (MBC)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-09-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-06-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-03-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-07-06",
+      "studyFirstSubmitQcDate": "2017-07-06",
+      "studyFirstPostDateStruct": {
+        "date": "2017-07-11",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2023-05-26",
+      "resultsFirstSubmitQcDate": "2026-05-20",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-06-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-20",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Northwestern University",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Merck Sharp & Dohme LLC",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of the study is to evaluate the impact on progression-free survival (PFS) with the combination carboplatin - pembrolizumab in patients with CTC (circulating tumor cells) positive, HER2 negative metastatic breast cancer previously treated with anthracyclines and taxanes. Previous studies have indicated that recurrent breast cancers are more resistant to chemotherapy and maybe associated with a weak immune system. This study is investigating the use of an immune therapy drug, pembrolizumab, that has the ability to restore the capacity of controlling and killing cancer cells of an important component of your immune system called T-cells. Pembrolizumab has been found effective in other types of cancer and has already been approved by FDA for those indications, but the efficacy in breast cancer is still unknown. In this study, pembrolizumab will be combined with chemotherapy to increase the cancer cell killing. There is no control or placebo treatment in this study.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Evaluate the impact on progression free survival (PFS) of the combination pembrolizumab - carboplatin in patients with circulating tumor cells (CTC) positive, HER2 negative metastatic breast cancer (MBC) previously treated with anthracyclines and taxanes in primary setting.\n\nSECONDARY OBJECTIVES:\n\nI. Evaluate the impact on overall survival (OS) of the combination carboplatin - pembrolizumab in patients with CTC positive MBC previously treated with anthracyclines and taxanes in primary setting.\n\nII. To assess the overall response rate or objective response rate (ORR) and clinical benefit rate (CBR) according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria in patients with carboplatin - pembrolizumab in patients with CTC positive MBC previously treated with anthracyclines and taxanes in primary setting.\n\nIII. To assess immune-related response using tumor response by immune-related RECIST (irRECIST) as immune-related partial response (irPR) or immune-related complete response (irCR).\n\nIV. Measure the time to new metastases (TTNM). V. Evaluate ORR and clinical benefit in relation to PDL-1 expression in tissue and CTCs.\n\nTERTIARY OBJECTIVES:\n\nI. Measure immune biomarkers (PDL-1) in CTCs (CellSearch) and immune cells such as cancer-associated macrophage-like cells (CAMLs) (CellSieve) and correlate with therapeutic benefit.\n\nII. Measure cell-free circulating tumor deoxyribonecleic acid (ctDNA) and T-cell receptor sequencing analysis and correlate them with CTC enumeration and therapeutic benefit.\n\nOUTLINE:\n\nPatients receive pembrolizumab intravenously (IV) over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up within 30 days, every 9 weeks for 1 year, and then every 12 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Estrogen Receptor Negative",
+        "Estrogen Receptor Positive",
+        "HER2/Neu Negative",
+        "Progesterone Receptor Negative",
+        "Recurrent Breast Carcinoma",
+        "Stage IV Breast Cancer",
+        "Triple-Negative Breast Carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment (pembrolizumab, carboplatin)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Drug: Carboplatin",
+            "Other: Laboratory Biomarker Analysis",
+            "Biological: Pembrolizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Treatment (pembrolizumab, carboplatin)"
+          ],
+          "otherNames": [
+            "Blastocarb",
+            "Carboplat",
+            "Carboplatin Hexal",
+            "Carboplatino",
+            "Carbosin",
+            "Carbosol",
+            "Carbotec",
+            "CBDCA",
+            "Displata",
+            "Ercar",
+            "JM-8",
+            "Nealorin",
+            "Novoplatinum",
+            "Paraplatin",
+            "Paraplatin AQ",
+            "Paraplatine",
+            "Platinwas",
+            "Ribocarbo"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Laboratory Biomarker Analysis",
+          "description": "Correlative studies",
+          "armGroupLabels": [
+            "Treatment (pembrolizumab, carboplatin)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Pembrolizumab",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Treatment (pembrolizumab, carboplatin)"
+          ],
+          "otherNames": [
+            "Keytruda",
+            "Lambrolizumab",
+            "MK-3475",
+            "SCH 900475"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "PFS will be based on investigator assessment. PFS will be defined as the time from the first study treatment to the first occurrence of progression or death, and will be assessed every 9 weeks after beginning of treatment.",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "To evaluate the impact on OS, ORR and CBR with combination Carboplatin - pembrolizumab in patients with CTCs positive MBC who have not received prior chemotherapy for metastatic disease or have developed recurrence after completion of neoadjuvant/adjuvant therapy or are de-novo stage IV. ORR and CBR will be evaluated according to RECIST criteria and in relation to PDL-1 expression in tissue and CTCs.",
+          "timeFrame": "4 years and 6 months"
+        },
+        {
+          "measure": "Overall Response Rate (ORR)",
+          "description": "To evaluate the impact on OS, ORR and CBR with combination Carboplatin - pembrolizumab in patients with CTCs positive MBC who have not received prior chemotherapy for metastatic disease or have developed recurrence after completion of neoadjuvant/adjuvant therapy or are de-novo stage IV. ORR and CBR will be evaluated according to RECIST criteria and in relation to PDL-1 expression in tissue and CTCs.",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years"
+        },
+        {
+          "measure": "Clinical Benefit Rate (CBR)",
+          "description": "To evaluate the impact on OS, ORR and CBR with combination Carboplatin - pembrolizumab in patients with CTCs positive MBC who have not received prior chemotherapy for metastatic disease or have developed recurrence after completion of neoadjuvant/adjuvant therapy or are de-novo stage IV. ORR and CBR will be evaluated according to RECIST criteria and in relation to PDL-1 expression in tissue and CTCs.",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years"
+        },
+        {
+          "measure": "Immune-related Response",
+          "description": "Immune-related response defined as irPR or irCR and assessed by irRECIST.",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years"
+        },
+        {
+          "measure": "Immune-related Clinical Benefit Rate",
+          "description": "Immune-related clinical benefit rate defined as immune-related stable disease (irSD), irPR or irCR and assessed by irRECIST.",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must be:\n\n  * Hormone receptor (HR) negative and HER-2 negative (triple negative breast cancer \\[TNBC\\]) metastatic breast cancer and have not received prior chemotherapy for metastatic disease\n  * Demonstrated HER-2 negative MBC (0 or 1+ by immunohistochemistry \\[IHC\\] or non-amplified by fluorescence in situ hybridization \\[FISH\\]) according to American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAPA) guidelines\n* Patients must be CTC positive (defined as CTCs \\>= 5)\n* Have measurable disease based on RECIST 1.1\n* Be willing to provide archival tissue (if available) for correlative studies\n\n  * Note: The archived tumor tissue specimens may be from metastatic tumor specimen (first choice); in alternative, we can consider tissue from prior surgery or from prior diagnostic biopsy (second choice); unavailability of archived tissue will not render subject ineligible for study\n* Have a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) performance status\n* Demonstrate adequate organ function, all screening labs should be performed within 14 days prior to registration\n* Absolute neutrophil count (ANC) \\>= 1,500 /mcL\n* Platelet \\>= 100,000 / mcL\n* Hemoglobin \\>= 9 g/dL or \\>= 5.6 mmol/L without transfusion or erythropoietin (EPO) dependency (within 7 days of assessment)\n* Serum creatinine =\\< 1.5 X upper limit of normal (ULN) OR measured or calculated creatinine clearance (glomerular filtration rate \\[GFR\\] can also be used in place of creatinine or creatinine clearance \\[CrCl\\]) \\>= 60 mL/min for subject with creatinine levels \\> 1.5 X institutional ULN\n* Serum total bilirubin =\\< 1.5 X ULN OR direct bilirubin =\\< ULN for subjects with total bilirubin levels \\> 1.5 ULN\n* Aspartate aminotransferase (AST) (serum glutamic oxaloacetic transaminase \\[SGOT\\]) and alanine aminotransferase (ALT) (serum glutamate pyruvate transaminase \\[SGPT\\]) =\\< 2.5 X ULN OR =\\< 5 X ULN for subjects with liver metastases\n* Albumin \\>= 2.5 mg/dL\n* International normalized ratio (INR) or prothrombin time (PT) =\\< 1.5 X ULN unless subject is receiving anticoagulant therapy as long as PT or partial thromboplastin time (PTT) is within therapeutic range of intended use of anticoagulants\n* Activated partial thromboplastin time (aPTT) =\\< 1.5 X ULN unless subject is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulants\n* Female subject of childbearing potential (FOCBP) should have a negative urine or serum pregnancy within 7 days prior to registration; and must be repeated within 3 days (72 hours) prior to first dose of study drug; if the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required\n\n  * (Note: A FOCBP is any woman \\[regardless of sexual orientation, having undergone a tubal ligation, or remaining celibate by choice\\] who meets the following criteria:\n\n    * Has not undergone a hysterectomy or bilateral oophorectomy\n    * Has had menses at any time in the preceding 12 consecutive months \\[and therefore has not been naturally postmenopausal for \\> 12 months\\])\n* Female subjects of childbearing potential must be willing to use an adequate method of contraception as outlined in the appendices; contraception must be used for the course of the study through 120 days after the last dose of study medication\n\n  * Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the subject\n* Male subjects should agree to use an adequate method of contraception starting with the first dose of study therapy through 120 days after the last dose of study therapy\n\n  * Note: Abstinence is acceptable if this is the usual lifestyle and preferred contraception for the subject\n* Be willing and able to provide written informed consent/assent for the trial\n\nExclusion Criteria:\n\n* Histologically or cytologically confirmed HER2-positive (3+ by IHC or non-amplified by FISH) according to ASCO/CAP guidelines\n* Is currently participating and receiving study therapy or has participated in a study of an investigational agent and received study therapy or used an investigational device \\< or equal to 28 days of registration\n* Has a diagnosis of immunodeficiency or is receiving systemic steroid therapy or any other form of immunosuppressive therapy =\\< 7 days prior to registration\n* Has a known history of active TB (bacillus tuberculosis)\n* Hypersensitivity to pembrolizumab or any of its excipients\n* Has had a prior anti-cancer monoclonal antibody (mAb) within 4 weeks prior to study day 1 or who has not recovered (i.e., =\\< grade 1 or baseline) from adverse events (AEs) due to agents administered more than 28 days earlier\n* Has had prior chemotherapy, targeted small molecule therapy, or radiation therapy within 14 days prior to registration or who has not recovered (i.e., =\\< grade 1 or at baseline) from AEs due to a previously administered agent\n\n  * Note: Subjects with =\\< grade 2 neuropathy are an exception to this criterion and may qualify for the study\n* If subject received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting therapy\n* Has known additional malignancy that progressed or required treatment within last 5 years; exceptions include basal cell carcinoma of the skin or squamous cell carcinoma of the skin that has undergone potentially curative therapy or in situ cervical cancer that has been adequately treated\n* Has known active central nervous system (CNS) metastases and/or carcinomatous meningitis; subjects with previously treated brain metastases may participate provided they are stable (without evidence of progression by imaging for at least 28 days prior to registration and any neurologic symptoms have returned to baseline), have no evidence of new or enlarging brain metastases, and are not using steroids for at least 7 days prior to registration; this exception does not include known carcinomatous meningitis which is excluded regardless of clinical stability\n* Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs); replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment\n* Patients who have evidence of active, noninfectious pneumonitis or have a history of severe pneumonitis that required treatment with steroids are not eligible for this study\n* Has an active infection requiring systemic therapy\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject?s participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator\n* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial\n* Is pregnant or breastfeeding, or expecting to conceive or father children within the projected duration of the trial, starting with the pre-screening or screening visit through 120 days after the last dose of trial treatment\n* Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti-PD-L2 agent\n* Has a known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies)\n* Has known active hepatitis B (e.g., hepatitis B virus surface antigen \\[HBsAg\\] reactive) or hepatitis C (e.g., hepatitis C virus \\[HCV\\] ribonucleic acid \\[RNA\\] \\[qualitative\\] is detected)\n* Has received a live vaccine within 30 days of planned start of study therapy\n\n  * Note: Seasonal influenza vaccines for injection are generally inactivated flu vaccines and are allowed; however intranasal influenza vaccines (e.g., Flu-Mist) are live attenuated vaccines, and are not allowed",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Massimo Cristofanilli, MD",
+          "affiliation": "Northwestern University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Northwestern University",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment (Pembrolizumab, Carboplatin)",
+          "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Screening - 1st Response Assessment",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "12"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 1",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 2",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "9"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 3",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Disease Progression",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Study Treatment Period: Cycles 4-6",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 4",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 5",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 6",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Disease Progression",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Study Treatment Period: Cycles 7- 9+",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 7",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 8",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Cycle 8 and Beyond",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Disease Progression",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Survival Follow-Up",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment (Pembrolizumab, Carboplatin)",
+          "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "12"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Age",
+              "categories": [
+                {
+                  "title": "30-39",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "40-49",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "title": "50-59",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "60-69",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "11"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Progression Free Survival (PFS)",
+          "description": "PFS will be based on investigator assessment. PFS will be defined as the time from the first study treatment to the first occurrence of progression or death, and will be assessed every 9 weeks after beginning of treatment.",
+          "populationDescription": "Any patient who has completed at least 1 cycles of study treatment are evaluable for this endpoint.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Pembrolizumab, Carboplatin)",
+              "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1.94",
+                      "lowerLimit": "1.68",
+                      "upperLimit": "2.04"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival (OS)",
+          "description": "To evaluate the impact on OS, ORR and CBR with combination Carboplatin - pembrolizumab in patients with CTCs positive MBC who have not received prior chemotherapy for metastatic disease or have developed recurrence after completion of neoadjuvant/adjuvant therapy or are de-novo stage IV. ORR and CBR will be evaluated according to RECIST criteria and in relation to PDL-1 expression in tissue and CTCs.",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "4 years and 6 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Pembrolizumab, Carboplatin)",
+              "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "10"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6.77",
+                      "lowerLimit": "2.99",
+                      "upperLimit": "NA",
+                      "comment": "In R \"survival\" package, the median and its confidence interval are defined by drawing a horizontal line at 0.5 on the plot of the Kaplan-Meier survival curve and its confidence bands. The intersection of the line with the upper CI band defines the upper limit for the median's confidence interval. This is common when small sample size is small resulting in wide confidence intervals, where the upper limit at the end of the study exceeds the median survival time."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Response Rate (ORR)",
+          "description": "To evaluate the impact on OS, ORR and CBR with combination Carboplatin - pembrolizumab in patients with CTCs positive MBC who have not received prior chemotherapy for metastatic disease or have developed recurrence after completion of neoadjuvant/adjuvant therapy or are de-novo stage IV. ORR and CBR will be evaluated according to RECIST criteria and in relation to PDL-1 expression in tissue and CTCs.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Pembrolizumab, Carboplatin)",
+              "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Benefit Rate (CBR)",
+          "description": "To evaluate the impact on OS, ORR and CBR with combination Carboplatin - pembrolizumab in patients with CTCs positive MBC who have not received prior chemotherapy for metastatic disease or have developed recurrence after completion of neoadjuvant/adjuvant therapy or are de-novo stage IV. ORR and CBR will be evaluated according to RECIST criteria and in relation to PDL-1 expression in tissue and CTCs.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Pembrolizumab, Carboplatin)",
+              "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Immune-related Response",
+          "description": "Immune-related response defined as irPR or irCR and assessed by irRECIST.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Pembrolizumab, Carboplatin)",
+              "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Immune-related Clinical Benefit Rate",
+          "description": "Immune-related clinical benefit rate defined as immune-related stable disease (irSD), irPR or irCR and assessed by irRECIST.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Every 9 weeks from the first study treatment, assessed up to 3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment (Pembrolizumab, Carboplatin)",
+              "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "9"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "All-Cause Mortality was assessed for 4 years and 6 months. Serious and Other (Not Including Serious) Adverse Events were monitored for 3 years and 9 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment (Pembrolizumab, Carboplatin)",
+          "description": "Patients receive pembrolizumab IV over 30 minutes on day 1 and carboplatin IV over 30-60 minutes on day 1 beginning with course 3. Courses repeat every 21 days for 24 months in the absence of disease progression or unacceptable toxicity.\n\nCarboplatin: Given IV\n\nLaboratory Biomarker Analysis: Correlative studies\n\nPembrolizumab: Given IV",
+          "deathsNumAffected": 12,
+          "deathsNumAtRisk": 12,
+          "seriousNumAffected": 7,
+          "seriousNumAtRisk": 12,
+          "otherNumAffected": 12,
+          "otherNumAtRisk": 12
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Anaphylaxis",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Blurred vision",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Facial nerve disorder",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Immune-mediated Hepatitis",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypoxia",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Lung infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "disease progression",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Superior vena cava syndrome",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Abdominal Pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 5,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 18,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 7,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Blood bilirubin increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Blurred vision",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Chills",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Colitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Confusion",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Conjunctivitis infective",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dry eye",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dry mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 5,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Flushing",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Generalized muscle weakness",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hyperkalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hyperuricemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypoalbuminemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypoglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 5,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypomagnesemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypophosphatemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Hypothyroidism",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Infusion related reaction",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "INR increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 25,
+              "numAffected": 7,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Platelet count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 6,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Sinus tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Right breast inflammation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Urinary frequency",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 12
+            }
+          ]
+        },
+        {
+          "term": "White blood cell decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.03)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 4,
+              "numAtRisk": 12
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Lisa E. Flaum, MD",
+        "organization": "Northwestern University",
+        "email": "lflaum@nm.org",
+        "phone": "312-695-0990"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2023-03-02",
+          "uploadDate": "2023-05-16T16:41",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 1318388
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2023-06-22",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "C582435",
+          "term": "pembrolizumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

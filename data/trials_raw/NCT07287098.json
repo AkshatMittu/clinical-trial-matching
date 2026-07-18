@@ -1,0 +1,1906 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07287098",
+      "orgStudyIdInfo": {
+        "id": "27511"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2025-523258-15-00",
+          "type": "CTIS"
+        },
+        {
+          "id": "J2J-MC-JZLL",
+          "type": "OTHER",
+          "domain": "Eli Lilly and Company"
+        }
+      ],
+      "organization": {
+        "fullName": "Eli Lilly and Company",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of Imlunestrant (LY3484356) in Premenopausal Women With Estrogen Receptor-Positive (ER+) Human Epidermal Growth Factor Receptor 2 Negative (HER2-) Early Breast Cancer",
+      "officialTitle": "preEMBER: A Phase 2, Open-label Study Evaluating Imlunestrant in Premenopausal Women With Estrogen Receptor-Positive, HER2-Negative Breast Cancer",
+      "acronym": "preEMBER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-05-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-11",
+      "studyFirstSubmitQcDate": "2025-12-15",
+      "studyFirstPostDateStruct": {
+        "date": "2025-12-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Eli Lilly and Company",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will include two groups of patients: Cohort 1 and Cohort 2.\n\nCohort 1: will help researchers learn how a medicine called imlunestrant (LY3484356) affects a specific type of breast cancer. Some patients will take both imlunestrant and another treatment to suppress their ovarian function. Some will take it without ovarian suppression. Researchers will compare the effects in breast cancer cells to those of another medicine called tamoxifen. All patients in this group will be premenopausal women who have a type of early breast cancer called estrogen receptor-positive, HER2-negative. The treatment in this group will last for up to 29 days.\n\nCohort 2: will help researchers understand how imlunestrant affects the ovaries when it is taken without ovarian suppression. Researchers will compare the effects to those of another medicine called tamoxifen. This group will also include premenopausal women with the same type of breast cancer. The treatment in this group will last for up to 6 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 600,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort 1 Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Imlunestrant will be given orally",
+          "interventionNames": [
+            "Drug: Imlunestrant"
+          ]
+        },
+        {
+          "label": "Cohort 1 Arm B - Imlunestrant + Goserelin",
+          "type": "EXPERIMENTAL",
+          "description": "Imlunestrant will be given orally and goserelin will be given subcutaneously (SC)",
+          "interventionNames": [
+            "Drug: Imlunestrant",
+            "Drug: Goserelin"
+          ]
+        },
+        {
+          "label": "Cohort 1 Arm C - Tamoxifen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Tamoxifen will be given orally",
+          "interventionNames": [
+            "Drug: Tamoxifen 20 mg"
+          ]
+        },
+        {
+          "label": "Cohort 2 Arm A - Imlunestrant",
+          "type": "EXPERIMENTAL",
+          "description": "Imlunestrant will be given orally",
+          "interventionNames": [
+            "Drug: Imlunestrant"
+          ]
+        },
+        {
+          "label": "Cohort 2 Arm B - Tamoxifen",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Tamoxifen will be given orally",
+          "interventionNames": [
+            "Drug: Tamoxifen 20 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Imlunestrant",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Cohort 1 Arm A",
+            "Cohort 1 Arm B - Imlunestrant + Goserelin",
+            "Cohort 2 Arm A - Imlunestrant"
+          ],
+          "otherNames": [
+            "LY3484356"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Goserelin",
+          "description": "Given SC",
+          "armGroupLabels": [
+            "Cohort 1 Arm B - Imlunestrant + Goserelin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen 20 mg",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Cohort 1 Arm C - Tamoxifen",
+            "Cohort 2 Arm B - Tamoxifen"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Antigen Kiel (Ki-67) Expression",
+          "timeFrame": "Baseline, Day 29"
+        },
+        {
+          "measure": "Rate of Symptomatic Ovarian Cysts",
+          "timeFrame": "Up to Day 180"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change from Baseline in Estrogen Receptor (ER) Expression",
+          "timeFrame": "Baseline, Day 29"
+        },
+        {
+          "measure": "Change from Baseline in Progesterone Receptor (PR) Expression",
+          "timeFrame": "Baseline, Day 29"
+        },
+        {
+          "measure": "Rate of Complex Ovarian Cysts",
+          "timeFrame": "Up to Day 180"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nCohort 1:\n\n* Have histologically confirmed Stage I to III Estrogen Receptor positive (ER+), human epidermal growth factor receptor 2 negative (HER2-) invasive breast carcinoma with Ki-67 at least 10%\n* Be willing and able to provide pre- and on-treatment tumor samples.\n* Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Be able to swallow capsules or tablets.\n* Be premenopausal women.\n* If of childbearing potential must use 1 highly effective method of non-hormonal contraception while receiving study treatment and for the duration specified in protocol.\n* Have adequate organ function.\n\nCohort 2:\n\n* Have a diagnosis of ER+, HER2- early-stage, resected, invasive breast cancer without evidence of distant metastasis\n* Have undergone definitive loco-regional therapy.\n* Have received at least 4.5 years of any adjuvant endocrine therapy (ET), or at least 2 years of adjuvant ET with no additional ovarian suppression planned.\n* Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Be able to swallow capsules or tablets.\n* Be premenopausal women\n* If of childbearing potential must use 1 highly effective method of non-hormonal contraception while receiving study treatment and for the duration specified in protocol.\n* Have adequate organ function.\n\nExclusion Criteria:\n\nCohort 1:\n\n* Have bilateral invasive metastatic, occult primary, or inflammatory breast cancer.\n* Have had prior bilateral oophorectomy or ovarian ablation.\n* Have a serious medical condition\n* Had major surgery within 28 days prior to randomization.\n* Have a history of other cancer (except non melanoma skin cancer, Stage I uterine cancer, or carcinoma in situ of the cervix or other in situ cancer), unless in complete remission with no therapy for a minimum of 1 year.\n* Plan to receive concurrent neoadjuvant therapy with any other non-protocol anticancer therapy.\n* Have had any prior therapy for an invasive or non-invasive breast cancer.\n* Have had prior radiotherapy to the ipsilateral chest wall for any malignancy.\n* Have received prior anti-estrogen therapy, including for osteoporosis or prevention of breast cancer.\n* Have had prior treatment with any Gonadotropin-releasing hormone (GnRH) agonist within 12 months prior to randomization.\n* Receiving current exogenous reproductive hormone therapy\n\nCohort 2:\n\n* Have ovarian cyst(s) greater than (\\>) 1 centimeter (cm) at screening.\n* Have metastatic occult primary, or inflammatory breast cancer.\n* Have had prior bilateral oophorectomy or ovarian ablation.\n* Have a serious medical condition\n* Had major surgery within 28 days prior to randomization.\n* Have a history of other cancer (except non melanoma skin cancer or carcinoma in situ of the cervix or other in situ cancer), unless in complete remission with no therapy for a minimum of 1 year.\n* Completed or discontinued prior adjuvant ET \\>6 months prior to screening.\n* Have received prior therapy with any selective estrogen receptor degrader (SERD).\n* Receiving current exogenous reproductive hormone therapy.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Trial questions or participation questions: 1-877-CTLILLY (1-877-285-4559) or",
+          "role": "CONTACT",
+          "phone": "1-317-615-4559",
+          "email": "LillyTrials@Lilly.com"
+        },
+        {
+          "name": "Physicians interested in becoming principal investigators please contact",
+          "role": "CONTACT",
+          "email": "clinical_inquiry_hub@lilly.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Call 1-877-CTLILLY (1-877-285-4559) or 1-317-615-4559 Mon - Fri 8 AM - 8 PM Eastern time (UTC/GMT - 5 hours, EST)",
+          "affiliation": "Eli Lilly and Company",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35205",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Erica Stringer-Reasor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Ironwood Cancer & Research Centers",
+          "status": "SUSPENDED",
+          "city": "Chandler",
+          "state": "Arizona",
+          "zip": "85224",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.30616,
+            "lon": -111.84125
+          }
+        },
+        {
+          "facility": "USC/Norris Comprehensive Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "323-397-5954"
+            },
+            {
+              "name": "Daphne Stewart",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "UCLA Hematology/Oncology - Parkside",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Santa Monica",
+          "state": "California",
+          "zip": "90404",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "310-998-4747"
+            },
+            {
+              "name": "Nicholas McAndrew",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.01949,
+            "lon": -118.49138
+          }
+        },
+        {
+          "facility": "Banner MD Anderson Cancer Center at North Colorado Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Greeley",
+          "state": "Colorado",
+          "zip": "80631",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "970-810-3894"
+            },
+            {
+              "name": "Esther Mondo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.42331,
+            "lon": -104.70913
+          }
+        },
+        {
+          "facility": "Banner MD Anderson Cancer Center at McKee Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Loveland",
+          "state": "Colorado",
+          "zip": "80538",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "970-810-3894"
+            },
+            {
+              "name": "Esther Mondo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.39776,
+            "lon": -105.07498
+          }
+        },
+        {
+          "facility": "AdventHealth Altamonte Springs",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Altamonte Springs",
+          "state": "Florida",
+          "zip": "32701",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Wassim Mchayleh",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 28.66111,
+            "lon": -81.36562
+          }
+        },
+        {
+          "facility": "Winship Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Manali Bhave",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Indiana University Melvin and Bren Simon Cancer Center",
+          "status": "RECRUITING",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rina Yadav",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "University of Kentucky Chandler Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40536",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ruta Arays",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "617-726-6500"
+            },
+            {
+              "name": "Seth Wander",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "617-632-2335"
+            },
+            {
+              "name": "Erica Mayer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Washington University School of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rebecca Aft",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "New York Oncology Hematology, P.C.",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Albany",
+          "state": "New York",
+          "zip": "12206",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ami Negandhi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.65258,
+            "lon": -73.75623
+          }
+        },
+        {
+          "facility": "Memorial Sloan Kettering Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10065",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sherry Shen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Wilmot Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14642",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "585-275-4823"
+            },
+            {
+              "name": "Ajay Dhakal",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "New York Cancer and Blood Specialists",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Shirley",
+          "state": "New York",
+          "zip": "11967",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "631-675-5075"
+            },
+            {
+              "name": "Richard Zuniga",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.80149,
+            "lon": -72.8676
+          }
+        },
+        {
+          "facility": "University of North Carolina Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Chapel Hill",
+          "state": "North Carolina",
+          "zip": "27514",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yara Abdou",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.9132,
+            "lon": -79.05584
+          }
+        },
+        {
+          "facility": "Cleveland Clinic",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "330-888-4000"
+            },
+            {
+              "name": "Daniel Silbiger",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Providence Portland Medical Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97213",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "503-215-5696"
+            },
+            {
+              "name": "Alison Conlin",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Tennessee Oncology",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37203",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sara Nunnery",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "University of Texas MD Anderson Cancer Center",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030-4009",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "832-728-7423"
+            },
+            {
+              "name": "Taiwo Adesoye",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Houston Methodist Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Hanh Mai",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Oncology Consultants P.A.",
+          "status": "RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "713-600-0900"
+            },
+            {
+              "name": "Ricardo Alvarez",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Baylor Scott & White Medical Center - Round Rock",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Round Rock",
+          "state": "Texas",
+          "zip": "78665",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "512-509-0200"
+            },
+            {
+              "name": "Christal Murray",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.50826,
+            "lon": -97.6789
+          }
+        },
+        {
+          "facility": "Huntsman Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84112",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "801-585-0236"
+            },
+            {
+              "name": "Jairam Krishnamurthy",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "The University of Vermont Medical Center Inc.",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Peter Kaufman",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        },
+        {
+          "facility": "University of Virginia Health System",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22903",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "434-924-9333"
+            },
+            {
+              "name": "Trish Millard",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Inova Schar Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Fairfax",
+          "state": "Virginia",
+          "zip": "22031",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Matro",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.84622,
+            "lon": -77.30637
+          }
+        },
+        {
+          "facility": "Cliniques universitaires Saint-Luc",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Brussels",
+          "zip": "1200",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "3227645435"
+            },
+            {
+              "name": "Francois Duhoux",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.85045,
+            "lon": 4.34878
+          }
+        },
+        {
+          "facility": "Antwerp University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Edegem",
+          "zip": "2650",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "name": "Sevilay Altintas",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.15662,
+            "lon": 4.44504
+          }
+        },
+        {
+          "facility": "UZ Leuven",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "003216345129"
+            },
+            {
+              "name": "Patrick Neven",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "CHRU de Brest",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Brest",
+          "zip": "29609",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Laura Deiana",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Centre de Canc\u00e9rologie du Grand Montpellier",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Montpellier",
+          "zip": "34070",
+          "country": "France",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "467926155"
+            },
+            {
+              "name": "Cristian Villanueva",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.61093,
+            "lon": 3.87635
+          }
+        },
+        {
+          "facility": "H\u00f4pital Priv\u00e9 Des C\u00f4tes d'Armor",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Pl\u00e9rin",
+          "zip": "22190",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jerome Martin-Babau",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.53451,
+            "lon": -2.76975
+          }
+        },
+        {
+          "facility": "Institut Curie - site Saint-Cloud",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Saint-Cloud",
+          "zip": "92210",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Diana Bello Roufai",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.84598,
+            "lon": 2.20289
+          }
+        },
+        {
+          "facility": "Gustave Roussy",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Villejuif",
+          "zip": "94800",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Barbara Pistilli",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.7939,
+            "lon": 2.35992
+          }
+        },
+        {
+          "facility": "Onkologische Schwerpunktpraxis Bielefeld",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bielefeld",
+          "zip": "33604",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Siemke Steinke",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 8.53333
+          }
+        },
+        {
+          "facility": "Augusta-Kranken-Anstalt",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bochum",
+          "zip": "44791",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Matthias Losch",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.48165,
+            "lon": 7.21648
+          }
+        },
+        {
+          "facility": "Marienhospital Bottrop",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bottrop",
+          "zip": "46236",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "4920411061601"
+            },
+            {
+              "name": "Hans-Christian Kolberg",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.52392,
+            "lon": 6.9285
+          }
+        },
+        {
+          "facility": "Studien GbR Braunschweig",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Braunschweig",
+          "zip": "38100",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "04953116024"
+            },
+            {
+              "name": "Janine Kreiss-Sender",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.26594,
+            "lon": 10.52673
+          }
+        },
+        {
+          "facility": "Onkologisch - H\u00e4matologische Schwerpunktpraxis",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bremen",
+          "zip": "28209",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Ralf Meyer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.07582,
+            "lon": 8.80717
+          }
+        },
+        {
+          "facility": "St. Elisabeth - Krankenhaus K\u00f6ln - Hohenlind",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Cologne",
+          "zip": "50935",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "0049221467772372"
+            },
+            {
+              "name": "Julian Puppe",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "Medizinische Universit\u00e4t Lausitz- Carl Thiem",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Cottbus",
+          "zip": "03048",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Nikola Bangemann",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.75769,
+            "lon": 14.32888
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Erlangen",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Erlangen",
+          "zip": "91054",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "+4991318533572"
+            },
+            {
+              "name": "Peter Fasching",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.59099,
+            "lon": 11.00783
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Essen",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Essen",
+          "zip": "45122",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Ann-Kathrin Bittner",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Kliniken Essen-Mitte, Evangelische Huyssens-Stiftung",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Essen",
+          "zip": "45136",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "+4920117433005"
+            },
+            {
+              "name": "Sherko K\u00fcmmel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Agaplesion Markus Krankenhaus",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Frankfurt",
+          "zip": "60431",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "00496995332228"
+            },
+            {
+              "name": "Marc Thill",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.68333,
+            "lon": 10.53333
+          }
+        },
+        {
+          "facility": "Mammazentrum HH - Krankenhaus Jerusalem",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hamburg",
+          "zip": "20357",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Christian Schem",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Frauen\u00e4rzte am Bahnhofsplatz",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hildesheim",
+          "zip": "31134",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "+49 (5121) 59 02 - 0"
+            },
+            {
+              "name": "Christoph Uleer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.15077,
+            "lon": 9.95112
+          }
+        },
+        {
+          "facility": "Evangelisches Krankenhaus Bethesda M\u00f6nchengladbach",
+          "status": "NOT_YET_RECRUITING",
+          "city": "M\u00f6nchengladbach",
+          "zip": "41061",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Katja Krauss",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "Klinikum der Ludwig-Maximilians-Universitaet Muenchen",
+          "status": "NOT_YET_RECRUITING",
+          "city": "M\u00fcnchen",
+          "zip": "80336",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "004989440077581"
+            },
+            {
+              "name": "Nadia Harbeck",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Rotkreuzklinikum M\u00fcnchen gemeinn\u00fctzige GmbH",
+          "status": "NOT_YET_RECRUITING",
+          "city": "M\u00fcnchen",
+          "zip": "80637",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "00498913033797"
+            },
+            {
+              "name": "Michael Braun",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.60698,
+            "lon": 13.31243
+          }
+        },
+        {
+          "facility": "Ruppiner Kliniken",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Neuruppin",
+          "zip": "16816",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Verena Kiver",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.92815,
+            "lon": 12.80311
+          }
+        },
+        {
+          "facility": "Klinikum Ernst von Bergmann",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Potsdam",
+          "zip": "14467",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "+4933124135643"
+            },
+            {
+              "name": "Dorothea Fischer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 52.39886,
+            "lon": 13.06566
+          }
+        },
+        {
+          "facility": "MVZ f\u00fcr H\u00e4matologie und Onkologie Ravensburg GmbH - Studienzentrum",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ravensburg",
+          "zip": "88212",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Thomas Decker",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.78198,
+            "lon": 9.61062
+          }
+        },
+        {
+          "facility": "Klinikum Mutterhaus der Borrom\u00e4erinnen",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Trier",
+          "zip": "54290",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Sebastian Jud",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.75565,
+            "lon": 6.63935
+          }
+        },
+        {
+          "facility": "H\u00e4matologisch-Onkologische Schwerpunktpraxis",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Troisdorf",
+          "zip": "53840",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "022413975660"
+            },
+            {
+              "name": "Andreas Diel",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 50.80901,
+            "lon": 7.14968
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Tuebingen",
+          "status": "NOT_YET_RECRUITING",
+          "city": "T\u00fcbingen",
+          "zip": "72076",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "004970712982211"
+            },
+            {
+              "name": "Tobias Engler",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        },
+        {
+          "facility": "Universitaetsklinikum Ulm",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ulm",
+          "zip": "89075",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "004973150058531"
+            },
+            {
+              "name": "Henning Sch\u00e4ffler",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "Klinik Weinheim",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Weinheim",
+          "zip": "69469",
+          "country": "Germany",
+          "contacts": [
+            {
+              "name": "Lelia Bauer",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 49.54887,
+            "lon": 8.66697
+          }
+        },
+        {
+          "facility": "Marien Hospital Witten",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Witten",
+          "zip": "58452",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "004923021733290"
+            },
+            {
+              "name": "Monika Graeser",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.44362,
+            "lon": 7.35258
+          }
+        },
+        {
+          "facility": "HELIOS Klinikum Wuppertal",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Wuppertal",
+          "zip": "42283",
+          "country": "Germany",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "0492028961411"
+            },
+            {
+              "name": "Vesna Bjelic-Radisic",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 51.25627,
+            "lon": 7.14816
+          }
+        },
+        {
+          "facility": "St. Vincent's University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Dublin",
+          "zip": "D04 T6F4",
+          "country": "Ireland",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "012214000"
+            },
+            {
+              "name": "Janice Walshe",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "St. James's Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Dublin",
+          "zip": "D08 E9P6",
+          "country": "Ireland",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "014103000"
+            },
+            {
+              "name": "Ciara O Hanlon Brown",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.33306,
+            "lon": -6.24889
+          }
+        },
+        {
+          "facility": "Galway University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Galway",
+          "zip": "H91 YR71",
+          "country": "Ireland",
+          "contacts": [
+            {
+              "name": "Maccon Keane",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 53.27245,
+            "lon": -9.05095
+          }
+        },
+        {
+          "facility": "Ente Ospedaliero Ospedali Galliera",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Genova",
+          "zip": "16128",
+          "country": "Italy",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "+39.010563.4580"
+            },
+            {
+              "name": "Matteo Lambertini",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "Humanitas",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Milan",
+          "zip": "20089",
+          "country": "Italy",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "0039028224 4089"
+            },
+            {
+              "name": "carmen criscitiello",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Istituto Europeo di Oncologia IRCCS",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Milan",
+          "zip": "20141",
+          "country": "Italy",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "00390257489215"
+            },
+            {
+              "name": "Giuseppe Curigliano",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Humanitas Istituto Clinico Catanese",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Misterbianco",
+          "zip": "95045",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Maria Vita San\u00f2",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.51803,
+            "lon": 15.00913
+          }
+        },
+        {
+          "facility": "Nuovo Ospedale di Prato-S.Stefano",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Prato",
+          "zip": "59100",
+          "country": "Italy",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "+39 0574 802531"
+            },
+            {
+              "name": "Laura Biganzoli",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.8805,
+            "lon": 11.09699
+          }
+        },
+        {
+          "facility": "Fondazione Policlinico Universitario Agostino Gemelli",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Roma",
+          "zip": "00168",
+          "country": "Italy",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "00390630157337"
+            },
+            {
+              "name": "Alessandra Fabi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Kaohsiung Medical University Chung-Ho Memorial Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Kaohsiung City",
+          "zip": "807",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "8867-3121101 ext.6235"
+            },
+            {
+              "name": "Ming-Feng Hou",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 22.61626,
+            "lon": 120.31333
+          }
+        },
+        {
+          "facility": "China Medical University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Taichung",
+          "zip": "404332",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Hwei-Chung Wang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "Taichung Veterans General Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Taichung",
+          "zip": "407",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "886-42359-2525-5031"
+            },
+            {
+              "name": "Chih-Chiang Hung",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 24.1469,
+            "lon": 120.6839
+          }
+        },
+        {
+          "facility": "National Cheng Kung University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Tainan",
+          "zip": "704",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Kuo-Ting Lee",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 22.99083,
+            "lon": 120.21333
+          }
+        },
+        {
+          "facility": "Mackay Memorial Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Taipei",
+          "zip": "10449",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "886975835311"
+            },
+            {
+              "name": "Yuan-Ching Chang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.05306,
+            "lon": 121.52639
+          }
+        },
+        {
+          "facility": "Chang Gung Medical Foundation-Linkou Branch",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Taoyuan",
+          "zip": "333",
+          "country": "Taiwan",
+          "contacts": [
+            {
+              "name": "Shih-Che Shen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 24.99368,
+            "lon": 121.29696
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Lilly Trials",
+          "url": "https://trials.lilly.com/en-US/trial/674818"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Anonymized individual patient level data will be provided in a secure access environment upon approval of a research proposal and a signed data sharing agreement.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR"
+      ],
+      "timeFrame": "Data are available 6 months after the primary publication or approval of the indication studied in the US and EU, whichever is later. Data will be indefinitely available for requesting.",
+      "accessCriteria": "A research proposal should be approved by an independent review panel and researchers should sign a data sharing agreement.",
+      "url": "https://vivli.org/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000719756",
+          "term": "Imlunestrant"
+        },
+        {
+          "id": "D017273",
+          "term": "Goserelin"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

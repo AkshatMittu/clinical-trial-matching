@@ -1,0 +1,1234 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04055493",
+      "orgStudyIdInfo": {
+        "id": "WSG-AM08 (ADAPTcycle)"
+      },
+      "organization": {
+        "fullName": "West German Study Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adj. Marker-adjusted Personalized Therapy Comparing ET+Ribociclib vs Chemotherapy in Intermediate Risk, HR+/HER2- EBC",
+      "officialTitle": "Adjuvant Dynamic Marker - Adjusted Personalized Therapy Comparing Endocrine Therapy Plus Ribociclib Versus Chemotherapy in Intermediate Risk, HR+/HER2- Early Breast Cancer",
+      "acronym": "ADAPTcycle"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-07-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-07-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-07-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-07-22",
+      "studyFirstSubmitQcDate": "2019-08-12",
+      "studyFirstPostDateStruct": {
+        "date": "2019-08-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-05",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "West German Study Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Novartis",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Genomic Health\u00ae, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The study investigates, whether the patient group with intermediate-risk early breast cancer benefits from treatment with ribociclib in combination with endocrine therapy compared to standard-of-care chemotherapy (followed by adjuvant endocrine therapy).",
+      "detailedDescription": "The WSG ADAPT trial program is one of the first new generation trials addressing the issue of individualization of (neo)-adjuvant decision-making in early breast cancer (EBC) in a subtype-specific manner. The first WSG ADAPT umbrella trial (NCT01779206) aimed to establish early predictive molecular surrogate markers for response after a short 3-week induction treatment.\n\nThe goals of the WSG ADAPT trial program - early response assessment and subtype-specific therapy tailoring to those patients who are most likely to benefit - have contributed to the very positive national and international feedback to the ADAPT concept as a whole.\n\nThe aim of this ADAPTcycle phase-III-trial is to investigate whether the intermediate-risk patient group identified during the screening phase derives additional benefit from treatment with ribociclib in combination with ET compared to chemotherapy (followed by adjuvant ET)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Female"
+      ],
+      "keywords": [
+        "early breast cancer",
+        "ADAPT",
+        "endocrine therapy",
+        "ribociclib",
+        "intermediate risk",
+        "HER2 negative",
+        "HR positive"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter, interventional, prospective, two-arm, randomized, open-label, controlled (neo)adjuvant, phase-III trial evaluating the efficacy and safety of ribociclib combined with endocrine therapy (ET) versus standard-of-care chemotherapy in early breast cancer (EBC) patients with molecular HR+/HER2- subtype.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1684,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ribociclib plus ET",
+          "type": "EXPERIMENTAL",
+          "description": "Ribociclib 600mg / day over 26 cycles + endocrine treatment of physician\u00b4s choice",
+          "interventionNames": [
+            "Drug: Ribociclib 200Mg Oral Tablet"
+          ]
+        },
+        {
+          "label": "Standard-of-care chemotherapy",
+          "type": "NO_INTERVENTION",
+          "description": "Standard-of-care chemotherapy according to the clinical guidelines, e.g., of the Breast Committee of the German Gynecological Oncology Group (AGO), and regional prescribing information depending on patient's needs for 16-24 weeks,"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ribociclib 200Mg Oral Tablet",
+          "description": "3 x 200 MG per os",
+          "armGroupLabels": [
+            "Ribociclib plus ET"
+          ],
+          "otherNames": [
+            "Kisqali"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "invasive disease-free survival (iDFS)",
+          "description": "superiority in invasive disease-free survival (iDFS) of ribociclib + ET vs. standard-of-care chemotherapy",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "distant disease-free survival (dDFS)",
+          "description": "distant disease-free survival (dDFS) in the ribociclib + ET-group to demonstrate survival rate \\>92%",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "overall survival (OS) 95 % CI",
+          "description": "95 %-confidence interval (CI) for OS in both arms",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "distant disease-free survival (dDFS) 95 % CI",
+          "description": "95 %-confidence interval (CI) for dDFS in both arms",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "QoL",
+          "description": "quality of life (QoL) and correlation to treatment-related symptoms measured by EQ-VAS and triggered symptom questionnaire,",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "treatment adherence",
+          "description": "treatment adherence measured by drug intake compared between treatment arms",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "pathological complete response (pCR)",
+          "description": "Pathological response rate (defined as ypT0/is/ypN0), as well as further definitions (ypT0/ypN0; ypT0/is/any ypN, near pCR (ypT1a/any ypN)), in neoadjuvant treated patients",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "clinical response rate",
+          "description": "clinical response rate (by palpation, ultrasound, and further methods) compared between treatment arms",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        },
+        {
+          "measure": "rate of breast-conservation therapy",
+          "description": "prevalence of breast conservation therapy vs. mastectomy compared between treatment arms",
+          "timeFrame": "at end of study, on average 5 years after start of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nPatients eligible for inclusion in this study have to meet all of the following criteria:\n\nA. Prior to REGISTRATION in the study:\n\n1\\. Written informed consent prior to any screening procedures. 2. Female. 3. \u2265 18 years of age. 4a. EITHER: (Post)menopausal status at the time of initiation of (neo)adjuvant study medication\n\n* patient underwent bilateral oophorectomy, or\n* age \u2265 60, or\n* age \\< 60 and amenorrhea for 12 or more months (in the absence of chemotherapy, tamoxifen, toremifene, or ovarian suppression) and/or FSH and estradiol in the postmenopausal range per local normal range.\n\n  4b. OR: Pre-menopausal patients:\n* confirmed negative serum pregnancy test (\u03b2-hCG) before starting study treatment, or\n* patient has had a hysterectomy. 5. Histologically confirmed diagnosis of primary estrogen-receptor positive and/or progesterone-receptor positive (\\> 1%) early breast cancer by local laboratory.\n\n  6\\. Patient has HER2-negative breast cancer defined as\n* a negative in-situ hybridization test or an IHC status of 0, 1+, or 2+,\n* if IHC is 2+, a negative in-situ hybridization (FISH, CISH, or SISH) test is required (based on the most recently analyzed tissue sample and all tested by a local laboratory).\n\n  7\\. Local therapy of breast cancer (if adjuvant treatment or planned if neoadjuvant treatment) according to current guidelines.\n\nNote: This may include radiotherapy of breast cancer.\n\nB. Prior to RANDOMIZATION in the study 8. No evidence of distant metastasis (confirmed prior to randomization by, preferentially, CT thorax / abdomen, X-ray chest, ultrasound liver, bone scan, or PET-CT).\n\n9\\. Patient has available tumor tissue from diagnostic biopsy. 10. Patient is classified as intermediate risk according to the ADAPT intermediate-risk definition (i) (as follows), or (only in case of missing Oncotype DX or Ki-67 response data), according to the clinical intermediate-risk definition (ii) (as follows).\n\n(i). ADAPT intermediate-risk definition: Patient meets one of the following criteria:\n\n* c/pN0, RS \u2264 25 with luminal-B-like (Ki-67 \u226520% or G3) or c/pT2-4 without endocrine response (post-endocrine Ki-67 \\> 10 %)\n* c/pN1, RS \u2264 25 without endocrine response (post-endocrine Ki-67 \\> 10 %)\n* c/pN0, RS \\> 25 with luminal-B-like (Ki-67 \u226520% or G3) or c/pT2-4 with endocrine response (Ki-67 \u2264 10 %)\n* c/pN1, RS \\> 25 with endocrine response (Ki-67 \u2264 10 %)\n* c/pN2-3, RS \u2264 25 with endocrine response (Ki-67 \u2264 10 %). Note: Postmenopausal patients with pT1-2/pN0 disease and RS \\< 25, as well as premenopausal patients with pT1-2/pN0 disease and RS\\<16, are recommended to be treated by endocrine therapy alone and not to be randomized (at investigator\u00b4s discretion).\n\n(ii). Clinical intermediate-risk definition (ascertained by investigator): Clinical intermediate risk may be ascertained by the investigator prior to randomization if at maximum two of the following three risk factors are present (according to primary diagnosis / 1st sample):\n\n1. cT2-4\n2. c/pN positive\n3. G3 and / or Ki-67 \u2265 20% Note: Inclusion of a patient according to \"clinical intermediate risk\" is permitted only in case of missing baseline Oncotype DX\u00ae or Ki-67 decrease. In this case, investigators will follow a risk-based, step-wise assessment process.\n\n11\\. No contraindication for (neo)-adjuvant ET. 12. Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1. 13. Patient has adequate bone marrow and organ function as defined by the following laboratory values:\n\n* absolute neutrophil count \u2265 1.5 \u00d7 109/L,\n* platelets \u2265 100 \u00d7 109/L,\n* hemoglobin \u2265 9.0 g/dL,\n* estimated glomerular filtration rate (eGFR) \u2265 30 mL/min by a Cockcroft-Gault formula,\n* INR \u2264 1.5,\n* serum creatinine \\< 1.5 mg/dL,\n* total bilirubin \\< ULN, except for patients with Gilbert's Syndrome who may only be included if the total bilirubin is \u2264 3.0 \u00d7 ULN or direct bilirubin \u2264 1.5 \u00d7 ULN,\n* aspartate transaminase (AST) \\< 2.5 \u00d7 ULN,\n* alanine transaminase (ALT) \\< 2.5 \u00d7 ULN. 14. 2-lead-ECG (CANKADO) with:\n* QTcF interval at screening \\< 450 msec (using Fridericia's correction),\n* mean resting heart rate 50-90 bpm (determined from the ECG). 15. Ability to swallow ribociclib tablets or to administer other study medication, respectively.\n\n  16\\. Ability to communicate with the investigator and comply with study procedures.\n\n  17\\. Willing to remain during therapy at the clinical site, as required by the protocol.\n\nExclusion Criteria:\n\nPatients eligible for inclusion in this study must not meet any of the following criteria:\n\n1. Patient with distant metastases of breast cancer beyond regional lymph nodes.\n2. Patient has received prior (neo)-adjuvant treatment with chemotherapy, ET, or any CDK4/6 inhibitor for breast cancer.\n3. Patient has received tamoxifen, raloxifene, or aromatase inhibitors (AIs) for reduction in risk (\"chemoprevention\") of breast cancer and/or treatment for osteoporosis within last 2 years prior to screening.\n4. Patient has received prior neoadjuvant/adjuvant treatment with anthracyclines at cumulative doses of 450 mg/m\u00b2 or more for doxorubicin or 900 mg/m\u00b2 or more for epirubicin.\n5. Patient with a known hypersensitivity to any of the excipients of ribociclib, ET, or standard-of-care chemotherapy.\n6. Patient with inflammatory breast cancer at screening.\n7. Patient is concurrently using other anti-cancer therapy.\n8. Patient has had major surgery within 14 days prior to starting study drug or has not recovered from major side effects.\n9. Patient is currently receiving warfarin or other coumarin-derived anti-coagulant for treatment, prophylaxis, or otherwise.\n10. Patient has not recovered from clinical and laboratory acute toxicities related to prior anticancer therapies to NCI CTCAE version 5.0 Grade \u2264 1.\n11. Patient has a concurrent malignancy, or malignancy within 5 years of randomization, or known history of invasive breast cancer.\n12. Patient has impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of the study drugs (e.g., uncontrolled ulcerative diseases, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, or small-bowel resection).\n13. Patient has a known history of HIV infection.\n14. Patient has known active hepatitis-B-virus (HBV) or hepatitis-C-virus (HCV) infection.\n15. Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the investigator\u00b4s judgment, cause unacceptable safety risks, contraindicate patient participation in the clinical study, or compromise compliance with the protocol (e.g., chronic pancreatitis, chronic active hepatitis, active untreated or uncontrolled fungal, bacterial, or viral infections, etc.).\n16. Clinically significant, uncontrolled heart disease and/or cardiac repolarization abnormality, including any of the following:\n\n    * history of myocardial infarction (MI), angina pectoris, symptomatic pericarditis, or coronary artery bypass graft (CABG) within 6 months prior to study entry,\n    * documented cardiomyopathy,\n    * left ventricular ejection fraction (LVEF) \\< 50 % as determined by multiple gated acquisition (MUGA) scan or echocardiogram (ECHO),\n    * long QT syndrome, family history of idiopathic sudden death, congenital long QT syndrome, or any of the following:\n\n      * risk factors for Torsades de Pointe (TdP) including uncorrected hypokalemia or hypomagnesemia, history of cardiac failure, or history of clinically significant/ symptomatic bradycardia,\n      * concomitant medications with a known risk to prolong the QT interval and/or known to cause Torsades de Pointe that cannot be discontinued or replaced by safe alternative medication (e.g., within 5 half-lives or 7 days prior to starting study drug),\n      * inability to determine the QTcF interval,\n      * clinically significant cardiac arrhythmias (e.g., ventricular tachycardia), complete left-bundle branch block, high-grade AV block (e.g., bifascicular block, Mobitz type II, and 3rd-degree AV block),\n      * systolic blood pressure (SBP) \\> 160 or \\< 90 mmHg.\n17. Patient is currently receiving any of the following substances, which cannot be discontinued 7 days prior to Cycle 1 Day 1:\n\n    * concomitant medications, herbal supplements, fruits (e.g. grapefruit, pomegranates, pomelos, star fruit, Seville oranges) and their juices that are strong inducers or inhibitors of CYP3A4/5,\n    * medications that have a narrow therapeutic window and are predominantly metabolized through CYP3A4/5.\n18. Patient is currently receiving or has received systemic corticosteroids \u2264 2 weeks prior to starting study drug, or who have not fully recovered from side effects of such treatment.\n19. Participation in a prior investigational study within 30 days prior to enrollment or within five half-lives of the investigational product, whichever is longer.\n20. Not able to understand and to comply with study instructions and requirements.\n21. Pregnant or nursing (lactating) woman.\n22. Woman of child-bearing potential defined as woman physiologically capable of becoming pregnant, unless she is using highly effective methods of contraception during the study treatment and for 21 days after stopping the treatment:\n\n    * total abstinence (when this is in line with the preferred and usual lifestyle of the patient).\n    * female sterilization (have had surgical bilateral oophorectomy with or without hysterectomy), total hysterectomy, or tubal ligation at least 6 weeks before taking study treatment.\n    * male partner sterilization (at least 6 months prior to study screening). For female patients on the study, the vasectomized male partner should be the sole partner for that patient.\n    * placement of an intrauterine device (IUD).\n23. Use of oral (estrogen and progesterone), transdermal, injected, or implanted hormonal methods of contraception as well as hormonal replacement therapy.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Pre- and postmenopausal women 18 years or older.",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nadia Harbeck, Prof. Dr.",
+          "affiliation": "Ludwigs-Maximilians-University Munich, Breast Cancer Centre",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Ost-Alb Klinikum Brustzentrum",
+          "city": "Aalen",
+          "state": "Baden-Wurttemberg",
+          "zip": "73430",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.83777,
+            "lon": 10.0933
+          }
+        },
+        {
+          "facility": "Stadtklinik Baden-Baden Brustzentrum",
+          "city": "Baden-Baden",
+          "state": "Baden-Wurttemberg",
+          "zip": "76532",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.7606,
+            "lon": 8.23975
+          }
+        },
+        {
+          "facility": "Kreiskliniken B\u00f6blingen Klinikum B\u00f6blingen Frauenklinik",
+          "city": "B\u00f6blingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "71032",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.68212,
+            "lon": 9.01171
+          }
+        },
+        {
+          "facility": "Uniklinikum Freiburg Frauenklinik",
+          "city": "Freiburg im Breisgau",
+          "state": "Baden-Wurttemberg",
+          "zip": "79106",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "Praxis f\u00fcr interdisziplin\u00e4re Onkologie & H\u00e4matologie GbR Praxis am Diakonieklinikum",
+          "city": "Freiburg im Breisgau",
+          "state": "Baden-Wurttemberg",
+          "zip": "79110",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 47.9959,
+            "lon": 7.85222
+          }
+        },
+        {
+          "facility": "SLK-Kliniken-Heilbronn Frauenklinik",
+          "city": "Heilbronn",
+          "state": "Baden-Wurttemberg",
+          "zip": "74078",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.13995,
+            "lon": 9.22054
+          }
+        },
+        {
+          "facility": "Klinikum Ludwigsburg Klinik f\u00fcr Frauenheilkunde u. Geburtshilfe",
+          "city": "Ludwigsburg",
+          "state": "Baden-Wurttemberg",
+          "zip": "71640",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.89731,
+            "lon": 9.19161
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum T\u00fcbingen Universit\u00e4ts-Frauenklinik",
+          "city": "T\u00fcbingen",
+          "state": "Baden-Wurttemberg",
+          "zip": "72016",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.52266,
+            "lon": 9.05222
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsfrauenklinik Ulm Frauenheilkunde und Geburtshilfe",
+          "city": "Ulm",
+          "state": "Baden-Wurttemberg",
+          "zip": "89075",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.39841,
+            "lon": 9.99155
+          }
+        },
+        {
+          "facility": "GRN Klinik Weinheim Gyn\u00e4kologie",
+          "city": "Weinheim",
+          "state": "Baden-Wurttemberg",
+          "zip": "69469",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.54887,
+            "lon": 8.66697
+          }
+        },
+        {
+          "facility": "Klinikum der Universit\u00e4t M\u00fcnchen Klinik und Poliklinik f\u00fcr Frauenheilkunde und Geburtshilfe, Brustzentrum",
+          "city": "Munich",
+          "state": "Bavaria",
+          "zip": "80337",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.13743,
+            "lon": 11.57549
+          }
+        },
+        {
+          "facility": "Rotkreuzkliniken M\u00fcnchen Frauenklinik - Gyn\u00e4kologie",
+          "city": "M\u00fcnchen",
+          "state": "Bavaria",
+          "zip": "80637",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 48.69668,
+            "lon": 13.46314
+          }
+        },
+        {
+          "facility": "Frauenklinik und Poliklinik / Studienzentrale Josef-Schneider-Stra\u00dfe 4",
+          "city": "W\u00fcrzburg",
+          "state": "Bavaria",
+          "zip": "97080",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.79391,
+            "lon": 9.95121
+          }
+        },
+        {
+          "facility": "Carl-Thiem-Klinikum / Brustzentrum Senologie der Frauenklinik",
+          "city": "Cottbus",
+          "state": "Brandenburg",
+          "zip": "03048",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.75769,
+            "lon": 14.32888
+          }
+        },
+        {
+          "facility": "Schwerpunktpraxis Gyn\u00e4kologische Onkologie Praxis Dr. Heinrich",
+          "city": "F\u00fcrstenwalde",
+          "state": "Brandenburg",
+          "zip": "15517",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.36067,
+            "lon": 14.06185
+          }
+        },
+        {
+          "facility": "Klinikum Ernst von Bergmann Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Potsdam",
+          "state": "Brandenburg",
+          "zip": "14467",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.39886,
+            "lon": 13.06566
+          }
+        },
+        {
+          "facility": "UKE Hamburg / Frauenklinik Brustzentrum am UKE",
+          "city": "Hamburg",
+          "state": "Free and Hanseatic City of Hamburg",
+          "zip": "20246",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Agaplesion Diakonieklinikum Hamburg Frauenklinik, Brustzentrum u. Gyn. Tumorzentrum / Gyn. Studienambulanz",
+          "city": "Hamburg",
+          "state": "Free and Hanseatic City of Hamburg",
+          "zip": "20259",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "Mammazentrum Hamburg am Krankenhaus Jerusalem",
+          "city": "Hamburg",
+          "state": "Free and Hanseatic City of Hamburg",
+          "zip": "20357",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55073,
+            "lon": 9.99302
+          }
+        },
+        {
+          "facility": "H\u00e4matologisch/Onkologische Schwerpunktpraxis Praxis Dr. Schreiber",
+          "city": "Bremen",
+          "state": "Free Hanseatic City of Bremen",
+          "zip": "28209",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.07582,
+            "lon": 8.80717
+          }
+        },
+        {
+          "facility": "Klinikum Bremerhaven Reinkenheide Frauenklinik",
+          "city": "Bremerhaven",
+          "state": "Free Hanseatic City of Bremen",
+          "zip": "27574",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.55357,
+            "lon": 8.57553
+          }
+        },
+        {
+          "facility": "AGAPLESION Markus Krankenhaus / Brustzentrum Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "60431",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Klinikum Frankfurt H\u00f6chst Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Frankfurt am Main",
+          "state": "Hesse",
+          "zip": "65929",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.11552,
+            "lon": 8.68417
+          }
+        },
+        {
+          "facility": "Klinikum Kassel Frauenklinik",
+          "city": "Kassel",
+          "state": "Hesse",
+          "zip": "34125",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.31667,
+            "lon": 9.5
+          }
+        },
+        {
+          "facility": "Sana Klinikum Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe, Studienambulanz AOZ",
+          "city": "Offenbach",
+          "state": "Hesse",
+          "zip": "63069",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.10061,
+            "lon": 8.76647
+          }
+        },
+        {
+          "facility": "St. Josefs-Hospital Wiesbaden Frauenklinik - Gyn\u00e4kologie",
+          "city": "Wiesbaden",
+          "state": "Hesse",
+          "zip": "65189",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.08601,
+            "lon": 8.24435
+          }
+        },
+        {
+          "facility": "Frauen\u00e4rzte Casparistra\u00dfe Studien GbR BS",
+          "city": "Braunschweig",
+          "state": "Lower Saxony",
+          "zip": "38100",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.26594,
+            "lon": 10.52673
+          }
+        },
+        {
+          "facility": "MVZ II der Niels Stensen Kliniken Onkologie u. H\u00e4matologie, Brustzenzrum",
+          "city": "Georgsmarienh\u00fctte",
+          "state": "Lower Saxony",
+          "zip": "49124",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.20296,
+            "lon": 8.0448
+          }
+        },
+        {
+          "facility": "Medizinische Hochschulle Hannover Klinik f\u00fcr Frauenheilkunde und Geburtshilfe",
+          "city": "Hanover",
+          "state": "Lower Saxony",
+          "zip": "30539",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "DIAKOVERE Henriettenstift Frauenklinik",
+          "city": "Hanover",
+          "state": "Lower Saxony",
+          "zip": "30559",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.37052,
+            "lon": 9.73322
+          }
+        },
+        {
+          "facility": "Gyn\u00e4kologische Gemeinschaftspraxis-\u00c4rztehaus am Bahnhofsplatz Klinische Studien",
+          "city": "Hildesheim",
+          "state": "Lower Saxony",
+          "zip": "31134",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.15077,
+            "lon": 9.95112
+          }
+        },
+        {
+          "facility": "St\u00e4dtisches Klinikum L\u00fcneburg Frauenklinik",
+          "city": "L\u00fcneburg",
+          "state": "Lower Saxony",
+          "zip": "21339",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.25122,
+            "lon": 10.41548
+          }
+        },
+        {
+          "facility": "MVZ Klinik Dr. Hancken Haematologie/Onkologie",
+          "city": "Stade",
+          "state": "Lower Saxony",
+          "zip": "21680",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.59407,
+            "lon": 9.47302
+          }
+        },
+        {
+          "facility": "UFK Klinikum S\u00fcdstadt Frauenklinik",
+          "city": "Rostock",
+          "state": "Mecklenburg-Vorpommern",
+          "zip": "18059",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 54.0887,
+            "lon": 12.14049
+          }
+        },
+        {
+          "facility": "Marienhospital Studienzentrale BrustCentrum Aachen-Kreis Heinsberg",
+          "city": "Aachen",
+          "state": "North Rhine-Westphalia",
+          "zip": "52066",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Aachen, Frauenklinik - Senologie",
+          "city": "Aachen",
+          "state": "North Rhine-Westphalia",
+          "zip": "52074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.77664,
+            "lon": 6.08342
+          }
+        },
+        {
+          "facility": "EVK Bergisch Gladbach Brustzentrum",
+          "city": "Bergisch Gladbach",
+          "state": "North Rhine-Westphalia",
+          "zip": "51465",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.9856,
+            "lon": 7.13298
+          }
+        },
+        {
+          "facility": "Onkologische Schwerpunktpraxis Bielefeld Praxis Dr. Just",
+          "city": "Bielefeld",
+          "state": "North Rhine-Westphalia",
+          "zip": "33604",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.03333,
+            "lon": 8.53333
+          }
+        },
+        {
+          "facility": "Marienhospital Bottrop Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe / Gyn-Ambulanz",
+          "city": "Bottrop",
+          "state": "North Rhine-Westphalia",
+          "zip": "46236",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.52392,
+            "lon": 6.9285
+          }
+        },
+        {
+          "facility": "St. Elisabeth-Krankenhaus Hohenlind Brustzentrum",
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "50935",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "Uniklinik K\u00f6ln / Geb\u00e4ude 70 Studienzentrale der Klinik und Poliklinik f\u00fcr Frauenheilkunde und Geburtshilfe",
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "50937",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "Kliniken der Stadt K\u00f6ln / Krankenhaus Holweide Brustzentrum Holweide",
+          "city": "Cologne",
+          "state": "North Rhine-Westphalia",
+          "zip": "51067",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.93333,
+            "lon": 6.95
+          }
+        },
+        {
+          "facility": "Klinikum Dortmund gGmbH Frauenklinik",
+          "city": "Dortmund",
+          "state": "North Rhine-Westphalia",
+          "zip": "44137",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.51494,
+            "lon": 7.466
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum D\u00fcsseldorf Klinik f\u00fcr Frauenheilkunde & Geburtshilfe",
+          "city": "D\u00fcsseldorf",
+          "state": "North Rhine-Westphalia",
+          "zip": "40225",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Luisenkrankenhaus GmbH GynOnco D\u00fcsseldorf",
+          "city": "D\u00fcsseldorf",
+          "state": "North Rhine-Westphalia",
+          "zip": "40235",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.22319,
+            "lon": 6.77927
+          }
+        },
+        {
+          "facility": "Praxis Dr. Adhami",
+          "city": "Erkelenz",
+          "state": "North Rhine-Westphalia",
+          "zip": "41812",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.07947,
+            "lon": 6.31531
+          }
+        },
+        {
+          "facility": "St. Antonius Hospital Klinik f\u00fcr H\u00e4matologie/Onkologie",
+          "city": "Eschweiler",
+          "state": "North Rhine-Westphalia",
+          "zip": "52249",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.81854,
+            "lon": 6.27184
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Essen Klinik f\u00fcr Frauenheilkunde und Geburtshilfe",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45130",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Kliniken Essen-Mitte, Klinik f\u00fcr Senologie/Interdisziplin\u00e4res Brustzentrum",
+          "city": "Essen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Evangelische Kliniken Gelsenkirchen GmbH Klinik f\u00fcr Senologie",
+          "city": "Gelsenkirchen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45879",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.50508,
+            "lon": 7.09654
+          }
+        },
+        {
+          "facility": "Wilhelm-Anton-Hospital Goch Klinik f\u00fcr Innere Medizin, H\u00e4matologie u. Onkologie",
+          "city": "Goch",
+          "state": "North Rhine-Westphalia",
+          "zip": "47574",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.67873,
+            "lon": 6.15895
+          }
+        },
+        {
+          "facility": "Onkodok GmbH",
+          "city": "G\u00fctersloh",
+          "state": "North Rhine-Westphalia",
+          "zip": "33332",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.90693,
+            "lon": 8.37853
+          }
+        },
+        {
+          "facility": "St. Barbara Klinik Brustzentrum",
+          "city": "Hamm",
+          "state": "North Rhine-Westphalia",
+          "zip": "59073",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.68033,
+            "lon": 7.82089
+          }
+        },
+        {
+          "facility": "Klinikum Leverkusen Medizinische Klinik 3",
+          "city": "Leverkusen",
+          "state": "North Rhine-Westphalia",
+          "zip": "51375",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.0303,
+            "lon": 6.98432
+          }
+        },
+        {
+          "facility": "Praxis f\u00fcr gyn\u00e4kologische Onkologie am Ev. Krankenhaus Bethesda",
+          "city": "M\u00f6nchengladbach",
+          "state": "North Rhine-Westphalia",
+          "zip": "41061",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.18539,
+            "lon": 6.44172
+          }
+        },
+        {
+          "facility": "St. Franziskus-Hospital Brustzentrum",
+          "city": "M\u00fcnster",
+          "state": "North Rhine-Westphalia",
+          "zip": "48145",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Frauenheilkunde",
+          "city": "M\u00fcnster",
+          "state": "North Rhine-Westphalia",
+          "zip": "48149",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.96236,
+            "lon": 7.62571
+          }
+        },
+        {
+          "facility": "ONCOLOGIANOVA Praxis Dr. Emde",
+          "city": "Recklinghausen",
+          "state": "North Rhine-Westphalia",
+          "zip": "45659",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.61379,
+            "lon": 7.19738
+          }
+        },
+        {
+          "facility": "Marienkrankenhaus Schwerte Brustzentrum",
+          "city": "Schwerte",
+          "state": "North Rhine-Westphalia",
+          "zip": "58239",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.44387,
+            "lon": 7.5675
+          }
+        },
+        {
+          "facility": "Marien-Krankenhaus Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Siegen",
+          "state": "North Rhine-Westphalia",
+          "zip": "57072",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.87481,
+            "lon": 8.02431
+          }
+        },
+        {
+          "facility": "Diakonie Klinikum Jung Stilling Brustzentrum",
+          "city": "Siegen",
+          "state": "North Rhine-Westphalia",
+          "zip": "57074",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.87481,
+            "lon": 8.02431
+          }
+        },
+        {
+          "facility": "Praxisnetz H\u00e4matologie / internistische Onkologie Praxis Troisdorf",
+          "city": "Troisdorf",
+          "state": "North Rhine-Westphalia",
+          "zip": "53840",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.80901,
+            "lon": 7.14968
+          }
+        },
+        {
+          "facility": "Christliches Klinikum Unna gGmbH Brustzentrum",
+          "city": "Unna",
+          "state": "North Rhine-Westphalia",
+          "zip": "59423",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.53795,
+            "lon": 7.68969
+          }
+        },
+        {
+          "facility": "Praxis f\u00fcr H\u00e4matologie und internistische Onkologie Praxis Dr. Nusch",
+          "city": "Velbert",
+          "state": "North Rhine-Westphalia",
+          "zip": "42551",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33537,
+            "lon": 7.04348
+          }
+        },
+        {
+          "facility": "Marien Hospital / Senologie Brustzentrum",
+          "city": "Witten",
+          "state": "North Rhine-Westphalia",
+          "zip": "58452",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.44362,
+            "lon": 7.35258
+          }
+        },
+        {
+          "facility": "Helios Universit\u00e4tsklinikum Frauenheilkunde & Geburtshilfe",
+          "city": "Wuppertal",
+          "state": "North Rhine-Westphalia",
+          "zip": "42283",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.25627,
+            "lon": 7.14816
+          }
+        },
+        {
+          "facility": "Katholisches Klinikum Koblenz-Montabaur-Marienhof Koblenz Marienhof Koblenz - Gyn\u00e4kologie",
+          "city": "Koblenz",
+          "state": "Rhineland-Palatinate",
+          "zip": "56073",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.35357,
+            "lon": 7.57883
+          }
+        },
+        {
+          "facility": "Klinikum Mutterhaus der Borrom\u00e4erinnen Innere Medizin I / Onkologie",
+          "city": "Trier",
+          "state": "Rhineland-Palatinate",
+          "zip": "54290",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.75565,
+            "lon": 6.63935
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum des Saarlandes Frauenklinik",
+          "city": "Homburg",
+          "state": "Saarland",
+          "zip": "66421",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.32637,
+            "lon": 7.33867
+          }
+        },
+        {
+          "facility": "DRK Kliniken Saar / Krankenhaus Saarlouis Brustzentrum",
+          "city": "Saarlouis",
+          "state": "Saarland",
+          "zip": "66740",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.31366,
+            "lon": 6.75154
+          }
+        },
+        {
+          "facility": "Klinikum Chemnitz Frauenklinik / Brustzentrum",
+          "city": "Chemnitz",
+          "state": "Saxony",
+          "zip": "09116",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.8357,
+            "lon": 12.92922
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Dresden Klinik und Poliklinik f\u00fcr Frauenheilkunde und Geburtshilfe",
+          "city": "Dresden",
+          "state": "Saxony",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Leipzig Gyn\u00e4kologie und Universit\u00e4res Krebszentrum; Klinik und Poliklinik f\u00fcr Frauenheilkunde",
+          "city": "Leipzig",
+          "state": "Saxony",
+          "zip": "04015",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Kliniken St. Georg Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Leipzig",
+          "state": "Saxony",
+          "zip": "04129",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.33962,
+            "lon": 12.37129
+          }
+        },
+        {
+          "facility": "Klinikum Oberg\u00f6ltzsch-Rodewisch Frauenklinik",
+          "city": "Rodewisch",
+          "state": "Saxony",
+          "zip": "08228",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.53083,
+            "lon": 12.41329
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Halle Universit\u00e4tsklinik f\u00fcr Gyn\u00e4kologie",
+          "city": "Halle",
+          "state": "Saxony-Anhalt",
+          "zip": "06120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.48158,
+            "lon": 11.97947
+          }
+        },
+        {
+          "facility": "Altmark-Klinikum Salzwedel Klinik f\u00fcr Frauenheilkunde",
+          "city": "Hansestadt Salzwedel",
+          "state": "Saxony-Anhalt",
+          "zip": "29410",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.85297,
+            "lon": 11.15287
+          }
+        },
+        {
+          "facility": "Johanniter Frauenklinik Stendal Gyn\u00e4kologie",
+          "city": "Stendal",
+          "state": "Saxony-Anhalt",
+          "zip": "39576",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.6069,
+            "lon": 11.85867
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Schleswig-Holstein Campus L\u00fcbeck, Frauenklinik",
+          "city": "L\u00fcbeck",
+          "state": "Schleswig-Holstein",
+          "zip": "23538",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.86893,
+            "lon": 10.68729
+          }
+        },
+        {
+          "facility": "Charit\u00e9 Berlin, Klinik f\u00fcr Gyn\u00e4kologie m.S. Senologie Brustzentrum (CCM)",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "10117",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "St. Gertrauden Krankenhaus Brustzentrum City Berlin",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "10713",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Vivantes Klinikum Am Urban Brustzentrum",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "10967",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "DRK Klinikum Berlin-K\u00f6penick Brustzentrum",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "12559",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Evangelisches Waldkrankenhaus Spandau Klinik f\u00fcr Gyn\u00e4kologie und Geburtshilfe",
+          "city": "Berlin",
+          "state": "State of Berlin",
+          "zip": "13589",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Jena Klinik und Poliklinik f\u00fcr Frauenheilkunde und Fortpflanzungsmedizin",
+          "city": "Jena",
+          "state": "Thuringia",
+          "zip": "07747",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 50.92878,
+            "lon": 11.5899
+          }
+        },
+        {
+          "facility": "MVZ Nordhausen Praxis Dr. Andrea Grafe",
+          "city": "Nordhausen",
+          "state": "Thuringia",
+          "zip": "99734",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.5018,
+            "lon": 10.7957
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37695655",
+          "type": "DERIVED",
+          "citation": "Klier K, Patel YJ, Schinkothe T, Harbeck N, Schmidt A. Corrected QT Interval (QTc) Diagnostic App for the Oncological Routine: Development Study. JMIR Cardio. 2023 Sep 11;7:e48096. doi: 10.2196/48096."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The sponsor is committed to following high ethical standards for reporting study results, including the timely communication and publication of clinical trial results, whatever their outcome. The sponsor assures that the key design elements of this protocol will be posted on a publicly accessible database, e.g., www.clinicaltrials.gov, before study start.\n\nAs part of its commitment to full transparency in publications, the sponsor supports the full disclosure of all funding sources for the study and publications, as well as any actual and potential conflicts of interest of financial and non-financial nature by all authors, including medical writing / editorial support, if applicable.",
+      "infoTypes": [
+        "CSR"
+      ],
+      "timeFrame": "Within 1 year after end of study.",
+      "accessCriteria": "for regulatory use only"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D013607",
+          "term": "Tablets"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004304",
+          "term": "Dosage Forms"
+        },
+        {
+          "id": "D004364",
+          "term": "Pharmaceutical Preparations"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

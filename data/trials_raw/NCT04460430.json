@@ -1,0 +1,360 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04460430",
+      "orgStudyIdInfo": {
+        "id": "SOLTI-1718"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-000710-11",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Targeting EGFR/ERBB2 With Neratinib in Hormone Receptor (HR)-Positive/HER2-negative HER2-enriched Advanced/Metastatic Breast Cancer",
+      "officialTitle": "Targeting EGFR/ERBB2 With Neratinib in Hormone Receptor (HR)-Positive/HER2-negative HER2-enriched Advanced/Metastatic Breast Cancer",
+      "acronym": "NEREA"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-10",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "premature termination due to lack of funding",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-23",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-11-29",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-11-29",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-06-29",
+      "studyFirstSubmitQcDate": "2020-07-01",
+      "studyFirstPostDateStruct": {
+        "date": "2020-07-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "HR+/HER2-negative BC represent \u223c70% of all newly diagnosed breast tumours and are responsible for most recurrences and deaths due to this disease, and despite available standard therapies, \u223c15-20% of hormone tumours recur at distant sites. As BC is a clinically and biologically heterogeneous disease, intrincsic subtype may play an important role in classifying patients. In this case, HER2-E subtype is present in approximately 6.6-11.0% of HR+/HER2-negative tumors and might express either HER2, estrogen receptor (ER) or progesterone receptor (PR), we also know that HER2-E is present twice as much in metastatic tumors compared to primary tumors and that HER2-E patients may benefit in terms of PFS form an anti-HER2 drug as was showed using retrospective sample in EGF30008 trial. Therefore, incorporation of novel drugs in combination with endocrine therapy (ET) can improve patient outcomes in HR+/HER2-negative BC advanced disease specially in those with HER2-E subtype.\n\nMethods NEREA is an open-label, single arm, multicenter phase II study evaluating treatment with neratinib in combination with ET in pre and post-menopausal women and men with locally advanced or metastatic HER2-enriched (HER2-E), HR+/HER2-negative breast cancer who had recurrence or progression while receiving previous ET (either aromatase inhibitors, tamoxifen or fulvestrant) in the adjuvant setting or to treat advanced disease or both. The study will follow a Simon's 2-stage design with one interim and one final efficacy analysis. The primary objective will is assess the efficacy of neratinib in combination with ET is this group of patients, efficacy will be measured as Progression-Free Survival at 6 months (PFS6) defined as the proportion of patients alive and without progression, locally assessed by the investigator through the use of RECIST v.1.1 at 24 weeks after first treatment administration, imaging evaluation will be performed every 8 weeks for the first 12 months following treatment start, and every 12 weeks thereafter. Secondary endpoints include Clinical Benefit Rate at 6 months , Overall Response rate, Duration of response, Time to response and Incidence, duration and severity of Adverse Events. The interim analysis will be conducted when 33 patients are evaluable for the primary endpoint having the potential for at least 3 'on treatment' disease assessment scans. If less than 15 patients achieved a PFS6, the trial will be terminated for futility in favor of the null hypothesis. If more than 28 patients achieved a PFS6, the trial will be stopped in favor of the alternative hypothesis demonstrating activity. If none of the two above-mentioned conditions are attain, up to a further 23 patients may be evaluated, for at least a total of 56 evaluable patients. Therefore, if a total of 28 or more patients achieved a PFS6 at the end of the second stage, then the null will be rejected in favor of the alternative.\n\nEligible patients will receive neratinib 240 mg every day in combination with ET, with either exemestane, fulvestrant or tamoxifen: exemestane 25 mg every day orally, tamoxifen 20mg every day orally or fulvestrant 500 mg administered in two intramuscular injections of 250 mg each at C1D15 and at D1 of each subsequent 28-day cycle at investigator discretion. LHRH agonist will be used in men and premenopausal women if no oophorectomy has been performed previously. All patients will take prophylactic loperamide with a stablished doses scheme during the firs cycle and on demand in subsequent cycles"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 12,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Neratinib + endocrine therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Neratinib plus Fulvestrant, Exemestane or Tamoxifen",
+          "interventionNames": [
+            "Drug: Neratinib + endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Neratinib + endocrine therapy",
+          "description": "Neratinib plus Fulvestrant, Exemestane or Tamoxifen",
+          "armGroupLabels": [
+            "Neratinib + endocrine therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-Free survival PFS6 (Efficacy)",
+          "description": "Proportion of patients alive and without progression (according to RECIST v1.1 criteria)",
+          "timeFrame": "at 24 weeks after first treatment administration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Benefit Rate at 6 months (CBR6)",
+          "description": "CBR6 defined as a Complete response (CR), Partial response (PR) or Stable Disease (SD) as determined locally by the investigator through the use of RECIST.",
+          "timeFrame": "at 24 weeks after first treatment administration"
+        },
+        {
+          "measure": "Overall Response rate (ORR)",
+          "description": "determined locally by the investigator through the use of Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 criteria",
+          "timeFrame": "until objective tumor response, on average 8 months"
+        },
+        {
+          "measure": "Progression free survival (PFS)",
+          "description": "determined locally by the investigator through the use of RECIST v.1.1, or death from any cause, whichever occurs first.",
+          "timeFrame": "until patients progression, on average 8 months"
+        },
+        {
+          "measure": "Duration of response (DoR)",
+          "description": "determined locally by the investigator through use of RECIST v.1.1, or death from any cause, whichever occurs first",
+          "timeFrame": "from objective tumor response until patients progression, on average 8 months"
+        },
+        {
+          "measure": "Time to response (TtR)",
+          "description": "defined as the time from first treatment administration to the first objective tumor response (tumor shrinkage of \u226530%) observed for patients who achieved a CR or PR.",
+          "timeFrame": "from first treatment administration to the objective tumor response, on average 8 months"
+        },
+        {
+          "measure": "Incidence, duration and severity of Adverse Events (AEs)",
+          "description": "assessed by the NCI Common Terminology for Classification of Adverse Events (CTCAE) version 5, including dose reductions, delays and treatment discontinuations.",
+          "timeFrame": "from first treatment administration to the end of study, on average 8 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* \\* Male/female participants who are at least 18 years of age on the day of signing informed consent with histologically confirmed diagnosis of locally advanced or metastatic, histologically documented hormone receptor positive (ER and/or PR expression \\>1%) and HER2- breast cancer by local testing, not amenable to surgical therapy will be enrolled in this study.\n\n  * HER2 negativity is defined as either of the following by local laboratory assessment: IHC 0, IHC 1+ or IHC2+/in situ hybridisation (ISH/FISH) negative as per American Society of Clinical Oncology (ASCO)-College of American Pathologists Guideline (CAP) guideline82.\n  * ER and/or PR positivity are defined as \\>1% of cells expressing HR via IHC analysis as per ASCO-CAP guideline83.\n* The participant (or legally acceptable representative if applicable) provides written informed consent for the trial.\n* Postmenopausal, as defined by at least one of the following criteria:\n\n  * Age \u226560 years;\n  * Age \\<60 years and cessation of regular menses for at least 12 consecutive months with no alternative pathological or physiological cause (in the absence of chemotherapy, tamoxifen, toremifene, or ovarian suppression); and serum estradiol and FSH level within the laboratory's reference range for postmenopausal females;\n  * Documented bilateral oophorectomy,\n  * Medically confirmed ovarian failure OR\n\nPre/perimenopausal, i.e., not meeting the criteria for being postmenopausal: Pre/perimenopausal women can be enrolled if amenable to be treated with the LHRH agonist. Patients must have commenced treatment with LHRH agonist at least 4 weeks prior to treatment start.\n\n* \\* No more than one prior line of chemotherapy for recurrent locally advanced or metastatic disease.\n* Prior radiation therapy for metastatic disease is permitted. Subjects who were treated with radiation therapy may participate as long as at least 2 weeks have elapsed since the last dose of radiation therapy or have recovered from the effects of radiation before treatment start whichever is the latest.\n* Disease refractory to aromatase inhibitors or fulvestrant or tamoxifen, defined as recurrence during or within 12 months after the end of adjuvant treatment or progression during or within 1 months after the end of treatment for advanced disease. Notes: Endocrine therapy do not have to be the last treatment prior to first treatment administration. Other prior anticancer endocrine therapy in combination with CDK 4/6 inhibitors or PI3K-pathway-targeted therapies (including PI3K, mTOR, PDK and AKT inhibitors) are also allowed. Patients who have received fulvestrant, exemestane and tamoxifen may be eligible\n* \\* Availability of formalin-fixed paraffin-embedded (FFPE) tumor block, taken less than 12 months before the start of the treatment during metastatic disease, if not available, confirmation by the Medical monitor will be required to include the patient in the study. A study-specific pathology report should be associated with the sample (every effort should be done to obtain the sample after the previous therapeutic regimen for advanced disease). The tumor tissue should be of good quality based on total and viable tumor content and must be evaluated centrally for PAM50 analysis prior to enrollment. Patients whose tumor tissue is not evaluable for central testing are not eligible unless a biopsy from metastatic lesion is performed for this purpose.\n\n  a) Acceptable samples include core needle biopsies for deep tumor tissue or excisional, incisional, punch, or forceps biopsies for cutaneous, subcutaneous, or mucosal lesions or biopsies from bone metastases.\n\n  c) Fine needle aspiration, brushing, cell pellet from pleural effusion and lavage samples are not acceptable.\n* HER2-E subtype as per PAM50 analysis confirmed by the designated laboratory.\n* \\* Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1. Evaluation of ECOG is to be performed within 7 days prior to the date of enrollment.\n* \\* Life expectancy \u2265 12 weeks\n* \\* Measurable disease or non-measurable (but evaluable), as defined by RECIST v1.1. (Note: Previously irradiated lesions can be considered as measurable disease only if disease progression has been unequivocally documented at that site since radiation).\n* Adequate hematologic and end-organ function\n* Baseline left ventricular ejection fraction (LVEF) \u2265 50% measured by echocardiography (ECHO) or Multiple Gate Acquisition (MUGA) scan.\n\nMale participants:\n\n\u2022 A male participant must agree to use contraception as detailed in Appendix 3 of this protocol during the treatment period and for at least 120 days form the last doses of neratinib and refrain from donating sperm during this period.\n\nFemale participants:\n\n* A female participant is eligible to participate if she is not pregnant (see Appendix 3), not breastfeeding, and at least one of the following conditions applies:\n* Not a woman of childbearing potential (WOCBP) as defined in Appendix 3 OR\n* A WOCBP who agrees to follow the contraceptive guidance in Appendix 3 during the treatment period and for at least 120 days from the last dose of neratinib.\n\nExclusion Criteria:\n\n* Prior treatment with any ERBB2-directed TKI (eg, lapatinib, afatinib, dacomitinib, neratinib, tucatinib)\n* Received prior therapy resulting in a cumulative epirubicin dose \\>900 mg/m2 or cumulative doxorubicin dose \\>450 mg/m2. If another anthracycline or more than one anthracycline has been used, the cumulative dose must not exceed the equivalent of 450 mg/m2 doxorubicin.\n* Active uncontrolled cardiac disease, including cardiomyopathy, congestive heart failure (New York Heart Association functional classification of \u22652), unstable angina (symptomatic angina pectoris within the past 180 days that required the initiation of or increase in anti-anginal medication or other intervention), myocardial infarction within 12 months of enrollment, or ventricular arrhythmia (except for benign premature ventricular contractions).\n* Significant chronic gastrointestinal disorder with diarrhea as a major symptom (eg, Crohn's disease, malabsorption, or Grade \u22652 National Cancer Institute \\[NCI\\] Common Terminology Criteria for Adverse Events Version 5.0 \\[CTCAE v.5.0\\] diarrhea of any etiology at baseline).\n* A WOCBP who has a positive urine pregnancy test within 72 hours prior to C1D1 (see Appendix 3). If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n* Presence of any acute toxic effects from prior anti-cancer therapy or major surgical procedures to NCI CTCAE version 5.0 Grade \u2264 1 (except alopecia or other toxicities not considered a safety risk for the patient at investigator\u00b4s discretion). Note: Placement of central venous access catheter(s) (e.g., port or similar) is not considered a major surgical procedure and is therefore permitted.\n* Uncontrolled pleural effusion, pericardial effusion, or ascites (Note: patients with indwelling catheters, such as PleurX\u00ae are allowed).\n* Uncontrolled hypercalcemia (\\>1.5 mmol/L \\[\\>6 mg/dL\\] ionized calcium or serum calcium \\[uncorrected for albumin\\] \\>3 mmol/L \\[\\>12 mg/dL\\] or corrected serum calcium \\>ULN) or clinically significant (symptomatic) hypercalcemia\n* \\* Has a known additional malignancy that is progressing or has required active treatment within the past 3 years. Note: Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin or carcinoma in situ (e.g. breast carcinoma, cervical cancer in situ) that have undergone potentially curative therapy are not excluded.\n* Has known active CNS metastases and/or carcinomatous meningitis. Participants with previously treated brain metastases may participate provided they are radiologically stable, i.e. without evidence of progression for at least 4 weeks by repeat imaging (note that the repeat imaging should be performed during study screening), clinically stable and on a chronic stable dose of \u2264 2 mg total daily of dexamethasone (or equivalent) during the last 14 days.\n* \\* Has a history of (non-infectious) pneumonitis that required steroids or has current pneumonitis.\n* \\* Prior solid organ transplantation\n* Has an active infection requiring systemic therapy.\n* \\* Has a known history of Human Immunodeficiency Virus (HIV).\n* \\* Has a known history of Hepatitis B (defined as Hepatitis B surface antigen \\[HBsAg\\] reactive) or known active Hepatitis C virus (defined as HCV RNA \\[qualitative\\] is detected) infection. Note: no testing for Hepatitis B and Hepatitis C is required unless mandated by local health authority.\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the study, interfere with the subject's participation for the full duration of the study, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.\n* Unable or unwilling to swallow tablets.\n* Known hypersensitivity to any component of the investigational product, required combination therapy, or loperamide.\n* Patients being treated with drugs recognized as being strong inhibitors or inducers of the isoenzyme CYP3A4/P-gp isoform of cytochrome P450: Ritonavir (antiretroviral), carbamazepine, phenobarbital, phenytoin (antiepileptics), St John's wort (Hypericum perforatum) (herbal product), rifampicin, Rifabutin (antimycobacterial), Ketoconazole, Itroconazole, Voriconazole (antifungal), Telithromycin, Clarithromycin (antibiotic). Co-administration with moderate CYP3A4/P-gp inhibitors: fluconazole (antifungal), diltiazem, verapamil (calcium-channel blockers), erythromycin (antibiotic), Severe hepatic impairment (Child-Pugh C)) within the last 5 days prior to first treatment administration.\n* \\* Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.\n* Is pregnant or breastfeeding, or expecting to conceive or father children within the projected duration of the study, starting with the screening visit through 120 days after the last dose of neratinib.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "IPO Lisboa",
+          "city": "Lisbon",
+          "zip": "1500-650",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 38.72509,
+            "lon": -9.1498
+          }
+        },
+        {
+          "facility": "Instituto Portugues de Oncologia de Porto Francisco Gentil, EPE",
+          "city": "Porto",
+          "zip": "4200-072",
+          "country": "Portugal",
+          "geoPoint": {
+            "lat": 41.1485,
+            "lon": -8.61097
+          }
+        },
+        {
+          "facility": "H. Cl\u00ednico San Cecilio de Granada",
+          "city": "Granada",
+          "state": "Andalusia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "ICO Badalona",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednic de Barcelona",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital General de Catalunya",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitari Vall d' Hebron",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Marina Salud de Denia",
+          "city": "Denia",
+          "zip": "03700",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.84078,
+            "lon": 0.10574
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario de Ja\u00e9n",
+          "city": "Ja\u00e9n",
+          "zip": "23007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Hospital Universitari Arnau de Vilanova de Lleida",
+          "city": "Lleida",
+          "zip": "25198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de octubre",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Ramon y Cajal",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Son Llatzer",
+          "city": "Palma de Mallorca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen del Rocio",
+          "city": "Seville",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Virgen de Macarena",
+          "city": "Seville",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C487932",
+          "term": "neratinib"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

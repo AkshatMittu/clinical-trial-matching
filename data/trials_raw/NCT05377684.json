@@ -1,0 +1,451 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05377684",
+      "orgStudyIdInfo": {
+        "id": "CLIN-52014-452"
+      },
+      "organization": {
+        "fullName": "Ipsen",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of Quality of Life and Hormone Levels in Premenopausal Participants With Early Breast Cancer Receiving Triptorelin Plus Additional Cancer Treatment",
+      "officialTitle": "Noninterventional, Multicentre, Prospective, Cohort Study Assessing the Quality of Life and Hormonal Levels in Premenopausal Patients With Hormone Receptor-positive and HER2-negative Early Breast Cancer in Italy - ROSE Study",
+      "acronym": "ROSE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-04",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-04-29",
+      "studyFirstSubmitQcDate": "2022-05-16",
+      "studyFirstPostDateStruct": {
+        "date": "2022-05-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ipsen",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main purpose of this study is to evaluate the quality of life of premenopausal participants with Hormone Receptor (HR) positive and Human Epidermal Growth Factor Receptor-2 (HER2) negative breast cancer who are receiving, in addition to triptorelin, an endocrine cancer treatment. The study will also get more information about: - the effectiveness and safety of triptorelin; - the relationship that could exist between the characteristics of the disease and the treatment chosen by the Investigator."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Early-stage Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 450,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of participants reaching a clinically significant change in the global Quality of Life (QoL) score.",
+          "description": "Defined as a minimum change of \u22654 points using the Functional Assessment of Cancer Therapy - General (FACT-G) questionnaire.",
+          "timeFrame": "At 18 months."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Tumor characteristics.",
+          "timeFrame": "At baseline."
+        },
+        {
+          "measure": "Percentage of days covered of compliance",
+          "timeFrame": "At 18 months"
+        },
+        {
+          "measure": "Description of breast cancer treatment.",
+          "description": "Including triptorelin formulation (1-month or 3-month formulation), planned neoadjuvant/adjuvant chemotherapy (yes/no) and oral adjuvant endocrine treatment prescribed ((Aromatase Inhibitor (AI) or Tamoxifen (TAM))",
+          "timeFrame": "At baseline."
+        },
+        {
+          "measure": "Identification of potential demographic factors predictive of any treatment switch.",
+          "description": "A multivariate logistic regression will be used to identify demographic factors predictive of any treatment switches.",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Identification of demographic and tumor characteristics correlated to the entire prescribed breast cancer treatment.",
+          "description": "A multivariate logistic regression will be used to identify characteristics correlated to the prescription of the 1-month or 3-month triptorelin formulations with TAM or an AI.",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Proportion of participants who switch between triptorelin formulations, from AI to TAM or vice-versa, or undergo both triptorelin and adjuvant therapy switches",
+          "description": "The switches between triptorelin formulation or from the AI to TAM will be described together with the reasons for switches.",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Proportion of disease-free participants.",
+          "description": "Disease-free survival is defined as the time from triptorelin initiation to disease recurrence as determined by the Investigator.",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Proportion of participants alive.",
+          "description": "The OS rate will be estimated using the Kaplan-Meier method. Survival time will be defined as the time from triptorelin initiation to participant's death for any reason.",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Proportion of compliant patients (100% of the planned injections) to triptorelin",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Identification of potential demographic, tumor-related or breast cancer treatment-related factors predictive of suboptimal OFS.",
+          "description": "as per local definition, or empirically defined as E2 levels ranging between 30 and 70 pg/ml according to the average range collected in Italian centers. A multivariate logistic regression will be used to identify predictive factors of suboptimal OFS as per local definition",
+          "timeFrame": "At 18 months."
+        },
+        {
+          "measure": "Identification of potential demographic, tumor-related or breast cancer treatment-related factors predictive of clinically significant global QoL change",
+          "description": "A multivariate logistic regression will be used to identify any predictive factors of clinically significant global QoL change (i.e. \u22654 points).",
+          "timeFrame": "At 6, 12 and 18 months."
+        },
+        {
+          "measure": "Incidence of all treatment-emergent adverse events (TEAEs)",
+          "description": "Summary incidence tables of nonserious and serious AEs, as well as special situations presented overall, by System Organ Class and Preferred term (MedDRA coding) and according to intensity and causality",
+          "timeFrame": "From baseline up to 18 months."
+        },
+        {
+          "measure": "Change in the Quality of Life (QoL) score using the FACT-G questionnaire with the Endocrine Symptoms (ES) subscale.",
+          "description": "All global scores and subscores of the QoL questionnaire will be described at each timepoint. Comparisons will be performed using the paired Student t-test.",
+          "timeFrame": "From baseline and at 6, 12 and 18 months"
+        },
+        {
+          "measure": "Description of demographic data.",
+          "description": "Including age at diagnosis, parity, pregnancy desire (yes/no), oocyte cryopreservation (yes/no) and embryo cryopreservation (yes/no);",
+          "timeFrame": "At baseline."
+        },
+        {
+          "measure": "Description of demographic data",
+          "description": "Including Body Mass Index calculation",
+          "timeFrame": "At baseline."
+        },
+        {
+          "measure": "Proportion of participants with hormonal levels (E1, E2 and FSH) corresponding to Ovarian Function Suppression (OFS)",
+          "description": "As per local definition, or empirically defined as E2 levels \\<30 pg/ml according to the average level collected in Italian centers)",
+          "timeFrame": "From baseline up to 18 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria :\n\n* Premenopausal (as per local definition) female patients aged \u226518 years on the day the informed consent is signed;\n* Patients have histologically proven, HR-positive and HER2 negative breast cancer according to local definition, determined by immunohistochemistry, and up to stage IIIA. Note: patients with synchronous bilateral breast cancer and patients with breast cancer (BRCA)1/2 gene mutations are eligible;\n* Patients have been prescribed adjuvant endocrine treatment with TAM or an AI plus triptorelin (either the 1 month or 3 month formulation) by their treating physician or, in alternative, triptorelin given in combination or consequent to neoadjuvant/adjuvant chemotherapy. Note: the decision to prescribe triptorelin is made by the treating physician prior to and independently of the decision to enroll the patient in this study;\n* Patients must be documented to be disease-free at enrolment, as determined by the treating physician according to institutional standards. Note: in case the patient has been prescribed neoadjuvant treatment, the patient will receive surgery and be enrolled but will only remain in the study if disease-free condition is confirmed after surgery. If this condition is not confirmed, then the patient will be discontinued from the study;\n* Written informed consent for trial participation must be signed and dated by the patient and the Investigator prior to enrolment;\n* Patients have been informed of and agree to data transfer and handling, in accordance with national data protection guidelines;\n* Patients must be accessible for follow-up;\n* Patients may have received previous treatment with triptorelin for another indication, but the last administration must have occurred at least 6 months before enrolment.\n\nExclusion Criteria :\n\n* Patient is currently enrolled in any other clinical study or has participated in one within the 12 weeks prior to the Inclusion visit, or is scheduled to receive a new investigational drug while this study is ongoing;\n* Patient is not eligible for triptorelin treatment as guided by the product's label in Italy due to safety concerns or has prior history of no responsiveness to triptorelin (in case of previous triptorelin treatment);\n* Patient has premenopausal status that cannot be defined;\n* Patient has had bilateral oophorectomy or ovarian irradiation;\n* Patient has current loco-regional relapse and/or distant metastatic disease;\n* Patient has a history of prior (ipsi- and/or contralateral) invasive breast cancer;\n* Patient has a history of malignancy other than invasive breast cancer, with the following exceptions: (a) Patients diagnosed, treated and disease-free for at least 5 years and deemed by the Investigator to be at low risk for recurrence of that malignancy are eligible; (b) Patients with the following malignancies are eligible, even if diagnosed and treated within the past 5 years: in situ breast ductal carcinoma; in situ cervical cancer; in situ thyroid cancer; nonmetastatic, no melanomatous skin cancers;\n* Patient has concurrent disease or condition that would make study participation inappropriate or any serious medical disorder that would interfere with the patient's safety;\n* Patient has psychiatric, addictive, or any other disorder that would prevent compliance with protocol requirements",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study is aimed at premenopausal participants diagnosed with HR-positive and HER2 negative early breast cancer who are starting treatment with triptorelin at the discretion of the treating physician and who consent to participate in the study.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ipsen Medical, Director",
+          "affiliation": "Ipsen",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Policlinico S. Orsola - Malpighi",
+          "city": "Bologna",
+          "zip": "40138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.49381,
+            "lon": 11.33875
+          }
+        },
+        {
+          "facility": "Ospedale Oncologico \"A. Businco\"",
+          "city": "Cagliari",
+          "zip": "9121",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 39.23054,
+            "lon": 9.11917
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero-Universitaria Careggi (AOUC)",
+          "city": "Florence",
+          "zip": "50134",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.77925,
+            "lon": 11.24626
+          }
+        },
+        {
+          "facility": "ASST Lecco",
+          "city": "Lecco",
+          "zip": "23900",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.85589,
+            "lon": 9.39704
+          }
+        },
+        {
+          "facility": "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+          "city": "Milan",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.46427,
+            "lon": 9.18951
+          }
+        },
+        {
+          "facility": "IRCCS San Raffaele",
+          "city": "Milan",
+          "zip": "20132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Istituto Europeo di Oncologia",
+          "city": "Milan",
+          "zip": "20132",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Istituto Nazionale Tumori",
+          "city": "Milan",
+          "zip": "20133",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 42.78235,
+            "lon": 12.59836
+          }
+        },
+        {
+          "facility": "Ospedale S. Gerardo",
+          "city": "Monza",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.58005,
+            "lon": 9.27246
+          }
+        },
+        {
+          "facility": "AORN Cardarelli",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Istituto Nazionale Tumori - Fondazione Pascale",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Universit\u00e0 della Campania \"L. Vanvitelli\"",
+          "city": "Naples",
+          "zip": "80138",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "P.O. Ospedale del Mare",
+          "city": "Naples",
+          "zip": "80147",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Ospedale San Carlo",
+          "city": "Potenza",
+          "zip": "85100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.64175,
+            "lon": 15.80794
+          }
+        },
+        {
+          "facility": "Ospedale Santa Maria delle Grazie",
+          "city": "Pozzuoli",
+          "zip": "80078",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.84394,
+            "lon": 14.0952
+          }
+        },
+        {
+          "facility": "Policlinico Universitario A. Gemelli (Site A)",
+          "city": "Roma",
+          "zip": "168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Policlinico Universitario A. Gemelli (Site B)",
+          "city": "Roma",
+          "zip": "168",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Humanitas Cancer Center",
+          "city": "Rozzano",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.38193,
+            "lon": 9.1559
+          }
+        },
+        {
+          "facility": "Ospedale G. Battista - Molinette",
+          "city": "Torino",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.88856,
+            "lon": 11.99138
+          }
+        },
+        {
+          "facility": "ASST BG OVEST Ospedale di Treviglio",
+          "city": "Treviglio",
+          "zip": "24047",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.52081,
+            "lon": 9.59102
+          }
+        },
+        {
+          "facility": "Istituto Oncologico del Mediterraneo (IOM)",
+          "city": "Viagrande",
+          "zip": "95029",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 37.61032,
+            "lon": 15.09794
+          }
+        },
+        {
+          "facility": "Ospedale \"S. Bortolo\"",
+          "city": "Vicenza",
+          "zip": "36100",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.54672,
+            "lon": 11.5475
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers may request access to patient level data and related study documents including the clinical study report, study protocol with any amendments, annotated case report form, statistical analysis plan, and dataset specifications.\n\nPatient level data will be anonymized and study documents will be redacted to protect the privacy of study participants.\n\nAny requests should be submitted to www.vivli.org for assessment by an independent scientific review board.",
+      "timeFrame": "Where applicable, data from eligible studies are available 6 months after the studied medicine and indication have been approved in the US and/or EU.",
+      "accessCriteria": "Further details on Ipsen's sharing criteria and process for sharing are available here (https://www.ipsen.com/science/clinical-trials/clinical-data-transparency/).",
+      "url": "https://www.ipsen.com/science/clinical-trials/clinical-data-transparency/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

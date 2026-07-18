@@ -1,0 +1,569 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05098210",
+      "orgStudyIdInfo": {
+        "id": "RG1121642"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2021-10199",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "10668",
+          "type": "OTHER",
+          "domain": "Fred Hutch/University of Washington Cancer Consortium"
+        }
+      ],
+      "organization": {
+        "fullName": "Fred Hutchinson Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Personalized Neo-Antigen Peptide Vaccine for the Treatment of Stage IIIC-IV Melanoma, Hormone Receptor Positive HER2 Negative Metastatic Refractory Breast Cancer or Stage III-IV Non-Small Cell Lung Cancer",
+      "officialTitle": "PNV21-001: A Phase I Study of a Personalized Multi-Peptide Neo-Antigen Vaccine in Breast Cancer, PD1/PD-L1 Inhibitor-Refractory Melanoma, and Pretreated Non-Small Cell Lung Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-06-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-11-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-11-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-10-14",
+      "studyFirstSubmitQcDate": "2021-10-26",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Fred Hutchinson Cancer Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Amazon, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase I trial studies the safety of personalized neo-antigen peptide vaccine in treating patients with stage IIIC-IV melanoma, hormone receptor positive HER2 negative breast cancer that has spread from where it first started (primary site) to other places in the body (metastatic) or does not respond to treatment (refractory) or stage III-IV non-small cell lung cancer. Personalized neo-antigen peptide vaccine is a product that combines multiple patient specific neo-antigens. Given personalized neo-antigen peptide vaccine together with Th1 polarizing adjuvant poly ICLC may induce a polyclonal, poly-epitope, cytolytic T cell immunity against the patient's tumor.",
+      "detailedDescription": "OUTLINE:\n\nPatients receive poly ICLC intramuscularly (IM) once weekly in weeks when no vaccine is given. Beginning 2 weeks after starting poly ICLC, patients receive personalized neo-antigen peptide vaccine IM once every 4 weeks and nivolumab intravenously (IV) every 2 or 4 weeks. Treatment continues for 25 weeks in the absence of disease progression or unacceptable toxicity. Patients determined to have clinical benefit on a first course of treatment may repeat a 6-month course of treatment as described above. Patients then receive nivolumab IV every 2 or 4 weeks for up to 12 months in the absence of disease progression or unacceptable toxicity. Additionally, patients may undergo echocardiography (ECHO) or multigated acquisition scan (MUGA) during screening. Patients also undergo tumor biopsy, blood sample collection, and computed tomography (CT) and/or positron emission tomography (PET) throughout the study.\n\nAfter completion of study treatment, patients are followed up at 24, 36, and 48 weeks. Patients who do not have disease progression and continue nivolumab monotherapy or off treatment will continue post-treatment follow up for an additional 12 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anatomic Stage IV Breast Cancer AJCC v8",
+        "Clinical Stage IV Cutaneous Melanoma AJCC v8",
+        "Locally Advanced Cutaneous Melanoma",
+        "Locally Advanced Mucosal Melanoma",
+        "Metastatic Acral Melanoma",
+        "Metastatic Conjunctival Melanoma",
+        "Metastatic Cutaneous Melanoma",
+        "Metastatic HER2-Negative Breast Carcinoma",
+        "Metastatic Hormone Receptor-Positive Breast Carcinoma",
+        "Metastatic Lung Non-Small Cell Carcinoma",
+        "Metastatic Malignant Solid Neoplasm",
+        "Metastatic Mucosal Melanoma",
+        "Pathologic Stage IIIC Cutaneous Melanoma AJCC v8",
+        "Pathologic Stage IIID Cutaneous Melanoma AJCC v8",
+        "Recurrent Cutaneous Melanoma",
+        "Recurrent HER2-Negative Breast Carcinoma",
+        "Recurrent Hormone Receptor-Positive Breast Carcinoma",
+        "Recurrent Lung Non-Small Cell Carcinoma",
+        "Recurrent Mucosal Melanoma",
+        "Stage III Lung Cancer AJCC v8",
+        "Stage IV Lung Cancer AJCC v8",
+        "Unresectable Acral Melanoma",
+        "Unresectable Cutaneous Melanoma",
+        "Unresectable Lung Non-Small Cell Carcinoma",
+        "Unresectable Mucosal Melanoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 25,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive poly ICLC IM once weekly in weeks when no vaccine is given. Beginning 2 weeks after starting poly ICLC, patients receive personalized neo-antigen peptide vaccine IM once every 4 weeks and nivolumab IV every 2 or 4 weeks. Treatment continues for 25 weeks in the absence of disease progression or unacceptable toxicity. Patients determined to have clinical benefit on a first course of treatment may repeat a 6-month course of treatment as described above. Patients then receive nivolumab IV every 2 or 4 weeks for up to 12 months in the absence of disease progression or unacceptable toxicity.\n\nAdditionally, patients may undergo ECHO or MUGA during screening. Patients also undergo tumor biopsy, blood sample collection, and CT and/or PET throughout the study.",
+          "interventionNames": [
+            "Biological: Neoantigen Peptide Vaccine",
+            "Biological: Nivolumab",
+            "Drug: Poly ICLC",
+            "Procedure: Echocardiography",
+            "Procedure: Multigated Acquisition Scan",
+            "Procedure: Biopsy",
+            "Procedure: Biospecimen Collection",
+            "Procedure: Computed Tomography",
+            "Procedure: Positron Emission Tomography"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Neoantigen Peptide Vaccine",
+          "description": "Given IM",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Nivolumab",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "BMS-936558",
+            "CMAB819",
+            "MDX-1106",
+            "NIVO",
+            "Nivolumab Biosimilar CMAB819",
+            "ONO-4538",
+            "Opdivo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Poly ICLC",
+          "description": "Given IM",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "Hiltonol",
+            "Poly I:Poly C with Poly-L-Lysine Stabilizer",
+            "poly-ICLC",
+            "PolyI:PolyC with Poly-L-Lysine Stabilizer",
+            "Polyinosinic-Polycytidylic Acid Stabilized with Polylysine and Carboxymethylcellulose",
+            "Polyriboinosinic-Polyribocytidylic Acid-Polylysine Carboxymethylcellulose",
+            "Stabilized Polyriboinosinic/Polyribocytidylic Acid"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Echocardiography",
+          "description": "Undergo ECHO",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "EC"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Multigated Acquisition Scan",
+          "description": "Undergo MUGA",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "MUGA Scan"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biopsy",
+          "description": "Undergo tumor biopsy",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "Bx"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Biospecimen Collection",
+          "description": "Undergo blood sample collection",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "Biological Sample Collection"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Computed Tomography",
+          "description": "Undergo CT or PET/CT",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "CAT Scan",
+            "CT Scan",
+            "Computed Axial Tomography"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Positron Emission Tomography",
+          "description": "Undergo PET or PET/CT",
+          "armGroupLabels": [
+            "Treatment (poly ICLC, neo-antigen peptide vaccine, nivolumab)"
+          ],
+          "otherNames": [
+            "PET scan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of adverse events",
+          "description": "Will be assessed by Common Terminology Criteria for Adverse Events version 5.0.",
+          "timeFrame": "1 year post first vaccination"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of formulated and administered personalized neo-antigen vaccines",
+          "timeFrame": "Week 48"
+        },
+        {
+          "measure": "Number of formulated personalized neo-antigen vaccines with at least five (5) vaccine peptides",
+          "timeFrame": "Week 48"
+        },
+        {
+          "measure": "Number of formulated personalized neo-antigen vaccines in less than 16 weeks since screening visit biopsy",
+          "timeFrame": "16 weeks"
+        },
+        {
+          "measure": "Evaluation of target lesion",
+          "description": "By Response Evaluation Criteria In Solid Tumors (RECIST) and Immune-Modified RECIST criteria.",
+          "timeFrame": "At 1 year post first vaccination"
+        },
+        {
+          "measure": "Best overall response",
+          "description": "Will be assessed by immune-related Response Evaluation Criteria in Solid Tumors criteria.",
+          "timeFrame": "1 year post first vaccination"
+        },
+        {
+          "measure": "Progression-free survival",
+          "description": "Will be estimated using the method of Kaplan and Meier.",
+          "timeFrame": "1 year post first vaccination"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female and/or male patients age \\>= 18 years\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0, 1, or 2\n* Patients must have at least 1 lesion (or aggregate lesions) to obtain tumor tissue for resection of \\>= 1 cm or \\>= 4 core biopsies acceptable. Amenable to image (CT, ultrasound \\[U/S\\], or magnetic resonance imaging \\[MRI\\]) guided biopsy for tissue collection necessary for neoantigen identification. Either primary or metastatic sites are options for tissue collection\n* Measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 criteria: Participants must have measurable disease, defined as at least one target lesion that can be measured in at least one dimension (longest diameter to be recorded) as \\>= 10 mm, unless lymph node in which case short axis must be \\>= 15 mm. Baseline imaging (for example diagnostic CT chest/abdomen/pelvis, PET CT scan and imaging of the affected extremity as appropriate), brain imaging (MRI or CT scan) must be obtained within 45 days of prior to start of first planned vaccine dose infusion. MRI can be substituted for CT in patients unable to have CT contrast\n* Serum creatine \\< 1.5 mg/dL or estimated glomerular filtration rate (eGFR) \\> 60 mL/min\n* Total bilirubin (tBili) \\< 1.5 x upper limit of normal (ULN) and an aspartate aminotransferase (AST)/alanine aminotransferase (ALT) \\< 2.5 x ULN and \\< 5 x ULN for subjects with documented liver metastasis. Patients with suspected Gilbert syndrome may be included if tBili \\> 3 but no other evidence of hepatic dysfunction\n* =\\< grade 1 dyspnea and arterial oxygen saturation (SaO2) \\>= 92% on ambient air. If pulmonary function tests (PFTs) are performed based on the clinical judgement of the treating physician, patients with forced expiratory volume in 1 second (FEVI) \\>= 70% of predicted and carbon monoxide diffusing capability (DLCO) (corrected) of \\>= 60% of predicted will be eligible\n* Patients with active interstitial lung disease (ILD)/pneumonitis or a history of ILD/pneumonitis requiring treatment with systemic steroids will be excluded\n* Patients 60 years of age or older are required to have left ventricular ejection fraction (LVEF) evaluation performed within 60 days prior to enrollment. LVEF may be established with echocardiogram or MUGA scan, and left ejection fraction must be \\>= 50%. Cardiac evaluation for other patients is at the discretion of the treating physician\n* Subjects with a history of myocarditis or congestive heart failure (as defined by New York Heart Association functional classification III or IV), as well as unstable angina, serious uncontrolled cardiac arrhythmia, uncontrolled infection, or myocardial infarction 6 months prior to study entry will be excluded\n* Absolute neutrophil count (ANC) \\> 1000 cells/mm\\^3\n* Hemoglobin \\>= 9 mg/dL\n* Platelet count \\>= 50,000/uL\n* Toxicity from prior therapy must be recovered to National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version (v.)5 grade 2 or less\n* Willing and able to comply with scheduled visits, treatment plan, laboratory tests, and other procedures\n* Capable of understanding and providing a written informed consent\n* The effects of neoantigen vaccination on the developing human fetus are unknown. For this reason, patients who are having sex that can lead to pregnancy must agree to use adequate contraception (hormonal, barrier method of birth control, or abstinence) for the duration of study participation. Should a woman become pregnant while participating in the study, she should inform her study doctor immediately and will not receive any more study treatment\n* MELANOMA SPECIFIC: Tissue confirmation of melanoma: Histologically confirmed metastatic (recurrent or de novo stage IV) or unresectable locally advanced (stage IIIC or IIID) cutaneous, acral, conjunctival or mucosal melanoma, as defined by the American Joint Committee on Cancer (AJCC) v8.0. Confirmation of diagnosis must be or have been performed by internal pathology review of archival, initial or subsequent biopsy or other pathologic material at Fred Hutchinson Cancer Center (FHCC)/University of Washington Medical Center (UWMC)\n* MELANOMA SPECIFIC: Patients must have received stage specific standard of care therapy per National Comprehensive Cancer Network (NCCN) guidelines and have persistent/recurrent disease after at least one line of therapy prior to enrollment on the study\n* MELANOMA SPECIFIC: Known BRAF mutational status\n* MELANOMA SPECIFIC: History of detectable disease during/after treatment with a PD-1 or PD-L1 inhibitor, as defined by the Society of Immunotherapy of Cancer's definition of primary or secondary resistance (Kluger and others \\[et al.\\], 2020):\n\n  * Drug exposure \\>= 6 weeks and best response progressive disease (PD) or stable disease (SD) \\< 6 months or\n  * Drug exposure \\>= 6 months and best response complete response (CR), partial response (PR), or SD \\> 6 months\n* MELANOMA SPECIFIC: A confirmatory scan performed at least 4 weeks after disease persistence/progression is required but this requirement can be waived if the judgement of the treating clinician is that the patient would be at risk of rapid or symptomatic progression in that interval. This confirmatory scan can occur during production of the vaccine after enrollment\n* BREAST CANCER SPECIFIC: Tissue confirmation of stage IV (recurrent or de novo metastatic) hormone receptor (HR) positive, HER2 negative breast cancer:\n\n  * Hormone receptor (HR) positive breast cancer as defined by either one, or both of the following criteria:\n\n    * Estrogen receptor (ER) positive disease defined as follows documented by a local laboratory: 1-100% positive stained cells based on de novo tumor biopsy\n    * Progesterone receptor (PR) positive disease defined as follows documented by a local laboratory: 1-100% positive stained cells based on de novo tumor biopsy\n  * Human epidermal growth factor receptor 2 (HER2) negative breast cancer (per American Society of Clinical Oncology \\[ASCO\\]/College of American Pathologists \\[CAP\\] guideline update, 2018) as documented by a local laboratory with HER2-negativity defined as:\n\n    * Immunohistochemistry score 0/1+ or 2+ and / or\n    * Negative by in situ hybridization (fluorescence in situ hybridization \\[FISH\\]/chromogenic in situ hybridization \\[CISH\\]/silver-enhanced in situ hybridization \\[SISH\\]) per ASCO/CAP guideline update, 2018\n  * Confirmation of diagnosis must be or have been performed by internal pathology review of archival, initial or subsequent biopsy or other pathologic material at FHCC/UWMC\n* BREAST CANCER SPECIFIC: Patients must have received at least one line of systemic therapy in the metastatic setting prior to enrollment on the study and have progressive/persistent disease after\n* NON-SMALL CELL LUNG CANCER SPECIFIC: Tissue confirmation of stage III unresectable or stage IV (recurrent or de novo metastatic) non-small cell lung cancer (NSCLC):\n\n  * Genetic testing must have been performed for targetable driver mutations, including EGFR, ROS1, Alk, KRAS, BRAF\n  * Confirmation of diagnosis must be or have been performed by internal pathology review of archival, initial or subsequent biopsy or other pathologic material at FHCC/UWMC\n* NON-SMALL CELL LUNG CANCER SPECIFIC: Patients must have received at least one line of systemic therapy in the metastatic or stage II or III setting including a PD-1 or PD-L1 inhibitor prior to enrollment on the study and have progressive or recurrent disease after\n* NON-SMALL CELL LUNG CANCER SPECIFIC: For patients who have received neoadjuvant, adjuvant, and/or consolidation anti-PD-1 or anti-PD-L1 for stage II or III disease, they must have experienced disease progression in less than or equal to 365 days from initiation (cycle 1 day 1) of anti-PD-1 or anti-PD-L1 therapy for this to count as the systemic therapy for advanced disease. Patients experiencing progression more than 365 days from initiation (cycle 1 day 1) of anti-PD-1 or anti-PD-L1 therapy will not be considered as having received one line of systemic therapy. These patients must have received an anti-PD-1 or anti-PD-L1 therapy for stage IV or recurrent disease\n\nExclusion Criteria:\n\n* Fertile male patients and female patients of childbearing potential who are unwilling or unable to use 2 highly effective methods of contraception as outlined in this protocol for the duration of the study and for at least 5 months after the last dose of investigational product\n* Any history of an immune-related grade 4 adverse event attributed to prior cancer immunotherapy CIT (other than endocrinopathy managed with replacement therapy or asymptomatic elevation of serum amylase or lipase)\n* Any history of an immune-related grade 3 adverse event attributed to prior CIT that required permanent discontinuation of PD-1 inhibitor therapy\n* Immune-related adverse events related to prior CIT (other than endocrinopathy managed with replacement therapy or stable vitiligo) that have not resolved to baseline. Patients treated with corticosteroids for immune-related adverse events must demonstrate absence of related symptoms or signs for \\>= 4 weeks following discontinuation of corticosteroids\n* Uncontrolled tumor-related pain. Patients requiring narcotic pain medication must be on a stable regimen at study entry. Symptomatic lesions amenable to palliative radiotherapy (e.g., bone metastases or metastases causing nerve impingement) should be treated \\> 4 weeks prior to enrollment. Patients should be recovered from the effects of radiation\n* Uncontrolled pleural effusion, pericardial effusion, or ascites requiring repeated drainage more than once every 28 days. Indwelling drainage catheters (e.g., PleurX\u00ae) are allowed\n* Patients with known symptomatic brain metastases. Patients with previously diagnosed brain metastases are eligible if they have completed their treatment and have recovered from the acute effects of radiation therapy or surgery prior to study entry, have discontinued corticosteroid treatment for these metastases for at least 4 weeks and are neurologically stable for \\>= 1 months (confirmed by magnetic resonance imaging \\[MRI\\])\n* Patients with rapidly progressing disease, symptomatic visceral disease, or patients who are expected to have rapidly progressive disease over the course of several months despite bridging therapy approved by the protocol\n* Known primary immunodeficiencies, either cellular (e.g., DiGeorge syndrome, T-negative severe combined immunodeficiency \\[SCID\\]) or combined T- and B-cell immunodeficiencies (e.g., T- and B-negative SCID, Wiskott-Aldrich syndrome, ataxia telangiectasia, common variable immunodeficiency)\n* Prior allogeneic bone marrow transplantation or prior solid organ transplantation\n* Known positive test for HIV infection\n* Patients with active infection causing fever (temperature \\> 38.1 degrees Celsius \\[C\\]) or subjects with unexplained fever (temperature \\> 38.1 degrees C) may not receive the investigational product unless the fever is =\\< 38.1 for 5 days prior to start\n* Active uncontrolled infection: individuals with a history of hepatitis C who have successfully completed antiviral therapy with an undetectable viral load, and those with hepatitis B who have, per standard practice, hepatitis well-controlled on medication (e.g., AST and ALT \\< 5 x ULN) can be included\n* History of autoimmune disease that has not been controlled with treatment in the last 12 months, including, but not limited to, systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, vascular thrombosis associated with antiphospholipid syndrome, Wegener granulomatosis, Sjogren syndrome, Guillain-Barre syndrome, multiple sclerosis, vasculitis, or glomerulonephritis with the following exceptions: Patients with a history of autoimmune hypothyroidism on a stable dose of thyroid replacement hormone may be eligible. Patients with controlled type 1 diabetes mellitus on a stable insulin regimen may be eligible. Patients with eczema, psoriasis, lichen simplex chronicus, or vitiligo with dermatologic manifestations only (e.g., no psoriatic arthritis) may be eligible\n* Treatment with systemic immunosuppressive medications (including, but not limited to, prednisone \\> 10 mg/day or equivalent, cyclophosphamide, azathioprine, methotrexate, thalidomide, and TNF-alpha antagonists) within 2 weeks prior screening. The use of topical, eye drops, local injections, or inhaled corticosteroids (e.g. fluticasone for chronic obstructive pulmonary disease) is allowed. The use of oral mineralocorticoids (e.g. fludrocortisone for patients with orthostatic hypotension) is allowed. Physiologic doses of corticosteroids for adrenal insufficiency are allowed. Low dose corticosteroids for a short duration \\[5 mg once daily (QD) prednisone for 2 weeks\\] as symptomatic treatment and upon with discussion with the investigator is allowed. Note: Patients with adrenal insufficiency may take 10 mg of prednisone or equivalent daily\n* Subjects should have an international normalized ratio (INR) or activated partial thromboplastin time (aPTT) =\\< 1.5 X ULN unless the subject is receiving anticoagulant therapy. Subjects on anticoagulant therapy should have a prothrombin time (PT) or partial thromboplastin time (PTT) within therapeutic range of intended use and no history of severe hemorrhage. Antiplatelet agents (eg, aspirin, clopidogrel, etc.) are not considered anticoagulants for the purposes of this study (i.e., they are allowed)\n* Other medical, social, or psychiatric factor that interferes with medical appropriateness and/or ability to comply with study, as determined by the principal investigator (PI)\n* Participants of childbearing potential must have a negative serum pregnancy test within 14 days prior to enrollment. Childbearing potential is defined as women who have not been surgically sterilized and who are not post-menopausal (free of menses for at least 1 year)\n* Female patients who are lactating or intend to breastfeed during the duration of the study\n* Patients who have received a live vaccine within 30 days prior to enrollment\n* Patients with any underlying medical condition for which, in the investigator's opinion, participation would not be in the best interest of the participant (e.g.- compromises the health of the subject) or that could prevent, limit or confound protocol assessments\n* MELANOMA SPECIFIC: Uveal or choroidal melanoma. This entity is excluded due to the absence of abundant mutations\n* BREAST SPECIFIC: Patients with symptomatic disease including patients with symptomatic lung metastases, bone marrow replacement with associated cytopenia, or significant liver metastases with associated liver dysfunction\n* NON-SMALL CELL LUNG CANCER SPECIFIC: Activating mutations in EGFR or genetic alterations in ROS1 or Alk, as these mutations are associated with lower mutation burden and non-response to immune therapies",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "FHCC Intake",
+          "role": "CONTACT",
+          "phone": "206-606-1024",
+          "email": "hutchdoc@fredhutch.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Joshua Veatch",
+          "affiliation": "Fred Hutch/University of Washington Cancer Consortium",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fred Hutch/University of Washington Cancer Consortium",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "FHCC Intake",
+              "role": "CONTACT",
+              "phone": "206-606-1024",
+              "email": "hutchdoc@fredhutch.org"
+            },
+            {
+              "name": "Joshua Veatch",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D018358",
+          "term": "Neuroendocrine Tumors"
+        },
+        {
+          "id": "D017599",
+          "term": "Neuroectodermal Tumors"
+        },
+        {
+          "id": "D009373",
+          "term": "Neoplasms, Germ Cell and Embryonal"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D009380",
+          "term": "Neoplasms, Nerve Tissue"
+        },
+        {
+          "id": "D018326",
+          "term": "Nevi and Melanomas"
+        },
+        {
+          "id": "D012878",
+          "term": "Skin Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D002283",
+          "term": "Carcinoma, Bronchogenic"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077594",
+          "term": "Nivolumab"
+        },
+        {
+          "id": "C019531",
+          "term": "poly ICLC"
+        },
+        {
+          "id": "D001706",
+          "term": "Biopsy"
+        },
+        {
+          "id": "D009682",
+          "term": "Magnetic Resonance Spectroscopy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        },
+        {
+          "id": "D003581",
+          "term": "Cytodiagnosis"
+        },
+        {
+          "id": "D003584",
+          "term": "Cytological Techniques"
+        },
+        {
+          "id": "D019411",
+          "term": "Clinical Laboratory Techniques"
+        },
+        {
+          "id": "D019937",
+          "term": "Diagnostic Techniques and Procedures"
+        },
+        {
+          "id": "D003933",
+          "term": "Diagnosis"
+        },
+        {
+          "id": "D013048",
+          "term": "Specimen Handling"
+        },
+        {
+          "id": "D003949",
+          "term": "Diagnostic Techniques, Surgical"
+        },
+        {
+          "id": "D013514",
+          "term": "Surgical Procedures, Operative"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D013057",
+          "term": "Spectrum Analysis"
+        },
+        {
+          "id": "D002623",
+          "term": "Chemistry Techniques, Analytical"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,3015 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04588298",
+      "orgStudyIdInfo": {
+        "id": "D8530C00003"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-001079-33",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "AstraZeneca",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Investigate the Biological Effects of AZD9833 in Women With ER-positive, HER2 Negative Primary Breast Cancer",
+      "officialTitle": "A Randomised, Open-Label, Parallel-Group, Pre-surgical Study to Investigate the Biological Effects of AZD9833 in Women With ER-positive, HER2-negative Primary Breast Cancer (SERENA-3)",
+      "acronym": "SERENA-3"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-12",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-11-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-06-19",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-06-19",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-09-08",
+      "studyFirstSubmitQcDate": "2020-10-08",
+      "studyFirstPostDateStruct": {
+        "date": "2020-10-19",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-05-07",
+      "resultsFirstSubmitQcDate": "2024-12-11",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-01-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-12-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-01-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AstraZeneca",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a randomised, open-label, parallel-group, pre-surgical study aimed to investigate the biological effects, safety, tolerability, and pharmacokinetics (PK) of different doses of oral AZD9833 in post-menopausal women with primary breast cancer",
+      "detailedDescription": "The study will be conducted in approximately 20 study centers across 3 countries and will be conducted in three stages (stage 1, stage 2 and stage 3). After the screening visit and confirmation of eligibility, evaluable participants will be enrolled across treatment groups. In stage 1, up to 24 evaluable participants across two treatment groups will be enrolled. A Safety and Data Monitoring Committee will convene to review stage 1 data and decide whether further treatment groups are required in stage 2. Stage 2 will include participants across up to 3 treatment groups. Stage 3 will include two treatment groups:\n\nStage 1 Group 1: AZD9833 Dose A once daily Group 2: AZD9833 Dose B once daily\n\nStage 2 Group 1: AZD9833 Dose A once daily Group 2: AZD9833 Dose B once daily Group 3: AZD9833 Dose C once daily\n\nStage 3 Group 1: AZD9833 Dose A once daily Group 2: AZD9833 Dose B once daily\n\nAdverse events and concomitant medications information will be collected throughout the study. Thereafter there will be 28-day follow-up visit after discontinuation of study treatment"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HER2-negative Breast Cancer"
+      ],
+      "keywords": [
+        "Breast cancer",
+        "Breast carcinoma",
+        "Estrogen-Receptor-positive breast cancer",
+        "HER2-negative breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a randomised, open-label, parallel-group study. The study is divided into three stages as follows:\n\n1. Stage 1: In this stage post-menopausal participants will be randomised in 2 cohorts in 1:1 ratio to receive AZD9833 with 12 evaluable participants in each cohort.\n2. Stage 2: In this stage post-menopausal participants may be randomised in up to 3 cohorts, which may include up to 3 doses of AZD9833.\n3. Stage 3 : In this stage post-menopausal participants may be randomised in up to 2 cohorts in 1:1 ratio, which may include up to 2 doses of AZD9833.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 135,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Stage 1: AZD9833 Dose A",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose A of AZD9833 in stage 1 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        },
+        {
+          "label": "Stage 1: AZD9833 Dose B",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose B of AZD9833 in stage 1 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        },
+        {
+          "label": "Stage 2: AZD9833 Dose A",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose A of AZD9833 in stage 2 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        },
+        {
+          "label": "Stage 2: AZD9833 Dose B",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose B of AZD9833 in stage 2 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        },
+        {
+          "label": "Stage 2: AZD9833 Dose C",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose C of AZD9833 in stage 2 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        },
+        {
+          "label": "Stage 3: AZD9833 Dose A",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose A of AZD9833 in stage 3 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        },
+        {
+          "label": "Stage 3: AZD9833: Dose B",
+          "type": "EXPERIMENTAL",
+          "description": "Post-menopausal participants will receive once daily oral dose B of AZD9833 in stage 3 of the study.",
+          "interventionNames": [
+            "Drug: AZD9833"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AZD9833",
+          "description": "AZD9833 tablets will be administered orally.",
+          "armGroupLabels": [
+            "Stage 1: AZD9833 Dose A",
+            "Stage 1: AZD9833 Dose B",
+            "Stage 2: AZD9833 Dose A",
+            "Stage 2: AZD9833 Dose B",
+            "Stage 2: AZD9833 Dose C",
+            "Stage 3: AZD9833 Dose A",
+            "Stage 3: AZD9833: Dose B"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage Change From Baseline in Estrogen Receptor (ER) Expression Between Pre- and On-treatment Tumour Samples (Primary Analysis)",
+          "description": "The pharmacodynamic (PD) effect of AZD9833 on ER expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by immunohistochemistry (IHC) method. The percentage change was calculated from an analysis of covariance (ANCVOA) model adjusting for baseline ER score and day of on-treatment biopsy.",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])"
+        },
+        {
+          "measure": "Percentage Change From Baseline in ER Expression Between Pre- and On-treatment Tumour Samples (Sensitivity Analysis)",
+          "description": "The PD effect of AZD9833 on ER expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The sensitivity analysis excluded any patients who were HER2-positive patient by central assessment as well as patients with baseline ER H-score \\< 10. The percentage change was calculated from ANCVOA model adjusting for baseline ER score and day of on-treatment biopsy.",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy Day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage Change From Baseline in Progesterone Receptor (PgR) Expression Between Pre- and On-treatment Tumour Samples (Primary Analysis)",
+          "description": "The PD effects of AZD9833 on PgR expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The percentage change was calculated from an ANCOVA model adjusting for baseline PgR score and day of on-treatment biopsy.",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy Day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])"
+        },
+        {
+          "measure": "Percentage Change From Baseline in PgR Expression Between Pre- and On-treatment Tumour Samples (Sensitivity Analysis)",
+          "description": "The PD effects of AZD9833 on PgR expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The sensitivity analysis excluded any patients who were HER2-positive patient by central assessment as well as patients with baseline PgR H-score \\< 10. The percentage change was calculated from an ANCOVA model adjusting for baseline PgR score and day of on-treatment biopsy.",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])"
+        },
+        {
+          "measure": "Percentage Change From Baseline in Ki-67 Labelling Index Between Pre- and On-treatment Tumour Samples (Primary Analysis)",
+          "description": "The PD effect of AZD9833 on antigen Ki-67 expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The percentage change was calculated from an ANCOVA model adjusting for log baseline Ki67 index and day of on-treatment biopsy. The Ki-67 index data were log transformed prior to analysis, with results back-transformed to represent percentage change.",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])"
+        },
+        {
+          "measure": "Percentage Change From Baseline in Ki-67 Labelling Index Between Pre- and On-treatment Tumour Samples (Sensitivity Analysis)",
+          "description": "The PD effect of AZD9833 on antigen Ki-67 expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The sensitivity analysis excluded any patients who were HER2-positive patient by central assessment as well as patients with baseline Ki67 labelling index \\<5%. The percentage change was calculated from an ANCOVA model adjusting for log baseline Ki67 index and day of on-treatment biopsy. The Ki-67 index data were log transformed prior to analysis, with results back-transformed to represent percentage change.",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy Day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])"
+        },
+        {
+          "measure": "Number of Patients With Adverse Events (AEs)",
+          "description": "The safety and tolerability of AZD9833 in this patient population was evaluated.",
+          "timeFrame": "From screening (Day -21 to 1) through 28-day follow-up (Upto 2 months)"
+        },
+        {
+          "measure": "Plasma Concentrations of AZD9833",
+          "description": "The plasma concentration of AZD9833 in this participant population was evaluated",
+          "timeFrame": "Days 5-7 or Days 12-15 (Pre and Post biopsy)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Provision of written informed consent prior to study entry\n* Female participants aged at least 18 years\n* Post-menopausal status defined as meeting at least one of the following criteria:\n\n  1. Have undergone a bilateral oophorectomy\n  2. Age \u2265 60 years\n  3. Age \u2265 50 and \\< 60 years and with cessation of menses \u2265 12 months and follicle-stimulating hormone and oestradiol levels in the post-menopausal range and with an intact uterus in the absence of oral contraception or hormone replacement therapy prior to the diagnosis of breast cancer\n* Female participants with newly diagnosed primary breast cancer scheduled to undergo treatment with curative intent by surgery and irrespective of clinical node status\n* Histologically confirmed invasive breast cancer involving a palpable tumour of any size, or a tumour with an ultrasound assessed diameter of \u2265 1.0 cm\n* Participants with adequately treated non-melanoma skin cancer, curatively treated in-situ cancer of the cervix, or other solid tumours curatively treated with no evidence of disease for \u2265 3 months can be considered for the study\n* According to the local laboratory participants must have:\n\n  1. ER positive breast cancer\n  2. HER2-negative breast cancer\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 to 1\n\nExclusion Criteria:\n\n* Previous systemic or local treatment for the new primary breast cancer currently under investigation (including surgery, radiotherapy, cytotoxic and endocrine treatments)\n* Intervention with any of the following:\n\n  1. Use of sex-hormone-containing drugs within 6 months prior to the first dose of study treatment\n  2. Medications or herbal supplements known to be strong inhibitors/inducers of CYP3A4/5, sensitive CYP2B6 substrates and drugs which are substrates of CYP2C9 and/or CYP2C19 which have a narrow therapeutic index\n  3. Drugs that are known to prolong QT and have a known risk of torsades de pointes\n* Inflammatory breast cancer\n* Any evidence of severe or uncontrolled systemic diseases which in the investigator's opinion makes it undesirable for the participant to participate in the study\n* Any of the following cardiovascular criteria: Mean resting QTcF \\> 470 msec; resting heart rate of \\< 50 bpm for stages 1 and 2 at screening;resting heart rate \\<60 bpm at screening for Stage 3; any clinically important abnormalities in rhythm, conduction, or morphology of resting ECG; any factors that increase the risk of QTc prolongation or risk of arrhythmic events; known left ventricular ejection fraction \\< 50%; significant cardiovascular procedure or event within the last 6 months; uncontrolled hypertension or symptomatic hypotension\n* Inadequate bone marrow reserve or organ function\n* Refractory nausea and vomiting, uncontrolled chronic gastrointestinal diseases, inability to swallow the formulated product, or previous significant bowel resection that would preclude adequate absorption of AZD9833\n* History of hypersensitivity to active or inactive excipients of AZD9833\n* Previous randomisation in the present study\n* Judgement by the Investigator that the participant should not participate in the study if the participant is unlikely to comply with study procedures, restrictions and requirements",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "maximumAge": "130 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "John Robertson",
+          "affiliation": "Graduate Entry Medicine & Health School, University of Nottingham, Royal Derby Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Research Site",
+          "city": "Batumi",
+          "zip": "6000",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.64077,
+            "lon": 41.6306
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tbilisi",
+          "zip": "'0112",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tbilisi",
+          "zip": "'0186",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tbilisi",
+          "zip": "0159",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Tbilisi",
+          "zip": "0179",
+          "country": "Georgia",
+          "geoPoint": {
+            "lat": 41.69143,
+            "lon": 44.83412
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Aguascalientes",
+          "zip": "20230",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 21.88262,
+            "lon": -102.2843
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Mexico City",
+          "zip": "'14080",
+          "country": "Mexico",
+          "geoPoint": {
+            "lat": 19.42847,
+            "lon": -99.12766
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Derby",
+          "zip": "DE22 3NE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.92277,
+            "lon": -1.47663
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Leicester",
+          "zip": "LE1 5WW",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.6386,
+            "lon": -1.13169
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Liverpool",
+          "zip": "L7 8XP",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.41058,
+            "lon": -2.97794
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "London",
+          "zip": "W12 0HS",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Manchester",
+          "zip": "M23 9LT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41628308",
+          "type": "DERIVED",
+          "citation": "Robertson JFR, Gogitidze T, Katashvili Z, Rocha JEB, Arkania E, Moppett I, Cheung KL, Nemsadze G, Ajimi M, Klinowska T, Lindemann JPO, Mathewson A, Morrow CJ, Nikolaou M, Scaltriti M, Sykes A, Dzagnidze G. Pharmacodynamics of Camizestrant Treatment in Postmenopausal Women With Estrogen Receptor-Positive, Human Epidermal Growth Factor Receptor 2-Negative Primary Breast Cancer: Results From the Randomized, Presurgical SERENA-3 Study. J Clin Oncol. 2026 Mar 20;44(9):750-761. doi: 10.1200/JCO-25-01548. Epub 2026 Jan 16."
+        },
+        {
+          "pmid": "38729567",
+          "type": "DERIVED",
+          "citation": "Hamilton E, Oliveira M, Turner N, Garcia-Corbacho J, Hernando C, Ciruelos EM, Kabos P, Ruiz-Borrego M, Armstrong A, Patel MR, Vaklavas C, Twelves C, Boni V, Incorvati J, Brier T, Gibbons L, Klinowska T, Lindemann JPO, Morrow CJ, Sykes A, Baird RD. A phase I dose escalation and expansion trial of the next-generation oral SERD camizestrant in women with ER-positive, HER2-negative advanced breast cancer: SERENA-1 monotherapy results. Ann Oncol. 2024 Aug;35(8):707-717. doi: 10.1016/j.annonc.2024.04.012. Epub 2024 May 8."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "BreastCancerStudyLocator.com",
+          "url": "https://breastcancerstudylocator.com/"
+        },
+        {
+          "label": "CSP\\_Redacted",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D8530C00003&amp;attachmentIdentifier=b92438e0-a17d-48e2-9fa2-230ec6b82e6f&amp;fileName=AZ_D8530C00003_(PXL_247887)_CSP_final_Redacted.pdf&amp;versionIdentifier="
+        },
+        {
+          "label": "SAP\\_Redacted",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D8530C00003&amp;attachmentIdentifier=2345d4d0-4f30-4d98-af8f-11f6537acafb&amp;fileName=AZ_D8530C00003_(PXL_247887)_SAP_final_Redacted.pdf&amp;versionIdentifier="
+        },
+        {
+          "label": "CSR Synopsis Redacted",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D8530C00003&amp;attachmentIdentifier=8a4daf67-edac-43a7-b0ce-b4dd3d4c7abd&amp;fileName=AZ_D8530C00003_(PXL_247887)_CSR_Synopsis_final_Redacted.pdf&amp;versionIdentifier="
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers can request access to anonymized individual patient-level data from AstraZeneca group of companies sponsored clinical trials via the request portal. All requests will be evaluated as per the AZ disclosure commitment:\n\nhttps://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "AstraZeneca will meet or exceed data availability as per the commitments made to the EFPIA Pharma Data Sharing Principles. For details of our timelines, please rerefer to our disclosure commitment at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure",
+      "accessCriteria": "When a request has been approved AstraZeneca will provide access to the deidentified individual patient-level data in an approved sponsored tool. Signed Data Sharing Agreement (non-negotiable contract for data accessors) must be in place before accessing requested information. Additionally, all users will need to accept the terms and conditions of the SAS MSE to gain access. For additional details, please review the Disclosure Statements at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure",
+      "url": "https://astrazenecagroup-dt.pharmacm.com/DT/Home"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "preAssignmentDetails": "Patients were enrolled according to the inclusion/exclusion criteria, with a 21 day screening period. Assessments were performed as per schedule. The study consists of 3 stages with different patients in each stage. Results pool data from the 75mg and 150mg arms of stages 1 and 2. This is per the predefined statistical analysis plan, which describes the combination of identical treatments in terms of dose and treatment duration. Stage 3 explored a different duration so is reported separately.",
+      "recruitmentDetails": "The study was conducted at 13 sites in 3 countries between November 2, 2020 and June 19, 2023.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "AZD9833 75 mg (Stage 1 + 2)",
+          "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+        },
+        {
+          "id": "FG001",
+          "title": "AZD9833 150 mg (Stage 1 + 2)",
+          "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+        },
+        {
+          "id": "FG002",
+          "title": "AZD9833 300 mg (Stage 2)",
+          "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+        },
+        {
+          "id": "FG003",
+          "title": "AZD9833 75 mg (Stage 3)",
+          "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+        },
+        {
+          "id": "FG004",
+          "title": "AZD9833 150 mg (Stage 3)",
+          "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "30"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "33"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "13"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "30"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "29"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "33"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "12"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "29"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "27"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG003",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG004",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "Safety Analysis Set was defined as all patients who received any amount of study treatment, regardless of whether that was the randomized therapy intended.",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "AZD9833 75 mg (Stage 1 + 2)",
+          "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+        },
+        {
+          "id": "BG001",
+          "title": "AZD9833 150 mg (Stage 1 + 2)",
+          "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+        },
+        {
+          "id": "BG002",
+          "title": "AZD9833 300 mg (Stage 2)",
+          "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+        },
+        {
+          "id": "BG003",
+          "title": "AZD9833 75 mg (Stage 3)",
+          "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+        },
+        {
+          "id": "BG004",
+          "title": "AZD9833 150 mg (Stage 3)",
+          "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+        },
+        {
+          "id": "BG005",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "30"
+            },
+            {
+              "groupId": "BG001",
+              "value": "33"
+            },
+            {
+              "groupId": "BG002",
+              "value": "13"
+            },
+            {
+              "groupId": "BG003",
+              "value": "30"
+            },
+            {
+              "groupId": "BG004",
+              "value": "29"
+            },
+            {
+              "groupId": "BG005",
+              "value": "135"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "populationDescription": "Mean and S.D data for Stage 1, and 2 combined, and stage 2, and stage 3 have been presented in 2 different rows.",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "62.0",
+                      "spread": "7.35"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65.7",
+                      "spread": "7.53"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "66.3",
+                      "spread": "8.20"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "64.0",
+                      "spread": "8.65"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "67.2",
+                      "spread": "10.03"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "64.9",
+                      "spread": "8.49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "135"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "30"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "135"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Hispanic or Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "9"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not Hispanic or Latino",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "24"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "124"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG004",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG005",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Percentage Change From Baseline in Estrogen Receptor (ER) Expression Between Pre- and On-treatment Tumour Samples (Primary Analysis)",
+          "description": "The pharmacodynamic (PD) effect of AZD9833 on ER expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by immunohistochemistry (IHC) method. The percentage change was calculated from an analysis of covariance (ANCVOA) model adjusting for baseline ER score and day of on-treatment biopsy.",
+          "populationDescription": "PD analysis set included: all the patient who had taken at least 5 consecutive daily doses (Stage 1 and 2) or at least 12 consecutive daily doses (Stage 3) of AZD9833. The patient received last AZD9833 dose within 12 hours of the on-treatment biopsy, diagnostic and on-treatment biopsy pair was considered evaluable by central pathology assessment (\\>100 tumor cells per FFPE biopsy, and minimum of 2 slides for ER measurement), with no protocol deviations affecting the biomarker analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "Percentage change from baseline",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "26"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "26"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-62.7",
+                      "lowerLimit": "-67.46",
+                      "upperLimit": "-57.93"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-62.8",
+                      "lowerLimit": "-67.13",
+                      "upperLimit": "-58.43"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-67.1",
+                      "lowerLimit": "-74.49",
+                      "upperLimit": "-59.74"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-66.9",
+                      "lowerLimit": "-72.34",
+                      "upperLimit": "-61.46"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-65.0",
+                      "lowerLimit": "-70.27",
+                      "upperLimit": "-59.81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Percentage Change From Baseline in ER Expression Between Pre- and On-treatment Tumour Samples (Sensitivity Analysis)",
+          "description": "The PD effect of AZD9833 on ER expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The sensitivity analysis excluded any patients who were HER2-positive patient by central assessment as well as patients with baseline ER H-score \\< 10. The percentage change was calculated from ANCVOA model adjusting for baseline ER score and day of on-treatment biopsy.",
+          "populationDescription": "PD analysis set included: all the patient who had taken at least 5 consecutive daily doses (Stage 1 and 2) or at least 12 consecutive daily doses (Stage 3) of AZD9833. The patient received last AZD9833 dose within 12 hours of the on-treatment biopsy, diagnostic and on-treatment biopsy pair was considered evaluable by central pathology assessment (\\>100 tumor cells per FFPE biopsy, and minimum of 2 slides for ER measurement), with no protocol deviations affecting the biomarker analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "Percentage change from baseline",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy Day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "25"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "26"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-62.1",
+                      "lowerLimit": "-67.00",
+                      "upperLimit": "-57.25"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-62.3",
+                      "lowerLimit": "-66.64",
+                      "upperLimit": "-57.88"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-66.6",
+                      "lowerLimit": "-74.00",
+                      "upperLimit": "-59.14"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-66.9",
+                      "lowerLimit": "-72.34",
+                      "upperLimit": "-61.46"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-65.0",
+                      "lowerLimit": "-70.27",
+                      "upperLimit": "-59.81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage Change From Baseline in Progesterone Receptor (PgR) Expression Between Pre- and On-treatment Tumour Samples (Primary Analysis)",
+          "description": "The PD effects of AZD9833 on PgR expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The percentage change was calculated from an ANCOVA model adjusting for baseline PgR score and day of on-treatment biopsy.",
+          "populationDescription": "PD analysis set included: all the patient who had taken at least 5 consecutive daily doses (Stage 1 and 2) or at least 12 consecutive daily doses (Stage 3) of AZD9833. The patient received last AZD9833 dose within 12 hours of the on-treatment biopsy, diagnostic and on-treatment biopsy pair was considered evaluable by central pathology assessment (\\>100 tumor cells per FFPE biopsy, and minimum of 2 slides for PgR measurement), with no protocol deviations affecting the biomarker analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "Percentage change from baseline",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy Day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "26"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "26"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "194.8",
+                      "lowerLimit": "25.50",
+                      "upperLimit": "364.03"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-3.0",
+                      "lowerLimit": "-158.37",
+                      "upperLimit": "152.36"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "170.3",
+                      "lowerLimit": "-89.67",
+                      "upperLimit": "430.33"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-24.2",
+                      "lowerLimit": "-547.03",
+                      "upperLimit": "498.69"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "463.8",
+                      "lowerLimit": "-38.45",
+                      "upperLimit": "966.02"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage Change From Baseline in PgR Expression Between Pre- and On-treatment Tumour Samples (Sensitivity Analysis)",
+          "description": "The PD effects of AZD9833 on PgR expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The sensitivity analysis excluded any patients who were HER2-positive patient by central assessment as well as patients with baseline PgR H-score \\< 10. The percentage change was calculated from an ANCOVA model adjusting for baseline PgR score and day of on-treatment biopsy.",
+          "populationDescription": "PD analysis set included: all the patient who had taken at least 5 consecutive daily doses (Stage 1 and 2) or at least 12 consecutive daily doses (Stage 3) of AZD9833. The patient received last AZD9833 dose within 12 hours of the on-treatment biopsy, diagnostic and on-treatment biopsy pair was considered evaluable by central pathology assessment (\\>100 tumor cells per FFPE biopsy, and minimum of 2 slides for PgR measurement), with no protocol deviations affecting the biomarker analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "LEAST_SQUARES_MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "Percentage change from baseline",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "19"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "26"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "8"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "23"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-35.2",
+                      "lowerLimit": "-45.86",
+                      "upperLimit": "-24.57"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-44.0",
+                      "lowerLimit": "-53.09",
+                      "upperLimit": "-34.90"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-36.7",
+                      "lowerLimit": "-52.96",
+                      "upperLimit": "-20.52"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-61.8",
+                      "lowerLimit": "-76.93",
+                      "upperLimit": "-46.62"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-55.0",
+                      "lowerLimit": "-71.29",
+                      "upperLimit": "-38.78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage Change From Baseline in Ki-67 Labelling Index Between Pre- and On-treatment Tumour Samples (Primary Analysis)",
+          "description": "The PD effect of AZD9833 on antigen Ki-67 expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The percentage change was calculated from an ANCOVA model adjusting for log baseline Ki67 index and day of on-treatment biopsy. The Ki-67 index data were log transformed prior to analysis, with results back-transformed to represent percentage change.",
+          "populationDescription": "PD analysis set included: all the patient who had taken at least 5 consecutive daily doses (Stage 1 and 2) or at least 12 consecutive daily doses (Stage 3) of AZD9833. The patient received last AZD9833 dose within 12 hours of the on-treatment biopsy, diagnostic and on-treatment biopsy pair was considered evaluable by central pathology assessment (\\>100 tumor cells per FFPE biopsy, and minimum of 2 slides for Ki-67 measurement), with no protocol deviations affecting the biomarker analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "Percentage change from baseline",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "26"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "31"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "24"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "26"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-40.3",
+                      "lowerLimit": "-52.78",
+                      "upperLimit": "-24.49"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-79.4",
+                      "lowerLimit": "-83.37",
+                      "upperLimit": "-74.55"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-78.2",
+                      "lowerLimit": "-84.82",
+                      "upperLimit": "-68.77"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-73.0",
+                      "lowerLimit": "-79.42",
+                      "upperLimit": "-64.64"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-77.5",
+                      "lowerLimit": "-82.68",
+                      "upperLimit": "-70.86"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Percentage Change From Baseline in Ki-67 Labelling Index Between Pre- and On-treatment Tumour Samples (Sensitivity Analysis)",
+          "description": "The PD effect of AZD9833 on antigen Ki-67 expression comparing pre- and on-treatment tumour samples in women with early breast cancer after 5 to 7 days and 12 to 15 days of AZD9833 treatment was assessed. The assessment was done by IHC method. The sensitivity analysis excluded any patients who were HER2-positive patient by central assessment as well as patients with baseline Ki67 labelling index \\<5%. The percentage change was calculated from an ANCOVA model adjusting for log baseline Ki67 index and day of on-treatment biopsy. The Ki-67 index data were log transformed prior to analysis, with results back-transformed to represent percentage change.",
+          "populationDescription": "PD analysis set included: all the patient who had taken at least 5 consecutive daily doses (Stage 1 and 2) or at least 12 consecutive daily doses (Stage 3) of AZD9833. The patient received last AZD9833 dose within 12 hours of the on-treatment biopsy, diagnostic and on-treatment biopsy pair was considered evaluable by central pathology assessment (\\>100 tumor cells per FFPE biopsy, and minimum of 2 slides for ki-67 measurement), with no protocol deviations affecting the biomarker analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+          "dispersionType": "80% Confidence Interval",
+          "unitOfMeasure": "Percentage change from baseline",
+          "timeFrame": "Baseline (Screening Day -21 to 1) to Biopsy Day (Days 5-7 [Stage 1 and 2] or Days 12-15 [Stage 3])",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "17"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "11"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "18"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "-49.3",
+                      "lowerLimit": "-62.18",
+                      "upperLimit": "-31.96"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "-81.3",
+                      "lowerLimit": "-85.14",
+                      "upperLimit": "-76.49"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "-78.9",
+                      "lowerLimit": "-85.37",
+                      "upperLimit": "-69.46"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "-81.7",
+                      "lowerLimit": "-86.45",
+                      "upperLimit": "-75.24"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "-81.9",
+                      "lowerLimit": "-86.38",
+                      "upperLimit": "-75.88"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Patients With Adverse Events (AEs)",
+          "description": "The safety and tolerability of AZD9833 in this patient population was evaluated.",
+          "populationDescription": "Safety Analysis Set is defined as all patients who received any amount of study treatment, regardless of whether that was the randomized therapy at intended.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "From screening (Day -21 to 1) through 28-day follow-up (Upto 2 months)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "30"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "13"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "30"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "29"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Any AE",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "11"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "19"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "14"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE of CTCAE grade 3 or higher",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE of CTCAE grade 3 or higher, possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE with outcome = death",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE with outcome = death, possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any SAE (including events with outcome = death)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any SAE (including events with outcome = death), possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any SAE leading to discontinuation of treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any SAE leading to discontinuation of treatment, possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE leading to discontinuation of treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE leading to discontinuation of treatment, possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE leading to dose modification of treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any AE leading to dose modification of treatment, possibly related to treatment",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Any other significant AEs",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Plasma Concentrations of AZD9833",
+          "description": "The plasma concentration of AZD9833 in this participant population was evaluated",
+          "populationDescription": "The Pharmacokinetic (PK) Analysis Set is defined as all patients who received at least one dose of AZD9833 per protocol, for whom there is at least one reportable PK concentration.",
+          "reportingStatus": "POSTED",
+          "paramType": "GEOMETRIC_MEAN",
+          "dispersionType": "Geometric Coefficient of Variation",
+          "unitOfMeasure": "Nanograms per milliliter",
+          "timeFrame": "Days 5-7 or Days 12-15 (Pre and Post biopsy)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "AZD9833 75 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG001",
+              "title": "AZD9833 150 mg (Stage 1 + 2)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study."
+            },
+            {
+              "id": "OG002",
+              "title": "AZD9833 300 mg (Stage 2)",
+              "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study"
+            },
+            {
+              "id": "OG003",
+              "title": "AZD9833 75 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study"
+            },
+            {
+              "id": "OG004",
+              "title": "AZD9833 150 mg (Stage 3)",
+              "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "29"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "33"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "12"
+                },
+                {
+                  "groupId": "OG003",
+                  "value": "28"
+                },
+                {
+                  "groupId": "OG004",
+                  "value": "27"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Days 5-7 or Days 12-15 (Pre-biopsy)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "50.712",
+                      "spread": "74.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "122.134",
+                      "spread": "103.8"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "180.773",
+                      "spread": "173.3"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "46.939",
+                      "spread": "56.3"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "120.516",
+                      "spread": "70.0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Days 5-7 or Days 12-15 (Post-biopsy)",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "32"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "27"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "58.304",
+                      "spread": "62.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "142.916",
+                      "spread": "102.4"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "213.446",
+                      "spread": "175.6"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "54.075",
+                      "spread": "42.8"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "137.687",
+                      "spread": "55.4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "From screening (Day -21 to 1) through 28-day follow-up (Up to 2 months)",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "AZD9833 75 mg (Stage 1 + 2)",
+          "description": "Patients received once daily oral dose of AZD9833 75 mg for 5 to 7 days, during the study.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 7,
+          "otherNumAtRisk": 30
+        },
+        {
+          "id": "EG001",
+          "title": "AZD9833 150 mg (Stage 1 + 2)",
+          "description": "Patients received once daily oral dose of AZD9833 150 mg for 5 to 7 days, during the study.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 33,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 33,
+          "otherNumAffected": 17,
+          "otherNumAtRisk": 33
+        },
+        {
+          "id": "EG002",
+          "title": "AZD9833 300 mg (Stage 2)",
+          "description": "Patients received once daily oral dose of AZD9833 300 mg for 5 to 7 days , during the study",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 13,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 13,
+          "otherNumAffected": 9,
+          "otherNumAtRisk": 13
+        },
+        {
+          "id": "EG003",
+          "title": "AZD9833 75 mg (Stage 3)",
+          "description": "Patients received once daily oral dose of AZD9833 75 mg for 12 to 15 days , during the study",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 30,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 30,
+          "otherNumAffected": 11,
+          "otherNumAtRisk": 30
+        },
+        {
+          "id": "EG004",
+          "title": "AZD9833 150 mg (Stage 3)",
+          "description": "Patients received once daily oral dose of AZD9833 150 mg for 12 to 15 days , during the study",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 29,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 29,
+          "otherNumAffected": 19,
+          "otherNumAtRisk": 29
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Visual impairment",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 11,
+              "numAffected": 5,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 6,
+              "numAffected": 3,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 23,
+              "numAffected": 6,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 10,
+              "numAffected": 7,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Photopsia",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 6,
+              "numAffected": 4,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 5,
+              "numAffected": 4,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 4,
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 2,
+              "numAffected": 1,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Diplopia",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 10,
+              "numAffected": 4,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 8,
+              "numAffected": 5,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 3,
+              "numAffected": 2,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Sinus bradycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 4,
+              "numAffected": 3,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Vision blurred",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "COVID-19",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA version 25.1",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG001",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 33
+            },
+            {
+              "groupId": "EG002",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 13
+            },
+            {
+              "groupId": "EG003",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 30
+            },
+            {
+              "groupId": "EG004",
+              "numEvents": 0,
+              "numAffected": 0,
+              "numAtRisk": 29
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "OTHER",
+        "restrictiveAgreement": true,
+        "otherDetails": "This document contains trade secrets and confidential commercial information, disclosure of which is prohibited without providing advance notice to AstraZeneca and opportunity to object."
+      },
+      "pointOfContact": {
+        "title": "Global Clinical Lead",
+        "organization": "AstraZeneca",
+        "email": "information.center@astrazeneca.com",
+        "phone": "1-877-240-9479"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2022-07-04",
+          "uploadDate": "2024-05-07T05:20",
+          "filename": "Prot_000.pdf",
+          "size": 2392843
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2019-11-26",
+          "uploadDate": "2024-05-07T05:20",
+          "filename": "SAP_001.pdf",
+          "size": 928055
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000722187",
+          "term": "AZD9833"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

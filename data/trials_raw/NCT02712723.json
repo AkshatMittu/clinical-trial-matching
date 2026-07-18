@@ -1,0 +1,2105 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02712723",
+      "orgStudyIdInfo": {
+        "id": "CLEE011XUS10T"
+      },
+      "organization": {
+        "fullName": "University of Kansas Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Letrozole Plus Ribociclib or Placebo as Neo-adjuvant Therapy in ER-positive, HER2-negative Early Breast Cancer",
+      "officialTitle": "Femara (Letrozole) Plus Ribociclib (LEE011) or Placebo as Neo-adjuvant Endocrine Therapy for Women With ER-positive, HER2-negative Early Breast Cancer",
+      "acronym": "FELINE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2018-08-27",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2016-02-25",
+      "studyFirstSubmitQcDate": "2016-03-14",
+      "studyFirstPostDateStruct": {
+        "date": "2016-03-18",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2025-11-28",
+      "resultsFirstSubmitQcDate": "2026-02-18",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-03-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Qamar Khan",
+        "investigatorTitle": "Associate Professor",
+        "investigatorAffiliation": "University of Kansas Medical Center"
+      },
+      "leadSponsor": {
+        "name": "Qamar Khan",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if ribociclib in combination with letrozole for 24 weeks as neoadjuvant endocrine therapy increases the proportion of women with Pre-operative Endocrine Prognostic Index (PEPI) score of 0 at surgery compared to patients treated with letrozole alone therefore allowing more patients excellent outcomes without chemotherapy.",
+      "detailedDescription": "Subjects will be randomized (1:1:1) to either letrozole plus placebo vs. letrozole plus continuous dosing of ribociclib vs. letrozole plus intermittent dosing (3-weeks-on/1-week-off) of ribociclib.\n\nThe difference in clinical, pathologic and radiologic response as well as Pre-operative Endocrine Prognostic Index (PEPI) scores across the three treatments arms will be examined. Subjects will also be followed for 5 years post-treatment to determine if ribociclib in combination with letrozole for 24 weeks results in improved 5 year Relapse Free Survival (RFS) compared to letrozole alone."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "ER+, HER2-negative breast cancer",
+        "Stage II or III",
+        "Letrozole",
+        "Femara",
+        "Ribociclib",
+        "LEE011",
+        "Neo-adjuvant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 121,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo + Letrozole",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily",
+          "interventionNames": [
+            "Drug: Letrozole",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Ribociclib 600 mg + Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Ribociclib 600 mg PO daily 21 days on/7 days off + Letrozole 2.5 mg PO daily",
+          "interventionNames": [
+            "Drug: Letrozole",
+            "Drug: Ribociclib"
+          ]
+        },
+        {
+          "label": "Ribociclib 400 mg + Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Ribociclib 400 mg continuous daily dosing + Letrozole 2.5 mg PO daily",
+          "interventionNames": [
+            "Drug: Letrozole",
+            "Drug: Ribociclib"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Nonsteroidal aromatase inhibitor",
+          "armGroupLabels": [
+            "Placebo + Letrozole",
+            "Ribociclib 400 mg + Letrozole",
+            "Ribociclib 600 mg + Letrozole"
+          ],
+          "otherNames": [
+            "Femara",
+            "CGS 20267",
+            "LTZ"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ribociclib",
+          "description": "Oral cyclin-dependent kinase (CDK) inhibitor",
+          "armGroupLabels": [
+            "Ribociclib 400 mg + Letrozole",
+            "Ribociclib 600 mg + Letrozole"
+          ],
+          "otherNames": [
+            "LEE011",
+            "LEE-011"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo for ribociclib",
+          "armGroupLabels": [
+            "Placebo + Letrozole"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Rate of PEPI Score 0 at Surgery Between Ribociclib Containing Arms (Combined) vs. Letrozole Alone Arm.",
+          "description": "The Preoperative Endocrine Prognostic Index (PEPI) score 0 is defined as: pT stage 0, 1, or 2 at surgery after 24 weeks of neoadjuvant therapy; negative axillary lymph nodes at surgey; Ki67 of \u2264 2.7 % at surgery; and tumor is ER+ at surgery. A PEPI score of 0 predicts a good outcome compare to PEPI score \\>0.",
+          "timeFrame": "24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rate of Complete Cell Cycle Arrest at 2 Weeks Between Ribociclib Containing Arms (Combined) vs Letrozole Alone Arm.",
+          "description": "Complete cell cycle arrest is defined as Ki67 at day 14 of \\< 2.7.",
+          "timeFrame": "Day 14 of Cycle 1"
+        },
+        {
+          "measure": "Pathologic Complete Response Rate (pCR Rate): pCR Rate is Defined as the Proportion of Patients With no Histologic Evidence of Invasive Tumor Cells in the Surgical Breast Specimen and the Axillary Lymph Nodes",
+          "description": "pCR is assciated with better outcomes in breast cancer",
+          "timeFrame": "At Surgery (Days 8-15 of Cycle 6)"
+        },
+        {
+          "measure": "Clinical Complete Response Rate (cCR Rate): cCR Rate is Defined as the Proportion of Patients With no Residual Tumor by Clinical Exam",
+          "timeFrame": "Post-surgery (Once in the first 4 weeks of post-op, then once every 6 months for 5 years post-op)"
+        },
+        {
+          "measure": "5 Year Relapse Free Survival (RFS)",
+          "timeFrame": "5 years post-treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Pathologically confirmed invasive breast cancer by core needle biopsy\n* Female subjects, age \u2265 18 years\n* Only postmenopausal women will be eligible.\n* Performance Status: Eastern Cooperative Oncology Group (ECOG) score 0-2\n* Invasive breast cancer must be ER+ in \u226566 % of the cells or ER Allred score 6-8\n* Invasive breast cancer must be HER2 negative.\n* Clinical Stage II or III (by clinical measurement and/or breast imaging)\n\nKey Exclusion Criteria:\n\n* Subjects meeting any of the exclusion criteria at baseline will be excluded from study participation.\n* Current use of other investigational agents\n* Inflammatory breast cancer defined as clinically significant erythema of the breast and/or documented dermal lymphatic invasion (not direct skin invasion by tumor or peau d'orange without erythema)\n* An excisional biopsy of this breast cancer\n* Surgical axillary staging procedure prior to study entry\n* Hormone replacement therapy of any type, megestrol acetate, or raloxifene within four weeks prior to first study treatment\n* Clinical or radiographic evidence of metastatic disease\n* Clinically significant, uncontrolled heart disease\n* Herbal preparations/medications as listed in Appendix B of the protocol",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Qamar Khan, MD",
+          "affiliation": "University of Kansas Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Arkansas for Medical Sciences",
+          "city": "Little Rock",
+          "state": "Arkansas",
+          "zip": "72205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.74648,
+            "lon": -92.28959
+          }
+        },
+        {
+          "facility": "City of Hope National Medical Center",
+          "city": "Duarte",
+          "state": "California",
+          "zip": "91010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.13945,
+            "lon": -117.97729
+          }
+        },
+        {
+          "facility": "Cancer Research Collaboration",
+          "city": "Santa Ana",
+          "state": "California",
+          "zip": "92705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.74557,
+            "lon": -117.86783
+          }
+        },
+        {
+          "facility": "University of Miami Sylvester Comprehensive Cancer Center",
+          "city": "Deerfield Beach",
+          "state": "Florida",
+          "zip": "33442",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.31841,
+            "lon": -80.09977
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center - West",
+          "city": "Kansas City",
+          "state": "Kansas",
+          "zip": "66112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.11417,
+            "lon": -94.62746
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center - Overland Park",
+          "city": "Overland Park",
+          "state": "Kansas",
+          "zip": "66210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98223,
+            "lon": -94.67079
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center - Westwood",
+          "city": "Westwood",
+          "state": "Kansas",
+          "zip": "66205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.04056,
+            "lon": -94.6169
+          }
+        },
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center - South",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center - North",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "zip": "64154",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.09973,
+            "lon": -94.57857
+          }
+        },
+        {
+          "facility": "University of Kansas Cancer Center - Lee's Summit",
+          "city": "Lee's Summit",
+          "state": "Missouri",
+          "zip": "64064",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.91084,
+            "lon": -94.38217
+          }
+        },
+        {
+          "facility": "Columbia University Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "University of Wisconsin Carbone Cancer Center",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53705",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Placebo + Letrozole",
+          "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nPlacebo: Placebo for ribociclib"
+        },
+        {
+          "id": "FG001",
+          "title": "Ribociclib 600 mg + Letrozole",
+          "description": "Ribociclib 600 mg PO daily 21 days on/7 days off + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nRibociclib: Oral cyclin-dependent kinase (CDK) inhibitor"
+        },
+        {
+          "id": "FG002",
+          "title": "Ribociclib 400 mg + Letrozole",
+          "description": "Ribociclib 400 mg continuous daily dosing + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nRibociclib: Oral cyclin-dependent kinase (CDK) inhibitor"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "38"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "41"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "41"
+                }
+              ]
+            },
+            {
+              "type": "Received Treatment",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "37"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "41"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "41"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "28"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "32"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "28"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "10"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                },
+                {
+                  "groupId": "FG002",
+                  "numSubjects": "13"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Placebo + Letrozole",
+          "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nPlacebo: Placebo for ribociclib"
+        },
+        {
+          "id": "BG001",
+          "title": "Ribociclib 600 mg + Letrozole",
+          "description": "Ribociclib 600 mg PO daily 21 days on/7 days off + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nRibociclib: Oral cyclin-dependent kinase (CDK) inhibitor"
+        },
+        {
+          "id": "BG002",
+          "title": "Ribociclib 400 mg + Letrozole",
+          "description": "Ribociclib 400 mg continuous daily dosing + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nRibociclib: Oral cyclin-dependent kinase (CDK) inhibitor"
+        },
+        {
+          "id": "BG003",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "38"
+            },
+            {
+              "groupId": "BG001",
+              "value": "41"
+            },
+            {
+              "groupId": "BG002",
+              "value": "41"
+            },
+            {
+              "groupId": "BG003",
+              "value": "120"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Customized",
+          "paramType": "MEDIAN",
+          "dispersionType": "INTER_QUARTILE_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "title": "Median Age",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66.5",
+                      "lowerLimit": "62.2",
+                      "upperLimit": "71.0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "62.3",
+                      "lowerLimit": "56.6",
+                      "upperLimit": "71.0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "65.7",
+                      "lowerLimit": "59.2",
+                      "upperLimit": "72.1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "65.8",
+                      "lowerLimit": "59.3",
+                      "upperLimit": "71.5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "38"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "41"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "120"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "African American",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Asian",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "White",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "33"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28"
+                    },
+                    {
+                      "groupId": "BG003",
+                      "value": "92"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Rate of PEPI Score 0 at Surgery Between Ribociclib Containing Arms (Combined) vs. Letrozole Alone Arm.",
+          "description": "The Preoperative Endocrine Prognostic Index (PEPI) score 0 is defined as: pT stage 0, 1, or 2 at surgery after 24 weeks of neoadjuvant therapy; negative axillary lymph nodes at surgey; Ki67 of \u2264 2.7 % at surgery; and tumor is ER+ at surgery. A PEPI score of 0 predicts a good outcome compare to PEPI score \\>0.",
+          "populationDescription": "It was pre-specified as the primary endpoint in the Statistical Analysis Plan and the Study Protocol to compare Placebo therapy (Placebo + Letrozole) and combination therapy (Ribociclib + Letrozole).",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group A: Placebo + Letrozole",
+              "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nPlacebo: Placebo for ribociclib"
+            },
+            {
+              "id": "OG001",
+              "title": "Group B and Group C (Combined)",
+              "description": "Group B: Ribociclib intermittent + letrozole Group C: Ribociclib continuous z+ letrozole"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "82"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21.1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "22.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Rate of Complete Cell Cycle Arrest at 2 Weeks Between Ribociclib Containing Arms (Combined) vs Letrozole Alone Arm.",
+          "description": "Complete cell cycle arrest is defined as Ki67 at day 14 of \\< 2.7.",
+          "populationDescription": "It was pre-specified as the primary endpoint in the Statistical Analysis Plan and the Study Protocol to compare single therapy (Placebo + Letrozole) and combination therapy (Ribociclib + Letrozole).",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "Day 14 of Cycle 1",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Group A: Placebo + Letrozole",
+              "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily\n\nLetrozole: Nonsteroidal aromatase inhibitor\n\nPlacebo: Placebo for ribociclib"
+            },
+            {
+              "id": "OG001",
+              "title": "Group B and Group C (Combined)",
+              "description": "Group B: Ribociclib intermittent + letrozole Group C: Ribociclib continuous z+ letrozole"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "82"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "39.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "82.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Pathologic Complete Response Rate (pCR Rate): pCR Rate is Defined as the Proportion of Patients With no Histologic Evidence of Invasive Tumor Cells in the Surgical Breast Specimen and the Axillary Lymph Nodes",
+          "description": "pCR is assciated with better outcomes in breast cancer",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "At Surgery (Days 8-15 of Cycle 6)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Placebo + Letrozole",
+              "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily"
+            },
+            {
+              "id": "OG001",
+              "title": "Ribociclib 600 mg + Letrozole",
+              "description": "Ribociclib 600 mg PO daily 21 days on/7 days off + Letrozole 2.5 mg PO daily"
+            },
+            {
+              "id": "OG002",
+              "title": "Ribociclib 400 mg + Letrozole",
+              "description": "Ribociclib 400 mg continuous daily dosing + Letrozole 2.5 mg PO daily"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "38"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "41"
+                },
+                {
+                  "groupId": "OG002",
+                  "value": "41"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Clinical Complete Response Rate (cCR Rate): cCR Rate is Defined as the Proportion of Patients With no Residual Tumor by Clinical Exam",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "Post-surgery (Once in the first 4 weeks of post-op, then once every 6 months for 5 years post-op)",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "5 Year Relapse Free Survival (RFS)",
+          "reportingStatus": "NOT_POSTED",
+          "timeFrame": "5 years post-treatment",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "6 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Placebo + Letrozole",
+          "description": "Placebo randomized to 3 capsules/day 3 weeks on/1week off or 2 capsules/day continuous dosing + Letrozole 2.5 mg PO daily Letrozole: Nonsteroidal aromatase inhibitor Placebo: Placebo for ribociclib",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 37,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 37,
+          "otherNumAffected": 19,
+          "otherNumAtRisk": 37
+        },
+        {
+          "id": "EG001",
+          "title": "Ribociclib 600 mg + Letrozole",
+          "description": "Ribociclib 600 mg PO daily 21 days on/7 days off + Letrozole 2.5 mg PO daily Letrozole: Nonsteroidal aromatase inhibitor Ribociclib: Oral cyclin-dependent kinase (CDK) inhibitor",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 41,
+          "seriousNumAffected": 25,
+          "seriousNumAtRisk": 41,
+          "otherNumAffected": 21,
+          "otherNumAtRisk": 41
+        },
+        {
+          "id": "EG002",
+          "title": "Ribociclib 400 mg + Letrozole",
+          "description": "Ribociclib 400 mg continuous daily dosing + Letrozole 2.5 mg PO daily Letrozole: Nonsteroidal aromatase inhibitor Ribociclib: Oral cyclin-dependent kinase (CDK) inhibitor",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 41,
+          "seriousNumAffected": 20,
+          "seriousNumAtRisk": 41,
+          "otherNumAffected": 23,
+          "otherNumAtRisk": 41
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 0,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 3,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Electrocardiogram QT corrected interval prolonged",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 41
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 21,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 23,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 13,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 9,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 19,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 14,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 20,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 12,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 18,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 16,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 9,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 19,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 10,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 12,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 13,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 13,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 12,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 14,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 8,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 10,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 1,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 11,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 9,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Allergic rhinitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 8,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Creatinine increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Electrocardiogram QT corrected interval prolonged",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 10,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Breast pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "White blood cell decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 6,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 8,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Rash acneiform",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 4,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Pruritus",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 6,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 7,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Localized edema",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 5,
+              "numAtRisk": 41
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 37
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 5,
+              "numAtRisk": 41
+            },
+            {
+              "groupId": "EG002",
+              "numAffected": 2,
+              "numAtRisk": 41
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Qamar Khan",
+        "organization": "UKansasMCRI",
+        "email": "qkhan@kumc.edu",
+        "phone": "9137106387"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2018-08-24",
+          "uploadDate": "2025-11-13T15:28",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 2068447
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

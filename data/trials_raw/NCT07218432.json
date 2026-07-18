@@ -1,0 +1,373 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07218432",
+      "orgStudyIdInfo": {
+        "id": "2025-026"
+      },
+      "organization": {
+        "fullName": "Barbara Ann Karmanos Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Study of the TheraBionic P1 Device in Breast Cancer",
+      "officialTitle": "A Window of Opportunity Pilot Study: TheraBionic P1 Device for Patients With Resectable Early-stage Breast Cancer in a Neoadjuvant Setting"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-04-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-09",
+      "studyFirstSubmitQcDate": "2025-10-16",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Lubina Arjyal MD",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Barbara Ann Karmanos Cancer Institute"
+      },
+      "leadSponsor": {
+        "name": "Barbara Ann Karmanos Cancer Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to learn if adding cancer-specific amplitude-modulated radiofrequency electromagnetic field therapy (TheraBionic P1 device) to the treatment of resectable early-stage breast cancer will affect the pathological response."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Stage I",
+        "Breast Cancer Stage II",
+        "Breast Cancer Stage IIIA",
+        "Hormone Receptor Positive Tumor",
+        "HER2-negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 24,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TheraBionic P1 device",
+          "type": "EXPERIMENTAL",
+          "description": "Self Administered Amplitude-modulated electromagnetic fields three times daily",
+          "interventionNames": [
+            "Device: TheraBionic P1 Device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "TheraBionic P1 Device",
+          "description": "Amplitude-modulated electromagnetic fields will be self-administered and given continuously to patients in three 60-minute treatments per day, administered in the morning, middle of the day and in the evening prior to surgical resection of early stage breast cancer.",
+          "armGroupLabels": [
+            "TheraBionic P1 device"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pathological Response to Treatment",
+          "description": "Proportion of responders based on residual cancer cells in a resection specimen will be quantified. The response rate will be estimated as the proportion of patients who respond to treatment relative to all patients. The corresponding two-sided 95% confidence interval (CI) will be calculated using Clopper and Pearson's method",
+          "timeFrame": "At time of surgery (after approximately 2 weeks of treatment and tumor resection)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in microRNA expression in tumor tissue",
+          "description": "Changes in microRNA expression in tumor tissue pre- and post-treatment will be calculated as the difference between pre- and post-treatment expression values with two-sided 95% CI estimated using a standard t-distribution-based formula for paired differences.",
+          "timeFrame": "Baseline to post-surgical resection"
+        },
+        {
+          "measure": "Changes in Ki-67 expression in tumor tissue",
+          "description": "Changes in Ki-67 expression in tumor tissue pre- and post-treatment will be calculated as the difference between pre- and post-treatment expression values with two-sided 95% CI estimated using a standard t-distribution-based formula for paired differences.",
+          "timeFrame": "Baseline to post-surgical resection"
+        },
+        {
+          "measure": "Changes in tumor apoptosis marker Cleaved caspase-3 (CC3) in tumor tissue",
+          "description": "Changes in CC3 expression in tumor tissue pre- and post-treatment will be calculated as the difference between pre- and post-treatment expression values with two-sided 95% CI estimated using a standard t-distribution-based formula for paired differences.",
+          "timeFrame": "Baseline to post-surgical resection"
+        },
+        {
+          "measure": "Changes in cell cycle arrest marker p27 in tumor tissue",
+          "description": "Changes in p27 expression in tumor tissue pre- and post-treatment will be calculated as the difference between pre- and post-treatment expression values with two-sided 95% CI estimated using a standard t-distribution-based formula for paired differences.",
+          "timeFrame": "Baseline to post-surgical resection"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "OS will be graphically summarized using Kaplan-Meier (KM) curves, with corresponding medians and two-sided 95% CIs computed using KM estimates. Additionally, OS rates at every six months post-treatment will be estimated using the KM estimated, with two-sided 95% CIs provided for each time point.",
+          "timeFrame": "Up to 5 years post-surgery"
+        },
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "PFS will be graphically summarized using Kaplan-Meier (KM) curves, with corresponding medians and two-sided 95% CIs computed using KM estimates. Additionally, PFS rates at every six months post-treatment will be estimated using the KM estimated, with two-sided 95% CIs provided for each time point.",
+          "timeFrame": "Up to 5 years post-surgery"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Positron Emission Tomography with 3'-Deoxy-3'-18F-Fluorothymidine (PET-FLT) association of response to treatment",
+          "description": "Changes in the SUV max as measured by FLT-PET prior to treatment compared to after treatment and before resection. SUV (standard uptake value) max values will be log-transformed and descriptively summarized using the mean, standard deviation, and two-sided 95% CI. Changes in SUV max pre- and post-treatment will be calculated as the difference between the pre- and post-treatment values with two-sided 95% CI estimated using a standard t-distribution-based formula for paired differences. The association between changes in SUV max and response will be explored using logistic regression analysis. Optional study for the first 5 participants.",
+          "timeFrame": "From Screening to after 7 days of treatment with the TheraBionic Device."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant must have histologically proven invasive breast cancer that is HR (hormone receptor) positive and HER2 (Human Epidermal Growth Factor Receptor 2) negative according to the 2010 American Society of Clinical Oncology (ASCO) College of American Pathologists (CAP) guidelines (ER and/or PR (progesterone receptor) \\>1% and HER2 negative by immunohistochemistry \\[IHC\\] and/or fluorescent in situ hybridization \\[FISH\\]).\n* Participant must have early-stage operable disease (stage I-II or III who have planned upfront surgery) and agree to definitive upfront surgery.\n* Participant must be available for at least two weeks of TheraBionic treatment prior to scheduled resection\n* Participant must have archival tissue available.\n* Participant must be a woman aged 22 years or older\n* Participant must be able to understand a written informed consent document and be willing to sign it\n* Participant must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n* It is not known what effects this treatment has on human pregnancy or development of the embryo or fetus. Therefore, women of child-bearing potential must agree to avoid becoming pregnant starting at initiation of treatment up until at least 30 days after the last TheraBionic P1 session\n\nExclusion Criteria:\n\n* Participants that are receiving or will receive neoadjuvant chemotherapy or neoadjuvant hormonal therapy\n* Participants with known active secondary malignancy, unless, in the opinion of the investigator, it is unlikely to interfere with the safety and efficacy of the endpoints\n* Participants that are taking any other investigational drugs\n* Participants that are pregnant or breastfeeding due to the unknown but potential risk for adverse events. If a breastfeeding participant would like to be part of this study, breastfeeding must be discontinued\n* Participants with active oral mucosal inflammation, ulceration, or other pathology that could interfere with the use of TheraBionic P1 device (for example: mucositis, thrush, bleeding mucosal lesions, oral herpes, aphthous stomatitis, mouth ulcers, chancre sores, gingivostomatitis, herpangina, aphthae).\n* Participants receiving calcium channel blockers and any agent blocking L-type or T-type voltage gated calcium channels (for example: amlodipine, nifedipine, ethosuximide, ascorbic acid/vitamin C, etc.) unless their medical treatment is discontinued at least one day prior to treatment. Participant must agree to abstain from using calcium channel blockers for the duration of treatment on study.\n* Participants that do not agree to be followed according to the study protocol or have cognitive or physical inability to use the device\n* Participants with a known severe (e.g., anaphylactic) allergy to nickel.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "22 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Lubina Arjyal, M.D.",
+          "role": "CONTACT",
+          "phone": "1-800-karmanos",
+          "email": "arjyall@karmanos.org"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Lubina Arjyal, M.D.",
+          "affiliation": "Wayne State University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Karmanos Cancer Institute at McLaren Clarkston",
+          "status": "RECRUITING",
+          "city": "Clarkston",
+          "state": "Michigan",
+          "zip": "48346",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "248-922-6650"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.73586,
+            "lon": -83.41883
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute",
+          "status": "RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48201",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lubina Arjyal, MD",
+              "role": "CONTACT",
+              "phone": "1-800-527-6266",
+              "email": "arjyall@karmanos.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute Weisberg Cancer Treatment Center",
+          "status": "RECRUITING",
+          "city": "Farmington Hills",
+          "state": "Michigan",
+          "zip": "48334",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "1-800-527-6266"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.48531,
+            "lon": -83.37716
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute at McLaren Flint",
+          "status": "RECRUITING",
+          "city": "Flint",
+          "state": "Michigan",
+          "zip": "48532",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "810-342-3800"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.01253,
+            "lon": -83.68746
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute at McLaren Greater Lansing",
+          "status": "RECRUITING",
+          "city": "Lansing",
+          "state": "Michigan",
+          "zip": "48910",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "517-975-9500"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.73253,
+            "lon": -84.55553
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute at McLaren Lapeer Region",
+          "status": "RECRUITING",
+          "city": "Lapeer",
+          "state": "Michigan",
+          "zip": "48466",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "810-667-4994"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.05142,
+            "lon": -83.31883
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute at McLaren Northern Michigan",
+          "status": "RECRUITING",
+          "city": "Petoskey",
+          "state": "Michigan",
+          "zip": "49770",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "231-487-3390"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.37334,
+            "lon": -84.95533
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Institute at McLaren Port Huron",
+          "status": "RECRUITING",
+          "city": "Port Huron",
+          "state": "Michigan",
+          "zip": "48060",
+          "country": "United States",
+          "contacts": [
+            {
+              "role": "CONTACT",
+              "phone": "810-982-5200"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.97086,
+            "lon": -82.42491
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

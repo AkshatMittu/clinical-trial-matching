@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06050109",
+      "orgStudyIdInfo": {
+        "id": "HBCHBCC001"
+      },
+      "organization": {
+        "fullName": "Hubei Cancer Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Benefits of Continued Use of Ovarian Function Suppression After 5 Years",
+      "officialTitle": "A Multicenter, Open-label, Non-randomized Controlled Real World Study Comparing the Benefits of Continued Use of Ovarian Function Suppression After 5 Years"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-09-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-09-17",
+      "studyFirstSubmitQcDate": "2023-09-17",
+      "studyFirstPostDateStruct": {
+        "date": "2023-09-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-03-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-03-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Hongmei Zheng, PhD",
+        "investigatorTitle": "vice director",
+        "investigatorAffiliation": "Hubei Cancer Hospital"
+      },
+      "leadSponsor": {
+        "name": "Hongmei Zheng, PhD",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "To observe and evaluate the clinical efficacy and safety of continuous use of OFS for premenopausal patients with early breast cancer after 5 years use of OFS.\n\nThis study is a multicenter, prospective, observational, non randomized controlled, open-label real world study based on hospital medical record system data, aimed at evaluating the benefits of continuing to use OFS after 5 years of use. The retrospective analysis plan includes patient data from September 1, 2023 to September 1, 2026. Join two cohorts: the continued use group and the discontinued use group after 5 years of OFS, respectively."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Female",
+        "Endocrine Therapy"
+      ],
+      "keywords": [
+        "ovarian function suppression",
+        "Hormone receptor (HR) positive",
+        "HER2 negative",
+        "early breast cancer",
+        "prolonged therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 1200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "OFS continues to use after 5 years",
+          "description": "HR-positive premenopausal female patients whose doctors believe that they can benefit from continued use of OFS after 5 years should be included in the trial group.",
+          "interventionNames": [
+            "Drug: OFS continues to use group after 5 years use",
+            "Diagnostic Test: Immunohistochemical detection of HR status"
+          ]
+        },
+        {
+          "label": "OFS discontinues to use after 5 years",
+          "description": "The control group did not need to continue to use OFS, either leuprolide or goserelin"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "OFS continues to use group after 5 years use",
+          "description": "Patients included in the group continued or discontinued to use goserelin or leuprolide after 5 years use.",
+          "armGroupLabels": [
+            "OFS continues to use after 5 years"
+          ],
+          "otherNames": [
+            "OFS discontinues to use group after 5 years use"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Immunohistochemical detection of HR status",
+          "description": "Enrolled patients must be HR-positive premenopausal breast cancer patients",
+          "armGroupLabels": [
+            "OFS continues to use after 5 years"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "invasive disease-free survival",
+          "description": "The main effect evaluation index was invasive disease-free survival (iDFS)",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival",
+          "description": "Overall survival for years, which means the rate of patients alive in the whole patients at the same group will be calculated with kaplan meier survival curves.",
+          "timeFrame": "5 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Quality of life score",
+          "description": "Quality of life score was evaluated by European Organization of Research and treatment of Cancer-Questionnaire of Life Quality-C30 Version 3 (EORTC-QLQ-C30 V3), which conduct a series of questions about the patients' physical condition, activity of daily life, adverse reaction and mood condition. The range in the questionnaire for the score is from 1 to 4, in which 1 stands for having no discomfort and 4 stands for having great discomfort.",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with early primary breast cancer\n* Female aged 18-60 years (including 18 year and 60 year)\n* Hormone receptor (HR) positive HER2 negative\n* Receive 5 years of OFS treatment\n* ECOG score 0-1\n* Voluntarily join this study and sign the informed consent form;\n* The researcher believes that it can benefit.\n\nExclusion Criteria:\n\n* The patient is receiving treatment that affects OFS at the same time The patient has received OFS treatment for less than 5 years\n* Central nervous system metastases with known obvious symptoms, such as headache, cerebral edema, blurred vision\n* Invasive metastases with known obvious symptoms\n* Invasive metastases with known obvious symptoms\n* Doctors think it is not suitable for inclusion",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": "Women who are diagnosed as early breast cancer and have received 5 years treatment of OFS.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Hongmei Zheng, Doctor",
+          "role": "CONTACT",
+          "phone": "18971624606",
+          "phoneExt": "+86",
+          "email": "zhenghongmeicj@163.com"
+        },
+        {
+          "name": "Xinhong Wu, Doctor",
+          "role": "CONTACT",
+          "phone": "18602726300",
+          "phoneExt": "+86",
+          "email": "wuxinhong_9@sina.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Hongmei Zheng, Doctor",
+          "affiliation": "Study Principal Investigator",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Wu Xinhong",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "xinhong wu, Dr",
+              "role": "CONTACT",
+              "phone": "+8618602726300",
+              "email": "wuxinhong_9@sina.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

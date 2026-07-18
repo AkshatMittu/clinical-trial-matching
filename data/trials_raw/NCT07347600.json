@@ -1,0 +1,629 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07347600",
+      "orgStudyIdInfo": {
+        "id": "ML46361"
+      },
+      "organization": {
+        "fullName": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Effectiveness and Safety of Inavolisib in Participants With Endocrine-resistant, PIK3CA-mutated, Hormone Receptor-positive, HER2-negative Locally Advanced or Metastatic Breast Cancer",
+      "officialTitle": "A Non-interventional Study to Evaluate the Effectiveness and Safety of Inavolisib in Patients With Endocrine-resistant, PIK3CA-mutated, Hormone Receptor-positive, HER2-negative Locally Advanced or Metastatic Breast Cancer (reaINAVO)",
+      "acronym": "reaINAVO"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-01-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-09-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-09",
+      "studyFirstSubmitQcDate": "2026-01-09",
+      "studyFirstPostDateStruct": {
+        "date": "2026-01-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-10",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The main purpose of this study is to evaluate the effectiveness of inavolisib based regimen in participants with endocrine-resistant, phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha gene (PIK3CA)-mutated, hormone receptor-positive (HR+), human epidermal growth factor receptor 2-negative (HER2-) locally advanced or metastatic breast cancer (LA/mBC), following on or after completing adjuvant endocrine therapy in routine clinical practice in China."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Locally Advanced Breast Cancer",
+        "Metastatic Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "OTHER"
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Inavolisib",
+          "description": "Participants with endocrine-resistant, PIK3CA-mutated, HR+, HER2-, LA/mBC, following on or after completing adjuvant endocrine therapy will be observed for effectiveness and safety of inavolisib.",
+          "interventionNames": [
+            "Drug: Inavolisib",
+            "Drug: Palbociclib",
+            "Drug: Fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Inavolisib",
+          "description": "Inavolisib will be administered at the discretion of the physician in accordance with local clinical practice and local labeling.",
+          "armGroupLabels": [
+            "Inavolisib"
+          ],
+          "otherNames": [
+            "GDC-0077"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "Palbociclib will be administered at the discretion of the physician in accordance with local clinical practice and local labeling.",
+          "armGroupLabels": [
+            "Inavolisib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "Fulvestrant will be administered at the discretion of the physician in accordance with local clinical practice and local labeling.",
+          "armGroupLabels": [
+            "Inavolisib"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Real-world Progression-free Survival (rwPFS)",
+          "timeFrame": "From index date (date of first prescription of inavolisib) to first occurrence of disease progression (PD)/death from any cause (up to approximately 36 months)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Adverse Events (AEs)",
+          "timeFrame": "Up to approximately 36 months"
+        },
+        {
+          "measure": "Real-world Time to Progression (rwTTP)",
+          "timeFrame": "From index date to first occurrence of PD (up to approximately 36 months)"
+        },
+        {
+          "measure": "Number of Participants With Real-world Tumor Response (rwTR) to the Treatment",
+          "timeFrame": "Up to approximately 36 months"
+        },
+        {
+          "measure": "Real-world Duration of Response (rwDoR)",
+          "timeFrame": "From onset of first tumor response to first occurrence of PD or death from any cause (up to approximately 36 months)"
+        },
+        {
+          "measure": "Real-world Time-to-treatment Discontinuation (rwTTD)",
+          "timeFrame": "From index date to inavolisib discontinuation, new anti-cancer therapy initiation or death from any cause (up to approximately 36 months)"
+        },
+        {
+          "measure": "Real-world Time to Next Treatment (rwTTNT)",
+          "timeFrame": "From index date to new anti-cancer therapy (up to approximately 36 months)"
+        },
+        {
+          "measure": "Real-world Time to Chemotherapy (rwTTC)",
+          "timeFrame": "From index date to date of chemotherapy initiation (up to approximately 36 months)"
+        },
+        {
+          "measure": "Treatment Duration of Inavolisib",
+          "timeFrame": "Up to approximately 36 months"
+        },
+        {
+          "measure": "Total Dose of Inavolisib Received",
+          "timeFrame": "Up to approximately 36 months"
+        },
+        {
+          "measure": "Number of Participants Who Experience Dose Modification, Including Missing Doses, Dose Interruption, Dose Reduction, or Early Discontinuation",
+          "timeFrame": "Up to approximately 36 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must be diagnosed with endocrine-resistant, PIK3CA-mutated, HR+/HER2- LA/mBC, following recurrence on or after completing adjuvant endocrine therapy\n* Participants must receive the treatment of inavolisib for the first time\n* PIK3CA mutation status should be detected by a National Medical Products Administration (NMPA)-approved or validated assay \\[Polymerase Chain Reaction (PCR) or Next Generation Sequencing (NGS)\\] by testing of blood or tumor tissue prior to the initiation of inavolisib\n\nExclusion Criteria:\n\n* Participants for which the treatment with inavolisib is not indicated per prescribing information. If the participant starts palbociclib and fulvestrant first, and starts inavolisib after getting a PIK3CA mutation-positive test result later, the palbociclib and fulvestrant will not be deemed as a different line of therapy. However, the medical order of PIK3CA mutation test must be made before or at the same time with the prescription of palbociclib and fulvestrant\n* Participants not receiving treatment for LA/mBC with inavolisib according to standard of care (SOC) and in line with the current summary of product characteristics (SPC)/local labeling\n* At the investigator's discretion, any reason that makes the participant hard to follow up or unsuitable to participate in the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Participants with endocrine-resistant, PIK3CA-mutated, HR+, HER2-, LA/mBC, following on or after completing adjuvant endocrine therapy in routine clinical practice in China.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Reference Study ID Number: ML46361 https://forpatients.roche.com/ No attachments to email below.",
+          "role": "CONTACT",
+          "phone": "888-662-6728",
+          "email": "global-roche-genentech-trials@gene.com"
+        },
+        {
+          "name": "Fastest response: use the inquiry form. https://www.gene.com/contact-us/submit-medical-inquiry",
+          "role": "CONTACT"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Clinical Trials",
+          "affiliation": "Hoffmann-La Roche",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The First Affiliated Hospital of Xiamen University",
+          "status": "RECRUITING",
+          "city": "Xiamen",
+          "state": "Fujian",
+          "zip": "361003",
+          "country": "China",
+          "geoPoint": {
+            "lat": 24.47979,
+            "lon": 118.08187
+          }
+        },
+        {
+          "facility": "Gansu Provincial Maternal and Child Health Hospital (Gansu Provincial Hospital of Traditional Chinese Medicine)",
+          "status": "RECRUITING",
+          "city": "Lanzhou",
+          "state": "Gansu",
+          "zip": "730050",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.05701,
+            "lon": 103.83987
+          }
+        },
+        {
+          "facility": "The First Hospital of Jilin University",
+          "status": "RECRUITING",
+          "city": "Changchun",
+          "state": "Jilin",
+          "zip": "130021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          }
+        },
+        {
+          "facility": "Wenzhou Medical University Affiliated Second Hospital",
+          "status": "RECRUITING",
+          "city": "Wenzhou",
+          "state": "Zhejiang",
+          "zip": "325000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 27.99942,
+            "lon": 120.66682
+          }
+        },
+        {
+          "facility": "Peking University First Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100034",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Peking University Third Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "zip": "100191",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Sichuan Academy of Medical Sciences and Sichuan Provincial Peoples Hospital",
+          "status": "RECRUITING",
+          "city": "Chengdu",
+          "zip": "610072",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Chongqing Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Chongqing",
+          "zip": "400030",
+          "country": "China",
+          "geoPoint": {
+            "lat": 29.56026,
+            "lon": 106.55771
+          }
+        },
+        {
+          "facility": "Sun Yat-sen Memorial Hospital",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510120",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Zhujiang Hospital, Southern Medical University",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510280",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Guangdong Provincial Traditional Chinese Medicine Hospital",
+          "status": "RECRUITING",
+          "city": "Guangzhou",
+          "zip": "510335",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Guizhou Provincial People's Hospital",
+          "status": "RECRUITING",
+          "city": "Guiyang",
+          "zip": "550002",
+          "country": "China",
+          "geoPoint": {
+            "lat": 26.58333,
+            "lon": 106.71667
+          }
+        },
+        {
+          "facility": "Hainan Provincial Peoples Hospital",
+          "status": "RECRUITING",
+          "city": "Haikou",
+          "zip": "570311",
+          "country": "China",
+          "geoPoint": {
+            "lat": 20.03421,
+            "lon": 110.34651
+          }
+        },
+        {
+          "facility": "Harbin Medical University Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Harbin",
+          "zip": "150081",
+          "country": "China",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital of Anhui Medical University",
+          "status": "RECRUITING",
+          "city": "Hefei",
+          "zip": "230022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Shandong Provincial Hospital",
+          "status": "RECRUITING",
+          "city": "Jinan",
+          "zip": "250021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "Luoyang Central Hospital",
+          "status": "RECRUITING",
+          "city": "Luoyang",
+          "zip": "471000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.67345,
+            "lon": 112.43684
+          }
+        },
+        {
+          "facility": "Jiangxi Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Nanchang",
+          "zip": "330006",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "facility": "Jiangsu Province Hospital",
+          "status": "RECRUITING",
+          "city": "Nanjing",
+          "zip": "210029",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Fudan University Shanghai Cancer Center",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Zhongshan Hospital Fudan University",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Liaoning cancer Hospital & Institute",
+          "status": "RECRUITING",
+          "city": "Shenyang",
+          "zip": "110042",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Shanxi Provincial Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Taiyuan",
+          "zip": "030013",
+          "country": "China",
+          "geoPoint": {
+            "lat": 37.86944,
+            "lon": 112.56028
+          }
+        },
+        {
+          "facility": "Taizhou Hospital of Zhejiang Province",
+          "status": "RECRUITING",
+          "city": "Taizhou",
+          "zip": "317000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.49069,
+            "lon": 119.90812
+          }
+        },
+        {
+          "facility": "Weifang People's Hospital",
+          "status": "RECRUITING",
+          "city": "Weifang",
+          "zip": "261041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.71,
+            "lon": 119.10194
+          }
+        },
+        {
+          "facility": "Hubei Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Wuhan",
+          "zip": "430079",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "The First Affiliated Hospital of Xian Jiao Tong University",
+          "status": "RECRUITING",
+          "city": "Xi'an",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.25833,
+            "lon": 108.92861
+          }
+        },
+        {
+          "facility": "Subei People's Hospital of Jiangsu province",
+          "status": "RECRUITING",
+          "city": "Yangzhou",
+          "zip": "225001",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.39722,
+            "lon": 119.43583
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Please use this form to submit your questions for a faster response: https://www.gene.com/contact-us/submit-medical-inquiry. Do not include or attach any medical records when emailing or completing the form. A nurse will respond within 24 business hours.",
+          "url": "https://www.gene.com/contact-us/submit-medical-inquiry"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000723546",
+          "term": "inavolisib"
+        },
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

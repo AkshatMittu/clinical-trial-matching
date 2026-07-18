@@ -1,0 +1,375 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05901428",
+      "orgStudyIdInfo": {
+        "id": "SCHBCC-N051"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "TCb vs EC-T in High Risk ER+/HER2- Breast Cancer",
+      "officialTitle": "A Randomized, Open-label, Single-center, Phase III Trial Comparing Docetaxel Plus Carboplatin (TCb) Versus Epirubicin Plus Cyclophosphamide Followed by Docetaxel (EC-T) Regimen as Adjuvant Chemotherapy in Patients With LN\u22654 Estrogen Receptor Positive and Human Epidermal Growth Factor Receptor 2 Negative (ER+/HER2-) Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-06-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-05-07",
+      "studyFirstSubmitQcDate": "2023-06-04",
+      "studyFirstPostDateStruct": {
+        "date": "2023-06-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-06-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhimin Shao",
+        "investigatorTitle": "Director of General Surgery of Fudan Shanghai Cancer Center",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the efficacy and safety of docetaxel plus carboplatin (TCb) regimen compared with conventional chemotherapy regimen (epirubicin plus cyclophosphamide followed by docetaxel, EC-T) regimen as adjuvant chemotherapy in patients with early-stage high-risk estrogen receptor (ER) positive and human epidermal growth factor receptor 2 (HER2) negative (ER+/HER2-) breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Receptor Positive HER-2 Negative Breast Cancer"
+      ],
+      "keywords": [
+        "LN\u22654",
+        "TCb",
+        "EC-T"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1736,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TCb arm",
+          "type": "EXPERIMENTAL",
+          "description": "Chemotherapy: Intensive intravenous dose of docetaxel (75 mg/m2) + intravenous (IV) carboplatin \\[area under the curve (AUC) =5-6\\] repeated administration of Q3W for a total of 6 doses",
+          "interventionNames": [
+            "Drug: Docetaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "EC-T arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Chemotherapy: Intensive intravenous dose of epirubicin (80-90 mg/m2) + IV cyclophosphamide (600 mg/m2) repeated administration of Q3W for a total of 4 doses, followed by (IV) docetaxel (80 mg/m2) (Q3W) for 4 doses",
+          "interventionNames": [
+            "Drug: Docetaxel",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "description": "Docetaxel is a taxoid antineoplastic agent used in the treatment of breast cancer",
+          "armGroupLabels": [
+            "EC-T arm",
+            "TCb arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Carboplatin is a deoxyribonucleic acid (DNA) synthesis inhibitor which binds to DNA, inhibits replication and transcription and induces cell death.",
+          "armGroupLabels": [
+            "TCb arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin",
+          "description": "Epirubicin is an antineoplastic agent derived from doxorubicin.Epirubicin, like doxorubicin, exerts its antitumor effects by interference with the synthesis and function of DNA and is most active during the S phase of the cell cycle.",
+          "armGroupLabels": [
+            "EC-T arm"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Cyclophosphamide is a nitrogen mustard that exerts its anti-neoplastic effects through alkylation.",
+          "armGroupLabels": [
+            "EC-T arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "invasive disease-free survival (iDFS)",
+          "description": "invasive disease-free survival",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "distant relapse free survival (DRFS)",
+          "description": "distant relapse free survival",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "overall survival (OS)",
+          "description": "overall survival",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability]",
+          "description": "Incidence of treatment-emergent adverse events adverse events according to CTCAE 5.0",
+          "timeFrame": "through study completion, an average of 1 year"
+        },
+        {
+          "measure": "Quality of life measured by EORTC QLQ C30",
+          "description": "Registration of differences in quality of life between the two groups in the study. EORTC QLQ-C30(scale range 0-100, a higher score indicating better quality of life) will be used for as quality of life measurement. The scores will be presented graphically in separate figures. Differences between the groups will be tested using t-test and analysis of covariance.",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women aged 18-70\n2. Unilateral invasive carcinoma confirmed by histology (regardless of pathological type)\n3. The initial diagnosis condition can be directly operated, without absolute surgical contraindications\n4. No gross or microscopic tumor remains after surgical resection\n5. Adjuvant chemotherapy should be started within eight weeks after surgery\n6. Patients with Hormone receptor-positive, HER2-negative (HR+HER2-), and positive axillary lymph nodes \u22654\n7. Definition of ER and Progesterone Receptor (PgR) positive: Positive ER for tumor cells detected by immunohistochemistry is defined as ER positive , and positive PgR for tumor cells detected as PgR positive .\n8. There was no evidence of metastasis in clinical or imaging aspects during preoperative examination\n9. No peripheral neuropathy;\n10. Eastern Oncology Collaborative Group (ECOG) physical status score: 0 or 1\n11. Good postoperative recovery, at least 1 week interval between surgery\n12. Adequate hematological and end-organ function as defined by the following laboratory test results, which need to be completed within 28 days prior to the first study treatment: absolute neutrophil count (ANC) \u2265 1500 cells/\u03bcL (no granulocyte colony stimulating factor (G-CSF) support therapy within 2 weeks prior to day 1 of course 1); Lymphocyte count\u2265 500 cells/\u03bcL; Platelet count\u2265 100,000 cells/\u03bcL (no platelet transfusion within 2 weeks before day 1 of course 1; hemoglobin\u2265 9.0 g/dL; Aspartate transferase (AST), Alanine aminotransferase (ALT), and alkaline phosphatase\u2264 2.5 \u00d7 upper limit of normal (ULN) serum total bilirubin \u2264 1.0 \u00d7 ULN; Patients with known Gilbert disease and serum bilirubin levels \u2264 3\u00d7 ULN may be admitted; For patients not receiving anticoagulant therapy: INR or activated partial thromboplastin time (APTT) \u2264 1.5 \u00d7 ULN within 28 days prior to initiation of study therapy; For patients receiving anticoagulant therapy: a stable anticoagulant regimen within 28 days before the start of study therapy and a stable International normalised ratio (INR); creatinine clearance\u2265 30 mL/min (calculated using the Cockcroft-Gault formula); Serum albumin \u2265 2.5 g/dL\n13. For women of childbearing age: agree to remain abstinent (avoid heterosexual intercourse) or take an annual failure rate for at least 5 months during treatment and at least 6 months after the last dose of docetaxel or epirubicin, or 12 months after the last dose of cyclophosphamide, whichever occurs last \\< 1% of contraception. A woman who is postmenopausal but has not yet reached postmenopausal status (menopause lasts \u2265for 12 consecutive months, for no reason other than menopause) and has not undergone sterilization (ovarian and/or hysterectomy) is considered fertile.\n14. Cardiac function: left ventricular ejection fraction (LVEF) \\>50% by ultrasound examination\n15. Sign the Informed Consent Form (ICF)\n\nExclusion Criteria:\n\n1. Have a history of invasive cancer\n2. T4 clinical tumors as specified in the Union for International Cancer Control/American Joint Committee on Cancer tumor (UICC/AJCC) Tumor-Lymph Node Metastasis Classification (8th Edition), including inflammatory breast cancer\n3. For currently diagnosed breast cancer, prior systemic anticancer therapy (eg, neoadjuvant therapy or adjuvant therapy) includes, but is not limited to, chemotherapy, anti-HER2 therapy (eg, trastuzumab emtansine, pertuzumab, lapatinib, neratinib or other tyrosine kinase inhibitors), hormone therapy, or anti-cancer radiotherapy (RT), except for treatments planned under this study condition\n4. Previous treatment with anthracyclines or taxane for any malignant tumor\n5. History of ductal carcinoma in situ (DCIS) and/or lobular carcinoma in situ (LCIS), treatment of ipsilateral breast cancer with systemic therapy, hormone therapy, or RT, followed by invasive cancer, patients treated with DCIS/LCIS only surgery and/or RT for contralateral DCIS may be enrolled in the study.\n6. Prior to randomization, cardiopulmonary dysfunction according to any of the following: history of NCI CTCAE v4.0 \u22653 symptomatic congestive heart failure or New York College of Cardiology (NYHA) standard classification\u2265 II, angina requiring antianginal drugs, severe arrhythmias not treated with appropriate medical therapy, severe conduction abnormalities, or clinically significant valvular disease, high-risk, uncontrolled arrhythmias (i.e., atrial tachycardia with \\> resting rate). 100/min, significant ventricular arrhythmia \\[ventricular tachycardia\\], or high-grade atrioventricular (AV) block \\[second-degree AV block type 2, or third-degree atrioventricular block\\]), significant symptoms associated with left ventricular dysfunction, arrhythmia, or myocardial ischemia (grade \u22652), myocardial infarction within 12 hours prior to randomization; with uncontrolled hypertension (systolic blood pressure\\> 180 mmHg and/or diastolic blood pressure \\> 100 mmHg; ECG findings show transmural infarction; Oxygen therapy is required\n7. Prior malignancy within 5 years prior to randomization, with negligible risk of metastasis or death, except for malignancy that is expected to heal after treatment (i.e., appropriately treated carcinoma in situ or basal or squamous cell skin cancer).\n8. Known allergic or hypersensitivity to any component of the docetaxel, carboplatin, cyclophosphamide, or epirubicin preparations; Allergic or hypersensitivity reactions are known to filgrastim, pegfilgrastim, or granulocyte-macrophage colony-stimulating factor (GM-CSF) preparations\n9. Patients with serious infections (including but not limited to hospitalization due to infectious complications, bacteremia, or severe pneumonia) that occurred within 4 weeks prior to initiation of study treatment, who received therapeutic oral or intravenous antibiotics within 2 weeks prior to initiation of study treatment, and who received prophylactic antibiotic therapy (such as prophylaxis for urinary tract infection or prevention of chronic obstructive pulmonary disease) may be enrolled.\n10. Pregnant or lactating women, or women planning to become pregnant during the study period.\n11. Poorly controlled hypertension (defined as: systolic blood pressure \\> 150 mmHg and/or diastolic blood pressure \\>100 mmHg)\n12. Mental illness, cognitive impairment, inability to understand the trial protocol and side effects, and inability to complete the trial protocol and follow-up workers (systematic evaluation is required before trial enrollment)\n13. Persons without personal freedom and independent capacity for civil conduct.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Breast cancer institute of Fudan University Cancer Hospital",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhi-Ming Shao, MD",
+              "role": "CONTACT",
+              "phone": "86-21-641755901105",
+              "email": "zhimingshao@yahoo.com"
+            },
+            {
+              "name": "Lei Fan, MD",
+              "role": "CONTACT",
+              "phone": "86-21-641755901105",
+              "email": "cmchen@medmail.com.cn"
+            },
+            {
+              "name": "Zhi-Ming Shao, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Min He, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Linxiaoxi Ma, MD",
+              "role": "SUB_INVESTIGATOR"
+            },
+            {
+              "name": "Ying Zhou",
+              "role": "SUB_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D015251",
+          "term": "Epirubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

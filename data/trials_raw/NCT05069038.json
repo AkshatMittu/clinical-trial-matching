@@ -1,0 +1,227 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05069038",
+      "orgStudyIdInfo": {
+        "id": "0578-21-FB"
+      },
+      "organization": {
+        "fullName": "University of Nebraska",
+        "class": "OTHER"
+      },
+      "briefTitle": "Clinical Trial Assessing the Safety of Neoadjuvant Palbociclib in Combination With Endocrine Therapy",
+      "officialTitle": "A Phase II Clinical Trial Assessing the Safety of Neoadjuvant Palbociclib in Combination With Endocrine Therapy for Post and Pre-menopausal Patients With Early Stage Hormone Receptor Positive and Her-2/Neu Negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-03-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2032-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-09-15",
+      "studyFirstSubmitQcDate": "2021-09-30",
+      "studyFirstPostDateStruct": {
+        "date": "2021-10-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-22",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "University of Nebraska",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Patients with estrogen receptor positive (ER+) and/or progesterone receptor positive (PR+) breast cancer do not achieve good responses with pre-operative chemotherapy. The sensitivity of breast cancer to chemotherapy is often determined by the underlying gene expression pattern and the molecular subtype of the tumor. In addition, not all patients tolerate chemotherapy well. Pre-operative endocrine therapy has emerged as an effective strategy to improve outcomes in patients with early-stage hormone receptor positive breast cancer. This study will assess the role of neo-adjuvant palbociclib (CDK 4/6 inhibitor) in combination with letrozole (aromatase inhibitor) +/-Goserelin (GnRH analogue) to improve overall response and surgical feasibility in post and pre-menopausal hormone receptor positive and Her-2 negative subjects with stage IIA-IIIC breast cancer.",
+      "detailedDescription": "Patients with estrogen receptor positive (ER+) and/or progesterone receptor positive (PR+) breast cancer do not achieve good responses with neo-adjuvant chemotherapy. The sensitivity of breast cancer to chemotherapy is often determined by the underlying gene expression pattern and the molecular subtype of the tumor. The luminal subtype (A/B) which includes most of the ER+ tumors are less sensitive to chemotherapy with lower pathologic complete responses compared to ER- tumors. In addition, not all patients tolerate chemotherapy well. Due to these factors, pre-operative endocrine therapy emerged as an effective strategy to improve outcomes in patients with early stage hormone receptor positive breast cancer. Palbociclib, an oral CDK 4/6 inhibitor in combination with anastrazole was recently shown to achieve cell cycle arrest (defined as Ki-67 \\<2.7%) at cycle 1, day 15 in 85% of the studied population. This supports the evaluation of this combination further in the neo-adjuvant and adjuvant settings. Hence, this study proposes to assess the role of neo-adjuvant palbociclib (CDK 4/6 inhibitor) in combination with letrozole (aromatase inhibitor) +/-Goserelin (GnRH analogue) to improve overall response and surgical feasibility in post and pre-menopausal hormone receptor positive and Her-2 negative subjects with stage IIA-IIIC breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "estrogen receptor positive",
+        "progesterone receptor positive",
+        "neo-adjuvant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 51,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "The following drugs will be taken for six cycles:\n\nPalbociclib at a dose of 125 mg should be taken by mouth with food on 21 days and 7 days off schedule (meaning: on Days 1-21 of each 28-day cycle).\n\nLetrozole should be taken daily by mouth, every day of each 28-day cycle, at a dose of 2.5 mg.\n\nGoserelin is given as subcutaneous injection every 28 days at a dose of 3.6 mg. It is to be given on Day 1 of each cycle. Goserelin will only be administered to pre-menopausal subjects.",
+          "interventionNames": [
+            "Drug: Palbociclib 125mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib 125mg",
+          "description": "Palbociclib at a dose of 125 mg should be taken by mouth with food on 21 days on 7 days off schedule (meaning: on Days 1-21of each 28-day cycle). If a subject misses a day's dose entirely, she must be instructed not to make it up the next day but just take her regular dose at the next assigned time. If a subject vomits any time after taking a dose, she must be instructed not to retake the dose but resume subsequent dosing at the next assigned time. If a subject inadvertently takes an extra dose during a day, she must be instructed to not take the next day's dose.",
+          "armGroupLabels": [
+            "Treatment"
+          ],
+          "otherNames": [
+            "Ibrance"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Overall response rate (CR+PR) with neoadjuvant palbociclib in combination with endocrine therapy",
+          "description": "To determine the overall response rate (CR+PR) with neoadjuvant palbociclib in combination with endocrine therapy in subjects with hormone receptor positive and Her-2/neu negative breast cancer",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Rate of reduction of Ki67 index",
+          "description": "To determine the rate of reduction of Ki67 index after 4 weeks of neoadjuvant Palbociclib and endocrine therapy",
+          "timeFrame": "4 Weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Rate of grade 3 or higher neutropenia",
+          "description": "To determine the rate of grade 3 or higher neutropenia in cycle 1 and all cycles",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Clinical benefit rate with neoadjuvant palbociclib in combination with endocrine therapy",
+          "description": "To determine the clinical benefit rate (CR+PR+SD) with neoadjuvant palbociclib in combination with endocrine therapy in subjects with hormone receptor positive and Her-2/neu negative breast cancer",
+          "timeFrame": "6 Months"
+        },
+        {
+          "measure": "Tumor down staging rate",
+          "description": "To determine the tumor down staging rate as measured by number of positive lymph nodes with neoadjuvant palbociclib in combination with endocrine therapy in subjects with hormone receptor positive and Her-2/neu negative breast cancer",
+          "timeFrame": "6 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Histologically confirmed locally advanced stage ER+ and/or PR+ and HER2- breast cancer \\[by ASCO/CAP guidelines: primary tumor size 2 cm or greater OR if primary tumor size is \\<2 cm with lymph node involvement (Stage II)\\] who are candidates for palbociclib in combination with concurrent ovarian suppression and letrozole per treating physician.\n2. At least 19 years of age.\n3. ECOG performance status \u2264 2 (see Appendix A)\n4. Normal bone marrow and organ function as defined below:\n\n   1. Absolute neutrophil count \u2265 1,500/mcl\n   2. Platelets \u2265 100,000/mcl\n   3. Total bilirubin \u2264 IULN or total bilirubin \u2264 3.0 x IULN with direct bilirubin within normal range in subjects with documented Gilbert's syndrome\n   4. AST(SGOT)/ALT(SGPT) \u2264 1.5 x IULN (up to 5 x IULN in subjects with liver disease)\n   5. Creatinine \u2264 IULN OR creatinine clearance \u2265 60 mL/min/1.73 m2 for subjects with serum creatinine levels above institutional normal\n5. Pre-menopausal subjects defined by: Age \\<60 with no prior bilateral oophorectomy and having menses in the preceding 12 months in the absence of taking chemotherapy, tamoxifen or torimefene or ovarian suppression. If any of these agents were used, measurements of FSH and estradiol have to be made to determine menopausal status.\n6. Post menopausal subjects defined by: Age \\>60 Or absence of menstruation in the preceding 12 months without taking chemotherapy, tamoxifen, torimefene or ovarian suppression. If any of these agents were used, measurements of FSH and estradiol have to be made to determine menopausal status. If none of these are applicable fully, subject may be judged premenopausal according to local policies.\n7. Participating subjects must agree to use adequate contraception for the duration of protocol treatment and for 6 months after the last treatment with palbociclib. Adequate contraception is defined as one highly effective form (i.e. abstinence, (fe)male sterilization OR two effective forms (e.g. non-hormonal IUD and condom / occlusive cap with spermicidal foam / gel / film / cream / suppository). Should a woman become pregnant or suspect she is pregnant while participating in this study, she must inform her treating physician immediately.\n8. Able to swallow and retain oral medication.\n9. Ability to understand and willingness to sign an IRB approved written informed consent document (or that of legally authorized representative, if applicable).\n\nExclusion Criteria:\n\n1. Prior therapy with any CDK inhibitor.\n2. Currently receiving any other investigational agents.\n3. Currently receiving exogenous hormone therapy (topical vaginal estrogen therapy is allowed).\n4. Known metastatic disease\n5. A history of allergic reactions attributed to compounds of similar chemical or biologic composition to palbociclib or other agents used in the study.\n6. Receiving any medications or substances that are potent inhibitors or inducers of CYP3A isoenzymes within 7 days prior to registration.\n7. Clinically significant history of liver disease as defined by active hepatitis and/or cirrhosis with compromised liver function.\n8. A condition that would interfere with enteric absorption.\n9. Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, or cardiac arrhythmia.\n10. Pregnant and/or breastfeeding. Women of childbearing potential must have a negative pregnancy test within 7 days of study entry.\n11. Known HIV-positivity on combination antiretroviral therapy because of the potential for pharmacokinetic interactions with palbociclib. In addition, these subjects are at increased risk of lethal infections when treated with marrow-suppressive therapy.\n12. Male Sex",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "19 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Amulya Yellala, MBBS",
+          "affiliation": "University of Nebraska",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Unversity of Nebraska Medical Center",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68198",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,457 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06107673",
+      "orgStudyIdInfo": {
+        "id": "MA-BC-II-055"
+      },
+      "organization": {
+        "fullName": "Hebei Medical University Fourth Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dalpiciclib Plus AI (Neoadjuvant Endocrine Therapy) Compared With Neoadjuvant Chemotherapy in Early Breast Cancer \uff08EBC\uff09",
+      "officialTitle": "A Phase II Randomized, Non-inferiority Study Comparing the Efficacy and Safety of Dalpiciclib Combined With AI With Neoadjuvant Chemotherapy in ER+ HER2- Postmenopausal Breast Cancer Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-09-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-20",
+      "studyFirstSubmitQcDate": "2023-10-25",
+      "studyFirstPostDateStruct": {
+        "date": "2023-10-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-04",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hebei Medical University Fourth Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a multi-center, randomized, prospective phase II clinical trial aimed at exploring and evaluating the efficacy of dalpiciclib combined with AI in neoadjuvant treatment for ER strong positive\uff08ER\u226550%\uff09\uff0cHER2-negative, Ki-67\u226420%,T1-3N1M0 postmenopausal breast cancer. The primary objectives are to demonstrate non-inferiority in efficacy compared to chemotherapy and to assess its superior safety profile.",
+      "detailedDescription": "This study is a multi-center, randomized, prospective non-inferiority exploratory phase II clinical trial. Eligible subjects were randomly assigned in a 1:1 ratio to either the dalpiciclib combined with AI group \uff08neoadjuvant endocrine group\uff09 or the AC-T group \uff08chemotherapy group\uff09 after screening. The administration of the investigational drugs started within 48 hours after randomization. Subjects will receive either 24 weeks of dalpiciclib combined with AI or AC-T treatment until disease progression, intolerable adverse events, withdrawal of informed consent, or discontinuation by the investigator's judgment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "HER2- ER+",
+        "Neoadjuvant therapy",
+        "Dalpiciclib"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 144,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "neoadjuvant endocrine group",
+          "type": "EXPERIMENTAL",
+          "description": "Dalpiciclib: Take 125 mg once daily for 3 weeks, then stop for 1 week. Each cycle is completed in 4 weeks.\n\nAI: Take according to the instructions provided.",
+          "interventionNames": [
+            "Drug: Dalpiciclib",
+            "Drug: Aromatase inhibitor"
+          ]
+        },
+        {
+          "label": "neoadjuvant chemotherapy group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Docetaxel for injection: Administered as a 75 mg/m2 intravenous infusion Epirubicin hydrochloride for injection: Administered as a 75 mg/m2 intravenous infusion.\n\nCyclophosphamide for injection: Administered as a 500 mg/m2 intravenous infusion.",
+          "interventionNames": [
+            "Drug: Docetaxel injection",
+            "Drug: Epirubicin Hydrochloride Injection",
+            "Drug: Cyclophosphamide injection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dalpiciclib",
+          "description": "Dalpiciclib: Take 125 mg once daily for 3 weeks, then stop for 1 week. Each cycle is completed in 4 weeks. It is recommended to take the medication approximately at the same time each day, with warm water, preferably on an empty stomach. Fasting for at least 1 hour before and after medication is advised.",
+          "armGroupLabels": [
+            "neoadjuvant endocrine group"
+          ],
+          "otherNames": [
+            "SHR6390"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Aromatase inhibitor",
+          "description": "AI: Take according to the instructions provided.",
+          "armGroupLabels": [
+            "neoadjuvant endocrine group"
+          ],
+          "otherNames": [
+            "AI"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Docetaxel injection",
+          "description": "Administered as a 75 mg/m2 intravenous infusion over approximately 30 minutes. It is given every three weeks and dose reduction or treatment delay is allowed, up to a maximum delay of 3 weeks from the previous dose calculation. Treatment will be terminated if the delay exceeds this limit.",
+          "armGroupLabels": [
+            "neoadjuvant chemotherapy group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin Hydrochloride Injection",
+          "description": "Administered as a 75 mg/m2 intravenous infusion. It is given every three weeks and dose reduction or treatment delay is allowed, up to a maximum delay of 3 weeks from the previous dose calculation. Treatment will be terminated if the delay exceeds this limit.",
+          "armGroupLabels": [
+            "neoadjuvant chemotherapy group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide injection",
+          "description": "Administered as a 500 mg/m2 intravenous infusion. It is given every three weeks and dose reduction or treatment delay is allowed, up to a maximum delay of 3 weeks from the previous dose calculation. Treatment will be terminated if the delay exceeds this limit.",
+          "armGroupLabels": [
+            "neoadjuvant chemotherapy group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Complete Radiologic Response or Partial Radiological Response: Radiological Response",
+          "description": "Radiological response is the percentage of participants with CR or, PR according to RECIST v.1.1. A responder is defined as any participant who exhibits a CR or PR. CR is the disappearance of all target lesions. PR is a 30% decrease in the sum of diameter of target lesions, taking as reference the baseline sum diameters. PD is 20% increase in the sum of diameters of target lesions taking as reference the smallest sum and the appearance of 1 or more new lesions.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in European Organization for Research and Treatment of Cancer Quality of Life Questionnaire-Core 30 (EORTC QLQ-C30)",
+          "description": "EORTC QLQ-C30 v3.0 was a self-administered questionnaire with multidimensional scales that measures 5 functional domains (physical, role, emotional, cognitive, or social functioning), global health status and symptom scales of fatigue, pain, nausea/vomiting, dyspnea, insomnia, appetite loss, constipation, diarrhea, or financial difficulties. A linear transformation is applied to standardize the raw scores to range between 0 and 100 per developer guidelines. For functional domains and global health status, higher scores represent a better level of functioning. For symptoms scales, higher scores represented a greater degree of symptoms.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Evaluation of the number of patients with a Residual Cancer Burden (RCB) 0-I index",
+          "description": "Residual cancer burden (RCB) is estimated from routine pathologic sections of the primary breast tumor site and the regional lymph nodes after the completion of neoadjuvant therapy. 6 variables are included in a calculation formula.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Evaluation of the number of patients with PEPI 0",
+          "description": "PEPI stands for Preoperative Endocrine Prognostic Index. It is a scoring system used in breast cancer research to assess the response to neoadjuvant endocrine therapy. PEPI evaluates various factors, including tumor size, lymph node involvement, Ki-67 proliferation index, and estrogen receptor status, to predict the risk of recurrence and overall prognosis in patients with hormone receptor-positive breast cancer. The PEPI score helps in determining the effectiveness of neoadjuvant endocrine therapy and guiding treatment decisions.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Percentage of Participants With Pathologic Complete Response (pCR)",
+          "description": "pCR is defined as absence of invasive cancer in the breast and sampled regional lymph nodes.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Calculation of the rates of breast conservation therapy in the two arms with regard to the initially planned surgery.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Percent Change From Baseline to 2 Weeks in Ki67 Expression",
+          "description": "Tumor tissue collected through a core biopsy at baseline and at the end of cycle 1 was used to determine Ki67 expression. Ki67 expression is defined as the percent of cells staining positive by validated central assay.",
+          "timeFrame": "2 Weeks"
+        },
+        {
+          "measure": "Determination of the number and type of Adverse Events as a Measure of Safety and Tolerability",
+          "description": "The toxicity will be evaluated according to the scale CTC-AE version 5.0",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Sign the informed consent form to participate in the clinical research.\n2. Confirmed postmenopausal females diagnosed with invasive breast cancer.\n3. Clinical stage T1-3N1M0.\n4. Pathological examination confirmed: Strong positive for ER, negative for HER2. HER2 negative: Immunohistochemistry (IHC) suggests HER2 (-, +) or (++) but in situ hybridization (ISH) indicates negative. Strong positive for ER: ER immunohistochemistry test shows 50% or more tumor cells positive.\n5. No prior breast cancer-related treatment.\n6. No concurrent cardiac diseases, baseline left ventricular ejection fraction (LVEF) \u2265 50%, no significant cardiac diseases (\u2264 NYHA class I).\n7. ECOG score of 0-1, meeting the indications and basic requirements for chemotherapy without major organ dysfunction.\n8. Within 1 week prior to enrollment, routine blood tests are essentially normal: Absolute neutrophil count (NEUT#) \u2265 1.5\u00d710\\^9 /L; White blood cell count (WBC) \u2265 3.0\u00d710\\^9 /L; Platelets \u2265 90\u00d710\\^9 /L; Hemoglobin \u2265 90 g/L.\n9. Within 1 week prior to enrollment, liver and kidney function tests are essentially normal: Total bilirubin (TBIL) \u2264 1.5\u00d7 upper limit of normal (ULN); Alanine aminotransferase and aspartate aminotransferase (ALT/AST) \u2264 2\u00d7 ULN; Serum creatinine \u2264 1.5\u00d7 ULN or creatinine clearance rate (Ccr) \u2265 60 ml/min.\n10. For women of childbearing age, negative serum or urine pregnancy test results before participation; premenopausal women during the study period should use medically acceptable methods of contraception.\n11. Exhibits good compliance.\n\nExclusion Criteria:\n\n1. Pregnant or lactating women, and women of childbearing age who have a positive pregnancy test at baseline and do not agree to use effective contraception during the study.\n2. Patients with a known history of severe allergic reactions to any investigational drug components (NCI-CTCAE Grade \\> 3) or with any clearly documented drug allergy.\n3. Patients with bilateral breast cancer or inflammatory breast cancer.\n4. Patients with metastatic (stage IV) breast cancer at initial diagnosis.\n5. Patients with a history of congestive heart failure, unstable angina, arrhythmias, or myocardial infarction.\n6. Current diagnosis of acute lung conditions, interstitial lung disease, pulmonary fibrosis, acute pulmonary disease, etc.\n7. Current diagnosis of severe liver-related diseases such as acute hepatitis, fulminant hepatitis, coagulation factor synthesis disorders. If HBV surface antigen or HBV core antibody are positive, the peripheral blood HBV DNA titer should be \\< 1\u00d710\\^3 IU/ml for eligibility.\n8. Any other serious medical condition or comorbidity that may interfere with participation in the study or may significantly affect the safety of the subject (e.g., active or uncontrolled infections, active or requiring antiviral therapy for liver and bile diseases).\n9. Other invasive malignancies (including second primary breast cancer) that may interfere with the evaluation of study endpoints and compliance with the protocol.\n10. Patients with a history of prior treatment with chemotherapy, endocrine therapy, or anti-HER2 biologic therapy for breast cancer (excluding diagnostic biopsy for primary breast cancer).\n11. Patients who have undergone major surgery within 4 weeks prior or have significant unresolved medical conditions.\n12. Patients with non-measurable tumors during treatment.\n13. Any other condition that the investigator deems unsuitable for the participation of the subject in the study.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "lina zhang",
+          "role": "CONTACT",
+          "phone": "15830981676",
+          "email": "linazh_001@163.com"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "The Fourth Hospital of Hebei Medical University",
+          "status": "RECRUITING",
+          "city": "Shijiazhuang",
+          "state": "Hebei",
+          "zip": "050011",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Cuizhi Geng, M.D.",
+              "role": "CONTACT",
+              "phone": "0311-6669 6310",
+              "email": "gengcuizhi@hotmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000720752",
+          "term": "dalpiciclib"
+        },
+        {
+          "id": "D047072",
+          "term": "Aromatase Inhibitors"
+        },
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        },
+        {
+          "id": "D015251",
+          "term": "Epirubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D065088",
+          "term": "Steroid Synthesis Inhibitors"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004965",
+          "term": "Estrogen Antagonists"
+        },
+        {
+          "id": "D006727",
+          "term": "Hormone Antagonists"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

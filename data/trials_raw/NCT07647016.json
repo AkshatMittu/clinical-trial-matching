@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07647016",
+      "orgStudyIdInfo": {
+        "id": "UNITY Trial"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trastuzumab Deruxtecan Plus ivonescImab for Hormone Receptor-positive HER2 Negative Advanced Breast Cancer Study",
+      "officialTitle": "A Prospective, Single-arm, Single-center Phase II Clinical Study of Deruxtecan in Combination With ivonescImab in Hormone Receptor-positive HER2 Negative Advanced Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-02-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-12-13",
+      "studyFirstSubmitQcDate": "2026-06-09",
+      "studyFirstPostDateStruct": {
+        "date": "2026-06-15",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Hongxia Wang",
+        "investigatorTitle": "The head of medical oncology department",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The UNITY study is a prospective, single-arm, single-center, Phase II clinical trial conducted by Fudan University Shanghai Cancer Center. It aims to evaluate the efficacy and safety of Trastuzumab Deruxtecan (T-DXd) combined with ivonescimab in patients with hormone receptor-positive (HR+), HER2-negative recurrent or metastatic breast cancer.\n\nApproximately 53 patients will be enrolled. Eligible participants must have histologically confirmed advanced HR-positive breast cancer with HER2-low or HER2-ultralow expression. They must have experienced recurrence, metastasis, or disease progression after prior treatment with a CDK4/6 inhibitor (including in the adjuvant setting) and have received at most one line of systemic chemotherapy for advanced disease. The study permits the enrollment of patients with central nervous system (CNS) metastases.\n\nThe primary endpoint is the Overall Response Rate (ORR). Key secondary endpoints include Clinical Benefit Rate (CBR), Overall Survival (OS), Progression-Free Survival (PFS), safety, and patient-reported quality of life (assessed using EORTC QLQ-C30 and QLQ-BR23). Exploratory endpoints will involve the analysis of biomarkers from tumor and blood samples, as well as PAM50 molecular subtyping and its correlation with survival outcomes.\n\nThis study seeks to explore the efficacy and safety of Trastuzumab Deruxtecan in combination with ivonescimab for patients with HR-positive, HER2-negative recurrent or metastatic breast cancer, with a particular focus on the subpopulation with CNS metastases."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 53,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm1",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Trastuzumab Deruxtecan and ivonescimab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Trastuzumab Deruxtecan and ivonescimab",
+          "description": "* Trastuzumab Deruxtecan (T-DXd): Administered at a dose of 5.4 mg/kg via intravenous (IV) infusion on Day 1 of each 21-day cycle.\n* Ivonescimab: Administered at a dose of 20 mg/kg via intravenous (IV) infusion on Day 1 of each 21-day cycle.\n\nTreatment for both agents will continue until disease progression or unacceptable toxicity.",
+          "armGroupLabels": [
+            "Arm1"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ORR",
+          "description": "ORR is the percentage of evaluable patients with a confirmed investigator-assessed response of CR (complete response) or PR (partial response) per RECIST v1.1 .Time from randomization to disease progression or death, assessed by RECIST v1.1.",
+          "timeFrame": "From treatment initiation until disease progression or death, assessed by RECIST v1.1., assessed up to 24 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PFS",
+          "description": "PFS is the time from the date of first dose until the date of objective radiographic disease progression or death (by any cause in the absence of progression).",
+          "timeFrame": "From treatment initiation until disease progression or death, assessed by RECIST v1.1., whichever occurs first, assessed up to 24 months."
+        },
+        {
+          "measure": "OS",
+          "description": "OS is the time from the date of frst dose until the date of death by any cause.",
+          "timeFrame": "From treatment initiation until death from any cause, assessed up to 36 months."
+        },
+        {
+          "measure": "Clinical Benefit Rate",
+          "description": "CBR is defined as the percentage of patients who achieve a Complete Response (CR), a Partial Response (PR), or have Stable Disease (SD) lasting for at least 24 weeks.",
+          "timeFrame": "From treatment initiation until disease progression or death, assessed by RECIST v1.1., whichever occurs first, assessed up to 24 months."
+        },
+        {
+          "measure": "Safety assessed by NCI-CTCAE v5.0",
+          "description": "Safety and tolerability will be evaluated by monitoring and recording all adverse events (AEs). The severity of AEs will be graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE), version 5.0. AEs are defined as any adverse event that starts or worsens in severity on or after the first dose of study treatment.",
+          "timeFrame": "From the first dose of study treatment until 30 days after the last dose of study treatment, assessed up to approximately 2 years."
+        },
+        {
+          "measure": "Quality of Life Assessed by EORTC QLQ-C30",
+          "description": "The European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) is a validated cancer-specific quality-of-life instrument. Scores are transformed to a 0-100 scale according to the EORTC scoring manual. Higher functional scores indicate better functioning, whereas higher symptom scores indicate greater symptom burden. Change from baseline will be evaluated.",
+          "timeFrame": "Screening, within 3 days before each treatment administration, at the end of treatment, and during safety follow-up, assessed up to 24 months."
+        },
+        {
+          "measure": "Breast cancer-specific quality of life assessed by EORTC QLQ-BR45",
+          "description": "The EORTC QLQ-BR45 is a validated breast cancer-specific quality-of-life questionnaire consisting of functional and symptom scales. Scores are transformed to a 0-100 scale according to the EORTC scoring manual. Higher functional scores indicate better functioning, whereas higher symptom scores indicate greater symptom burden.",
+          "timeFrame": "Screening, within 3 days before each treatment administration, at the end of treatment, and during safety follow-up, assessed up to 24 months."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u2265 18 years, any gender.\n2. Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n3. Histologically or cytologically confirmed Hormone Receptor-positive (HR+) and Human Epidermal Growth Factor Receptor 2 (HER2)-low or HER2-ultralow breast cancer, with evidence of locally recurrent or metastatic disease that is not amenable to curative-intent surgery or radiation therapy.\n\n   * HR positivity is defined as Estrogen Receptor (ER) positive (\u22651% positive cells) and/or Progesterone Receptor (PR) positive (\u22651% positive cells).\n   * HER2-low or HER2-ultralow expression is defined as HER2 (0 with staining), HER2 (1+), or HER2 (2+) by immunohistochemistry (IHC) with a negative in-situ hybridization (ISH) result.\n   * Fulfillment of these criteria from any single pathological assessment is sufficient for eligibility.\n4. Life expectancy of \u2265 3 months.\n5. At least one measurable lesion according to Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST 1.1).\n6. History of recurrence or disease progression after prior treatment with a CDK4/6 inhibitor (including in the adjuvant setting). Patients have received a maximum of one line of chemotherapy for recurrent or metastatic disease. Recurrence or disease progression during or within 6 months after completion of neoadjuvant/adjuvant intravenous chemotherapy is counted as one line of therapy.\n7. Patients with Central Nervous System (CNS) metastases are eligible. Ventriculoperitoneal shunt to relieve intracranial pressure or use of mannitol, corticosteroids, or anticonvulsants is permitted prior to the first dose. However, the dose of such medications must be stable for at least 1 week without an increase, and neurological symptoms must be stable without worsening for at least 1 week. (Priority will be given to the enrollment of patients with CNS metastases.)\n8. Availability of an adequate tumor tissue sample for retrospective analysis of PD-L1 status.\n9. Adequate organ function, defined as follows:\n\n   * Hematology: Absolute Neutrophil Count (ANC) \u2265 1.5 \u00d7 10\u2079/L; Platelets (PLT) \u2265 75 \u00d7 10\u2079/L; Hemoglobin (Hb) \u2265 90 g/L (transfusion or medical support to meet this level is permitted).\n   * Hepatic and Renal Function: Total Bilirubin (TBIL) \u2264 1.5 \u00d7 upper limit of normal (ULN); Alanine Aminotransferase (ALT) and Aspartate Aminotransferase (AST) \u2264 3 \u00d7 ULN (\u2264 5.0 \u00d7 ULN in the presence of liver metastases); Blood Urea Nitrogen (BUN) or Serum Creatinine (Cr) \u2264 1.5 \u00d7 ULN, or Creatinine Clearance \u2265 50 mL/min (calculated by Cockcroft-Gault formula).\n   * Coagulation: Activated Partial Thromboplastin Time (APTT) \u2264 1.5 \u00d7 ULN; Prothrombin Time (PT) \u2264 1.5 \u00d7 ULN.\n   * Cardiac: QT interval corrected by Fridericia's formula (QTcF) \\< 470 ms for females and \\< 450 ms for males on a 12-lead electrocardiogram (ECG); Left Ventricular Ejection Fraction (LVEF) \u2265 50% by echocardiogram.\n10. Voluntary participation in the study with signed informed consent, and willingness to comply with study procedures and follow-up.\n\nExclusion Criteria:\n\n1. Confirmed leptomeningeal metastases by Magnetic Resonance Imaging (MRI) or lumbar puncture.\n2. Prior treatment with anti-PD-1/PD-L1 or anti-VEGF agents, unless both of the following conditions are met: (1) The patient did not experience disease progression during treatment with the anti-PD-1/PD-L1 or anti-VEGF agent; and (2) The time from the last dose of the anti-PD-1/PD-L1 or anti-VEGF agent to the time of recurrence or disease progression is \u2265 3 months.\n3. Presence of third-space fluid accumulation (e.g., massive pleural or peritoneal effusion) that cannot be controlled by drainage or other methods.\n4. Receipt of whole-brain radiotherapy, chemotherapy, targeted biologic therapy, immunotherapy, surgery, or endocrine therapy within 2 weeks prior to the first dose of study drug. Bone-modifying agents for the treatment of bone metastases or prevention of osteoporosis are permitted.\n5. Prior treatment with trastuzumab deruxtecan or any antibody-drug conjugate (ADC) containing a topoisomerase inhibitor.\n6. Participation in another interventional drug clinical trial within 2 weeks prior to enrollment. Participation in non-interventional studies is allowed.\n7. Major surgery or significant trauma within 4 weeks prior to randomization, or anticipation of the need for major surgery during the study.\n8. Concurrent receipt of any other anti-cancer therapy.\n9. History of other malignancies within the past 5 years, except for curatively treated cervical carcinoma in situ, cutaneous basal cell carcinoma, cutaneous squamous cell carcinoma, and papillary thyroid carcinoma.\n10. History of any of the following cardiac conditions: (1) Myocardial infarction; (2) Congestive heart failure; (3) Any other cardiac condition judged by the investigator to be unsuitable for study participation.\n11. Known history of hypersensitivity to any component of the study drugs.\n12. History of immunodeficiency, including positive test for Human Immunodeficiency Virus (HIV), other acquired or congenital immunodeficiency diseases, or a history of organ transplantation.\n13. Active hepatitis (Hepatitis B defined as HBsAg positive and HBV DNA \u2265 1000 IU/mL; Hepatitis C defined as HCV antibody positive and HCV RNA \\> upper limit of normal).\n14. History of (non-infectious) interstitial lung disease (ILD)/pneumonitis that required steroids, current ILD/pneumonitis, or suspected ILD/pneumonitis that cannot be ruled out by imaging at screening.\n15. Clinically significant pulmonary-specific comorbidities, including but not limited to any underlying pulmonary disease (e.g., pulmonary embolism within 3 months prior to the study, severe asthma, severe COPD, restrictive lung disease, pleural effusion, etc.).\n16. Uncontrolled infection requiring systemic antibiotic, antiviral, or antifungal therapy.\n17. Clear history of neurological or psychiatric disorders, including epilepsy or dementia.\n18. Pregnant or breastfeeding women; women of childbearing potential with a positive pregnancy test at baseline or who are unwilling to use effective contraceptive measures throughout the study period.\n19. Presence of any concomitant disease that, in the investigator's judgment, could seriously compromise patient safety or interfere with completion of the study (including, but not limited to, uncontrolled severe hypertension, uncontrolled severe diabetes, active infection, etc.).\n20. Any other condition for which the investigator considers the patient unsuitable for participation in this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Hongxia Wang",
+          "role": "CONTACT",
+          "phone": "86-138196379",
+          "email": "whx365@126.com"
+        },
+        {
+          "name": "Ting Li",
+          "role": "CONTACT",
+          "phone": "86-18121299346"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Fudan University Shanghai Cancer Center",
+          "status": "RECRUITING",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Hongxia Wang, PHD",
+              "role": "CONTACT",
+              "phone": "13524491606",
+              "email": "whx365@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000614160",
+          "term": "trastuzumab deruxtecan"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

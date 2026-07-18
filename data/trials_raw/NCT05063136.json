@@ -1,0 +1,300 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05063136",
+      "orgStudyIdInfo": {
+        "id": "HELEN-008"
+      },
+      "organization": {
+        "fullName": "Henan Cancer Hospital",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "Adjuvant Metronomic Capecitabine Plus Endocrine Therapy for HR+/HER2- Primary Breast Cancer",
+      "officialTitle": "Adjuvant Capecitabine Metronomic Chemotherapy Plus Endocrine Therapy for HR-positive, HER2-negative, Primary Breast Cancer: a Multicenter, Randomized, Double-blind Phase III Clinical Trial"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-09-28",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-09-13",
+      "studyFirstSubmitQcDate": "2021-09-22",
+      "studyFirstPostDateStruct": {
+        "date": "2021-09-30",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-10-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-11-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhenzhen Liu",
+        "investigatorTitle": "Director",
+        "investigatorAffiliation": "Henan Cancer Hospital"
+      },
+      "leadSponsor": {
+        "name": "Henan Cancer Hospital",
+        "class": "OTHER_GOV"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Breast cancer (BC) is one of most prevalent malignant tumors in the world. According to the 2020 edition of the global cancer statistics report, the incidence rate of BC has overtaken lung cancer to become the most commonly diagnosed cancer.\n\nIn the past three decades, survival of patients with primary BC have been notably improved, mainly due to early detection of the disease and advances in adjuvant treatments such as endocrine therapy, chemotherapy, and anti-HER2 therapy. Patients with HR-positive and HER2-negative primary BC account for approximately 70% of all cases of early breast cancer. Endocrine therapy is the core treatment for this subtype of BC. Tamoxifen, aromatase inhibitor or their sequential administration can reduce the recurrence and mortality of this BC subtype.\n\nThe results of TEXT/SOFT study showed that, compared with the traditional 5-year tamoxifen treatment, tamoxifen + OFS or aromatase inhibitor + OFS can further improve the survival of HR+/HER2- breast cancer patients. However, for premenopausal BC patients with HR+/HER2-, only 82.5% (tamoxifen plus OFS) and 85.7% (aromatase inhibitor plus OFS) of 5-year DFS were achieved. For postmenopausal BC patients, the 5-year DFS was only about 84% with aromatase inhibitors. Therefore, the survival of HR+/ HER2- BC patients needs to be further improved.\n\nMetronomic chemotherapy refers to the use of the minimum effective dose of chemotherapy drugs for long-term, uninterrupted administration to achieve anti-tumor effect. Metronomic chemotherapy has gradually been verified in clinical practice in the past 20 years. In 2020, SYSUCC-001 study has confirmed that capecitabine (650 mg/ m2 bid, for 1 years) can reduce the risk of 5-year DFS events by 36% in TNBC patients in addition to standard treatment. Besides, POTENT study has confirmed that the combination of endocrine therapy and S-1 (for one year) can further reduce the risk of iDFS by 37% in HR+/HER2- BC patients who have completed the standard treatment.\n\nCompared with capecitabine, S-1 has no indication for BC and it is not in the recommendation for BC treatment in the guidelines. Therefore, the investigators conduct this study to explore whether adjuvant Capecitabine metronomic chemotherapy for one year can further improve the survival of BC patients with HR+/ HER2- in addition to standard treatment.",
+      "detailedDescription": "In order to evaluate the efficacy and safety of capecitabine combined with endocrine therapy in the adjuvant treatment of hormone receptor positive and HER2 negative women with breast cancer, our center launched a multicenter, randomized, double-blind phase III clinical trial of capecitabine combined with endocrine therapy in the adjuvant treatment of hormone receptor positive and HER2 negative women with breast cancer. Select suitable patients for inclusion based on the inclusion criteria. The enrolled patients were randomly assigned to the experimental group and control group in a 1:1 ratio. The experimental group received 1 year of capecitabine (500mg Tid orally)+standard endocrine therapy (at least 5 years); The control group received 1 year of placebo (Tid oral)+standard endocrine therapy (at least 5 years). If an intolerable toxic reaction occurs, adjust the drug dosage according to the CTCAE 4.0 principles for managing adverse drug reactions, but still cannot tolerate it, stop chemotherapy. The primary end point of efficacy evaluation of iDFS included detection of local recurrence, distant recurrence, ipsilateral and contralateral invasive breast cancer, the second primary invasive non breast cancer, and death. During the first 24 months (30 days per month, the same below) after random grouping, clinical recurrence event assessments will be conducted every 3 months (\u00b1 2 weeks). Subsequently, an evaluation will be conducted every 6 months (\u00b1 3 weeks).Clinical suspected recurrence will be determined through additional imaging examinations, and should be determined as much as possible through histology/cytology (unless deemed unsafe based on the researcher's judgment).Survival assessment will continue until 60 months after randomization of the last patient, death, withdrawal from informed consent, loss to follow-up, or end of the study, depending on which situation occurs first. Survival information can be obtained through clinical visits, phone calls, or other means."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "HR-positive, Her2-negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1979,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Capecitabine+endocrine therapy",
+          "type": "EXPERIMENTAL",
+          "description": "capecitabine (500mg, tid) (for 1 year)+standard endocrine therapy (at least 5 years)",
+          "interventionNames": [
+            "Drug: Capecitabine+endocrine therapy"
+          ]
+        },
+        {
+          "label": "Placebo+endocrine therapy",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "oral placebo (tid) (for 1 year) + standard endocrine therapy (at least 5 years)",
+          "interventionNames": [
+            "Drug: Placebo+endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Capecitabine+endocrine therapy",
+          "description": "Capecitabine (500mg, tid) (for 1 year)+ standard endocrine therapy (at least 5 years)",
+          "armGroupLabels": [
+            "Capecitabine+endocrine therapy"
+          ],
+          "otherNames": [
+            "Experimental group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo+endocrine therapy",
+          "description": "Placebo (tid) (for 1 year)+ standard endocrine therapy (at least 5 years)",
+          "armGroupLabels": [
+            "Placebo+endocrine therapy"
+          ],
+          "otherNames": [
+            "Control group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive disease-free survival (iDFS)",
+          "description": "iDFS defined as the period from the treatment allocation date to the confirmed recurrence date (excluding non-invasive ductal carcinoma, non-invasive lobular carcinoma, and all other intraepithelial carcinoma), confirmed development of cancerous lesions other than recurrence, or the date of death from any cause, whichever was the earliest.",
+          "timeFrame": "through study completion\uff0can average of 5 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival (OS)",
+          "description": "OS: defined as the period from the date of allocation to the date of death from any cause",
+          "timeFrame": "through study completion\uff0can average of 5 year"
+        },
+        {
+          "measure": "Distant disease-free survival (DDFS)",
+          "description": "DDFS defined as the period from the date of allocation to the date on which the patient was diagnosed with distant recurrence, or the date of death from any cause",
+          "timeFrame": "through study completion\uff0can average of 5 year"
+        },
+        {
+          "measure": "Disease-free survival (DFS)",
+          "description": "DFS defined as the period from the date of treatment allocation to the date on which recurrence was confirmed, the date on which the development of cancerous lesions other than recurrence was confirmed, or the date of death from any cause, whichever was the earliest",
+          "timeFrame": "through study completion\uff0can average of 5 year"
+        },
+        {
+          "measure": "Adverse events",
+          "description": "The incidence and severity of adverse events will be evaluated according to CTCAE 4.0",
+          "timeFrame": "through study completion\uff0cup to 7 years"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "multi-gene assays as prognostic marker",
+          "description": "To measure expression of genes related to immune infiltration, cell proliferation and Angiogenesis, and to develop prognostic markers in relation to clinical benefit of metronomic Capecitabine",
+          "timeFrame": "through study completion\uff0cup to 7 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age: 18-70 years old\n2. Women with known menstrual status (at the beginning of randomization or adjuvant endocrine therapy). Postmenopausal status is defined as (1) The patient has undergone bilateral ovariectomy, or (2) Age \u2265 60 years, or age \\< 60 years, amenorrhea for 12 months or more (without chemotherapy, tamoxifen, toremifene or ovarian suppression), and follicle stimulating hormone (FSH) and plasma estradiol are within the normal range of local postmenopausal women.(3) If the patient is taking tamoxifen or toremifene and is younger than 60 years old, the FSH and plasma estradiol levels are within the postmenopausal range (Notes:For premenopausal women before the start of adjuvant chemotherapy, amenorrhea is not a reliable indicator of menopausal status. Ovarian function may be complete or restored despite anovulation/amenorrhea. For women with treatment-induced amenorrhea, continuous measurements of FSH and/or estradiol are required according to clinical guidelines to determine postmenopausal status.)\n3. Invasive breast cancer patients with HR (+) and HER2(-), which is confirmed by histopathology. (1) ER and/or PR positive (positive staining accounted for more than 1% of all tumor cells) (2) HER-2 negative (IHC 0, 1+, or IHC 2 + and no fish amplification)\n4. Patients received radical surgery and chemotherapy (neoadjuvant or adjuvant chemotherapy), and for patients who received neoadjuvant chemotherapy, at least one of the following conditions should be met: (1) Patients not achieving PCR after neoadjuvant chemotherapy; (2) Axillary lymph nodes metastasis (including micro-metastasis) were confirmed by cytology or histology before neoadjuvant chemotherapy.\n5. Patients who have received breast cancer treatment in the past should meet the following conditions at the same time: (1) No more than 1 year after radical mastectomy. (2) For the patients receiving adjuvant chemotherapy, the time from the last chemotherapy to the beginning of enrollment should be more than 21 days. (3) For patients receiving radiotherapy, it should be no less than 14 days from the date of last radiotherapy to the beginning of enrollment. (4) Endocrine therapy should not exceed 6 months before entering the study (calculated as 30 days per month);\n6. The following laboratory results should be met to determine that the patient has sufficient bone marrow and organ function: Absolute neutrophil count (ANC) \u2265 1.5 \u00d7 109/L; Platelet \u2265 100 \u00d7 109/L; hemoglobin \u2265 9.0 g / dl; Creatinine clearance rate \u2265 50ml/min; alanine aminotransferase (ALT)\\< 2.5 \u00d7 Upper limit of normal range (ULN); aspartate aminotransferase (AST) \\< 2.5 \u00d7 ULN.\n7. For patients receiving anthracycline chemotherapy, EF value of cardiac ultrasound was \u2265 55% within 14 days before randomization;\n8. If the patient is a woman of childbearing age, the serum pregnancy test was negative within 14 days before randomization.\n9. ECOG score was 0 or 1.\n10. Patient has signed informed consent voluntarily.\n\nExclusion Criteria:\n\n1. Double primary cancers in active stage (simultaneous double primary cancers and heterochronous double primary cancers with disease-free interval \u2264 5 years). Note: carcinoma in situ (intraepithelial carcinoma or lesion equivalent to mucosal carcinoma) cured by local treatment is not included in active double primary carcinoma.\n2. Bilateral breast cancer (simultaneous/metachronous) (Notes: patients with invasive breast cancer combined with contralateral DCIS, the patient was considered eligible for inclusion if the contralateral DCIS have been removed with radical surgery)\n3. Received oral 5-FU for more than 2 weeks before treatment (Notes: patient with a history of intravenous 5-FU was considered eligible for inclusion).\n4. Severe Diarrhea.\n5. Combined with the following serious complications: (1) Uncontrolled diabetes; (2) Uncontrolled hypertension; (3) Unstable angina and arrhythmias need treatment; (4) cirrhosis and liver failure (5) Interstitial pneumonia, pulmonary fibrosis and severe emphysema; (6) Active infection; (7) Other serious complications.\n6. Past medical history: (1) myocardial infarction within 6 months; (2) Interstitial pneumonia (For local interstitial pneumonia, it can be proved to improve after treatment. Not included in this definition). (3) History of fluorouracil allergy; (4) Pregnant and lactating women; (5) Other patients not suitable for inclusion.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Zhenzhen Liu",
+          "role": "CONTACT",
+          "phone": "13603862755",
+          "email": "liuzhenzhen73@163.com"
+        },
+        {
+          "name": "Jiujun Zhu",
+          "role": "CONTACT",
+          "phone": "13676962766",
+          "email": "bigapple0601@126.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Zhenzhen Liu",
+          "affiliation": "Study Principal Investigator Henan Cancer Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Henan cancer hospital",
+          "status": "RECRUITING",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "Zhenzhen Liu",
+              "role": "CONTACT",
+              "phone": "17729798130",
+              "email": "liuzhenzhen73@126.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D035061",
+          "term": "Control Groups"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D015340",
+          "term": "Epidemiologic Research Design"
+        },
+        {
+          "id": "D004812",
+          "term": "Epidemiologic Methods"
+        },
+        {
+          "id": "D008919",
+          "term": "Investigative Techniques"
+        },
+        {
+          "id": "D012107",
+          "term": "Research Design"
+        },
+        {
+          "id": "D008722",
+          "term": "Methods"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

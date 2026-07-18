@@ -1,0 +1,350 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05524584",
+      "orgStudyIdInfo": {
+        "id": "1459"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UCI 19-145",
+          "type": "OTHER",
+          "domain": "CFCCC"
+        }
+      ],
+      "organization": {
+        "fullName": "University of California, Irvine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Anastrazole, Fulvestrant & Abemaciclib for HR+HER2- Metastatic Breast Cancer",
+      "officialTitle": "Phase II, Open-Labeled, Single-Armed Combination Treatment With Anastrozole, Fulvestrant and Abemaciclib for Hormone Receptor Positive, HER2(-) Metastatic Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-08-31",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-08-24",
+      "studyFirstSubmitQcDate": "2022-08-29",
+      "studyFirstPostDateStruct": {
+        "date": "2022-09-01",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-09",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Rita Sanghvi, Mehta",
+        "investigatorTitle": "Clinical Professor",
+        "investigatorAffiliation": "University of California, Irvine"
+      },
+      "leadSponsor": {
+        "name": "University of California, Irvine",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a phase 2, open-label, singled-arm clinical trial determining efficacy of combination therapy with anastrozole, fulvestrant and abemaciclib in subjects with breast cancer. These are subjects who are newly diagnosed advanced or metastatic hormone receptor positive breast cancer or subjects who have progressed following treatment free interval of more than 12 months following adjuvant or neoadjuvant treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Metastatic Breast Cancer",
+        "Hormone Receptor-positive Breast Cancer",
+        "HER2-negative Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Fulvestrant + Anastrozole + Abemaciclib",
+          "type": "EXPERIMENTAL",
+          "description": "Fulvestrant, intramuscular, Initial: 500 mg on days 1 and 15; Maintenance: 500 mg once monthly.\n\nAnastrozole, oral, 1mg tablet daily\n\nAbemaciclib 150 mg twice daily",
+          "interventionNames": [
+            "Drug: Fulvestrant",
+            "Drug: Anastrozole",
+            "Drug: Abemaciclib"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "Given intramuscularly",
+          "armGroupLabels": [
+            "Fulvestrant + Anastrozole + Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Fulvestrant + Anastrozole + Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Abemaciclib",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Fulvestrant + Anastrozole + Abemaciclib"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "ORR per RECIST 1.1 criteria assessed at 3 months after study treatment. The rate of objective response is calculated only for patients with measurable disease.",
+          "timeFrame": "Assessed at 3 months after study treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Benefit Rate",
+          "description": "Calculated by using the number of patients with a complete or partial response or stable disease as the numerator and the number of all patients (even those in whom a response cannot be assessed or for whom response data are missing) as the denominator",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "Progression-free survival (PFS) is defined as the duration of time from start of treatment to time of progression or death, whichever occurs first.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Time from first treatment to death from any cause",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Number of grade 3-5 adverse events",
+          "description": "Safety and toxicity will be examined by the incidence of treatment-emergent, treatment-related adverse events (TRAEs), and serious adverse events (SAE). Toxicity and adverse events are based on the CTCAE (NCI Common Terminology Criteria for Adverse Events) Version 5.0.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Number of patients who achieved composite outcome",
+          "description": "Absolute values and changes in ctDNA and CTC will be measured and correlated with endocrine resistance. If serial monitoring of ctDNA and CTC can provide markers of resistance, we will quantify endocrine resistance as a composite outcome.",
+          "timeFrame": "Up to 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have a diagnosis of HR+ breast cancer. To fulfill the requirement of HR+ disease, a breast cancer must express, by immunohistochemistry (IHC), at least one of the hormone receptors (ER, progesterone receptor \\[PgR\\]) as defined in the relevant American Society of Clinical Oncology/College of American Pathologists Guidelines: For ER and PgR assays to be considered positive, \u22651% of tumor cell nuclei must be immunoreactive by immunohistochemistry (IHC)\n* Patients must have newly diagnosed metastatic regional breast cancer (Stage IV per AJCC 8th edition criteria for staging of breast cancer) or local-regional advanced or recurrent cancer not amenable to curative treatment\n\n  1\\. Relapse \\> 12 months from completion of (neo)adjuvant endocrine and/or chemotherapy with no treatment for advanced or metastatic disease (patients with no early stage breast cancer neoadjuvant or adjuvant systemic treatment may qualify)\n* Age \u2265 18 years\n* ECOG performance status 0-2\n* Have post-menopausal status as defined by following: Prior bilateral oophorectomy. Age \u2265 60 years, Age \\< 60 and amenorrheic (non-treatment-induced amenorrhea secondary to tamoxifen, toremifene, ovarian suppression, or chemotherapy) for at least 12 months. Follicle-stimulating hormone (FSH) and estradiol must be in the postmenopausal range. If patients are pre-menopausal ovarian function suppression will be initiated.\n* Have at least one measurable disease as defined per RECIST 1.1\n* Adequate organ and marrow function as defined below:\n\n  1. Hemoglobin \\>8 g/dL. Patients may receive transfusion of packed red blood cells (PRBC) to achieve this hemoglobin level at the discretion of the investigator; however, initial study drug treatment must not begin earlier than the day after the PRBC transfusion\n  2. Absolute neutrophil count \u22651,500/mcL\n  3. Platelets \u2265 100,000/mcl\n  4. Total bilirubin \u2264 1.5 X institutional ULN. Patients with Gilbert's syndrome with a total bilirubin \u22642.0 times ULN and direct bilirubin within normal limits are permitted\n  5. AST (SGOT)/ALT (SPGT) \u2264 2.5 X institutional ULN\n  6. Creatinine \u2264 1.5 X institutional ULN\n* Able to swallow oral medications\n* Patients who received chemotherapy or curative radiotherapy must have recovered (Common Terminology Criteria for Adverse Events \\[CTCAE\\] Grade \u22641) from the acute effects of chemotherapy and curative radiotherapy except for residual alopecia (of any grade) or Grade 2 peripheral neuropathy prior to enrollment.\n* Person of child bearing potential (POCBP) (ie. premenopausal) and men must agree to use ovarian or testicular suppression prior to study entry, for the duration of study participation, and for 90 days following completion of therapy.\n\n  1. A post-menopausal female patient is defined by one of the following for female patients: prior bilateral oophorectomy, age \u2265 60 years, age \\< 60 and amenorrheic (non-treatment-induced amenorrhea secondary to tamoxifen, toremifene, ovarian suppression, or chemotherapy) for at least 12 months.\n  2. If follicle-stimulating hormone (FSH) and estradiol labs were performed as standard practice within the screening window and the patient is post-menopausal, those lab results must be in the postmenopausal range. These labs are not required to be performed for the study.\n* POCBP are required to initiate effective contraception by study intervention start. Effective contraception is per the investigator's discretionhild. A POCBP (regardless of sexual orientation, having undergone a tubal ligation, or remaining celibate by choice) is someone who meets at least one of the following criteria:\n\n  1. Has not undergone a hysterectomy or bilateral oophorectomy; or\n  2. Has not been naturally postmenopausal for at least 12 consecutive months (i.e., has had menses at any time in the preceding 12 consecutive months).\n* Must be able to sign a written informed consent, are reliable, willing to be available for the duration of the study and are willing to follow study procedures.\n* Both men and women and members of all races and ethnic groups are eligible for this trial. Non-English speaking, deaf, hard of hearing and illiterate individuals are eligible for this trial.\n\nExclusion Criteria:\n\n* Localized breast cancer which is curable with surgery or radiation, with or without chemotherapy. This study will utilize the American Joint Committee on Cancer (AJCC) staging system, eight edition that provides a strategy for grouping patients with respect to prognosis. The AJCC has designated staging by TNM classification.\n* Current diagnosis of inflammatory breast cancer\n* Patients who have had chemotherapy or radiotherapy within 12 months prior to entering the study.\n\n(Note: Palliative radiotherapy is does not require a washout Note: For current diagnosis, CDK 4/6 inhibitor and/or endocrine therapy within 8 weeks prior to starting study treatment is allowed).\n\n* Prior treatment with Fulvestrant (Note: For the current diagnosis, fulvestrant initiated within 8 weeks prior to starting study intervention is allowed)\n* Patients are currently receiving an investigational drug in a clinical trial or participating in any other type of medical research judged by the investigator not to be scientifically or medically compatible with this study. If a patient is currently enrolled in a clinical trial involving non-approved use of a device, then agreement with the principal investigator is required to establish eligibility\n* Have serious pre-existing medical conditions that, in the judgment of the investigator, would preclude participation in this study (for example, history of major surgical resection involving the stomach or small bowel or preexisting Crohn's disease or ulcerative colitis , interstitial lung disease, severe dyspnea at rest, any pre-existing chronic condition resulting in baseline grade 2 or higher diarrhea, or psychiatric illness/social situations that would limit compliance with study requirements)\n* Have a personal history of any of the following conditions: syncope or cardiovascular etiology, ventricular tachycardia, ventricular fibrillation or sudden cardiac arrest\n* Have a history of any other cancer (except for non-melanoma skin cancer or carcinoma in situ of the cervix) unless in complete remission with no therapy for a minimum of three years or have received an autologous or allogeneic stem-cell transplant ((\\> 5 years from stem cell transplant is acceptable). (Patients with non-active cancer not requiring treatment are allowed to be enrolled on the study)\n* Have an active bacterial or fungal infection or a detectable viral infection (for example HIV or viral hepatitis). Screening is not required for enrollment\n* Recent therapy with a biologic agent or a monoclonal therapy is excluded. Wash out of at least three half-lives of monoclonal antibody would be required to be enrolled.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to CDK4/6 inhibitors or other agents used in study.\n* Patients who are pregnant or nursing due to the potential for congenital abnormalities and the potential of this regimen to harm nursing infants.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Chao Family Comprehensive Cancer Center University of California, Irvine",
+          "role": "CONTACT",
+          "phone": "1-877-827-7883",
+          "email": "ucstudy@uci.edu"
+        },
+        {
+          "name": "University of California Irvine Medical",
+          "role": "CONTACT"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Rita Mehta, MD",
+          "affiliation": "Chao Family Comprehensive Cancer Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Chao Family Comprehensive Cancer Center, University of California, Irvine",
+          "status": "RECRUITING",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rita Mehta, MD",
+              "role": "CONTACT",
+              "phone": "877-827-8839",
+              "email": "ucstudy@uci.edu"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

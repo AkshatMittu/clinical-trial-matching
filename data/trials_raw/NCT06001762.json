@@ -1,0 +1,2793 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06001762",
+      "orgStudyIdInfo": {
+        "id": "23-355"
+      },
+      "organization": {
+        "fullName": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "TRADE: Dose Escalation Tolerability of Abemaciclib in HR+ HER2- Early Stage Breast Cancer",
+      "officialTitle": "The TRADE Study: A Phase 2 Trial to Assess the ToleRability of Abemaciclib Dose Escalation in Patients With Early-Stage HR-positive and HER2-negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-10-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-01-22",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2027-01-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-08-14",
+      "studyFirstSubmitQcDate": "2023-08-14",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-21",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2026-04-03",
+      "resultsFirstSubmitQcDate": "2026-06-08",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-07-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-02",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Erica Mayer, MD, MPH",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Dana-Farber Cancer Institute"
+      },
+      "leadSponsor": {
+        "name": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Eli Lilly and Company",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "In this research study, investigators are testing if a dose-increasing strategy for abemaciclib will have less side effects and be better tolerated than the standard dosage of abemaciclib for participants with early-stage high-risk hormone receptor positive breast cancer.\n\nThe names of the study drugs involved in this study are:\n\n* Abemaciclib (CDK4 and CDK6 inhibitor)\n* Tamoxifen (Selective estrogen receptor modulator)\n* Anastrozole/Letrozole (Non-steroidal aromatase inhibitors)\n* Exemestane (steroidal aromatase inhibitor)\n* LHRH (Gonadotropin-releasing hormone agonist, or Luteinizing hormone-releasing hormone agonist)",
+      "detailedDescription": "This research study is a prospective, single-arm, open label, phase 2 study designed to evaluate if a dose-increasing strategy for abemaciclib will have less side effects and be better tolerated than the standard dosage of abemaciclib for participants with early-stage high-risk hormone receptor positive breast cancer.\n\nThis research study involves adjuvant abemaciclib plus endocrine (anti-hormone) therapy that works to target breast cancer. Adjuvant therapy is treatment given after surgery, chemotherapy, and/or radiation therapy.\n\nThe U.S. Food and Drug Administration (FDA) has approved abemaciclib as a treatment option for early-stage high-risk hormone receptor breast cancer. The FDA has also approved hormonal therapies as treatment for hormone receptor positive breast cancer.\n\nThe research study procedures include screening for eligibility, study treatment including laboratory evaluations and questionnaires, blood tests, tumor biopsies, and stool collections.\n\nParticipation in this research study is expected to last for at least 2 years and up to 5 years.\n\nIt is expected that about 90 people will take part in this research study.\n\nEli Lilly and Company is supporting this study by providing funding for the study and supplying the study drug, abemaciclib."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Early-stage Breast Cancer",
+        "High Risk Breast Carcinoma"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Early-stage high-risk breast cancer",
+        "Early-stage breast cancer",
+        "High risk breast carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 90,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Abemaciclib",
+          "type": "EXPERIMENTAL",
+          "description": "Study procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.",
+          "interventionNames": [
+            "Drug: Abemaciclib",
+            "Drug: Tamoxifen",
+            "Drug: Anastrozole",
+            "Drug: Letrozole",
+            "Drug: Exemestane",
+            "Drug: LHRH Agonist"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Abemaciclib",
+          "description": "CDK4 and CDK6 inhibitor, tablet taken orally",
+          "armGroupLabels": [
+            "Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Tamoxifen",
+          "description": "Selective estrogen receptor modulator, taken orally per institutional standard of care",
+          "armGroupLabels": [
+            "Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anastrozole",
+          "description": "Non-steroidal aromatase inhibitor, taken orally per institutional standard of care",
+          "armGroupLabels": [
+            "Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Non-steroidal aromatase inhibitor, taken orally per institutional standard of care",
+          "armGroupLabels": [
+            "Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Exemestane",
+          "description": "Steroidal aromatase inhibitor, taken orally per institutional standard of care",
+          "armGroupLabels": [
+            "Abemaciclib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "LHRH Agonist",
+          "description": "Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care",
+          "armGroupLabels": [
+            "Abemaciclib"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite Endpoint: Number of Participants With Abemaciclib Discontinuation for Any Reason, Abemaciclib Dose Reductions, or the Inability of Study Participants to Reach the Target Dose of Abemaciclib (Full Dose 150 mg BID) at 3 Months (12 Weeks)",
+          "description": "The composite endpoint is the number and proportion of participants with abemaciclib discontinuation for any reason and/or abemaciclib dose reductions and/or the inability of study participants to reach the target dose of abemaciclib (full dose 150 mg BID) at 3 months (12 weeks).",
+          "timeFrame": "3 months (12 weeks)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants Unable to Reach Full Dose of Abemaciclib at 3 Months (12 Weeks)",
+          "description": "Number of participants unable to reach the full dose (150 mg BID) of abemaciclib at 3 months (12 weeks)",
+          "timeFrame": "3 months (12 weeks)"
+        },
+        {
+          "measure": "Number of Participants Who Discontinued Abemaciclib Treatment for Any Reason at 12 Weeks",
+          "description": "Number of participants who discontinued abemaciclib treatment for any reason 3 months (12 weeks)",
+          "timeFrame": "3 months (12 weeks)"
+        },
+        {
+          "measure": "Number of Participants With Abemaciclib Dose Reductions at 12 Weeks",
+          "description": "Number of participants with abemaciclib dose reductions at 3 months (12 weeks)",
+          "timeFrame": "3 months (12 weeks)"
+        },
+        {
+          "measure": "Number of Participants Experiencing CTCAE v5.0 Treatment-emergent Grade 2-4 Diarrhea by 24 Weeks",
+          "description": "Among all patients who received at least one dose of Abemaciclib, summarize the maximum treatment-emergent diarrhea adverse event reported per subject (across any dose level received) between the start of treatment and up to 24 weeks. Adverse events (AEs) are graded in a clinical setting utilizing CTCAE v5.0 criteria; AEs of grade 2 to 5 are systematically reported, while grade 1 AEs are not systematically reported, so subjects with no reported AEs (grade 0) and subjects with a maximum grade 1 AE are combined into a single category. AEs are considered treatment-emergent if they start at or after the first dose of Abemaciclib.\n\nGrade 0 - no toxicity reported\n\nGrade 1 - mild\n\nGrade 2 - moderate\n\nGrade 3 - severe\n\nGrade 4 - life-threatening\n\nGrade 5 - fatal (no cases of grade 5 diarrhea to report)",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Number of Participants Experiencing CTCAE v5.0 Treatment-emergent Adverse Events by 24 Weeks",
+          "description": "Among all patients who received at least one dose of Abemaciclib, summarize the maximum treatment-emergent adverse event (of any kind) reported per subject (across any dose level received) between the start of treatment and up to 24 weeks. Adverse events (AEs) are graded in a clinical setting utilizing CTCAE v5.0 criteria; AEs of grade 2 to 5 are systematically reported, while grade 1 AEs are not systematically reported, so subjects with no reported AEs (grade 0) and subjects with a maximum grade 1 AE are combined into a single category. AEs are considered treatment-emergent if they start at or after the first dose of Abemaciclib.\n\nGrade 0 - no toxicity reported\n\nGrade 1 - mild\n\nGrade 2 - moderate\n\nGrade 3 - severe\n\nGrade 4 - life-threatening\n\nGrade 5 - fatal (no cases of grade 5 toxicities)",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Composite Endpoint: Number of Participants With Abemaciclib Discontinuation for Any Reason, Abemaciclib Dose Reductions, or the Inability of Study Participants to Reach the Target Dose of Abemaciclib (Full Dose 150 mg BID) at 24 Weeks",
+          "description": "The composite endpoint at 24 weeks is the number and proportion of participants with abemaciclib (abema) treatment discontinuations and/or abemaciclib dose reductions and/or participant inability to reach the target dose (full dose 150 mg BID) of abemaciclib at 24 weeks.",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Number of Participants Unable to Reach the Full Dose by 24 Weeks",
+          "description": "Number of participants unable to reach the full dose will be reported as the rate of participants who have never reached the full dose of abemaciclib at 150mg BID by 24 weeks.",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Number of Participants Who Discontinued Abemaciclib Treatment for to Any Reason at 24 Weeks",
+          "description": "Number of Participants who Discontinued Abemaciclib Treatment for to Any Reason at 24 Weeks (6 months)",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Number of Participants With Abemaciclib Dose Reductions at 24 Weeks",
+          "description": "Number of Participants with Abemaciclib Dose Reductions at 24 Weeks (6 months)",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Number of Participants Unable to Maintain the Full Dose of Abemaciclib by 24 Weeks",
+          "description": "Number of participants who reached the full dose of abemaciclib (150mg BID) but then had a dose reduction by 24 weeks",
+          "timeFrame": "Up to 24 weeks"
+        },
+        {
+          "measure": "Composite Endpoint: Number of Participants With Abemaciclib Discontinuation for Any Reason, Abemaciclib Dose Reductions, or the Inability of Study Participants to Reach the Target Dose of Abemaciclib (Full Dose 150 mg BID) at 24 Months",
+          "description": "The composite endpoint is the number and proportion of participants with abemaciclib discontinuation for any reason and/or abemaciclib dose reductions and/or the inability of study participants to reach the target dose of abemaciclib (full dose 150 mg BID) at 24 months (at completion of adjuvant abemaciclib therapy for all subjects).",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "Number of Participants Unable to Reach the Full Dose by 24 Months",
+          "description": "Number of participants who have never reached the full dose of abemaciclib at 150mg BID by 24 months.",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "Number of Participants Who Discontinued Abemaciclib Treatment Due to Any Reason Prior to 24 Months",
+          "description": "Number of Participants who Discontinued Abemaciclib Treatment Due to Any Reason prior to 24 Months (at completion of adjuvant abemaciclib therapy for all subjects).",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "Number of Participants With Abemaciclib Dose Reductions at 24 Months",
+          "description": "Number of Participants with Abemaciclib Dose Reductions at 24 months (at completion of adjuvant abemaciclib therapy for all subjects).",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "Number of Participants Unable to Maintain the Full Dose of Abemaciclib by 24 Months",
+          "description": "Number of participants who reached the full dose of abemaciclib (150mg BID) but then had a dose reduction by 24 months",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "Number of Participants Experiencing CTCAE v5.0 Treatment-emergent Grade 2-4 Diarrhea by 24 Months",
+          "description": "Among all patients who received at least one dose of Abemaciclib, summarize the maximum treatment-emergent diarrhea adverse event reported per subject (across any dose level received) between the start of treatment and up to 24 months. Adverse events (AEs) are graded in a clinical setting utilizing CTCAE v5.0 criteria; AEs of grade 2 to 5 are systematically reported, while grade 1 AEs are not systematically reported, so subjects with no reported AEs (grade 0) and subjects with a maximum grade 1 AE are combined into a single category. AEs are considered treatment-emergent if they start at or after the first dose of Abemaciclib.\n\nGrade 0 - no toxicity reported\n\nGrade 1 - mild\n\nGrade 2 - moderate\n\nGrade 3 - severe\n\nGrade 4 - life-threatening\n\nGrade 5 - fatal",
+          "timeFrame": "Up to 24 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Stage II or III node-positive HR+/HER2- breast cancer per local laboratory assessment.\n* Eligible participants must be appropriate candidates for adjuvant abemaciclib, per assessment of their treating physician.\n* Participants must be candidates for adjuvant endocrine therapy, which may have started before or at time of entry onto the trial. Patient may be receiving adjuvant aromatase inhibitor or tamoxifen, +/- ovarian suppression.\n* Participants must have undergone definitive surgery of the primary breast tumor(s) within 16 months of study entry.\n* At least 21 days must have elapsed between last dose of chemotherapy and registration. Participants who previously received chemotherapy must have recovered (Common Terminology Criteria for Adverse Events \\[CTCAE\\] Grade \u22641) from the acute effects of chemotherapy except for residual alopecia or Grade 2 peripheral neuropathy prior to randomization.\n* At least 14 days must have elapsed between end of radiotherapy and day 1 of treatment with abemaciclib. Participants who received prior radiotherapy must have completed and fully recovered from the acute effects of radiotherapy. No radiotherapy should be planned to occur during study therapy.\n* At least 14 days must have elapsed since most recent breast surgery prior to registration and patient has recovered from side effects of prior surgery.\n* Bilateral or multifocal/multicentric breast cancers that meet eligibility criteria are allowed.\n* ECOG performance status 0-1\n* Men and women with any menopausal status \u226518 years of age\n* Adequate organ function as defined below:\n\n  * Absolute neutrophil count (ANC) \u2265 1500 x 10\\^9/L\n  * Platelets \u2265 100 x 10\\^9/L\n  * Hemoglobin \u2265 8g/dL; patients may receive erythrocyte transfusions to achieve this hemoglobin level at the discretion of the investigator. Initial treatment must not begin earlier than the day after the erythrocyte transfusion.\n  * Bilirubin \u2264 1.5 x ULN. For patients with Gilbert syndrome, the limit is \u2264 2 x institutional ULN AND direct bilirubin within the normal range of normality.\n  * AST/ALT \u2264 3 x institutional ULN\n* Premenopausal women must have a negative serum or urine pregnancy test. Pregnancy testing does not need to be pursued in female patients who are:\n\n  * Age \\> 60 years; or\n  * Age \\< 60 with intact uterus and amenorrhea for 12 consecutive months or more AND FSH/estradiol levels within postmenopausal range; or\n  * Status-post bilateral oophorectomy, total hysterectomy, or bilateral tubal ligation.\n* Women of child-bearing potential and men with partners of childbearing potential must be willing to employ one highly effective form of nonhormonal contraception (with the exception of hormonal IUDs) or two effective forms of nonhormonal contraception by the patient and/or partner and continue its use for the duration of the study treatment and for 3 months after the last dose of abemaciclib.\n* Subject must be able to swallow and retain oral medication.\n* Ability to understand and the willingness to sign a written informed consent document.\n* Non-English-speaking patients are eligible but will be exempt from patient-completed questionnaires.\n\nExclusion Criteria:\n\n* Prior treatment with any CDK4/6 inhibitor.\n* Patients with node-negative breast cancer are not eligible for the trial.\n* Concurrent therapy with other investigational agents.\n* Diagnosis of inflammatory breast cancer (T4d).\n* History of allergic reactions attributed to abemaciclib or similar chemical or biologic composition or excipients.\n* Participants with a history of malignancy are ineligible except in the following circumstances:\n\n  --Individuals with a history of invasive breast cancer are not eligible unless they have been disease-free for a minimum of five years.\n* Individuals with a malignancy history other than invasive breast cancer are eligible if they have no active malignancy and are deemed by the investigator to be at low risk for recurrence of that malignancy.\n* Individuals with the following cancer history are eligible: adequately treated non- melanoma skin cancers, curatively treated in situ cancer of the cervix, ductal carcinoma in situ (DCIS) of the breast, stage 1 grade 1 endometrial carcinoma. Other exceptions may exist following review with the sponsor-investigator\n* Serious and/or uncontrolled preexisting medical condition(s) that, in the judgment of the investigator, would preclude participation in this study (for example, interstitial lung disease, severe dyspnea at rest or requiring oxygen therapy, severe renal impairment \\[e.g. estimated creatinine clearance \\<30ml/min\\], history of major surgical resection involving the stomach or small bowel, or preexisting uncontrolled Crohn's disease or ulcerative colitis or a preexisting chronic condition resulting in baseline Grade 2 or higher diarrhea) or other conditions that in the opinion of the investigator limit compliance with study requirements.\n* History of any of the following conditions: syncope of cardiovascular etiology, ventricular arrhythmia of pathological origin (including, but not limited to, ventricular tachycardia and ventricular fibrillation), or sudden cardiac arrest.\n* Any of the following due to teratogenic potential of the study drugs:\n\n  * Pregnant women\n  * Nursing women\n  * Women of childbearing potential who are unwilling to employ adequate contraception (condoms, diaphragms, IUDS, surgical sterilization, abstinence, etc). Hormonal birth control methods are not permitted.\n  * Men who are unwilling to employ adequate contraception (condoms, surgical sterilization, abstinence, etc).\n* Receipt of an experimental treatment in a clinical trial within the last 30 days or 5 half-lives, whichever is longer, prior to enrollment, or is currently enrolled in any other type of medical research (for example: medical device) judged by the sponsor-investigator not to be scientifically or medically compatible with this study.\n* Active systemic bacterial infection (requiring intravenous \\[IV\\] antibiotics at time of initiating study treatment) or invasive/ systemic fungal infection\\\\\n* For patients with known HIV infection, CD4 baseline count should be evaluated: patients with a CDK count \u2265 350 cells/uL can be enrolled. Participants should be on established anti-retroviral therapy (ART) for at least four weeks and have an HIV viral load less than 400 copies/mL prior to enrollment. Potential pharmacological interactions of the ART with abemaciclib and endocrine therapy must be reviewed, particularly for the effects on CYP3A4.\n* Patients with active or chronic Hepatitis B or C are eligible provided they meet liver function laboratory criteria and cannot be on any medication with a known interaction with the study agents.\n* Participants receiving any medications or substances that are strong inhibitors or inducers of CYP3A4, including selected herbals (e.g., hypericum) and food (e.g., grapefruit) known for pharmacological interactions, cannot be enrolled, due to interference with the dose-escalation, unless the food or supplement has been discontinued at least after an interval equivalent to 3-5 half-lives of the inhibitor.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Erica Mayer, MD, MPH",
+          "affiliation": "Dana-Farber Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Stamford Hospital",
+          "city": "Stamford",
+          "state": "Connecticut",
+          "zip": "06904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.05343,
+            "lon": -73.53873
+          }
+        },
+        {
+          "facility": "Eastern Maine Medical Center (Northern Light)",
+          "city": "Brewer",
+          "state": "Maine",
+          "zip": "04412",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.79674,
+            "lon": -68.76142
+          }
+        },
+        {
+          "facility": "New England Cancer Specialists",
+          "city": "Scarborough",
+          "state": "Maine",
+          "zip": "04074",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.57814,
+            "lon": -70.32172
+          }
+        },
+        {
+          "facility": "Boston Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02118",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute at Steward St. Elizabeth's",
+          "city": "Brighton",
+          "state": "Massachusetts",
+          "zip": "02135",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.3501,
+            "lon": -71.15644
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute at Foxborough",
+          "city": "Foxborough",
+          "state": "Massachusetts",
+          "zip": "02035",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.06538,
+            "lon": -71.24783
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute at Merrimack Valley",
+          "city": "Methuen",
+          "state": "Massachusetts",
+          "zip": "01844",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.7262,
+            "lon": -71.19089
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute at Milford",
+          "city": "Milford",
+          "state": "Massachusetts",
+          "zip": "01757",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.13982,
+            "lon": -71.51617
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute at South Shore",
+          "city": "South Weymouth",
+          "state": "Massachusetts",
+          "zip": "02190",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.1751,
+            "lon": -70.94949
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Insitute at Londonderry Hospital",
+          "city": "Londonderry",
+          "state": "New Hampshire",
+          "zip": "03053",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.86509,
+            "lon": -71.37395
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to: \\[contact information for Sponsor Investigator or designee\\]. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Data can be shared no earlier than 1 year following the date of publication",
+      "accessCriteria": "Contact the Belfer Office for Dana-Farber Innovations (BODFI) at innovation@dfci.harvard.edu"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Abemaciclib",
+          "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "90"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "90"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "All 90 subjects enrolled in the TRADE trial",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Abemaciclib",
+          "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards.\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "90"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "58",
+                      "lowerLimit": "24",
+                      "upperLimit": "78"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "90"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ethnicity (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    }
+                  ]
+                },
+                {
+                  "title": "Not Hispanic or Latino",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "85"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race/Ethnicity, Customized",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Race",
+              "categories": [
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "72"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Clinical Stage",
+          "description": "Clinical stage was classified by the treating provider as stage I, II, or III using the AJCC staging criteria (8th edition). Higher stage values are associated with a higher risk of recurrence.\n\nStage 1: early-stage, small and localized tumor\n\nStage 2: intermediate-sized tumor, potentially spread locally into nearby tissues or lymph nodes\n\nStage 3: locally advanced - tumor is generally larger, has grown deeper into surrounding tissues, and/or has spread to nearby lymph nodes",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Stage II",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "46"
+                    }
+                  ]
+                },
+                {
+                  "title": "Stage III",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Endocrine therapy type at therapy initiation",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Aromatase Inhibitor",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "74"
+                    }
+                  ]
+                },
+                {
+                  "title": "Aromatase Inhibitor and Ovarian Suppression",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Composite Endpoint: Number of Participants With Abemaciclib Discontinuation for Any Reason, Abemaciclib Dose Reductions, or the Inability of Study Participants to Reach the Target Dose of Abemaciclib (Full Dose 150 mg BID) at 3 Months (12 Weeks)",
+          "description": "The composite endpoint is the number and proportion of participants with abemaciclib discontinuation for any reason and/or abemaciclib dose reductions and/or the inability of study participants to reach the target dose of abemaciclib (full dose 150 mg BID) at 3 months (12 weeks).",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 12 weeks of starting treatment. One (1) subject had a progression event within 12 weeks of starting treatment. Therefore, this subject is excluded from the primary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 months (12 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib discontinuation, dose reduction, and/or taking less than target dose at 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    }
+                  ]
+                },
+                {
+                  "title": "Achieved abemaciclib target dose at 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.023",
+              "pValueComment": "One-sided binomial test testing whether the reported composite adverse event rate is less than the null hypothesis rate of 40% (value estimated from monarchE trial data).",
+              "statisticalMethod": "One-sided binomial test",
+              "paramType": "Percentage",
+              "paramValue": "29.2",
+              "ciPctValue": "90",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "21.3",
+              "ciUpperLimit": "38.2"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Unable to Reach Full Dose of Abemaciclib at 3 Months (12 Weeks)",
+          "description": "Number of participants unable to reach the full dose (150 mg BID) of abemaciclib at 3 months (12 weeks)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 12 weeks of starting treatment. One (1) subject had a progression event within 12 weeks of starting treatment. Therefore, this subject is excluded from the primary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 months (12 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Participant unable to reach abemaciclib full dose at 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "Abemaciclib discontinued, dose reduced, or full dose reached by 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Who Discontinued Abemaciclib Treatment for Any Reason at 12 Weeks",
+          "description": "Number of participants who discontinued abemaciclib treatment for any reason 3 months (12 weeks)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 12 weeks of starting treatment. One (1) subject had a progression event within 12 weeks of starting treatment. Therefore, this subject is excluded from the primary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 months (12 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib discontinued for any reason by 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "Abemaciclib not discontinued within 12 weeks of treatment",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Abemaciclib Dose Reductions at 12 Weeks",
+          "description": "Number of participants with abemaciclib dose reductions at 3 months (12 weeks)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 12 weeks of starting treatment. One (1) subject had a progression event within 12 weeks of starting treatment. Therefore, this subject is excluded from the primary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "3 months (12 weeks)",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib dose reduction by 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Abemaciclib dose not reduced within 12 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Experiencing CTCAE v5.0 Treatment-emergent Grade 2-4 Diarrhea by 24 Weeks",
+          "description": "Among all patients who received at least one dose of Abemaciclib, summarize the maximum treatment-emergent diarrhea adverse event reported per subject (across any dose level received) between the start of treatment and up to 24 weeks. Adverse events (AEs) are graded in a clinical setting utilizing CTCAE v5.0 criteria; AEs of grade 2 to 5 are systematically reported, while grade 1 AEs are not systematically reported, so subjects with no reported AEs (grade 0) and subjects with a maximum grade 1 AE are combined into a single category. AEs are considered treatment-emergent if they start at or after the first dose of Abemaciclib.\n\nGrade 0 - no toxicity reported\n\nGrade 1 - mild\n\nGrade 2 - moderate\n\nGrade 3 - severe\n\nGrade 4 - life-threatening\n\nGrade 5 - fatal (no cases of grade 5 diarrhea to report)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Grade 0 (no toxicity) or 1 (mild) diarrhea",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 2 (moderate) diarrhea",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 3 (severe) diarrhea",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 4 (life-threatening) diarrhea",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Experiencing CTCAE v5.0 Treatment-emergent Adverse Events by 24 Weeks",
+          "description": "Among all patients who received at least one dose of Abemaciclib, summarize the maximum treatment-emergent adverse event (of any kind) reported per subject (across any dose level received) between the start of treatment and up to 24 weeks. Adverse events (AEs) are graded in a clinical setting utilizing CTCAE v5.0 criteria; AEs of grade 2 to 5 are systematically reported, while grade 1 AEs are not systematically reported, so subjects with no reported AEs (grade 0) and subjects with a maximum grade 1 AE are combined into a single category. AEs are considered treatment-emergent if they start at or after the first dose of Abemaciclib.\n\nGrade 0 - no toxicity reported\n\nGrade 1 - mild\n\nGrade 2 - moderate\n\nGrade 3 - severe\n\nGrade 4 - life-threatening\n\nGrade 5 - fatal (no cases of grade 5 toxicities)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "90"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Grade 0 (no toxicity reported) or 1 (mild)",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 2 (moderate)",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "51"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 3 (severe)",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 4 (life-threatening)",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Composite Endpoint: Number of Participants With Abemaciclib Discontinuation for Any Reason, Abemaciclib Dose Reductions, or the Inability of Study Participants to Reach the Target Dose of Abemaciclib (Full Dose 150 mg BID) at 24 Weeks",
+          "description": "The composite endpoint at 24 weeks is the number and proportion of participants with abemaciclib (abema) treatment discontinuations and/or abemaciclib dose reductions and/or participant inability to reach the target dose (full dose 150 mg BID) of abemaciclib at 24 weeks.",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 24 weeks of starting treatment. One (1) subject had a progression event within 24 weeks of starting treatment (the same subject excluded from the primary endpoint analysis at 12 weeks). Therefore, this subject is excluded from this secondary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abema dose discontinuation, dose reduction, or inability to reach/maintain full dose by 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "42"
+                    }
+                  ]
+                },
+                {
+                  "title": "Reached and maintained abema full dose by 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Unable to Reach the Full Dose by 24 Weeks",
+          "description": "Number of participants unable to reach the full dose will be reported as the rate of participants who have never reached the full dose of abemaciclib at 150mg BID by 24 weeks.",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 24 weeks of starting treatment. One (1) subject had a progression event within 24 weeks of starting treatment (the same subject excluded from the primary endpoint analysis at 12 weeks). Therefore, this subject is excluded from this secondary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib full dose never reached within 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "Abemaciclib full dose reached at some point within 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "77"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Who Discontinued Abemaciclib Treatment for to Any Reason at 24 Weeks",
+          "description": "Number of Participants who Discontinued Abemaciclib Treatment for to Any Reason at 24 Weeks (6 months)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 24 weeks of starting treatment. One (1) subject had a progression event within 24 weeks of starting treatment (the same subject excluded from the primary endpoint analysis at 12 weeks). Therefore, this subject is excluded from this secondary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib discontinued for any reason by 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "Abemaciclib not discontinued within 24 weeks of treatment",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Abemaciclib Dose Reductions at 24 Weeks",
+          "description": "Number of Participants with Abemaciclib Dose Reductions at 24 Weeks (6 months)",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 24 weeks of starting treatment. One (1) subject had a progression event within 24 weeks of starting treatment (the same subject excluded from the primary endpoint analysis at 12 weeks). Therefore, this subject is excluded from this secondary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Abemaciclib dose reduction by 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": "Abemaciclib dose not reduced within 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "60"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Unable to Maintain the Full Dose of Abemaciclib by 24 Weeks",
+          "description": "Number of participants who reached the full dose of abemaciclib (150mg BID) but then had a dose reduction by 24 weeks",
+          "populationDescription": "Subjects who received at least one dose of abemaciclib and did not progress within 24 weeks of starting treatment. One (1) subject had a progression event within 24 weeks of starting treatment (the same subject excluded from the primary endpoint analysis at 12 weeks). Therefore, this subject is excluded from this secondary endpoint analysis.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 weeks",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Abemaciclib",
+              "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "89"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Dose reduction after reaching full dose (150mg) within 24 weeks",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "22"
+                    }
+                  ]
+                },
+                {
+                  "title": "Either reached and maintained full dose (150mg) or never reached full dose",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Composite Endpoint: Number of Participants With Abemaciclib Discontinuation for Any Reason, Abemaciclib Dose Reductions, or the Inability of Study Participants to Reach the Target Dose of Abemaciclib (Full Dose 150 mg BID) at 24 Months",
+          "description": "The composite endpoint is the number and proportion of participants with abemaciclib discontinuation for any reason and/or abemaciclib dose reductions and/or the inability of study participants to reach the target dose of abemaciclib (full dose 150 mg BID) at 24 months (at completion of adjuvant abemaciclib therapy for all subjects).",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-10",
+          "timeFrame": "Up to 24 months",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Unable to Reach the Full Dose by 24 Months",
+          "description": "Number of participants who have never reached the full dose of abemaciclib at 150mg BID by 24 months.",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-10",
+          "timeFrame": "Up to 24 months",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Who Discontinued Abemaciclib Treatment Due to Any Reason Prior to 24 Months",
+          "description": "Number of Participants who Discontinued Abemaciclib Treatment Due to Any Reason prior to 24 Months (at completion of adjuvant abemaciclib therapy for all subjects).",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-10",
+          "timeFrame": "Up to 24 months",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Abemaciclib Dose Reductions at 24 Months",
+          "description": "Number of Participants with Abemaciclib Dose Reductions at 24 months (at completion of adjuvant abemaciclib therapy for all subjects).",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-10",
+          "timeFrame": "Up to 24 months",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Unable to Maintain the Full Dose of Abemaciclib by 24 Months",
+          "description": "Number of participants who reached the full dose of abemaciclib (150mg BID) but then had a dose reduction by 24 months",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-10",
+          "timeFrame": "Up to 24 months",
+          "denomUnitsSelected": "Participants"
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants Experiencing CTCAE v5.0 Treatment-emergent Grade 2-4 Diarrhea by 24 Months",
+          "description": "Among all patients who received at least one dose of Abemaciclib, summarize the maximum treatment-emergent diarrhea adverse event reported per subject (across any dose level received) between the start of treatment and up to 24 months. Adverse events (AEs) are graded in a clinical setting utilizing CTCAE v5.0 criteria; AEs of grade 2 to 5 are systematically reported, while grade 1 AEs are not systematically reported, so subjects with no reported AEs (grade 0) and subjects with a maximum grade 1 AE are combined into a single category. AEs are considered treatment-emergent if they start at or after the first dose of Abemaciclib.\n\nGrade 0 - no toxicity reported\n\nGrade 1 - mild\n\nGrade 2 - moderate\n\nGrade 3 - severe\n\nGrade 4 - life-threatening\n\nGrade 5 - fatal",
+          "reportingStatus": "NOT_POSTED",
+          "anticipatedPostingDate": "2027-10",
+          "timeFrame": "Up to 24 months",
+          "denomUnitsSelected": "Participants"
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Time from first dose of abemaciclib to 24 weeks after first dose (6 months).",
+      "description": "Regular investigator assessment. Adverse events are reported across all dose levels combined (Abemaciclib 50 mg, 100 mg, and 150 mg).\n\nTRADE is a single arm phase 2 study; it does not contain separate arms or groups. All patients underwent a brief dose abemaciclib escalation. All endpoints, including adverse events, were designed to be evaluated in the entire single-arm study population, not at each week of dose escalation. Therefore, it is not possible to report adverse events per dose level.",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Abemaciclib",
+          "description": "The dose escalation strategy utilizes Abemaciclib dose levels of 50mg BID x 2 weeks, then 100mg bid x 2 weeks, then 150mg bid from C2D1 and onwards.\n\nNote: TRADE is a single arm phase 2 study; it does not contain separate arms or groups. All endpoints, including adverse events, were designed to be evaluated in the entire single-arm study population, not at each week of dose escalation. Therefore, it is not possible to report adverse events per dose level.\n\nStudy procedures will be conducted as follows:\n\n* Cycles 1 - 24\n\n  * Days 1 - 28 of 28-day cycle: Predetermined dose of Abemaciclib 2 x per day.\n  * Endocrine therapy 1 x per day.\n* In clinic visits with blood tests, questionnaires, and assessments:\n\n  * Day 1 of Cycles 1, 2, and 3\n  * Day 15 of Cycles 1 and 2\n  * Every three cycles after Cycle 3 Day 1.\n* End of treatment visit with blood tests, questionnaires, assessments, and stool sample collection.\n\nAbemaciclib: CDK4 and CDK6 inhibitor, tablet taken orally\n\nTamoxifen: Selective estrogen receptor modulator, taken orally per institutional standard of care\n\nAnastrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLetrozole: Non-steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nExemestane: Steroidal aromatase inhibitor, taken orally per institutional standard of care\n\nLHRH Agonist: Luteinizing hormone-releasing hormone agonist), taken orally per institutional standard of care",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 90,
+          "seriousNumAffected": 5,
+          "seriousNumAtRisk": 90,
+          "otherNumAffected": 78,
+          "otherNumAtRisk": 90
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Pericardial effusion",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Lung infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Chronic kidney disease",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Nasal congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Pleural effusion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Pneumonitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Sore throat",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Thromboembolic event",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Anemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Mitral valve disease",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Sinus tachycardia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Vertigo",
+          "organSystem": "Ear and labyrinth disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Blurred vision",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Eye disorders - Other, specify",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 10,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Anal fissure",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 29,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dry mouth",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Flatulence",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Gastroesophageal reflux disease",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Gastrointestinal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Mucositis oral",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 9,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Oral hemorrhage",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Rectal hemorrhage",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Stomach pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Edema limbs",
+          "organSystem": "General disorders and administration site conditions",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders and administration site conditions",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 24,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Flu like symptoms",
+          "organSystem": "General disorders and administration site conditions",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Non-cardiac chest pain",
+          "organSystem": "General disorders and administration site conditions",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders and administration site conditions",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Allergic reaction",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Breast infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Folliculitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Infections and infestations - Other, specify",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Lung infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Nail infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Otitis media",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Rhinitis infective",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Sinusitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Skin infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Upper respiratory infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Urinary tract infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Vaginal infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Alanine aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Aspartate aminotransferase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Creatinine increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "INR increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Lymphocyte count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 11,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Neutrophil count decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 28,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "White blood cell decreased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hypokalemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hypophosphatemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Muscle cramp",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Neoplasms benign, malignant and unspecified (incl cysts and polyps) - Other, specify",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Nystagmus",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Peripheral sensory neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Vasovagal reaction",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Chronic kidney disease",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Breast pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Vaginal dryness",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 4,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Vaginal hemorrhage",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Allergic rhinitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Nasal congestion",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Pneumonitis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Respiratory, thoracic and mediastinal disorders - Other, specify",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Rash maculo-papular",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Skin and subcutaneous tissue disorders - Other, specify",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Surgical and medical procedures - Other, specify",
+          "organSystem": "Surgical and medical procedures",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 6,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 90
+            }
+          ]
+        },
+        {
+          "term": "Thromboembolic event",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (5.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 90
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Erica Mayer, MD, MPH",
+        "organization": "Dana-Farber Cancer Institute",
+        "email": "Erica_Mayer@dfci.harvard.edu",
+        "phone": "617-632-3800"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2026-01-26",
+          "uploadDate": "2026-04-03T15:07",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 994048
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "firstMcpInfo": {
+          "postDateStruct": {
+            "date": "2026-04-24",
+            "type": "ACTUAL"
+          }
+        }
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "C056516",
+          "term": "exemestane"
+        },
+        {
+          "id": "D007987",
+          "term": "Gonadotropin-Releasing Hormone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D010906",
+          "term": "Pituitary Hormone-Releasing Hormones"
+        },
+        {
+          "id": "D007028",
+          "term": "Hypothalamic Hormones"
+        },
+        {
+          "id": "D036361",
+          "term": "Peptide Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D009479",
+          "term": "Neuropeptides"
+        },
+        {
+          "id": "D010455",
+          "term": "Peptides"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D009842",
+          "term": "Oligopeptides"
+        },
+        {
+          "id": "D009419",
+          "term": "Nerve Tissue Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

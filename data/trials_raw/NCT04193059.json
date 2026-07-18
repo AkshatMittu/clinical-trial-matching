@@ -1,0 +1,488 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04193059",
+      "orgStudyIdInfo": {
+        "id": "2018-68-1461"
+      },
+      "organization": {
+        "fullName": "Fudan University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Study Comparing EC-T Verses PCb in the Adjuvant Chemotherapy of Non-triple Negative Breast Cancer",
+      "officialTitle": "Study Comparing the Efficacy and Safety of Epirubicin Combined With Cyclophosphamide Followed by Docetaxel (EC-T) Verses Paclitaxel Combined With Carboplatin (PCb) in the Adjuvant Chemotherapy of Non-triple Negative Breast Cancer",
+      "acronym": "PANSY"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-10",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-12-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-07",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2019-12-08",
+      "studyFirstSubmitQcDate": "2019-12-08",
+      "studyFirstPostDateStruct": {
+        "date": "2019-12-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-11-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-11-26",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Zhimin Shao",
+        "investigatorTitle": "Professor, Key Laboratory of Breast Cancer in Shanghai, Department of Breast Surgery",
+        "investigatorAffiliation": "Fudan University"
+      },
+      "leadSponsor": {
+        "name": "Fudan University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a randomized, single center, phase III clinical trial comparing the efficacy and safety of four cycles of epirubicin combined with cyclophosphamide followed by four cycles of docetaxel (EC\\*4-T\\*4) verses 6 cycles of weekly paclitaxel combined with carboplatin (PCb\\*6) in the adjuvant chemotherapy of non-triple negative breast cancer patients. The study is divided in to 2 branches: PANSY-1 and PANSY-2. PANSY-1 is a study of hormone receptor (HR)-positive/human epidermal growth factor receptor-2 (HER2)-negative patients with \u22654 positive lymph node, while PANSY-2 is a study of HER2-positive patients with \u22651 positive lymph node.",
+      "detailedDescription": "PANSY-1 will be comparing the efficacy and safety of four cycles of epirubicin combined with cyclophosphamide followed by four cycles of docetaxel (EC-T) verses six cycles of paclitaxel combined with carboplatin (PCb).\n\nPANSY-2 will be comparing the efficacy and safety of four cycles of epirubicin combined with cyclophosphamide followed by four cycles of docetaxel with trastuzumab (EC-TH) verses six cycles of paclitaxel combined with carboplatin and trastuzumab (PCbH); both followed by 1 year adjuvant trastuzumab.\n\nAfter pertuzumab became legally available in China, participants of PANSY-2 may choose to receive trastuzumab and pertuzumab dual targeted therapy, thus comparing the efficacy and safety of four cycles of epirubicin combined with cyclophosphamide followed by four cycles of docetaxel with trastuzumab and pertuzumab (EC-THP) verses six cycles of paclitaxel combined with carboplatin, trastuzumab and pertuzumab (PCbHP); both followed by 1 year adjuvant trastuzumab and pertuzumab.\n\nWith the inclusion of pertuzumab in China's medical insurance in January 2020, study protocols were revised to include dual targeted therapy for HER2-positive participants."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "adjuvant chemotherapy",
+        "epirubicin",
+        "cyclophosphamide",
+        "docetaxel",
+        "paclitaxel",
+        "carboplatin",
+        "trastuzumab",
+        "non-triple negative breast cancer",
+        "pertuzumab"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "PANSY-1:\n\nArm 1: EC-T: 4 cycles of EC (epirubicin + cyclophosphamide), followed by 4 cycles of T (docetaxel) .\n\nArm 2: PCb: 6 cycles of weekly PCb (paclitaxel + carboplatin).\n\nPANSY-2:\n\nArm 1: EC-TH(P): 4 cycles of EC (epirubicin + cyclophosphamide), followed by 4 cycles of TH TH(P) (docetaxel + trastuzumab, with pertuzumab for participants receiving dual-targeted therapy). After completing chemotherapy, patient will continue to complete 1 year of adjuvant trastuzumab, with pertuzumab for participants receiving dual-targeted therapy.\n\nArm 2: PCbH(P): 6 cycles of weekly PCbH(P) (paclitaxel + carboplatin + trastuzumab, with pertuzumab for participants receiving dual-targeted therapy. After completing chemotherapy, patient will continue to complete 1 year of adjuvant trastuzumab, with pertuzumab for participants receiving dual-targeted therapy.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1560,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PANSY-1: EC-T",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "4 cycles of EC (epirubicin 90 mg/m\\^2 ivgtt d1+ cyclophosphamide 600 mg/m\\^2 iv d1, 21 days per cycle), followed by 4 cycles of T (docetaxel 100 mg/m\\^2 ivgtt d1, 21 days per cycle)",
+          "interventionNames": [
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Docetaxel"
+          ]
+        },
+        {
+          "label": "PANSY-1: PCb",
+          "type": "EXPERIMENTAL",
+          "description": "6 cycles of weekly PCb (paclitaxel 80 mg/m\\^2 ivgtt d1, d8, d15+ carboplatin Area Under Curve (AUC)=2 ivgtt d1, d8, d15, 28 days per cycle)",
+          "interventionNames": [
+            "Drug: Paclitaxel",
+            "Drug: Carboplatin"
+          ]
+        },
+        {
+          "label": "PANSY-2: EC-TH(P)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "4 cycles of EC (epirubicin 90 mg/m\\^2 ivgtt d1+cyclophosphamide 600 mg/m\\^2 iv d1, 21 days per cycle), followed by 4 cycles of TH(P) (docetaxel 100 mg/m\\^2 ivgtt d1 + trastuzumab 6 mg/kg (loading dose 8mg/kg) ivgtt d1, 21 days per cycle, with pertuzumab 420mg (loading dose 840mg) ivgtt d1, 21 days per cycle for participants receiving dual-targeted therapy). After 8 cycles of chemotherapy, patient will continue to complete 1 year of adjuvant trastuzumab (6 mg/kg ivgtt every 3 weeks), with pertuzumab (420mg ivgtt every 3 weeks) for participants receiving dual-targeted therapy.",
+          "interventionNames": [
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Trastuzumab",
+            "Drug: Pertuzumab",
+            "Drug: Docetaxel"
+          ]
+        },
+        {
+          "label": "PANSY-2: PCbH(P)",
+          "type": "EXPERIMENTAL",
+          "description": "6 cycles of weekly PCbH(P) (paclitaxel 80 mg/m\\^2 ivgtt d1, d8, d15 + carboplatin AUC=2 ivgtt d1, d8, d15 + trastuzumab 2 mg/kg (loading dose 4mg/kg, w1) ivgtt d1, d8, d15, d22, 28 days per cycle, with pertuzumab 420mg (loading dose 840mg) ivgtt d1, 21 days per cycle for participants receiving dual-targeted therapy). Participants may also choose to receive trastuzumab 6 mg/kg (loading dose 8mg/kg) ivgtt d1, 21 days per cycle with chemotherapy. After 6 cycles of chemotherapy, patient will continue to complete 1 year of adjuvant trastuzumab (6 mg/kg ivgtt every 3 weeks), with pertuzumab (420mg ivgtt every 3 weeks) for participants receiving dual-targeted therapy.",
+          "interventionNames": [
+            "Drug: Paclitaxel",
+            "Drug: Carboplatin",
+            "Drug: Trastuzumab",
+            "Drug: Pertuzumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "paclitaxel 80 mg/m\\^2 ivgtt d1, d8, d15, 28 days per cycle, 6 cycles.",
+          "armGroupLabels": [
+            "PANSY-1: PCb",
+            "PANSY-2: PCbH(P)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "carboplatin AUC=2 ivgtt d1, d8, d15, 28 days per cycle, 6 cycles.",
+          "armGroupLabels": [
+            "PANSY-1: PCb",
+            "PANSY-2: PCbH(P)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin",
+          "description": "epirubicin 90 mg/m\\^2 ivgtt d1, 21 days per cycle, 4 cycles.",
+          "armGroupLabels": [
+            "PANSY-1: EC-T",
+            "PANSY-2: EC-TH(P)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "cyclophosphamide 600 mg/m\\^2 iv d1, 21 days per cycle, 4 cycles.",
+          "armGroupLabels": [
+            "PANSY-1: EC-T",
+            "PANSY-2: EC-TH(P)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Trastuzumab",
+          "description": "trastuzumab 6 mg/kg (loading dose 8mg/kg) ivgtt d1, 21 days per cycle with chemotherapy; or trastuzumab 2 mg/kg (loading dose 4mg/kg, w1) ivgtt d1, d8, d15, d22, 28 days per cycle with chemotherapy. After chemotherapy, patient will continue to complete 1 year of adjuvant trastuzumab (6 mg/kg ivgtt every 3 weeks).",
+          "armGroupLabels": [
+            "PANSY-2: EC-TH(P)",
+            "PANSY-2: PCbH(P)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pertuzumab",
+          "description": "pertuzumab 420mg (loading dose 840mg) ivgtt d1, 21 days per cycle with chemotherapy. After chemotherapy, patient will continue to complete 1 year of adjuvant pertuzumab (420mg ivgtt every 3 weeks).",
+          "armGroupLabels": [
+            "PANSY-2: EC-TH(P)",
+            "PANSY-2: PCbH(P)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "description": "docetaxel 100 mg/m\\^2 ivgtt d1, 21 days per cycle, 4 cycles.",
+          "armGroupLabels": [
+            "PANSY-1: EC-T",
+            "PANSY-2: EC-TH(P)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "disease free survival",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Invasive Disease Free Survival",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Distant Disease Free Survival",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Overall Survival",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Number of Participants with Treatment Related Adverse Events as Assessed by CTCAE v4.0",
+          "description": "Graded according to Common Terminology Criteria for Adverse Events (CTC-AE) 4.0 according to CTC-AE 4.0",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female patients aged 18-70 years old;\n2. Histologically confirmed unilateral invasive breast cancer (regardless of pathological type)\n3. Operable breast cancer at first diagnosis, without any absolute surgical contraindication.\n4. No gross nor microscopic residual tumor after surgery.\n5. HER2-positive with \u2265 1 positive axillary lymph node; or estrogen receptor (ER) and/or progesterone receptor (PR)-positive and HER2-negative with \u2265 4 positive axillary lymph node. HER2-positive is defined as an immunohistochemistry (IHC) status of 3+, or a positive in situ hybridization (Fluorescence in situ hybridization (FISH), Chromogenic in situ hybridization (CISH)) test. ER-positive is defined as immunohistochemistry showing that \u2265 1% of tumor cells were ER positive. PR-positive is defined as immunohistochemistry showing that \u2265 1% of tumor cells were PR positive.\n6. Preoperative examination found no evidence of metastasis in clinical examination nor imaging examination.\n7. No peripheral neuropathy.\n8. Karnofsky score \\> 70.\n9. Good postoperative recovery, at least 1 week has passed since most recent surgery.\n10. Has adequate bone marrow function: leukocyte count \\> 4x10\u02c69 / L, absolute neutrophil count \\> 2x10\u02c69 /L; platelet count \\> 100x10\u02c69 /L, hemoglobin \\> 9g/dL.\n11. Has adequate liver function: alanine aminotransferase (ALT) \\< 1.5\u00d7upper limit of normal (ULN), aspartate aminotransferase (AST) \\< 1.5\u00d7ULN, alkaline phosphatase (AKP) \\< 2.5\u00d7ULN, total bilirubin (TBIL) \\< 1.5\u00d7ULN.\n12. Has adequate kidney function: serum creatinine \\< 1.5\u00d7ULN.\n13. Contraception during treatment for women of childbearing age.\n14. Has adequate cardiac function: echocardiography showed left ventricular ejection fraction (LVEF) \\> 50%.\n15. Participants voluntarily joined the study, has signed informed consent before any trial related activities are conducted, has good compliance and has agreed to follow-up.\n\nExclusion Criteria:\n\n1. Has received previous chemotherapy for late stage disease.\n2. Has bilateral breast cancer or bilateral carcinoma in situ.\n3. Has metastatic (Stage 4) breast cancer.\n4. Has clinical T4 lesion (UICC1987) (with skin involvement, mass adhesion and fixation, and inflammatory breast cancer).\n5. Has received neoadjuvant therapy (include chemotherapy, targeted therapy, radiotherapy or endocrine therapy).\n6. Has previous history of additional malignancy(with the exception of adequately treated basal cell carcinoma and cervical carcinoma in situ), including contralateral breast cancer.\n7. Is already participating in another clinical trial.\n8. Has severe systemic disease and/or uncontrolled infection.\n9. Has insufficient cardiac function: echocardiography showed LVEF\\< 50%.\n10. Has suffered from severe cardiovascular and cerebrovascular diseases disease within the 6 months previous of randomization (such as unstable angina, chronic heart failure, uncontrolled hypertension with blood pressure\\>150/90 mmHg, myocardial infarction, or cerebrovascular accident.\n11. Has known allergy to chemotherapy drugs used in this study.\n12. Is pregnant, is breast feeding, or is a woman of childbearing age who cannot practice effective contraceptives during treatment and until 8 weeks after the end of treatment.\n13. Has entered the study, but pre-treatment examination showed a positive pregnancy test.\n14. Has a history of mental disorders, cognitive impairment, inability to understand the study protocol and side effects, inability to complete the study protocol and follow-up workers (systematic evaluation is required before the patient is enrolled into the study), or is without independent civil capacity.\n15. The researchers judged patients to be unsuitable for the study.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "ZhiMin Shao, MD, PhD",
+          "affiliation": "Fudan University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cancer Hospital Affiliated to Fudan University",
+          "city": "Shanghai",
+          "state": "Shanghai Municipality",
+          "zip": "200032",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D016190",
+          "term": "Carboplatin"
+        },
+        {
+          "id": "D015251",
+          "term": "Epirubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D000068878",
+          "term": "Trastuzumab"
+        },
+        {
+          "id": "C485206",
+          "term": "pertuzumab"
+        },
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D056831",
+          "term": "Coordination Complexes"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

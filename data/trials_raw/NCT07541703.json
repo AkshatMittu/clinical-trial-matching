@@ -1,0 +1,253 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07541703",
+      "orgStudyIdInfo": {
+        "id": "ABCSG TR Spotlight"
+      },
+      "organization": {
+        "fullName": "Spotlight Medical",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Independent, External, Blinded Retrospective Validation of an AI-based Prognostic Assay in ER-Positive/HER2-Negative Early Breast Cancer",
+      "officialTitle": "ABCSG TR Spotlight: Validation of an Artificial Intelligence-based Prognostic Assay in ER+/HER2- Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-04-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-03-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-03-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-04-10",
+      "studyFirstSubmitQcDate": "2026-04-16",
+      "studyFirstPostDateStruct": {
+        "date": "2026-04-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Spotlight Medical",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Austrian Breast & Colorectal Cancer Study Group",
+          "class": "NETWORK"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This retrospective observational study evaluates the prognostic performance of a locked Artificial Intelligence (AI)-based assay in patients with Estrogen Receptor (ER)-positive, Human Epidermal Growth Factor Receptor 2 (HER2)-negative early breast cancer (EBC) from Austrian Breast \\& Colorectal Cancer Study Group (ABCSG)-8, with extended follow-up from ABCSG-16 where available. ABCSG will provide digitized hematoxylin and eosin (H\\&E) slides and required baseline clinicopathologic variables to Spotlight Medical without outcome data for blinded assay inference. ABCSG will then perform the prespecified statistical analyses linking assay outputs to clinical outcomes.",
+      "detailedDescription": "This is an independent, external, blinded, retrospective validation study of a locked AI-based prognostic assay in ER-positive/HER2-negative EBC.\n\nThe source population consists of eligible patients from ABCSG-8 with available archived tumor material suitable for H\\&E slide digitization, with extended follow-up from ABCSG-16 where available. Primary analyses will be conducted in patients with slides that pass prespecified quality control and with required baseline clinicopathologic variables available or derivable according to the prespecified statistical analysis plan.\n\nThe assay generates a continuous prognostic score and predefined risk categories using one digitized H\\&E-stained surgical resection slide together with routine baseline clinicopathologic variables. Spotlight Medical will generate assay predictions while blinded to clinical outcomes. ABCSG will conduct the statistical analyses according to a prespecified protocol and statistical analysis plan.\n\nThe primary objective is validation of the association of the assay with time to distant recurrence. Secondary objectives are validation of the association of the assay with disease-free survival and overall survival."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Early Breast Cancer",
+        "ER-Positive HER2-Negative Breast Cancer"
+      ],
+      "keywords": [
+        "digital pathology",
+        "artificial intelligence",
+        "prognostic assay",
+        "distant recurrence",
+        "ABCSG-8",
+        "ABCSG-16",
+        "endocrine therapy",
+        "whole slide imaging"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITHOUT_DNA",
+        "description": "Archived pseudonymized primary breast tumor material from ABCSG-8 used to prepare H\\&E-stained slides for digitization. No additional biospecimens are collected for this study."
+      },
+      "enrollmentInfo": {
+        "count": 2200,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Eligible ABCSG-8 cohort",
+          "description": "Eligible patients from ABCSG-8 within the ER-positive/HER2-negative validation population, with available tumor material for H\\&E digitization and required baseline clinicopathologic variables, and with extended clinical follow-up from ABCSG-16 where available.",
+          "interventionNames": [
+            "Diagnostic Test: Locked AI-based prognostic assay"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Locked AI-based prognostic assay",
+          "description": "A locked AI-based assay applied to one digitized H\\&E-stained surgical resection slide and routine baseline clinicopathologic variables to generate a continuous prognostic score and predefined risk categories.",
+          "armGroupLabels": [
+            "Eligible ABCSG-8 cohort"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to distant recurrence",
+          "description": "Association of the continuous assay score and predefined risk categories with time to distant recurrence.",
+          "timeFrame": "From ABCSG-8 randomization to distant recurrence, assessed up to 15 years."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Disease-free survival",
+          "description": "Association of the continuous assay score and predefined risk categories with disease-free survival.",
+          "timeFrame": "From ABCSG-8 randomization to first disease-free survival event, assessed up to 15 years."
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Association of the continuous assay score and predefined risk categories with overall survival.",
+          "timeFrame": "From ABCSG-8 randomization to death from any cause, assessed up to 15 years."
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Early distant recurrence (0 to 5 years)",
+          "description": "Association of the continuous assay score and predefined risk categories with time to distant recurrence during the first 5 years after randomization.",
+          "timeFrame": "From ABCSG-8 randomization to distant recurrence within 5 years after randomization."
+        },
+        {
+          "measure": "Late distant recurrence (>5 years, landmark analysis)",
+          "description": "Association of the continuous assay score and predefined risk categories with time to distant recurrence beyond 5 years after randomization, assessed using a landmark analysis among patients event-free at 5 years.",
+          "timeFrame": "From 5 years after ABCSG-8 randomization to distant recurrence, assessed from year 5 up to 15 years after randomization."
+        },
+        {
+          "measure": "Treatment-by-assay interaction for distant recurrence",
+          "description": "Assessment of the interaction between randomized treatment and the continuous assay score or predefined risk categories for time to distant recurrence.",
+          "timeFrame": "From ABCSG-8 randomization to distant recurrence, assessed up to 15 years."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female patients enrolled in ABCSG-8\n* Postmenopausal patients with ER-positive/HER2-negative early invasive breast cancer\n* Available archived primary tumor material suitable for H\\&E slide digitization\n* Available required baseline clinicopathologic variables or variables derivable according to the prespecified statistical analysis plan\n* Patients with permission for inclusion in this retrospective translational research study\n\nExclusion Criteria:\n\n* No suitable archived primary tumor material for H\\&E slide digitization\n* Missing required baseline clinicopathologic variables not recoverable according to the prespecified statistical analysis plan\n* No analyzable follow-up for the endpoint of interest",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Postmenopausal women with hormone receptor-positive early breast cancer enrolled in ABCSG-8, restricted in this validation study to the ER-positive/HER2-negative subgroup with available archived tumor material and required baseline clinicopathologic variables.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Michael Gnant, Univ.-Prof. Dr.",
+          "affiliation": "Medical University of Vienna",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Martin Filipits, Assoc.Prof.Univ.-Doz.Mag.Dr.",
+          "affiliation": "Medical University of Vienna",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Medical University of Vienna, Center of Cancer Research",
+          "city": "Vienna",
+          "country": "Austria",
+          "geoPoint": {
+            "lat": 48.20849,
+            "lon": 16.37208
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40845255",
+          "type": "BACKGROUND",
+          "citation": "Bidard FC, Gessain G, Bachelot T, Frechin L, Vincent-Salomon A, Drubay D, Lemonnier J, Walter T, Penault-Llorca F, Martin AL, Gaudin C, Bichat A, Sassi F, Berlemont S, Chavez-MacGregor M, Rugo HS, Badoual C, Pistilli B, Ribeiro J, Di Meglio A, Lacroix-Triki M, Vaz Luis I, Lerousseau M, Andre F. Identifying Patients With Low Relapse Rate Despite High-Risk Estrogen Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Early Breast Cancer: Development and Validation of a Clinicopathologic Assay. J Clin Oncol. 2025 Oct;43(28):3090-3101. doi: 10.1200/JCO-25-00742. Epub 2025 Aug 22."
+        },
+        {
+          "pmid": "34320285",
+          "type": "BACKGROUND",
+          "citation": "Gnant M, Fitzal F, Rinnerthaler G, Steger GG, Greil-Ressler S, Balic M, Heck D, Jakesz R, Thaler J, Egle D, Manfreda D, Bjelic-Radisic V, Wieder U, Singer CF, Melbinger-Zeinitzer E, Haslbauer F, Sevelda P, Trapl H, Wette V, Wimmer K, Gampenrieder SP, Bartsch R, Kacerovsky-Strobl S, Suppan C, Brunner C, Deutschmann C, Soelkner L, Fesl C, Greil R; Austrian Breast and Colorectal Cancer Study Group. Duration of Adjuvant Aromatase-Inhibitor Therapy in Postmenopausal Breast Cancer. N Engl J Med. 2021 Jul 29;385(5):395-405. doi: 10.1056/NEJMoa2104162."
+        },
+        {
+          "pmid": "22271481",
+          "type": "BACKGROUND",
+          "citation": "Dubsky PC, Jakesz R, Mlineritsch B, Postlberger S, Samonigg H, Kwasny W, Tausch C, Stoger H, Haider K, Fitzal F, Singer CF, Stierer M, Sevelda P, Luschin-Ebengreuth G, Taucher S, Rudas M, Bartsch R, Steger GG, Greil R, Filipcic L, Gnant M. Tamoxifen and anastrozole as a sequencing strategy: a randomized controlled trial in postmenopausal patients with endocrine-responsive early breast cancer from the Austrian Breast and Colorectal Cancer Study Group. J Clin Oncol. 2012 Mar 1;30(7):722-8. doi: 10.1200/JCO.2011.36.8993. Epub 2012 Jan 23."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

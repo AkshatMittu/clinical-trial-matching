@@ -1,0 +1,574 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07211178",
+      "orgStudyIdInfo": {
+        "id": "TP-CA-010"
+      },
+      "organization": {
+        "fullName": "Tempus AI",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluating Minimal Residual Disease (MRD) Through Longitudinal Circulating Tumor DNA (ctDNA) Profiling in Breast Malignancies",
+      "officialTitle": "Evaluating Minimal Residual Disease (MRD) Through Longitudinal Circulating Tumor DNA (ctDNA) Profiling in Breast Malignancies",
+      "acronym": "GEMINI Breast"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-10-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2032-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-19",
+      "studyFirstSubmitQcDate": "2025-09-29",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Tempus AI",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "For patients with breast cancer, it's important to find any remaining cancer cells after they've had their main treatment. Even a few cells, called minimal residual disease (MRD), can lead to the cancer coming back later.\n\nA way to find these cells is by looking for tiny bits of cancer DNA that are shed into the blood. This is called circulating tumor DNA (ctDNA). A simple blood test, often called a liquid biopsy, can detect this ctDNA. This research aims to see if finding this cancer DNA in the blood can help predict if a patient's cancer will return. It also may help find out if the treatment is working.\n\nUltimately, the results of this research may help doctors better manage breast cancer and develop new and improved tests and treatments."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "TNBC - Triple-Negative Breast Cancer",
+        "HR Positive/HER-2 Negative Breast Cancer",
+        "HER2 + Breast Cancer",
+        "Early Stage Breast Cancer"
+      ],
+      "keywords": [
+        "Minimal Residual Disease",
+        "MRD",
+        "Next generation sequencing",
+        "NGS",
+        "ctDNA",
+        "Early Stage Breast Cancer",
+        "TNBC - Triple Negative Breast Cancer",
+        "HR positive / HER-2 negative breast cancer",
+        "HER2+ breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Saliva, blood and leftover tissue will be collected in the study."
+      },
+      "enrollmentInfo": {
+        "count": 900,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort 1: Neoadjuvant Therapy",
+          "description": "There are no interventions in this observational study. Cohort 1 includes participants who will receive neoadjuvant treatment prior to surgery.",
+          "interventionNames": [
+            "Other: There are no interventions in this observational study."
+          ]
+        },
+        {
+          "label": "Cohort 2: Adjuvant Therapy / Surveillance",
+          "description": "There are no interventions in this observational study. Cohort 2 includes participants who will receive adjuvant therapy after surgery.",
+          "interventionNames": [
+            "Other: There are no interventions in this observational study."
+          ]
+        },
+        {
+          "label": "Cohort 3: 5 Years Post-Diagnosis Surveillance",
+          "description": "There are no interventions in this observational study. Cohort 3 includes participants who have no evidence of disease for at least 5 years post diagnosis.",
+          "interventionNames": [
+            "Other: There are no interventions in this observational study."
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "There are no interventions in this observational study.",
+          "description": "There are no interventions in this observational study.",
+          "armGroupLabels": [
+            "Cohort 1: Neoadjuvant Therapy",
+            "Cohort 2: Adjuvant Therapy / Surveillance",
+            "Cohort 3: 5 Years Post-Diagnosis Surveillance"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease-Free Survival (iDFS) stratified by MRD status during neoadjuvant, post-surgery landmark, post definitive treatment (surveillance), and long-term follow-up",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Distant disease free survival rates stratified by MRD status during neoadjuvant treatment",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Overall Survival rates stratified by MRD status during neoadjuvant treatment, post-surgery landmark, post definitive treatment (surveillance), and long-term follow-up",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Pathologic Complete Response (pCR) or Residual Cancer Burden (RCB) rate stratified by MRD status at post-surgery landmark",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Time from First Positive MRD Sample to Recurrence",
+          "timeFrame": "5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nAll Cohorts:\n\n1. Willing and able to participate in the research and provide biospecimens\n2. Willing and able to provide informed consent\n3. Must be diagnosed with breast cancer\n\nCohort 1: Neoadjuvant Treatment Cohort 1A: Newly Diagnosed, High Risk HR+,HER2-\n\n1. A known or suspected HR+, HER2- breast cancer treated with curative intent (Stage II to III disease)\n2. Patients are considered at high risk of recurrence, defined as 4 or more positive axillary lymph nodes (ALNs), or between 1-3 positive ALNs and either grade 3 disease or tumor size of 5 cm or larger.\n\nCohort 1B: HER2+ 1. A known or suspected HER2+ breast cancer treated with curative intent (Stage II to III disease). Inclusive of HR+ or HR- patients.\n\nCohort 1C: Triple Negative Breast Cancer\n\n1\\. A known or suspected triple negative breast cancer treated with curative intent (Stage I to III disease).\n\nCohort 2: Adjuvant Therapy / Surveillance Cohort 2A: Newly Diagnosed HR+,HER2-\n\n1. A known or suspected HR+, HER2- breast cancer treated with curative intent (Stage II to III disease)\n2. Patients are considered at high risk of recurrence, defined as 4 or more positive axillary lymph nodes (ALNs), or between 1-3 positive ALNs and either grade 3 disease or tumor size of 5 cm or larger.\n3. Have undergone curative intent surgery with no clinical evidence of disease.\n\nCohort 2B: HER2+\n\n1. A known or suspected HER2+ breast cancer treated with curative intent (Stage II to III disease)\n2. Have undergone curative intent surgery with no clinical evidence of disease.\n\nCohort 2C: Triple Negative Breast Cancer\n\n1. A known or suspected triple negative breast cancer treated with curative intent (Stage I to III disease)\n2. Have undergone curative intent surgery with no clinical evidence of disease.\n\nCohort 3: 5-Years Post-Diagnosis Surveillance (NED)\n\n1. A known HR+, HER2- breast cancer treated with curative intent (Stage II to III disease).\n2. No Evidence of Disease (NED) \u2265 5 years from initial diagnosis.\n3. Patients are considered at high risk of recurrence, defined as 4 or more positive axillary lymph nodes (ALNs), or between 1-3 positive ALNs and either grade 3 disease or tumor size of 5 cm or larger.\n\nExclusion Criteria:\n\n1. Not willing or able to adhere with the study procedures\n2. Active secondary malignancy\n3. Diagnosis of a malignancy within 3 years of breast cancer diagnosis Note: Ductal carcinoma in situ (DCIS, ipsilateral or contralateral) within 3 years is not excluded.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "99 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The population of this study includes early stage breast cancer patients with triple negative breast cancer (Stages I to III), HER2 positive (Stages II and III), and high risk HR positive HER-2 negative (Stages II and III).",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "GEMINI Breast Clinical Study Manager",
+          "role": "CONTACT",
+          "phone": "(833) 514-4187",
+          "email": "gemini-breast@tempus.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Michelle Ting-Lin, MD",
+          "affiliation": "Tempus AI",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Birmingham Hematology Associates",
+          "status": "RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35223",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Amanda Joseph",
+              "role": "CONTACT",
+              "email": "Amanda.Joseph@alabamaoncology.com"
+            },
+            {
+              "name": "Matthew Tucker",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "PIH Health Whittier Hospital",
+          "status": "RECRUITING",
+          "city": "Whittier",
+          "state": "California",
+          "zip": "90602",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lucia Nguyen",
+              "role": "CONTACT",
+              "phone": "562-698-0811",
+              "email": "lucia.nguyen@pihhealth.org"
+            },
+            {
+              "name": "Lisa Wang",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.97918,
+            "lon": -118.03284
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Florida",
+          "status": "RECRUITING",
+          "city": "Weston",
+          "state": "Florida",
+          "zip": "33331",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Maria Dimayuga",
+              "role": "CONTACT",
+              "email": "dimayum@ccf.org"
+            },
+            {
+              "name": "Thomas Samuel, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.10037,
+            "lon": -80.39977
+          }
+        },
+        {
+          "facility": "Southern Illinois Hospital Services",
+          "status": "RECRUITING",
+          "city": "Carbondale",
+          "state": "Illinois",
+          "zip": "62902",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sumita Kolay",
+              "role": "CONTACT",
+              "email": "Sumita.kolay@sih.net"
+            },
+            {
+              "name": "Mohammad Popalzi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.72727,
+            "lon": -89.21675
+          }
+        },
+        {
+          "facility": "Cancer Care Specialist of Illinois",
+          "status": "RECRUITING",
+          "city": "O'Fallon",
+          "state": "Illinois",
+          "zip": "62269",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kaitlynn Knapp",
+              "role": "CONTACT",
+              "email": "kkapp@ccsci.net"
+            },
+            {
+              "name": "James Wade",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.59227,
+            "lon": -89.91121
+          }
+        },
+        {
+          "facility": "Goshen Center for Cancer Care",
+          "status": "RECRUITING",
+          "city": "Goshen",
+          "state": "Indiana",
+          "zip": "46526",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kim Neff",
+              "role": "CONTACT",
+              "email": "kneff2@goshenhealth.com"
+            },
+            {
+              "name": "James Wheeler",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.58227,
+            "lon": -85.83444
+          }
+        },
+        {
+          "facility": "Trinity Health",
+          "status": "RECRUITING",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48106",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Christina Munson",
+              "role": "CONTACT",
+              "email": "christina.munson@trinity-health.org"
+            },
+            {
+              "name": "Tareq Al baghdadi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Oncology Hematology Associates",
+          "status": "RECRUITING",
+          "city": "Springfield",
+          "state": "Missouri",
+          "zip": "65807",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Adrianna Moore",
+              "role": "CONTACT",
+              "email": "Adrianna.Moore@aoncology.com"
+            },
+            {
+              "name": "Roger Holden",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.21533,
+            "lon": -93.29824
+          }
+        },
+        {
+          "facility": "Cancer Care Specialist of Reno",
+          "status": "RECRUITING",
+          "city": "Reno",
+          "state": "Nevada",
+          "zip": "89511",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Layla Quinonez",
+              "role": "CONTACT",
+              "email": "lquinonez@ccsreno.com"
+            },
+            {
+              "name": "Sowjanya Reganti",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.52963,
+            "lon": -119.8138
+          }
+        },
+        {
+          "facility": "Summit Medical Group",
+          "status": "RECRUITING",
+          "city": "Florham Park",
+          "state": "New Jersey",
+          "zip": "07932",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Michelle Mackenzie",
+              "role": "CONTACT",
+              "email": "mmackenzie@summithealth.com"
+            },
+            {
+              "name": "Steven Parish",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.78788,
+            "lon": -74.38821
+          }
+        },
+        {
+          "facility": "University of Cincinnati Medical Center",
+          "status": "RECRUITING",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "zip": "45219",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Andrea Whitley",
+              "role": "CONTACT",
+              "email": "whitleal@ucmail.uc.edu"
+            },
+            {
+              "name": "Kerri McGovern, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.12711,
+            "lon": -84.51439
+          }
+        },
+        {
+          "facility": "Nashville General",
+          "status": "RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37208",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shatika Phillips",
+              "role": "CONTACT",
+              "email": "shatika.phillips@nashvilleha.org"
+            },
+            {
+              "name": "Robin Jacob",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Cancer Care Northwest",
+          "status": "RECRUITING",
+          "city": "Spokane Valley",
+          "state": "Washington",
+          "zip": "99216",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rachel Bender",
+              "role": "CONTACT",
+              "email": "Rachel.Bender@ccnw.net"
+            },
+            {
+              "name": "Nikolas Rademaker",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.67323,
+            "lon": -117.23937
+          }
+        },
+        {
+          "facility": "Gunderson Health",
+          "status": "RECRUITING",
+          "city": "La Crosse",
+          "state": "Wisconsin",
+          "zip": "54601",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Charlie Abney",
+              "role": "CONTACT",
+              "email": "charlie.abney@emplifyhealth.org"
+            },
+            {
+              "name": "Paul Letendre",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.80136,
+            "lon": -91.23958
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "id": "D018365",
+          "term": "Neoplasm, Residual"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

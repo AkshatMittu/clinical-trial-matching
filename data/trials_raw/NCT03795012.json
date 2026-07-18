@@ -1,0 +1,383 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03795012",
+      "orgStudyIdInfo": {
+        "id": "MedOPP167"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-004324-30",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "MedSIR",
+        "class": "OTHER"
+      },
+      "briefTitle": "Trial With Eribulin or Eribulin+ Endocrine Therapy in Locally-recurrent or Metastatic Breast Cancer Patients",
+      "officialTitle": "A Multicenter, Randomized, Phase II Trial Evaluating the Efficacy of Eribulin Monotherapy and Eribulin Plus Endocrine Therapy in Locally-recurrent or Metastatic Breast Cancer Patients After Progression on Endocrine Therapy (REVERT)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-08",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Slow recruitment rate",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-04-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-03-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2021-03-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-01-04",
+      "studyFirstSubmitQcDate": "2019-01-04",
+      "studyFirstPostDateStruct": {
+        "date": "2019-01-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2021-08-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-08-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "MedSIR",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Unresectable, ER-positive and/or PR-positive and HER2-negative locally-recurrent or metastatic breast cancer (mBC).",
+      "detailedDescription": "Pre- and post-menopausal women age \u2265 18 years with unresectable, ER-positive and/or PR-positive and HER2-negative locally-recurrent or metastatic breast cancer (mBC) with no prior line of chemotherapy in the metastatic setting, and that have shown progression while on an aromatase inhibitor-containing regimen in the metastatic setting or within six months from last aromatase inhibitor dose in the adjuvant setting. Patients must have received at least one taxane or anthracycline regimen in either the adjuvant or the neoadjuvant setting. Subjects must have adequate bone marrow and creatinine clearance functions."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "breast cancer",
+        "Unresectable",
+        "ER",
+        "PR",
+        "Her2",
+        "recurrent",
+        "metastatic"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 22,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Eribulin monotherapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive eribulin injections intravenously on days 1 and 8 of every 21- day cycle",
+          "interventionNames": [
+            "Drug: Eribulin"
+          ]
+        },
+        {
+          "label": "eribulin plus endocrine therapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients will receive eribulin injections intravenously on days 1 and 8 of every 21- day cycle, in combination with endocrine therapy (aromatase inhibitor). AI must be identical to the last AI administered to the patient, whether in the adjuvant or metastatic setting.",
+          "interventionNames": [
+            "Drug: Eribulin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Eribulin",
+          "description": "Patients will receive eribulin injections intravenously on days 1 and 8 of every 21-day cycle alone.",
+          "armGroupLabels": [
+            "Eribulin monotherapy",
+            "eribulin plus endocrine therapy"
+          ],
+          "otherNames": [
+            "Halaven"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The overall response rate (ORR)",
+          "description": "The overall response rate (ORR) in the eribulin + ET arms, defined as the proportion of patients with best overall response of confirmed complete response or partial response based on local investigator's assessment according to Response Evaluation Criteria In Solid Tumours (RECIST) criteria v. 1.11.",
+          "timeFrame": "Baseline up to 27 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The progression-free survival (PFS)",
+          "description": "The progression-free survival (PFS) for patients treated with endocrine therapy alone or in combination with eribulin is defined as the time from randomization until death by any cause or objective tumor progression based on local investigator's assessment according to Response Evaluation Criteria In Solid Tumours (RECIST) criteria v. 1.11.",
+          "timeFrame": "Baseline up to 27 months"
+        },
+        {
+          "measure": "PFS-2, in the eribulin and the eribulin + ET arms",
+          "description": "The PFS-2, in the eribulin and the eribulin + ET arms, defined as the time from the randomization to the second disease progression or death, i.e., PFS after the next line of treatment, based on local investigator's assessment according to Response Evaluation Criteria In Solid Tumours (RECIST) criteria v. 1.11.",
+          "timeFrame": "Baseline up to 27 months"
+        },
+        {
+          "measure": "Overall response rate (ORR) in the eribulin arm",
+          "description": "The overall response rate (ORR) in the eribulin arm, defined as the proportion of patients with best overall response of confirmed complete response or partial response based on local investigator's assessment according to Response Evaluation Criteria In Solid Tumours (RECIST) criteria v. 1.11.",
+          "timeFrame": "Baseline up to 27 months"
+        },
+        {
+          "measure": "The duration of response (DOR) in the eribulin and the eribulin + ET arms",
+          "description": "The duration of response (DOR) in the eribulin and the eribulin + ET arms, defined as the time from the start of the treatment to disease progression based on local investigator's assessment according to Response Evaluation Criteria In Solid Tumours (RECIST) criteria v. 1.11.",
+          "timeFrame": "Baseline up to 27 months"
+        },
+        {
+          "measure": "The clinical benefit rate (CBR) in the eribulin and the eribulin + ET arms",
+          "description": "The clinical benefit rate (CBR) in the eribulin and the eribulin + ET arms, defined as the proportion of patients with no disease progression after 6 months of therapy, based on local investigator's assessment according to Response Evaluation Criteria In Solid Tumours (RECIST) criteria v. 1.11.",
+          "timeFrame": "Baseline up to 27 months"
+        },
+        {
+          "measure": "The overall survival (OS) in the eribulin and the eribulin + ET arms",
+          "description": "The overall survival (OS) in the eribulin and the eribulin + ET arms, defined as the length of time that patients remain alive from the start of treatment (OS will be collected at the end of the study).",
+          "timeFrame": "Baseline up to 27 months"
+        },
+        {
+          "measure": "Maximum Tumor shrinkage",
+          "description": "Maximum Tumor shrinkage, defined as the percentage of tumor shrinkage from baseline (obtained from the sum of the largest diameters of the target lesions), based on local investigator's assessment according to RECIST criteria guidelines (version 1.1)1.",
+          "timeFrame": "Baseline up to 27 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* ER-positive and/or PR-positive breast cancer.\n* HER2-negative breast cancer.\n* Unresectable locally advanced or metastatic breast cancer.\n* Confirmed disease progression while in the last aromatase inhibition-containing regimen in the metastatic setting.\n* At least one taxane or anthracycline regimen in either the adjuvant or the neoadjuvant setting.\n* Patients with no prior line of chemotherapy in the metastatic setting.\n* At least 1 and up to 3 prior lines of endocrine therapy in the metastatic setting.\n* ECOG score 0 or 1.\n* Patients have adequate bone marrow and organ function.\n* Patients must have measurable disease (RECIST v.1.1).\n* Premenopausal with LHRH analogues for at least 28 days) and postmenopausal women.\n* Patients must agree to not breastfeed during the study and for 3 months after the last dose of study treatment.\n* Life expectancy greater or equal to 12 weeks.\n* Patients agree to collection of blood samples (liquid biopsy) and optional collection of metastatic tumour sample (biopsy) at the time of inclusion and progression (if appropriate).\n\nExclusion Criteria:\n\n* Have received radiation therapy or limited-field palliative radiotherapy within two weeks prior to Cycle 1, Day 1, or patients who have not recovered from radiotherapy-related toxicities.\n* Have received prior chemotherapy for locally advanced or metastatic disease.\n* Have peripheral neuropathy grade 2 or greater.\n* QTc \\> 480 msec on basal assessments, history of congenital or personal history of long QT syndrome, Brugada syndrome, or Torsade de Pointes (TdP), or uncontrolled electrolyte disorders\n* Child-bearing potential women not using highly effective methods of contraception.\n* Known hypersensitivity to eribulin, endocrine therapy or its excipients.\n* Other malignancies within the previous two years except adequately treated basal cell or squamous cell skin cancer or carcinoma in situ of cervix or breast.\n* Known uncontrolled metastases to the central nervous system (CNS) or any progressing CNS disease.\n* Have a serious concomitant systemic disorder incompatible with the study.\n* Major surgical procedure or significant traumatic injury within 28 days prior to randomization.\n* Have received any anti-cancer biology or investigational treatment within 30 days prior to randomization.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Javier Cort\u00e9s, PhD",
+          "affiliation": "MedSIR",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital de Ja\u00e9n",
+          "city": "Ja\u00e9n",
+          "state": "Ja\u00e9n",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Hospital Quiron Dexeus",
+          "city": "Barcelona",
+          "state": "Please Select",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Institut Catal\u00e0 d'Oncologia",
+          "city": "Girona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Complejo Asistencial Universitario de Le\u00f3n",
+          "city": "Le\u00f3n",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.60003,
+            "lon": -5.57032
+          }
+        },
+        {
+          "facility": "Hospital Ram\u00f3n y Cajal",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Paz,",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Son Llatzer",
+          "city": "Palma de Mallorca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Hospital Universitario Dr Peset",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Miguel Servet",
+          "city": "Zaragoza",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "annotationSection": {
+    "annotationModule": {
+      "unpostedAnnotation": {
+        "unpostedResponsibleParty": "MedSIR",
+        "unpostedEvents": [
+          {
+            "type": "RELEASE",
+            "date": "2025-06-26"
+          },
+          {
+            "type": "RESET",
+            "date": "2025-07-14"
+          }
+        ]
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17",
+      "submissionTracking": {
+        "estimatedResultsFirstSubmitDate": "2025-06-26",
+        "submissionInfos": [
+          {
+            "releaseDate": "2025-06-26",
+            "resetDate": "2025-07-14"
+          }
+        ]
+      }
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D012008",
+          "term": "Recurrence"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D020969",
+          "term": "Disease Attributes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C490954",
+          "term": "eribulin"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

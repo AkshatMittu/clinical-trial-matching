@@ -1,0 +1,1057 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07214532",
+      "orgStudyIdInfo": {
+        "id": "25-085-NCP"
+      },
+      "organization": {
+        "fullName": "Natera, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Signatera-Guided CDK4/6 Inhibitor Therapy in Breast Cancer",
+      "officialTitle": "SIgnatera-Guided Initiation of Adjuvant CDK4/6 Inhibitor in Intermediate Risk HR+ HER2- Breast Cancer",
+      "acronym": "SIGNAL-ER 101"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-03-24",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2037-11-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2037-12-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-09-24",
+      "studyFirstSubmitQcDate": "2025-10-02",
+      "studyFirstPostDateStruct": {
+        "date": "2025-10-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Natera, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": true,
+      "isUnapprovedDevice": true,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the efficacy and safety of ctDNA-guided initiation of CDK4/6 inhibitor therapy using the Signatera\u2122 Designed on Genome test (referred to as \"Signatera Genome\") in participants with intermediate-risk HR+/HER2- early-stage breast cancer. Based on ctDNA test results, participants will either start CDK4/6 inhibitor therapy in addition to hormone therapy or continue hormone therapy with ongoing ctDNA surveillance. This study will compare outcomes to historical controls from the NataLEE trial to determine whether ctDNA-guided timing maintains efficacy while reducing unnecessary treatment. Participants will be followed for up to 9 years with regular blood draws, hormone therapy, imaging as needed, and quality-of-life assessments.",
+      "detailedDescription": "Participants with intermediate-risk, early-stage HR+/HER2- breast cancer will be enrolled in a prospective, single-arm, multicenter phase II study. Circulating tumor DNA (ctDNA) surveillance will be performed using the Signater Genome assay, which is customized for each participant from archived tumor and matched normal DNA to detect up to 64 tumor-specific variants in plasma.\n\nParticipants who are ctDNA positive at baseline will start CDK4/6 inhibitor therapy along with hormone therapy. Those who are ctDNA negative will continue hormone therapy with ctDNA testing every three months. If ctDNA becomes positive during surveillance, participants will first undergo staging to rule out distant disease before beginning CDK4/6 inhibitor therapy in addition to hormone therapy.\n\nAll participants will be followed for up to nine years to assess cancer outcomes. Four-year outcomes will be compared to historical controls from the NataLEE trial to evaluate whether ctDNA-guided timing maintains efficacy while reducing unnecessary treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms",
+        "Carcinoma, Ductal, Breast",
+        "Receptors, Estrogen (for ER-positive Requirement)"
+      ],
+      "keywords": [
+        "ctDNA",
+        "Circulating tumor DNA",
+        "Signatera",
+        "CDK4/6 inhibitor",
+        "Ribociclib",
+        "Abemaciclib",
+        "Molecular residual disease",
+        "MRD",
+        "Biomarker-guided therapy",
+        "Adjuvant therapy",
+        "Hormone receptor positive",
+        "HER2 negative",
+        "Early breast cancer",
+        "Intermediate risk breast cancer",
+        "breast cancer",
+        "Endocrine therapy",
+        "Tumor-informed assay"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This single-arm study uses circulating tumor DNA (ctDNA) testing to guide individualized treatment decisions. All participants undergo ctDNA surveillance every 3 months, with treatment pathways determined by test results rather than randomization. Participants with positive ctDNA receive CDK4/6 inhibitor therapy plus endocrine therapy, while those with negative results continue endocrine therapy alone with ongoing surveillance. Outcomes are compared to historical controls from the NataLEE trial using a non-inferiority design.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 725,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ctDNA-Guided Therapy",
+          "type": "EXPERIMENTAL",
+          "description": "All participants receive circulating tumor DNA (ctDNA) testing using Signatera Genome every 3 months to guide treatment decisions. Participants with positive ctDNA results initiate CDK4/6 inhibitor therapy (ribociclib or abemaciclib) in addition to standard endocrine therapy. Participants with negative ctDNA results continue endocrine therapy alone with ongoing ctDNA surveillance. All participants continue their assigned treatment pathway until disease progression, unacceptable toxicity, or study completion.",
+          "interventionNames": [
+            "Device: ctDNA-Guided Treatment Strategy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "ctDNA-Guided Treatment Strategy",
+          "description": "Circulating tumor DNA testing using Signatera Genome assay is performed every 3 months for up to 4 years to guide timing of CDK4/6 inhibitor initiation. Participants with positive ctDNA results initiate CDK4/6 inhibitor therapy (ribociclib or abemaciclib) plus standard endocrine therapy for a minimum of 2 years. Participants with negative ctDNA results continue endocrine therapy alone with ongoing surveillance. CDK4/6 inhibitor selection and endocrine therapy regimen per the physician's choice following standard-of-care guidelines.",
+          "armGroupLabels": [
+            "ctDNA-Guided Therapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease-Free Survival",
+          "description": "The primary objective of this study is to to evaluate disease free survival (iDFS) in patients with intermediate risk breast cancer receiving standard endocrine therapy with the addition of CDK4/6 inhibitor therapy upon positive ctDNA test results as compared to historical data of treated patients (NataLEE).",
+          "timeFrame": "From the date of surgery up to 9 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed and dated Informed Consent Form (ICF) obtained prior to any trial-specific screening procedure.\n2. Patient is \u2265 18 years-old at the time of ICF signature.\n3. Patient is female with known menopausal status at the time of initiation of adjuvant endocrine therapy (ET), or male.\n4. Patient with histologically confirmed unilateral and unifocal primary invasive adenocarcinoma of the breast prior to initiating adjuvant chemotherapy, if indicated, or within 6 months of initiating adjuvant endocrine therapy if chemotherapy is not indicated. Patients who receive neoadjuvant endocrine therapy or chemotherapy are allowed to enroll.\n5. Patient has breast cancer that is positive for ER and/or PR according to the local laboratory as determined on the most recently analyzed tissue sample.\n6. Patient has HER2-negative breast cancer defined as a negative in situ hybridization test (FISH, CISH, or SISH) or an immunohistochemistry (IHC) status of 0 or 1+. If IHC is 2+, a negative in situ hybridization (ISH) test is required to confirm the HER2-negative status.\n7. Patient has available archival tumor tissue from the diagnostic biopsy or surgical specimen, for submission to a central laboratory for Signatera testing (unless Signatera Genome clinical testing has already been performed).\n8. Patient after surgical resection where tumor was removed completely (i.e., negative microscopic margins on final pathology) and have Anatomic Stage II that is either:\n\n   * N1 or,\n   * If N0, T2 or T3 with G2-3 and/or Ki67\u226520% (testing for Ki67 not mandatory), excluding G1.\n\n   Notes:\n   1. Patients who received neoadjuvant treatment must meet the criteria for stage, grade, Ki67 in any presurgical staging/sample and/or in the surgical specimen.\n   2. Categorization into the AJCC 8th edition Anatomic Stage Groups requires determination of the T, N and M categories. ALND can be omitted.\n9. Patient has no contraindication to adjuvant ET and is planned to be treated with ET for 5 years (since enrollment date) or more.\n10. Provider and patient must be agreeable to initiate CDK4/6 inhibitors only upon ctDNA detection.\n11. Patient may have received up to 6 months of standard adjuvant ET at the time of enrollment and any amount of neoadjuvant endocrine therapy.\n12. Patient has an Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1.\n13. Patient must not have a clinical contraindication to ribociclib or abemaciclib.\n14. Patient must be willing and able to comply with scheduled visits, treatment plans, laboratory tests, and other trial procedures.\n15. Women of childbearing potential (CBP) must have a confirmed negative serum pregnancy test within 14 days prior to enrollment.\n16. Women of reproductive potential should be advised of the potential risk of CDK4/6 inhibitors to a fetus, and use effective contraception during CDK 4/6 inhibitor therapy.\n\nExclusion Criteria:\n\n1. Patient has had prior exposure to a CDK4/6 inhibitor.\n2. Patient is concurrently using hormone replacement therapy.\n3. Patient with a known contraindication or hypersensitivity to ribociclib or abemaciclib as per the FDA indication label.\n4. Patients with a multicentric and/or multifocal and synchronous contralateral breast cancer are ineligible.\n5. Patient with distant metastases of breast cancer beyond regional lymph nodes (stage IV according to AJCC 8th edition) and/or evidence of recurrence after curative surgery.\n6. Patient has a concurrent invasive malignancy or a prior invasive malignancy whose treatment was completed within 5 years before ICF signature. Note: Patients with prior or concurrent in situ malignancies are eligible provided that adequate curative treatment is completed prior to enrollment.\n7. Patient has any other concurrent severe and/or uncontrolled medical condition that would, in the Investigator's judgment, cause unacceptable safety risks, contraindicate patient participation in the clinical trial or compromise compliance with the protocol (e.g. chronic pancreatitis, chronic active hepatitis, liver cirrhosis or any other significant liver disease, active untreated or uncontrolled fungal, bacterial or viral infections, active infection requiring systemic antibacterial therapy, etc.) or limit life expectancy to \u22645 years.\n8. Patient participated in another interventional study and received treatment with an investigational product (or used an investigational device) within 30 days prior to enrollment or within 5 half-lives of the investigational product, whichever is longer.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Kayla Gelow, MS",
+          "role": "CONTACT",
+          "phone": "844-778-4700",
+          "email": "kgelow@natera.com"
+        },
+        {
+          "name": "Jessica Reyes, BS",
+          "role": "CONTACT",
+          "phone": "844-778-4700",
+          "email": "jguilford@natera.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Angel Rodriguez, MD",
+          "affiliation": "Natera, Inc.",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Alabama at Birmingham",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Birmingham",
+          "state": "Alabama",
+          "zip": "35294",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nusrat Jahan, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.52066,
+            "lon": -86.80249
+          }
+        },
+        {
+          "facility": "Mayo Clinic Arizona",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Phoenix",
+          "state": "Arizona",
+          "zip": "85054",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Shakeela Bahadur, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.44838,
+            "lon": -112.07404
+          }
+        },
+        {
+          "facility": "Honor Health Research Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nathan Solod",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Abhimanyu Ghose, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "name": "Wishwdeep Dhillon, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "University of Arizona Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85719",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sima Ehsani, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Adventist Health/AIS Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bakersfield",
+          "state": "California",
+          "zip": "93301",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Madiha Naseem, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.37329,
+            "lon": -119.01871
+          }
+        },
+        {
+          "facility": "Marin Cancer Care",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Greenbrae",
+          "state": "California",
+          "zip": "94904",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Cyrus Mazidi, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.94854,
+            "lon": -122.5247
+          }
+        },
+        {
+          "facility": "Loma Linda University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Loma Linda",
+          "state": "California",
+          "zip": "92354",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Gayathri Nagaraj, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.04835,
+            "lon": -117.26115
+          }
+        },
+        {
+          "facility": "UCLA David Geffen School of Medicine",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Santa Monica",
+          "state": "California",
+          "zip": "90404",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Marla Lipsyc-Sharf, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 34.01949,
+            "lon": -118.49138
+          }
+        },
+        {
+          "facility": "Stockton Hematology Oncology Medical Group",
+          "status": "RECRUITING",
+          "city": "Stockton",
+          "state": "California",
+          "zip": "95204",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lenzi Cook",
+              "role": "CONTACT",
+              "email": "lcook@shomg.net"
+            },
+            {
+              "name": "Ajithkumar Puthillath, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.9577,
+            "lon": -121.29078
+          }
+        },
+        {
+          "facility": "Kaiser Permanente NorCal",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Vallejo",
+          "state": "California",
+          "zip": "94589",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jennifer Suga, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.10409,
+            "lon": -122.25664
+          }
+        },
+        {
+          "facility": "Hartford Healthcare Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Hartford",
+          "state": "Connecticut",
+          "zip": "06102",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Richard Zelkowitz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.76371,
+            "lon": -72.68509
+          }
+        },
+        {
+          "facility": "Yale Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06520",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lajos Pusztai, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Baptist MD Anderson",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32207",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Vanessa Tolsa",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Dayra Avila-Lima, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Mayo Clinic Florida",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Pooja Advani, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "Jupiter Medical Cancer",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Jupiter",
+          "state": "Florida",
+          "zip": "33458",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Danielle Krol, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 26.93422,
+            "lon": -80.09421
+          }
+        },
+        {
+          "facility": "Miami Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Miami",
+          "state": "Florida",
+          "zip": "33176",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Reshma Mahtani, DO",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 25.77427,
+            "lon": -80.19366
+          }
+        },
+        {
+          "facility": "Ocala Oncology",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Ocala",
+          "state": "Florida",
+          "zip": "34474",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Rama Balaraman, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.1872,
+            "lon": -82.14009
+          }
+        },
+        {
+          "facility": "Northwestern University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60611",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Nicole Grzywacz",
+              "role": "CONTACT"
+            },
+            {
+              "name": "William Gradishar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Northwest Cancer Center",
+          "status": "RECRUITING",
+          "city": "Dyer",
+          "state": "Indiana",
+          "zip": "46311",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Mariela Abad",
+              "role": "CONTACT",
+              "email": "Mariela.Abad@usoncology.com"
+            },
+            {
+              "name": "Shruti Singh, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 41.4942,
+            "lon": -87.52171
+          }
+        },
+        {
+          "facility": "New England Cancer Specialists",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Westbrook",
+          "state": "Maine",
+          "zip": "04092",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Chiara Battelli, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.67703,
+            "lon": -70.37116
+          }
+        },
+        {
+          "facility": "Karmanos Cancer Center - Wayne State University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48201",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Allison Wolgast",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Jailan Elayoubi",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Cancer & Hematology Centers",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49504",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Jared Hogeterp",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Haritha Reddy",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "Munson Medical Center Cowell Family Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Traverse City",
+          "state": "Michigan",
+          "zip": "49684",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yelena Kier, DO",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.76306,
+            "lon": -85.62063
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Karthik Giridhar, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "Mercy Health - Sindelar Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63128",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Yifan Tu, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Mercy Health - Pratt Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Bethany Sleckman, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Cooper Health",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Camden",
+          "state": "New Jersey",
+          "zip": "08103",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Kamel Abou-Hussein, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.92595,
+            "lon": -75.11962
+          }
+        },
+        {
+          "facility": "Rutgers",
+          "status": "NOT_YET_RECRUITING",
+          "city": "New Brunswick",
+          "state": "New Jersey",
+          "zip": "08901",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Stephanie Farias",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Mridula George, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.48622,
+            "lon": -74.45182
+          }
+        },
+        {
+          "facility": "New York Cancer and Blood Specialists",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Babylon",
+          "state": "New York",
+          "zip": "11702",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Ivanna Novoa",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Richard Zuniga",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.69566,
+            "lon": -73.32568
+          }
+        },
+        {
+          "facility": "Atrium Levine Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Arielle Heeke, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Allegheny (AHN)",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15212",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Joseph Liput, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Sanford Health",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57104",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Allison Watson, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "West Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Karen Axley",
+              "role": "CONTACT"
+            },
+            {
+              "name": "Gary Tian, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "Vanderbilt",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Brent Rexer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Houston Methodist Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Houston",
+          "state": "Texas",
+          "zip": "77030",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Akshjot Puri, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 29.76328,
+            "lon": -95.36327
+          }
+        },
+        {
+          "facility": "Northwest Medical Specialties, PLLC",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Puyallup",
+          "state": "Washington",
+          "zip": "98373",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Sibel Blau, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.18538,
+            "lon": -122.2929
+          }
+        },
+        {
+          "facility": "Fred Hutch Cancer Center",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98109",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Lynn Symonds, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "MultiCare Cancer Institute",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Tacoma",
+          "state": "Washington",
+          "zip": "98405",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Blair Irwin, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 47.25288,
+            "lon": -122.44429
+          }
+        },
+        {
+          "facility": "West Virginia University",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26506",
+          "country": "United States",
+          "contacts": [
+            {
+              "name": "Bei Jiang, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37438589",
+          "type": "BACKGROUND",
+          "citation": "Cohen SA, Liu MC, Aleshin A. Practical recommendations for using ctDNA in clinical decision making. Nature. 2023 Jul;619(7969):259-268. doi: 10.1038/s41586-023-06225-y. Epub 2023 Jul 12."
+        },
+        {
+          "pmid": "39294027",
+          "type": "BACKGROUND",
+          "citation": "Kanjanapan Y, Anderson W, Smith M, Green J, Chalker E, Craft P. Real-World Analysis of Breast Cancer Patients Qualifying for Adjuvant CDK4/6 Inhibitors. Clin Breast Cancer. 2025 Feb;25(2):e159-e169.e2. doi: 10.1016/j.clbc.2024.08.022. Epub 2024 Aug 29."
+        },
+        {
+          "pmid": "37146605",
+          "type": "BACKGROUND",
+          "citation": "Magbanua MJM, Brown Swigart L, Ahmed Z, Sayaman RW, Renner D, Kalashnikova E, Hirst GL, Yau C, Wolf DM, Li W, Delson AL, Asare S, Liu MC, Albain K, Chien AJ, Forero-Torres A, Isaacs C, Nanda R, Tripathy D, Rodriguez A, Sethi H, Aleshin A, Rabinowitz M, Perlmutter J, Symmans WF, Yee D, Hylton NM, Esserman LJ, DeMichele AM, Rugo HS, van 't Veer LJ. Clinical significance and biology of circulating tumor DNA in high-risk early-stage HER2-negative breast cancer receiving neoadjuvant chemotherapy. Cancer Cell. 2023 Jun 12;41(6):1091-1102.e4. doi: 10.1016/j.ccell.2023.04.008. Epub 2023 May 4."
+        },
+        {
+          "pmid": "39216186",
+          "type": "BACKGROUND",
+          "citation": "Cutts R, Ulrich L, Beaney M, Robert M, Coakley M, Bunce C, Crestani GW, Hrebien S, Kalashnikova E, Wu HT, Dashner S, Sethi H, Aleshin A, Liu M, Ring A, Okines A, Smith IE, Barry P, Turner NC, Garcia-Murillas I. Association of post-operative ctDNA detection with outcomes of patients with early breast cancers. ESMO Open. 2024 Sep;9(9):103687. doi: 10.1016/j.esmoop.2024.103687. Epub 2024 Aug 30."
+        },
+        {
+          "pmid": "39241962",
+          "type": "BACKGROUND",
+          "citation": "Natarajan A, Tolaney SM. Is adjuvant ribociclib ready for prime time? Ann Oncol. 2024 Dec;35(12):1200-1201. doi: 10.1016/j.annonc.2024.08.2341. Epub 2024 Sep 4. No abstract available."
+        },
+        {
+          "pmid": "33630658",
+          "type": "BACKGROUND",
+          "citation": "Johnston SRD, Harbeck N, Toi M, Martin M, O'Shaughnessy J, Rastogi P. Reply to K. Hashimoto and A. Shimomura. J Clin Oncol. 2021 May 1;39(13):1507-1508. doi: 10.1200/JCO.20.03477. Epub 2021 Feb 25. No abstract available."
+        },
+        {
+          "pmid": "37888087",
+          "type": "BACKGROUND",
+          "citation": "Kay C, Martinez-Perez C, Dixon JM, Turnbull AK. The Role of Nodes and Nodal Assessment in Diagnosis, Treatment and Prediction in ER+, Node-Positive Breast Cancer. J Pers Med. 2023 Oct 8;13(10):1476. doi: 10.3390/jpm13101476."
+        },
+        {
+          "pmid": "35213669",
+          "type": "BACKGROUND",
+          "citation": "Nelson DR, Brown J, Morikawa A, Method M. Breast cancer-specific mortality in early breast cancer as defined by high-risk clinical and pathologic characteristics. PLoS One. 2022 Feb 25;17(2):e0264637. doi: 10.1371/journal.pone.0264637. eCollection 2022."
+        },
+        {
+          "pmid": "35626173",
+          "type": "BACKGROUND",
+          "citation": "Smolarz B, Nowak AZ, Romanowicz H. Breast Cancer-Epidemiology, Classification, Pathogenesis and Treatment (Review of Literature). Cancers (Basel). 2022 May 23;14(10):2569. doi: 10.3390/cancers14102569."
+        },
+        {
+          "pmid": "39817679",
+          "type": "BACKGROUND",
+          "citation": "Siegel RL, Kratzer TB, Giaquinto AN, Sung H, Jemal A. Cancer statistics, 2025. CA Cancer J Clin. 2025 Jan-Feb;75(1):10-45. doi: 10.3322/caac.21871. Epub 2025 Jan 16."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Ribociclib, With Adjuvant Endocrine Therapy for ER-positive Breast Cancer (LEADER)",
+          "url": "https://clinicaltrials.gov/study/NCT03285412"
+        },
+        {
+          "label": "D-gSLATfHRR, Estrogen Receptor Positive, HER-2 Negative Breast Cancer (DARE) (DARE)",
+          "url": "https://clinicaltrials.gov/study/NCT04567420"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D018270",
+          "term": "Carcinoma, Ductal, Breast"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D044584",
+          "term": "Carcinoma, Ductal"
+        },
+        {
+          "id": "D000230",
+          "term": "Adenocarcinoma"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009375",
+          "term": "Neoplasms, Glandular and Epithelial"
+        },
+        {
+          "id": "D009370",
+          "term": "Neoplasms by Histologic Type"
+        },
+        {
+          "id": "D018299",
+          "term": "Neoplasms, Ductal, Lobular, and Medullary"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

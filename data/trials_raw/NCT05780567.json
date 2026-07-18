@@ -1,0 +1,330 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05780567",
+      "orgStudyIdInfo": {
+        "id": "TQB3616-III-03"
+      },
+      "organization": {
+        "fullName": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Clinical Study on Adjuvant Therapy of TQB3616 Combined With Endocrine Therapy Compared With Placebo Combined With Endocrine Therapy in Patients With Breast Cancer",
+      "officialTitle": "Randomized, Double-blind, Parallel-controlled Phase III Trial to Evaluate the Efficacy and Safety of TQB3616 Combined With Endocrine Therapy Versus Placebo Combined With Endocrine Therapy in Hormone Receptors (HR)-Positive and Human Epidermal GrowthFactor Receptor-2 (HER2) -Negative Breast Cancer Adjuvant Therapy"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-04",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-03-10",
+      "studyFirstSubmitQcDate": "2023-03-10",
+      "studyFirstPostDateStruct": {
+        "date": "2023-03-22",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-04-16",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-04-17",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase III, randomized, double-blind, parallel, multi-center trail to evaluate the efficacy and safety of TQB3616 capsule combined with endocrine compared to placebo compared with endocrine in HR-positive and HER2-negative breast cancer adjuvant therapy. Approximately 1946 female subjects will be randomized to either TQB3616 combined with endocrine group or TQB3616-matching placebo combined endocrine group. Randomization will follow a 2:1 ratio, 1297 subjects in experimental group and 649 in the the Placebo Comparator group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1946,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "TQB3616 capsules combined with endocrine",
+          "type": "EXPERIMENTAL",
+          "description": "The dose of TQB3616 capsules is 180mg, taken orally when fasting, once a day for 28 consecutive days as one treatment cycle.\n\nThe dose of Letrozole is 2.5mg, taken orally, once a day for 28 consecutive days as one treatment cycle.\n\nThe dose of Anastrozole is 1mg, taken orally, once a day for 28 consecutive days as one treatment cycle.\n\nThe dose of Tamoxifen is 10mg, taken orally, twice a day for 28 consecutive days as one treatment cycle.",
+          "interventionNames": [
+            "Drug: TQB3616 capsules, Letrozole, Anastrozole, Tamoxifen"
+          ]
+        },
+        {
+          "label": "placebo combined with endocrine",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "The dose of placebo is 180mg, taken orally when fasting, once a day for 28 consecutive days as one treatment cycle.\n\nThe dose of Letrozole is 2.5mg, taken orally, once a day for 28 consecutive days as one treatment cycle.\n\nThe dose of Anastrozole is 1mg, taken orally, once a day for 28 consecutive days as one treatment cycle.\n\nThe dose of Tamoxifen is 10mg, taken orally, twice a day for 28 consecutive days as one treatment cycle.",
+          "interventionNames": [
+            "Drug: Placebo capsules, Letrozole, Anastrozole, Tamoxifen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TQB3616 capsules, Letrozole, Anastrozole, Tamoxifen",
+          "description": "TQB3616 is a novel Cyclin-dependent kinase (CDK) 4/6 inhibitor and currently being used in the treatment of a variety of malignant solid tumors.\n\nLetrozole combined with Anastrozole and Tamoxifen is an endocrine therapy that involves adding, blocking, or removing hormones. It can be used for conditions that affect hormone levels, such as breast cancer.",
+          "armGroupLabels": [
+            "TQB3616 capsules combined with endocrine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo capsules, Letrozole, Anastrozole, Tamoxifen",
+          "description": "Letrozole combined with Anastrozole and Tamoxifen is an endocrine therapy that involves adding, blocking, or removing hormones. It can be used for conditions that affect hormone levels, such as breast cancer.",
+          "armGroupLabels": [
+            "placebo combined with endocrine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease-Free Survival (IDFS)",
+          "description": "The time from the date of randomization to the first occurrence of the following events, including ipsilateral or contralateral recurrence of invasive breast cancer, regional or distant recurrence of invasive breast cancer, secondary primary malignancy outside the breast, and death from any cause.",
+          "timeFrame": "Baseline up to 60 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival (OS)",
+          "description": "The time from first administration to death of any cause.",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Disease Relapse Free Survival (DRFS)",
+          "description": "The time from the date of randomization to the first occurrence of distant recurrence or death from any cause.",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Incidence of adverse events",
+          "description": "Incidence of adverse events assessed according to the common terminology criteria for adverse events (CTCAE).",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Severity of adverse events",
+          "description": "Severity of adverse events assessed according to the common terminology criteria for adverse events (CTCAE).",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Incidence of abnormal laboratory test values",
+          "description": "Incidence of abnormal laboratory test values assessed according to the common terminology criteria for adverse events (CTCAE).",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Severity of abnormal laboratory test values",
+          "description": "Severity of abnormal laboratory test values assessed according to the common terminology criteria for adverse events (CTCAE).",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Incidence of serious adverse events",
+          "description": "Incidence of serious adverse events assessed according to the common terminology criteria for adverse events (CTCAE).",
+          "timeFrame": "Baseline up to 60 months"
+        },
+        {
+          "measure": "Severity of serious adverse events",
+          "description": "Severity of serious adverse events assessed according to the common terminology criteria for adverse events (CTCAE).",
+          "timeFrame": "Baseline up to 60 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The subjects voluntarily joined the study and signed the informed consent, with good compliance.\n* Age: 18-75 years old (upon signing the informed consent); Eastern Cooperative Oncology Group Performance Status (PS) score: 0\\~1;\n* Surgical treatment of radical mastectomy;\n* Pathological examination confirmed HR positive and HER2 negative invasive breast cancer;\n* The major organs are functioning well, meeting the following criteria\uff1a\n\n  1. Blood biochemical tests should meet the following criteria (no corrective therapy has been used within 7 days prior to screening)\uff1a\n\n     1. Hemoglobin (HB) \u226590 g/L\uff1b\n     2. Neutrophil absolute value (NEUT) \u2265 1.5\u00d7109/L\uff1b\n     3. Platelet count (PLT) \u2265 100 \u00d7109/L\uff1b\n  2. Blood biochemical tests should meet the following criteria (no corrective therapy has been used within 7 days prior to screening)\uff1a\n\n     1. Total bilirubin (TBIL) \u2264 1.5 times the upper limit of normal (ULN)\uff1b\n     2. Alanine transferase (ALT) and aspartate transferase (AST) \u2264 1.5\u00d7ULN\uff1b\n     3. Serum creatinine (Cr) \u2264 1.5\u00d7ULN, or creatinine clearance (Ccr) \u2265 60 ml/min\uff1b\n  3. Blood clotting tests must meet the following criteria (no anticoagulant therapy)\uff1a\n\n     1. Prothrombin time (PT) \u2264 1.5\u00d7ULN;\n     2. Activated partial thromboplastin time (APTT) \u2264 1.5\u00d7ULN;\n     3. International Normalized ratio (INR) \u2264 1.5\u00d7ULN.\n  4. Left ventricular ejection fraction (LVEF) \u226550%.\n\nExclusion Criteria:\n\n* Complicated diseases and medical history:\n\n  1. Has had other malignant tumors within 5 years or currently has other malignant tumors;\n  2. Have a variety of factors that affect oral medication (such as inability to swallow);\n  3. Current history of serious lung disease such as interstitial pneumonia\uff1b\n  4. Severe infections common terminology criteria for adverse events (\u2265CTCAE (common terminology criteria for adverse events) 2 grade) that were active or uncontrolled before the study treatment started (Except hair loss and hemoglobin)\uff1b\n* Known allergy to aromatase inhibitors, tamoxifen, TQB3616/ placebo, or any excipients;\n* There was a history of live attenuated vaccine vaccination within 28 days prior to randomization or live attenuated vaccine vaccination was planned during the study period;\n* Participated in clinical trials of other antitumor agents within 4 weeks prior to randomization\uff1b\n* The presence of other serious physical or mental illnesses or abnormalities in laboratory tests that may increase the risk of study participation or interfere with the study results, as well as subjects who are deemed unsuitable for study participation for other reasons by the investigator.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Cancer Hospital Chinese Academy of Medical Science",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "300020",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Suining Central Hospital",
+          "city": "Suining",
+          "state": "Sichuan",
+          "zip": "629099",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.50802,
+            "lon": 105.57332
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        },
+        {
+          "id": "D000077384",
+          "term": "Anastrozole"
+        },
+        {
+          "id": "D013629",
+          "term": "Tamoxifen"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D013267",
+          "term": "Stilbenes"
+        },
+        {
+          "id": "D001597",
+          "term": "Benzylidene Compounds"
+        },
+        {
+          "id": "D001555",
+          "term": "Benzene Derivatives"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

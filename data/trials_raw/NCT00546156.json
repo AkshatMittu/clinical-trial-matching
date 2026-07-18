@@ -1,0 +1,1862 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00546156",
+      "orgStudyIdInfo": {
+        "id": "07-130"
+      },
+      "organization": {
+        "fullName": "Dana-Farber Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Preoperative Dose-dense Doxorubicin and Cyclophosphamide Followed by Paclitaxel With Bevacizumab in Operable Breast Cancer",
+      "officialTitle": "A Phase II Study of Preoperative Dose-dense (dd) Doxorubicin and Cyclophosphamide (AC) Followed by Paclitaxel (T) With Bevacizumab in ER+ and/or PR+, HER2-negative Operable Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2007-10"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2011-10",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2012-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2007-10-17",
+      "studyFirstSubmitQcDate": "2007-10-17",
+      "studyFirstPostDateStruct": {
+        "date": "2007-10-18",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2013-03-22",
+      "resultsFirstSubmitQcDate": "2013-03-22",
+      "resultsFirstPostDateStruct": {
+        "date": "2013-05-10",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-04-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-05-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR_INVESTIGATOR",
+        "investigatorFullName": "Ian E. Krop, MD, PhD",
+        "investigatorTitle": "Medical Oncologist",
+        "investigatorAffiliation": "Dana-Farber Cancer Institute"
+      },
+      "leadSponsor": {
+        "name": "Ian E. Krop, MD, PhD",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Genentech, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Massachusetts General Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "Brigham and Women's Hospital",
+          "class": "OTHER"
+        },
+        {
+          "name": "New Hampshire Oncology-Hematology PA",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Dose dense chemotherapy, which is the term for Adriamycin and Cyclophosphamide (AC) followed by Taxol chemotherapy given every two weeks, is the standard chemotherapy for the treatment of ER+ or PR+ breast cancer. In this trial, the standard chemotherapy is being combined with bevacizumab. Bevacizumab is an antibody which works differently from the way other chemotherapy drugs work. Bevacizumab slows or stops cell growth in cancerous tumors by decreasing the blood supply to the tumors by binding to a substance found on cancer cells called VEGF (vascular endothelial growth factor). Bevacizumab is approved by the FDA for the treatment of colorectal cancer and lung cancer. However, it is not approved for the treatment of breast cancer. Another goal of this research is to determine whether we can develop a way to identify tumors that will respond well to this study treatment.",
+      "detailedDescription": "* To prepare for the surgery that will occur at the end of the study treatment, a small \"clip\" will be placed into the tumor area so that the surgeon can locate the site of the tumor at the time of surgery. This is a standard procedure for breast cancer.\n* During the clip placement, a needle will be inserted into the tumor to measure interstitial fluid pressure (IFP measurement). IFP is done for research purposes to help understand how the tumor responds to the study treatment.\n* Study treatment will begin with one dose of bevacizumab alone, followed two weeks later by chemotherapy and bevacizumab in eight two-week cycles. The study treatment will be given intravenously in the clinic.\n* After the first dose of bevacizumab and prior to starting chemotherapy, a needle biopsy of the breast tumor will be performed for research purposes. A second measurement of IFP will also be done at this time.\n* During the treatment period, tests and procedures will be performed at specified intervals and include the following: research MRI, physical exams, blood tests, urine tests, EKG, and MUGA or ECHO.\n* Surgery to remove the tumor will occur no less than four weeks after the last dose of Paclitaxel."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "ER positive",
+        "PR positive"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 104,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HR+, HER2-",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1.",
+          "interventionNames": [
+            "Drug: Doxorubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Paclitaxel",
+            "Drug: Bevacizumab"
+          ]
+        },
+        {
+          "label": "Triple Negative Breast Cancer Cohort",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A.",
+          "interventionNames": [
+            "Drug: Doxorubicin",
+            "Drug: Cyclophosphamide",
+            "Drug: Paclitaxel",
+            "Drug: Bevacizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Doxorubicin",
+          "description": "Standard chemotherapy regimen",
+          "armGroupLabels": [
+            "HR+, HER2-",
+            "Triple Negative Breast Cancer Cohort"
+          ],
+          "otherNames": [
+            "Adriamycin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "description": "Standard chemotherapy regimen",
+          "armGroupLabels": [
+            "HR+, HER2-",
+            "Triple Negative Breast Cancer Cohort"
+          ],
+          "otherNames": [
+            "Cytoxan"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Standard chemotherapy regimen",
+          "armGroupLabels": [
+            "HR+, HER2-",
+            "Triple Negative Breast Cancer Cohort"
+          ],
+          "otherNames": [
+            "Taxol"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "One intravenous dose given followed 2 weeks later with standard chemotherapy drugs and bevacizumab given intravenously in 8 two-week cycles.",
+          "armGroupLabels": [
+            "HR+, HER2-",
+            "Triple Negative Breast Cancer Cohort"
+          ],
+          "otherNames": [
+            "Avastin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Pathologic Complete Response Rate After Preoperative Therapy in This Patient Population.",
+          "description": "Pathological Complete response is defined as complete disappearance of invasive tumor in the breast at the time of surgery",
+          "timeFrame": "3 Years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Decrease in Interstitial Fluid Pressure.",
+          "description": "To determine if bevacizumab monotherapy results in a decrease in interstitial fluid pressure",
+          "timeFrame": "3 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Documented primary invasive breast cancer by histologic assessment\n* Tumors must express estrogen (ER) and/or progesterone receptors (PR) by standard immunohistochemical methods. Tumors must be negative for HER2. There must be sufficient sample for further protocol-specified immunohistochemical analysis\n* Patients must have high risk ER+ or PR+ breast cancer as defined by criteria listed in protocol\n* 18 year of age or older\n* Performance status of 0 or 1 by ECOG criteria\n* Use of an effective means of contraception in subjects of childbearing potential\n* Women of childbearing potential must have a negative serum pregnancy test within 14 days prior to starting therapy.\n* Patients taking exogenous sex-steroid hormone treatments for any reason at the time of diagnosis must discontinue all hormonal treatments at least 2 weeks prior to enrollment\n* Patients must have preoperative treatment within 60 days of initial diagnosis of breast cancer\n* No other malignancy that requires on-going treatment\n* Normal organ function as outlined in the protocol\n\nExclusion Criteria:\n\n* Prior cytotoxic chemotherapy or radiation for the current breast cancer\n* Patients with inflammatory breast cancer\n* HER2 positive disease defined as HER2-amplified by FISH or IHC 3+. HER2 2+ must be negative by FISH\n* Known metastatic (Stage IV) disease\n* Other investigational agents within 4 weeks prior to the start of study treatment\n* Life expectancy of less than 6 months\n* Peripheral neuropathy greater than or equal to grade 2\n* Inadequately controlled hypertension\n* Any prior history of hypertensive crisis or hypertensive encephalopathy\n* NYHA grade II or greater congestive heart failure\n* History of prior myocardial infarction\n* History of unstable angina within 12 months prior to study enrollment\n* Any history of stroke or transient ischemic attack at any time\n* Known CNS disease\n* Significant vascular disease\n* Symptomatic peripheral vascular disease\n* Evidence of significant bleeding within 6 months of study; any serious non-healing wound, skin ulcers, or bone fracture; any abdominal fistula, gastrointestinal perforation or intra-abdominal abscess within the past 6 months; any major surgical procedure within 28 days prior to randomization or anticipation of need for major surgery during course of study.\n* Known HIV positive\n* Unwilling to undergo pretreatment biopsy and consent to acquisition of archival tissue\n* Pregnant of lactating\n* Known hypersensitivity to any component of bevacizumab",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Ian Krop, MD, PhD",
+          "affiliation": "Dana-Farber Cancer Institute",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Dana-Farber at Faulkner Hospital",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02130",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "New Hampshire Oncology-Hematology PA",
+          "city": "Hooksett",
+          "state": "New Hampshire",
+          "zip": "03106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.09675,
+            "lon": -71.46507
+          }
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "Study was activated on 10/17/2007 and Closed to accrual on 7/1/2011.",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "HR+, HER2-",
+          "description": "Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1."
+        },
+        {
+          "id": "FG001",
+          "title": "Triple Negative Breast Cancer Cohort",
+          "description": "Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "84"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "20"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "70"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "19"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "14"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "HR+, HER2-",
+          "description": "Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1."
+        },
+        {
+          "id": "BG001",
+          "title": "Triple Negative Breast Cancer Cohort",
+          "description": "Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A."
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "84"
+            },
+            {
+              "groupId": "BG001",
+              "value": "20"
+            },
+            {
+              "groupId": "BG002",
+              "value": "104"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "47.5",
+                      "lowerLimit": "24",
+                      "upperLimit": "66"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "47.5",
+                      "lowerLimit": "22",
+                      "upperLimit": "65"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "47.5",
+                      "lowerLimit": "22",
+                      "upperLimit": "66"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "104"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "20"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "104"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Pathologic Complete Response Rate After Preoperative Therapy in This Patient Population.",
+          "description": "Pathological Complete response is defined as complete disappearance of invasive tumor in the breast at the time of surgery",
+          "populationDescription": "Participants who met all study eligibility criteria and signed informed consent.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "percentage of participants",
+          "timeFrame": "3 Years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "HR+, HER2-",
+              "description": "Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1."
+            },
+            {
+              "id": "OG001",
+              "title": "Triple Negative Breast Cancer Cohort",
+              "description": "Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "84"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "20"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "44"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Decrease in Interstitial Fluid Pressure.",
+          "description": "To determine if bevacizumab monotherapy results in a decrease in interstitial fluid pressure",
+          "populationDescription": "This represents the number of patients with paired IFP measurements from day 0 and day 14",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "Inter-Quartile Range",
+          "unitOfMeasure": "mm Hg",
+          "timeFrame": "3 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "HR+, HER2-",
+              "description": "Patients with Hormone Receptor Positive, HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1."
+            },
+            {
+              "id": "OG001",
+              "title": "Triple Negative Breast Cancer Cohort",
+              "description": "Hormone receptor negative, HER2 negative Cohort. Receive same drug protocol as Arm A."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "52"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "13"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0.70",
+                      "lowerLimit": "0.37",
+                      "upperLimit": "1.32"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1.04",
+                      "lowerLimit": "0.69",
+                      "upperLimit": "1.55"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "4 years",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "All Study Participants",
+          "description": "Patients with HER2 negative Breast Cancer. A single dose of Bevacizumab 10mg/kg, followed two weeks later by Adriamycin60 mg/m2 and Cyclophosphamide 600 mg/m2 with Bevacizumab 10mg/kg every 2 weeks x4, followed by Taxol 175 mg/m2 with Bevacizumab 10 mg/kg every 2 weeks x3, followed by Taxol 175 mg/m2 x1.",
+          "seriousNumAffected": 4,
+          "seriousNumAtRisk": 104,
+          "otherNumAffected": 104,
+          "otherNumAtRisk": 104
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Leukopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "cellulitis",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "paranasal sinus reaction",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 104
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "ALT-SGPT",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 84,
+              "numAffected": 48,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "AST-SGOT",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 120,
+              "numAffected": 48,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Abdomen-pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 16,
+              "numAffected": 10,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Alkaline Phosphatase",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 87,
+              "numAffected": 36,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Allergic Reaction",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 10,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 179,
+              "numAffected": 39,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 40,
+              "numAffected": 20,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 32,
+              "numAffected": 18,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Back-pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 27,
+              "numAffected": 22,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Bicarbonate",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 41,
+              "numAffected": 19,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Bone-pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 27,
+              "numAffected": 16,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 89,
+              "numAffected": 47,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Constitutional-other",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 59,
+              "numAffected": 26,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Creatinine",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 115,
+              "numAffected": 34,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 65,
+              "numAffected": 34,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 9,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Dry Skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 9,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 45,
+              "numAffected": 21,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 47,
+              "numAffected": 21,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "erythema multiforme",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 7,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Extremity-limb-pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 18,
+              "numAffected": 13,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 367,
+              "numAffected": 91,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "febrile neutropenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "fever w/o neutropenia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 35,
+              "numAffected": 22,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Flushing",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 8,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "GI-other",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 34,
+              "numAffected": 20,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hand-foot reaction",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 12,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 129,
+              "numAffected": 57,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hematologic-other",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 194,
+              "numAffected": 38,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hemoglobin",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 387,
+              "numAffected": 86,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hemorrhoids",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 29,
+              "numAffected": 12,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 29,
+              "numAffected": 15,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 304,
+              "numAffected": 79,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 59,
+              "numAffected": 27,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hypoalbuminemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 18,
+              "numAffected": 7,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hypocalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 24,
+              "numAffected": 13,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hypoglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 7,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Hyponatremia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 18,
+              "numAffected": 11,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Infection Gr0-2 neut-upper airway",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 15,
+              "numAffected": 10,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Infection-other",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 7,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 35,
+              "numAffected": 19,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Joint-pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 60,
+              "numAffected": 31,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Leukocytes",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 39,
+              "numAffected": 24,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Lymphopenia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 182,
+              "numAffected": 56,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Metabolic/laboratory-other",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 123,
+              "numAffected": 37,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Muco/stomatitis (symptom) oral cavity",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 49,
+              "numAffected": 23,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Muco/stomatitis by exam-oral cavity",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 28,
+              "numAffected": 18,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Muscle-pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 96,
+              "numAffected": 53,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Nail changes",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 19,
+              "numAffected": 9,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 197,
+              "numAffected": 76,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy-motor",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 11,
+              "numAffected": 9,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy-sensory",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 150,
+              "numAffected": 64,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Neutrophils",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 32,
+              "numAffected": 20,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Nose-hemorrhage",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 68,
+              "numAffected": 33,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Oral cavity-pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 8,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Pain-other",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 41,
+              "numAffected": 27,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Platelets",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 54,
+              "numAffected": 30,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Proteinuria",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 53,
+              "numAffected": 30,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Pulmonary-Upper Respiratory-other",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 36,
+              "numAffected": 19,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Rash/desquamation",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 36,
+              "numAffected": 25,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Rigors/chills",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Skin-other",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 13,
+              "numAffected": 8,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Sweating",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 9,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Taste disturbance",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 7,
+              "numAffected": 6,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Throat/pharynx/larynx-pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 44,
+              "numAffected": 30,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Voice changes/dysarthria",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 32,
+              "numAffected": 15,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 29,
+              "numAffected": 25,
+              "numAtRisk": 104
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (10.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 17,
+              "numAffected": 7,
+              "numAtRisk": 104
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Dr Ian Krop",
+        "organization": "Dana-Farber Cancer Institute",
+        "email": "ian.krop@dfci.harvard.edu",
+        "phone": "617-632-2335"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        },
+        {
+          "id": "D000068258",
+          "term": "Bevacizumab"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D061067",
+          "term": "Antibodies, Monoclonal, Humanized"
+        },
+        {
+          "id": "D000911",
+          "term": "Antibodies, Monoclonal"
+        },
+        {
+          "id": "D000906",
+          "term": "Antibodies"
+        },
+        {
+          "id": "D007136",
+          "term": "Immunoglobulins"
+        },
+        {
+          "id": "D007162",
+          "term": "Immunoproteins"
+        },
+        {
+          "id": "D001798",
+          "term": "Blood Proteins"
+        },
+        {
+          "id": "D011506",
+          "term": "Proteins"
+        },
+        {
+          "id": "D000602",
+          "term": "Amino Acids, Peptides, and Proteins"
+        },
+        {
+          "id": "D012712",
+          "term": "Serum Globulins"
+        },
+        {
+          "id": "D005916",
+          "term": "Globulins"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

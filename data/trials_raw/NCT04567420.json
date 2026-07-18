@@ -1,0 +1,553 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04567420",
+      "orgStudyIdInfo": {
+        "id": "DARE"
+      },
+      "organization": {
+        "fullName": "Criterium, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "DNA-guided Second Line Adjuvant Therapy for High Residual Risk, Estrogen Receptor Positive, HER-2 Negative Breast Cancer (DARE)",
+      "officialTitle": "A Randomized, Phase II Trial of Circulating Tumor DNA-guided Second Line Adjuvant Therapy for High Residual Risk, Estrogen Receptor Positive, HER-2 Negative Breast Cancer (DARE)",
+      "acronym": "DARE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-02-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-09-03",
+      "studyFirstSubmitQcDate": "2020-09-23",
+      "studyFirstPostDateStruct": {
+        "date": "2020-09-28",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-07",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Criterium, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "A randomized, Phase II trial of circulating tumor DNA-guided second line Adjuvant therapy for high Residual risk, Estrogen Receptor positive, HER-2 negative breast cancer (DARE)",
+      "detailedDescription": "Surveillance population and ctDNA screening (up to 1000 patients): High risk ER positive, HER2-, breast cancer patients who have completed adjuvant endocrine therapy, or are currently receiving adjuvant endocrine therapy with an aromatase inhibitor or tamoxifen and are within 7 years since completion of definitive breast surgery are eligible for ctDNA screening.\n\nIn order to start ctDNA surveillance, patients must have completed at least 6 months, but no more than 7 years of adjuvant endocrine therapy of treatment without distant recurrence. Prior adjuvant CDK4/6 therapy is allowed, but at least 12 months must have elapsed since completing CDK4/6 therapy and enrolling into ctDNA surveillance on this study. Participants in the PENELOPE and PALLAS clinical trials who received Palbociclib are also eligible if meet all required eligibility criteria.\n\nFor screening, patients will undergo Signatera testing during routine follow up clinic visits. The current ASCO/NCCN breast cancer practice guidelines recommend follow up visits every 4 to 6 months at the treating physician's discretion. We anticipate that screening positivity rates will be the highest in patients between years 1-5 after initial diagnosis, based on the annual hazard rates of recurrence in ER positive breast cancer.\n\nHowever, since up to 50% of all recurrences occur after 5 years of follow-up, we allow starting ctDNA screening up to 7 years after starting adjuvant endocrine therapy if a patient meets criteria for high risk.\n\nRandomized phase II (N=100): Patients who become ctDNA positive during ctDNA surveillance will have systemic staging with CT of the chest, abdomen and pelvis, and those without radiographic evidence of metastatic disease will be randomized 1:1 to receive palbociclib plus fulvestrant for two years or continue standard of care endocrine therapy. Pre- and peri- menopausal patients randomized to the fulvestrant palbociclib arm will require GnRH analogue therapy. Patients in both treatment arms may continue adjuvant bisphosphonate therapy and patients in the control arm may switch between different brands of aromatase inhibitors for better tolerance or patient preference. No other, non-protocol directed anticancer therapy is allowed. The maximum duration of treatment is 2 years. A patient may complete a maximum of 26 cycles of treatment (for patients without interruptions or delays). The goal is not to administer a specific number of cycles, but to allow for the completion of any cycles initiated prior to 2 years from randomization. Patients who have completed 2 years of fulvestrant and palbociclib without recurrence may resume their originally planned standard of care adjuvant therapy to complete a total of 5 or 10 years of endocrine therapy at the discretion of the treating physician."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "ctDNA",
+        "breast cancer",
+        "high residual risk"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Palbociclib/Fulvestrant Combination",
+          "interventionNames": [
+            "Drug: Palbociclib",
+            "Drug: Fulvestrant"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Adjuvant Therapy",
+          "interventionNames": [
+            "Drug: Adjuvant Therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "4 week cycles",
+          "armGroupLabels": [
+            "Arm A"
+          ],
+          "otherNames": [
+            "IBRANCE"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "4 week cycles",
+          "armGroupLabels": [
+            "Arm A"
+          ],
+          "otherNames": [
+            "Faslodex"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Adjuvant Therapy",
+          "description": "Standard of Care",
+          "armGroupLabels": [
+            "Arm B"
+          ],
+          "otherNames": [
+            "Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Surveillance/ctDNA screening Phase",
+          "description": "Primary objective of the ctDNA screening (surveillance) phase is to assess the incidence of ctDNA detection (i.e. ctDNA positivity) in patients with ER positive HER2- breast cancer who are receiving standard of care adjuvant endocrine therapy but remain high risk for recurrence.",
+          "timeFrame": "enrollment"
+        },
+        {
+          "measure": "Therapeutic Phase",
+          "description": "Primary objective of the therapeutic randomized phase is to assess whether palbociclib plus fulvestrant improves relapse free survival compared to standard endocrine therapy in patients with ER positive HER2 negative breast cancer with detectable circulating tumor DNA during adjuvant endocrine therapy without clinical evidence of metastatic disease.",
+          "timeFrame": "through study completion, an average of 6 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Secondary Objective 1: Feasibility- correlation between clinically apparent metastatic or local disease and positive ctDNA result.",
+          "description": "Estimate proportion of patients who have clinically apparent metastatic or local disease (i.e. imaging positive) at the time of first positive ctDNA result.",
+          "timeFrame": "enrollment"
+        },
+        {
+          "measure": "Secondary Objective 2: Efficacy- assess the ability of positive ctDNA results to predict clinical relapse.",
+          "description": "Assess the positive predictive value and specificity of positive ctDNA result to predict subsequent clinical relapse, and estimate the time to relapse in the control arm of the randomized trial.",
+          "timeFrame": "through study completion, an average of 6 years"
+        },
+        {
+          "measure": "Secondary Objective 3: Efficacy- assess whether ctDNA clearance is associated with improved relapse free survival and overall survival.",
+          "description": "To assess whether ctDNA clearance is associated with improved relapse free survival and overall survival compared to non-clearance in the palbociclib plus fulvestrant arm.",
+          "timeFrame": "through study completion, an average of 6 years"
+        },
+        {
+          "measure": "Secondary Objective 4: Efficacy- assess the efficacy of the combination arm, palbociclib plus fulvestrant compared to the control arm.",
+          "description": "To assess whether palbociclib plus fulvestrant compared to the control arm improves (i) ctDNA clearance at 3, 6 and 24 months, (ii) distant metastasis free survival, (iii) invasive disease-free survival, (iv) overall survival, (v) the number of patients who are recurrence free at 24 months.",
+          "timeFrame": "through study completion, an average of 6 years"
+        },
+        {
+          "measure": "Secondary Objective 5: Safety and Tolerability- number of participants with treatment-related adverse event as assed by CTCAE V5.0.",
+          "description": "To assess the tolerability and safety of treatments.",
+          "timeFrame": "through study completion, an average of 6 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria for Surveillance/Screening:\n\n1. High risk for recurrence HER-2 negative, ER positive invasive breast cancer. For this study, ER positivity is defined as equal to or greater than 10% ER positivity by immunohistochemistry, regardless of progesterone receptor (PR) status. Patients who are PR positive but ER negative are not eligible.\n2. Patients may have completed adjuvant endocrine therapy and are within 7 years since the date of their definitive breast surgery, or may be currently taking an aromatase inhibitor, or tamoxifen, as adjuvant endocrine therapy and have completed at least 6 months (i.e. 24 weeks), but no more than 7 years of endocrine therapy. Prior CDK4/6 therapy in the adjuvant setting, including participation in the PALLAS and PENELOPE trials, is allowed if the last treatment was 12 or more months ago. Adjuvant bisphosphonate therapy is allowed\n3. High risk for recurrence is defined as any one of the following (these criteria apply equally to both patients who underwent surgery first and those who received neoadjuvant chemotherapy or endocrine therapy before surgery). (i) Four or more involved ipsilateral axillary lymph nodes or positive ipsilateral supraclavicular, or ipsilateral infraclavicular, or internal mammary lymph nodes at diagnosis or after preoperative systemic therapy, regardless of tumour size. Microscopic positive lymph node (i.e. \\<2 mm tumor deposit) is not counted as positive for eligibility for patients who underwent surgery first without any preoperative systemic therapy. Microscopic positive lymph nodes (i.e. \\<2 mm tumor deposit) are considered as positive nodes for eligibility for patients who received preoperative systemic therapy. (ii) Tumor size \\>5 cm and at least one macroscopically positive lymph node (i.e. \\>2 mm tumor deposit).\n\n   (iii) Diagnosis of Inflammatory Breast Cancer.\n4. Formalin fixed paraffin embedded tissue from the primary breast cancer available to be sent to Natera to perform ctDNA testing.\n5. Signed and dated informed consent, including willingness to be randomized to standard of care versus fulvestrant + palbociclib.\n\nExclusion Criteria for Screening\n\n1. Prior or current treatment with fulvestrant, or current treatment with a CDK4/6 inhibitor, or treatment in the prior 12 months.\n2. Patients cannot start participation in another therapeutic clinical trial for breast cancer during participation in this trial unless disease progression occurred, or patient withdrew consent for participation in the current trial.\n3. Patients with current or past invasive cancer, other than breast cancer are not eligible, except: Adequately treated basal or squamous cell carcinoma of the skin and cancer survivors of previously diagnosed invasive cancer, who were treated with a curative intent, have no evidence of disease recurrence for 5 years or more, and are considered low risk for future recurrence by the treating physician are also eligible.\n4. Patients with a second HER2 positive or triple negative synchronous breast cancer.\n\nInclusion criteria for randomization\n\n1. ctDNA positivity by the Signatera assay, defined as 2 of the 16 cancer specific markers positive in plasma.\n2. Patients with positive Signatera results obtained in the context of commercial testing, outside of the screening phase of this trial, are also eligible for randomization if they meet other eligibility criteria.\n3. No evidence of metastatic disease on CT scan of the chest, abdomen and pelvis.\n\n   1. If imaging, after review with a radiologist, is low probability for metastatic disease, patients may proceed to randomization.\n   2. Patients with suspicious but inconclusive imaging results should undergo a diagnostic biopsy, if biopsy is negative patients are eligible for randomization.\n   3. Patients with positive imaging that is conclusive of metastatic disease, or with biopsy proven metastatic disease, are not eligible for randomization.\n4. Pre-menopausal women and male patients must be willing to use an adequate method of contraception for the duration of trial treatment and for 4 additional weeks after completion of treatment in the control arm, and for 2 years after the last dose of fulvestrant, if randomized into the experimental arm Post- menopausal status is defined as:\n\n   1. Documented bilateral oophorectomy, or\n   2. Age \u2265 60 years, or\n   3. Age \\< 60 years and amenorrhoeic for \u2265 12 consecutive months and FSH and estradiol levels in the post-menopausal range according to the institutional reference range for post- menopausal.\n\n      Adequate contraception is defined as:\n   4. ONE highly effective form (i.e. abstinence, surgical sterilization through bilateral tubal ligation, vasectomy), or\n   5. TWO effective forms (e.g. non-hormonal IUD and condom / occlusive cap with spermicidal foam / gel / film / cream / suppository).\n   6. Abstinence is to be interpreted as \"true abstinence\" for heterosexual intercourse and therefore, \"periodic abstinence\" (e.g. calendar, symptothermal, post-ovulation methods) and withdrawal (coitus interruptus) are not considered highly effective.\n\nExclusion criteria for randomization\n\n1. Patients with known contraindications to receive fulvestrant and palbociclib or those who are unable to tolerate these drugs are not eligible (e.g. absolute neutrophil count less than \\<1000/mm3)\n2. Any concurrent severe and uncontrolled medical condition that would, in the Investigator' opinion cause unacceptable safety risks or compromise compliance with the protocol including but not limited to:\n\n   1. Impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of oral medication (e.g. Crohn's disease, ulcerative diseases, uncontrolled chronic nausea, vomiting, diarrhea, malabsorption syndrome, or small bowel resection)\n   2. History of pneumonitis, interstitial lung disease or pulmonary fibrosis\n   3. Known history of Human Immunodeficiency Virus (HIV) (testing is not mandatory)\n   4. Known active Hepatitis B or Hepatitis C (testing is not mandatory)\n   5. Females who are pregnant or breastfeeding\n   6. History of bleeding diathesis (i.e. disseminated intravascular coagulation, clotting factor deficiency) that preclude the IM injections of fulvestrant or LHRH agonist as applicable.\n3. Patients taking any CYPC3A4 strong inducers and inhibitors, that cannot be changed.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Lajos Pusztai, MD",
+          "affiliation": "Yale University",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "University of Arizona Cancer Center",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "USC/Norris Comprehensive Cancer Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90048",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "University of Colorado Cancer Center",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Intermountain",
+          "city": "Golden",
+          "state": "Colorado",
+          "zip": "80401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.75554,
+            "lon": -105.2211
+          }
+        },
+        {
+          "facility": "Yale Cancer Center",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Winship Cancer Institute of Emory University",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "zip": "30322",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.749,
+            "lon": -84.38798
+          }
+        },
+        {
+          "facility": "Louisiana State University Health Sciences Center- New Orleans",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "zip": "70112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.95465,
+            "lon": -90.07507
+          }
+        },
+        {
+          "facility": "Cancer Partners of Nebraska",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68516",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "New Mexico Cancer Care Alliance",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Stony Brook University Cancer Center",
+          "city": "Stony Brook",
+          "state": "New York",
+          "zip": "11794",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.92565,
+            "lon": -73.14094
+          }
+        },
+        {
+          "facility": "The Ohio State University Wexner Medical Center James Cancer Hospital",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Stephenson Cancer Center",
+          "city": "Oklahoma City",
+          "state": "Oklahoma",
+          "zip": "73104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.46756,
+            "lon": -97.51643
+          }
+        },
+        {
+          "facility": "Oregon Health and Science University",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "PRiSMs Group",
+          "city": "Laredo",
+          "state": "Texas",
+          "zip": "78041",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.50641,
+            "lon": -99.50754
+          }
+        },
+        {
+          "facility": "Virginia Cancer Institute",
+          "city": "Richmond",
+          "state": "Virginia",
+          "zip": "23229",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.55376,
+            "lon": -77.46026
+          }
+        },
+        {
+          "facility": "Swedish Cancer Institute",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "University of Wisconsin Clinical Science Center",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        },
+        {
+          "id": "D017024",
+          "term": "Chemotherapy, Adjuvant"
+        },
+        {
+          "id": "D059039",
+          "term": "Standard of Care"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D003131",
+          "term": "Combined Modality Therapy"
+        },
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        },
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        },
+        {
+          "id": "D019984",
+          "term": "Quality Indicators, Health Care"
+        },
+        {
+          "id": "D011787",
+          "term": "Quality of Health Care"
+        },
+        {
+          "id": "D006298",
+          "term": "Health Services Administration"
+        },
+        {
+          "id": "D017530",
+          "term": "Health Care Quality, Access, and Evaluation"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

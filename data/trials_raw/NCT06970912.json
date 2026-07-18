@@ -1,0 +1,377 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06970912",
+      "orgStudyIdInfo": {
+        "id": "MA-BC-\u2161-100"
+      },
+      "organization": {
+        "fullName": "Peking University People's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "ctDNA-Guided De-Escalation of Adjuvant Chemotherapy With Dalpiciclib in HR-Positive/HER2-Negative Breast Cancer",
+      "officialTitle": "A Prospective, Multicenter, Randomized, Open-Label Phase II Study of ctDNA-Guided De-Escalation of Adjuvant Chemotherapy With Dalpiciclib in HR-Positive/HER2-Negative Breast Cancer",
+      "acronym": "DNADalHR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-08-01",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2029-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2029-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-05-06",
+      "studyFirstSubmitQcDate": "2025-05-06",
+      "studyFirstPostDateStruct": {
+        "date": "2025-05-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Shu Wang",
+        "investigatorTitle": "director of breast center",
+        "investigatorAffiliation": "Peking University People's Hospital"
+      },
+      "leadSponsor": {
+        "name": "Peking University People's Hospital",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "* This is a Phase II, multicenter, randomized clinical trial evaluating a ctDNA-guided approach to de-escalate adjuvant chemotherapy in patients with hormone receptor (HR)-positive, HER2-negative early-stage breast cancer. The study aims to determine if combining the CDK4/6 inhibitor Dalpiciclib with endocrine therapy can reduce the need for chemotherapy while maintaining clinical benefits.\n* Key Details \uff1a\n\n  1. Participants: 393 women (aged 18-75) with early-stage HR+/HER2- breast cancer at high risk of recurrence (e.g., tumor size \u22652 cm, lymph node involvement, or high-grade tumors).\n  2. Design: Patients are randomized 1:4 to two groups:\n\n     Group A (Chemotherapy) : Receives 4 cycles of taxane-based chemotherapy before surgery.\n\n     Group B (Experimental) : Receives Dalpiciclib + aromatase inhibitor (AI) for 4 cycles pre-surgery.\n\n     Post-surgery, treatment is adjusted based on ctDNA results.\n  3. Primary Goals \uff1a Assess ctDNA clearance rate (conversion from detectable to undetectable ctDNA) after neoadjuvant therapy in Group B.\n\n     Evaluate 3-year event-free survival (EFS) in Group B (e.g., freedom from cancer recurrence, progression, or death).\n\n     Secondary Goals \uff1a Safety of Dalpiciclib + endocrine therapy. Tumor response rates (e.g., complete cell cycle arrest, pathological remission).\n\n     Correlation between ctDNA clearance and long-term outcomes.\n* Why This Matters \uff1a Current guidelines recommend chemotherapy for high-risk HR+ breast cancer, but it often causes significant side effects. This study explores a personalized approach using ctDNA-a blood-based biomarker-to identify patients who may safely avoid chemotherapy without compromising survival. If successful, it could shift clinical practice toward less toxic, targeted therapies for eligible patients.",
+      "detailedDescription": "\\- 1. Scientific Background and Rationale\uff1a Breast cancer remains a leading cause of cancer-related morbidity and mortality globally, with hormone receptor-positive (HR+), HER2-negative (HER2-) subtypes accounting for approximately 70% of cases. While adjuvant chemotherapy is standard for high-risk early-stage HR+/HER2- breast cancer, it carries significant toxicity, and many patients may not derive clinical benefit. Emerging evidence suggests that circulating tumor DNA (ctDNA)-a minimally invasive biomarker reflecting residual disease-may guide personalized treatment de-escalation.\n\nPreclinical and clinical studies demonstrate that ctDNA dynamics correlate with tumor burden and prognosis. In HR+ breast cancer, ctDNA clearance after neoadjuvant therapy is associated with improved survival, while persistent ctDNA post-treatment predicts recurrence. CDK4/6 inhibitors, such as Dalpiciclib, have revolutionized advanced HR+/HER2- breast cancer management by enhancing endocrine therapy efficacy. However, their role in early-stage disease, particularly in a ctDNA-guided de-escalation strategy, remains underexplored. This study addresses this gap by evaluating whether ctDNA-driven decision-making can safely reduce chemotherapy use while maintaining clinical outcomes.\n\n* 2\\. Study Objectives\n\n  1. Primary Objectives\n\n     Group B (Experimental Arm):\n\n     Assess ctDNA clearance rate (defined as conversion from detectable to undetectable ctDNA) after 4 cycles of neoadjuvant Dalpiciclib + aromatase inhibitor (AI).\n\n     Evaluate 3-year event-free survival (EFS), where events include local/distant recurrence, secondary malignancies, or death.\n  2. Secondary Objectives Compare safety profiles of Dalpiciclib + AI versus chemotherapy.\n\n     Evaluate tumor response metrics:\n\n     Pathological complete response (pCR) and residual cancer burden (RCB 0-1). Complete cell cycle arrest (CCCA; Ki67 \u22642.7%). Assess objective response rate (ORR) by RECIST 1.1.\n  3. Exploratory Objectives Correlate ctDNA clearance with long-term outcomes (e.g., EFS, overall survival).\n\n     Identify molecular signatures predictive of response to Dalpiciclib + AI.\n* 3\\. Study Design\n\n  1. Overview\n\n     This is a prospective, multicenter, randomized, open-label Phase II trial. Patients are stratified by clinical stage (I/II vs. III) and menopausal status, then randomized 1:4 to:\n\n     Group A (Control): 4 cycles of taxane-based neoadjuvant chemotherapy (N=79). Group B (Experimental): 4 cycles of neoadjuvant Dalpiciclib (125 mg/day, 21 days on/7 days off) + AI (N=314).\n  2. Post-Surgery Treatment Group A: Physicians may recommend adjuvant chemotherapy \u00b1 CDK4/6 inhibitors.\n\nGroup B:\n\nctDNA-negative post-neoadjuvant: Continue Dalpiciclib + AI for 2 years. ctDNA-positive post-neoadjuvant: Optional adjuvant chemotherapy followed by Dalpiciclib + AI.\n\n* 4\\. Study Population\n\n  \uff081\uff09key inclusion Criteria\n\n  \u2460Women aged 18-75 with histologically confirmed HR+ (ER/PR \u226510%), HER2- early breast cancer.\n\n  \u2461High-risk features: T1c-T2N0M0 with grade 3 histology or grade 2 + Ki67 \u226520%. T3N0M0. Any T with N+ and M0.\n  * ECOG performance status 0-1. \u2463Adequate organ function (hematologic, hepatic, renal, cardiac). \uff082\uff09key exclusion Criteria\n\n    \u2460Metastatic disease, bilateral breast cancer, or prior breast malignancy.\n\n    \u2461Active infections, cardiovascular comorbidities, or concurrent malignancies.\n  * Pregnancy/lactation or refusal to use contraception.\n* 5\\. Interventions\n\n  1. Neoadjuvant Phase\n\n     Group A:\n\n     Taxane regimens (e.g., paclitaxel 80 mg/m\u00b2 weekly, docetaxel 75-100 mg/m\u00b2 every 3 weeks).\n\n     Group B:\n\n     Dalpiciclib (125 mg orally, days 1-21 of 28-day cycles) + AI (letrozole/anastrozole/exemestane).\n  2. Adjuvant Phase Group B ctDNA-negative: Dalpiciclib + AI for 2 years. Premenopausal patients receive ovarian suppression (LHRH agonists).\n* 6\\. Assessments and Follow-Up\n\n  1. ctDNA Analysis Baseline and Pre-Surgery: Tumor-informed personalized ctDNA panels (16 clonal variants via whole-exome sequencing).\n  2. Efficacy and Safety \u2460Tumor imaging (MRI/CT) every 2 cycles during neoadjuvant therapy. \u2461Pathological evaluation of surgical specimens (RCB classification).\n\n     \u2462Safety monitoring: Adverse events (NCI CTCAE v5.0), ECG, lab tests (hematology, chemistry).\n  3. Follow-Up Schedule Treatment Phase: Clinic visits every 4 weeks (neoadjuvant) or 12 weeks (adjuvant).\n\nSurvival Follow-Up: Every 3 months post-treatment for recurrence and survival.\n\n* 7\\. Statistical Considerations\n\n  1. Sample Size Primary Endpoint 1 (ctDNA clearance): 215 patients (Group B) provide 80% power to detect a 10% improvement over historical controls (40% vs. 50%, \u03b1=0.025).\n\n     Primary Endpoint 2 (3-year EFS): 314 patients (Group B) provide 80% power to detect a 5% absolute improvement (85% vs. 90%, \u03b1=0.05).\n\n     Total enrollment: 393 (1:4 randomization).\n  2. Analysis Populations Intent-to-Treat (ITT): All randomized patients with \u22651 post-baseline assessment.\n\n     Safety Set (SS): Patients receiving \u22651 dose of study treatment.\n  3. Statistical Methods ctDNA clearance rate: Clopper-Pearson exact 95% CI. EFS: Kaplan-Meier estimates with log-rank tests. Subgroup analyses by stratification factors.\n* 8\\. Ethical and Regulatory Considerations\n\n  \u2460Approved by institutional review boards at all participating centers.\n\n  \u2461Written informed consent required before screening.\n\n  \u2462SAEs reported to regulators within 24 hours.\n\n  \u2463Independent Data Monitoring Committee (IDMC) oversees safety and futility.\n* 9\\. Innovation and Impact\n\nThis trial pioneers a ctDNA-guided de-escalation strategy in early HR+ breast cancer, addressing two critical unmet needs:\n\nReducing chemotherapy overuse in patients likely cured by targeted therapy. Validating ctDNA as a dynamic biomarker for real-time treatment adaptation. If successful, the study could establish a new paradigm for personalized adjuvant therapy, minimizing toxicity while maintaining survival outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hormone Receptor-Positive Breast Cancer",
+        "High-risk Breast Cancer",
+        "Early-Stage Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "ctDNA Monitoring",
+        "Breast Cancer Early Stage Breast Cancer (Stage 1-3)"
+      ],
+      "keywords": [
+        "HR-positive HER2-negative breast cancer",
+        "Early-stage breast cancer",
+        "Dalpiciclib",
+        "CDK4/6 inhibitor",
+        "ctDNA-guided therapy",
+        "Adjuvant chemotherapy de-escalation",
+        "Circulating tumor DNA (ctDNA)",
+        "Event-free survival (EFS)",
+        "Chemotherapy sparing",
+        "Personalized therapy",
+        "Biomarker-guided therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This is an open-label study due to the distinct administration routes and side effect profiles of the interventions: Group A receives intravenous taxane-based chemotherapy, while Group B receives oral dalpiciclib combined with aromatase inhibitors. Blinding participants or investigators was not feasible. However, outcome assessors (e.g., central pathology reviewers for residual cancer burden) and ctDNA analysis laboratory personnel were blinded to treatment allocation to minimize bias."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 393,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Taxane Neoadjuvant Chemo \u00b1 Adjuvant Therapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Arm Description:\n\nThis group receives neoadjuvant taxane-based chemotherapy (e.g., paclitaxel 80 mg/m\u00b2 weekly or docetaxel 75-100 mg/m\u00b2 triweekly for 4 cycles) before surgery. Post-surgery adjuvant chemotherapy (whether or not and how to adopt depend on the physician's choice) may be administered \u00b1 CDK4/6 inhibitors. The intervention aims to compare standard chemotherapy efficacy as a control.\n\nIntervention phases:\n\n* Neoadjuvant: Chemotherapy only\n* Adjuvant: Optional chemotherapy based on physician discretion \u00b1 \uff08CDK4/6 inhibitors+endocrine therapy\uff09 Key endpoints: Pathological response 0/1 (RCB 0/1), safety profiles.",
+          "interventionNames": [
+            "Drug: Taxane-Based Neoadjuvant Chemotherapy"
+          ]
+        },
+        {
+          "label": "Dalpiciclib + AI with ctDNA-Driven Adjuvant",
+          "type": "EXPERIMENTAL",
+          "description": "Arm Description:\n\nPatients receive 4 cycles of neoadjuvant dalpiciclib (125 mg/day, 21 days on/7-off) combined with aromatase inhibitors (letrozole/anastrozole/exemestane). Post-surgery treatment is guided by ctDNA status:\n\n1. ctDNA-negative at baseline and post-neoadjuvant, with post-op Ki67 \u226410% \uff1aContinue dalpiciclib + endocrine therapy (ET) for 2 years.\n2. ctDNA-positive \u2192 negative, or persistently ctDNA-negative with post-op Ki67 \\>10% :\n\n   Randomized 1:1 to:\n   * Arm B1: Dalpiciclib + ET for 2 years.\n   * Arm B2: Adjuvant chemotherapy (investigator's choice) \u2192 dalpiciclib + ET for 2 years.\n3. Persistently ctDNA-positive or ctDNA-negative \u2192 positive:\n\nAdjuvant chemotherapy \u2192 dalpiciclib + ET for 2 years.\n\nPremenopausal women receive ovarian suppression with LHRH agonists.",
+          "interventionNames": [
+            "Drug: Dalpiciclib + Aromatase Inhibitor with ctDNA-Guided Therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dalpiciclib + Aromatase Inhibitor with ctDNA-Guided Therapy",
+          "description": "Patients receive 4 cycles of neoadjuvant dalpiciclib (125 mg orally, days 1-21 of 28-day cycles) combined with an aromatase inhibitor (letrozole/anastrozole/exemestane). Post-surgery treatment is guided by ctDNA status: \uff081\uff09ctDNA-negative at baseline and post-neoadjuvant, with post-op Ki67 \u226410% :Continue dalpiciclib + endocrine therapy (ET) for 2 years\uff1b \uff082\uff09ctDNA-positive \u2192 negative, or persistently ctDNA-negative with post-op Ki67 \\>10% :Randomized 1:1 to:\n\n* Arm B1: Dalpiciclib + ET for 2 years.\n* Arm B2: Adjuvant chemotherapy (investigator's choice) \u2192 dalpiciclib + ET for 2 years\uff1b\uff083\uff09Persistently ctDNA-positive or ctDNA-negative \u2192 positive:\n\nMandatory adjuvant chemotherapy \u2192 dalpiciclib + ET for 2 years. Premenopausal women undergo ovarian suppression with LHRH agonists.",
+          "armGroupLabels": [
+            "Dalpiciclib + AI with ctDNA-Driven Adjuvant"
+          ],
+          "otherNames": [
+            "Dalpiciclib/AI combination therapy",
+            "SHR6390 + aromatase inhibitor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Taxane-Based Neoadjuvant Chemotherapy",
+          "description": "Patients receive 4 cycles of taxane-based neoadjuvant chemotherapy (e.g., paclitaxel 80 mg/m\u00b2 weekly or docetaxel 75-100 mg/m\u00b2 triweekly) before surgery. Post-surgery adjuvant chemotherapy (physician's choice) may be administered. This arm serves as the control group for comparing standard chemotherapy efficacy.",
+          "armGroupLabels": [
+            "Taxane Neoadjuvant Chemo \u00b1 Adjuvant Therapy"
+          ],
+          "otherNames": [
+            "Paclitaxel/cyclophosphamide neoadjuvant therapy",
+            "Docetaxel-based chemotherapy regimen"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ctDNA Clearance Rate after Neoadjuvant Therapy",
+          "description": "Proportion of patients in Group B achieving conversion from detectable to undetectable ctDNA in plasma after 4 cycles of neoadjuvant Dalpiciclib + aromatase inhibitor. ctDNA analysis uses tumor-informed personalized panels (tracking 16 clonal variants via whole-exome sequencing), with clearance defined as \u22652 consecutive negative results at 1% variant allele frequency threshold.",
+          "timeFrame": "From baseline to 4 weeks post-neoadjuvant therapy (pre-surgery)"
+        },
+        {
+          "measure": "3-Year Event-Free Survival (EFS)",
+          "description": "Time from randomization to first occurrence of locoregional/distant recurrence, contralateral breast cancer, secondary malignancy, or death from any cause. Assessed via imaging (CT/MRI), pathology, and clinical exams every 3 months for 3 years. Events are adjudicated by blinded independent review committee.",
+          "timeFrame": "From randomization to 36 months post-surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of Grade \u22653 Treatment-Related Adverse Events (TRAEs)",
+          "description": "Proportion of patients experiencing grade \u22653 adverse events (per NCI CTCAE v5.0) related to Dalpiciclib + AI or chemotherapy, including hematologic (neutropenia, anemia), hepatic (ALT/AST elevation), and cardiac (LVEF decline \u226510%) toxicities. Events are monitored every cycle during neoadjuvant therapy and quarterly during adjuvant phase.",
+          "timeFrame": "From first dose to 30 days after last treatment (up to 26 months)"
+        },
+        {
+          "measure": "Residual Cancer Burden (RCB) 0-1 Rate",
+          "description": "Proportion of patients achieving RCB 0 (pathological complete response) or RCB-1 (minimal residual disease) in surgical specimens. RCB is calculated using standardized criteria (tumor bed area, cellularity, nodal involvement) by blinded central pathology review.",
+          "timeFrame": "At surgery (approximately 16 weeks after randomization)"
+        },
+        {
+          "measure": "Complete Cell Cycle Arrest (CCCA) Rate (Ki67 \u22642.7%)",
+          "description": "Percentage of patients with Ki67 \u22642.7% in post-neoadjuvant tumor biopsies, assessed via immunohistochemistry (IHC) with 3,3'-diaminobenzidine staining. Central laboratory quantification uses Aperio image analysis system (Leica Biosystems).",
+          "timeFrame": "Post-neoadjuvant therapy (pre-surgery, week 16)"
+        },
+        {
+          "measure": "Objective Response Rate (ORR) by RECIST 1.1",
+          "description": "Proportion of patients with complete/partial response per RECIST 1.1 criteria during neoadjuvant phase, measured by MRI/CT. Target lesion size reduction \u226530% (partial) or disappearance (complete) required, confirmed by two consecutive assessments \u22654 weeks apart.",
+          "timeFrame": "Baseline to pre-surgery (week 16)"
+        },
+        {
+          "measure": "Correlation Between ctDNA Clearance and 3-Year EFS",
+          "description": "Exploratory analysis of the association between ctDNA clearance status (post-neoadjuvant) and 3-year EFS using Cox proportional hazards models. ctDNA dynamics (baseline, post-treatment) are analyzed as time-dependent covariates.",
+          "timeFrame": "From baseline to 36 months post-surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female breast cancer patients aged \u226518 years and \u226475 years, either postmenopausal or premenopausal/perimenopausal;\n* Pathologically confirmed hormone receptor-positive (HR+), HER2-negative invasive breast cancer:\n\n  1. ER-positive and/or PR-positive defined as: \u226510% of tumor cells showing positive staining;\n  2. HER2-negative defined as: standard immunohistochemistry (IHC) result of 0/1+; or IHC 2+ with negative in situ hybridization (ISH) (confirmed by the central pathology laboratory);\n* At least one evaluable lesion per RECIST 1.1, with clinical staging meeting:\n\n  1. T1c-2N0M0 with high-risk factors (Grade 3, or Grade 2 with Ki67 \u226520%);\n  2. T3N0M0;\n  3. Any TN+M0;\n* Eastern Cooperative Oncology Group (ECOG) performance status score of 0-1;\n* Willing to participate in the study and voluntarily sign informed consent;\n* Agree to undergo ctDNA testing during treatment;\n* Adequate organ and bone marrow function defined as:\n\n  1. Absolute neutrophil count (ANC) \u22651,500/mm\u00b3 (1.5 \u00d7 10\u2079/L) (without granulocyte colony-stimulating factor \\[G-CSF\\] treatment within 14 days);\n  2. Platelet count (PLT) \u2265100,000/mm\u00b3 (100 \u00d7 10\u2079/L) (without corrective therapy within 7 days);\n  3. Hemoglobin (Hb) \u22659 g/dL (90 g/L) (without corrective therapy within 7 days);\n  4. Serum creatinine \u22641.5\u00d7 upper limit of normal (ULN) or creatinine clearance \u226560 mL/min (without corrective therapy within 7 days);\n  5. Total bilirubin (TBIL) \u22641.5\u00d7ULN (without corrective therapy within 7 days);\n  6. Aspartate aminotransferase (AST/SGOT) and alanine aminotransferase (ALT/SGPT) \u22641.5\u00d7ULN (without corrective therapy within 7 days);\n  7. Cardiac function: left ventricular ejection fraction (LVEF) \u226555%; QTc interval corrected by Fridericia's formula (QTcF) \\<470 msec on 12-lead ECG;\n* Women of childbearing potential must have a negative serum pregnancy test within 7 days prior to randomization and agree to use non-hormonal contraception from informed consent signing until 2 months after the last treatment.\n\nExclusion Criteria:\n\n* HER2-positive breast cancer confirmed by current pathological diagnosis;\n* Inflammatory breast cancer;\n* Stage IV (metastatic) breast cancer;\n* Bilateral breast cancer;\n* Prior history of breast cancer (including ductal carcinoma in situ or invasive breast cancer);\n* Any prior antitumor therapy for the current breast cancer, including systemic therapies (endocrine, chemotherapy, immunotherapy, biological therapy) or local therapies (radiotherapy, vascular embolization, axillary lymph node biopsy);\n* Diagnosis of any malignancy within 5 years prior to randomization, except cured cervical carcinoma in situ, basal cell carcinoma, or squamous cell carcinoma of the skin;\n* History of severe pulmonary diseases (e.g., interstitial pneumonia);\n* HIV infection, acquired immunodeficiency syndrome (AIDS), active hepatitis B (HBV DNA \u2265500 IU/mL), hepatitis C (HCV antibody-positive with HCV RNA above the lower limit of detection), or co-infection with HBV and HCV;\n* Within 6 months prior to randomization: myocardial infarction, severe/unstable angina, NYHA Class \u2265II heart failure, \u2265Grade 2 persistent arrhythmia (per NCI CTCAE v5.0), atrial fibrillation of any grade, coronary/peripheral artery bypass graft, symptomatic congestive heart failure, cerebrovascular accident (including transient ischemic attack), or symptomatic pulmonary embolism;\n* Severe active infection within 4 weeks prior to randomization (requiring intravenous antibiotics, antifungals, or antivirals) or unexplained fever \\>38.5\u00b0C during screening/before first dose;\n* Known allergy to any component of the study drugs;\n* Current participation in another interventional drug clinical study;\n* Pregnancy or lactation;\n* Refusal to comply with follow-up;\n* Other severe physical/mental illnesses or laboratory abnormalities that may increase study risk, interfere with results, or render the patient unsuitable per investigator judgment.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "yuan peng, doctor",
+          "role": "CONTACT",
+          "phone": "86+13671287670",
+          "email": "13671287670@163.com"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "shu wang, doctor",
+          "affiliation": "Peking University People's Hospital",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Peking University People's Hospital",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "state": "Beijing Municipality",
+          "zip": "100044",
+          "country": "China",
+          "contacts": [
+            {
+              "name": "yuan peng, doctor",
+              "role": "CONTACT",
+              "phone": "86+13671287670",
+              "email": "13671287670@163.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO",
+      "description": "Individual participant data (IPD) will not be shared publicly due to:\n\n1. Patient Privacy Protection: Genomic data (e.g., ctDNA variants) and medical records contain identifiable health information protected under China's Personal Information Protection Law (PIPL).\n2. Institutional Policy: Peking University People's Hospital requires data use agreements (DUA) for external access to clinical trial data.\n3. Ethical Restrictions: The approved protocol prohibits open data sharing to prevent potential misuse of sensitive biomarker results.\n4. De-identified data may be available upon reasonable request to the Principal Investigator after:\n\n   * Completion of primary endpoint analysis (2030 Q1)\n\n     * of a DUA with confidentiality clauses\n\n       * Approval by the hospital's data oversight committee\n\nInterested researchers may contact \\[PI Email\\] for access criteria.'"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000720752",
+          "term": "dalpiciclib"
+        },
+        {
+          "id": "D047072",
+          "term": "Aromatase Inhibitors"
+        },
+        {
+          "id": "D017239",
+          "term": "Paclitaxel"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D065088",
+          "term": "Steroid Synthesis Inhibitors"
+        },
+        {
+          "id": "D004791",
+          "term": "Enzyme Inhibitors"
+        },
+        {
+          "id": "D045504",
+          "term": "Molecular Mechanisms of Pharmacological Action"
+        },
+        {
+          "id": "D020228",
+          "term": "Pharmacologic Actions"
+        },
+        {
+          "id": "D020164",
+          "term": "Chemical Actions and Uses"
+        },
+        {
+          "id": "D004965",
+          "term": "Estrogen Antagonists"
+        },
+        {
+          "id": "D006727",
+          "term": "Hormone Antagonists"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        },
+        {
+          "id": "D045505",
+          "term": "Physiological Effects of Drugs"
+        },
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

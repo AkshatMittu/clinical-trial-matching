@@ -1,0 +1,871 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03747042",
+      "orgStudyIdInfo": {
+        "id": "SCCC-11118; STU-2018-0015"
+      },
+      "organization": {
+        "fullName": "University of Texas Southwestern Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Letrozole in Post-Menopausal Patients With Operable Hormone-Sensitive Breast Cancer",
+      "officialTitle": "Pre-Surgical Trial of Letrozole in Post-Menopausal Patients With Operable Hormone-Sensitive Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2018-11-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-02-24",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-02-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2018-11-15",
+      "studyFirstSubmitQcDate": "2018-11-16",
+      "studyFirstPostDateStruct": {
+        "date": "2018-11-20",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2026-02-23",
+      "resultsFirstSubmitQcDate": "2026-02-23",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-03-16",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-23",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Nisha Unni",
+        "investigatorTitle": "Assistant Professor",
+        "investigatorAffiliation": "University of Texas Southwestern Medical Center"
+      },
+      "leadSponsor": {
+        "name": "University of Texas Southwestern Medical Center",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Cancer Prevention Research Institute of Texas",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "A short pre-surgical non-therapeutic trial involving postmenopausal women with newly diagnosed eR+, HeR2-negative operable breast cancers. After undergoing a core needle biopsy for tissue acquisition, study participants will take a 7- to 30-day (1-4 weeks) course of letrozole in accordance with standard of care. They will then undergo definitive surgical resection of their primary tumor (mastectomy vs lumpectomy) as per standard of care guidelines.",
+      "detailedDescription": "Patients will receive a prescription for letrozole to be taken orally at a dose of 2.5 mg/day for 7-30 days to allow for variations in surgical scheduling. Patients are to undergo surgical resection of their tumor the day after the last dose of letrozole.\n\nPost-treatment tumor biopsies (a goal of 4-6 cores) will be obtained following 7-30 days of letrozole treatment on the day of surgery. Frozen AND formalin fixed core biopsies will be obtained whenever possible. The tissue will be used for study-specific assays as well as routine histopathology. Post-treatment core needle biopsy tissue will be obtained, whenever possible, by the surgeon intraoperatively at the time of routine surgical resection. A formalin-fixed paraffin embedded tumor block from the patient's surgical resection is also requested. This block will be used for a subset of the correlative studies if no tumor is obtained by the post treatment core biopsies. This block will be returned to pathology promptly after the correlative studies are completed.\n\nSurgical treatment (total mastectomy or segmental resection with lymph node evaluation if clinically indicated) will occur the day after completion of therapy.\n\nThe primary lesion obtained at the time of the definitive surgical procedure (partial or total mastectomy) will be sent for standard of care histopathologic analysis; wherever possible intra-opearative cores from the central portion of the tumor will be obtained for study-specific assays. All specimens will be handled according to established institutional guidelines to maintain the accuracy of the analysis of tumor size and margin status.\n\nFollowing standard of care histopathologic analysis, additional paraffin-embedded sections will be submitted at a later time to the Simmons Cancer Tissue Core to determine tumor proliferation with Ki67 (MIB1Ab, Dako Cytomation) IHC. These tests are of no clinical utility and will be done for research purposes only.\n\nFrozen cores and/or peels from the formalin-fixed paraffin-embedded (FFPE) tumor blocks from the surgical specimen will be selected and/or macrodissected - when needed - based on \u226520% tumor cellularity as assessed by Dr. Sahoo, expert breast pathologist in the trial. These will be sent to Dr. Carlos Arteaga's laboratory for further testing."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer Female"
+      ],
+      "keywords": [
+        "ER-positive",
+        "HER2-negative",
+        "invasive mammary carcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Drug: letrozole Take by mouth at a dose of 2.5 mg on days 7-30\n\nOther: Blood Collection Blood used for gene expression analysis and reverse transcriptase-polymerase chain reaction\n\nProcedure: biopsy/lumpectomy/mastectomy Tissue collection,Surgery to remove tumor, Tumor tissues used for laboratory biomarker analysis",
+          "interventionNames": [
+            "Drug: Letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Patients will receive a prescription for letrozole to be taken orally for 7-30 days to allow for variations in surgical scheduling. Patients are to undergo surgical resection of their tumor the day after the last dose of letrozole. Post-treatment tumor biopsies (a goal of 4-6 cores) will be obtained following 7-56 days of letrozole treatment on the day of surgery.",
+          "armGroupLabels": [
+            "Treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Measure Ki67 Index in Highly Hormone-dependent Breast Cancers vs. Those That Are Not",
+          "description": "Ki67 index measured 1-4 weeks after therapy with letrozole to segregate hormone receptor-positive breast cancers that are highly hormone-dependent vs. those that are not",
+          "timeFrame": "Within 8 to 30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Eligibility waivers are not permitted. Subjects must meet all of the inclusion and exclusion criteria to be registered to the study. Study treatment may not begin until a subject is registered.\n2. Patients must provide informed written consent\n3. ECOG performance status 0-2.\n4. Clinical stage operable I, II or III invasive mammary carcinoma, which is ER-positive by IHC and HER2-negative by Herceptest (0 or 1+) or not amplified by in situ hybridization as per routine clinical testing.\n\n   * Patients who have measurable residual tumor at the primary site\n   * Patients who will undergo surgical treatment with either segmental resection or total mastectomy\n5. Measurable tumor. Measurable disease: a mass that can be reproducibly measured by physical exam, mammogram or ultrasound and is at least 1 cm in size\n6. Post-menopausal female subjects \u226518 years of age, as defined by any of the following:\n\n   * Subjects at least 55 years of age;\n   * Subjects under 55 years of age and amenorrhoeic for at least 12 months or follicle-stimulating hormone (FSH) values \u226540 IU/L and estradiol levels \u226440 pg/mL (140 pmol/L) or in postmenopausal ranges per local or institutional reference ranges;\n   * Prior bilateral oophorectomy or prior radiation castration with amenorrhea for at least 6 months.\n   * (There is no upper age limit for enrollment to this study)\n7. No prior chemotherapy for this primary breast cancer.\n8. Patients with a prior history of contralateral breast cancer are eligible if they have no evidence of recurrence of their initial primary breast cancer.\n9. Women may have been taking tamoxifen or raloxifene as a preventive agent prior to study entry but must have discontinued the drug for at least 14 days prior to study enrollment.\n10. Subjects must have ended hormone replacement therapy (HRT) (e.g., conjugated estrogens tablets, USP, \\[Premarin\\]), at least 7 days prior to receiving the first dose of randomized therapy.\n11. Patients must have adequate hepatic and renal function. All tests must be obtained less than 4 weeks from study entry. This includes:\n\n    1. Creatinine \\<2X upper limits of normal\n    2. Bilirubin, SGOT, SGPT \\<1.5X upper limits of normal\n12. Able to swallow and retain oral medication\n\nExclusion Criteria:\n\n1. Patients with locally advanced disease who are candidates for other preoperative chemotherapy at the time of initial evaluation. This may include patients with locally advanced disease such as:\n\n   * Inflammatory breast cancer (T4d)\n   * Fixed axillary lymph node metastases (N2)\n   * Metastasis to ipsilateral internal mammary node (N3)\n2. Locally recurrent breast cancer\n3. Evidence of distant metastatic disease (i.e. lung, liver, bone, brain, etc.)\n4. Serious medical illness that in the judgment of the treating physician places the patient at high risk of operative mortality.\n5. Severe uncontrolled malabsorption condition or disease (i.e. grade II/III diarrhea, severe malnutrition, short gut syndrome)\n6. Dementia, altered mental status, or any psychiatric condition that would prohibit the understanding or rendering of informed consent.\n7. Use of an investigational drug within 30 days or 5 half-lives, whichever is longer, preceding the first dose of letrozole.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Nisha Unni, MD",
+          "affiliation": "University of Texas Southwestern Medical Center",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Simmons Comprehensive Cancer Center at University of Texas Southwestern Medical Center - Dallas",
+          "city": "Dallas",
+          "state": "Texas",
+          "zip": "75390",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.78306,
+            "lon": -96.80667
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Treatment",
+          "description": "Drug: letrozole Take by mouth at a dose of 2.5 mg on days 7-30\n\nOther: Blood Collection Blood used for gene expression analysis and reverse transcriptase-polymerase chain reaction\n\nProcedure: biopsy/lumpectomy/mastectomy Tissue collection,Surgery to remove tumor, Tumor tissues used for laboratory biomarker analysis\n\nLetrozole: Patients will receive a prescription for letrozole to be taken orally for 7-30 days to allow for variations in surgical scheduling. Patients are to undergo surgical resection of their tumor the day after the last dose of letrozole. Post-treatment tumor biopsies (a goal of 4-6 cores) will be obtained following 7-56 days of letrozole treatment on the day of surgery."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "61"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "53"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Unable to complete surgery",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Surgery delayed out of window",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Treatment",
+          "description": "Drug: letrozole Take by mouth at a dose of 2.5 mg on days 7-30\n\nOther: Blood Collection Blood used for gene expression analysis and reverse transcriptase-polymerase chain reaction\n\nProcedure: biopsy/lumpectomy/mastectomy Tissue collection,Surgery to remove tumor, Tumor tissues used for laboratory biomarker analysis\n\nLetrozole: Patients will receive a prescription for letrozole to be taken orally for 7-30 days to allow for variations in surgical scheduling. Patients are to undergo surgical resection of their tumor the day after the last dose of letrozole. Post-treatment tumor biopsies (a goal of 4-6 cores) will be obtained following 7-56 days of letrozole treatment on the day of surgery."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "61"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Categorical",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "<=18 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Between 18 and 65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "29"
+                    }
+                  ]
+                },
+                {
+                  "title": ">=65 years",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "32"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66",
+                      "lowerLimit": "48",
+                      "upperLimit": "83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "12"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "45"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Measure Ki67 Index in Highly Hormone-dependent Breast Cancers vs. Those That Are Not",
+          "description": "Ki67 index measured 1-4 weeks after therapy with letrozole to segregate hormone receptor-positive breast cancers that are highly hormone-dependent vs. those that are not",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Within 8 to 30 days",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Treatment",
+              "description": "Drug: letrozole Take by mouth at a dose of 2.5 mg on days 7-30\n\nOther: Blood Collection Blood used for gene expression analysis and reverse transcriptase-polymerase chain reaction\n\nProcedure: biopsy/lumpectomy/mastectomy Tissue collection,Surgery to remove tumor, Tumor tissues used for laboratory biomarker analysis\n\nLetrozole: Patients will receive a prescription for letrozole to be taken orally for 7-30 days to allow for variations in surgical scheduling. Patients are to undergo surgical resection of their tumor the day after the last dose of letrozole. Post-treatment tumor biopsies (a goal of 4-6 cores) will be obtained following 7-56 days of letrozole treatment on the day of surgery."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "53"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Low Ki67",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "7"
+                    }
+                  ]
+                },
+                {
+                  "title": "Intermediate Ki67",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                },
+                {
+                  "title": "High Ki67",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "2 years and 11 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Treatment",
+          "description": "Drug: letrozole Take by mouth at a dose of 2.5 mg on days 7-30\n\nOther: Blood Collection Blood used for gene expression analysis and reverse transcriptase-polymerase chain reaction\n\nProcedure: biopsy/lumpectomy/mastectomy Tissue collection,Surgery to remove tumor, Tumor tissues used for laboratory biomarker analysis\n\nLetrozole: Patients will receive a prescription for letrozole to be taken orally for 7-30 days to allow for variations in surgical scheduling. Patients are to undergo surgical resection of their tumor the day after the last dose of letrozole. Post-treatment tumor biopsies (a goal of 4-6 cores) will be obtained following 7-56 days of letrozole treatment on the day of surgery.",
+          "deathsNumAffected": 0,
+          "deathsNumAtRisk": 61,
+          "seriousNumAffected": 0,
+          "seriousNumAtRisk": 61,
+          "otherNumAffected": 3,
+          "otherNumAtRisk": 61
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Conjunctivitis",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Vaginal Discharge",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Pain - Right shoulder",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Hyperthyroidism",
+          "organSystem": "Endocrine disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Alkaline phosphatase increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Hypercalcemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Creatinine Increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Rash maculopapular",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Night sweats",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE version 5.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 61
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+        "title": "Dr. Nisha Unni",
+        "organization": "University of Texas Southwestern Medical Center",
+        "email": "nisha.unni@utsouthwestern.edu",
+        "phone": "214-648-4180"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot_SAP",
+          "hasProtocol": true,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Study Protocol and Statistical Analysis Plan",
+          "date": "2021-08-16",
+          "uploadDate": "2026-02-19T13:14",
+          "filename": "Prot_SAP_000.pdf",
+          "size": 713194
+        },
+        {
+          "typeAbbrev": "ICF",
+          "hasProtocol": false,
+          "hasSap": false,
+          "hasIcf": true,
+          "label": "Informed Consent Form",
+          "date": "2021-12-20",
+          "uploadDate": "2026-02-19T12:23",
+          "filename": "ICF_001.pdf",
+          "size": 388126
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

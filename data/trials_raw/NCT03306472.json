@@ -1,0 +1,370 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03306472",
+      "orgStudyIdInfo": {
+        "id": "PIONEER"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-003752-79",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Cambridge University Hospitals NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Pre-operative Window Study of Letrozole Plus PR Agonist (Megestrol Acetate) Versus Letrozole Alone in Post-menopausal Patients With ER-positive Breast Cancer",
+      "officialTitle": "Randomised Phase II Clinical Trial PIONEER- A Pre-operative wIndOw Study of Letrozole Plus PR Agonist (Megestrol Acetate) Versus Letrozole aloNE in Post-menopausal Patients With ER-positive Breast Cancer",
+      "acronym": "PIONEER"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-01",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2017-07-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-10-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-10-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2017-05-26",
+      "studyFirstSubmitQcDate": "2017-10-05",
+      "studyFirstPostDateStruct": {
+        "date": "2017-10-11",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-01-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-01-30",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Richard D. Baird MD PhD",
+        "investigatorTitle": "Honorary Consultant in Medical Oncology",
+        "investigatorAffiliation": "Cambridge University Hospitals NHS Foundation Trust"
+      },
+      "leadSponsor": {
+        "name": "Cambridge University Hospitals NHS Foundation Trust",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Anticancer Fund, Belgium",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "Around 75% of breast cancers are defined and driven by Oestrogen receptor alpha (ER\u03b1) transcriptional activity. Standard treatment is endocrine therapy however clinical outcomes vary considerably, and a proportion of women with early breast cancer driven by ER\u03b1 transcriptional activity develop drug resistance, and relapse with incurable, metastatic disease.\n\nHistorically, PR-positivity was viewed as just a passive consequence of a functional oestrogen receptor, and PR was established as a biomarker of ER functionality in breast cancer. However, recent preclinical discoveries have provided an alternative explanation to the previous over-simplistic assumption, providing new insights into progestogen action and functional 'cross-talk' between ER and PR in breast cancer. In the presence of agonist ligands, progesterone-activated PR causes rapid sequestration of ERa chromatin binding sites in breast cancer cells, resulting in a unique gene expression program that is associated with a good clinical outcomes. This highlights a potential therapeutic opportunity.\n\nThe PIONEER trial will investigate the effect of combining megestrol acetate (a progesterone receptor agonist) and letrozole (an aromatase inhibitor) in post menopausal women with early breast cancer. This is a 'window of opportunity' study treating and observing patients in the two weeks prior to definitive surgery. Patients are randomised into one of three arms; one in which the patients receive Letrozole alone; one in which they will receive a combination of Letrozole and low dose Megestrol acetate and the third arm will receive Letrozole and high dose Megestrol acetate. This trial will be open to postmenopausal women with newly diagnosed, untreated ER-positive, HER2-negative, invasive primary breast cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This is a three arm, open-label, multicentre, randomized, window of opportunity, Phase II trial which will evaluate the effects of 15 days (+ 4 days) preoperative therapy with Letrozole, or Letrozole plus low dose Megestrol acetate (40mg), or Letrozole plus high dose Megestrol acetate (160mg) in postmenopausal women with newly diagnosed, ER-positive, HER2-negative, invasive primary breast cancer of at least 1 cm size.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 198,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A: Letrozole",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Arm A: 15 days of Letrozole 2.5mg daily",
+          "interventionNames": [
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Arm B: Letrozole + Megestrol Acetate (40mg)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm B: 15 days of Letrozole 2.5mg daily + Megestrol acetate 40mg daily",
+          "interventionNames": [
+            "Drug: Megestrol Acetate 40 MG",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Arm C: Letrozole + Megestrol Acetate (160mg)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm C: 15 days of Letrozole 2.5mg daily + Megestrol acetate 160mg daily.",
+          "interventionNames": [
+            "Drug: Megestrol Acetate 160 MG",
+            "Drug: Letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Megestrol Acetate 40 MG",
+          "description": "Progesterone Agonist",
+          "armGroupLabels": [
+            "Arm B: Letrozole + Megestrol Acetate (40mg)"
+          ],
+          "otherNames": [
+            "Megace"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Megestrol Acetate 160 MG",
+          "description": "Progesterone Agonist",
+          "armGroupLabels": [
+            "Arm C: Letrozole + Megestrol Acetate (160mg)"
+          ],
+          "otherNames": [
+            "Megace"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Aromatase Inhibitor",
+          "armGroupLabels": [
+            "Arm A: Letrozole",
+            "Arm B: Letrozole + Megestrol Acetate (40mg)",
+            "Arm C: Letrozole + Megestrol Acetate (160mg)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Determination of change in tumour proliferation measured by Ki67 immunohistochemical (IHC) assessment (%) at baseline compared to Day 15 (+ \u22644 days).",
+          "description": "Tumour-cell Ki67 antigen labeling index will be recorded following the recommendations from the International Ki67 working group. Ki67 will be scored as the percentage of tumour nuclei staining. The investigators analyzing Ki67 will be blinded as to treatment allocation. Ki67-response is defined as a 50% or higher fall in Ki67 expression.",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in tumour apoptosis, measured by Caspase 3 (IHC)",
+          "description": "Caspase-3 is activated by cleavage in cells undergoing apoptosis. Capase-3 IHC has been validated as a marker of apoptosis in breast cancer.",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Change in expression of Androgen receptor and Progesterone receptor by IHC",
+          "description": "IHC of PR will be performed as a surrogate of ER activity. IHC of AR will be performed as AR influences ER-alpha activity in breast cancer, and has been shown to be a predictor of response to other synthetic progestins in breast cancer. Both PR and AR levels will be correlated with Ki67 changes",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Change in expression of Epithelial-Mesenchymal Transition (EMT) markers by IHC",
+          "description": "IHC of epithelial markers E-Cadherin and Mesenchymal markers N-Cadherin, Fibronectin and Vimentin, to assess the effect of treatment on expression of genes validated to indicate risk of breast cancer progression and metastasis",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Change in proliferation by Aurora Kinase A labeling by IHC",
+          "description": "Aurora Kinase A by IHC was found to outperform other proliferation markers as an independent predictor of breast cancer specific survival in ER-positive breast cancer, and will be analysed alongside Ki67.",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Absolute value of Ki67 at day 15 (+\u22644 Days)",
+          "description": "Measured to inform the development of a larger adjuvant trial following PIONEER. The absolute value of Ki67 at Day 15 has been found to be better predictive of recurrence free survival",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Incidence and Severity of Adverse Events",
+          "description": "Determine the incidence and severity of adverse events caused by 15 days of treatment with letrozole (either alone or in combination with low or high dose megestrol acetate) prior to breast surgery. The severity of adverse events will be assessed using the National Cancer Institute Common Terminology Criteria for Adverse Events (CTCAE v4.03).",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Chromatin Immunoprecipitation followed by high throughput DNA Sequencing (ChIP-seq) of ER, conducted to assess progestin-induced ER reprogramming",
+          "description": "ChIP-seq will allow demonstration of the robust and predictable ER\u03b1 binding to novel genomic loci, mediated by PR.",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Change in epithelial mesenchymal transition markers by IHC",
+          "description": "To address the question of whether the combination of letrozole and megestrol acetate affects the metastatic potential of ER-positive breast cancer, IHC will be performed to compare the pre- and post-treatment cytoplasmic expression of E-cadherin and N-cadherin.",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        },
+        {
+          "measure": "Correlate differences in response to treatments with breast cancer genomic profiling datasets",
+          "description": "To delineate potential underlying germline, somatic and pharmacogenetic reasons for response/non-response to trial treatment.If available, whole genome sequencing data from patients consented and recruited to studies collecting this information may be referenced.",
+          "timeFrame": "Over 15 days of treatment with letrozole (alone or in combination with high or low dose megestrol acetate)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed breast adenocarcinoma\n* Postmenopausal women\n* Core biopsy confirmation of invasive carcinoma on core biopsy, \u2265T1c, either clinical NX or N0-N3\n* ER positive (Allred\u22653) and HER2 negative\n* 2 groups of patients are potentially eligible:\n\n  * Cohort A: Patients whose cancers have been deemed to be operable by the Multi-Disciplinary Team (MDT), with surgery planned for the next 2-6 weeks\n  * Cohort B: Patients with early or locoregionally advanced breast cancer planned for primary endocrine therapy, either in lieu of surgery or as neoadjuvant therapy prior to surgery- such patients must begin PIONEER trial therapy prior to starting any other endocrine therapy.\n* ECOG performance status of 0, 1 or 2\n* Adequate Liver, Renal and Bone marrow function, defined as:\n\n  * Adequate liver function where bilirubin is \u22641.5 x ULN\n  * Adequate renal function with serum creatinine \u2264 1.5 x ULN\n  * Adequate bone marrow function with ANC \u22651.0 x 10\\*9/L and Platelet count \u2265100 x 10\\*9/L\n* Written informed consent to participate in the trial and to donation of tissue\n\nExclusion Criteria:\n\n* History of hormone replacement therapy in the last 6 months\n* Previous treatment with Tamoxifen or an aromatase inhibitor in the last six months\n* Known hypersensitivity or contraindications to aromatase inhibitors or Megestrol acetate\n* Known allergy to lactose\n* Known to have a progestogen-containing intrauterine system in situ, unless removed prior to randomisation\n* Known metastatic disease on presentation\n* Recurrent breast cancer (patients with a new primary invasive breast cancer will be eligible to participate)\n* Serious concomitant disorders that would compromise the safety of the patient or compromise the patient's ability to complete the trial, at the discretion of the investigator\n* Treatment with an investigational drug within 4 weeks before randomisation\n* Inability to swallow orally administered medication and patients with gastrointestinal disorders likely to interfere with absorption of the trial medication\n* Inability to give informed consent",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "genderDescription": "Yes: Eligibility is based on gender. Patients must be genetically female.",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Richard Baird, MA MBBS PhD FRCP",
+          "affiliation": "Cambridge University Hospitals NHS Foundation Trust and the University of Cambridge",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Cambridge University Hospitals NHS Foundation Trust",
+          "city": "Cambridge",
+          "state": "Cambridgeshire",
+          "zip": "CB2 0QQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.2,
+            "lon": 0.11667
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41492093",
+          "type": "DERIVED",
+          "citation": "Burrell RA, Kumar S, Provenzano E, Pike C, Dayimu A, McIntosh SA, Pitsinis V, King P, Elsberger B, Govindarajulu S, Satherley L, Hadad S, Schmid P, Agrawal A, Akpuluma B, Bell S, Benson JR, Caldas C, Cheeseman D, Chernukhin I, Forouhi P, Gulsen T, Kleidi E, Pinilla K, Qian W, Abraham JE, Carroll JS, Baird RD. Evaluating progesterone receptor agonist megestrol plus letrozole for women with early-stage estrogen-receptor-positive breast cancer: the window-of-opportunity, randomized, phase 2b, PIONEER trial. Nat Cancer. 2026 Jan;7(1):194-206. doi: 10.1038/s43018-025-01087-x. Epub 2026 Jan 5."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D019290",
+          "term": "Megestrol Acetate"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D008535",
+          "term": "Megestrol"
+        },
+        {
+          "id": "D011245",
+          "term": "Pregnadienes"
+        },
+        {
+          "id": "D011278",
+          "term": "Pregnanes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,5747 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01101438",
+      "orgStudyIdInfo": {
+        "id": "MA32"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U10CA077202",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U10CA077202"
+        },
+        {
+          "id": "CAN-NCIC-MA.32",
+          "type": "OTHER",
+          "domain": "PDQ Identifier"
+        },
+        {
+          "id": "CDR0000669788",
+          "type": "OTHER",
+          "domain": "PDQ"
+        }
+      ],
+      "organization": {
+        "fullName": "Canadian Cancer Trials Group",
+        "class": "NETWORK"
+      },
+      "briefTitle": "A Phase III Randomized Trial of Metformin vs Placebo in Early Stage Breast Cancer",
+      "officialTitle": "A Phase III Randomized Trial of Metformin Versus Placebo on Recurrence and Survival in Early Stage Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2010-08-13",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2021-09-21",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-08-18",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-04-09",
+      "studyFirstSubmitQcDate": "2010-04-09",
+      "studyFirstPostDateStruct": {
+        "date": "2010-04-12",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2022-07-07",
+      "resultsFirstSubmitQcDate": "2022-10-17",
+      "resultsFirstPostDateStruct": {
+        "date": "2022-10-18",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-08-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Canadian Cancer Trials Group",
+        "class": "NETWORK"
+      },
+      "collaborators": [
+        {
+          "name": "National Cancer Institute (NCI)",
+          "class": "NIH"
+        },
+        {
+          "name": "ETOP IBCSG Partners Foundation",
+          "class": "NETWORK"
+        },
+        {
+          "name": "Institute of Cancer Research, United Kingdom",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is looking at whether Metformin, an agent that is commonly used to treat diabetes, can decrease or affect the ability of breast cancer cells to grow and whether Metformin will work with other therapies to keep cancer from recurring. Health Canada has not approved the sale or use of Metformin to treat breast cancer, although they have approved its use in this clinical trial. Although Metformin is approved by the FDA for the treatment of diabetes, its use in breast cancer is considered investigational.",
+      "detailedDescription": "This is a multicenter study. Patients are stratified according to hormone-receptor status (estrogen receptor- and/or progesterone receptor- positive vs both receptors negative), body mass index (\u2264 30 vs \\> 30 kg/m\u00b2), HER2 status (positive vs negative), and prior chemotherapy (any vs none). Patients are randomized to 1 of 2 treatment arms.\n\n* Arm I: Patients receive oral metformin hydrochloride twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in the absence of disease progression or unacceptable toxicity.\n* Arm II: Patients receive oral placebo twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in the absence of disease progression or unacceptable toxicity.\n\nBlood and tumor samples are collected periodically for correlative studies.\n\nPatients may complete quality-of-life, physical activity, and diet questionnaires at baseline and at 6, 12, 24, 36, 48, and 60 months. (Sub-set of patients).\n\nAfter completion of study treatment, patients are followed annually."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "stage I breast cancer",
+        "stage II breast cancer",
+        "stage IIIA breast cancer",
+        "stage IIIC breast cancer",
+        "male breast cancer",
+        "HER2-negative breast cancer",
+        "estrogen receptor-positive breast cancer",
+        "HER2-positive breast cancer",
+        "progesterone receptor-positive breast cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 3649,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm I",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive oral metformin hydrochloride twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Drug: metformin hydrochloride"
+          ]
+        },
+        {
+          "label": "Arm II",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients receive oral placebo twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Other: placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "metformin hydrochloride",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Arm I"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "placebo",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Arm II"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease-free Survival in Hormone Receptor (ER and PgR) Positive Sub-groups",
+          "description": "Invasive disease-free survival (IDFS) is defined as percentage of patients without documented development of ipsilateral and contralateral invasive breast tumour, local/regional invasive recurrence, distant recurrence, death from any causes. If a subject has not had invasive disease or died at the time of data cut-off for this final analysis, IDFS was censored on the date of last follow-up.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Invasive Disease-free Survival",
+          "description": "Invasive disease-free survival (IDFS) is defined as the percent of patients without documented development of ipsilateral and contralateral invasive breast tumour, local/regional invasive recurrence, distant recurrence, death from any causes. If a subject has not had invasive disease or died at the time of data cut-off for this final analysis, IDFS was censored on the date of last follow-up.",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival",
+          "description": "Number of patients who died from any causes.",
+          "timeFrame": "10 years"
+        },
+        {
+          "measure": "Distant Relapse-free Survival",
+          "description": "Distant Relapse Free Survival (DRFS) is defined as the percentage of patients without any documented distant recurrence, death from breast cancer, death from a non breast cancer cause or death from an unknown cause. If a subject has not had distant DRFS event nor died at the time of data cut-off for this analysis, DRFS will be censored on the date of last disease assessment.",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Breast Cancer-specific Mortality",
+          "description": "Patients who died from breast cancer",
+          "timeFrame": "10 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Eligibility Criteria:\n\n* Subjects must have histologically confirmed invasive breast cancer and be enrolled in the trial within 12 months after the first histologic diagnosis of invasive breast cancer. A core biopsy interpreted as invasive cancer meets this criterion; otherwise, the date of first histologic diagnosis will be the date of first surgical procedure that identifies invasive cancer (biopsy, lumpectomy or mastectomy). Neoadjuvant subjects should have no evidence of clinical T4 disease prior to chemotherapy and surgery. Bilateral breast carcinoma is allowed provided diagnoses are synchronous - that is, within 3 months of one another - and at least one of the two breast carcinomas meet the eligibility criteria and neither violates the eligibility criteria.\n* All subjects (both adjuvant and neo-adjuvant) must have sentinel lymph node biopsy and/or axillary lymph node dissection.\n\nSentinel lymph node biopsy alone is allowed in the following instances:\n\n1. sentinel lymph node biopsy is negative: pN0\n2. sentinel lymph node biopsy is positive for isolated tumour cells only: pN0 (i+)\n3. \\* clinically node negative, T1-2 tumours with sentinel lymph node biopsy positive in \u2264 2 lymph nodes without extra-capsular extension or matted nodes and undergoing breast conserving surgery and tangential whole breast irradiation (\\* excludes subjects treated with neo-adjuvant systemic therapy)\n\nDefinitive surgery and/or chemotherapy have been completed at least 4 weeks prior to randomization. Surgical margins must be clear of invasive carcinoma. If there is microscopic residual ductal in situ disease present at lumpectomy or total mastectomy margins, further excision is highly recommended. If further excision is not undertaken, the subject may still be entered on study, provided that in addition to breast or chest wall irradiation, a boost to the tumour bed is delivered. In situ lobular disease at the margin is acceptable.\n\nAdjuvant subjects with the following pT pN combinations are eligible:\n\n* pT1c, pN0 AND negative estrogen and progesterone receptors AND HER2 negative OR\n* pT2N0 and at least one of the following tumour characteristics: histologic grade 3, lymphovascular invasion, negative estrogen and progesterone receptors, HER2 positive, Oncotype Dx recurrence score \u2265 25 (or if Oncotype Dx recurrence score is not available, Ki67 \\> 14%) OR\n* Subjects with pT3, pN0 OR\n* Subjects with pT1-3, pN1-3\n\nThe eligibility of neo-adjuvant subjects is assessed on the basis of cTNM. The same eligible TNM combinations apply.\n\n* HER2 status must be known. (Positive = 3+ over-expression by IHC in \\> 30% of invasive tumour cells OR HER2 gene amplification by FISH/CISH \\> 6 HER2 gene copies per nucleus, OR a FISH/CISH ratio: HER2 gene copies to chromosome 17 signals of \u2265 2.2. All other results will be considered negative).\n* Patients must have had a bilateral mammogram within 12 months prior to randomization, unless the initial surgery was a total mastectomy, in which case only a mammogram of the remaining breast is required. (Subjects with bilateral total mastectomies and no mammogram within 12 months prior to randomization must, instead, have a physical examination of the chest wall to ensure there is no residual or recurrent disease at the time of randomization. The date of this examination is used in place of the mammogram date on the eligibility checklist.)\n* Investigations, including chest X-ray or CT chest, bone scan (with radiographs of suspicious areas) and abdominal ultrasound or liver scan or CT abdomen have been performed between the first histologic diagnosis and the time of randomization.\n\n  * Chest X-Ray, 2 view (or Chest CT) is mandatory\n  * Bone scans (with x-rays of abnormal areas) are required only if there are signs or symptoms of metastatic disease\n  * Abdominal imaging is required only if there are signs or symptoms of metastatic disease\n* Hematology investigations (WBC, Granulocytes, Platelets, Hemoglobin) have been completed within 28 days prior to randomization and results are available.\n* Biochemistry investigations have been completed within 28 days prior to randomization and values are within the parameters required by the protocol.\n\nAST \\< 1.8 X ULN; ALT \\< 1.8 X ULN; Alkaline Phosphatase \\< 2 X ULN; Serum Creatinine \\< 115 \u03bcmol/L (1.3mg/dL) Serum Bilirubin \\< institution ULN (except for subjects with Gilbert's Disease who are eligible despite elevated serum bilirubin level)\n\n* ECOG Performance Status of 0,1 or 2 (at baseline evaluation visit within 28 days prior to randomization).\n* Age \u2265 18 and \\< 75 and life expectancy of at least 5 years (18 years of age was used as a cut-off due to the lack of data indicating that breast cancer is a health issue in the \\< 18 years age group and metformin safety in pediatric patients has not been confirmed. Age \\> 80 carries increased risk of lactic acidosis and study intervention is for 5 years).\n* Subjects must be accessible for treatment and follow-up. Investigators must assure themselves the subjects randomized on this trial will be available for complete documentation of the treatment, adverse events, and follow-up.\n* In accordance with NCIC CTG policy, protocol treatment is to begin within 10 working days of patient randomization.\n* Subject consent must be obtained according to local Institutional and/or University Human Experimentation Committee requirements. It will be the responsibility of the local participating investigators to obtain the necessary local clearance, and to indicate in writing to the NCIC CTG Study Coordinator that such clearance has been obtained, before the trial can commence in that centre. Because of differing requirements, a standard consent form for the trial will not be provided but a sample form is given. A copy of the initial full board REB approval and approved consent form must be sent to the central office. The patient must sign the consent form prior to randomization or registration. Please note that the consent form for this study must contain a statement which gives permission for the NCIC CTG and monitoring agencies to review patient records (see Section 16 for further details).\n\nFor the first 888 eligible English or French-speaking subjects only (sub-set enrollment completed 2011NOV04):\n\n* Subject is able (i.e. sufficiently fluent) and willing to complete the Quality of Life (EORTC QLQ C-30 and Trial Specific Checklist) in English or French. The baseline assessment must already have been completed at the time of enrollment. Inability (illiteracy in English or French, loss of sight or other equivalent reason) to complete questionnaires will not make the patient ineligible for the study; however, ability but unwillingness to complete the questionnaires will make the patient ineligible. (Once the target number of 888 subjects is achieved, this criterion will no longer need to be fulfilled.) \\[See Appendix VI\\]. Sub-set enrollment completed 2011NOV04.\n* English-speaking subjects who have completed the Quality of Life Questionnaire who are able (i.e. sufficiently fluent) and willing to complete Nurses Health Study II Physical Activity Questionnaire and Block Alive Screener in English. The baseline assessment must already have been completed at the time of enrollment. Inability (illiteracy in English, loss of sight or other equivalent reason) to complete questionnaires will not make the patient ineligible for the study; however, ability but unwillingness to complete the questionnaires will make the patient ineligible. (This component of the study will close at the same time as the Quality Of Life sub-study.) Closed to new patient enrollment as of 2011NOV04.\n\nIneligibility Criteria:\n\n* Subjects with a history of other malignancies, except: adequately treated non-melanoma skin cancer, curatively treated in-situ cancer of the cervix, or other solid tumours curatively treated with no evidence of disease for \u2265 5 years.\n* Subjects with locally recurrent or metastatic breast carcinoma. (Subjects with prior invasive breast cancer at any time are not eligible. Subjects with prior DCIS only in either breast are eligible provided the DCIS has been curatively treated including surgery, radiotherapy and/or Tamoxifen).\n* Subjects whose axillary node status is unknown.\n* Known diabetes (type 1 or 2) or baseline fasting glucose \\> 7.0 mmol/L (126 mg/dL). (Sampled and assayed according to local institution's procedures.)\n* Known hypersensitivity or intolerance to metformin.\n* Any condition associated with increased risk of metformin-associated lactic acidosis (e.g. congestive heart failure defined as New York Heart Association {NYHA} Class III or IV functional status \\[see Appendix IX\\], history of acidosis of any type; habitual \\* Currently taking metformin, sulfonylureas, thiazolidinediones or insulin for any reason.\n* Current or planned pregnancy or lactation in women of child-bearing potential. Men should not father a child. (An effective method of birth control should be used while on study treatment which could include abstinence, IUD, condoms or other barrier methods of birth control because the safety of metformin in pregnancy or in male fertility has not been established).\n* Concurrent or planned participation in randomized trials of weight loss or exercise interventions or trials targeting insulin, IGF-1 or their receptors, or involving P13K inhibitors (at the time of randomization)\\*.\n* These interventions would interfere with the primary endpoint. (Also, in general, double randomizations in breast cancer trials for MA.32 patients are permitted only if the patient meets all the eligibility criteria for MA.32 and the sponsor of the previous trial has no objection to the patient also being enrolled in MA.32).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "74 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Pamela J. Goodwin, MD",
+          "affiliation": "Mount Sinai Hospital, Canada",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Providence Alaska Medical Center",
+          "city": "Anchorage",
+          "state": "Alaska",
+          "zip": "99508",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 61.21806,
+            "lon": -149.90028
+          }
+        },
+        {
+          "facility": "Fairbanks Memorial Hospital",
+          "city": "Fairbanks",
+          "state": "Alaska",
+          "zip": "99701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 64.83778,
+            "lon": -147.71639
+          }
+        },
+        {
+          "facility": "Pinnacle Oncology Associates",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85258",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "Mayo Clinic in Arizona",
+          "city": "Scottsdale",
+          "state": "Arizona",
+          "zip": "85259",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.50921,
+            "lon": -111.89903
+          }
+        },
+        {
+          "facility": "Arizona Cancer Center at University Medical Center North",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85719",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "University of Arizona Health Sciences Center",
+          "city": "Tucson",
+          "state": "Arizona",
+          "zip": "85724",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.22174,
+            "lon": -110.92648
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Deer Valley Medical Center",
+          "city": "Antioch",
+          "state": "California",
+          "zip": "94531",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.00492,
+            "lon": -121.80579
+          }
+        },
+        {
+          "facility": "Alta Bates Summit Medical Center-Herrick Campus",
+          "city": "Berkeley",
+          "state": "California",
+          "zip": "94704",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.87159,
+            "lon": -122.27275
+          }
+        },
+        {
+          "facility": "Enloe Medical Center",
+          "city": "Chico",
+          "state": "California",
+          "zip": "95926",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72849,
+            "lon": -121.83748
+          }
+        },
+        {
+          "facility": "Glendale Memorial Hospital and Health Center",
+          "city": "Glendale",
+          "state": "California",
+          "zip": "91204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.14251,
+            "lon": -118.25508
+          }
+        },
+        {
+          "facility": "Kaiser Permanente, Hayward",
+          "city": "Hayward",
+          "state": "California",
+          "zip": "94545",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.66882,
+            "lon": -122.0808
+          }
+        },
+        {
+          "facility": "Moores University of California San Diego Cancer Center",
+          "city": "La Jolla",
+          "state": "California",
+          "zip": "92093",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.84727,
+            "lon": -117.2742
+          }
+        },
+        {
+          "facility": "Long Beach Memorial Medical Center-Todd Cancer Institute",
+          "city": "Long Beach",
+          "state": "California",
+          "zip": "90806",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.76696,
+            "lon": -118.18923
+          }
+        },
+        {
+          "facility": "University of Southern California",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90033-0804",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "University of California at Los Angeles (UCLA )",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90095",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Fremont - Rideout Cancer Center",
+          "city": "Marysville",
+          "state": "California",
+          "zip": "95901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.14573,
+            "lon": -121.59135
+          }
+        },
+        {
+          "facility": "Bay Area Tumor Institution CCOP",
+          "city": "Oakland",
+          "state": "California",
+          "zip": "94609",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.80437,
+            "lon": -122.2708
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Oakland",
+          "city": "Oakland",
+          "state": "California",
+          "zip": "94611",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.80437,
+            "lon": -122.2708
+          }
+        },
+        {
+          "facility": "University of California Medical Center At Irvine-Orange Campus",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "Pomona Valley Hospital Medical Center",
+          "city": "Pomona",
+          "state": "California",
+          "zip": "91767",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05529,
+            "lon": -117.75228
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Redwood City",
+          "city": "Redwood City",
+          "state": "California",
+          "zip": "94063",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.48522,
+            "lon": -122.23635
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Richmond",
+          "city": "Richmond",
+          "state": "California",
+          "zip": "94801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.93576,
+            "lon": -122.34775
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Roseville",
+          "city": "Roseville",
+          "state": "California",
+          "zip": "95661",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.75212,
+            "lon": -121.28801
+          }
+        },
+        {
+          "facility": "University of California Davis-Cancer Center",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-South Sacramento",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95823",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Kaiser Permanente - Sacramento",
+          "city": "Sacramento",
+          "state": "California",
+          "zip": "95825",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.58157,
+            "lon": -121.4944
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Mission",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Kaiser Permanente",
+          "city": "San Diego",
+          "state": "California",
+          "zip": "92108",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.71571,
+            "lon": -117.16472
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-San Francisco",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "University of California San Francisco Medical Center-Mount Zion",
+          "city": "San Francisco",
+          "state": "California",
+          "zip": "94115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77493,
+            "lon": -122.41942
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Santa Teresa-San Jose",
+          "city": "San Jose",
+          "state": "California",
+          "zip": "95119",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.33939,
+            "lon": -121.89496
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-San Rafael",
+          "city": "San Rafael",
+          "state": "California",
+          "zip": "94903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.97353,
+            "lon": -122.53109
+          }
+        },
+        {
+          "facility": "Kaiser Permanente Medical Center - Santa Clara",
+          "city": "Santa Clara",
+          "state": "California",
+          "zip": "95051",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.35411,
+            "lon": -121.95524
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Santa Rosa",
+          "city": "Santa Rosa",
+          "state": "California",
+          "zip": "95403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.44047,
+            "lon": -122.71443
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-South San Francisco",
+          "city": "South San Francisco",
+          "state": "California",
+          "zip": "94080",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.65466,
+            "lon": -122.40775
+          }
+        },
+        {
+          "facility": "Stanford University",
+          "city": "Stanford",
+          "state": "California",
+          "zip": "94305",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.42411,
+            "lon": -122.16608
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Stockton",
+          "city": "Stockton",
+          "state": "California",
+          "zip": "95210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.9577,
+            "lon": -121.29078
+          }
+        },
+        {
+          "facility": "Tahoe Forest Cancer Center",
+          "city": "Truckee",
+          "state": "California",
+          "zip": "96161",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.32796,
+            "lon": -120.18325
+          }
+        },
+        {
+          "facility": "Kaiser Permanente Medical Center-Vacaville",
+          "city": "Vacaville",
+          "state": "California",
+          "zip": "95688",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.35658,
+            "lon": -121.98774
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Vallejo",
+          "city": "Vallejo",
+          "state": "California",
+          "zip": "94589",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.10409,
+            "lon": -122.25664
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Walnut Creek",
+          "city": "Walnut Creek",
+          "state": "California",
+          "zip": "94596",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.90631,
+            "lon": -122.06496
+          }
+        },
+        {
+          "facility": "John Muir Medical Center",
+          "city": "Walnut Creek",
+          "state": "California",
+          "zip": "94598",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.90631,
+            "lon": -122.06496
+          }
+        },
+        {
+          "facility": "University of Colorado Cancer Center - Anschutz Cancer Pavilion",
+          "city": "Aurora",
+          "state": "Colorado",
+          "zip": "80045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.72943,
+            "lon": -104.83192
+          }
+        },
+        {
+          "facility": "Memorial Hospital Colorado Springs",
+          "city": "Colorado Springs",
+          "state": "Colorado",
+          "zip": "80909",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.83388,
+            "lon": -104.82136
+          }
+        },
+        {
+          "facility": "Kaiser Permanente-Franklin",
+          "city": "Denver",
+          "state": "Colorado",
+          "zip": "80205",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.73915,
+            "lon": -104.9847
+          }
+        },
+        {
+          "facility": "Poudre Valley Hospital",
+          "city": "Fort Collins",
+          "state": "Colorado",
+          "zip": "80524",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.58526,
+            "lon": -105.08442
+          }
+        },
+        {
+          "facility": "Front Range Cancer Specialists",
+          "city": "Fort Collins",
+          "state": "Colorado",
+          "zip": "80528",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.58526,
+            "lon": -105.08442
+          }
+        },
+        {
+          "facility": "University of Connecticut",
+          "city": "Farmington",
+          "state": "Connecticut",
+          "zip": "06030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.71982,
+            "lon": -72.83204
+          }
+        },
+        {
+          "facility": "Greenwich Hospital",
+          "city": "Greenwich",
+          "state": "Connecticut",
+          "zip": "06830",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.02649,
+            "lon": -73.62846
+          }
+        },
+        {
+          "facility": "Hartford Hospital",
+          "city": "Hartford",
+          "state": "Connecticut",
+          "zip": "06102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76371,
+            "lon": -72.68509
+          }
+        },
+        {
+          "facility": "Yale University",
+          "city": "New Haven",
+          "state": "Connecticut",
+          "zip": "06520-8032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.30815,
+            "lon": -72.92816
+          }
+        },
+        {
+          "facility": "Stamford Hospital",
+          "city": "Stamford",
+          "state": "Connecticut",
+          "zip": "06904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.05343,
+            "lon": -73.53873
+          }
+        },
+        {
+          "facility": "Connecticut Oncology and Hematology LLP",
+          "city": "Torrington",
+          "state": "Connecticut",
+          "zip": "06790",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.80065,
+            "lon": -73.12122
+          }
+        },
+        {
+          "facility": "Georgetown University Hospital",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Washington Hospital Center",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Sibley Memorial Hospital",
+          "city": "Washington D.C.",
+          "state": "District of Columbia",
+          "zip": "20016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.89511,
+            "lon": -77.03637
+          }
+        },
+        {
+          "facility": "Boca Raton Regional Hospital",
+          "city": "Boca Raton",
+          "state": "Florida",
+          "zip": "33486",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.35869,
+            "lon": -80.0831
+          }
+        },
+        {
+          "facility": "Mayo Clinic in Florida",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "zip": "32224-9980",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.33218,
+            "lon": -81.65565
+          }
+        },
+        {
+          "facility": "The Watson Clinic",
+          "city": "Lakeland",
+          "state": "Florida",
+          "zip": "33805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.03947,
+            "lon": -81.9498
+          }
+        },
+        {
+          "facility": "Mount Sinai Medical Center CCOP",
+          "city": "Miami Beach",
+          "state": "Florida",
+          "zip": "33140",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 25.79065,
+            "lon": -80.13005
+          }
+        },
+        {
+          "facility": "Florida Hospital",
+          "city": "Orlando",
+          "state": "Florida",
+          "zip": "32803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 28.53834,
+            "lon": -81.37924
+          }
+        },
+        {
+          "facility": "Moffitt Cancer Center and Research Institute",
+          "city": "Tampa",
+          "state": "Florida",
+          "zip": "33612",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.94752,
+            "lon": -82.45843
+          }
+        },
+        {
+          "facility": "Phoebe Putney Memorial Hospital",
+          "city": "Albany",
+          "state": "Georgia",
+          "zip": "31701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 31.57851,
+            "lon": -84.15574
+          }
+        },
+        {
+          "facility": "Northeast Georgia Medical Center",
+          "city": "Gainesville",
+          "state": "Georgia",
+          "zip": "30501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.29788,
+            "lon": -83.82407
+          }
+        },
+        {
+          "facility": "South Georgia Medical Center",
+          "city": "Valdosta",
+          "state": "Georgia",
+          "zip": "31602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.83334,
+            "lon": -83.28032
+          }
+        },
+        {
+          "facility": "University of Hawaii",
+          "city": "Honolulu",
+          "state": "Hawaii",
+          "zip": "96813",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 21.30694,
+            "lon": -157.85833
+          }
+        },
+        {
+          "facility": "Kaiser Permanente Moanalua Medical Center",
+          "city": "Honolulu",
+          "state": "Hawaii",
+          "zip": "96819",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 21.30694,
+            "lon": -157.85833
+          }
+        },
+        {
+          "facility": "Rush - Copley Medical Center",
+          "city": "Aurora",
+          "state": "Illinois",
+          "zip": "60504",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.76058,
+            "lon": -88.32007
+          }
+        },
+        {
+          "facility": "Mount Sinai Hospital Medical Center",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "John H Stroger Jr Hospital of Cook County",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60612-3785",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Swedish Covenant Hospital",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60625",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Resurrection Healthcare",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60631",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "University of Chicago",
+          "city": "Chicago",
+          "state": "Illinois",
+          "zip": "60637-1470",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.85003,
+            "lon": -87.65005
+          }
+        },
+        {
+          "facility": "Decatur Memorial Hospital",
+          "city": "Decatur",
+          "state": "Illinois",
+          "zip": "62526",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.84031,
+            "lon": -88.9548
+          }
+        },
+        {
+          "facility": "Elmhurst Memorial Hospital",
+          "city": "Elmhurst",
+          "state": "Illinois",
+          "zip": "60126",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.89947,
+            "lon": -87.94034
+          }
+        },
+        {
+          "facility": "Evanston CCOP-NorthShore University HealthSystem",
+          "city": "Evanston",
+          "state": "Illinois",
+          "zip": "60201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.04114,
+            "lon": -87.69006
+          }
+        },
+        {
+          "facility": "Saint Francis Hospital",
+          "city": "Evanston",
+          "state": "Illinois",
+          "zip": "60202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.04114,
+            "lon": -87.69006
+          }
+        },
+        {
+          "facility": "Ingalls Memorial Hospital",
+          "city": "Harvey",
+          "state": "Illinois",
+          "zip": "60426",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.61003,
+            "lon": -87.64671
+          }
+        },
+        {
+          "facility": "Loyola University Medical Center",
+          "city": "Maywood",
+          "state": "Illinois",
+          "zip": "60153",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.8792,
+            "lon": -87.84312
+          }
+        },
+        {
+          "facility": "Trinity Medical Center",
+          "city": "Moline",
+          "state": "Illinois",
+          "zip": "61265",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.5067,
+            "lon": -90.51513
+          }
+        },
+        {
+          "facility": "Illinois CancerCare-Peoria",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61615",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "Illinois Oncology Research Association CCOP",
+          "city": "Peoria",
+          "state": "Illinois",
+          "zip": "61615",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69365,
+            "lon": -89.58899
+          }
+        },
+        {
+          "facility": "Memorial Medical Center",
+          "city": "Springfield",
+          "state": "Illinois",
+          "zip": "62781-0001",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.80172,
+            "lon": -89.64371
+          }
+        },
+        {
+          "facility": "Carle Foundation - Carle Cancer Center",
+          "city": "Urbana",
+          "state": "Illinois",
+          "zip": "61801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.11059,
+            "lon": -88.20727
+          }
+        },
+        {
+          "facility": "Elkhart Clinic",
+          "city": "Elkhart",
+          "state": "Indiana",
+          "zip": "46514-2098",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.68199,
+            "lon": -85.97667
+          }
+        },
+        {
+          "facility": "Michiana Hematology Oncology PC-Elkhart",
+          "city": "Elkhart",
+          "state": "Indiana",
+          "zip": "46514",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.68199,
+            "lon": -85.97667
+          }
+        },
+        {
+          "facility": "Indiana University Hospital/Melvin and Bren Simon Cancer Center",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "zip": "46202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.76838,
+            "lon": -86.15804
+          }
+        },
+        {
+          "facility": "Howard Regional Healthcare System",
+          "city": "Kokomo",
+          "state": "Indiana",
+          "zip": "46904",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.48643,
+            "lon": -86.1336
+          }
+        },
+        {
+          "facility": "Saint Anthony Memorial Health Center",
+          "city": "Michigan City",
+          "state": "Indiana",
+          "zip": "46360",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.70754,
+            "lon": -86.89503
+          }
+        },
+        {
+          "facility": "Michiana Hematology Oncology PC-Mishawaka",
+          "city": "Mishawaka",
+          "state": "Indiana",
+          "zip": "46545-1470",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.66199,
+            "lon": -86.15862
+          }
+        },
+        {
+          "facility": "Michiana Hematology Oncology PC-Plymouth",
+          "city": "Plymouth",
+          "state": "Indiana",
+          "zip": "46563",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.34366,
+            "lon": -86.30973
+          }
+        },
+        {
+          "facility": "Michiana Hematology Oncology PC-South Bend",
+          "city": "South Bend",
+          "state": "Indiana",
+          "zip": "46601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.68338,
+            "lon": -86.25001
+          }
+        },
+        {
+          "facility": "Michiana Hematology Oncology-PC Westville",
+          "city": "Westville",
+          "state": "Indiana",
+          "zip": "46391",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.54143,
+            "lon": -86.90058
+          }
+        },
+        {
+          "facility": "McFarland Clinic",
+          "city": "Ames",
+          "state": "Iowa",
+          "zip": "50010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.03471,
+            "lon": -93.61994
+          }
+        },
+        {
+          "facility": "Oncology Associates at Mercy Medical Center",
+          "city": "Cedar Rapids",
+          "state": "Iowa",
+          "zip": "52403",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.00833,
+            "lon": -91.64407
+          }
+        },
+        {
+          "facility": "Heartland Oncology and Hematology LLP",
+          "city": "Council Bluffs",
+          "state": "Iowa",
+          "zip": "51503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.26194,
+            "lon": -95.86083
+          }
+        },
+        {
+          "facility": "Ottumwa Regional Health Center",
+          "city": "Ottumwa",
+          "state": "Iowa",
+          "zip": "52501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.02001,
+            "lon": -92.4113
+          }
+        },
+        {
+          "facility": "Siouxland Hematology Oncology Associates",
+          "city": "Sioux City",
+          "state": "Iowa",
+          "zip": "51101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.49999,
+            "lon": -96.40031
+          }
+        },
+        {
+          "facility": "Kansas City CCOP",
+          "city": "Prairie Village",
+          "state": "Kansas",
+          "zip": "66208",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.99167,
+            "lon": -94.63357
+          }
+        },
+        {
+          "facility": "Wichita CCOP",
+          "city": "Wichita",
+          "state": "Kansas",
+          "zip": "67214",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.69224,
+            "lon": -97.33754
+          }
+        },
+        {
+          "facility": "Central Baptist Hospital",
+          "city": "Lexington",
+          "state": "Kentucky",
+          "zip": "40503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.98869,
+            "lon": -84.47772
+          }
+        },
+        {
+          "facility": "Owensboro Mercy Medical Center",
+          "city": "Owensboro",
+          "state": "Kentucky",
+          "zip": "42303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.77422,
+            "lon": -87.11333
+          }
+        },
+        {
+          "facility": "Mary Bird Perkins Cancer Center",
+          "city": "Baton Rouge",
+          "state": "Louisiana",
+          "zip": "70809",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.44332,
+            "lon": -91.18747
+          }
+        },
+        {
+          "facility": "Eastern Maine Medical Center",
+          "city": "Bangor",
+          "state": "Maine",
+          "zip": "04401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.79884,
+            "lon": -68.77265
+          }
+        },
+        {
+          "facility": "York Hospital",
+          "city": "York Village",
+          "state": "Maine",
+          "zip": "03909",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.1437,
+            "lon": -70.65089
+          }
+        },
+        {
+          "facility": "University of Maryland Greenebaum Cancer Center",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21201-1595",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Mercy Medical Center",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Johns Hopkins University",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "zip": "21287-8936",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.29038,
+            "lon": -76.61219
+          }
+        },
+        {
+          "facility": "Suburban Hospital",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20814",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        },
+        {
+          "facility": "Frederick Memorial Hospital",
+          "city": "Frederick",
+          "state": "Maryland",
+          "zip": "21701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.41427,
+            "lon": -77.41054
+          }
+        },
+        {
+          "facility": "Dana-Farber Cancer Institute",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02115",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "Massachusetts",
+          "zip": "02215",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.35843,
+            "lon": -71.05977
+          }
+        },
+        {
+          "facility": "Lahey Clinic Medical Center",
+          "city": "Burlington",
+          "state": "Massachusetts",
+          "zip": "01805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.50482,
+            "lon": -71.19561
+          }
+        },
+        {
+          "facility": "Addison Gilbert Hospital",
+          "city": "Gloucester",
+          "state": "Massachusetts",
+          "zip": "01930",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.61405,
+            "lon": -70.66313
+          }
+        },
+        {
+          "facility": "Lowell General Hospital",
+          "city": "Lowell",
+          "state": "Massachusetts",
+          "zip": "01854",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.63342,
+            "lon": -71.31617
+          }
+        },
+        {
+          "facility": "Saint Vincent Hospital - Fallon Clinic",
+          "city": "Worcester",
+          "state": "Massachusetts",
+          "zip": "01608",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.26259,
+            "lon": -71.80229
+          }
+        },
+        {
+          "facility": "University of Michigan Health System-Cancer Center",
+          "city": "Ann Arbor",
+          "state": "Michigan",
+          "zip": "48109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.27756,
+            "lon": -83.74088
+          }
+        },
+        {
+          "facility": "Battle Creek Health System",
+          "city": "Battle Creek",
+          "state": "Michigan",
+          "zip": "49017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.3173,
+            "lon": -85.17816
+          }
+        },
+        {
+          "facility": "Wayne State University",
+          "city": "Detroit",
+          "state": "Michigan",
+          "zip": "48202",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.33143,
+            "lon": -83.04575
+          }
+        },
+        {
+          "facility": "Grand Rapids Clinical Oncology Program",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "Saint Mary's Health Care",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "Spectrum Health at Butterworth Campus",
+          "city": "Grand Rapids",
+          "state": "Michigan",
+          "zip": "49503",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.96336,
+            "lon": -85.66809
+          }
+        },
+        {
+          "facility": "West Michigan Cancer Center",
+          "city": "Kalamazoo",
+          "state": "Michigan",
+          "zip": "49007",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.29171,
+            "lon": -85.58723
+          }
+        },
+        {
+          "facility": "Mercy Health Partners-Mercy Campus",
+          "city": "Muskegon",
+          "state": "Michigan",
+          "zip": "49444",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.23418,
+            "lon": -86.24839
+          }
+        },
+        {
+          "facility": "Michiana Hematology Oncology PC-Niles",
+          "city": "Niles",
+          "state": "Michigan",
+          "zip": "49120",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82977,
+            "lon": -86.25418
+          }
+        },
+        {
+          "facility": "William Beaumont Hospital",
+          "city": "Royal Oak",
+          "state": "Michigan",
+          "zip": "48073",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.48948,
+            "lon": -83.14465
+          }
+        },
+        {
+          "facility": "Marie Yeager Cancer Center",
+          "city": "Saint Joseph",
+          "state": "Michigan",
+          "zip": "49085",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.10976,
+            "lon": -86.48002
+          }
+        },
+        {
+          "facility": "Munson Medical Center",
+          "city": "Traverse City",
+          "state": "Michigan",
+          "zip": "49684",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.76306,
+            "lon": -85.62063
+          }
+        },
+        {
+          "facility": "Metro Health Hospital",
+          "city": "Wyoming",
+          "state": "Michigan",
+          "zip": "49519",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.91336,
+            "lon": -85.70531
+          }
+        },
+        {
+          "facility": "Mercy Hospital",
+          "city": "Coon Rapids",
+          "state": "Minnesota",
+          "zip": "55433",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.11997,
+            "lon": -93.28773
+          }
+        },
+        {
+          "facility": "Duluth Clinic CCOP",
+          "city": "Duluth",
+          "state": "Minnesota",
+          "zip": "55805",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.78327,
+            "lon": -92.10658
+          }
+        },
+        {
+          "facility": "Fairview-Southdale Hospital",
+          "city": "Edina",
+          "state": "Minnesota",
+          "zip": "55435",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.88969,
+            "lon": -93.34995
+          }
+        },
+        {
+          "facility": "Unity Hospital",
+          "city": "Fridley",
+          "state": "Minnesota",
+          "zip": "55432",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.08608,
+            "lon": -93.26328
+          }
+        },
+        {
+          "facility": "Minnesota Oncology Hematology PA-Maplewood",
+          "city": "Maplewood",
+          "state": "Minnesota",
+          "zip": "55109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.95302,
+            "lon": -92.99522
+          }
+        },
+        {
+          "facility": "Saint John's Hospital - Healtheast",
+          "city": "Maplewood",
+          "state": "Minnesota",
+          "zip": "55109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.95302,
+            "lon": -92.99522
+          }
+        },
+        {
+          "facility": "Abbott-Northwestern Hospital",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "zip": "55407",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.97997,
+            "lon": -93.26384
+          }
+        },
+        {
+          "facility": "North Memorial Medical Health Center",
+          "city": "Robbinsdale",
+          "state": "Minnesota",
+          "zip": "55422",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.03219,
+            "lon": -93.33856
+          }
+        },
+        {
+          "facility": "Mayo Clinic",
+          "city": "Rochester",
+          "state": "Minnesota",
+          "zip": "55905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.02163,
+            "lon": -92.4699
+          }
+        },
+        {
+          "facility": "CentraCare Clinic",
+          "city": "Saint Cloud",
+          "state": "Minnesota",
+          "zip": "56303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.5608,
+            "lon": -94.16249
+          }
+        },
+        {
+          "facility": "Metro-Minnesota CCOP",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55416",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "Park Nicollet Clinic - Saint Louis Park",
+          "city": "Saint Louis Park",
+          "state": "Minnesota",
+          "zip": "55416",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.9483,
+            "lon": -93.34801
+          }
+        },
+        {
+          "facility": "Regions Hospital",
+          "city": "Saint Paul",
+          "state": "Minnesota",
+          "zip": "55101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          }
+        },
+        {
+          "facility": "United Hospital",
+          "city": "Saint Paul",
+          "state": "Minnesota",
+          "zip": "55102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.94441,
+            "lon": -93.09327
+          }
+        },
+        {
+          "facility": "Rice Memorial Hospital",
+          "city": "Willmar",
+          "state": "Minnesota",
+          "zip": "56201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.12191,
+            "lon": -95.04334
+          }
+        },
+        {
+          "facility": "Minnesota Oncology and Hematology PA-Woodbury",
+          "city": "Woodbury",
+          "state": "Minnesota",
+          "zip": "55125",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.92386,
+            "lon": -92.95938
+          }
+        },
+        {
+          "facility": "University of Mississippi Medical Center",
+          "city": "Jackson",
+          "state": "Mississippi",
+          "zip": "39216",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.29876,
+            "lon": -90.18481
+          }
+        },
+        {
+          "facility": "Singing River Hospital",
+          "city": "Pascagoula",
+          "state": "Mississippi",
+          "zip": "39581",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.36576,
+            "lon": -88.55613
+          }
+        },
+        {
+          "facility": "Saint Luke's Hospital",
+          "city": "Chesterfield",
+          "state": "Missouri",
+          "zip": "63017",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.66311,
+            "lon": -90.57707
+          }
+        },
+        {
+          "facility": "Saint John's Hospital",
+          "city": "Springfield",
+          "state": "Missouri",
+          "zip": "65804",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.21533,
+            "lon": -93.29824
+          }
+        },
+        {
+          "facility": "Cox Medical Center",
+          "city": "Springfield",
+          "state": "Missouri",
+          "zip": "65807",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.21533,
+            "lon": -93.29824
+          }
+        },
+        {
+          "facility": "Washington University School of Medicine",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Missouri Baptist Medical Center",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63131",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Saint John's Mercy Medical Center",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Saint Louis-Cape Girardeau CCOP",
+          "city": "St Louis",
+          "state": "Missouri",
+          "zip": "63141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.62727,
+            "lon": -90.19789
+          }
+        },
+        {
+          "facility": "Good Samaritan Hospital",
+          "city": "Kearney",
+          "state": "Nebraska",
+          "zip": "68847",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.69946,
+            "lon": -99.08148
+          }
+        },
+        {
+          "facility": "Lincoln Medical Education Foundation Cancer Resource Center",
+          "city": "Lincoln",
+          "state": "Nebraska",
+          "zip": "68510",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.8,
+            "lon": -96.66696
+          }
+        },
+        {
+          "facility": "Missouri Valley Cancer Consortium CCOP",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "Methodist Estabrook Cancer Center",
+          "city": "Omaha",
+          "state": "Nebraska",
+          "zip": "68114",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.25626,
+            "lon": -95.94043
+          }
+        },
+        {
+          "facility": "New Hampshire Oncology-Hematology PA",
+          "city": "Concord",
+          "state": "New Hampshire",
+          "zip": "03301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.20814,
+            "lon": -71.53757
+          }
+        },
+        {
+          "facility": "New Hampshire Oncology Hematology Associates",
+          "city": "Hooksett",
+          "state": "New Hampshire",
+          "zip": "03106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.09675,
+            "lon": -71.46507
+          }
+        },
+        {
+          "facility": "LRGHealthcare-Lakes Region General Hospital",
+          "city": "Laconia",
+          "state": "New Hampshire",
+          "zip": "03246",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.52785,
+            "lon": -71.47035
+          }
+        },
+        {
+          "facility": "Dartmouth Hitchcock Medical Center",
+          "city": "Lebanon",
+          "state": "New Hampshire",
+          "zip": "03756",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.64229,
+            "lon": -72.25176
+          }
+        },
+        {
+          "facility": "The Dana-Farber Cancer Institute at Londonderry",
+          "city": "Londonderry",
+          "state": "New Hampshire",
+          "zip": "03053",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.86509,
+            "lon": -71.37395
+          }
+        },
+        {
+          "facility": "Saint Barnabas Medical Center",
+          "city": "Livingston",
+          "state": "New Jersey",
+          "zip": "07039",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79593,
+            "lon": -74.31487
+          }
+        },
+        {
+          "facility": "Fox Chase Cancer Center at Virtua Memorial Hospital of Burlington County",
+          "city": "Mount Holly",
+          "state": "New Jersey",
+          "zip": "08060",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.99289,
+            "lon": -74.78766
+          }
+        },
+        {
+          "facility": "Valley Hospital",
+          "city": "Ridgewood",
+          "state": "New Jersey",
+          "zip": "07450",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.97926,
+            "lon": -74.11653
+          }
+        },
+        {
+          "facility": "University of New Mexico",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "Presbyterian Kaseman Hospital",
+          "city": "Albuquerque",
+          "state": "New Mexico",
+          "zip": "87110",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08449,
+            "lon": -106.65114
+          }
+        },
+        {
+          "facility": "State University of New York Downstate Medical Center",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11203",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Maimonides Medical Center",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11219",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Coney Island Hospital",
+          "city": "Brooklyn",
+          "state": "New York",
+          "zip": "11235",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.6501,
+            "lon": -73.94958
+          }
+        },
+        {
+          "facility": "Roswell Park Cancer Institute",
+          "city": "Buffalo",
+          "state": "New York",
+          "zip": "14263",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 42.88645,
+            "lon": -78.87837
+          }
+        },
+        {
+          "facility": "Hematology Oncology Associates of Central New York PC",
+          "city": "East Syracuse",
+          "state": "New York",
+          "zip": "13057",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.06534,
+            "lon": -76.07853
+          }
+        },
+        {
+          "facility": "Monter Cancer Center",
+          "city": "Lake Success",
+          "state": "New York",
+          "zip": "11042",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.77066,
+            "lon": -73.71763
+          }
+        },
+        {
+          "facility": "North Shore University Hospital CCOP",
+          "city": "Manhasset",
+          "state": "New York",
+          "zip": "11030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          }
+        },
+        {
+          "facility": "North Shore University Hospital",
+          "city": "Manhasset",
+          "state": "New York",
+          "zip": "11030",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79788,
+            "lon": -73.69957
+          }
+        },
+        {
+          "facility": "Mount Kisco Medical Group at Northern Westchester Hospital",
+          "city": "Mount Kisco",
+          "state": "New York",
+          "zip": "10549-3417",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.20426,
+            "lon": -73.72708
+          }
+        },
+        {
+          "facility": "Mount Kisco Medical Group",
+          "city": "Mount Kisco",
+          "state": "New York",
+          "zip": "10549",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.20426,
+            "lon": -73.72708
+          }
+        },
+        {
+          "facility": "Long Island Jewish Medical Center",
+          "city": "New Hyde Park",
+          "state": "New York",
+          "zip": "11040",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.7351,
+            "lon": -73.68791
+          }
+        },
+        {
+          "facility": "Beth Israel Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "New York University Langone Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10016",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Saint Luke's Roosevelt Hospital Center - Saint Luke's Division",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10025",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Mount Sinai Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10029",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Columbia University Medical Center",
+          "city": "New York",
+          "state": "New York",
+          "zip": "10032",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.71427,
+            "lon": -74.00597
+          }
+        },
+        {
+          "facility": "Rochester General Hospital",
+          "city": "Rochester",
+          "state": "New York",
+          "zip": "14621",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.15478,
+            "lon": -77.61556
+          }
+        },
+        {
+          "facility": "Stony Brook University Medical Center",
+          "city": "Stony Brook",
+          "state": "New York",
+          "zip": "11794",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.92565,
+            "lon": -73.14094
+          }
+        },
+        {
+          "facility": "State University of New York Upstate Medical University",
+          "city": "Syracuse",
+          "state": "New York",
+          "zip": "13210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.04812,
+            "lon": -76.14742
+          }
+        },
+        {
+          "facility": "Albert Einstein College of Medicine",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10461",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "The North Division of Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10466",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "Montefiore Medical Center",
+          "city": "The Bronx",
+          "state": "New York",
+          "zip": "10467-2490",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.84985,
+            "lon": -73.86641
+          }
+        },
+        {
+          "facility": "Mission Hospitals Inc",
+          "city": "Asheville",
+          "state": "North Carolina",
+          "zip": "28801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.60095,
+            "lon": -82.55402
+          }
+        },
+        {
+          "facility": "Presbyterian Hospital",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "zip": "28204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.22709,
+            "lon": -80.84313
+          }
+        },
+        {
+          "facility": "Wayne Memorial Hospital",
+          "city": "Goldsboro",
+          "state": "North Carolina",
+          "zip": "27534",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.38488,
+            "lon": -77.99277
+          }
+        },
+        {
+          "facility": "Margaret R Pardee Memorial Hospital",
+          "city": "Hendersonville",
+          "state": "North Carolina",
+          "zip": "28791",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.31873,
+            "lon": -82.46095
+          }
+        },
+        {
+          "facility": "High Point Regional Hospital",
+          "city": "High Point",
+          "state": "North Carolina",
+          "zip": "27261",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.95569,
+            "lon": -80.00532
+          }
+        },
+        {
+          "facility": "Kinston Medical Specialists PA",
+          "city": "Kinston",
+          "state": "North Carolina",
+          "zip": "28501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.26266,
+            "lon": -77.58164
+          }
+        },
+        {
+          "facility": "FirstHealth of the Carolinas-Moore Regional Hosiptal",
+          "city": "Pinehurst",
+          "state": "North Carolina",
+          "zip": "28374",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.19543,
+            "lon": -79.46948
+          }
+        },
+        {
+          "facility": "Rex Cancer Center",
+          "city": "Raleigh",
+          "state": "North Carolina",
+          "zip": "27607",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.7721,
+            "lon": -78.63861
+          }
+        },
+        {
+          "facility": "Forsyth Memorial Hospital",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27103",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Wake Forest University Health Sciences",
+          "city": "Winston-Salem",
+          "state": "North Carolina",
+          "zip": "27157",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.09986,
+            "lon": -80.24422
+          }
+        },
+        {
+          "facility": "Medcenter One Health Systems",
+          "city": "Bismarck",
+          "state": "North Dakota",
+          "zip": "58501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.80833,
+            "lon": -100.78374
+          }
+        },
+        {
+          "facility": "Mid Dakota Clinic",
+          "city": "Bismarck",
+          "state": "North Dakota",
+          "zip": "58501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.80833,
+            "lon": -100.78374
+          }
+        },
+        {
+          "facility": "Sanford Clinic North-Fargo",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58102",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "Sanford Medical Center-Fargo",
+          "city": "Fargo",
+          "state": "North Dakota",
+          "zip": "58122",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.87719,
+            "lon": -96.7898
+          }
+        },
+        {
+          "facility": "Altru Cancer Center",
+          "city": "Grand Forks",
+          "state": "North Dakota",
+          "zip": "58201",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.92526,
+            "lon": -97.03285
+          }
+        },
+        {
+          "facility": "Trinity Cancer Care Center",
+          "city": "Minot",
+          "state": "North Dakota",
+          "zip": "58701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 48.23251,
+            "lon": -101.29627
+          }
+        },
+        {
+          "facility": "Akron City Hospital",
+          "city": "Akron",
+          "state": "Ohio",
+          "zip": "44304",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.08144,
+            "lon": -81.51901
+          }
+        },
+        {
+          "facility": "Akron General Medical Center",
+          "city": "Akron",
+          "state": "Ohio",
+          "zip": "44307",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.08144,
+            "lon": -81.51901
+          }
+        },
+        {
+          "facility": "Aultman Health Foundation",
+          "city": "Canton",
+          "state": "Ohio",
+          "zip": "44710",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79895,
+            "lon": -81.37845
+          }
+        },
+        {
+          "facility": "Case Western Reserve University",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44106",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "MetroHealth Medical Center",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44109",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Cleveland Clinic Foundation",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "zip": "44195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.4995,
+            "lon": -81.69541
+          }
+        },
+        {
+          "facility": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "Ohio",
+          "zip": "43210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96118,
+            "lon": -82.99879
+          }
+        },
+        {
+          "facility": "Kettering Medical Center",
+          "city": "Kettering",
+          "state": "Ohio",
+          "zip": "45429",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.6895,
+            "lon": -84.16883
+          }
+        },
+        {
+          "facility": "Legacy Good Samaritan Hospital and Medical Center",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Columbia River Oncology Program",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97225",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Kaiser Permanente",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97227",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Oregon Health and Science University",
+          "city": "Portland",
+          "state": "Oregon",
+          "zip": "97239",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.52345,
+            "lon": -122.67621
+          }
+        },
+        {
+          "facility": "Bryn Mawr Hospital",
+          "city": "Bryn Mawr",
+          "state": "Pennsylvania",
+          "zip": "19010",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.30396,
+            "lon": -80.08672
+          }
+        },
+        {
+          "facility": "Geisinger Medical Center",
+          "city": "Danville",
+          "state": "Pennsylvania",
+          "zip": "17822-2001",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.96342,
+            "lon": -76.61273
+          }
+        },
+        {
+          "facility": "Penn State Milton S Hershey Medical Center",
+          "city": "Hershey",
+          "state": "Pennsylvania",
+          "zip": "17033-0850",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.28592,
+            "lon": -76.65025
+          }
+        },
+        {
+          "facility": "Lancaster General Hospital",
+          "city": "Lancaster",
+          "state": "Pennsylvania",
+          "zip": "17604",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.03788,
+            "lon": -76.30551
+          }
+        },
+        {
+          "facility": "Paoli Memorial Hospital",
+          "city": "Paoli",
+          "state": "Pennsylvania",
+          "zip": "19301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.04205,
+            "lon": -75.47631
+          }
+        },
+        {
+          "facility": "Pennsylvania Hospital",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19107",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Fox Chase Cancer Center",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19111-2497",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Albert Einstein Medical Center",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "zip": "19141",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.95238,
+            "lon": -75.16362
+          }
+        },
+        {
+          "facility": "Phoenixville Hospital",
+          "city": "Phoenixville",
+          "state": "Pennsylvania",
+          "zip": "19460",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.13038,
+            "lon": -75.51491
+          }
+        },
+        {
+          "facility": "University of Pittsburgh",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "zip": "15232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.44062,
+            "lon": -79.99589
+          }
+        },
+        {
+          "facility": "Saint Joseph Medical Center",
+          "city": "Reading",
+          "state": "Pennsylvania",
+          "zip": "19605",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.33565,
+            "lon": -75.92687
+          }
+        },
+        {
+          "facility": "Mount Nittany Medical Center",
+          "city": "State College",
+          "state": "Pennsylvania",
+          "zip": "16803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.79339,
+            "lon": -77.86
+          }
+        },
+        {
+          "facility": "Chester County Hospital",
+          "city": "West Chester",
+          "state": "Pennsylvania",
+          "zip": "19380",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.96097,
+            "lon": -75.60804
+          }
+        },
+        {
+          "facility": "Lankenau Hospital",
+          "city": "Wynnewood",
+          "state": "Pennsylvania",
+          "zip": "19096",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.00289,
+            "lon": -75.27074
+          }
+        },
+        {
+          "facility": "Memorial Hospital of Rhode Island",
+          "city": "Pawtucket",
+          "state": "Rhode Island",
+          "zip": "02860",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.87871,
+            "lon": -71.38256
+          }
+        },
+        {
+          "facility": "Rhode Island Hospital",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02903",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "Women and Infants Hospital",
+          "city": "Providence",
+          "state": "Rhode Island",
+          "zip": "02905",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 41.82399,
+            "lon": -71.41283
+          }
+        },
+        {
+          "facility": "AnMed Health Cancer Center",
+          "city": "Anderson",
+          "state": "South Carolina",
+          "zip": "29621",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.50344,
+            "lon": -82.65013
+          }
+        },
+        {
+          "facility": "Medical University of South Carolina",
+          "city": "Charleston",
+          "state": "South Carolina",
+          "zip": "29425",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 32.77632,
+            "lon": -79.93275
+          }
+        },
+        {
+          "facility": "McLeod Regional Medical Center",
+          "city": "Florence",
+          "state": "South Carolina",
+          "zip": "29506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.19543,
+            "lon": -79.76256
+          }
+        },
+        {
+          "facility": "Spartanburg Regional Medical Center",
+          "city": "Spartanburg",
+          "state": "South Carolina",
+          "zip": "29303",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.94957,
+            "lon": -81.93205
+          }
+        },
+        {
+          "facility": "Rapid City Regional Hospital",
+          "city": "Rapid City",
+          "state": "South Dakota",
+          "zip": "57701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.08054,
+            "lon": -103.23101
+          }
+        },
+        {
+          "facility": "Sanford Clinic",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "Avera Cancer Institute",
+          "city": "Sioux Falls",
+          "state": "South Dakota",
+          "zip": "57105",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.54369,
+            "lon": -96.72796
+          }
+        },
+        {
+          "facility": "University of Tennessee - Knoxville",
+          "city": "Knoxville",
+          "state": "Tennessee",
+          "zip": "37920",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.96064,
+            "lon": -83.92074
+          }
+        },
+        {
+          "facility": "Vanderbilt Breast Center at One Hundred Oaks",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37204",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "Vanderbilt University",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "zip": "37232",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 36.16589,
+            "lon": -86.78444
+          }
+        },
+        {
+          "facility": "University Medical Center Brackenridge",
+          "city": "Austin",
+          "state": "Texas",
+          "zip": "78701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 30.26715,
+            "lon": -97.74306
+          }
+        },
+        {
+          "facility": "Doctor's Hospital of Laredo",
+          "city": "Laredo",
+          "state": "Texas",
+          "zip": "78045",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 27.50641,
+            "lon": -99.50754
+          }
+        },
+        {
+          "facility": "University of Texas Health Science Center",
+          "city": "San Antonio",
+          "state": "Texas",
+          "zip": "78229-3900",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 29.42412,
+            "lon": -98.49363
+          }
+        },
+        {
+          "facility": "Huntsman Cancer Institute/University of Utah",
+          "city": "Salt Lake City",
+          "state": "Utah",
+          "zip": "84112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.76078,
+            "lon": -111.89105
+          }
+        },
+        {
+          "facility": "Mountainview Medical",
+          "city": "Berlin Corners",
+          "state": "Vermont",
+          "zip": "05602",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.21006,
+            "lon": -72.57594
+          }
+        },
+        {
+          "facility": "University of Vermont",
+          "city": "Burlington",
+          "state": "Vermont",
+          "zip": "05401",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.47588,
+            "lon": -73.21207
+          }
+        },
+        {
+          "facility": "Martha Jefferson Hospital",
+          "city": "Charlottesville",
+          "state": "Virginia",
+          "zip": "22901",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.02931,
+            "lon": -78.47668
+          }
+        },
+        {
+          "facility": "Lynchburg Hematology-Oncology Clinic",
+          "city": "Lynchburg",
+          "state": "Virginia",
+          "zip": "24501",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 37.41375,
+            "lon": -79.14225
+          }
+        },
+        {
+          "facility": "Saint John Medical Center",
+          "city": "Longview",
+          "state": "Washington",
+          "zip": "98632",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.13817,
+            "lon": -122.93817
+          }
+        },
+        {
+          "facility": "Virginia Mason CCOP",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98101",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Pacific Medical Center-First Hill",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98104",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Group Health Cooperative",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98112",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Swedish Medical Center-First Hill",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98122-4307",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "University of Washington Medical Center",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98195",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.60621,
+            "lon": -122.33207
+          }
+        },
+        {
+          "facility": "Rockwood Clinic",
+          "city": "Spokane",
+          "state": "Washington",
+          "zip": "99220",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.65966,
+            "lon": -117.42908
+          }
+        },
+        {
+          "facility": "Northwest CCOP",
+          "city": "Tacoma",
+          "state": "Washington",
+          "zip": "98405",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.25288,
+            "lon": -122.44429
+          }
+        },
+        {
+          "facility": "Providence Saint Mary Regional Cancer Center",
+          "city": "Walla Walla",
+          "state": "Washington",
+          "zip": "99362",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.06458,
+            "lon": -118.34302
+          }
+        },
+        {
+          "facility": "Wenatchee Valley Medical Center",
+          "city": "Wenatchee",
+          "state": "Washington",
+          "zip": "98801",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 47.42346,
+            "lon": -120.31035
+          }
+        },
+        {
+          "facility": "North Star Lodge Cancer Center at Yakima Valley Memorial Hospital",
+          "city": "Yakima",
+          "state": "Washington",
+          "zip": "98902",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 46.60207,
+            "lon": -120.5059
+          }
+        },
+        {
+          "facility": "Edwards Comprehensive Cancer Center",
+          "city": "Huntington",
+          "state": "West Virginia",
+          "zip": "25701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.41925,
+            "lon": -82.44515
+          }
+        },
+        {
+          "facility": "West Virginia University",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        },
+        {
+          "facility": "Wheeling Hospital",
+          "city": "Wheeling",
+          "state": "West Virginia",
+          "zip": "26003",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.06396,
+            "lon": -80.72091
+          }
+        },
+        {
+          "facility": "Marshfield Clinic Cancer Care at Regional Cancer Center",
+          "city": "Eau Claire",
+          "state": "Wisconsin",
+          "zip": "54701",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.81135,
+            "lon": -91.49849
+          }
+        },
+        {
+          "facility": "Central Wisconsin Cancer Program",
+          "city": "Fond du Lac",
+          "state": "Wisconsin",
+          "zip": "54935",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.775,
+            "lon": -88.43883
+          }
+        },
+        {
+          "facility": "Saint Vincent Hospital",
+          "city": "Green Bay",
+          "state": "Wisconsin",
+          "zip": "54301",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.51916,
+            "lon": -88.01983
+          }
+        },
+        {
+          "facility": "Aurora BayCare Medical Center",
+          "city": "Green Bay",
+          "state": "Wisconsin",
+          "zip": "54311-6519",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.51916,
+            "lon": -88.01983
+          }
+        },
+        {
+          "facility": "Gundersen Lutheran Health System/CCOP",
+          "city": "La Crosse",
+          "state": "Wisconsin",
+          "zip": "54601",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.80136,
+            "lon": -91.23958
+          }
+        },
+        {
+          "facility": "University of Wisconsin Hospital and Clinics",
+          "city": "Madison",
+          "state": "Wisconsin",
+          "zip": "53792",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.07305,
+            "lon": -89.40123
+          }
+        },
+        {
+          "facility": "Marshfield Clinic",
+          "city": "Marshfield",
+          "state": "Wisconsin",
+          "zip": "54449",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.66885,
+            "lon": -90.1718
+          }
+        },
+        {
+          "facility": "Columbia Saint Mary's Hospital - Ozaukee",
+          "city": "Mequon",
+          "state": "Wisconsin",
+          "zip": "53097",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.21555,
+            "lon": -88.03001
+          }
+        },
+        {
+          "facility": "Wheaton Franciscan Healthcare - Saint Joseph",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53210",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Columbia Saint Mary's Water Tower Medical Commons",
+          "city": "Milwaukee",
+          "state": "Wisconsin",
+          "zip": "53211",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.0389,
+            "lon": -87.90647
+          }
+        },
+        {
+          "facility": "Marshfield Clinic-Minocqua Center",
+          "city": "Minocqua",
+          "state": "Wisconsin",
+          "zip": "54548",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 45.87134,
+            "lon": -89.71098
+          }
+        },
+        {
+          "facility": "Aurora Medical Center in Summit",
+          "city": "Summit",
+          "state": "Wisconsin",
+          "zip": "53066",
+          "country": "United States"
+        },
+        {
+          "facility": "Marshfield Clinic - Weston Center",
+          "city": "Weston",
+          "state": "Wisconsin",
+          "zip": "54476",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 44.8908,
+            "lon": -89.54762
+          }
+        },
+        {
+          "facility": "Cross Cancer Institute",
+          "city": "Edmonton",
+          "state": "Alberta",
+          "zip": "T6G 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 53.55014,
+            "lon": -113.46871
+          }
+        },
+        {
+          "facility": "BCCA - Abbotsford Centre",
+          "city": "Abbotsford British Columbia",
+          "state": "British Columbia",
+          "zip": "V2S 0C2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.05798,
+            "lon": -122.25257
+          }
+        },
+        {
+          "facility": "BCCA - Cancer Centre for the Southern Interior",
+          "city": "Kelowna",
+          "state": "British Columbia",
+          "zip": "V1Y 5L3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.88307,
+            "lon": -119.48568
+          }
+        },
+        {
+          "facility": "BCCA - Fraser Valley Cancer Centre",
+          "city": "Surrey",
+          "state": "British Columbia",
+          "zip": "V3V 1Z2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.10635,
+            "lon": -122.82509
+          }
+        },
+        {
+          "facility": "BCCA - Vancouver Cancer Centre",
+          "city": "Vancouver",
+          "state": "British Columbia",
+          "zip": "V5Z 4E6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.24966,
+            "lon": -123.11934
+          }
+        },
+        {
+          "facility": "BCCA - Vancouver Island Cancer Centre",
+          "city": "Victoria",
+          "state": "British Columbia",
+          "zip": "V8R 6V5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.4359,
+            "lon": -123.35155
+          }
+        },
+        {
+          "facility": "CancerCare Manitoba",
+          "city": "Winnipeg",
+          "state": "Manitoba",
+          "zip": "R3E 0V9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 49.8844,
+            "lon": -97.14704
+          }
+        },
+        {
+          "facility": "The Moncton Hospital",
+          "city": "Moncton",
+          "state": "New Brunswick",
+          "zip": "E1C 6Z8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.09454,
+            "lon": -64.7965
+          }
+        },
+        {
+          "facility": "The Vitalite Health Network - Dr. Leon Richard",
+          "city": "Moncton",
+          "state": "New Brunswick",
+          "zip": "E1C 8X3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.09454,
+            "lon": -64.7965
+          }
+        },
+        {
+          "facility": "Atlantic Health Sciences Corporation",
+          "city": "Saint John",
+          "state": "New Brunswick",
+          "zip": "E2L 4L2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.27076,
+            "lon": -66.05616
+          }
+        },
+        {
+          "facility": "Dr. H. Bliss Murphy Cancer Centre",
+          "city": "St. John's",
+          "state": "Newfoundland and Labrador",
+          "zip": "AIB 3V6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 47.56494,
+            "lon": -52.70931
+          }
+        },
+        {
+          "facility": "Cambridge Memorial Hospital",
+          "city": "Cambridge",
+          "state": "Ontario",
+          "zip": "N1R 3G2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.3601,
+            "lon": -80.31269
+          }
+        },
+        {
+          "facility": "Northeast Cancer Center Health Sciences",
+          "city": "Greater Sudbury",
+          "state": "Ontario",
+          "zip": "P3E 5J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.49,
+            "lon": -80.99001
+          }
+        },
+        {
+          "facility": "Juravinski Cancer Centre at Hamilton Health Sciences",
+          "city": "Hamilton",
+          "state": "Ontario",
+          "zip": "L8V 5C2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.25011,
+            "lon": -79.84963
+          }
+        },
+        {
+          "facility": "Cancer Centre of Southeastern Ontario at Kingston",
+          "city": "Kingston",
+          "state": "Ontario",
+          "zip": "K7L 5P9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.22976,
+            "lon": -76.48098
+          }
+        },
+        {
+          "facility": "Grand River Regional Cancer Centre",
+          "city": "Kitchener",
+          "state": "Ontario",
+          "zip": "N2G 1G3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.42537,
+            "lon": -80.5112
+          }
+        },
+        {
+          "facility": "London Regional Cancer Program",
+          "city": "London",
+          "state": "Ontario",
+          "zip": "N6A 4L6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.98339,
+            "lon": -81.23304
+          }
+        },
+        {
+          "facility": "Credit Valley Hospital",
+          "city": "Mississauga",
+          "state": "Ontario",
+          "zip": "L5M 2N1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.5789,
+            "lon": -79.6583
+          }
+        },
+        {
+          "facility": "Stronach Regional Health Centre at Southlake",
+          "city": "Newmarket",
+          "state": "Ontario",
+          "zip": "L3Y 2P9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 44.05011,
+            "lon": -79.46631
+          }
+        },
+        {
+          "facility": "Lakeridge Health Oshawa",
+          "city": "Oshawa",
+          "state": "Ontario",
+          "zip": "L1G 2B9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.90012,
+            "lon": -78.84957
+          }
+        },
+        {
+          "facility": "Ottawa Health Research Institute - General Division",
+          "city": "Ottawa",
+          "state": "Ontario",
+          "zip": "K1H 8L6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.41117,
+            "lon": -75.69812
+          }
+        },
+        {
+          "facility": "Algoma District Cancer Program",
+          "city": "Sault Ste. Marie",
+          "state": "Ontario",
+          "zip": "P6B 0A8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.51677,
+            "lon": -84.33325
+          }
+        },
+        {
+          "facility": "Niagara Health System",
+          "city": "St. Catharines",
+          "state": "Ontario",
+          "zip": "L2R 7C6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.17126,
+            "lon": -79.24267
+          }
+        },
+        {
+          "facility": "Thunder Bay Regional Health Science Centre",
+          "city": "Thunder Bay",
+          "state": "Ontario",
+          "zip": "P7B 6V4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 48.38202,
+            "lon": -89.25018
+          }
+        },
+        {
+          "facility": "Toronto East General Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4C 3E7",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Odette Cancer Centre",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "St. Michael's Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5B 1W8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Mount Sinai Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 1X5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Univ. Health Network-Princess Margaret Hospital",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M5G 2M9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Trillium Health Centre - West Toronto",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M9C 1A5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Windsor Regional Cancer Centre",
+          "city": "Windsor",
+          "state": "Ontario",
+          "zip": "N8W 2X3",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 42.30008,
+            "lon": -83.01654
+          }
+        },
+        {
+          "facility": "PEI Cancer Treatment Centre,Queen Elizabeth Hospital",
+          "city": "Charlottetown",
+          "state": "Prince Edward Island",
+          "zip": "C1A 8T5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.23459,
+            "lon": -63.1256
+          }
+        },
+        {
+          "facility": "Hopital Charles LeMoyne",
+          "city": "Greenfield Park",
+          "state": "Quebec",
+          "zip": "J4V 2H1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.48649,
+            "lon": -73.46223
+          }
+        },
+        {
+          "facility": "Hopital de la Cite-de-la-Sante",
+          "city": "Laval",
+          "state": "Quebec",
+          "zip": "H7M 3L9",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.56995,
+            "lon": -73.692
+          }
+        },
+        {
+          "facility": "Hopital Maisonneuve-Rosemont",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H1T 2M4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "McGill University - Dept. Oncology",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W 1S6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "CHUM - Hotel Dieu du Montreal",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2W 1T8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "CHUQ-Pavillon Hotel-Dieu de Quebec",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "zip": "G1R 2J6",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "CHA-Hopital Du St-Sacrement",
+          "city": "Qu\u00e9bec",
+          "state": "Quebec",
+          "zip": "G1S 4L8",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 46.81228,
+            "lon": -71.21454
+          }
+        },
+        {
+          "facility": "Allan Blair Cancer Centre",
+          "city": "Regina",
+          "state": "Saskatchewan",
+          "zip": "S4T 7T1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 50.45008,
+            "lon": -104.6178
+          }
+        },
+        {
+          "facility": "Saskatoon Cancer Centre",
+          "city": "Saskatoon",
+          "state": "Saskatchewan",
+          "zip": "S7N 4H4",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 52.13238,
+            "lon": -106.66892
+          }
+        },
+        {
+          "facility": "Switzerland-Chur (Ratisches Kantons- und Regionalspital)",
+          "city": "Chur",
+          "zip": "7000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.84986,
+            "lon": 9.53287
+          }
+        },
+        {
+          "facility": "Brustzentrum Thurgau, Spital Thurgau AG",
+          "city": "Frauenfeld",
+          "zip": "8501",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55776,
+            "lon": 8.89893
+          }
+        },
+        {
+          "facility": "Fondazione Oncologia Lago Maggiore, FOLM",
+          "city": "Locarno",
+          "zip": "6600",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.17086,
+            "lon": 8.79953
+          }
+        },
+        {
+          "facility": "Switzerland-Luzern (Kantonsspital Luzern)",
+          "city": "Lucerne",
+          "zip": "6000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          }
+        },
+        {
+          "facility": "Switzerland - Oncology Institute of Southern Switzerland (IOSI)",
+          "city": "Mendrisio",
+          "zip": "6850",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 45.87019,
+            "lon": 8.9816
+          }
+        },
+        {
+          "facility": "Switzerland - Olten (Kantonsspital) affiliate-3101",
+          "city": "Olten",
+          "zip": "4600",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.34999,
+            "lon": 7.90329
+          }
+        },
+        {
+          "facility": "Switzerland - ZeTup St.Gallen",
+          "city": "Sankt Gallen",
+          "zip": "9006",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "Switzerland - Brust-Zentrum, Zurich",
+          "city": "Zurich",
+          "zip": "8005",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "facility": "University Hospital Birmingham NHS Foundation Trust",
+          "city": "Edgbaston",
+          "state": "Birmingham",
+          "zip": "B15-2WB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.4623,
+            "lon": -1.92115
+          }
+        },
+        {
+          "facility": "Edinburgh Cancer Centre, Western General Hospital",
+          "city": "Edinburgh",
+          "state": "Crewe Road South",
+          "zip": "EH4 2XU",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 55.95206,
+            "lon": -3.19648
+          }
+        },
+        {
+          "facility": "Brighton and Sussex University Hospitals NHS Trust",
+          "city": "Brighton",
+          "state": "East Sussex",
+          "zip": "BN2 5BE",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 50.82838,
+            "lon": -0.13947
+          }
+        },
+        {
+          "facility": "Medway NHS Foundation Trust",
+          "city": "Gillingham",
+          "state": "Kent",
+          "zip": "ME75NY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.38914,
+            "lon": 0.54863
+          }
+        },
+        {
+          "facility": "Kent Centre for Oncology",
+          "city": "Maidstone",
+          "state": "Kent",
+          "zip": "ME16 9QQ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.26667,
+            "lon": 0.51667
+          }
+        },
+        {
+          "facility": "South Tees Hospitals NHS Foundation Trust",
+          "city": "Middlesbrough",
+          "state": "Marton Road",
+          "zip": "TS4 3BW",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 54.57623,
+            "lon": -1.23483
+          }
+        },
+        {
+          "facility": "Withybush General Hospital",
+          "city": "Haverfordwest",
+          "state": "Pembrokeshire",
+          "zip": "SA61 2PZ",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.80169,
+            "lon": -4.96914
+          }
+        },
+        {
+          "facility": "East and North Hertfordshire NHS Trust",
+          "city": "Middlesex",
+          "state": "Rickmansworth Road",
+          "zip": "HA6 2RN",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.53174,
+            "lon": -0.26856
+          }
+        },
+        {
+          "facility": "Singleton Hospital",
+          "city": "Swansea",
+          "state": "Sketty Lane",
+          "zip": "SA2 8QA",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.62079,
+            "lon": -3.94323
+          }
+        },
+        {
+          "facility": "North Bristol NHS Trust",
+          "city": "Bristol",
+          "state": "Southmead",
+          "zip": "BS10 5NB",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.45523,
+            "lon": -2.59665
+          }
+        },
+        {
+          "facility": "St George's Healthcare NHS Trust",
+          "city": "London",
+          "state": "Tooting",
+          "zip": "SW17 0QT",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.50853,
+            "lon": -0.12574
+          }
+        },
+        {
+          "facility": "Ninewells Hospital",
+          "city": "Dundee",
+          "state": "University of Dundee",
+          "zip": "DD1 9SY",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 56.46913,
+            "lon": -2.97489
+          }
+        },
+        {
+          "facility": "Velindre Cancer Centre",
+          "city": "Cardiff",
+          "state": "Whitchurch",
+          "zip": "CF14 2TL",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 51.48,
+            "lon": -3.18
+          }
+        },
+        {
+          "facility": "The Christie NHS Foundation Trust",
+          "city": "Manchester",
+          "state": "Withington",
+          "zip": "M20-4BX",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 53.48095,
+            "lon": -2.23743
+          }
+        },
+        {
+          "facility": "Sandwell and West Birmingham Hospitals NHS Trust",
+          "city": "Birmingham",
+          "zip": "B187QH",
+          "country": "United Kingdom",
+          "geoPoint": {
+            "lat": 52.48142,
+            "lon": -1.89983
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "25740979",
+          "type": "BACKGROUND",
+          "citation": "Goodwin PJ, Parulekar WR, Gelmon KA, Shepherd LE, Ligibel JA, Hershman DL, Rastogi P, Mayer IA, Hobday TJ, Lemieux J, Thompson AM, Pritchard KI, Whelan TJ, Mukherjee SD, Chalchal HI, Oja CD, Tonkin KS, Bernstein V, Chen BE, Stambolic V. Effect of metformin vs placebo on and metabolic factors in NCIC CTG MA.32. J Natl Cancer Inst. 2015 Mar 4;107(3):djv006. doi: 10.1093/jnci/djv006. Print 2015 Mar."
+        },
+        {
+          "pmid": "35608580",
+          "type": "RESULT",
+          "citation": "Goodwin PJ, Chen BE, Gelmon KA, Whelan TJ, Ennis M, Lemieux J, Ligibel JA, Hershman DL, Mayer IA, Hobday TJ, Bliss JM, Rastogi P, Rabaglio-Poretti M, Mukherjee SD, Mackey JR, Abramson VG, Oja C, Wesolowski R, Thompson AM, Rea DW, Stos PM, Shepherd LE, Stambolic V, Parulekar WR. Effect of Metformin vs Placebo on Invasive Disease-Free Survival in Patients With Breast Cancer: The MA.32 Randomized Clinical Trial. JAMA. 2022 May 24;327(20):1963-1973. doi: 10.1001/jama.2022.6147."
+        },
+        {
+          "pmid": "42360727",
+          "type": "DERIVED",
+          "citation": "Goodwin PJ, Chen BE, Gelmon KA, Whelan TJ, Ennis M, Ligibel J, Stos PM, Shepherd LE, Parulekar WR, Stambolic V. Association of cancer antigen 15-3 with distant recurrence in immunohistochemically defined breast cancer subtypes in Canadian Cancer Trials Group MA.32. JNCI Cancer Spectr. 2026 Jun 25:pkag068. doi: 10.1093/jncics/pkag068. Online ahead of print."
+        },
+        {
+          "pmid": "42137612",
+          "type": "DERIVED",
+          "citation": "Liao L, Wang G, Li Y, Zou D, Liu J, Ma B, Ma J, Li Y, Qi Y, Ma J, Chen H. Nine-Year Recurrence-Free Survival in Gastric Signet-Ring Cell Carcinoma: A Case Report of Laparoscopic Radical Resection Combining Long-Term Systematic Therapy and Metformin Enteric-Coated Tablets. Case Rep Med. 2026 May 13;2026:6766219. doi: 10.1155/carm/6766219. eCollection 2026."
+        },
+        {
+          "pmid": "37695982",
+          "type": "DERIVED",
+          "citation": "Goodwin PJ, Chen BE, Gelmon KA, Whelan TJ, Ennis M, Lemieux J, Ligibel JA, Hershman DL, Mayer IA, Hobday TJ, Bliss JM, Rastogi P, Rabaglio-Poretti M, Thompson AM, Rea DW, Stos PM, Shepherd LE, Stambolic V, Parulekar WR. Effect of Metformin Versus Placebo on New Primary Cancers in Canadian Cancer Trials Group MA.32: A Secondary Analysis of a Phase III Randomized Double-Blind Trial in Early Breast Cancer. J Clin Oncol. 2023 Dec 10;41(35):5356-5362. doi: 10.1200/JCO.23.00296. Epub 2023 Sep 11."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Metformin",
+          "description": "Patients receive oral metformin hydrochloride (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+        },
+        {
+          "id": "FG001",
+          "title": "Placebo",
+          "description": "Patients receive oral placebo (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1824"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1825"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1816"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1816"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "8"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "All randomized patients will be analyzed according to the arm that they were randomized to (intent to treat population).",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Metformin",
+          "description": "Patients receive oral metformin hydrochloride (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+        },
+        {
+          "id": "BG001",
+          "title": "Placebo",
+          "description": "Patients receive oral placebo (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "1824"
+            },
+            {
+              "groupId": "BG001",
+              "value": "1825"
+            },
+            {
+              "groupId": "BG002",
+              "value": "3649"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52.18",
+                      "spread": "10.05"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "52.56",
+                      "spread": "10.12"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "52.37",
+                      "spread": "10.09"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1821"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1822"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3643"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "17"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "99"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "8"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "83"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "84"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "167"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1653"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1651"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3304"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "23"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "26"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "49"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Canada",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "599"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "604"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1203"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "United States",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1132"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1127"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2259"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "United Kingdom",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "68"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "69"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "137"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Switzerland",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "50"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body mass index",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "Kg/m^2",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "28.72",
+                      "spread": "6.58"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "28.52",
+                      "spread": "6.22"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "28.62",
+                      "spread": "6.40"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hormone Receptor",
+          "description": "Hormone receptor is a special protein that in a breast cancer cell that enables the cell to grow in the presence of estrogen or progesterone that is measured using standard methods in the laboratory where the diagnosis was made.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "title": "Positive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1268"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "1265"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "2533"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Negative",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "556"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "560"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1116"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Invasive Disease-free Survival in Hormone Receptor (ER and PgR) Positive Sub-groups",
+          "description": "Invasive disease-free survival (IDFS) is defined as percentage of patients without documented development of ipsilateral and contralateral invasive breast tumour, local/regional invasive recurrence, distant recurrence, death from any causes. If a subject has not had invasive disease or died at the time of data cut-off for this final analysis, IDFS was censored on the date of last follow-up.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of patients without event",
+          "timeFrame": "5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Patients receive oral metformin hydrochloride (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients receive oral placebo (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1268"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1265"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "86.5",
+                      "lowerLimit": "84.5",
+                      "upperLimit": "88.5"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "85.9",
+                      "lowerLimit": "83.9",
+                      "upperLimit": "87.9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.93",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.01",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.84",
+              "ciUpperLimit": "1.21"
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Invasive Disease-free Survival",
+          "description": "Invasive disease-free survival (IDFS) is defined as the percent of patients without documented development of ipsilateral and contralateral invasive breast tumour, local/regional invasive recurrence, distant recurrence, death from any causes. If a subject has not had invasive disease or died at the time of data cut-off for this final analysis, IDFS was censored on the date of last follow-up.",
+          "populationDescription": "All randomized patients will be analyzed according to the arm that they were randomized to (intent to treat population).",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of patients without event",
+          "timeFrame": "5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Patients receive oral metformin hydrochloride twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients receive oral placebo twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1824"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1825"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "84.9",
+                      "lowerLimit": "83.2",
+                      "upperLimit": "86.6"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "84.1",
+                      "lowerLimit": "82.4",
+                      "upperLimit": "85.8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.94",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.01",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.87",
+              "ciUpperLimit": "1.17"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Overall Survival",
+          "description": "Number of patients who died from any causes.",
+          "populationDescription": "Intent to treat",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "10 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Patients receive oral metformin hydrochloride twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients receive oral placebo twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1824"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1825"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Patients who died",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "201"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "198"
+                    }
+                  ]
+                },
+                {
+                  "title": "Patients who alive",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1623"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1627"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "analyses": [
+            {
+              "groupIds": [
+                "OG000",
+                "OG001"
+              ],
+              "nonInferiorityType": "SUPERIORITY",
+              "pValue": "0.88",
+              "statisticalMethod": "Log Rank",
+              "paramType": "Hazard Ratio (HR)",
+              "paramValue": "1.02",
+              "ciPctValue": "95",
+              "ciNumSides": "TWO_SIDED",
+              "ciLowerLimit": "0.83",
+              "ciUpperLimit": "1.24"
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Distant Relapse-free Survival",
+          "description": "Distant Relapse Free Survival (DRFS) is defined as the percentage of patients without any documented distant recurrence, death from breast cancer, death from a non breast cancer cause or death from an unknown cause. If a subject has not had distant DRFS event nor died at the time of data cut-off for this analysis, DRFS will be censored on the date of last disease assessment.",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "percentage of patients without event",
+          "timeFrame": "5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Metformin",
+              "description": "Patients receive oral metformin hydrochloride (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Placebo",
+              "description": "Patients receive oral placebo (850mg) twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1824"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1825"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "88.7",
+                      "lowerLimit": "87.2",
+                      "upperLimit": "90.2"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "87.8",
+                      "lowerLimit": "86.3",
+                      "upperLimit": "89.3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Breast Cancer-specific Mortality",
+          "description": "Patients who died from breast cancer",
+          "populationDescription": "Intent to treat",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "10 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm I",
+              "description": "Patients receive oral metformin hydrochloride twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm II",
+              "description": "Patients receive oral placebo twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "1824"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "1825"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "155"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "160"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "5",
+      "timeFrame": "10 years",
+      "description": "For all cause mortality, the analysis population is intent to treat, which includes all randomized patients. This is different from the analysis population for the adverse event and serious adverse event (treated population).",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Metformin",
+          "description": "Patients receive oral metformin hydrochloride twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nmetformin hydrochloride: Given orally",
+          "deathsNumAffected": 201,
+          "deathsNumAtRisk": 1824,
+          "seriousNumAffected": 1,
+          "seriousNumAtRisk": 1816,
+          "otherNumAffected": 1707,
+          "otherNumAtRisk": 1816
+        },
+        {
+          "id": "EG001",
+          "title": "Placebo",
+          "description": "Patients receive oral placebo twice daily (once daily in weeks 1-4). Treatment continues for up to 5 years in receptor positive (ER and/or PgR positive) subjects in the absence of disease progression or unacceptable toxicity.\n\nplacebo: Given orally",
+          "deathsNumAffected": 198,
+          "deathsNumAtRisk": 1825,
+          "seriousNumAffected": 3,
+          "seriousNumAtRisk": 1816,
+          "otherNumAffected": 1670,
+          "otherNumAtRisk": 1816
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Retinal vascular disorder",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Fetal death",
+          "organSystem": "Pregnancy, puerperium and perinatal conditions",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 1816
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 191,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 146,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Bloating",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 179,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 151,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 288,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 226,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 819,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 354,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Dyspepsia",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 174,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 141,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Flatulence",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 155,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 145,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Gastroesophageal reflux disease",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 121,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 114,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 560,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 297,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 139,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 100,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Edema limbs",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 143,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 130,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 811,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 797,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 250,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 276,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Dermatitis radiation",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 127,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 138,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Weight gain",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 90,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 156,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Weight loss",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 171,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 81,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Anorexia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 182,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 84,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Hyperglycemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 80,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 93,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 389,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 427,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Arthritis",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 86,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 99,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Back pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 211,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 189,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Bone pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 90,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 102,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Myalgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 226,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 248,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 328,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 332,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 150,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 145,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Dysgeusia",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 95,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 61,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 304,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 325,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Peripheral sensory neuropathy",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 484,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 517,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Anxiety",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 251,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 241,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 243,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 242,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Insomnia",
+          "organSystem": "Psychiatric disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 417,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 380,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Breast pain",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 111,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 145,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Vaginal dryness",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 99,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 99,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Cough",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 159,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 171,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 165,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 170,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Alopecia",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 194,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 159,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Hot flashes",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 716,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 706,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Hypertension",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 207,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 227,
+              "numAtRisk": 1816
+            }
+          ]
+        },
+        {
+          "term": "Lymphedema",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "CTCAE (4.0)",
+          "assessmentType": "SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 171,
+              "numAtRisk": 1816
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 178,
+              "numAtRisk": 1816
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Professor Bingshu Chen",
+        "organization": "Canadian Cancer Trials Group",
+        "email": "bechen@ctg.queensu.ca",
+        "phone": "+16135336000",
+        "phoneExt": "77703"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-04-01",
+          "uploadDate": "2022-06-08T12:26",
+          "filename": "Prot_000.pdf",
+          "size": 1576064
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2021-12-09",
+          "uploadDate": "2022-05-27T12:47",
+          "filename": "SAP_001.pdf",
+          "size": 492644
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D018567",
+          "term": "Breast Neoplasms, Male"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D008687",
+          "term": "Metformin"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D001645",
+          "term": "Biguanides"
+        },
+        {
+          "id": "D006146",
+          "term": "Guanidines"
+        },
+        {
+          "id": "D000578",
+          "term": "Amidines"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

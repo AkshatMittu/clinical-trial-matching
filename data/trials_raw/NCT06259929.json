@@ -1,0 +1,406 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06259929",
+      "orgStudyIdInfo": {
+        "id": "GIM31-Neo-AGILE"
+      },
+      "organization": {
+        "fullName": "Fondazione Oncotech",
+        "class": "OTHER"
+      },
+      "briefTitle": "NEOadjuvant Abemaciclib and GIredestrant TriaL in Patients with ER-positive, HER2-negative Early Breast Cancer",
+      "officialTitle": "NEOadjuvant Abemaciclib and GIredestrant TriaL in Patients with ER-positive, HER2-negative Early Breast Cancer",
+      "acronym": "Neo-AGILE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-01-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-04-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-04-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-01-30",
+      "studyFirstSubmitQcDate": "2024-02-07",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-14",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-02-14",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-02-18",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Fondazione Oncotech",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of the study is to evaluate the efficacy and the safety of abemaciclib and giredestrant before surgery in participants with early stage, oestrogen receptor-positive (ER+), human epidermal receptor 2 negative (HER2-) breast cancer (BC).\n\nPrimary objective:\n\n\u25cf To evaluate the efficacy of abemaciclib and giredestrant in complete cell cycle arrest (CCCA) rate at Week 2.\n\nSecondary objectives:\n\n* To evaluate the efficacy of abemaciclib and giredestrant in reducing the relative Ki67 expression from baseline to Week 2\n* To evaluate the efficacy of abemaciclib and giredestrant in risk of recurrence (ROR) score reduction, clinical and radiological tumor response;\n* To evaluate the safety of abemaciclib and giredestrant.\n\nExploratory objectives:\n\n* To evaluate the mechanisms of response and resistance to therapy;\n* To evaluate the correlation between Ki-67% reduction and 18- Fluorothymidine (FLT) uptake reduction;\n* To evaluate the pathological complete response (pCR) rate (ypT0/is, ypN0) of giredestrant plus abemaciclib",
+      "detailedDescription": "This is a phase II, multicentre, single-arm neoadjuvant study in post- menopausal women with ER-positive and HER2-previously untreated early BC. The trial will include approximately 10 sites in Italy.\n\nThe study plan will include a maximum 28-day screening period prior to start treatment. During the 6 cycles of the on-study intervention period, participants will return to the clinic every 2 weeks (14 \u00b1 3 days) for the first 2 cycles, and then on Day 1 of the subsequent 4 cycles.\n\nSurgery should be performed as soon as possible after at least 7 days, from the last dose of abemaciclib and giredestrant, and no later than 30 days.\n\nDuring the short-term follow-up, participants should return for an in-clinic visit 28 days (\u00b1 5 days) after surgery. After the short-term follow-up visit, all participants will enter the long-term follow-up period, which will begin the day after the short-term follow-up visit and will continue up to Year1. Visits during the long-term follow-up visits should occur approximately every 3 months for a total of one year. For participants who are unable to attend the required clinic visits, long-term follow-up visits can take place as a phone visit.\n\nBlood and tumor samples will be used to investigate the mechanisms of response and resistance to therapy in ER+ and HER2- early BC. For each patient enrolled in the present study, blood samples (mandatory) and tumor biopsies (mandatory) are required and collected at entry in the study, following 14 days and 12 weeks of treatment, and prior to or during surgery. Blood samples are also required to be collected at the short follow up visit, at the end of the long follow-up period after on year (\u00b1 28 days) from the last short follow-up visit and at disease progression (suggested but not mandatory)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 51,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patients with ER-positive, HER2-negative Early breast cancer",
+          "type": "EXPERIMENTAL",
+          "description": "Abemaciclib 150 mg oral twice daily (BID) and giredestrant 30 mg oral once daily (OD) on Days 1-28.",
+          "interventionNames": [
+            "Drug: Abemaciclib 150 MG + Giredestrant 30 MG"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Abemaciclib 150 MG + Giredestrant 30 MG",
+          "description": "Enrolled patients will receive 6 cycles of treatment in the absence of disease progression or unacceptable toxicity for a total of 24 weeks (2 weeks of opportunity phase and 22 weeks of neoadjuvant phase) before surgery",
+          "armGroupLabels": [
+            "Patients with ER-positive, HER2-negative Early breast cancer"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Efficacy of abemaciclib and giredestrant in complete cell cycle arrest (CCCA) rate",
+          "description": "CCCA rate, defined as the proportion of patients with centrally assessed Ki67 scores \u2264 2.7% in stained biopsies",
+          "timeFrame": "Week 2"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Efficacy of abemaciclib and giredestrant in reducing the relative Ki67 expression",
+          "description": "Percent change in Ki67 expression",
+          "timeFrame": "from baseline to Week 2 and at surgery (after the last dose of abemaciclib and giredestrant)"
+        },
+        {
+          "measure": "Efficacy of abemaciclib and giredestrant in risk of recurrence (ROR) score change, clinical and radiological tumor response",
+          "description": "ROR score change",
+          "timeFrame": "from baseline to Week 2 and at surgery (after the last dose of abemaciclib and giredestrant)"
+        },
+        {
+          "measure": "Clinical and radiologic objective responses rate",
+          "description": "Clinical and radiologic (magnetic resonance imaging \\[MRI\\]) objective responses measured according to the Recist Criteria 1.1",
+          "timeFrame": "Screening, Week 2, Week 12, Week 24 then through follow-up completion (up to a year)"
+        },
+        {
+          "measure": "Incidence of Treatment-Emergent Adverse Events as assessed by CTCAE v5.0",
+          "description": "Treatment-Emergent adverse events evaluation measured as per CTCAE v5.0 criteria",
+          "timeFrame": "Screening, during the treatment/surgery then through follow-up completion (up to a year)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Incidence of response and resistance to therapy",
+          "description": "Mechanisms of response and resistance to therapy (translational plan) by measuring predictive biomarkers",
+          "timeFrame": "Screening, Week 2, Week 12, Week 24, during surgery (after the last dose of abemaciclib and giredestrant), until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 1 year"
+        },
+        {
+          "measure": "Ki-67% and 18- Fluorothymidine (FLT) correlation",
+          "description": "Correlation between Ki-67% reduction and 18-Fluorothymidine (FLT) uptake reduction",
+          "timeFrame": "from baseline to Week 2 and at surgery (after the last dose of abemaciclib and giredestrant)"
+        },
+        {
+          "measure": "Pathological complete response (pCR) rate (ypT0/is, ypN0) of giredestrant plus abemaciclib",
+          "description": "Tumor response will be evaluated by the investigator using RECIST Version 1.1.",
+          "timeFrame": "Screening, Week 2, Week 12, Week 24 then through follow-up completion (up to a year)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Female patients willing and able to give written informed consent;\n2. Women\u226518 years of age;\n3. Postmenopausal women, as defined by at least one of the following criteria:\n\n   * \u226512 months of amenorrhea without an alternate medical cause plus follicle-stimulating hormone (FSH) and plasma estradiol levels within postmenopausal range by local laboratory assessment, in the absence of oral contraceptive pills, hormone replacement therapy, or gonadotropin-releasing hormone agonist or antagonist. However, in the absence of 12 months of amenorrhea, a single FSH measurement is insufficient;\n   * Documented bilateral oophorectomy (\u2265 14 days prior to first treatment on Day 1 of Cycle 1 and recovery from surgery to baseline);\n4. Patients with cT1c (\u22651.0 cm)-cT4a-c BC at presentation; a-c primary tumor must be \u2265 1.0 cm in longest diameter by ultrasound;\n5. Confirmed ER+ disease by local testing on primary disease specimen: tumor must be ER \u2265 10% defined by immunohistochemistry (IHC) according to American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines for hormone receptor testing;\n6. Confirmed HER2- disease by local testing on primary disease specimen: tumor must be HER2- according to ASCO/CAP 2023 guidelines for HER2 testing;\n7. Patients with multifocal or multicentric breast cancer with at least one tumor lesion \u22651.0 cm in the longest diameter by ultrasound (reference lesion) are also eligible if the two largest tumor lesions have been histologically confirmed in the clinical evaluation and meet pathologic criteria for ER positivity and HER2 negativity.\n8. No previous treatment of the disease by chemotherapy, hormone therapy, surgery or radiotherapy;\n9. Patients considered appropriate for endocrine therapy according to physician judgment;\n10. Ki67 score \u226510% analyzed locally and centrally confirmed. Ki67 will be analyzed locally at the time of inclusion. Patients with basal Ki67\u226520% will be assessed locally and centrally confirmed retrospectively and patients with 10-19% will be assessed centrally before inclusion.\n11. Patients with breast cancer eligible for primary surgery;\n12. Eastern Cooperative Oncology Group (ECOG) performance status\u22641;\n13. Adequate bone marrow and coagulation and adequate organ function defined as follows:\n\n    * Absolute neutrophil count (ANC) \u2265 1.5 x 109/L;\n    * Platelets count \u2265100x 109/L;\n    * Haemoglobin \u22659 g/dL (90 g/L);\n    * Serum creatinine\u22641.5 x upper limit of normal (ULN) or estimated creatinine clearance\u226560 ml/min as calculated using the standard method for the institution;\n    * Total serum bilirubin \u22641.5 x ULN (Patients with Gilbert's syndrome with a total bilirubin \u22642.0 times ULN and direct bilirubin within normal limits could be included);\n    * AST and/or ALT \u22643 x ULN;\n    * Alkaline phosphatase \u22642.5 x ULN;\n14. Patients able to swallow oral medications.\n\nExclusion Criteria:\n\n1. Patients with bilateral invasive BC;\n2. Patients with metastatic BC (local spread to axillary lymph nodes is permitted (cN1\\_cN2a);\n3. Patients with inflammatory BC;\n4. Non post-menopausal patients;\n5. Patients having received previous systemic or local treatment for BC, in particular history of any prior treatment with aromatase inhibitors (AIs), tamoxifen, selective estrogen receptor down regulator, or cyclin-dependent kinase 4 and 6 inhibitors;\n6. Participants who have active cardiac disease or history of cardiac dysfunction, including any of the following:\n\n   * History (within 2 years of screening) or presence of idiopathic bradycardia or resting heart rate \\< 50 beats per minute at screening\n   * History of angina pectoris or symptomatic coronary heart disease within 12 months prior to randomization\n   * History of documented congestive heart failure (New York Heart Association Class III or IV) or cardiomyopathy\n   * QT interval corrected through use of Fridericia's formula \\>470 ms for women \\> 450 ms for men based on mean value of triplicate ECGs, history of long or short QT syndrome, Brugada syndrome or known history of corrected QT interval prolongation, or torsades de pointes\n   * Presence of an abnormal ECG that is clinically significant in the investigator's opinion, including complete left bundle branch block, second- or third-degree heart block, or sick sinus syndrome o Participants with first-degree heart block may be considered for inclusion following consultation with a cardiologist and determination that no additional cardiac risks are present.\n\n     * Participants with pacemakers to treat more severe heart blocks and other arrhythmias are permitted.\n     * Patients with history of well-controlled atrial fibrillation are eligible.\n   * History (within 12 months) or presence of ventricular dysrhythmias or risk factors for ventricular dysrhythmias, such as significant structural heart disease (e.g., severe left ventricular systolic dysfunction, restrictive cardiomyopathy, hypertrophic cardiomyopathy, infiltrative cardiomyopathy, moderate-to-severe valve disease), or family history of long QT syndrome) o Clinically significant electrolyte abnormalities (e.g., hypokalemia, hypomagnesemia, hypocalcemia) should be corrected prior to enrollment.\n7. Patients with known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including hepatitis;\n8. Patients with history of invasive BC, ductal carcinoma in situ or lobular carcinoma in situ and other malignancy within 5 years prior to screening;\n9. Patients with documented history of haemorrhagic diathesis, coagulopathy, or thromboembolism;\n10. Patients on concurrent treatment with exogenous reproductive hormone therapy (for example, birth control pills, hormone replacement therapy, or megestrol acetate);\n11. Patients with active systemic bacterial infection (requiring intravenous antibiotics at time of initiating study treatment), fungal infection, or detectable viral infection (such as known human immunodeficiency virus positivity or with known active hepatitis B or C \\[for example, hepatitis B surface antigen positive\\];\n12. Patients with serious and/or uncontrolled pre-existing medical condition(s) that, in the judgment of the investigator, would preclude participation in this study, e.g. interstitial lung disease (ILD), severe dyspnoea at rest requiring oxygen therapy, severe renal impairment (i.e. estimated creatinine clearance \\<30 ml/min), history of major surgical resection involving the stomach or small bowel, or preexisting Crohn's disease or ulcerative colitis or a preexisting chronic condition resulting in baseline Grade 2 or higher diarrhea);\n13. Patients with known allergy or hypersensitivity to any of the study drugs or any of their excipients;\n14. Patients with history of non-compliance to medical regimens;\n15. Patients refusing to perform liquid and tissue biopsy;\n16. Patients unwilling to or unable to comply with the protocol;\n17. Patients having had major surgery within 14 days prior to screening;\n18. Pregnant or lactating females prior to treatment;\n19. Patients having received an experimental treatment in a clinical trial within the last 30 days or 5 half-lives, whichever is longer, prior to initiation of study treatment, or is currently enrolled in any other type of medical research (for example: medical device) judged by the sponsor not to be scientifically or medically compatible with this study;\n20. Patients should be excluded if they have a known history of testing positive for human immunodeficiency virus (HIV) or known acquired immunodeficiency syndrome (AIDS).",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Michelino De Laurentiis, MD",
+          "role": "CONTACT",
+          "phone": "08117770442",
+          "email": "m.delaurentiis@istitutotumori.na.it"
+        },
+        {
+          "name": "Claudia Von Arx, MD",
+          "role": "CONTACT",
+          "phone": "0815903565",
+          "email": "Claudia.vonarx@istitutotumori.na.it"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Michelino De Laurentiis, MD",
+          "affiliation": "National Cancer Institute, Naples",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Humanitas Istituto Clinico Catanese",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Catania",
+          "state": "Catania",
+          "zip": "95045",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Paolo Vigneri, MD",
+              "role": "CONTACT",
+              "phone": "0957339000",
+              "email": "vigneri.p@unict.it;vigneripaolo@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 37.49223,
+            "lon": 15.07041
+          }
+        },
+        {
+          "facility": "IRCCS Ospedale Policlinico San Martino",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Genova",
+          "state": "Genova",
+          "zip": "16132",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Lucia Del Mastro, MD",
+              "role": "CONTACT",
+              "phone": "010.5558904 - 8908",
+              "email": "lucia.delmastro@hsanmartino.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "AOU Federico II",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Naples",
+          "state": "Napoli",
+          "zip": "80131",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Grazia Arpino, MD",
+              "role": "CONTACT",
+              "phone": "0817463772/7251",
+              "email": "grazia.arpino@unina.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Istituto Nazionale Tumori \"G. Pascale\"",
+          "status": "RECRUITING",
+          "city": "Naples",
+          "state": "Napoli",
+          "zip": "80131",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Michelino De Laurentiis, MD",
+              "role": "CONTACT",
+              "phone": "08117770442",
+              "email": "m.delaurentiis@istitutotumori.na.it;delauren@breastunit.org"
+            }
+          ],
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Istituto Oncologico Veneto IRCCS",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Padova",
+          "state": "Padova",
+          "zip": "35128",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Valentina Guarneri, MD",
+              "role": "CONTACT",
+              "phone": "0498215291",
+              "email": "valentina.guarneri@unipd.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.38225,
+            "lon": 11.14261
+          }
+        },
+        {
+          "facility": "IRCCS Centro di Riferimento Oncologico (CRO)",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Aviano",
+          "state": "PN",
+          "zip": "33081",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Fabio Puglisi, MD",
+              "role": "CONTACT",
+              "phone": "0434659253",
+              "email": "fabio.puglisi@cro.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 46.07056,
+            "lon": 12.59472
+          }
+        },
+        {
+          "facility": "Fondazione Universitaria Policlinico Gemelli IRCCS",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Roma",
+          "state": "Roma",
+          "zip": "00168",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Alessandra Fabi, MD",
+              "role": "CONTACT",
+              "phone": "0630157337",
+              "email": "alessandra.fabi@policlinicogemelli.it"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        },
+        {
+          "facility": "Ospedale Fatebenefratelli - Isola Tiberina",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Roma",
+          "state": "Roma",
+          "zip": "00186",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Francesco Cognetti, MD",
+              "role": "CONTACT",
+              "email": "f.cognetti1@gmail.com"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.99364,
+            "lon": 11.10642
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED",
+      "description": "It is not yet known if there will be a plan to make IPD available"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "C000720132",
+          "term": "giredestrant"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

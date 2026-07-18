@@ -1,0 +1,199 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02625935",
+      "orgStudyIdInfo": {
+        "id": "PTL-10140"
+      },
+      "organization": {
+        "fullName": "NanoString Technologies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Prospective Observational Study Evaluating Treatment Decision Impact of Prosigna\u00ae in Early Stage Breast Cancer Patients",
+      "officialTitle": "A Prospective Observational Study Evaluating Treatment Decision Impact of Prosigna\u00ae in Early Stage Breast Cancer Patients Who Are Candidates for Genomic Testing"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2017-04",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-12"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-10-10",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2015-12-07",
+      "studyFirstSubmitQcDate": "2015-12-07",
+      "studyFirstPostDateStruct": {
+        "date": "2015-12-09",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2017-10-11",
+      "lastUpdatePostDateStruct": {
+        "date": "2017-10-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NanoString Technologies, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This multicenter, prospectively designed study examines whether the Prosigna score influences physician and patient adjuvant treatment selection over and above currently used prognostic factors. This study also examines the impact of the test results on patients' reported outcomes, including their decisional conflict status and anxiety levels.",
+      "detailedDescription": "The primary objective of this study is to assess the extent to which the Prosigna test results affect the medical oncologist's treatment recommendations regarding adjuvant chemotherapy and actual treatments received for patients with early stage breast cancer conventionally considered candidates for genomic testing based on current treatment guidelines. The oncologist's initial recommendations will be based on the utilization of tools or algorithms based on clinical and pathologic factors. No genomic tools will be used in the initial assessment. Changes in recommendation after availability of Prosigna test results will include (1) hormonal therapy alone or (2) hormonal therapy plus chemotherapy, and (3) changes in types of chemotherapy if chemotherapy was recommended before and after the test."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Prosigna",
+        "estrogen receptor positive",
+        "node negative",
+        "HER2 negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "FFPE breast tumor tissue samples"
+      },
+      "enrollmentInfo": {
+        "count": 206,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The proportion of patients for whom the choice of treatment was changed as a result of receiving the Prosigna test results.",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Surgically resected node-negative, estrogen receptor-positive, HER2-negative early-stage invasive breast cancer (T1-T2, N0, pN0 (i+), pN0 (mol+), M0)\n\n  1. Estrogen receptor status will be evaluated by Immunohistochemistry (IHC) and more than 1% of stained tumor cells will be considered positive.\n  2. HER2 status will be evaluated by IHC and/or by in-situ fluorescence hybridization (0 or 1+, or 2+ will be considered negative in the absence of in-situ fluorescence hybridization).\n* Postmenopausal females, which is defined as:\n\n  1. Natural Amenorrhea \\> 12 months, regardless of age\n  2. Bilateral oophorectomy, regardless of age (the oophorectomy must have been carried out at least 4 weeks before entering the study)\n  3. Radiological castration with amenorrhea \\> 3 months, regardless of age\n  4. Hysterectomy and postmenopausal blood levels of FSH/LH\n* Able to give informed consent\n* Eligible for treatment of breast cancer with adjuvant chemotherapy, as determined by the treating physician\n* ECOG performance status of 0 or 1\n\nExclusion Criteria:\n\n* Tumor specimen from core needle biopsy (CNB)\n* Tumor stage T3-T4\n* Non-invasive breast cancer (e.g., Paget's disease, DCIS)\n* Tumors with nodes that are not N0, pN0 (i+), or pN0 (mol+)\n* Tumors that are estrogen receptor (ER) negative or HER2-positive\n* Have metastatic disease\n* Have received another genomic test for prognosis of early breast cancer (i.e., Oncotype Dx, Mammaprint, or BCI)\n* Unable to give informed consent\n* Unable to complete patient reported outcome surveys\n* Have contraindications for adjuvant chemotherapy, as determined by the treating physician\n\n  o Age, performance status, significant comorbidities, etc.\n* ECOG performance status \\> 1",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Postmenopausal women with node-negative, estrogen-receptor positive, HER2-negative early-stage breast cancer.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jeffrey Vacirca, MD",
+          "affiliation": "North Shore Hematology Oncology Associates",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Florida Cancer Center",
+          "city": "Fort Myers",
+          "state": "Florida",
+          "zip": "33913",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 26.62168,
+            "lon": -81.84059
+          }
+        },
+        {
+          "facility": "New England Cancer Specialists",
+          "city": "Scarborough",
+          "state": "Maine",
+          "zip": "04074",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 43.57814,
+            "lon": -70.32172
+          }
+        },
+        {
+          "facility": "Center for Cancer and Blood Disorders",
+          "city": "Bethesda",
+          "state": "Maryland",
+          "zip": "20817",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 38.98067,
+            "lon": -77.10026
+          }
+        },
+        {
+          "facility": "North Shore Hematology Oncology Assoaciates",
+          "city": "East Setauket",
+          "state": "New York",
+          "zip": "11733",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 40.94149,
+            "lon": -73.10594
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

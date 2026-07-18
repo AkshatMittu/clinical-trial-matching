@@ -1,0 +1,195 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06676436",
+      "orgStudyIdInfo": {
+        "id": "D9673R00053"
+      },
+      "organization": {
+        "fullName": "AstraZeneca",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Observational Study on the Treatment of Patients With Metastatic Breast Cancer",
+      "officialTitle": "Real World Outcomes and Treatment Patterns in Brazilian Patients With Hormone Receptor Positive / HER2-negative Unresectable or Metastatic Breast Cancer",
+      "acronym": "REALNESS"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-11-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-10-16",
+      "studyFirstSubmitQcDate": "2024-11-04",
+      "studyFirstPostDateStruct": {
+        "date": "2024-11-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-19",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-23",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "AstraZeneca",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a descriptive, retrospective, observational study to generate Real-World Evidence (RWE). This study will evaluate the treatment patterns and outcomes with metastatic or unresectable hormone receptor-positive breast cancer in Brazil. No hypotheses will be tested.",
+      "detailedDescription": "This project aims to understand treatment patterns and outcomes in individuals with hormone receptor-positive \\[HR-positive will be defined as Estrogen Receptor (ER) \u2265 1%\\] and HER2-negative (HER2-Negative will be defined as IHC 0, 1+ and 2+/ISH-) unresectable or metastatic breast cancer (mBC) in Brazil.\n\nTen Brazilian centers will participate. This study will consist of a convenience cohort; will be included 200 patients. Adult patients who had received treatment in the participant Brazilian centers, with mBC ER-positive (i.e. ER \u2265 1%) and HER2-negative (i.e. HER2 IHC 0, 1 or 2+ with negative ISH), and who had received any CDK4/6i as first-line treatment with any outcome (death, progressive disease, or drug interruption due to any cause) since January 2018 will be enrolled. Data will be extracted from digital charts of Brazilian participating institutions. Patients who were treated with a CDK4/6i since January 2018 will be enrolled."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cancer"
+      ],
+      "keywords": [
+        "Cancer",
+        "Breast"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 204,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of patients by drug class and treatment line",
+          "description": "The proportion of HR-positive/HER2-negative patients receiving each drug class in each line of treatment",
+          "timeFrame": "through study completion, an average of 1 year\""
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Indicate demographic of these patients",
+          "description": "Demographic profile: age, gender, ethnicity, family history of BC",
+          "timeFrame": "through study completion, an average of 1 year\""
+        },
+        {
+          "measure": "Indicate pathological characteristics of these patients",
+          "description": "Clinic-pathological profile: ECOG, staging, histological type, sites of metastasis, genetic alterations, early breast cancer treatments, comorbidities, menopausal status, description of HER2 testing",
+          "timeFrame": "through study completion, an average of 1 year\""
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "To describe the real-world Time to Next Treatment (rwTTNT) for each line of treatment",
+          "description": "real-world Time to Next Treatment (rwTTNT) will be defined as the date between the initiation of a line of treatment to the date of initiation of subsequent line of therapy or loss of follow up or death due to any cause",
+          "timeFrame": "through study completion, an average of 1 year\""
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient or next of kin/legal representative willing and able to provide written informed consent according to the local regulations unless a waiver is granted by the local IRB/IEC/EC;\n\n  * Adult female or male patients \u226518 years old;\n  * Unresectable or metastatic breast cancer; Estrogen Receptor \u2265 1% at the moment first-line treatment was initiated, either in a biopsy immediately before starting treatment for metastatic disease or in the biopsy of initial breast cancer diagnosis if a new biopsy was not performed;\n  * HER2-negative (IHC 0, 1+ or 2+/ISH negative) at the moment first-line treatment was initiated, either in a biopsy immediately before starting treatment for metastatic disease or in the biopsy of initial breast cancer diagnosis if a new biopsy was not performed;\n  * Have received treatment with a CDK4/6i in the first-line treatment for unresectable or metastatic breast cancer;\n  * Have discontinued permanently the treatment with CDK4/6 for any reason: progressed disease on first-line treatment, died during first-line treatment due to any cause, or interrupted treatment for any reason;\n  * Patients with recurrent disease are not mandated to have a new biopsy at the time of recurrence\n\nExclusion Criteria:\n\n\\- Patients with recurrent disease with a primary tumor showing a different pattern of receptors (i.e. initial BC other than ER \u2265 1% and HER2 negative (IHC 0, 1+ or 2+/ISH negative);\n\n* Patients with a concomitant cancer at the time of the diagnosis of MBC HR-positive HER2-negative except for the non-metastatic non-melanoma skin cancers, or in situ or benign neoplasms; a cancer is considered concomitant if it occurs within 5 years of HR-positive HER2-negative BC diagnosis;\n* Patients who at time of data collection for this study are participating or have participated in an interventional study that remains blinded.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "This study will consist of a convenience cohort; it will include 200 patients. Adult patients who had received treatment in the participant Brazilian centers, with mBC ER-positive (i.e. ER \u2265 1%) and HER2-negative (i.e. HER2 IHC 0, 1 or 2+ with negative ISH), and who had received any CDK4/6i as first-line treatment with any outcome (death, progressive disease, or drug interruption due to any cause) since January 2018 will be enrolled.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Research Site",
+          "city": "Fortaleza",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -3.71722,
+            "lon": -38.54306
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Porto Alegre",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "Salvador",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -12.97563,
+            "lon": -38.49096
+          }
+        },
+        {
+          "facility": "Research Site",
+          "city": "S\u00e3o Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Redacted CRS Synopsis",
+          "url": "https://filehosting-v2.pharmacm.com/api/Attachment/Download?tenantId=80217111&amp;parentIdentifier=D9673R00053&amp;attachmentIdentifier=ec0bbf09-efb8-4240-9759-89051bd8022b&amp;fileName=Clinical_Study_Report_Realness_jun2026.pdf&amp;versionIdentifier="
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Qualified researchers can request access to anonymized individual patient-level data from AstraZeneca group of companies sponsored clinical trials via the request portal Vivli.org. All requests will be evaluated as per the AZ disclosure commitment: https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure.\n\n\"Yes\", indicates that AZ are accepting requests for IPD, but this does not mean all requests will be approved.",
+      "timeFrame": "AstraZeneca will meet or exceed data availability as per the commitments made to the EFPIA/PhRMA Data-Sharing Principles. For details of our timelines, please refer to our disclosure commitment at https://astrazenecagrouptrials.pharmacm.com/ST/Submission/Disclosure",
+      "accessCriteria": "When a request has been approved AstraZeneca will provide access to the anonymized individual patient-level data via secure research environment Vivli.org. A Signed Data Usage Agreement (non-negotiable contract for data accessors) must be in place before accessing requested information.",
+      "url": "https://vivli.org/"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

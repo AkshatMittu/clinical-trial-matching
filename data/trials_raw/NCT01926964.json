@@ -1,0 +1,380 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01926964",
+      "orgStudyIdInfo": {
+        "id": "SAKK 26/10"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "01-086",
+          "type": "OTHER",
+          "domain": "Genomic Health Inc."
+        }
+      ],
+      "organization": {
+        "fullName": "Swiss Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Adjuvant Treatment Recommendation and Oncotype DX\u00ae in Early Breast Cancer",
+      "officialTitle": "Impact of Recurrence Score\u00ae on Recommendations for Adjuvant Treatment in Patients With ER-positive Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2019-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-09"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2015-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2015-02",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-08-19",
+      "studyFirstSubmitQcDate": "2013-08-19",
+      "studyFirstPostDateStruct": {
+        "date": "2013-08-21",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2019-05-13",
+      "lastUpdatePostDateStruct": {
+        "date": "2019-05-15",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Swiss Cancer Institute",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "Oncotype DX\u00ae is likely to become more widely used in Europe as well as in Switzerland. The test is currently not reimbursed by the Swiss health insurances.\n\nThe proposed study will investigate to what extent adjuvant treatment recommendations in breast cancer patients with an ER-positive tumor, made by Swiss tumor boards, are based on conventional factors, and whether the recommendations would change, when RS results from the Oncotype DX\u00ae test were available.\n\nIn addition this study approaches the dilemma of adding adjuvant CT to adjuvant endocrine therapy in a systematic fashion. In this study, the St. Gallen consensus 2009 (with a minor update from the 2011 consensus, is used to predefine the patients suitable for endocrine therapy or chemo-endocrine therapy. Once results of this study are available they may help to better integrate Oncotype DX\u00ae with other factors. Currently, it is unclear how the different factors should be integrated into one recommendation.\n\nThis study will provide data on the usefulness of this test for the two patient groups which are suitable for hormone therapy only and for those who are considered for hormone plus chemotherapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Adjuvant treatment recommendation",
+        "Early breast cancer",
+        "Oncotype DX",
+        "Genetic profiling"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "3 Weeks",
+      "designInfo": {
+        "observationalModel": "CASE_ONLY",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 229,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Early breast cancer patients",
+          "description": "Patients with ER-positive, HER2 negative, pN0 or pN1a and resected primary breast cancer R0 resection."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The decision change between the first and second tumor board adjuvant treatment recommendation",
+          "timeFrame": "1 month"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "The decision change between first and second shared decision about adjuvant treatment",
+          "timeFrame": "3 weeks"
+        },
+        {
+          "measure": "The decision change between first shared decision and treatment actually given",
+          "timeFrame": "Between 1 and 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n\\- Patients screening criteria\n\n1. \u2265 18 years old female patients.\n2. Resected primary breast cancer (R0 resection).\n3. ER-positive breast cancer (defined as at least 10% ER-positive malignant cells).\n4. HER2 negativity by IHC (0 or 1+) or by FISH (negative if ratio is \u2264 2.0).\n5. pN0 or pN1a (1-3 positive nodes) by sentinel procedure or axillary dissection.\n\nAll patients matching the screening criteria should be recorded consecutively in the patient screening and enrollment list.\n\nPatients inclusion criteria for baseline data collection\n\n1. Signed informed consent form for participation to the baseline data collection.\n\n   In addition, the following information must be available from the pathology report:\n2. Estimation of the pathologic maximum tumor diameter (in mm).\n3. Results of ER positive tumor cells (in %) and of PgR positive tumor cells (in %) of the invasive component.\n4. Proliferation rate by Ki-67 staining (MIB-1 antibody) in %.\n5. Result of modified Bloom-Richardson-Elston (BRE) Grading (Grade 1, 2 or 3).\n\nPatients eligibility criteria for participation to the study Inclusion criteria\n\n1. Signed informed consent form for participation to the study SAKK 26/10.\n2. The patient is considered suitable to receive adjuvant chemotherapy (ie no medical contraindications to chemotherapy).\n3. Invasive breast cancer tissue is available to prepare 39 sections (35 unstained + 4 H\\&E stained slides, thickness of 5 \u00b5m).\n4. Performance Status: 0 or 1.\n\nExclusion criteria\n\n1. Pregnancy\n2. Bilateral invasive breast cancer\n3. cT4 and pT4 tumors.\n4. Patient with a current psychiatric or medical diagnosis that would interfere with her ability to participate in this study.\n5. Known metastatic breast cancer (M1).",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with ER-positive, HER2 negative, pN0 or pN1a and resected primary breast cancer R0 resection.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Bernhard Pestalozzi, Prof",
+          "affiliation": "University Hospital, Z\u00fcrich",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Stefan Aebi, Prof.",
+          "affiliation": "Luzerner Kantonsspital",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Kantonsspital Baden",
+          "city": "Baden",
+          "zip": "CH-5404",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.47333,
+            "lon": 8.30592
+          }
+        },
+        {
+          "facility": "Universitaetsspital-Basel",
+          "city": "Basel",
+          "zip": "4031",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55839,
+            "lon": 7.57327
+          }
+        },
+        {
+          "facility": "Istituto Oncologico della Svizzera Italiana",
+          "city": "Bellinzona",
+          "zip": "6500",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.19278,
+            "lon": 9.01703
+          }
+        },
+        {
+          "facility": "Klinik Engeried / Praxis Oncocare",
+          "city": "Bern",
+          "zip": "3012",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "facility": "Inselspital, Bern",
+          "city": "Bern",
+          "zip": "CH-3010",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.94809,
+            "lon": 7.44744
+          }
+        },
+        {
+          "facility": "Spitalzentrum Biel",
+          "city": "Biel",
+          "zip": "CH-2501",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.45587,
+            "lon": 8.21773
+          }
+        },
+        {
+          "facility": "Kantonsspital Graub\u00fcnden",
+          "city": "Chur",
+          "zip": "7000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.84986,
+            "lon": 9.53287
+          }
+        },
+        {
+          "facility": "Kantonsspital Frauenfeld / Brustzentrum Thurgau",
+          "city": "Frauenfeld",
+          "zip": "8501",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.55776,
+            "lon": 8.89893
+          }
+        },
+        {
+          "facility": "Kantonsspital Freiburg",
+          "city": "Fribourg",
+          "zip": "1700",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.80237,
+            "lon": 7.15128
+          }
+        },
+        {
+          "facility": "Kantonsspital Liestal",
+          "city": "Liestal",
+          "zip": "CH-4410",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.48455,
+            "lon": 7.73446
+          }
+        },
+        {
+          "facility": "Kantonsspital Luzern",
+          "city": "Lucerne",
+          "zip": "6000",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.05048,
+            "lon": 8.30635
+          }
+        },
+        {
+          "facility": "Kantonsspital Olten",
+          "city": "Olten",
+          "zip": "4600",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.34999,
+            "lon": 7.90329
+          }
+        },
+        {
+          "facility": "Tumorzentrum ZeTUP",
+          "city": "Sankt Gallen",
+          "zip": "9006",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "Kantonsspital St. Gallen",
+          "city": "Sankt Gallen",
+          "zip": "9007",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.42391,
+            "lon": 9.37477
+          }
+        },
+        {
+          "facility": "SpitalSTS AG Simmental-Thun-Saanenland",
+          "city": "Thun",
+          "zip": "3600",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 46.75118,
+            "lon": 7.62166
+          }
+        },
+        {
+          "facility": "Kantonsspital Winterthur",
+          "city": "Winterthur",
+          "zip": "8401",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.50564,
+            "lon": 8.72413
+          }
+        },
+        {
+          "facility": "Brust-Zentrum Seefeld",
+          "city": "Zurich",
+          "zip": "8008",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "facility": "Triemli Stadtspital / Frauenklinik",
+          "city": "Zurich",
+          "zip": "8063",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        },
+        {
+          "facility": "UniversitaetsSpital",
+          "city": "Zurich",
+          "zip": "CH-8091",
+          "country": "Switzerland",
+          "geoPoint": {
+            "lat": 47.36667,
+            "lon": 8.55
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "28407750",
+          "type": "RESULT",
+          "citation": "Pestalozzi BC, Tausch C, Dedes KJ, Rochlitz C, Zimmermann S, von Moos R, Winterhalder R, Ruhstaller T, Mueller A, Buser K, Borner M, Novak U, Nussbaum CU, Seifert B, Bigler M, Bize V, Vilei SB, Rageth C, Aebi S; Swiss Group for Clinical Cancer Research (SAKK). Adjuvant treatment recommendations for patients with ER-positive/HER2-negative early breast cancer by Swiss tumor boards using the 21-gene recurrence score (SAKK 26/10). BMC Cancer. 2017 Apr 13;17(1):265. doi: 10.1186/s12885-017-3261-1."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

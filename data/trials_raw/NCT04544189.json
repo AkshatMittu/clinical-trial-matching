@@ -1,0 +1,614 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04544189",
+      "orgStudyIdInfo": {
+        "id": "CBYL719C2201"
+      },
+      "organization": {
+        "fullName": "Novartis",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study Assessing the Efficacy and Safety of Treatment With Alpelisib Plus Fulvestrant Versus Placebo Plus Fulvestrant in Chinese Men and Postmenopausal Women With Advanced Breast Cancer",
+      "officialTitle": "A Phase II Randomized Double-blind, Placebo-controlled Study of Alpelisib in Combination With Fulvestrant for Chinese Men and Postmenopausal Women With Hormone Receptor Positive, HER2-negative, PIK3CA Mutant Advanced Breast Cancer Which Progressed on or After Aromatase Inhibitor (AI) Treatment, Including a Subset With Pharmacokinetic Analysis"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-06",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-01-20",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-01-29",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-01-29",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-09-03",
+      "studyFirstSubmitQcDate": "2020-09-03",
+      "studyFirstPostDateStruct": {
+        "date": "2020-09-10",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-10",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Novartis Pharmaceuticals",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective is to evaluate whether treatment with alpelisib in combination with fulvestrant prolongs Progression Free Survival (PFS) compared to treatment with placebo in combination with fulvestrant.\n\nThe primary scientific question of interest is: what is the treatment effect based on PFS for alpelisib in combination with fulvestrant versus placebo in combination with fulvestrant in Chinese men and postmenopausal women with HR-positive, HER2-negative advanced breast cancer with a PIK3CA mutation, who received prior treatment with an aromatase inhibitor (AI) either as (neo) adjuvant treatment or as treatment for advanced disease, regardless of study treatment discontinuation or start of new anti-neoplastic therapy.",
+      "detailedDescription": "This is a Phase II, randomized, double-blind, placebo-controlled, multi-center study conducted in Chinese men and postmenopausal women with HR- positive, HER2-negative, PIK3CA mutant advanced breast cancer which progressed on or after AI treatment. The study also includes a single arm, open-label cohort (the PK cohort) to conduct pharmacokinetic analysis.\n\nFor the randomized cohort, in the randomized treatment phase, subjects will be randomized 1:1 to receive alpelisib or matching placebo plus fulvestrant.\n\nA total of approximately 120 subjects will be enrolled; randomization will be stratified by:\n\n1. Lung and/or liver metastases (yes versus no)\n2. Previous treatment with any CDK4/6 inhibitor (yes versus no) The total number of subjects pre-treated with any CDK4/6 inhibitor will be limited to 30% of the total number of subjects.\n\nApproximately 15 subjects meeting the same inclusion/exclusion criteria as the randomized cohort will be enrolled into the PK cohort. Subjects in the PK cohort will receive alpelisib plus fulvestrant.\n\nSubjects will continue to receive study treatment until disease progression as determined by investigator, unacceptable toxicity, or until discontinuation of study treatment due to any other reason."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms"
+      ],
+      "keywords": [
+        "Alpelisib",
+        "Fulvestrant",
+        "PIK3CA mutant advanced breast cancer",
+        "randomized cohort",
+        "PK cohort",
+        "Chinese population"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 69,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Alpelisib+Fulvestrant (randomized cohort)",
+          "type": "EXPERIMENTAL",
+          "description": "Alpelisib (300 mg by mouth once daily, in a 28-day cycle) plus fulvestrant (500 mg intramuscular \\[as two 250mg/5 ml injections\\] on Day 1 and 15 of Cycle 1 and on Day 1 of every Cycle thereafter)",
+          "interventionNames": [
+            "Drug: Alpelisib",
+            "Drug: Fulvestrant"
+          ]
+        },
+        {
+          "label": "Placebo+Fulvestrant (randomized cohort)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo (300 mg by mouth once daily, in a 28-day cycle) plus fulvestrant (500 mg intramuscular \\[as two 250mg/5 ml injections\\] on Day 1 and 15 of Cycle 1 and on Day 1 of every Cycle thereafter)",
+          "interventionNames": [
+            "Drug: Fulvestrant",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "PK cohort (open label cohort)",
+          "type": "EXPERIMENTAL",
+          "description": "Alpelisib (300 mg by mouth once daily, in a 28-day cycle) plus fulvestrant (500 mg intramuscular \\[as two 250mg/5 ml injections\\] on Day 1 and 15 of Cycle 1 and on Day 1 of every Cycle thereafter)",
+          "interventionNames": [
+            "Drug: Alpelisib",
+            "Drug: Fulvestrant"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Alpelisib",
+          "description": "300mg (oral) once daily, in a 28-day cycle",
+          "armGroupLabels": [
+            "Alpelisib+Fulvestrant (randomized cohort)",
+            "PK cohort (open label cohort)"
+          ],
+          "otherNames": [
+            "BYL719"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Fulvestrant",
+          "description": "Fulvestrant 500 mg (intramuscular, as two 250mg/5 mL injections) on Day 1 and 15 of Cycle 1 and on Day 1 of every Cycle thereafter",
+          "armGroupLabels": [
+            "Alpelisib+Fulvestrant (randomized cohort)",
+            "PK cohort (open label cohort)",
+            "Placebo+Fulvestrant (randomized cohort)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "300 mg by mouth once daily, in a 28-day cycle",
+          "armGroupLabels": [
+            "Placebo+Fulvestrant (randomized cohort)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "PFS is defined as the time from the date of randomization to the date of the first documented progression or death due to any cause. The primary analysis for PFS will be performed based on local radiology assessment according to RECIST 1.1.",
+          "timeFrame": "From the date of randomization to the date of the first documented progression or death due to any cause, up to approximately 34 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival (OS)",
+          "description": "OS is defined as the time from date of randomization to date of death due to any cause. OS will be analyzed in the FAS population according to the randomized treatment arm and strata assigned at randomization.",
+          "timeFrame": "From date of randomization to date of death due to any cause, up to approximately 48 months."
+        },
+        {
+          "measure": "Overall response rate (ORR)",
+          "description": "Overall response rate (ORR) with confirmed response is defined as the proportion of subjects with best overall response (BOR) of confirmed complete response (CR) or confirmed partial response (PR) based on local investigator's assessment according to RECIST 1.1",
+          "timeFrame": "Up to approximately 34 months"
+        },
+        {
+          "measure": "Clinical benefit rate (CBR) with confirmed response",
+          "description": "CBR is defined as the proportion of subjects with a best overall response of confirmed complete response (CR), or confirmed partial response (PR) or an overall response of confirmed stable disease (SD), lasting for a duration of at least 24 weeks. CR, PR and SD are defined as per local review according to RECIST 1.1.",
+          "timeFrame": "Up to approximately 34 months"
+        },
+        {
+          "measure": "Pharmacokinetics (PK): Trough concentration of alpelisib in plasma",
+          "description": "Pre-dose concentration of alpelisib at steady state on planed days. Measurement of alpelisib will be performed only in subjects randomized to the alpelisib arm.",
+          "timeFrame": "Predose at Cycle (C) 1 Day (D) 15, C2 D1, C4 D1 and C6 D1 (Cycle=28 days)"
+        },
+        {
+          "measure": "Time to definitive deterioration in Eastern Cooperative Oncology Group (ECOG) performance status (PS)",
+          "description": "PS will be assessed using ECOG scale. The scale consists of 4 grades (from 0 to 4) where 0 implies fully active and 4 implies completely disabled. Subjects will be censored if no definitive deterioration in ECOG PS is observed before the analysis cut-off date. The censoring date will be the date of the last PS assessment prior to cut- off. (Approximately up to 30 months)",
+          "timeFrame": "Up to approximately 30 months."
+        },
+        {
+          "measure": "Number of participants with Adverse Events (AEs)",
+          "description": "Incidence, type, and severity of AEs per CTCAE version 4.03 criteria including changes in laboratory values, vital signs, liver assessments and cardiac assessments",
+          "timeFrame": "From date of randomization until the end of the study, up to approximately 48 months"
+        },
+        {
+          "measure": "Number of participants with dose interruptions",
+          "description": "Tolerability measured by the number of subjects who have interruptions of study treatment",
+          "timeFrame": "Up to approximately 30 months"
+        },
+        {
+          "measure": "Number of participants with dose reductions",
+          "description": "Tolerability measured by the number of subjects who have reductions of study treatment.",
+          "timeFrame": "Up to approximately 30 months"
+        },
+        {
+          "measure": "Dose intensity",
+          "description": "Tolerability measured by the dose intensity of study drug",
+          "timeFrame": "Up to approximately 30 months"
+        },
+        {
+          "measure": "PFS based on local radiology assessments and using RECIST 1.1 criteria by PIK3CA mutation status measured in baseline ctDNA",
+          "description": "PFS defined as the time from the date of randomization to the date of the first documented progression based on local radiology assessment and according to RECIST 1.1 or death due to any cause. Results will be presented by PIK3CA mutation status measured in baseline ctDNA",
+          "timeFrame": "Baseline and from randomization up to approximately 34 months"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of alpelisib when given in combination with fulvestrant (PK cohort): Maximum observed plasma concentration (Cmax)",
+          "description": "Blood samples are collected at indicated time-points for analysis of Cmax in PK cohort.",
+          "timeFrame": "Cycle (C) 1 Day (D) 1 and 15 pre-dose, 1, 2, 3, 4, 6, 8 and 24 hours post-dose; and pre-dose on C2D1, C4D1 and C6D1"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of alpelisib when given in combination with fulvestrant (PK cohort): Time to reach maximum plasma concentration (Tmax)",
+          "description": "Blood samples are collected at indicated time-points for analysis of Tmax in PK cohort.",
+          "timeFrame": "Cycle (C) 1 Day (D) 1 and 15 pre-dose, 1, 2, 3, 4, 6, 8 and 24 hours post-dose; and pre-dose on C2D1, C4D1 and C6D1"
+        },
+        {
+          "measure": "Pharmacokinetics (PK) of alpelisib when given in combination with fulvestrant (PK cohort): Area under the curve from time 0 to 24h (AUC0-24h)",
+          "description": "Blood samples are collected at indicated time-points for analysis of AUC0-24h in PK cohort",
+          "timeFrame": "Cycle (C) 1 Day (D) 1 and 15 pre-dose, 1, 2, 3, 4, 6, 8 and 24 hours post-dose; and pre-dose on C2D1, C4D1 and C6D1"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Participant has adequate tumor tissue for the analysis of PIK3CA mutational status by a Novartis designated laboratory. One new or recent biopsy (collected at screening if feasible) or archival tumor block or slides (3 slides minimum from a surgical specimen, or 7 slides minimum from a core needle biopsy) must be provided. It is recommended to provide a tumor sample collected after the most recent progression or recurrence.\n* Chinese man or postmenopausal woman \u2265 18 years of age\n* Participant has identified PIK3CA mutation (as determined by a Novartis designated laboratory)\n* Participant has a histologically and/or cytologically confirmed diagnosis of ER+ and/or PgR+ breast cancer by local laboratory.\n* Participant has HER2-negative breast cancer defined as a negative in situ hybridization test or an IHC status of 0, 1+ or 2+. If IHC is 2+, a negative in situ hybridization (FISH, CISH or SISH) test is required by local laboratory testing\n* Participant has either\n* Measurable disease, i.e., at least one measurable lesion as per RECIST 1.1 criteria (a lesion at a previously irradiated site may only be counted as a target lesion if there is clear sign of progression since the irradiation) OR\n* If no measurable disease is present, then at least one predominantly lytic bone lesion must be present (Participants with no measurable disease and only one predominantly lytic bone lesion that has been previously irradiated are eligible if there is documented evidence of disease progression of the bone lesion after irradiation).\n* Participant has advanced (loco regionally recurrent not amenable to curative therapy or metastatic) breast cancer.\n* Participants may be:\n* relapsed with documented evidence of progression while on (neo) adjuvant endocrine therapy or within 12 months from completion of (neo)adjuvant endocrine therapy with no treatment for metastatic disease\n* relapsed with documented evidence of progression more than 12 months from completion of (neo)adjuvant endocrine therapy and then subsequently progressed with documented evidence of progression while on or after only one line of endocrine therapy for metastatic disease\n* newly diagnosed advanced breast cancer, then relapsed with documented evidence of progression while on or after only one line of endocrine therapy\n* Patient has ECOG performance status 0 or 1.\n* Patient has adequate bone marrow function.\n\nKey Exclusion Criteria\n\n* Participant with symptomatic visceral disease or any disease burden that makes the Participant ineligible for endocrine therapy per the investigator's best judgment.\n* Participant has received prior treatment with chemotherapy (except for (neo)adjuvant/ adjuvant chemotherapy), fulvestrant, any PI3K, mTOR or AKT inhibitor.\n* Participant has a known hypersensitivity to alpelisib or fulvestrant, or to any of the excipients of alpelisib or fulvestrant.\n* Participant has received radiotherapy \u2264 4 weeks or limited field radiation for palliation \u2264 2 weeks prior to randomization, and who has not recovered to grade 1 or better from related side effects of such therapy (with the exception of alopecia) and/or from whom \u2265 25% of the bone marrow was irradiated.\n* Participant has a concurrent malignancy or malignancy within 3 years of randomization, with the exception of adequately treated, basal or squamous cell carcinoma, non-melanomatous skin cancer or curatively resected cervical cancer.\n* Participant with an established diagnosis at screening of diabetes mellitus type I or not controlled type II\n* Participant has currently documented pneumonitis/interstitial lung disease\n* History of acute pancreatitis within 1 year of screening or a past medical history of chronic pancreatitis\n* Participant with unresolved osteonecrosis of the jaw\n* Participant has a history of severe cutaneous reactions like Stevens- Johnson-Syndrome (SJS), Erythema Multiforme (EM), or Toxic Epidermal Necrolysis (TEN), or Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS).\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "100 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Novartis Pharmaceuticals",
+          "affiliation": "Novartis Pharmaceuticals",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hefei",
+          "state": "Anhui",
+          "zip": "230001",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hefei",
+          "state": "Anhui",
+          "zip": "230031",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.86389,
+            "lon": 117.28083
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Guangzhou",
+          "state": "Guangdong",
+          "zip": "510000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 23.11667,
+            "lon": 113.25
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shijiazhuang",
+          "state": "Hebei",
+          "zip": "050011",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.04139,
+            "lon": 114.47861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Harbin",
+          "state": "Heilongjiang",
+          "zip": "150081",
+          "country": "China",
+          "geoPoint": {
+            "lat": 45.75,
+            "lon": 126.65
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Zhengzhou",
+          "state": "Henan",
+          "zip": "450008",
+          "country": "China",
+          "geoPoint": {
+            "lat": 34.75778,
+            "lon": 113.64861
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Wuhan",
+          "state": "Hubei",
+          "zip": "430022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.58333,
+            "lon": 114.26667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Changsha",
+          "state": "Hunan",
+          "zip": "410013",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.19874,
+            "lon": 112.97087
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "zip": "210009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nanjing",
+          "state": "Jiangsu",
+          "zip": "210029",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.06167,
+            "lon": 118.77778
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Nanchang",
+          "state": "Jiangxi",
+          "zip": "330009",
+          "country": "China",
+          "geoPoint": {
+            "lat": 28.68396,
+            "lon": 115.85306
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Changchun",
+          "state": "Jilin",
+          "zip": "130021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 43.88,
+            "lon": 125.32278
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shengyang",
+          "state": "Liaoning",
+          "zip": "110042",
+          "country": "China"
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shenyang",
+          "state": "Liaoning",
+          "zip": "110011",
+          "country": "China",
+          "geoPoint": {
+            "lat": 41.79222,
+            "lon": 123.43278
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Jinan",
+          "state": "Shandong",
+          "zip": "250117",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.66833,
+            "lon": 116.99722
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Chengdu",
+          "state": "Sichuan",
+          "zip": "610041",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.66667,
+            "lon": 104.06667
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310016",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Hangzhou",
+          "state": "Zhejiang",
+          "zip": "310022",
+          "country": "China",
+          "geoPoint": {
+            "lat": 30.29365,
+            "lon": 120.16142
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Beijing",
+          "zip": "100021",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Bengbu",
+          "zip": "233004",
+          "country": "China",
+          "geoPoint": {
+            "lat": 32.94083,
+            "lon": 117.36083
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Dalian",
+          "zip": "116000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 38.91222,
+            "lon": 121.60222
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Qingdao",
+          "zip": "266000",
+          "country": "China",
+          "geoPoint": {
+            "lat": 36.06488,
+            "lon": 120.38042
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Shanghai",
+          "zip": "200025",
+          "country": "China",
+          "geoPoint": {
+            "lat": 31.22222,
+            "lon": 121.45806
+          }
+        },
+        {
+          "facility": "Novartis Investigative Site",
+          "city": "Tianjin",
+          "zip": "300480",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.14222,
+            "lon": 117.17667
+          }
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Novartis is committed to sharing with qualified external researchers, access to patient-level data and supporting clinical documents from eligible studies. These requests are reviewed and approved by an independent review panel on the basis of scientific merit. All data provided is anonymized to respect the privacy of patients who have participated in the trial in line with applicable laws and regulations.\n\nThis trial data availability is according to the criteria and process described on www.clinicalstudydatarequest.com"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C585539",
+          "term": "Alpelisib"
+        },
+        {
+          "id": "D000077267",
+          "term": "Fulvestrant"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D004958",
+          "term": "Estradiol"
+        },
+        {
+          "id": "D004963",
+          "term": "Estrenes"
+        },
+        {
+          "id": "D004962",
+          "term": "Estranes"
+        },
+        {
+          "id": "D013256",
+          "term": "Steroids"
+        },
+        {
+          "id": "D000072473",
+          "term": "Fused-Ring Compounds"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D045166",
+          "term": "Estradiol Congeners"
+        },
+        {
+          "id": "D012739",
+          "term": "Gonadal Steroid Hormones"
+        },
+        {
+          "id": "D042341",
+          "term": "Gonadal Hormones"
+        },
+        {
+          "id": "D006728",
+          "term": "Hormones"
+        },
+        {
+          "id": "D006730",
+          "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,4050 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00129935",
+      "orgStudyIdInfo": {
+        "id": "GEICAM 2003-10"
+      },
+      "organization": {
+        "fullName": "Spanish Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "EC Followed Docetaxel Versus ET Followed Capecitabine as Adjuvant Chemotherapy for Node Positive Operable Breast Cancer",
+      "officialTitle": "Phase III Trial to Compare Epirubicin and Cyclophosphamide (EC) Followed by Docetaxel (T) to Epirubicin and Docetaxel (ET) Followed by Capecitabine (X) as Adjuvant Treatment, Node Positive Breast Cancer Patients"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2004-02",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2013-06",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2019-04-04",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2005-08-11",
+      "studyFirstSubmitQcDate": "2005-08-11",
+      "studyFirstPostDateStruct": {
+        "date": "2005-08-12",
+        "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2019-08-26",
+      "resultsFirstSubmitQcDate": "2019-10-02",
+      "resultsFirstPostDateStruct": {
+        "date": "2019-10-25",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2023-03-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-03-31",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Spanish Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Sanofi",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Hoffmann-La Roche",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Pfizer",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a prospective, randomised phase III trial, to compare the efficacy and safety profiles of two types of adjuvant chemotherapy regimens for human epidermal growth factor receptor 2 (HER2) negative, node positive breast cancer patients.\n\nControl Arm: This includes 4 cycles of EC 90/600 mg/m2 day 1 every 3 weeks, followed by 4 cycles of T 100 mg/m2 day 1 every 3 weeks.\n\nExperimental Arm: This includes 4 cycles of ET 90/75 mg/m2, day 1 every 3 weeks, followed by 4 cycles of capecitabine 1250 mg/m2, twice a day, via oral intake, for 14 days, and then a one-week rest period.\n\nPremenopausal women with hormone receptor positive tumours must receive 5 years of tamoxifen after the end of chemotherapy.\n\nPostmenopausal women with hormone receptor positive tumours can receive tamoxifen or aromatase inhibitors (or both) after the end of chemotherapy.\n\nPatients may receive radiotherapy when clinically indicated.",
+      "detailedDescription": "Estimation of the 5-year disease-free survival in the control arm is 72%. The experimental arm is expected to increase the 5-year disease-free survival by 7% (up to 79%). With an alpha error of 0.05 and 80% power, 592 patients per arm are needed. Assuming a 17% post-randomization drop-out, 691 patients per arm are needed."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "HER2 negative breast cancer",
+        "Node positive breast cancer",
+        "Adjuvant treatment",
+        "Oral chemotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1384,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A: EC-T",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.",
+          "interventionNames": [
+            "Drug: Docetaxel",
+            "Drug: Epirubicin",
+            "Drug: Cyclophosphamide"
+          ]
+        },
+        {
+          "label": "Arm B: ET-X",
+          "type": "EXPERIMENTAL",
+          "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.",
+          "interventionNames": [
+            "Drug: Docetaxel",
+            "Drug: Capecitabine",
+            "Drug: Epirubicin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Docetaxel",
+          "armGroupLabels": [
+            "Arm A: EC-T",
+            "Arm B: ET-X"
+          ],
+          "otherNames": [
+            "Taxotere"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Capecitabine",
+          "armGroupLabels": [
+            "Arm B: ET-X"
+          ],
+          "otherNames": [
+            "Xeloda"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin",
+          "armGroupLabels": [
+            "Arm A: EC-T",
+            "Arm B: ET-X"
+          ],
+          "otherNames": [
+            "Ellence"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cyclophosphamide",
+          "armGroupLabels": [
+            "Arm A: EC-T"
+          ],
+          "otherNames": [
+            "cytoxan"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Disease-free Survival (DFS) Event",
+          "description": "A participant was considered to have had a DFS event if there was evidence of local, regional or metastatic recurrence, second primary cancer (with the exception of carcinoma of squamous cells or basal cells of the skin, cervical carcinoma in situ or lobular or ductal carcinoma in situ of the breast) or death for any reason.",
+          "timeFrame": "5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Overall Survival (OS) Event",
+          "description": "A participant was considered to have had a OS event if patient died from any cause.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "The Number of Participants Who Experienced Adverse Events (AE)",
+          "description": "Safety was assessed by standard clinical and laboratory tests, and were evaluated using NCI-CTC criteria v2.0",
+          "timeFrame": "5 years"
+        },
+        {
+          "measure": "Quality of Life Questionnaire: Number of Participants With Hair Loss",
+          "description": "Hair loss was assessed by the quality of life of the patients through the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire-Breast Cancer 23 (EORTC QLQ-BR23) profile questionnaire, question 4. The quality of life of the patients was evaluated before each cycle and at the end of treatment.\n\nIn questionnaire, raw scores range from 0 to 100 and a high score represents a high level of functioning or Health Related Quality of Life, excluding single-item scales in which high scores represent a high level of symptoms. A difference of 10 points on the scale over baseline value was classified as the minimum clinically meaningful change in both questionnaires.",
+          "timeFrame": "Up to 24 months"
+        },
+        {
+          "measure": "Quality of Life Questionnaire: Number of Participants With Hair Loss Recovery",
+          "description": "Hair Loss Recovery was assessed by a specific Hair Toxicity Questionnaire were patients answered if the hair was less abundant than before, weaker than before or other.\n\nThe questionnaire was evaluated up to two years after the end of chemotherapy.",
+          "timeFrame": "Up to 30 months"
+        },
+        {
+          "measure": "Quality of Life Questionnaire: Time to Taking Off the Wig",
+          "description": "Time to taking off the wig was assessed by a specific Hair Toxicity Questionnaire were patients answered when they stop to use the wig.\n\nThe questionnaire was evaluated up to two years after the end of chemotherapy.",
+          "timeFrame": "Up to 30 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent.\n* Histological diagnosis of operable invasive adenocarcinoma of the breast (T1-T3). Tumours must be HER2 negative. Time window between surgery and study randomization must be less than 60 days.\n* Surgery must consist of mastectomy or conservative surgery with axillary lymph node dissection. Margins free of disease and ductal carcinomas in situ (DCIS) are required. Lobular carcinoma is not considered a positive margin.\n* Positive axillary lymph nodes defined as at least 1 out of 10 nodes with presence of disease. If sentinel node technique is used, sentinel node can be the only node affected. Patients belonging to the following classifications are eligible: TNM pathologic stage N1a, TNM pathologic stage N2a, TNM pathologic stage N3a.\n* Status of hormone receptors in primary tumour. Results must be available before the end of adjuvant chemotherapy.\n* Patients must not present evidence of metastatic disease. Status of HER2 in primary tumour, known before randomization. Patients with immune histochemistry (IHC) 0 or +1 are eligible. For patients with IHC 2+, fluorescence in situ hybridization (FISH) is mandatory and result must be negative.\n* Age \\>= 18 and \\<= 70 years old.\n* Performance status (Karnofsky index) \\>= 80.\n* Normal electrocardiogram (EKG) in the 12 weeks prior to randomization. If needed, normal cardiac function must be confirmed by left ventricular ejection fraction (LVEF).\n* Laboratory results (within 14 days prior to randomization):\n\n  * Hematology: neutrophils \\>= 1.5 x 10\\^9/l; platelets \\>= 100 x 10\\^9/l; hemoglobin \\>= 10 mg/dl;\n  * Hepatic function: total bilirubin \\<= 1 upper normal limit (UNL); serum glutamic-oxaloacetic transaminase (SGOT) and Serum glutamic pyruvic transaminase (SGPT) \\<= 2.5 UNL; alkaline phosphatase \\<= 2.5 UNL. If values of SGOT and SGPT \\> 1.5 UNL are associated to alkaline phosphatase \\> 2.5 UNL, patient is not eligible;\n  * Renal function: creatinine \\<= 175 mmol/l (2 mg/dl); creatinine clearance \\>= 60 ml/min;\n  * Pharmacogenetics: one blood sample is needed for single nucleotide polymorphism (SNP) assessment.\n* Complete stage workup during the 12 weeks prior to randomization (mammograms are allowed within a 20 week window). All patients must have a bilateral mammogram, thorax x-ray, abdominal echography and/or computed tomography (CT)-scan. If bone pain, and/or alkaline phosphatase elevation, a bone scintigraphy is mandatory. This test is recommended for all patients. Other tests: as clinically indicated.\n* Patients able to comply with treatment and study follow-up.\n* Negative pregnancy test done in the 14 prior days to randomization.\n\nExclusion Criteria:\n\n* Prior systemic therapy for breast cancer.\n* Prior therapy with anthracyclines or taxanes (paclitaxel or docetaxel) for any malignancy.\n* Prior radiotherapy for breast cancer.\n* Bilateral invasive breast cancer.\n* Pregnant or lactating women. Adequate contraceptive methods must be used during chemotherapy and hormone therapy treatments.\n* Any T4 or M1 tumour.\n* Axillary lymph nodes: patients belonging to the following classifications are excluded: TNM pathologic stage N1b, TNM pathologic stage N1c, TNM pathologic stage N2b, TNM pathologic stage N3b, TNM pathologic stage N3c.\n* HER2 positive breast cancer (IHC 3+ or positive FISH result).\n* Pre-existing grade \\>= 2 motor or sensorial neurotoxicity (National Cancer Institute Common Toxicity Criteria version 2.0 \\[NCICTC v-2.0\\]).\n* Any other serious medical pathology, such as congestive heart failure; unstable angina; history of myocardial infarction during the previous year; uncontrolled hypertension or high risk arrhythmias.\n* History of neurological or psychiatric disorders, which could preclude the patients from free informed consent.\n* Active uncontrolled infection.\n* Active peptic ulcer; unstable diabetes mellitus.\n* Previous or current history of neoplasms different from breast cancer, except for skin carcinoma, cervical in situ carcinoma, or any other tumour curatively treated and without recurrence in the last 10 years; ductal in situ carcinoma in the same breast; lobular in situ carcinoma.\n* Chronic treatment with corticosteroids.\n* Contraindications for corticosteroid administration.\n* Concomitant treatment with raloxifene, tamoxifen or other selective estrogen receptor modulators (SERMs), either for osteoporosis treatment or for prevention. These treatments must stop before randomisation.\n* Concomitant treatment with other investigational products; participation in other clinical trials with a non-marketed drug in the 20 previous days before randomization.\n* Concomitant treatment with another therapy for cancer.\n* Males.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Study Director",
+          "affiliation": "Hospital Cl\u00ednico Universitario San Carlos",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Hospital Arquitecto Marcide",
+          "city": "Ferrol",
+          "state": "A Coru\u00f1a",
+          "zip": "15405",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.48451,
+            "lon": -8.23293
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Elche",
+          "city": "Elche",
+          "state": "Alicante",
+          "zip": "03203",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.26218,
+            "lon": -0.70107
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Elda",
+          "city": "Elda",
+          "state": "Alicante",
+          "zip": "03600",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.47783,
+            "lon": -0.79157
+          }
+        },
+        {
+          "facility": "Hospital Municipal de Badalona",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08911",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Hospital Universitario Germans Trias i Pujol",
+          "city": "Badalona",
+          "state": "Barcelona",
+          "zip": "08916",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45004,
+            "lon": 2.24741
+          }
+        },
+        {
+          "facility": "Corporaci\u00f3 Sanitaria Parc Taul\u00ed",
+          "city": "Sabadell",
+          "state": "Barcelona",
+          "zip": "08208",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.54329,
+            "lon": 2.10942
+          }
+        },
+        {
+          "facility": "Hospital del Esp\u00edritu Santo",
+          "city": "Santa Coloma de Gramenet",
+          "state": "Barcelona",
+          "zip": "08923",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.45152,
+            "lon": 2.2081
+          }
+        },
+        {
+          "facility": "Hospital Mutua de Terrassa",
+          "city": "Terrassa",
+          "state": "Barcelona",
+          "zip": "08221",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.56667,
+            "lon": 2.01667
+          }
+        },
+        {
+          "facility": "Consorci Sanitari de Terrassa",
+          "city": "Terrassa",
+          "state": "Barcelona",
+          "zip": "08227",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.56667,
+            "lon": 2.01667
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Vic",
+          "city": "Vic",
+          "state": "Barcelona",
+          "zip": "08500",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.93012,
+            "lon": 2.25486
+          }
+        },
+        {
+          "facility": "Hospital Universitario Marques de Valdecilla",
+          "city": "Santander",
+          "state": "Cantabria",
+          "zip": "39008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "Hospital Provincial de Castell\u00f3n",
+          "city": "Castellon",
+          "state": "Castell\u00f3n",
+          "zip": "12002",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.98567,
+            "lon": -0.04935
+          }
+        },
+        {
+          "facility": "Hospital Universitario Reina Sof\u00eda",
+          "city": "C\u00f3rdoba",
+          "state": "Cordoba",
+          "zip": "14004",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.89155,
+            "lon": -4.77275
+          }
+        },
+        {
+          "facility": "Hospital de Jerez de la Frontera",
+          "city": "Jerez de la Frontera",
+          "state": "C\u00e1diz",
+          "zip": "11407",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.68645,
+            "lon": -6.13606
+          }
+        },
+        {
+          "facility": "Onkologikoa",
+          "city": "Donostia / San Sebastian",
+          "state": "Guip\u00fazcoa",
+          "zip": "20012",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.31283,
+            "lon": -1.97499
+          }
+        },
+        {
+          "facility": "Hosptial Donostia",
+          "city": "Donostia / San Sebastian",
+          "state": "Guip\u00fazcoa",
+          "zip": "20014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.31283,
+            "lon": -1.97499
+          }
+        },
+        {
+          "facility": "Hospital de Barbastro",
+          "city": "Barbastro",
+          "state": "Huesca",
+          "zip": "22300",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.03565,
+            "lon": 0.12686
+          }
+        },
+        {
+          "facility": "Hospital Universitario Fundaci\u00f3n Alcorc\u00f3n",
+          "city": "Alcorc\u00f3n",
+          "state": "Madrid",
+          "zip": "28922",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.34582,
+            "lon": -3.82487
+          }
+        },
+        {
+          "facility": "Hospital Universitario Severo Ochoa",
+          "city": "Legan\u00e9s",
+          "state": "Madrid",
+          "zip": "28911",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.32718,
+            "lon": -3.7635
+          }
+        },
+        {
+          "facility": "Hospital Universitario Puerta de Hierro",
+          "city": "Majadahonda",
+          "state": "Madrid",
+          "zip": "28222",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.47353,
+            "lon": -3.87182
+          }
+        },
+        {
+          "facility": "Hospital Universitario San Joan de Reus",
+          "city": "Reus",
+          "state": "Tarragona",
+          "zip": "43201",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.15612,
+            "lon": 1.10687
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario Universitario A Coru\u00f1a",
+          "city": "A Coru\u00f1a",
+          "zip": "15006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Centro Oncol\u00f3gico de Galicia",
+          "city": "A Coru\u00f1a",
+          "zip": "15009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.37135,
+            "lon": -8.396
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Albacete",
+          "city": "Albacete",
+          "zip": "02066",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.99424,
+            "lon": -1.85643
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Alicante",
+          "city": "Alicante",
+          "zip": "03010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de los Lirios",
+          "city": "Alicante",
+          "zip": "03804",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 38.34517,
+            "lon": -0.48149
+          }
+        },
+        {
+          "facility": "Hospital del Mar",
+          "city": "Barcelona",
+          "zip": "08003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Santa Creu i Sant Pau",
+          "city": "Barcelona",
+          "zip": "08025",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic i Provincial",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Universitario Puerta del Mar",
+          "city": "Cadiz",
+          "zip": "11009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.52672,
+            "lon": -6.2891
+          }
+        },
+        {
+          "facility": "Instituto Catal\u00e1n de Oncolog\u00eda de Girona",
+          "city": "Girona",
+          "zip": "17007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.98311,
+            "lon": 2.82493
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de las Nieves",
+          "city": "Granada",
+          "zip": "18014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.18817,
+            "lon": -3.60667
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Guadalajara",
+          "city": "Guadalajara",
+          "zip": "19002",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.62862,
+            "lon": -3.16185
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario de Ja\u00e9n",
+          "city": "Ja\u00e9n",
+          "zip": "23007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Hospital Universitario Arnau de Vilanova de Lleida",
+          "city": "Lleida",
+          "zip": "25198",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital Universitario Lucus Augusti",
+          "city": "Lugo",
+          "zip": "27003",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.00992,
+            "lon": -7.55602
+          }
+        },
+        {
+          "facility": "Hospital Universitario de la Princesa",
+          "city": "Madrid",
+          "zip": "28006",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "city": "Madrid",
+          "zip": "28021",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Ram\u00f3n y Cajal",
+          "city": "Madrid",
+          "zip": "28034",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Fundaci\u00f3n Jim\u00e9nez D\u00edaz",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario San Carlos",
+          "city": "Madrid",
+          "zip": "28040",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario Virgen de la Victoria",
+          "city": "M\u00e1laga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Regional Universitario Carlos Haya",
+          "city": "M\u00e1laga",
+          "zip": "29010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital General Universitario Morales Meseguer",
+          "city": "Murcia",
+          "zip": "30008",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen de la Arrixaca",
+          "city": "Murcia",
+          "zip": "30120",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.98704,
+            "lon": -1.13004
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario Unviersitario de Ourense",
+          "city": "Ourense",
+          "zip": "32005",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.33669,
+            "lon": -7.86407
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Salamanca",
+          "city": "Salamanca",
+          "zip": "37007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.96882,
+            "lon": -5.66388
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Canarias",
+          "city": "Santa Cruz de Tenerife",
+          "zip": "38320",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 28.46824,
+            "lon": -16.25462
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen del Roc\u00edo",
+          "city": "Seville",
+          "zip": "41013",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Universitario de Valme",
+          "city": "Seville",
+          "zip": "41014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Universitario La Fe",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Instituto Valenciano de Oncolog\u00eda",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospial General Universitario de Valencia",
+          "city": "Valencia",
+          "zip": "46014",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Universitario Arnau de Vilanova de Valencia",
+          "city": "Valencia",
+          "zip": "46015",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital Provincial Rodr\u00edguez Chamorro de Zamora",
+          "city": "Zamora",
+          "zip": "49021",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.50633,
+            "lon": -5.74456
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Zaragoza \"Lozano Blesa\"",
+          "city": "Zaragoza",
+          "zip": "50009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        },
+        {
+          "facility": "Hospital Universitario Miguel Servet",
+          "city": "Zaragoza",
+          "zip": "50009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.65606,
+            "lon": -0.87734
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26416999",
+          "type": "RESULT",
+          "citation": "Martin M, Ruiz Simon A, Ruiz Borrego M, Ribelles N, Rodriguez-Lescure A, Munoz-Mateu M, Gonzalez S, Margeli Vila M, Barnadas A, Ramos M, Del Barco Berron S, Jara C, Calvo L, Martinez-Janez N, Mendiola Fernandez C, Rodriguez CA, Martinez de Duenas E, Andres R, Plazaola A, de la Haba-Rodriguez J, Lopez-Vega JM, Adrover E, Ballesteros AI, Santaballa A, Sanchez-Rovira P, Baena-Canada JM, Casas M, del Carmen Camara M, Carrasco EM, Lluch A. Epirubicin Plus Cyclophosphamide Followed by Docetaxel Versus Epirubicin Plus Docetaxel Followed by Capecitabine As Adjuvant Therapy for Node-Positive Early Breast Cancer: Results From the GEICAM/2003-10 Study. J Clin Oncol. 2015 Nov 10;33(32):3788-95. doi: 10.1200/JCO.2015.61.9510. Epub 2015 Sep 28."
+        },
+        {
+          "pmid": "35305453",
+          "type": "RESULT",
+          "citation": "van Mackelenbergh MT, Seither F, Mobus V, O'Shaughnessy J, Martin M, Joensuu H, Untch M, Nitz U, Steger GG, Miralles JJ, Barrios CH, Toi M, Bear HD, Muss H, Reimer T, Nekljudova V, Loibl S. Effects of capecitabine as part of neo-/adjuvant chemotherapy - A meta-analysis of individual breast cancer patient data from 13 randomised trials including 15,993 patients. Eur J Cancer. 2022 May;166:185-201. doi: 10.1016/j.ejca.2022.02.003. Epub 2022 Mar 16."
+        },
+        {
+          "pmid": "37338729",
+          "type": "DERIVED",
+          "citation": "Martin M, Carrasco E, Rodriguez-Lescure A, Andres R, Servitja S, Anton A, Ruiz-Borrego M, Bermejo B, Guerrero A, Ramos M, Santaballa A, Munoz M, Cruz J, Lopez-Tarruella S, Chacon JI, Alvarez I, Martinez P, Miralles JJ, Polonio O, Jara C, Aguiar-Bujanda D. Long-term outcomes of high-risk HR-positive and HER2-negative early breast cancer patients from GEICAM adjuvant studies and El Alamo IV registry. Breast Cancer Res Treat. 2023 Sep;201(2):151-159. doi: 10.1007/s10549-023-07002-1. Epub 2023 Jun 20."
+        },
+        {
+          "pmid": "34037241",
+          "type": "DERIVED",
+          "citation": "Hoon SN, Lau PK, White AM, Bulsara MK, Banks PD, Redfern AD. Capecitabine for hormone receptor-positive versus hormone receptor-negative breast cancer. Cochrane Database Syst Rev. 2021 May 26;5(5):CD011220. doi: 10.1002/14651858.CD011220.pub2."
+        }
+      ],
+      "seeAlsoLinks": [
+        {
+          "label": "Click here for more information about this study: GEICAM 2003-10",
+          "url": "http://www.geicam.org"
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "recruitmentDetails": "1,384 patients were recruited in 58 Spanish centers and randomized to receive EC-T (n=669) or ET-X (n=715). 5 patients received no treatment in the ET-X arm. 4 patients were not treated with the study medication to which they were randomized (n=3 EC-T arm; n=1 ET-X arm). 1,378 patients were evaluable for safety (n=667 and 711 respectively).",
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Arm A: EC-T",
+          "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+        },
+        {
+          "id": "FG001",
+          "title": "Arm B: ET-X",
+          "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "669"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "715"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "comment": "2 patients crossed from arm A to B by error, and 1 patient received other treatment by error.",
+                  "numSubjects": "633"
+                },
+                {
+                  "groupId": "FG001",
+                  "comment": "1 patient crossed from arm B to A by error.",
+                  "numSubjects": "623"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "36"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "92"
+                }
+              ]
+            }
+          ],
+          "dropWithdraws": [
+            {
+              "type": "Adverse Event",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "18"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "56"
+                }
+              ]
+            },
+            {
+              "type": "Death",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Withdrawal by Subject",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "7"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "20"
+                }
+              ]
+            },
+            {
+              "type": "Protocol Violation",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Physician Decision",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "4"
+                }
+              ]
+            },
+            {
+              "type": "Recurrence",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "3"
+                }
+              ]
+            },
+            {
+              "type": "Second primary",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "0"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Other",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "2"
+                }
+              ]
+            },
+            {
+              "type": "Crossed to the other arm",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "2"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "1"
+                }
+              ]
+            },
+            {
+              "type": "Incorrect study treatment",
+              "reasons": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "1"
+                },
+                {
+                  "groupId": "FG001",
+                  "numSubjects": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Arm A: EC-T",
+          "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+        },
+        {
+          "id": "BG001",
+          "title": "Arm B: ET-X",
+          "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+        },
+        {
+          "id": "BG002",
+          "title": "Total",
+          "description": "Total of all reporting groups"
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "669"
+            },
+            {
+              "groupId": "BG001",
+              "value": "715"
+            },
+            {
+              "groupId": "BG002",
+              "value": "1384"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "paramType": "MEDIAN",
+          "dispersionType": "FULL_RANGE",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "51",
+                      "lowerLimit": "27",
+                      "upperLimit": "73"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "51",
+                      "lowerLimit": "25",
+                      "upperLimit": "73"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "51",
+                      "lowerLimit": "25",
+                      "upperLimit": "73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "669"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "715"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1384"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Spain",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "669"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "715"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1384"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Karnofsky Performance Status (PS)",
+          "description": "The Karnofsky PS Index classify patients as to their functional impairment. The lower the Karnofsky score, the worse the survival.\n\n100 to 80: Able to carry on normal activity and to work; no special care needed.\n\n70 to 50: Unable to work; able to live at home and care for most personal needs; varying amount of assistance needed.\n\n40 to 0: Unable to care for self; requires equivalent of institutional or hospital care; disease may be progressing rapidly.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "PS 80",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "16"
+                    }
+                  ]
+                },
+                {
+                  "title": "PS 90",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "75"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "76"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "151"
+                    }
+                  ]
+                },
+                {
+                  "title": "PS 100",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "582"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "629"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1211"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Menopausal status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Premenopausal",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "349"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "382"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "731"
+                    }
+                  ]
+                },
+                {
+                  "title": "Postmenopausal",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "320"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "333"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "653"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Histologic type",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Invasive Ductal Carcinoma",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "567"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "589"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1156"
+                    }
+                  ]
+                },
+                {
+                  "title": "Invasive Lobular Carcinoma",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "66"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "77"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "143"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "49"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "85"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Histopathologic grade",
+          "description": "Cancer cells are given a Grade (G) when they are removed from the breast and checked under a microscope. The G is based on how much the cancer cells look like normal cells.\n\nG1 or well differentiated (score 3, 4, or 5): cells are slower-growing, and look more like normal breast tissue.\n\nG2 or moderately differentiated (score 6, 7): cells are growing at a speed of and look like cells somewhere between G1 and 3.\n\nG3 or poorly differentiated (score 8, 9): cells look very different from normal and will probably grow and spread faster.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Grade 1",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "100"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "200"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 2",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "307"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "338"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "645"
+                    }
+                  ]
+                },
+                {
+                  "title": "Grade 3",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "235"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "243"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "478"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "27"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "34"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "61"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Breast surgery",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Mastectomy",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "309"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "327"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "636"
+                    }
+                  ]
+                },
+                {
+                  "title": "Breast-conserving surgery",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "360"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "388"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "748"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Axillary surgery",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Lymphadenectomy",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "618"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "676"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1294"
+                    }
+                  ]
+                },
+                {
+                  "title": "Sentinel node biopsy",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "2"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "5"
+                    }
+                  ]
+                },
+                {
+                  "title": "Both",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "48"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "85"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pathologic tumor size",
+          "description": "Pathologic Tumor (pT) size describes the size of the tumour. Larger T is associated with inferior survival.\n\npT1: tumour is 2 centimetres (cm) across or less. pT2: tumour \\>2 cm but \\<5 cm across. pT3: tumour \\>5 cm across.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "pT1",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "339"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "327"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "666"
+                    }
+                  ]
+                },
+                {
+                  "title": "pT2",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "294"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "351"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "645"
+                    }
+                  ]
+                },
+                {
+                  "title": "pT3",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "36"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "37"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Regional lymph nodes",
+          "description": "Pathologic Node (pN) describes whether the cancer has spread to the Lymph Nodes (LN). Prognosis is better when cancer has not spread to the LN. The more LN that contain cancer, the poorer prognosis tends to be.\n\npN1: Micrometastasis or metastasis in 1 to 3 axillary LN. pN2: Metastasis in 4 to 9 axillary LN. pN3: Metastasis in 10 or more axillary LN",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "pN1",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "450"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "463"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "913"
+                    }
+                  ]
+                },
+                {
+                  "title": "pN2",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "167"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "181"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "348"
+                    }
+                  ]
+                },
+                {
+                  "title": "pN3",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "71"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "123"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hormone receptor status",
+          "description": "A cancer is called hormonal receptor positive if it has receptors for progesterone or estrogen. This suggests that the cancer cells, like normal breast cells, may receive signals from progesterone or estrogen that could promote their growth.\n\nIf the cancer is hormone-receptor-negative (no receptors are present), then hormonal therapy is unlikely to work.",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Negative",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "98"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "121"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "219"
+                    }
+                  ]
+                },
+                {
+                  "title": "Positive",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "571"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "594"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1165"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Human epidermal growth factor receptor 2 (HER2) status",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Negative",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "592"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "647"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "1239"
+                    }
+                  ]
+                },
+                {
+                  "title": "Positive",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "77"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "65"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "142"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "BG001",
+                      "value": "3"
+                    },
+                    {
+                      "groupId": "BG002",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Number of Participants With Disease-free Survival (DFS) Event",
+          "description": "A participant was considered to have had a DFS event if there was evidence of local, regional or metastatic recurrence, second primary cancer (with the exception of carcinoma of squamous cells or basal cells of the skin, cervical carcinoma in situ or lobular or ductal carcinoma in situ of the breast) or death for any reason.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: EC-T",
+              "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: ET-X",
+              "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "669"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "715"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "127"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "170"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Number of Participants With Overall Survival (OS) Event",
+          "description": "A participant was considered to have had a OS event if patient died from any cause.",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: EC-T",
+              "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: ET-X",
+              "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "669"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "715"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "70"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "The Number of Participants Who Experienced Adverse Events (AE)",
+          "description": "Safety was assessed by standard clinical and laboratory tests, and were evaluated using NCI-CTC criteria v2.0",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "5 years",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: EC-T",
+              "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: ET-X",
+              "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "667"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "711"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "665"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "699"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Quality of Life Questionnaire: Number of Participants With Hair Loss",
+          "description": "Hair loss was assessed by the quality of life of the patients through the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire-Breast Cancer 23 (EORTC QLQ-BR23) profile questionnaire, question 4. The quality of life of the patients was evaluated before each cycle and at the end of treatment.\n\nIn questionnaire, raw scores range from 0 to 100 and a high score represents a high level of functioning or Health Related Quality of Life, excluding single-item scales in which high scores represent a high level of symptoms. A difference of 10 points on the scale over baseline value was classified as the minimum clinically meaningful change in both questionnaires.",
+          "populationDescription": "360 patients completed a questionnaire specifically on hair loss 1-2 years after the end of chemotherapy",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 24 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: EC-T",
+              "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: ET-X",
+              "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "175"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "185"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Complete hair loss",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "165"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "176"
+                    }
+                  ]
+                },
+                {
+                  "title": "Partial hair loss",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "title": "No hair loss",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Quality of Life Questionnaire: Number of Participants With Hair Loss Recovery",
+          "description": "Hair Loss Recovery was assessed by a specific Hair Toxicity Questionnaire were patients answered if the hair was less abundant than before, weaker than before or other.\n\nThe questionnaire was evaluated up to two years after the end of chemotherapy.",
+          "populationDescription": "360 patients completed a questionnaire specifically on hair loss 1-2 years after the end of chemotherapy. Arm A: 174 and Arm B 184 patients suffer hair loss",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "Up to 30 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: EC-T",
+              "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: ET-X",
+              "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "174"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "184"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "title": "Less abundant than before",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "52"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "26"
+                    }
+                  ]
+                },
+                {
+                  "title": "Weaker than before",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "55"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "30"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other",
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "67"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "128"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "SECONDARY",
+          "title": "Quality of Life Questionnaire: Time to Taking Off the Wig",
+          "description": "Time to taking off the wig was assessed by a specific Hair Toxicity Questionnaire were patients answered when they stop to use the wig.\n\nThe questionnaire was evaluated up to two years after the end of chemotherapy.",
+          "populationDescription": "There is only information about take off the wig in 241 patients: Arm A: 111 and Arm B 130",
+          "reportingStatus": "POSTED",
+          "paramType": "MEDIAN",
+          "dispersionType": "95% Confidence Interval",
+          "unitOfMeasure": "Months",
+          "timeFrame": "Up to 30 months",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Arm A: EC-T",
+              "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide"
+            },
+            {
+              "id": "OG001",
+              "title": "Arm B: ET-X",
+              "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin"
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "111"
+                },
+                {
+                  "groupId": "OG001",
+                  "value": "130"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "8.35",
+                      "lowerLimit": "0.62",
+                      "upperLimit": "61.35"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "6.03",
+                      "lowerLimit": "1.48",
+                      "upperLimit": "19.63"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "Through study treatment up to 30 days after last study dose, up to 7 months",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Arm A: EC-T",
+          "description": "Epirubicin with cyclophosphamide, followed by docetaxel (EC-T): Epirubicin 90 mg/ m2 in combination with cyclophosphamide 600 mg/m2 (EC) every 21 days for 4 cycles, followed by docetaxel 100 mg/m2 (T) every 21 days for 4 cycles.\n\nDocetaxel\n\nEpirubicin\n\nCyclophosphamide",
+          "deathsNumAffected": 70,
+          "deathsNumAtRisk": 669,
+          "seriousNumAffected": 111,
+          "seriousNumAtRisk": 669,
+          "otherNumAffected": 665,
+          "otherNumAtRisk": 669
+        },
+        {
+          "id": "EG001",
+          "title": "Arm B: ET-X",
+          "description": "Epirubicin and docetaxel followed by capecitabine (ET-X):Epirubicin 90 mg/m2 and docetaxel 75 mg/ m2 (ET) every 21 days for 4 cycles, followed by capecitabine 1,250 mg/m2 bid for 14 days, followed by a 7-day rest for 4 cycles.\n\nDocetaxel\n\nCapecitabine\n\nEpirubicin",
+          "deathsNumAffected": 83,
+          "deathsNumAtRisk": 715,
+          "seriousNumAffected": 138,
+          "seriousNumAtRisk": 715,
+          "otherNumAffected": 699,
+          "otherNumAtRisk": 715
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 55,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 40,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Febrile neutropenia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Infection with grade 3 or 4 neutropenia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 8,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Infection without neutropenia",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 7,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 7,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Neutropenia",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 5,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Fistula anal",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 25,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Stomach flu",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Leukocytes",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Bronchospasm",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Mucositis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Pancreatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 2,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain and hematuria",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Hemoglobin",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Hand foot skin reaction",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Breast implant repeled",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Heart Failure",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 3,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Proctitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Thrombosis/embolism",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Mood alteration-anxiety agitation",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 1,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 0,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Fever",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 1",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 3,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Mucositis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Mucositis / Stomatitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Pancreatic adenocarcinoma",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Thrombosis/embolism",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Hemoglobin",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Proctitis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Allergic reaction",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Bone Fracture",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Cardiac ischemia / infarction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 4,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Cardiac ischemia / infarction",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Catheter-related infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Gastritis",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "CNS cerebrovascular ischemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "CNS cerebrovascular ischemia",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Injection site reaction",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Creatinine",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Pneumonitis/Pulmonary infiltrates",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Thoracic pain",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Biliary colic",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Bleeding",
+          "organSystem": "Vascular disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 1",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Systemic lupus erythematosus",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Dyspnea",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Epidermis necrosis",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Arrhythmia",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 2,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Progression disease, carcinomatosis meninges",
+          "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Phenytoin poisoning interaction with capecitabine",
+          "organSystem": "Injury, poisoning and procedural complications",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Ureteral obstruction",
+          "organSystem": "Renal and urinary disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 1",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Neuropathy-sensory",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Conduction abnormality/ Atrioventricular heart block",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Confusion",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 0,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 1,
+              "numAtRisk": 715
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "NEUTROPHILS/GRANULOCYTES",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 44,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 36,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "NEUTROPHILS/GRANULOCYTES",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 83,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 33,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "NEUTROPHILS/GRANULOCYTES",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 108,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 91,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "LEUKOCYTES (TOTAL WBC)",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 4",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 27,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 36,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "LEUKOCYTES (TOTAL WBC)",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 51,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 32,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "LEUKOCYTES (TOTAL WBC)",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 126,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 66,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "IRREGULAR MENSES",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 160,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 146,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "HAND-FOOT SKIN REACTION",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 14,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 139,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "HAND-FOOT SKIN REACTION",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 15,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 169,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "ALOPECIA",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 562,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 569,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "FATIGUE",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 285,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 270,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 184,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 161,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "STOMATITIS/PHARYNGITIS (ORAL/PHARYNGEAL MUCOSITIS)",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 154,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 115,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "DIARRHEA",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 20,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 73,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 76,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 118,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "FATIGUE",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 3",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 84,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 74,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "HEMOGLOBIN",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 105,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 73,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "NAIL CHANGES",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 100,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 81,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "SGPT (ALT)",
+          "organSystem": "Hepatobiliary disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 39,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 94,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "VOMITING",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 125,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 122,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "ARTHRALGIA",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 72,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 34,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "CONSTIPATION",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 70,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 59,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "INFECTION WITHOUT NEUTROPENIA",
+          "organSystem": "Immune system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 71,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 61,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "LYMPHOPENIA",
+          "organSystem": "Blood and lymphatic system disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 68,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 62,
+              "numAtRisk": 715
+            }
+          ]
+        },
+        {
+          "term": "MYALGIA",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "NCI-CTCAE v. 2.0",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "notes": "Grade 2",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numAffected": 89,
+              "numAtRisk": 669
+            },
+            {
+              "groupId": "EG001",
+              "numAffected": 42,
+              "numAtRisk": 715
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictionType": "LTE60",
+        "restrictiveAgreement": true
+      },
+      "pointOfContact": {
+        "title": "Scientific Director / Medical Lead / Project Manager",
+        "organization": "Spanish Breast Cancer Research Group",
+        "email": "geicam@geicam.org",
+        "phone": "+34916592870"
+      }
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D000077143",
+          "term": "Docetaxel"
+        },
+        {
+          "id": "D000069287",
+          "term": "Capecitabine"
+        },
+        {
+          "id": "D015251",
+          "term": "Epirubicin"
+        },
+        {
+          "id": "D003520",
+          "term": "Cyclophosphamide"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D043823",
+          "term": "Taxoids"
+        },
+        {
+          "id": "D043822",
+          "term": "Cyclodecanes"
+        },
+        {
+          "id": "D003516",
+          "term": "Cycloparaffins"
+        },
+        {
+          "id": "D006840",
+          "term": "Hydrocarbons, Alicyclic"
+        },
+        {
+          "id": "D006844",
+          "term": "Hydrocarbons, Cyclic"
+        },
+        {
+          "id": "D006838",
+          "term": "Hydrocarbons"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D004224",
+          "term": "Diterpenes"
+        },
+        {
+          "id": "D013729",
+          "term": "Terpenes"
+        },
+        {
+          "id": "D003841",
+          "term": "Deoxycytidine"
+        },
+        {
+          "id": "D003562",
+          "term": "Cytidine"
+        },
+        {
+          "id": "D011741",
+          "term": "Pyrimidine Nucleosides"
+        },
+        {
+          "id": "D011743",
+          "term": "Pyrimidines"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        },
+        {
+          "id": "D005472",
+          "term": "Fluorouracil"
+        },
+        {
+          "id": "D014498",
+          "term": "Uracil"
+        },
+        {
+          "id": "D011744",
+          "term": "Pyrimidinones"
+        },
+        {
+          "id": "D003853",
+          "term": "Deoxyribonucleosides"
+        },
+        {
+          "id": "D009705",
+          "term": "Nucleosides"
+        },
+        {
+          "id": "D009706",
+          "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+        },
+        {
+          "id": "D004317",
+          "term": "Doxorubicin"
+        },
+        {
+          "id": "D003630",
+          "term": "Daunorubicin"
+        },
+        {
+          "id": "D018943",
+          "term": "Anthracyclines"
+        },
+        {
+          "id": "D009279",
+          "term": "Naphthacenes"
+        },
+        {
+          "id": "D011084",
+          "term": "Polycyclic Aromatic Hydrocarbons"
+        },
+        {
+          "id": "D006841",
+          "term": "Hydrocarbons, Aromatic"
+        },
+        {
+          "id": "D011083",
+          "term": "Polycyclic Compounds"
+        },
+        {
+          "id": "D000617",
+          "term": "Aminoglycosides"
+        },
+        {
+          "id": "D006027",
+          "term": "Glycosides"
+        },
+        {
+          "id": "D002241",
+          "term": "Carbohydrates"
+        },
+        {
+          "id": "D010752",
+          "term": "Phosphoramide Mustards"
+        },
+        {
+          "id": "D009588",
+          "term": "Nitrogen Mustard Compounds"
+        },
+        {
+          "id": "D009150",
+          "term": "Mustard Compounds"
+        },
+        {
+          "id": "D006846",
+          "term": "Hydrocarbons, Halogenated"
+        },
+        {
+          "id": "D063088",
+          "term": "Phosphoramides"
+        },
+        {
+          "id": "D009943",
+          "term": "Organophosphorus Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}

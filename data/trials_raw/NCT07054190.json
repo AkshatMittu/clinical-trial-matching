@@ -1,0 +1,708 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07054190",
+      "orgStudyIdInfo": {
+        "id": "BO45853"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2024-518811-20-00",
+          "type": "CTIS"
+        }
+      ],
+      "organization": {
+        "fullName": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Test Inavolisib Treatments in Participants With Early-Stage, PIK3CA-Mutated Breast Cancer",
+      "officialTitle": "A Phase II, Open-Label, Multicenter Study Evaluating the Safety and Efficacy of Neoadjuvant Treatment With Inavolisib Combinations in Patients With Untreated, Early-stage, PIK3CA-Mutated Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-09-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-07-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09-28",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-06-26",
+      "studyFirstSubmitQcDate": "2025-07-07",
+      "studyFirstPostDateStruct": {
+        "date": "2025-07-08",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the safety and efficacy of inavolisib combination therapies in participants with untreated, PIK3CA-mutated, Stage II-III, estrogen receptor (ER)-positive, Human Epidermal Growth Factor Receptor 2 (HER2)-negative breast cancer (BC)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive inavolisib and letrozole orally (PO) once a day (QD) from Day 1 to 28 and ribociclib PO QD from Day 1 to 21 in cycles 1-5 (each cycle=28 days). In cycle 6, inavolisib, ribociclib and letrozole will be administered PO QD on days 1-21 (each cycle=21 days).",
+          "interventionNames": [
+            "Drug: Inavolisib",
+            "Drug: Ribociclib",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive a starting regimen of inavolisib and letrozole PO QD from Day 1 to 28 in cycle 1 (each cycle=28 days). Starting on Day 1 of Cycle 2, all participants will receive the triplet regimen inavolisib + ribociclib + letrozole as follows: inavolisib and letrozole PO QD from Day 1 to 28 and ribociclib PO QD from Day 1 to 21 in cycles 2-5 (each cycle=28 days). In cycle 6, inavolisib, ribociclib and letrozole will be administered PO QD on days 1-21 (each cycle=21 days).",
+          "interventionNames": [
+            "Drug: Inavolisib",
+            "Drug: Ribociclib",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Arm C",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive a starting regimen of ribociclib PO QD from Day 1 to 21 and letrozole PO QD from Day 1 to 28 in cycle 1 (each cycle=28 days). Starting on Day 1 of Cycle 2, all participants will receive the triplet regimen inavolisib + ribociclib + letrozole as follows: inavolisib and letrozole PO QD from Day 1 to 28 and ribociclib PO QD from Day 1 to 21 in cycles 2-5 (each cycle=28 days). In cycle 6, inavolisib, ribociclib and letrozole will be administered PO QD on days 1-21 (each cycle=21 days).",
+          "interventionNames": [
+            "Drug: Inavolisib",
+            "Drug: Ribociclib",
+            "Drug: Letrozole"
+          ]
+        },
+        {
+          "label": "Arm D (non-randomized)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive inavolisib and letrozole PO QD from Day 1 to 28 and ribociclib PO QD from Day 1 to 21 in cycles 1-5 (each cycle=28 days). In cycle 6, inavolisib, ribociclib and letrozole will be administered PO QD on days 1-21 (each cycle=21 days).",
+          "interventionNames": [
+            "Drug: Inavolisib",
+            "Drug: Ribociclib",
+            "Drug: Letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Inavolisib",
+          "description": "Inavolisib will be administered as per the schedule specified in the arms",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B",
+            "Arm C",
+            "Arm D (non-randomized)"
+          ],
+          "otherNames": [
+            "GDC-0077",
+            "RO7113755"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ribociclib",
+          "description": "Ribociclib will be administered as per the schedule specified in the arms",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B",
+            "Arm C",
+            "Arm D (non-randomized)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Letrozole will be administered as per the schedule specified in the arms",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B",
+            "Arm C",
+            "Arm D (non-randomized)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants with Adverse Events (AEs)",
+          "timeFrame": "From first dose up to 30 days after last dose (approximately 8 months)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants with Total Pathological Complete Response (pCR)",
+          "timeFrame": "Up to approximately 8 months"
+        },
+        {
+          "measure": "Percentage of Participants with Objective Response Rate (ORR), According to Modified Response Evaluation Criteria in Solid Tumors, Version 1.1 (mRECIST v1.1)",
+          "timeFrame": "Up to approximately 8 months"
+        },
+        {
+          "measure": "Change From Baseline in Ki-67 Levels by Immunohistochemistry (IHC)",
+          "timeFrame": "Baseline, Day 22 of Cycle 1 and at Surgery (up to approximately 8 months). One cycle = 28 days"
+        },
+        {
+          "measure": "Percentage of Participants Reporting Symptoms in Patient-Reported Outcomes of the Common Terminology Criteria for Adverse Events (PRO-CTCAE) Questionnaire",
+          "timeFrame": "Up to approximately 8 months"
+        },
+        {
+          "measure": "Percentage of Participants Reporting Each Response Option at Each Time Point for the Treatment Side-Effect Bother Item (GP5) From the Functional Assessment of Cancer Therapy - General (FACT-G) Questionnaire",
+          "timeFrame": "Up to approximately 8 months"
+        },
+        {
+          "measure": "Change from Baseline in Symptomatic Treatment-Related Toxicities as Assessed Through use of the PRO-CTCAE",
+          "timeFrame": "Baseline, up to approximately 8 months"
+        },
+        {
+          "measure": "Change from Baseline in Treatment Side-Effect Bother as Assessed Through use of the FACT-G GP5 Item",
+          "timeFrame": "Baseline, up to approximately 8 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed operable or inoperable invasive Stage II-III BC according to American Joint Committee on Cancer (AJCC) TNM staging classification\n* Candidate for neoadjuvant treatment and considered appropriate for endocrine combination therapy\n* Willingness to undergo breast surgery (mastectomy or breast-conserving surgery) after neoadjuvant treatment (unless inoperable)\n* Documented ER-positive tumor in accordance with current American Society of Clinical Oncology (ASCO)/College of American Pathologists (CAP) guidelines\n* Documented HER2-negative tumor in accordance with current ASCO/CAP guidelines\n* Documented Ki-67 score \\>=5% as per local assessment\n* Confirmed PIK3CA mutation\n\nExclusion Criteria:\n\n* Stage IV (metastatic) BC\n* Inflammatory BC (cT4d)\n* Bilateral invasive BC\n* History of ductal carcinoma in situ or lobular carcinoma in situ if they have received any systemic therapy for treatment or radiation therapy to the ipsilateral breast\n* Previous systemic or local treatment for the primary BC currently under investigation (including excisional biopsy or any other surgery of the primary tumor and/or axillary lymph nodes, including sentinel lymph node biopsy, radiotherapy, cytotoxic, and endocrine treatments)\n* Type 2 diabetes requiring ongoing systemic treatment at the time of study entry; or any history of Type 1 diabetes",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "genderBased": true,
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Reference Study ID Number: BO45853 https://forpatients.roche.com/ No attachments to email below.",
+          "role": "CONTACT",
+          "phone": "888-662-6728 (U.S. and Canada)",
+          "email": "global-roche-genentech-trials@gene.com"
+        },
+        {
+          "name": "Fastest response: use the inquiry form. https://www.gene.com/contact-us/submit-medical-inquiry",
+          "role": "CONTACT"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Clinical Trials",
+          "affiliation": "Hoffmann-La Roche",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Los Angeles Cancer Network",
+          "status": "RECRUITING",
+          "city": "Los Angeles",
+          "state": "California",
+          "zip": "90017-4803",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 34.05223,
+            "lon": -118.24368
+          }
+        },
+        {
+          "facility": "Community Clinical Trials",
+          "status": "RECRUITING",
+          "city": "Orange",
+          "state": "California",
+          "zip": "92868",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 33.78779,
+            "lon": -117.85311
+          }
+        },
+        {
+          "facility": "West Cancer Center",
+          "status": "RECRUITING",
+          "city": "Germantown",
+          "state": "Tennessee",
+          "zip": "38138",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 35.08676,
+            "lon": -89.81009
+          }
+        },
+        {
+          "facility": "West Virginia University",
+          "status": "RECRUITING",
+          "city": "Morgantown",
+          "state": "West Virginia",
+          "zip": "26506",
+          "country": "United States",
+          "geoPoint": {
+            "lat": 39.62953,
+            "lon": -79.9559
+          }
+        },
+        {
+          "facility": "Hospital Aleman de Buenos Aires",
+          "status": "RECRUITING",
+          "city": "Buenos Aires",
+          "zip": "C1118AAT",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Centro M\u00e9dico Fleischer",
+          "status": "RECRUITING",
+          "city": "Buenos Aires",
+          "zip": "C1414DRK",
+          "country": "Argentina",
+          "geoPoint": {
+            "lat": -34.61315,
+            "lon": -58.37723
+          }
+        },
+        {
+          "facility": "Centro Oncologico Korben",
+          "status": "RECRUITING",
+          "city": "Ciudad Autonoma Buenos Aires",
+          "zip": "C1426AGE",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Hospital Araujo Jorge",
+          "status": "RECRUITING",
+          "city": "Goi\u00e2nia",
+          "state": "Goi\u00e1s",
+          "zip": "74605-070",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -16.67861,
+            "lon": -49.25389
+          }
+        },
+        {
+          "facility": "Hospital do Cancer de Pernambuco - HCP",
+          "status": "RECRUITING",
+          "city": "Recife",
+          "state": "Pernambuco",
+          "zip": "50040-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -8.05389,
+            "lon": -34.88111
+          }
+        },
+        {
+          "facility": "Irmandade Da Santa Casa de Misericordia de Porto Alegre",
+          "status": "RECRUITING",
+          "city": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "zip": "90035-074",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -30.03283,
+            "lon": -51.23019
+          }
+        },
+        {
+          "facility": "Clinica de Pesquisa e Centro de Estudos em Oncologia Ginecologica e Mamaria Ltda",
+          "status": "RECRUITING",
+          "city": "S\u00e3o Paulo",
+          "state": "S\u00e3o Paulo",
+          "zip": "01317-000",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -23.5475,
+            "lon": -46.63611
+          }
+        },
+        {
+          "facility": "Sunnybrook Odette Cancer Centre",
+          "status": "RECRUITING",
+          "city": "Toronto",
+          "state": "Ontario",
+          "zip": "M4N 3M5",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 43.70643,
+            "lon": -79.39864
+          }
+        },
+        {
+          "facility": "Centre Hospitalier de l'Universite de Montreal (CHUM)",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H2X 0C2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Jewish General Hospital",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H3T1E2",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "McGill University Health Center",
+          "status": "RECRUITING",
+          "city": "Montreal",
+          "state": "Quebec",
+          "zip": "H4A 3J1",
+          "country": "Canada",
+          "geoPoint": {
+            "lat": 45.50884,
+            "lon": -73.58781
+          }
+        },
+        {
+          "facility": "Das Brustzentrum",
+          "status": "RECRUITING",
+          "city": "Berlin",
+          "zip": "12623",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "HELIOS Klinikum Berlin-Buch",
+          "status": "RECRUITING",
+          "city": "Berlin",
+          "zip": "13125",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 52.52437,
+            "lon": 13.41053
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum \"Carl Gustav Carus\" der Technischen Universit\u00e4t Dresden",
+          "status": "RECRUITING",
+          "city": "Dresden",
+          "zip": "01307",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.05089,
+            "lon": 13.73832
+          }
+        },
+        {
+          "facility": "Kliniken Essen-Mitte",
+          "status": "RECRUITING",
+          "city": "Essen",
+          "zip": "45136",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.45657,
+            "lon": 7.01228
+          }
+        },
+        {
+          "facility": "Universit\u00e4tsklinikum Heidelberg",
+          "status": "RECRUITING",
+          "city": "Heidelberg",
+          "zip": "69120",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 49.40768,
+            "lon": 8.69079
+          }
+        },
+        {
+          "facility": "St. Vincenz-Krankenhaus GmbH Paderborn Frauen- und Kinderklinik St. Louise",
+          "status": "RECRUITING",
+          "city": "Paderborn",
+          "zip": "33098",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 51.71905,
+            "lon": 8.75439
+          }
+        },
+        {
+          "facility": "HELIOS Klinikum Schwerin",
+          "status": "RECRUITING",
+          "city": "Schwerin",
+          "zip": "19055",
+          "country": "Germany",
+          "geoPoint": {
+            "lat": 53.62937,
+            "lon": 11.41316
+          }
+        },
+        {
+          "facility": "Seoul National University Hospital",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03080",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Severance Hospital, Yonsei University Health System",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "03722",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Asan Medical Center.",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "05505",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Samsung Medical Center",
+          "status": "RECRUITING",
+          "city": "Seoul",
+          "zip": "06351",
+          "country": "South Korea",
+          "geoPoint": {
+            "lat": 37.566,
+            "lon": 126.9784
+          }
+        },
+        {
+          "facility": "Vall d'Hebron Institute of Oncology (VHIO), Barcelona",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08035",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Clinic Barcelona",
+          "status": "RECRUITING",
+          "city": "Barcelona",
+          "zip": "08036",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital General Universitario Gregorio Mara\u00f1on",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario 12 de Octubre",
+          "status": "RECRUITING",
+          "city": "Madrid",
+          "zip": "28041",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Clinico Universitario de Salamanca",
+          "status": "RECRUITING",
+          "city": "Salamanca",
+          "zip": "37007",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.96882,
+            "lon": -5.66388
+          }
+        },
+        {
+          "facility": "Hospital Universitario Virgen Macarena",
+          "status": "RECRUITING",
+          "city": "Seville",
+          "zip": "41009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        },
+        {
+          "facility": "Hospital Cl\u00ednico Universitario de Valencia",
+          "status": "RECRUITING",
+          "city": "Valencia",
+          "zip": "46010",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Please use this form to submit your questions for a faster response: https://www.gene.com/contact-us/submit-medical-inquiry. Do not include or attach any medical records when emailing or completing the form. A nurse will respond within 24 business hours.",
+          "url": "https://www.gene.com/contact-us/submit-medical-inquiry"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "For eligible studies, qualified researchers may request access to individual patient level clinical data. See Roche's commitment to transparency of clinical study information here: https://go.roche.com/data\\_sharing"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000723546",
+          "term": "inavolisib"
+        },
+        {
+          "id": "C000589651",
+          "term": "ribociclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

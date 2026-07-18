@@ -1,0 +1,408 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04130152",
+      "orgStudyIdInfo": {
+        "id": "SOLTI-1710"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2019-001275-36",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "briefTitle": "Palbociclib Plus Letrozole in Hormone Receptor Positive Residual Disease After Neoadjuvant Chemotherapy",
+      "officialTitle": "Palbociclib in Combination With Letrozole in Patients With Hormone Receptor (HR) Positive/Human Epidermal Growth Factor Receptor 2 (HER2) Negative Residual Disease After Standard Neoadjuvant Chemotherapy (PROMETEO II)",
+      "acronym": "PROMETEO II"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2022-06",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2019-11-21",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2022-01-26",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2022-02-24",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2019-10-14",
+      "studyFirstSubmitQcDate": "2019-10-15",
+      "studyFirstPostDateStruct": {
+        "date": "2019-10-17",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2022-10-24",
+      "lastUpdatePostDateStruct": {
+        "date": "2022-10-25",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "SOLTI Breast Cancer Research Group",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Pfizer",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "PROMETEO II is a single-arm window of opportunity trial to evaluate biologic and anti-proliferative effects of palbociclib and letrozole in HR+/HER2-negative operable breast cancer (BC) patients with residual disease after neoadjuvant chemotherapy (NAC) and help to identify biomarkers for better patient selection.",
+      "detailedDescription": "This is a single-arm window of opportunity trial to evaluate biologic and anti-proliferative effects of palbociclib and letrozole in HR+/HER2-negative operable BC patients with residual disease after NAC and help to identify biomarkers for better patient selection.\n\nThe primary endpoint will be the Complete Cell Cycle Arrest (CCCA) determined by Ki67\\<2.7%, centrally assessed at surgery after 4 weeks of palbociclib and letrozole.\n\nTumor measurement will be performed by ultrasound (US) for disease evaluation and confirmation of residual disease will be performed at screening at the end of NAC. The biopsy after chemotherapy will only be done after confirmation of residual disease by US. Ki67% \u2265 5% after NAC by local determination will be necessary to be included in the study.\n\nPatients will be administered palbociclib at a dose of 125 mg once daily, day 1 to day 21 followed by 7 days off treatment in a 28-day cycle and letrozole: oral, 2.5 mg per day continuously, one cycle of treatment.\n\nAfter the finalization of the neoadjuvant treatment, patients will undergo surgery. Surgery specimens will be collected for histological examination and biomarker analysis\n\nThe end of the study is defined as the date of post-surgery visit and will take place 4 weeks (+/- 7days) after the surgery in order to monitor the patient's safety and collect the surgery information."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Palbociclib, residual disease, Neoadjuvant treatment, Ki67"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 22,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Palbociclib + Letrozole",
+          "type": "EXPERIMENTAL",
+          "description": "Palbociclib 125 mg once daily, day 1 to day 21, followed by 7 days off treatment in a 28-day cycle Letrozole: oral, 2.5 mg per day continuously. during the 28-day cycle.\n\nIf the patient is pre-menopausal, ovarian suppression with luteinizing hormone-releasing hormone (LHRH) analogues (ie, triptorelin 3.75 mg intra-muscular (IM) or Goserelin 3,6 mg SC) must be initiated at least 2 weeks before palbociclib plus letrozole administration.",
+          "interventionNames": [
+            "Drug: Palbociclib",
+            "Drug: Letrozole"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Palbociclib",
+          "description": "Palbociclib 125 mg once daily, day 1 to day 21, followed by 7 days off treatment in a 28-day cycle",
+          "armGroupLabels": [
+            "Palbociclib + Letrozole"
+          ],
+          "otherNames": [
+            "Ibrance"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Letrozole",
+          "description": "Letrozole: oral, 2.5 mg per day continuously. during the 28-day cycle.",
+          "armGroupLabels": [
+            "Palbociclib + Letrozole"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Complete Cell Cycle Arrest (CCCA)",
+          "description": "Complete Cell Cycle Arrest (CCCA) determined by Ki67\\< 2.7% at surgery following treatment with palbociclib plus letrozole, by central laboratory",
+          "timeFrame": "Ki67 will be determined at surgery by central laboratory"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Residual Cancer Burden (RCB)",
+          "description": "Changes in Ki67 between baseline samples (before NAC), residual disease samples after NAC and surgical samples following palbociclib with letrozole.",
+          "timeFrame": "Pretreated sample before NAC, after NAC and at surgery 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Residual Cancer Burden (RCB)",
+          "description": "Rate of RCB score 0 or 1 (RCB 0/1) after neoadjuvant treatment, according to the MD Anderson Cancer Center procedures, as per local assessment",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Pathological complete response (pCR)",
+          "description": "Rate of pCR (ypT0/TisypN0) defined as the complete absence of invasive carcinoma in the breast and axillary lymph nodes on histological examination at the time of definitive surgery, irrespective of in situ carcinoma in the breast and in the breast and axilla by local evaluation.",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Incidence, duration and severity of Adverse Events (AEs)",
+          "description": "Incidence and severity of treatment-emergent and treatment-related adverse events assessed by the NCI Common Terminology for Classification of Adverse Events (CTCAE) version 5.0, including dose reductions, delays and treatment discontinuations.",
+          "timeFrame": "Up to 4 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in gene expression of 752 genes",
+          "description": "Gene expression changes of 752 genes in all the patients, between posttreatment and pretreatment samples following therapy with palbociclib and letrozole.",
+          "timeFrame": "Gene expression will be analyzed in pretreated sample and at surgery 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Changes of the PAM50 intrinsic subtypes",
+          "description": "To evaluate the changes of the PAM50 intrinsic subtypes between samples",
+          "timeFrame": "Intrinsic subtype will be evaluated in pretreated sample, after NAC, and at surgery following therapy with palbociclib and letrozole."
+        },
+        {
+          "measure": "Rate of cell cycle suppression according to breast cancer subtype.",
+          "description": "To determine the association between PAM50 intrinsic subtypes and biological response following neoadjuvant treatment",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Correlation of rate of cell cycle suppression with gene expression changes of 752 genes.",
+          "description": "To determine the association between gene expression from pre-treatment samples with biological response after neoadjuvant treatment.",
+          "timeFrame": "Cell cycle suppression and gene expression will be evaluated pretreatment and at surgery 4 weeks after palbociclib and letrozole treatment."
+        },
+        {
+          "measure": "Correlation of pCR and RCB with gene expression changes of 752 genes.",
+          "description": "To determine the association between gene expression from pre-treatment samples with pathological response after letrozole and palbociclib treatment.",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Changes in tumor-infiltrating lymphocytes (TILs)",
+          "description": "Changes in TILs by immunohistochemistry (eg, percentages (%) of stromal TILs) in lesions before and after treatment.",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Changes in Programmed death-ligand 1 (PDL1) expression",
+          "description": "Changes in PDL1 expression immuno-histochemistry (IHC) in lesions before and after treatment.",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Increase in CelTIL score",
+          "description": "CelTIL score is a metric for quantifying broad changes to the tumor microenvironment and is calculated by the following equation:\n\nCelTIL score = -0.8 \u00d7 tumor cellularity (in percent) + 1.3 \u00d7 TILs (in percent). The minimum and maximum unscaled CelTIL scores will be -80 and 130. This unscaled CelTIL score will then be scaled to reflect the reported values ranging from 0 to 100 points where an increase in CelTIL scores represent favorable changes to the tumor microenvironment.",
+          "timeFrame": "At surgery, 4 weeks after palbociclib and letrozole treatment"
+        },
+        {
+          "measure": "Correlation of pCR and RCB with PIK3CA mutations, p53 mutations and other genomic alterations.",
+          "description": "DNA mutation analysis in pretreatment samples will be performed on tumor DNA samples to assess the predictive value of the most prevalent mutations in early HR+ breast cancer subtype.",
+          "timeFrame": "DNA mutations will be analyzed in pretreatment samples."
+        },
+        {
+          "measure": "Changes in ctDNA",
+          "description": "Determination of changes in ctDNA in plasma samples",
+          "timeFrame": "ctDNA evaluation will be performed post-NAC and at surgery, 4 weeks after palbociclib and letrozole treatment."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Written and signed informed consent for all study procedures according to local regulatory requirements prior to beginning specific protocol procedures.\n2. Female patients age \u2265 18 years.\n3. ECOG (Eastern Cooperative Oncology Group) Performance Status of 0 to 1.\n4. Histologically confirmed non-metastatic primary HR-positive/HER2 negative breast cancer with all the following characteristics:\n\n   * Breast cancer eligible for surgery.\n   * ER-positive and/or PgR-positive and HER2-negative tumor by the most recent ASCO/CAP guidelines, before neoadjuvant treatment locally assessed.\n   * Ki67% \u2265 5% after neoadjuvant chemotherapy locally assessed (Dowsett M et al JNCI 2011).\n   * A lesion that could be confirmed by ultrasound (US) after neoadjuvant chemotherapy.\n5. Completed \u226580% total dose of an anthracycline/taxane-based neoadjuvant regimen planned. The allowed chemotherapy regimens will be AC (cyclophosphamide, doxorubicin) or EC (epirubicin, cyclophosphamide) 4 cycles followed by weekly paclitaxel x 12 or AC or EC 4 cycles followed by docetaxel 4 cycles. It would be acceptable to change the administration sequence to paclitaxel followed by AC/EC. AC can be given either a standard dose or in a dose-dense schedule. Paclitaxel could be administered as a solvent-based or Nanoparticle albumin-bound (Nab) formulation.\n6. Availability of a recent formalin-fixed paraffin-embedded (FFPE) tumor sample before NAC and a research tumor biopsy after NAC. Minimal sample requirements are to have at least 2 tumor cylinders with a minimal tissue surface of 10 mm2 tissue, containing at least 10% tumor cells and having enough tissue to do at least 2 cuts of 10 \u03bcm each.\n7. Adequate organ function determined within 28 days prior to enrollment, defined as follows:\n\n   * Hematological\n\n     * Absolute neutrophil count (ANC) \u2265 1.5 x 109/L\n     * Platelet count \u2265 100 x 109/L\n     * Hemoglobin \u2265 9 g/dL (red blood cell transfusion and/or erythropoietin allowed)\n   * Renal\n\n     \u2022 Serum creatinine \u2264 1.5 x upper limit of normal (ULN), or 24-hour creatinine clearance \u2265 60 mL/min for a subject with creatinine levels \\>1.5 x ULN. (Note: Creatinine clearance does not need to be determined if the baseline serum creatinine is within normal limits. Creatinine clearance should be calculated per institutional standard).\n   * Hepatic\n\n     * Serum bilirubin \u2264 1.5 x ULN OR direct bilirubin \u2264 ULN for a subject with total bilirubin level \\> 1.5 x ULN\n     * Aspartate aminotransferase (AST) \u2264 2.5 x ULN\n     * Alanine aminotransferase (ALT) \u2264 2.5 x ULN Coagulation International normalization ratio (INR) or prothrombin time (PT) \u2264 1.5 x ULN\n8. Serum or urine pregnancy test must be negative within 7 days prior enrollment in women of childbearing potential. If the urine pregnancy test is positive or cannot be confirmed as negative, a serum pregnancy test will be required. Pregnancy testing does not need to be pursued in patients who are judged as postmenopausal before randomization, as determined by local practice, or who have undergone bilateral oophorectomy, total hysterectomy, or bilateral tubal ligation. Women of childbearing potential enrolled to the treatment must use adequate contraception for the duration of protocol treatment.\n9. Absence of any psychological, familial, sociological, or geographical condition potentially hampering compliance with the study protocol and follow-up schedule; those conditions should be discussed with the patient before registration in the trial.\n10. Resolution of all acute toxic effects of prior anti-cancer therapy to NCI CTCAE version 5.0 Grade \u2264 1 (except alopecia or other toxicities not considered a safety risk for the patient at investigator\u00b4s discretion).\n11. Pre/peri-menopausal and post-menopausal women are allowed; menopausal status is relevant for the requirement of goserelin or triptorelin to be used concomitantly with palbociclib plus letrozole. Post-menopausal status is defined either by:\n\n    * Prior bilateral oophorectomy or\n    * Age \u226560 or\n    * Age \\< 60 and amenorrhea for \u2265 12 months prior to the start of neoadjuvant chemotherapy and FSH and estradiol in the post-menopausal range per local standards prior to the start of neoadjuvant chemotherapy.\n\nFor patients who do not meet the one of the previous parameters, therapy-induced amenorrhea (goserelin or triptorelin), it must have been started more 14 days before the start of palbociclib plus letrozole treatment.\n\nExclusion Criteria:\n\n1. Non-operable, locally advanced breast cancer (inoperable stage III) after NAC.\n2. Bilateral or metastatic invasive breast cancer at the time of the diagnosis.\n3. Known severe hypersensitivity reactions to compounds similar to palbociclib or to excipients or to endocrine treatments.\n4. History of any previous treatment using Aromatase inhibitors (AI) o selective estrogen receptor modulator (SERMs) in the past 5 years.\n5. Prior therapy with palbociclib or any cyclin-dependent kinase (CDK) inhibitor.\n6. Concurrent treatment with other experimental drugs. Participation in another clinical trial with any investigational not marketed drug within 30 days prior to enrollment.\n7. Patients receiving any medications or substances that are strong inhibitors or inducers of CYP3A isoenzymes within 7 days of randomization.\n8. Any surgery (not including minor procedures such as primary tumor core biopsy, fine needle aspiration) within 4 weeks of start of study treatment; or not fully recovered from any side effects of previous procedures.\n9. Sentinel lymph node biopsy is not allowed before NAC.\n10. Diagnosis of any previous malignancy within the last 3 years, except for adequately treated basal cell carcinoma, or squamous cell skin carcinoma, or in situ cervical carcinoma\n11. Malabsorption syndrome or other condition that would interfere with enteric absorption.\n12. Clinically significant history of liver disease, including viral or other hepatitis, current alcohol abuse, or cirrhosis.\n13. Uncontrolled electrolyte disorders (eg, hypocalcemia, hypokalemia, hypomagnesemia).\n14. Any of the following within 6 months of enrollment: myocardial infarction, severe/unstable angina, ongoing cardiac dysrhythmias of NCI CTCAE version 5.0 Grade \u22652, atrial fibrillation of any grade, coronary/peripheral artery bypass graft, symptomatic congestive heart failure, cerebrovascular accident including transient ischemic attack, or symptomatic pulmonary embolism.\n15. Corrected QT interval (QTc) greater than 480 msec or a family or personal history of long or short QT syndrome, Brugada syndrome or know history of QTc prolongation, or Torsade de Pointes (TdP).\n16. Uncontrolled current illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, diabetes, or psychiatric illness/social situations that would limit compliance with study requirements. Ability to comply with study requirements is to be assessed by each investigator at the time of screening for study participation.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "locations": [
+        {
+          "facility": "Hospital General de Catalunya",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "ICO Hospitalet",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital 12 de octubre",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Infanta Sof\u00eda",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Virgen de la Victoria",
+          "city": "M\u00e1laga",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 36.72016,
+            "lon": -4.42034
+          }
+        },
+        {
+          "facility": "Hospital Son Espases",
+          "city": "Palma de Mallorca",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.56939,
+            "lon": 2.65024
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario Santiago de Compostela (CHUS)",
+          "city": "Santiago de Compostela",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 42.88052,
+            "lon": -8.54569
+          }
+        },
+        {
+          "facility": "Hospital Virgen del Roc\u00edo",
+          "city": "Seville",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.38283,
+            "lon": -5.97317
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "39592624",
+          "type": "DERIVED",
+          "citation": "Pernas S, Sanfeliu E, Villacampa G, Salvador J, Perello A, Gonzalez X, Jimenez B, Merino M, Palacios P, Pascual T, Alba E, Villanueva L, Chillara S, Ferrero-Cafiero JM, Galvan P, Prat A, Ciruelos E. Palbociclib and letrozole for hormone receptor-positive HER2-negative breast cancer with residual disease after neoadjuvant chemotherapy. NPJ Breast Cancer. 2024 Nov 26;10(1):101. doi: 10.1038/s41523-024-00710-x."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D018365",
+          "term": "Neoplasm, Residual"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        },
+        {
+          "id": "D009385",
+          "term": "Neoplastic Processes"
+        },
+        {
+          "id": "D010335",
+          "term": "Pathologic Processes"
+        },
+        {
+          "id": "D013568",
+          "term": "Pathological Conditions, Signs and Symptoms"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C500026",
+          "term": "palbociclib"
+        },
+        {
+          "id": "D000077289",
+          "term": "Letrozole"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009570",
+          "term": "Nitriles"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D014230",
+          "term": "Triazoles"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

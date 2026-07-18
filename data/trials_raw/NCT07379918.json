@@ -1,0 +1,305 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07379918",
+      "orgStudyIdInfo": {
+        "id": "APHP251664"
+      },
+      "organization": {
+        "fullName": "Assistance Publique - H\u00f4pitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Real-life Evaluation of Endopredict\u00ae in Early HR+/HER2- Breast Cancer",
+      "officialTitle": "French Prospective Real-life Evaluation of the Endopredict\u00ae Genomic Signature for HR-positive,HER2-negative Early Breast Cancer",
+      "acronym": "SiMoSein"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-03",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2026-06-28",
+        "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2031-06-28",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-06-28",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-01-23",
+      "studyFirstSubmitQcDate": "2026-01-23",
+      "studyFirstPostDateStruct": {
+        "date": "2026-02-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-03-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-03-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Assistance Publique - H\u00f4pitaux de Paris",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "EndoPredict is a genomic signature used to determine the 10-year risk of recurrence in early HR+/HER2- breast cancers classified as of intermediate risk according to conventional clinical and pathological criteria, and to guide the adjuvant treatment decision: hormone therapy alone or hormone therapy and chemotherapy.\n\nSince 2016, french laboratories performing the Endopredict test, included prospectively analyzed tumors in the SiMoSein registry with data collection : age, tumor size, lymph node status, histology, grade, HR and HER2 IHC status, Ki67, EPscore, Epclin score, risk of relapse, absolue benefit from chemotherapy, risk of late relapse\n\nThe main objectives of the trial are to:\n\nEvaluate long-term relapse-free survival and overall survival over a 10-year period in breast cancer patients who underwent EndoPredict\u00ae testing according to:\n\n* EPclin risk class (low vs. high),\n* Lymph node status (N0/N1),\n* Tumor size (pT),\n* Age groups (\\<40 years, 40-49 years, 50-69 years, \u226570 years),\n* EP score alone.\n\nThis study provide real-life data to determine the clinical usefulness of this molecular signature in the management of early HR+/HER2- breast cancers. The ultimate goal is to be able to offer therapeutic de-escalation (avoiding chemotherapy) to patients who are reliably assessed as having a low risk of relapse."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer (Early Breast Cancer)",
+        "Breast Cancer Survivors",
+        "Breast Cancer Prognostic",
+        "Early Hormone Receptor-positive (HR-positive)",
+        "HER2-negative Breast Cancer"
+      ],
+      "keywords": [
+        "breast cancer",
+        "early breast cancer",
+        "EndoPredict test",
+        "survival",
+        "HR positive",
+        "HER2 negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "10 Years",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "OTHER"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Endopredict test",
+          "description": "Endopredict test was perfomed between 2016 and 2021 in expert french laboratories, for patient with early HR+/HER2-breast cancer presenting insufficient clinical criteria to determine the need for adjuvant chemotherapy, in combination with hormone therapy, after breast surgery.\n\nEndopredict is a multigene signature that evaluates, on surgery tumor specimen, the expression of 11 genes (8 genes related to proliferation, apoptosis and HR signal transduction pathways and 3 control genes) by qRT-PCR to define a molecular EP score. The Ep score combined with two prognostic factors (tumour size pT and lymph node involvement pN) define the Epclin score. The Epclin score allows calculation of the risk of relapse at 10 years, the absolute benefit from chemoptherapy and the risk of late recurrence."
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Survival without relapse",
+          "description": "The survival is mesured on 10 years and is defined as absence of metastatic relapse related to cancer in patients which EPclin (score) is low, treated by hormone therapy alone.\n\nThe criterion will be analyzed as a binary variable (event : yes/no)",
+          "timeFrame": "From the moment where the test is perfomed up to 10 years later."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Distant recurrence-free survival and overall survival",
+          "description": "The survival is evaluated on the whole cohort. The criterion will be analyzed as a binary variable (event : yes/no)",
+          "timeFrame": "From the moment where the test is performed up to 10 years later."
+        },
+        {
+          "measure": "Concordance rate between EPclin score and adjuvant treatment administrated",
+          "description": "The alignment between the estimated risk and the chosen treatment strategy is mesured.",
+          "timeFrame": "10 years after the Endopredict test is perfomed"
+        },
+        {
+          "measure": "Rate of change in treatment decision related to EPclin outcome",
+          "description": "The rate of change in treatment decision related to EPclin outcome is measured when the intented treatment before the Endopredict test is available",
+          "timeFrame": "10 years after the Endopredict is performed"
+        },
+        {
+          "measure": "Description of clinical and pathological characteristics",
+          "description": "Statistical description of age, tumor size (pT), lymph node status (pN), grade, Ki67, hormone receptor status (ER/PR), and HER2",
+          "timeFrame": "From the moment where the Endopredict test is performed up to 10 years later"
+        },
+        {
+          "measure": "Correlation between clinical and pathological characteristics and EndoPredict\u00ae test results",
+          "description": "A correlation is made between EP score and EPclin score.",
+          "timeFrame": "From the moment when the Endopredict test is perfomed to 10 years later"
+        },
+        {
+          "measure": "EP Score",
+          "description": "EP score is the EPclin score without clinical and pathological criteria (without tumor size and lymph node invasion).",
+          "timeFrame": "10 year after the Endopredict test is performed"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient with early breast cancer, hormone receptor-positive, HER2 non-amplified, for whom clinical criteria are deemed insufficient to determine the need for adjuvant chemotherapy, combined with hormone therapy, after breast surgery.\n\nExclusion Criteria:\n\n* Patients who did not undergo testing or whose test results were not validated",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "All patients included in the SiMoSein prospective database between 2016 and 2021.\n\nThat is, patients with luminal subtype breast cancer \\[RE+/HER2-, N+ or N-), at an early stage of the disease, for whom uncertainty remains regarding the decision to administer adjuvant chemotherapy, according to standard clinical-pathological criteria, and for whom an Endopredict genomic signature has been recommended, performed, and interpreted.\n\nThe study focuses on cancer centers affiliated with UNICANCER and APHP.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Jacqueline LEHMANN-CHE, MD",
+          "role": "CONTACT",
+          "phone": "01 56 09 21 11",
+          "phoneExt": "+33",
+          "email": "jacqueline.lehmann-che@aphp.fr"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "H\u00f4pital Saint-Louis",
+          "status": "RECRUITING",
+          "city": "Paris",
+          "country": "France",
+          "contacts": [
+            {
+              "name": "Jacqueline LEHMANN-CHE, MD",
+              "role": "CONTACT",
+              "phone": "01 56 09 21 11",
+              "phoneExt": "+33",
+              "email": "jacqueline.lehmann-che@aphp.fr"
+            }
+          ],
+          "geoPoint": {
+            "lat": 48.85341,
+            "lon": 2.3488
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "26412349",
+          "type": "BACKGROUND",
+          "citation": "Sparano JA, Gray RJ, Makower DF, Pritchard KI, Albain KS, Hayes DF, Geyer CE Jr, Dees EC, Perez EA, Olson JA Jr, Zujewski J, Lively T, Badve SS, Saphner TJ, Wagner LI, Whelan TJ, Ellis MJ, Paik S, Wood WC, Ravdin P, Keane MM, Gomez Moreno HL, Reddy PS, Goggins TF, Mayer IA, Brufsky AM, Toppmeyer DL, Kaklamani VG, Atkins JN, Berenberg JL, Sledge GW. Prospective Validation of a 21-Gene Expression Assay in Breast Cancer. N Engl J Med. 2015 Nov 19;373(21):2005-14. doi: 10.1056/NEJMoa1510764. Epub 2015 Sep 27."
+        },
+        {
+          "pmid": "25218890",
+          "type": "BACKGROUND",
+          "citation": "Poremba C, Uhlendorff J, Pfitzner BM, Hennig G, Bohmann K, Bojar H, Krenn V, Brase JC, Haufe F, Averdick M, Dietel M, Kronenwett R, Denkert C. Preanalytical variables and performance of diagnostic RNA-based gene expression analysis in breast cancer. Virchows Arch. 2014 Oct;465(4):409-17. doi: 10.1007/s00428-014-1652-0. Epub 2014 Sep 14."
+        },
+        {
+          "pmid": "10963602",
+          "type": "BACKGROUND",
+          "citation": "Perou CM, Sorlie T, Eisen MB, van de Rijn M, Jeffrey SS, Rees CA, Pollack JR, Ross DT, Johnsen H, Akslen LA, Fluge O, Pergamenschikov A, Williams C, Zhu SX, Lonning PE, Borresen-Dale AL, Brown PO, Botstein D. Molecular portraits of human breast tumours. Nature. 2000 Aug 17;406(6797):747-52. doi: 10.1038/35021093."
+        },
+        {
+          "pmid": "24725534",
+          "type": "BACKGROUND",
+          "citation": "Martin M, Brase JC, Calvo L, Krappmann K, Ruiz-Borrego M, Fisch K, Ruiz A, Weber KE, Munarriz B, Petry C, Rodriguez CA, Kronenwett R, Crespo C, Alba E, Carrasco E, Casas M, Caballero R, Rodriguez-Lescure A. Clinical validation of the EndoPredict test in node-positive, chemotherapy-treated ER+/HER2- breast cancer patients: results from the GEICAM 9906 trial. Breast Cancer Res. 2014 Apr 12;16(2):R38. doi: 10.1186/bcr3642."
+        },
+        {
+          "pmid": "22447922",
+          "type": "BACKGROUND",
+          "citation": "Muller BM, Brase JC, Haufe F, Weber KE, Budzies J, Petry C, Prinzler J, Kronenwett R, Dietel M, Denkert C. Comparison of the RNA-based EndoPredict multigene test between core biopsies and corresponding surgical breast cancer sections. J Clin Pathol. 2012 Jul;65(7):660-2. doi: 10.1136/jclinpath-2012-200716. Epub 2012 Mar 23."
+        },
+        {
+          "pmid": "23039280",
+          "type": "BACKGROUND",
+          "citation": "Kronenwett R, Bohmann K, Prinzler J, Sinn BV, Haufe F, Roth C, Averdick M, Ropers T, Windbergs C, Brase JC, Weber KE, Fisch K, Muller BM, Schmidt M, Filipits M, Dubsky P, Petry C, Dietel M, Denkert C. Decentral gene expression analysis: analytical validation of the Endopredict genomic multianalyte breast cancer prognosis test. BMC Cancer. 2012 Oct 5;12:456. doi: 10.1186/1471-2407-12-456."
+        },
+        {
+          "pmid": "25867274",
+          "type": "BACKGROUND",
+          "citation": "Fitzal F, Filipits M, Rudas M, Greil R, Dietze O, Samonigg H, Lax S, Herz W, Dubsky P, Bartsch R, Kronenwett R, Gnant M. The genomic expression test EndoPredict is a prognostic tool for identifying risk of local recurrence in postmenopausal endocrine receptor-positive, her2neu-negative breast cancer patients randomised within the prospective ABCSG 8 trial. Br J Cancer. 2015 Apr 14;112(8):1405-10. doi: 10.1038/bjc.2015.98. Epub 2015 Mar 24."
+        },
+        {
+          "pmid": "21807638",
+          "type": "BACKGROUND",
+          "citation": "Filipits M, Rudas M, Jakesz R, Dubsky P, Fitzal F, Singer CF, Dietze O, Greil R, Jelen A, Sevelda P, Freibauer C, Muller V, Janicke F, Schmidt M, Kolbl H, Rody A, Kaufmann M, Schroth W, Brauch H, Schwab M, Fritz P, Weber KE, Feder IS, Hennig G, Kronenwett R, Gehrmann M, Gnant M; EP Investigators. A new molecular predictor of distant recurrence in ER-positive, HER2-negative breast cancer adds independent information to conventional clinical risk factors. Clin Cancer Res. 2011 Sep 15;17(18):6012-20. doi: 10.1158/1078-0432.CCR-11-0926. Epub 2011 Aug 1."
+        },
+        {
+          "pmid": "12204667",
+          "type": "BACKGROUND",
+          "citation": "Ferguson MJ, Dewar JA. Tamoxifen beyond 5 years--patients' decisions regarding entry to the aTTom trial. Eur J Cancer. 2002 Sep;38(14):1857-9. doi: 10.1016/s0959-8049(02)00220-4."
+        },
+        {
+          "type": "BACKGROUND",
+          "citation": "- Davies Christina, Pan Hongchao, Godwin Jon, Gray Richard, Arriagada Rodrigo, Raina Vinod, Abraham Mirta, Medeiros Alencar Victor Hugo, Badran Atef, Bonfill Xavier, Bradbury Joan, Clarke Michael, Collins Rory, Davis Susan R, Delmestri Antonella, Forbes John F, Haddad Peiman, Hou Ming-Feng, Inbar Moshe, Khaled Hussein, Kielanowska Joanna, Kwan Wing-Hong, Mathew Beela S, Mittra Indraneel, M\u00fcller Bettina, Nicolucci Antonio, Peralta Octavio, Pernas Fany, Petruzelka Lubos, Pienkowski Tadeusz, Radhika Ramachandran, Rajan Balakrishnan, Rubach Maryna T, Tort Sera, Urr\u00fatia Gerard, Valentini Miriam, Wang Yaochen, Peto Richard. Long-term effects of continuing adjuvant tamoxifen to 10 years versus stopping at 5 years after diagnosis of oestrogen receptor-positive breast cancer: ATLAS, a randomised trial. Lancet. 2013;381:805-816"
+        },
+        {
+          "pmid": "24157828",
+          "type": "BACKGROUND",
+          "citation": "Dubsky P, Brase JC, Jakesz R, Rudas M, Singer CF, Greil R, Dietze O, Luisser I, Klug E, Sedivy R, Bachner M, Mayr D, Schmidt M, Gehrmann MC, Petry C, Weber KE, Fisch K, Kronenwett R, Gnant M, Filipits M; Austrian Breast and Colorectal Cancer Study Group (ABCSG). The EndoPredict score provides prognostic information on late distant metastases in ER+/HER2- breast cancer patients. Br J Cancer. 2013 Dec 10;109(12):2959-64. doi: 10.1038/bjc.2013.671. Epub 2013 Oct 24."
+        },
+        {
+          "pmid": "23035151",
+          "type": "BACKGROUND",
+          "citation": "Dubsky P, Filipits M, Jakesz R, Rudas M, Singer CF, Greil R, Dietze O, Luisser I, Klug E, Sedivy R, Bachner M, Mayr D, Schmidt M, Gehrmann MC, Petry C, Weber KE, Kronenwett R, Brase JC, Gnant M; Austrian Breast and Colorectal Cancer Study Group (ABCSG). EndoPredict improves the prognostic classification derived from common clinical guidelines in ER-positive, HER2-negative early breast cancer. Ann Oncol. 2013 Mar;24(3):640-7. doi: 10.1093/annonc/mds334. Epub 2012 Oct 3."
+        },
+        {
+          "pmid": "22371223",
+          "type": "BACKGROUND",
+          "citation": "Denkert C, Kronenwett R, Schlake W, Bohmann K, Penzel R, Weber KE, Hofler H, Lehmann U, Schirmacher P, Specht K, Rudas M, Kreipe HH, Schraml P, Schlake G, Bago-Horvath Z, Tiecke F, Varga Z, Moch H, Schmidt M, Prinzler J, Kerjaschki D, Sinn BV, Muller BM, Filipits M, Petry C, Dietel M. Decentral gene expression analysis for ER+/Her2- breast cancer: results of a proficiency testing program for the EndoPredict assay. Virchows Arch. 2012 Mar;460(3):251-9. doi: 10.1007/s00428-012-1204-4. Epub 2012 Feb 28."
+        },
+        {
+          "pmid": "25404424",
+          "type": "BACKGROUND",
+          "citation": "Blank PR, Filipits M, Dubsky P, Gutzwiller F, Lux MP, Brase JC, Weber KE, Rudas M, Greil R, Loibl S, Szucs TD, Kronenwett R, Schwenkglenks M, Gnant M. Cost-effectiveness analysis of prognostic gene expression signature-based stratification of early breast cancer patients. Pharmacoeconomics. 2015 Feb;33(2):179-90. doi: 10.1007/s40273-014-0227-x."
+        },
+        {
+          "pmid": "18695137",
+          "type": "BACKGROUND",
+          "citation": "Brewster AM, Hortobagyi GN, Broglio KR, Kau SW, Santa-Maria CA, Arun B, Buzdar AU, Booser DJ, Valero V, Bondy M, Esteva FJ. Residual risk of breast cancer recurrence 5 years after adjuvant therapy. J Natl Cancer Inst. 2008 Aug 20;100(16):1179-83. doi: 10.1093/jnci/djn233. Epub 2008 Aug 11."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01899079",
+      "orgStudyIdInfo": {
+        "id": "PTL-00163"
+      },
+      "organization": {
+        "fullName": "NanoString Technologies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Prospective Observational Study of Clinical Outcomes for the NanoString\u00ae Technologies Prosigna Gene Signature Assay",
+      "officialTitle": "Prospective Observational Study to Evaluate the Impact of the Determination of the Intrinsic Subtypes of Breast Cancer by PAM50 NanoString Technology in the Use of Adjuvant Chemotherapy in Women With Breast Cancer, HR+ and Node -."
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2015-03",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2013-06"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2014-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-07",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2013-07-10",
+      "studyFirstSubmitQcDate": "2013-07-10",
+      "studyFirstPostDateStruct": {
+        "date": "2013-07-15",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2015-03-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2015-03-19",
+        "type": "ESTIMATED"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NanoString Technologies, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Cedar Associates LLC",
+          "class": "OTHER"
+        },
+        {
+          "name": "Illumina, Inc.",
+          "class": "INDUSTRY"
+        },
+        {
+          "name": "Grupo Espanol de Investigacion del Cancer de Mama",
+          "class": "OTHER"
+        },
+        {
+          "name": "Spanish Breast Cancer Research Group",
+          "class": "OTHER"
+        },
+        {
+          "name": "Hospital General Universitario Gregorio Mara\u00f1on",
+          "class": "OTHER"
+        },
+        {
+          "name": "Vall d'Hebron Institute of Oncology",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to assess the extent to which the Prosigna\u2122 Breast Cancer Prognostic Gene Signature Assay affects the medical oncologist's treatment recommendations regarding adjuvant chemotherapy and actual treatments received for patients with early-stage breast cancer.",
+      "detailedDescription": "Changes in treatment recommendations will include (1) hormonal therapy alone, (2) hormonal therapy plus chemotherapy, and (3) changes in types of chemotherapy if chemotherapy was recommended before and after the Prosigna test."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast Cancer",
+        "Prosigna",
+        "FFPE",
+        "node negative",
+        "estrogen receptor positive",
+        "HER2 negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "FFPE breast tumor tissue samples"
+      },
+      "enrollmentInfo": {
+        "count": 217,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The proportion of patients whose choice of treatment is changed as a result of receiving the Prosigna test result",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Resected node-negative, estrogen-receptor-positive, HER2-negative early- stage invasive breast cancer (T1-T2, N0, pN0 (i+), pN0 (mol+), M0)\n\n  1. Estrogen receptor status will be evaluated by Immunohistochemistry (IHC)and more than 1% of stained tumor cells will be considered positive.\n  2. HER2 status will be evaluated by (IHC; 0 or 1+, or 2+ will be considered negative) and by in-situ fluorescence hybridization.\n* Postmenopausal females, which is defined as:\n\n  1. Natural Amenorrhea \\> 12 months, regardless of age\n  2. Bilateral oophorectomy, regardless of age (the oophorectomy must have been carried out at least 4 weeks before entering the study)\n  3. Radiological castration with amenorrhea \\> 3 months, regardless of age\n  4. Hysterectomy and postmenopausal blood levels\n* Able to give consent\n* Eligible for treatment of breast cancer with adjuvant chemotherapy\n* ECOG performance status of 0 or 1\n\nExclusion Criteria:\n\n* Tumor size T3-T4\n* Non-invasive breast cancer (e.g., Paget's disease, DCIS)\n* Tumors with nodes that are not N0, pN0 (i+), or pN0 (mol+)\n* Tumors that are estrogen-receptor negative or HER2 positive\n* Have metastatic disease\n* Unable to give informed consent\n* Unable to complete patient reported outcome surveys\n* Have contraindications for adjuvant chemotherapy\n\n  * Age, performance status, significant comorbidities\n* ECOG performance status \\> 1",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Postmenopausal women with node-negative, estrogen-receptor positive, HER2-negative early-stage breast cancer. Investigators will offer enrollment to consecutively seen women who meet the entry criteria.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Miguel Martin, M.D., Ph.D.",
+          "affiliation": "Hospital General Universitario Gregorio Mara\u00f1\u00f3n",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Consorci Sanitari de Terrassa",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Corporacio Sanitaria Parc Tauli",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital U. Vall D'Hebron",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital U. Arnau de Vilanova",
+          "city": "Lleida",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital G.U. Gregorio Maranon",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Quir\u00f3n Madrid",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital U. 12 de Octubre",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

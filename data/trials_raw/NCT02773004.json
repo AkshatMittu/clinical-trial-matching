@@ -1,0 +1,229 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02773004",
+      "orgStudyIdInfo": {
+        "id": "UC-0140/1505 - ADENDOM"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2015-A00528-41",
+          "type": "REGISTRY",
+          "domain": "Id-RCB"
+        },
+        {
+          "id": "PACS14",
+          "type": "OTHER",
+          "domain": "UNICANCER"
+        },
+        {
+          "id": "ADENDOM",
+          "type": "OTHER",
+          "domain": "UNICANCER"
+        },
+        {
+          "id": "UCBG 2-14",
+          "type": "OTHER",
+          "domain": "UNICANCER"
+        }
+      ],
+      "organization": {
+        "fullName": "UNICANCER",
+        "class": "OTHER"
+      },
+      "briefTitle": "Prospective Study Assessing EndoPredict\u00ae Genomic Test Impact on Shared Decision of Adjuvant Chemotherapy in Patients With ER-positive, Her2-negative Early Breast Cancer",
+      "officialTitle": "Prospective Multicenter Study Assessing EndoPredict\u00ae (EP) Genomic Test Impact on Shared Decision of Adjuvant Chemotherapy in Patients With ER-positive, Her2-negative Early Breast Cancer With Uncertainty on the Indication of Chemotherapy Using Standard Assessments",
+      "acronym": "ADENDOM"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2023-08",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2016-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2017-09",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2017-12",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2016-04-27",
+      "studyFirstSubmitQcDate": "2016-05-11",
+      "studyFirstPostDateStruct": {
+        "date": "2016-05-16",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2023-08-31",
+      "lastUpdatePostDateStruct": {
+        "date": "2023-09-01",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "UNICANCER",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Myriad Genetics, Inc.",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The trial population of this study is composed of women aged more than 18, who have developed a newly node-negative (or pN1mi), Estrogen Receptor (ER)-positive, Her2-negative invasive breast cancer with uncertainty on the indication of adjuvant chemotherapy using standard assessments.\n\nObtaining material for test is at no risk as done from the surgery material. Tumor molecular EndoPredict (EP)clin analysis will allow to obtain information on the expression of 8 breast cancer related genes and will provide important prognosis indications. Clinical validation studies have demonstrated that molecular assays are useful for stratifying patients into risk categories and helpful in making clinical treatment decisions in ER+/node-negative breast cancer patients."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Genomic test",
+        "Chemotherapy decision"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 203,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "EndoPredict (EP)clin testing",
+          "type": "OTHER",
+          "description": "Once the patient is registered, the most representative block of the primary tumor from surgery (or 10 paraffin slides) are sent to the central analysis platform for EP clin testing. The EPclin method is based on analysis of tumour genes in combination with the classical prognostic factors of nodal status and tumour size.",
+          "interventionNames": [
+            "Other: EPClin genomic test"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "EPClin genomic test",
+          "armGroupLabels": [
+            "EndoPredict (EP)clin testing"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "The proportion of patients whose choice of treatment is changed as a result of receiving the EPclin genomic test result",
+          "timeFrame": "15 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Impact of genomic test results on patient's quality of life (QoL), anxiety levels and satisfaction results using standardized \"State-Trait-Anxiety Inventory\" questionnaires compared with general condition at baseline.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Time required by the centralized platform to perform the test (calculated from the biological sample receipt to the genomic test results).",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 years,\n* Performance status 0 or 1,\n* Patient with newly diagnosed, previously untreated, unilateral, localized, histologically confirmed, invasive breast cancer\n* Fully operated breast cancer including complete resection of breast tumor and adequate axillary surgery\n* Available surgical material (formalin-fixed, paraffin-embedded) for EPclin\u00ae evaluation\n* ER-positive by IHC (\\>10% cells stained or Allred Score\u22654)\n* HER2-negative by IHC (score 0 or 1+) and/or Fish/Cish\n* Node-negative or pN1mi (through axillary lymph node examination using sentinel node biopsy or axillary clearance)\n* Uncertainty regarding the toxicity/benefit of adjuvant chemotherapy, outlined inthe following situations:\n\n  * Lobular histology\n  * Or grade II\n  * Or grade III and pT \\< 2cm\n* Adequate renal, hepatic, cardiac and hematopoietic functions for a chemotherapy administration\n* Willingness and ability to comply with scheduled visits as well as with test results and chemotherapy decision according to the latest\n* Signed informed consent and Health insurance coverage\n\nExclusion Criteria:\n\n* Non operable, bilateral, locally advanced, T4 or metastatic breast cancer\n* Any lymph node involvement with the exception of pN0i+ or pN1mi\n* HER2 Overexpression\n* Diagnosis of any previous malignancy within the last 5 years, except for adequately treated basal cell carcinoma, or squamous cell skin carcinoma, or in situ cervical carcinoma\n* Any previous systemic or locoregional treatment for the present breast cancer\n* Documented inherited predisposition with BRCA1/2 or TP53 mutation\n* Previous hormone replacement therapy (HRT) stopped less than 2 weeks before surgery\n* Previous treatment for the present breast cancer\n* Person unable to give informed consent",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Fr\u00e9d\u00e9rique Penault-Llorca, MD, PhD",
+          "affiliation": "Centre Jean Perrin, Clermont Ferrand, France",
+          "role": "STUDY_CHAIR"
+        },
+        {
+          "name": "Suzette Delaloge, MD",
+          "affiliation": "Gustave Roussy, Villejuif, France",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Unicancer will share de-identified individual data that underlie the results reported. A decision concerning the sharing of other study documents, including protocol and statistical analysis plan will be examined upon request.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP"
+      ],
+      "timeFrame": "Unicancer will consider access to study data upon written detailed request sent to Unicancer, from 6 months until 5 years after publication of summary data.",
+      "accessCriteria": "The data shared will be limit to that required for independent mandated verification of the published results, the applicant will need authorization from Unicancer for personal access, and data will only be transferred after signing of a data access agreement."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

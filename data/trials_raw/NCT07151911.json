@@ -1,0 +1,272 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT07151911",
+      "orgStudyIdInfo": {
+        "id": "691/2023/OSS/AOUMO"
+      },
+      "organization": {
+        "fullName": "Azienda Ospedaliero-Universitaria di Modena",
+        "class": "OTHER"
+      },
+      "briefTitle": "Real wOrld studY in the Adjuvant Setting for High Risk earLy Breast Cancer Patients",
+      "officialTitle": "Real wOrld studY in the Adjuvant Setting for High Risk earLy Breast Cancer Patients",
+      "acronym": "ROYAL"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-08",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-08-26",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-09",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2031-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-07-12",
+      "studyFirstSubmitQcDate": "2025-09-02",
+      "studyFirstPostDateStruct": {
+        "date": "2025-09-03",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-09-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Luca Moscetti",
+        "investigatorTitle": "Principal Investigator",
+        "investigatorAffiliation": "Azienda Ospedaliero-Universitaria di Modena"
+      },
+      "leadSponsor": {
+        "name": "Azienda Ospedaliero-Universitaria di Modena",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary goal of this observational study is to describe the distribution of treatment options and patients' characteristics according to the definition of high-risk status in the early breast cancer (EBC) setting. Participants already taking intervention as part of their regular medical care for EBC will answer questionnaires to also assess quality of life and patient reported outcomes.\n\nThe recruitment phase will last about 2 years, each patient will be followed up for 5 years.",
+      "detailedDescription": "The treatment of high-risk hormone receptor (HR) positive, Her2 negative, early breast cancer (EBC) patients has recently changed following the results of practice changing phase III trials. The hormone therapy (HT) with tamoxifene (T) or Aromatase Inhibitors (AIs), in association with ovarian function failure suppression (OFS) in the premenopausal patients, represented the standard options available until 2022. The role of OFS, usually reached through the use of LhRh analogues in the premenopausal patients, was addressed and defined in the SOFT/TEXT trials. The association of LhRh analogues (LhRha) with exemestane (E) or T with LhRha in the premenopausal setting showed an improved disease free survival (DFS) if compared to T alone. Moreover, at 12 years of follow up, the E-LhRha increases the DFS if compared to T-LhRha3. In the SOFT study, premenopausal patients did not benefit from the addition of OFS, but for whose women at sufficient risk of recurrence to deserve adjuvant chemotherapy (CHT) and who maintained pre-menopausal estradiol, the addition of LhRha to T reduced the risk of recurrence. Moreover, the TEXT trial, adjuvant endocrine therapy with exemestane (E) plus LhRha, as compared with tamoxifen plus LhRha, significantly improved disease-free survival (DFS), breast cancer-free interval (BCFI) and distant disease-free survival (dDFS), thus representing a new treatment option for high-risk patients. The investigators of the SOFT and TEXT trials performed a combined secondary analysis to estimate the magnitude of absolute improvements in freedom from any recurrence (BCFI=breast cancer-free interval) according to quantitative composite measure of recurrence risk (hereafter referred to as \"composite risk\") defined by seven clinicopathologic characteristics.\n\nBased on the results of MonarchE study, with the adjunct of Abemaciclib to the standard HT, the European Medicine Agency (EMA) recently approved Abemaciclib for the adjuvant treatment of high-risk EBC in combination with AI or T in the adjuvant setting. Moreover the results of OlympiA study highlights the role of Olaparib in the high-risk HR positive, Her2 negative, BRCA mutated, EBC patients. Based on the results of Olympia trial, Olaparib was approved for HR positive, HER2-negative patients who must have \u22654 pathologically confirmed positive lymph nodes or must have a CPS\\&EG score of \u22653 based on pre-treatment clinical and post-treatment pathologic stage (CPS), estrogen receptor (ER) status and histologic grade 8,9. Moreover Ribociclib recently has demonstrated activity in the phase III trial but a longer follow up will be needed to confirm the early results.\n\nIn this retrospective/prospective observational trial, we would like to assess the pattern of size in the high-risk HR positive, Her2 negative early breast cancer patients including BRCA mutated patients. Patients already taking intervention as part of their regular medical care for EBC must signed an informed consent in order to be recruited. After the patient has signed the informed consent for the participation in the study, data on the demographic and clinic-pathological characteristics obtained from the patients' computerized medical records will be collected and entered into an anonymized database. Questionnaires will also be administered to prospectively enrolled patients in order to evaluate quality of life and patient reported outcomes.\n\nThe recruitment phase will last about 2 years, each patient will be followed up for 5 years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Breast cancer",
+        "Adjuvant treatment",
+        "Safety",
+        "Quality of life",
+        "Patient reported outcome"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "OTHER"
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ADJUVANT IN EBC",
+          "description": "High-risk HR positive, Her2 negative early breast cancer patients receiving abemaciclib, olaparib and endocrine therapy.",
+          "interventionNames": [
+            "Drug: abemaciclib, olaparib and endocrine therapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "abemaciclib, olaparib and endocrine therapy",
+          "description": "Patients receiving abemaciclib, olaparib and endocrine therapy.",
+          "armGroupLabels": [
+            "ADJUVANT IN EBC"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Distribution of treatment options",
+          "description": "Type of adjuvant treatment chosen",
+          "timeFrame": "From enrollment to the end of treatment at 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients will be enrolled in the study if they meet all of the following inclusion criteria:\n* Age \u2265 18 years\n* Endocrine sensitivity defined as estrogen and or progesterone receptors expression as per local pathological standards\n* Her 2 negativity determined as ASCO/CAP guidelines\n* Patients receiving abemaciclib, olaparib and endocrine therapy, as per Italian drugs agency rules (AIFA)\n* Written informed consent, signed and dated by the patients\n* High-risk HR positive, Her2 negative early breast cancer patients with one of the following characteristics:\n\n  * Anatomical stage IIA N0 with:\n\n    * Grade 2 and evidence of high risk:\n    * Ki-67 \u2265 20%\n    * Oncotype DX Breast Recurrence Score \u2265 26 or High risk via genomic risk profiling\n    * Grade 3\n  * Anatomical stage IIB.\n  * Pathological tumour involvement in \u22654 ipsilateral axillary lymph nodes.\n  * Pathological tumour involvement in 1 to 3 ipsilateral axillary lymph node(s) (for patients who received neoadjuvant therapy also cytological tumour involvement at time of initial diagnosis is allowed) and meet at least 1 of the following criteria:\n\n    * Grade 3 as defined by a combined score of at least 8 points per the modified Bloom-Richardson grading system (Elston and Ellis 1991),\n    * Pathological primary invasive tumour size \u22655 cm (for patients who received neoadjuvant therapy primary tumour size \u22655 cm on breast imaging is allowed). Note: if tumour size is needed to meet eligibility criteria, patients with multifocal/multicentric tumours may be eligible based on the addition of diameters of the individual lesions.\n\nBRCA mutated populations\n\nPatients must be node positive and fulfil one of the following criteria:\n\n* HR positive, HER2-negative patients must have had \u22654 pathologically confirmed positive lymph nodes\n* patients who received prior neoadjuvant chemotherapy: must have had a CPS\\&EG score of \u22653 based on pre-treatment clinical and post-treatment pathologic stage (CPS), estrogen receptor (ER) status and histologic grade\n\nExclusion Criteria:\n\n* Patients unable to understand the reason for their participation in the study, lack of informed written consent,\n* patients who do not meet the high risk criteria as specified in the inclusion criteria,\n* patients suffering from other neoplasms for which they receive active treatment, or being diagnosed with other neoplasms (except for: Carcinoma in situ (CIS) of the cervix, CIS of the colon, basal cell and squamous cell carcinomas of the skin) in the five years before adjuvant treatment.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "High-risk HR positive, HER2 negative, early breast cancer patients admitted to the Oncology department at the University Hospital of Modena.",
+      "samplingMethod": "PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Luca Moscetti, MD",
+          "role": "CONTACT",
+          "phone": "+ 39.059.422.3244",
+          "email": "moscetti.luca@aou.mo.it"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Azienda Ospedaliero Universitaria Policlinico di Modena",
+          "status": "RECRUITING",
+          "city": "Modena",
+          "state": "Modena",
+          "zip": "41124",
+          "country": "Italy",
+          "contacts": [
+            {
+              "name": "Luca Moscetti, MD",
+              "role": "CONTACT",
+              "phone": "0594223244",
+              "phoneExt": "0039",
+              "email": "moscetti.luca@aou.mo.it"
+            },
+            {
+              "name": "Luca Moscetti, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ],
+          "geoPoint": {
+            "lat": 44.64783,
+            "lon": 10.92539
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "24881463",
+          "type": "BACKGROUND",
+          "citation": "Pagani O, Regan MM, Walley BA, Fleming GF, Colleoni M, Lang I, Gomez HL, Tondini C, Burstein HJ, Perez EA, Ciruelos E, Stearns V, Bonnefoi HR, Martino S, Geyer CE Jr, Pinotti G, Puglisi F, Crivellari D, Ruhstaller T, Winer EP, Rabaglio-Poretti M, Maibach R, Ruepp B, Giobbie-Hurder A, Price KN, Bernhard J, Luo W, Ribi K, Viale G, Coates AS, Gelber RD, Goldhirsch A, Francis PA; TEXT and SOFT Investigators; International Breast Cancer Study Group. Adjuvant exemestane with ovarian suppression in premenopausal breast cancer. N Engl J Med. 2014 Jul 10;371(2):107-18. doi: 10.1056/NEJMoa1404037. Epub 2014 Jun 1."
+        },
+        {
+          "pmid": "29863451",
+          "type": "BACKGROUND",
+          "citation": "Francis PA, Pagani O, Fleming GF, Walley BA, Colleoni M, Lang I, Gomez HL, Tondini C, Ciruelos E, Burstein HJ, Bonnefoi HR, Bellet M, Martino S, Geyer CE Jr, Goetz MP, Stearns V, Pinotti G, Puglisi F, Spazzapan S, Climent MA, Pavesi L, Ruhstaller T, Davidson NE, Coleman R, Debled M, Buchholz S, Ingle JN, Winer EP, Maibach R, Rabaglio-Poretti M, Ruepp B, Di Leo A, Coates AS, Gelber RD, Goldhirsch A, Regan MM; SOFT and TEXT Investigators and the International Breast Cancer Study Group. Tailoring Adjuvant Endocrine Therapy for Premenopausal Breast Cancer. N Engl J Med. 2018 Jul 12;379(2):122-137. doi: 10.1056/NEJMoa1803164. Epub 2018 Jun 4."
+        },
+        {
+          "pmid": "36521078",
+          "type": "BACKGROUND",
+          "citation": "Pagani O, Walley BA, Fleming GF, Colleoni M, Lang I, Gomez HL, Tondini C, Burstein HJ, Goetz MP, Ciruelos EM, Stearns V, Bonnefoi HR, Martino S, Geyer CE Jr, Chini C, Puglisi F, Spazzapan S, Ruhstaller T, Winer EP, Ruepp B, Loi S, Coates AS, Gelber RD, Goldhirsch A, Regan MM, Francis PA; SOFT and TEXT Investigators and the International Breast Cancer Study Group (a division of ETOP IBCSG Partners Foundation). Adjuvant Exemestane With Ovarian Suppression in Premenopausal Breast Cancer: Long-Term Follow-Up of the Combined TEXT and SOFT Trials. J Clin Oncol. 2023 Mar 1;41(7):1376-1382. doi: 10.1200/JCO.22.01064. Epub 2022 Dec 15."
+        },
+        {
+          "pmid": "27044936",
+          "type": "BACKGROUND",
+          "citation": "Regan MM, Francis PA, Pagani O, Fleming GF, Walley BA, Viale G, Colleoni M, Lang I, Gomez HL, Tondini C, Pinotti G, Price KN, Coates AS, Goldhirsch A, Gelber RD. Absolute Benefit of Adjuvant Endocrine Therapies for Premenopausal Women With Hormone Receptor-Positive, Human Epidermal Growth Factor Receptor 2-Negative Early Breast Cancer: TEXT and SOFT Trials. J Clin Oncol. 2016 Jul 1;34(19):2221-31. doi: 10.1200/JCO.2015.64.3171. Epub 2016 Apr 4."
+        },
+        {
+          "pmid": "32954927",
+          "type": "BACKGROUND",
+          "citation": "Johnston SRD, Harbeck N, Hegg R, Toi M, Martin M, Shao ZM, Zhang QY, Martinez Rodriguez JL, Campone M, Hamilton E, Sohn J, Guarneri V, Okada M, Boyle F, Neven P, Cortes J, Huober J, Wardley A, Tolaney SM, Cicin I, Smith IC, Frenzel M, Headley D, Wei R, San Antonio B, Hulstijn M, Cox J, O'Shaughnessy J, Rastogi P; monarchE Committee Members and Investigators. Abemaciclib Combined With Endocrine Therapy for the Adjuvant Treatment of HR+, HER2-, Node-Positive, High-Risk, Early Breast Cancer (monarchE). J Clin Oncol. 2020 Dec 1;38(34):3987-3998. doi: 10.1200/JCO.20.02514. Epub 2020 Sep 20."
+        },
+        {
+          "pmid": "34656740",
+          "type": "BACKGROUND",
+          "citation": "Harbeck N, Rastogi P, Martin M, Tolaney SM, Shao ZM, Fasching PA, Huang CS, Jaliffe GG, Tryakin A, Goetz MP, Rugo HS, Senkus E, Testa L, Andersson M, Tamura K, Del Mastro L, Steger GG, Kreipe H, Hegg R, Sohn J, Guarneri V, Cortes J, Hamilton E, Andre V, Wei R, Barriga S, Sherwood S, Forrester T, Munoz M, Shahir A, San Antonio B, Nabinger SC, Toi M, Johnston SRD, O'Shaughnessy J; monarchE Committee Members. Adjuvant abemaciclib combined with endocrine therapy for high-risk early breast cancer: updated efficacy and Ki-67 analysis from the monarchE study. Ann Oncol. 2021 Dec;32(12):1571-1581. doi: 10.1016/j.annonc.2021.09.015. Epub 2021 Oct 14."
+        },
+        {
+          "pmid": "36228963",
+          "type": "BACKGROUND",
+          "citation": "Geyer CE Jr, Garber JE, Gelber RD, Yothers G, Taboada M, Ross L, Rastogi P, Cui K, Arahmani A, Aktan G, Armstrong AC, Arnedos M, Balmana J, Bergh J, Bliss J, Delaloge S, Domchek SM, Eisen A, Elsafy F, Fein LE, Fielding A, Ford JM, Friedman S, Gelmon KA, Gianni L, Gnant M, Hollingsworth SJ, Im SA, Jager A, Johannsson OThorn, Lakhani SR, Janni W, Linderholm B, Liu TW, Loman N, Korde L, Loibl S, Lucas PC, Marme F, Martinez de Duenas E, McConnell R, Phillips KA, Piccart M, Rossi G, Schmutzler R, Senkus E, Shao Z, Sharma P, Singer CF, Spanic T, Stickeler E, Toi M, Traina TA, Viale G, Zoppoli G, Park YH, Yerushalmi R, Yang H, Pang D, Jung KH, Mailliez A, Fan Z, Tennevet I, Zhang J, Nagy T, Sonke GS, Sun Q, Parton M, Colleoni MA, Schmidt M, Brufsky AM, Razaq W, Kaufman B, Cameron D, Campbell C, Tutt ANJ; OlympiA Clinical Trial Steering Committee and Investigators. Overall survival in the OlympiA phase III trial of adjuvant olaparib in patients with germline pathogenic variants in BRCA1/2 and high-risk, early breast cancer. Ann Oncol. 2022 Dec;33(12):1250-1268. doi: 10.1016/j.annonc.2022.09.159. Epub 2022 Oct 10."
+        },
+        {
+          "pmid": "18929686",
+          "type": "BACKGROUND",
+          "citation": "Harris PA, Taylor R, Thielke R, Payne J, Gonzalez N, Conde JG. Research electronic data capture (REDCap)--a metadata-driven methodology and workflow process for providing translational research informatics support. J Biomed Inform. 2009 Apr;42(2):377-81. doi: 10.1016/j.jbi.2008.08.010. Epub 2008 Sep 30."
+        },
+        {
+          "pmid": "31078660",
+          "type": "BACKGROUND",
+          "citation": "Harris PA, Taylor R, Minor BL, Elliott V, Fernandez M, O'Neal L, McLeod L, Delacqua G, Delacqua F, Kirby J, Duda SN; REDCap Consortium. The REDCap consortium: Building an international community of software platform partners. J Biomed Inform. 2019 Jul;95:103208. doi: 10.1016/j.jbi.2019.103208. Epub 2019 May 9."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C000590451",
+          "term": "abemaciclib"
+        },
+        {
+          "id": "C531550",
+          "term": "olaparib"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

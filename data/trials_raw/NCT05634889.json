@@ -1,0 +1,755 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05634889",
+      "orgStudyIdInfo": {
+        "id": "2022-05093-02"
+      },
+      "organization": {
+        "fullName": "Region Skane",
+        "class": "OTHER"
+      },
+      "briefTitle": "The T-REX Trial: Tailored Regional External Beam Radiotherapy in Clinically Node-negative Breast Cancer Patients With 1-2 Sentinel Node Macrometastases.",
+      "officialTitle": "The T-REX-Trial: Tailored Regional External Beam Radiotherapy in Clinically Node-negative Breast Cancer Patients With 1-2 Sentinel Node Macrometastases; an Open, Multicenter, Randomized Non-inferiority Phase 3-trial.",
+      "acronym": "T-REX"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-03-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2033-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2022-11-18",
+      "studyFirstSubmitQcDate": "2022-11-29",
+      "studyFirstPostDateStruct": {
+        "date": "2022-12-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-05-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-05-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Region Skane",
+        "class": "OTHER"
+      },
+      "collaborators": [
+        {
+          "name": "Exact Sciences Corporation",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "T-REX is a randomized multicenter, non-inferiority trial.\n\nAim: To evaluate whether regional radiotherapy may safely be omitted in clinically node negative breast cancer patients with one or two sentinel node macrometastases and an estrogen receptor positive, HER2-negative tumor. Leading to an improved quality of life and reduced side effects, without worsening recurrence free survival at five years.\n\nIntervention: Patients will be randomized to locoregional radiotherapy towards the breast/chestwall and regional lymph nodes vs. to a de-escalated radiotherapy.\n\nIn the intervention arm no lymph node irradiation will be given. Radiotherapy is still given to the remaining breast after breast conserving surgery, but no radiotherapy is given after mastectomy.\n\nSample size: 1350 patients\n\nPrimary end-point: Recurrence free survival at five years.\n\nGene expression analysis: For all patients gene expression analysis for the gene signatures ARTIC, POLAR and OncotypeDX will be performed and related to risk of recurrence and benefit of adjuvant radiotherapy.",
+      "detailedDescription": "In this multicenter, prospective randomized trial clinically node-negative breast cancer patients with 1-2 macrometastases in their sentinel lymph node biopsy, and an estrogen receptor positive, HER2-negative tumor, will be randomly assigned to either receive adjuvant locoregional radiotherapy, or no regional radiotherapy.\n\nThe main aim is to evaluate whether regional radiotherapy may safely be omitted in patients with limited lymph node metastasis and an estimated low risk of locoregional recurrence. Recurrence free survival after five years is the primary outcome, which for non-inferiority should not worsen more than 4.5 percentage units. Secondary outcomes are locoregional recurrence, regional nodal recurrence, new contralateral BC, distant recurrence free survival, overall survival, non-breast malignancies, cardiac disease, arm morbidity, and health-related quality of life.\n\nTarget volumes include:\n\nStandard arm - The remaining breast/chest wall, axillary lymph node levels I-III, the supraclavicular lymph nodes (level IV), the interpectoral lymph nodes and in patients with a medial/central tumor also the internal mammary lymph nodes.\n\nIntervention arm - The remaining breast after breast conserving surgery. No radiotherapy after mastectomy"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "breast cancer",
+        "radiotherapy",
+        "gene expression analysis",
+        "adjuvant breast cancer treatment",
+        "regional breast cancer treatment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1350,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard",
+          "type": "NO_INTERVENTION",
+          "description": "Radiotherapy to the remaining breast after breast conserving surgery or chest wall after mastectomy, and regional axillary lymph node levels I-IV. Internal mammary nodes are included in the target volume if the tumor has a central/medial localization in the breast."
+        },
+        {
+          "label": "Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "No regional radiotherapy. Radiotherapy is given to the remaining breast after breast conserving surgery. Chest wall radiotherapy after mastectomy only in case of wide spread multifocality.",
+          "interventionNames": [
+            "Radiation: De-escalation"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "De-escalation",
+          "description": "No regional radiotherapy. Radiotherapy is given to the remaining breast after breast conserving surgery. Chest wall radiotherapy after mastectomy only in case of wide spread multifocality.",
+          "armGroupLabels": [
+            "Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Recurrence Free Survival",
+          "timeFrame": "Five years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Locoregional recurrence",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "Regional nodal recurrence",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "New contralateral breast cancer",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "Distant recurrence free survival",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "Overall survival",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "Arm morbidity",
+          "description": "Assessed by questionnaires completed by study participants digitally or on paper between randomization and start of RT, and after 1, 3, and 5 years. The questionnaire used is the Lymphedema Functioning, Disability and Health Questionnaire (Lymph-ICF) developed by Devoogdt in 2011.",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "Health-related quality of life",
+          "description": "Assessed by the questionnaire EORTC QLQ-C-30 completed by study participants between randomization and RT, and after 1, 3, and 5 years.",
+          "timeFrame": "Five years"
+        },
+        {
+          "measure": "Health-related quality of life",
+          "description": "Assessed by the questionnaire BR-23 completed by study participants between randomization and RT, and after 1, 3, and 5 years.",
+          "timeFrame": "Five years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Primary unifocal or multifocal invasive breast cancer T1-T2.\n2. Clinically N0.\n3. Macrometastasis (\\>2mm) in 1-2 lymph nodes at sentinel node biopsy.\n4. Oral and written consent.\n5. Age \u2265 18 years.\n6. All resection margins are tumor free (no tumor on ink).\n7. Primary tumor ER-positive, HER2-negative.\n\nExclusion Criteria:\n\n1. Regional or distant metastases outside the ipsilateral axilla.\n2. Previous RT towards the planned target area, i.e. the ipsilateral chest/lymph nodes.\n3. Neoadjuvant systemic therapy.\n4. Axillary lymph node dissection or other previous axillary surgery on the affected side.\n5. Prior history of invasive breast cancer.\n6. Pregnancy.\n7. Bilateral invasive breast cancer.\n8. Contraindication for radiotherapy or systemic treatment.\n9. Inability to absorb or understand the contents of the informed consent form; for example, through disability, inadequate language skills or dementia.\n10. Other invasive cancer within 5 years prior to breast cancer diagnosis",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Sara Alkner, Associate professor",
+          "role": "CONTACT",
+          "phone": "+4646171000",
+          "email": "sara.alkner@med.lu.se"
+        },
+        {
+          "name": "T-REX Clinical Trials Office",
+          "role": "CONTACT",
+          "phone": "+4646171000",
+          "email": "T_Rex.onkologi@skane.se"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Sara Alkner, Associate professor",
+          "affiliation": "Lunds Universitet",
+          "role": "PRINCIPAL_INVESTIGATOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Helsinki University Hospital",
+          "status": "RECRUITING",
+          "city": "Helsinki",
+          "country": "Finland",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT",
+              "phone": "+46177617",
+              "email": "sara.alkner@med.lu.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.16952,
+            "lon": 24.93545
+          }
+        },
+        {
+          "facility": "Lahti Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lahti",
+          "country": "Finland",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT",
+              "phone": "+46177617",
+              "email": "sara.alkner@med.lu.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.98267,
+            "lon": 25.66151
+          }
+        },
+        {
+          "facility": "Turku University Hospital",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Turku",
+          "country": "Finland",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT",
+              "phone": "+46177617",
+              "email": "sara.alkner@med.lu.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.45148,
+            "lon": 22.26869
+          }
+        },
+        {
+          "facility": "\u00c5lesund",
+          "status": "RECRUITING",
+          "city": "\u00c5lesund",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 62.47225,
+            "lon": 6.15492
+          }
+        },
+        {
+          "facility": "Bergen",
+          "status": "RECRUITING",
+          "city": "Bergen",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.39299,
+            "lon": 5.32415
+          }
+        },
+        {
+          "facility": "Bod\u00f8",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Bod\u00f8",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 67.28267,
+            "lon": 14.37513
+          }
+        },
+        {
+          "facility": "Gj\u00f6vik",
+          "status": "RECRUITING",
+          "city": "Gj\u00f8vik",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.79574,
+            "lon": 10.69155
+          }
+        },
+        {
+          "facility": "Kristiansand",
+          "status": "RECRUITING",
+          "city": "Kristiansand",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.14671,
+            "lon": 7.9956
+          }
+        },
+        {
+          "facility": "Oslo",
+          "status": "RECRUITING",
+          "city": "Oslo",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.91273,
+            "lon": 10.74609
+          }
+        },
+        {
+          "facility": "Stavanger",
+          "status": "RECRUITING",
+          "city": "Stavanger",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.97005,
+            "lon": 5.73332
+          }
+        },
+        {
+          "facility": "Troms\u00f8",
+          "status": "RECRUITING",
+          "city": "Troms\u00f8",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 69.6489,
+            "lon": 18.95508
+          }
+        },
+        {
+          "facility": "Trondheim",
+          "status": "RECRUITING",
+          "city": "Trondheim",
+          "country": "Norway",
+          "contacts": [
+            {
+              "name": "Ingvil Mjaaland",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 63.43049,
+            "lon": 10.39506
+          }
+        },
+        {
+          "facility": "Region V\u00e4strag\u00f6taland",
+          "status": "RECRUITING",
+          "city": "Bor\u00e5s",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.72101,
+            "lon": 12.9401
+          }
+        },
+        {
+          "facility": "Region S\u00f6rmland",
+          "status": "RECRUITING",
+          "city": "Eskilstuna",
+          "zip": "24751",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT",
+              "phone": "+46177617",
+              "email": "sara.alkner@med.lu.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.36661,
+            "lon": 16.5077
+          }
+        },
+        {
+          "facility": "Region G\u00e4vleborg",
+          "status": "RECRUITING",
+          "city": "G\u00e4vle",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 60.67452,
+            "lon": 17.14174
+          }
+        },
+        {
+          "facility": "Region V\u00e4stra G\u00f6taland",
+          "status": "RECRUITING",
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Per Karlsson",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.70716,
+            "lon": 11.96679
+          }
+        },
+        {
+          "facility": "Region Halland",
+          "status": "RECRUITING",
+          "city": "Halmstad",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.67446,
+            "lon": 12.85676
+          }
+        },
+        {
+          "facility": "Region J\u00f6nk\u00f6ping",
+          "status": "RECRUITING",
+          "city": "J\u00f6nk\u00f6ping",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 57.78145,
+            "lon": 14.15618
+          }
+        },
+        {
+          "facility": "Region Kalmar l\u00e4n",
+          "status": "RECRUITING",
+          "city": "Kalmar",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.66157,
+            "lon": 16.36163
+          }
+        },
+        {
+          "facility": "Region V\u00e4rmland",
+          "status": "RECRUITING",
+          "city": "Karlstad",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.3793,
+            "lon": 13.50357
+          }
+        },
+        {
+          "facility": "Region \u00d6sterg\u00f6tland",
+          "status": "RECRUITING",
+          "city": "Link\u00f6ping",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.41086,
+            "lon": 15.62157
+          }
+        },
+        {
+          "facility": "Region Sk\u00e5ne",
+          "status": "RECRUITING",
+          "city": "Lund",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT",
+              "email": "sara.alkner@med.lu.se"
+            }
+          ],
+          "geoPoint": {
+            "lat": 55.70584,
+            "lon": 13.19321
+          }
+        },
+        {
+          "facility": "Region \u00d6rebro",
+          "status": "RECRUITING",
+          "city": "\u00d6rebro",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.27412,
+            "lon": 15.2066
+          }
+        },
+        {
+          "facility": "Region V\u00e4strag\u00f6taland",
+          "status": "RECRUITING",
+          "city": "Sk\u00f6vde",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 58.39118,
+            "lon": 13.84506
+          }
+        },
+        {
+          "facility": "Region Stockholm",
+          "status": "RECRUITING",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.32938,
+            "lon": 18.06871
+          }
+        },
+        {
+          "facility": "Region V\u00e4sternorrland",
+          "status": "RECRUITING",
+          "city": "Sundsvall",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 62.39129,
+            "lon": 17.3063
+          }
+        },
+        {
+          "facility": "Region V\u00e4sterbotten",
+          "status": "RECRUITING",
+          "city": "Ume\u00e5",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 63.82842,
+            "lon": 20.25972
+          }
+        },
+        {
+          "facility": "Region Uppsala",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Uppsala",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.85882,
+            "lon": 17.63889
+          }
+        },
+        {
+          "facility": "Region Kronoberg",
+          "status": "RECRUITING",
+          "city": "Vaxjo",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 56.87767,
+            "lon": 14.80906
+          }
+        },
+        {
+          "facility": "Region V\u00e4stmanland",
+          "status": "RECRUITING",
+          "city": "V\u00e4ster\u00e5s",
+          "country": "Sweden",
+          "contacts": [
+            {
+              "name": "Sara Alkner",
+              "role": "CONTACT"
+            }
+          ],
+          "geoPoint": {
+            "lat": 59.61617,
+            "lon": 16.55276
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37751948",
+          "type": "DERIVED",
+          "citation": "Alkner S, de Boniface J, Lundstedt D, Mjaaland I, Ryden L, Vikstrom J, Bendahl PO, Holmberg E, Sackey H, Wieslander E, Karlsson P. Protocol for the T-REX-trial: tailored regional external beam radiotherapy in clinically node-negative breast cancer patients with 1-2 sentinel node macrometastases - an open, multicentre, randomised non-inferiority phase 3 trial. BMJ Open. 2023 Sep 26;13(9):e075543. doi: 10.1136/bmjopen-2023-075543."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Data will be made available upon request by the T-REX study group through primary investigator Sara Alkner (sara.alkner@med.lu.se) as specified below.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "ICF",
+        "CSR"
+      ],
+      "timeFrame": "The above information is available. IPD will be shared upon reasonable request after publication of the main endpoint. No end date.",
+      "accessCriteria": "Study protocol, Statistical Analysis Plan, Informed Consent Form and Clinical Study Report will be available to all interested.\n\nDeidentified participant data, and access to biological material, could be made available to researchers who provide a methodologically sound proposal with all prepared documents for ethical approval to the T-REX study group / the T-REX biobank group through primary investigator Sara Alkner (sara.alkner@med.lu.se)."
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

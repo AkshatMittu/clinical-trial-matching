@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02535221",
+      "orgStudyIdInfo": {
+        "id": "BCP12"
+      },
+      "organization": {
+        "fullName": "Peking University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Neoadjuvant Endocrine Therapy Versus Chemotherapy in Premenopausal Patients With ER+ & HER2- Breast Cancer",
+      "officialTitle": "Randomized Trial of Neoadjuvant Endocrine Therapy Versus Chemotherapy in Premenopausal Patients With Estrogen Receptor-Positive HER2 Negative Breast Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2021-11",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2015-07-29",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-31",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2015-06-09",
+      "studyFirstSubmitQcDate": "2015-08-26",
+      "studyFirstPostDateStruct": {
+        "date": "2015-08-28",
+        "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2021-11-26",
+      "lastUpdatePostDateStruct": {
+        "date": "2021-11-29",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "PRINCIPAL_INVESTIGATOR",
+        "investigatorFullName": "Tao OUYANG",
+        "investigatorTitle": "Chairman of Breast Center of Peking University Cancer Hospital",
+        "investigatorAffiliation": "Peking University"
+      },
+      "leadSponsor": {
+        "name": "Peking University",
+        "class": "OTHER"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This study proposes to prove that the efficacy of adjuvant endocrine therapy for the premenopausal HR positive breast cancer patients is non-inferiority to adjuvant chemotherapy assessed by ultrasound response rate."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Premenopausal Patients",
+        "Estrogen Receptor-Positive HER2 negative"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 234,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Endocrine therapy;",
+          "type": "EXPERIMENTAL",
+          "description": "Interventions\uff1aGoserelin+TAM+AI\uff1aGoserelin 3.6mg subcutaneous injection per 4 weeks, for 16-20weeks. TAM 10mg oral twice a day for the first four weeks(to wait the Goserelin start to work in body) than change to AI 1mg oral once a day with Goserelin for the next 12-16 weeks.",
+          "interventionNames": [
+            "Drug: Goserelin+TAM+AI"
+          ]
+        },
+        {
+          "label": "Chemotherapy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Interventions\uff1aEpirubicin+CTX+5-Fu\uff1aEpirubicin(80-100 mg/m2 Q21 days) + CTX(600 mg/m2 Q 21days) + 5-Fu (600 mg/m2 Q21 days or 200 mg/m2 \u2022day from Day1 to day 21) for four to six cycles.",
+          "interventionNames": [
+            "Drug: Epirubicin+CTX+5-Fu"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Goserelin+TAM+AI",
+          "description": "Goserelin 3.6mg subcutaneous injection per 4 weeks, for 16-20weeks. TAM 10mg oral twice a day for the first four weeks(to wait the Goserelin start to work in body) than change to AI 1mg oral once a day with Goserelin for the next 12-16 weeks.",
+          "armGroupLabels": [
+            "Endocrine therapy;"
+          ],
+          "otherNames": [
+            "Endocrine therapy"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Epirubicin+CTX+5-Fu",
+          "description": "Epirubicin(80-100 mg/m2 Q21 days) + CTX(600 mg/m2 Q 21days) + 5-Fu (600 mg/m2 Q21 days or 200 mg/m2 \u2022day from Day1 to day 21) for four to six cycles.",
+          "armGroupLabels": [
+            "Chemotherapy"
+          ],
+          "otherNames": [
+            "Chemotherapy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "ultrasound response rate",
+          "timeFrame": "within 2 weeks before surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "pathological response rate(Miller & Payne standard)",
+          "timeFrame": "with 2 weeks after surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* 35 years old \\<age\u226455 years old, in premenopausal status(with the judgement by researchers when the patients are recruited) Histologically confirmed primary invasive breast cancer\n* Stage: T2N0M0(cT\\>2cm, SLNB negative), hard to proceed the breast conserving surgery(not feasible or may affect the appearance of breast)\n* Histologically confirmed HR+ (ER or PR positive, and \\>50% cell in IHC) HER2 negative breast cancer by pathological evaluation\n* No other previous treatment for primary breast cancer\n* Without other tumor or unstable complication or uncontrolled infection\n* No contradiction for the third generation AIs, LHRHa, chemotherapy\n* Attend the study voluntarily, sign the informed consent.\n\nExclusion Criteria:\n\n* Metastasis disease by pathological or radiological diagnosis\n* the history of other tumor\n* contradiction for the third generation AIs, LHRHa, chemotherapy\n* Contradiction for adjuvant chemotherapy: serious cardiology or cerebral vessel disease, liver or kidney disfunction, blood system disease, the other situation or complication that are not suitable or cannot adaptable for chemotherapy\n* Contradiction for proceeding surgery: contradiction for anesthesia, large lesion,T4, lymph node positive\n* other situation not suitable for the research: psychological disease, mental disorder, social problem, geographic problem\n* have been attendance in other anti-tumor treatment or other clinical trials 8) reject to attend the study",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "35 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Tao Ouyang, MD",
+          "role": "CONTACT",
+          "email": "ouyanghongtao@263.net"
+        }
+      ],
+      "overallOfficials": [
+        {
+          "name": "Tao Ouyang, MD",
+          "affiliation": "Peking University Cancer Hospital & Institute",
+          "role": "STUDY_CHAIR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Beijing Cancer Hospital Breast Center",
+          "status": "RECRUITING",
+          "city": "Beijing",
+          "country": "China",
+          "geoPoint": {
+            "lat": 39.9075,
+            "lon": 116.39723
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "40331570",
+          "type": "DERIVED",
+          "citation": "Gu C, He Y, Zhang N, Liu Y, Li J, Wang T, Fan T, Fan Z, Ouyang T. A Non-Inferior Randomized Trial of Neoadjuvant Endocrine Therapy Compared to Neoadjuvant Chemotherapy in Premenopausal Patients With Hormone-Responsive and HER2-Negative Lymph Node-Negative Breast Cancer. Cancer Control. 2025 Jan-Dec;32:10732748251339958. doi: 10.1177/10732748251339958. Epub 2025 May 7."
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D004358",
+          "term": "Drug Therapy"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D013812",
+          "term": "Therapeutics"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}
