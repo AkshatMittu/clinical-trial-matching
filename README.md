@@ -1,4 +1,4 @@
-# trial_fit
+# Clinical Trial Matching (Physician x Clinical Trial)
 
 Matching physicians to clinical trials as potential **site investigators**, using
 only public data, with every claim traceable to a source record.
