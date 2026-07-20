@@ -1,0 +1,186 @@
+{
+  "nct_id": "NCT04915755",
+  "trial_label": "ZEST",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "Adult patients with Stage I-III, HER2-negative breast cancer who have completed surgical resection of the primary tumor (and any adjuvant therapy) and fall into one of two molecularly defined groups: HR+/HER2- disease with a known or suspected deleterious tumor BRCA mutation, or triple-negative breast cancer regardless of BRCA status. Eligible patients must additionally have detectable circulating tumor DNA (molecular/MRD-positive disease) after definitive therapy, have had no prior PARP inhibitor exposure, and have ECOG 0-1. This is a rare, genomically- and molecularly-selected adjuvant population layered on top of an already uncommon disease subtype, which is consistent with the trial enrolling only 40 patients across 198 global sites before enrollment was stopped.",
+    "site_burden": "Inferred from the posted Schedule of Assessments: weekly clinic visits during the first two 28-day treatment cycles (Days 1, 8, 15, 22), transitioning to monthly (Day 1) visits for subsequent cycles, plus an End of Treatment visit and safety follow-up at 30(+7) days. Each visit requires vitals, ECOG, physical exam, and concomitant medication review; hematology and chemistry labs are drawn repeatedly throughout treatment. Serial CT or MRI imaging for RECIST v1.1-based disease-free survival assessment is required every 12 weeks for the first two years and every 24 weeks thereafter, continuing even after treatment discontinuation until recurrence, death, or withdrawal. The site must also collect and ship ctDNA and whole-exome-sequencing blood samples, with safety reporting obligations beginning at ctDNA pre-screening consent, and manage dispensing/accountability of a blinded oral investigational drug (niraparib vs. placebo) over a total participant timeframe of up to ~125 weeks.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a medical oncologist/hematologist-oncologist who treats breast cancer as a core part of practice, since the trial enrolls only Stage I-III breast cancer patients post-surgical resection.",
+        "satisfies_if": "NPPES taxonomy lists Hematology & Oncology or Medical Oncology, combined with self-reported focus on breast cancer treatment.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "population-defining eligibility: Stage I to III breast cancer with surgical resection of the primary tumor"
+      },
+      {
+        "id": "brca_parp_expertise",
+        "dimension": "expertise",
+        "criticality": "primary",
+        "requirement": "Investigator should have demonstrated expertise in BRCA-mutated breast cancer and/or PARP inhibitor therapy, given the trial's genomically-selected design and niraparib intervention.",
+        "satisfies_if": "PubMed record includes publications on BRCA-mutated breast cancer or PARP inhibitors, OR ClinicalTrials.gov lists the physician as an investigator on a prior PARP-inhibitor trial (e.g., olaparib, niraparib, talazoparib).",
+        "data_sources": [
+          "pubmed",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "eligibility for tBRCA-mutated HER2-negative disease; niraparib (PARP inhibitor) as study drug"
+      },
+      {
+        "id": "ctdna_mrd_familiarity",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "Investigator should be familiar with ctDNA-based minimal residual disease (MRD) testing, the molecular relapse detection paradigm central to this trial's enrollment strategy.",
+        "satisfies_if": "Physician attests to prior clinical use of ctDNA assays or participation in MRD-based clinical trials.",
+        "data_sources": [
+          "self_report",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "title/brief summary: molecular disease based on presence of circulating tumor DNA after definitive therapy"
+      },
+      {
+        "id": "brca_tnbc_patient_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a sufficient volume of early-stage HER2-negative breast cancer patients who are either TNBC or documented tBRCA-mutant, post-surgery, to plausibly identify the rare ctDNA-positive subset this trial requires.",
+        "satisfies_if": "Physician attests to regularly managing a defined minimum annual volume of such patients, or Medicare claims data establish a floor of breast cancer treatment volume consistent with a high-volume breast oncology practice.",
+        "data_sources": [
+          "self_report",
+          "medicare"
+        ],
+        "derived_from": "population-defining eligibility: TNBC irrespective of BRCA status, or HR+/HER2- with documented deleterious tBRCA mutation"
+      },
+      {
+        "id": "germline_testing_referral_pathway",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Site must have an established workflow for germline or tumor BRCA mutation testing to identify eligible tBRCA-mutated patients before trial referral.",
+        "satisfies_if": "Physician attests that germline/somatic BRCA testing is routinely ordered as part of practice workflow for breast cancer patients.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "eligibility requiring 'known and documented deleterious or suspected deleterious tBRCA mutation'"
+      },
+      {
+        "id": "ctdna_specimen_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to collect, process, and ship ctDNA and whole-exome-sequencing blood samples to sponsor/central labs on the protocol's timeline, including during a pre-screening phase.",
+        "satisfies_if": "Physician/site attests to existing specimen collection and central-lab shipment infrastructure for molecular biomarker studies.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "operational burden: AE monitoring begins at ctDNA/WES blood sample collection; ctDNA prescreening ICF process"
+      },
+      {
+        "id": "serial_imaging_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to perform and evaluate serial CT or MRI imaging per RECIST v1.1 on a strict 12-week (then 24-week) cadence for disease-free survival assessment, continuing for up to two years or longer.",
+        "satisfies_if": "Physician/site attests to on-site or closely affiliated radiology capability able to support the protocol-defined imaging schedule and RECIST evaluation.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "operational burden: CT or MRI for DFS assessment every 12 weeks (Year 1-2) and every 24 weeks thereafter"
+      },
+      {
+        "id": "long_term_followup_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must retain and actively monitor participants through a lengthy visit schedule -- weekly visits in the first two cycles, then monthly visits, plus safety follow-up -- across a total participant timeframe of up to approximately 125 weeks.",
+        "satisfies_if": "Physician/site attests to capacity for sustained multi-year patient retention and frequent early-cycle visit scheduling (weekly for 8 weeks, then monthly).",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "operational burden: weekly visits C1D1/8/15/22 and C2D1/8/15/22, monthly thereafter, timeframe up to ~125 weeks"
+      },
+      {
+        "id": "phase3_industry_investigator_track_record",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience serving as a site investigator on multi-site, industry-sponsored, randomized double-blind Phase 3 oncology trials, matching ZEST's scale and design.",
+        "satisfies_if": "ClinicalTrials.gov lists the physician (as PI or sub-I) on at least one completed or active Phase 3 industry-sponsored oncology trial.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "trial design: Phase 3, GSK-sponsored, 198-site randomized double-blinded study"
+      },
+      {
+        "id": "gsk_sponsor_relationship",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "A prior working relationship or research funding history with GSK or comparable pharmaceutical sponsors is a positive indicator of reliable execution on this sponsor's protocol.",
+        "satisfies_if": "Open Payments records show research payments from GSK or other pharmaceutical sponsors to the physician.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "sponsor: GlaxoSmithKline (INDUSTRY)"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG performance status 0-1 requirement -- a per-patient functional status check at enrollment, not an attribute of the site or physician.",
+      "Pregnancy/breastfeeding/contraception exclusion -- individual patient safety screening unrelated to physician fit.",
+      "Prior PARP inhibitor treatment exclusion -- assessed from each patient's individual treatment history, not a site capability.",
+      "Exceptions permitting certain prior/concurrent cancers (non-melanoma skin cancer, in situ cervical cancer, DCIS, Stage I Grade 1 endometrial carcinoma, other malignancies >=5 years prior) -- individual medical history eligibility checks, not physician-fit criteria."
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 19,
+    "n_criteria": 10,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 3,
+        "max_points": 4
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 4
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 7
+      },
+      "trial_execution": {
+        "n_criteria": 2,
+        "max_points": 4
+      }
+    },
+    "n_publicly_verifiable": 6,
+    "n_self_report_only": 4,
+    "public_coverage": 0.6
+  },
+  "provenance": {
+    "burden_source": "protocol",
+    "soa_confidence": "grid",
+    "soa_page": 68,
+    "protocol_available": true,
+    "n_population_criteria": 3,
+    "n_screening_criteria": 2
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 5920,
+      "output_tokens": 7534
+    },
+    "cost_usd": 0.0872
+  }
+}

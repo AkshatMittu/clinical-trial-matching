@@ -34,6 +34,16 @@ aside .tag{font-size:11.5px;color:var(--mut);margin:0 20px 18px}
 .t-weak{background:#f0f0f3;color:var(--mut)}
 .dot{width:5px;height:5px;border-radius:50%;background:#cfcfd8;flex:none}
 .dot.rec{background:var(--ok)}
+.addbox{margin:14px 20px 4px;padding-top:14px;border-top:1px solid var(--line)}
+.addbox h5{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;
+ color:var(--mut);margin:0 0 7px;font-weight:600}
+.addbox .r{display:flex;gap:6px}
+.addbox input{flex:1;min-width:0;border:1px solid var(--line);border-radius:6px;
+ padding:7px 9px;font:inherit;font-size:12.5px}
+.addbox input:focus{outline:none;border-color:var(--accent)}
+.addbox button{padding:7px 12px;font-size:12.5px}
+.addbox .msg{font-size:11.5px;color:var(--mut);margin-top:6px;line-height:1.45}
+.addbox .msg.err{color:var(--bad)}
 
 /* ---- main ---- */
 main{padding:26px 34px 70px;max-width:1020px}
@@ -140,6 +150,14 @@ code{background:#f3f3f7;padding:1px 4px;border-radius:3px;font-size:11.5px}
   <h1>Clinical Trial Matching</h1>
   <div class="tag">Physician x Clinical Trial · public data only</div>
   <div id="rail"></div>
+  <div class="addbox">
+    <h5>Score another trial</h5>
+    <div class="r">
+      <input id="nctIn" placeholder="NCT01234567" autocomplete="off">
+      <button class="pri" id="addBtn">Add</button>
+    </div>
+    <div class="msg" id="addMsg">Fetched live from ClinicalTrials.gov, then run end to end. It stays in the list afterwards.</div>
+  </div>
 </aside>
 <main>
   <div class="head">
@@ -215,7 +233,8 @@ async function boot(){
     <div class="trials" id="tr-${p.npi}" style="display:none">
       ${p.trials.map(t => `<div class="tr" data-npi="${p.npi}" data-nct="${t.nct_id}">
         <span class="dot ${t.recorded?'rec':''}"></span>
-        <span class="lbl">${esc(t.label || t.nct_id)}</span></div>`).join('')}
+        <span class="lbl">${esc(t.label || t.nct_id)}</span>
+        ${t.tier==='adhoc'?'<span class="tier t-strong">added</span>':''}</div>`).join('')}
     </div>`).join('');
 
   document.querySelectorAll('.phys').forEach(el => el.onclick = () => {
@@ -241,6 +260,43 @@ async function boot(){
     $('#stages').innerHTML = ''; $('#final').innerHTML = '';
   });
 }
+
+// Add a trial by NCT id: fetch it, register it, then run the full pipeline
+// live so the user watches every stage resolve rather than getting a result.
+$('#addBtn').onclick = async () => {
+  const raw = $('#nctIn').value.trim().toUpperCase();
+  const msg = $('#addMsg'), btn = $('#addBtn');
+  if(!/^NCT\d{8}$/.test(raw)){
+    msg.className = 'msg err';
+    msg.textContent = 'Needs to look like NCT02513394 — NCT plus 8 digits.';
+    return;
+  }
+  btn.disabled = true; msg.className = 'msg';
+  msg.textContent = 'Fetching from ClinicalTrials.gov…';
+  let r;
+  try { r = await (await fetch('/api/add_trial', {method:'POST',
+    headers:{'Content-Type':'application/json'}, body: JSON.stringify({nct: raw})})).json() }
+  catch(e){ r = {ok:false, error:String(e)} }
+  if(!r.ok){
+    msg.className = 'msg err'; msg.textContent = r.error || 'could not add it';
+    btn.disabled = false; return;
+  }
+  msg.textContent = r.already_had
+    ? `${r.label} was already collected — running it now.`
+    : `${r.label}: ${r.n_population_defining} population-defining criteria`
+      + `${r.protocol ? ', protocol posted' : ', no protocol (burden inferred)'}. Running…`;
+
+  await boot();                             // rail now includes it
+  sel = {npi: r.npi, nct: r.nct_id};
+  $('#mode').value = 'live';                // a new trial has nothing recorded
+  $('#title').textContent = `${physicians.find(p=>p.npi===r.npi)?.name || ''} × ${r.label}`;
+  $('#sub').textContent = `${r.nct_id} · added live · everything below is being generated now`;
+  $('#go').disabled = false;
+  $('#nctIn').value = '';
+  btn.disabled = false;
+  $('#go').click();                         // run it end to end, on screen
+};
+$('#nctIn').addEventListener('keydown', e => { if(e.key === 'Enter') $('#addBtn').click(); });
 
 $('#go').onclick = () => {
   if(!sel.nct) return;

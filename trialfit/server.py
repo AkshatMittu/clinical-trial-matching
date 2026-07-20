@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import json
 import queue
+import re
 import threading
 import traceback
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -33,6 +34,7 @@ from pathlib import Path
 from typing import Optional
 from urllib.parse import parse_qs, urlparse
 
+from . import ctgov, trialinfo
 from . import interview as iv
 from . import matcher, patient, pipeline, precedent, report, rubric
 
@@ -87,6 +89,66 @@ def physicians_payload() -> list[dict]:
             } for q in mine],
         })
     return out
+
+
+def ensure_trial(nct_id: str) -> dict:
+    """Fetch a trial we've never seen and add it to the demo list.
+
+    Everything downstream keys off `trial_info/{NCT}.json` and
+    `scoring_pairs.json`, so an ad-hoc trial only has to land in those two
+    places to become indistinguishable from one that came through step 1.
+    Written to disk, so it survives a restart and appears in the rail next time.
+    """
+    nct_id = (nct_id or "").strip().upper()
+    if not re.fullmatch(r"NCT\d{8}", nct_id):
+        return {"ok": False, "error": f"'{nct_id}' is not an NCT id "
+                                      f"(expected NCT followed by 8 digits)"}
+
+    info_path = DATA / "trial_info" / f"{nct_id}.json"
+    already = info_path.exists()
+    if not already:
+        record = ctgov.load_record(nct_id, DATA / "trials_raw")
+        if record is None:
+            return {"ok": False,
+                    "error": f"{nct_id} not found on ClinicalTrials.gov"}
+        info = trialinfo.build(nct_id, DATA, with_protocol=True)
+        if info is None:
+            return {"ok": False, "error": f"could not assemble {nct_id}"}
+        trialinfo.write(info, DATA)
+    else:
+        info = _load(info_path) or {}
+
+    label = info.get("acronym") or (info.get("brief_title") or nct_id)[:60]
+
+    # Attach it to the demo physician so the pair exists to be scored.
+    cfg = _load(DATA / "demo_config.json") or {}
+    roster = _load(DATA / "physicians_roster.json") or []
+    npi = cfg.get("npi") or next((p["npi"] for p in roster
+                                  if p.get("demo_role")), None)
+    if not npi:
+        return {"ok": False, "error": "no demo physician on the roster"}
+    physician = next((p["display_name"] for p in roster if p["npi"] == npi), "")
+
+    pairs_path = DATA / "scoring_pairs.json"
+    pairs = json.loads(pairs_path.read_text()) if pairs_path.exists() else []
+    if not any(q["nct_id"] == nct_id and q["npi"] == npi for q in pairs):
+        pairs.append({"npi": npi, "physician": physician, "nct_id": nct_id,
+                      "label": label,
+                      # Ad-hoc trials get no expected-fit tier — those are
+                      # assigned in step 2 from the curated pool, and inventing
+                      # one here would pollute the evaluation harness's labels.
+                      "tier": "adhoc", "expected_score": None})
+        pairs_path.write_text(json.dumps(pairs, indent=2))
+
+    if cfg.get("nct_ids") and nct_id not in cfg["nct_ids"]:
+        cfg["nct_ids"].append(nct_id)
+        (DATA / "demo_config.json").write_text(json.dumps(cfg, indent=2))
+
+    return {"ok": True, "nct_id": nct_id, "npi": npi, "label": label,
+            "already_had": already,
+            "n_population_defining": len(
+                (info.get("eligibility") or {}).get("population_defining") or []),
+            "protocol": bool((info.get("protocol") or {}).get("available"))}
 
 
 def trial_stage(nct_id: str) -> dict:
@@ -457,6 +519,15 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self) -> None:                                   # noqa: N802
         u = urlparse(self.path)
+        if u.path == "/api/add_trial":
+            try:
+                n = int(self.headers.get("Content-Length", 0))
+                body = json.loads(self.rfile.read(n) or b"{}")
+                out = ensure_trial(body.get("nct", ""))
+            except Exception:
+                out = {"ok": False, "error": traceback.format_exc()[-400:]}
+            self._json(out, 200 if out.get("ok") else 400)
+            return
         if u.path != "/api/interview":
             self._json({"error": "not found"}, 404)
             return

@@ -1,0 +1,185 @@
+{
+  "nct_id": "NCT05952557",
+  "trial_label": "CAMBRIA-2",
+  "model": "claude-sonnet-5",
+  "effort": "high",
+  "rubric": {
+    "target_patient": "A postoperative early breast cancer patient with histologically confirmed ER+/HER2- resected invasive disease, no evidence of metastasis, who has completed definitive locoregional treatment (surgery with or without radiotherapy, with or without neo/adjuvant chemotherapy) and falls into an intermediate-high or high risk-of-recurrence category, and who did not achieve a pathological complete response if given neoadjuvant therapy. This is a long-horizon adjuvant endocrine therapy candidate, not a metastatic or treatment-naive patient.",
+    "site_burden": "No schedule of assessments was provided, so burden is inferred from phase, design and outcomes rather than a protocol-derived visit calendar. This is a Phase III, open-label, randomized, multi-arm adjuvant trial with a planned 7-year treatment duration per arm and follow-up to 14 years for the primary endpoint (invasive breast cancer-free survival), implying the site must sustain long-term patient contact, adherence and retention infrastructure far beyond a typical short-course oncology trial. Oral drug administration across five comparator/experimental agents (camizestrant, tamoxifen, anastrozole, letrozole, exemestane) plus an abemaciclib option implies a need for dispensing, accountability, and multi-arm randomization logistics. The large enrollment target (5500 across 798 sites) suggests moderate-to-heavy per-site screening and enrollment throughput expectations, though no explicit per-site target is given.",
+    "criteria": [
+      {
+        "id": "breast_onc_specialty",
+        "dimension": "expertise",
+        "criticality": "hard_gate",
+        "requirement": "The investigator must be a medical oncologist or breast cancer specialist capable of managing adjuvant endocrine therapy decisions in ER+/HER2- early breast cancer.",
+        "satisfies_if": "NPPES taxonomy code lists the physician under Medical Oncology, Hematology & Oncology, or a breast oncology subspecialty.",
+        "data_sources": [
+          "nppes",
+          "self_report"
+        ],
+        "derived_from": "population-defining eligibility: histologically confirmed ER+/HER2- early-stage resected invasive breast cancer"
+      },
+      {
+        "id": "endocrine_therapy_publication_record",
+        "dimension": "expertise",
+        "criticality": "secondary",
+        "requirement": "Demonstrated familiarity with endocrine therapy and CDK4/6 inhibitor use in early breast cancer, evidenced by scholarly contribution.",
+        "satisfies_if": "At least one PubMed-indexed publication authored by the physician on endocrine therapy, SERDs/SERMs, aromatase inhibitors, or CDK4/6 inhibitors in breast cancer.",
+        "data_sources": [
+          "pubmed"
+        ],
+        "derived_from": "interventions: camizestrant, tamoxifen, anastrozole, letrozole, exemestane, abemaciclib"
+      },
+      {
+        "id": "resected_er_positive_case_volume",
+        "dimension": "patient_population",
+        "criticality": "primary",
+        "requirement": "The practice must see a meaningful volume of post-surgical ER+/HER2- early breast cancer patients at intermediate-high or high recurrence risk to plausibly identify and enroll eligible patients.",
+        "satisfies_if": "Physician self-reports an active caseload of resected ER+/HER2- early breast cancer patients meeting intermediate-high/high risk criteria, or Medicare claims data shows a floor volume of breast cancer diagnosis/treatment visits consistent with an active breast oncology practice.",
+        "data_sources": [
+          "medicare",
+          "self_report"
+        ],
+        "derived_from": "population-defining eligibility: completed definitive locoregional treatment, intermediate-high or high risk of recurrence"
+      },
+      {
+        "id": "multidisciplinary_referral_pipeline",
+        "dimension": "patient_population",
+        "criticality": "secondary",
+        "requirement": "Site needs an established referral relationship with breast surgeons and radiation oncologists to capture patients promptly after definitive locoregional therapy, before recurrence risk staging becomes stale.",
+        "satisfies_if": "Physician or site self-reports participation in a multidisciplinary breast cancer program or tumor board with surgical/radiation oncology referral pathways.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "inclusion: completed adequate (definitive) locoregional therapy (surgery with or without radiotherapy), with or without (neo)adjuvant chemotherapy"
+      },
+      {
+        "id": "long_term_retention_infrastructure",
+        "dimension": "operational_capacity",
+        "criticality": "primary",
+        "requirement": "Site must be able to retain and follow patients through a 7-year treatment period and up to 14 years of follow-up for the primary endpoint.",
+        "satisfies_if": "Site self-reports established long-duration trial retention processes (e.g., dedicated long-term follow-up coordination, patient tracking systems) suitable for multi-year adjuvant trials.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "planned duration of treatment in either arm will be 7 years; primary outcome timeframe up to 14 years"
+      },
+      {
+        "id": "oral_agent_dispensing_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be equipped to dispense, track, and monitor adherence for multiple oral agents across randomized arms.",
+        "satisfies_if": "Site self-reports pharmacy or drug accountability infrastructure for oral investigational and comparator agents.",
+        "data_sources": [
+          "self_report"
+        ],
+        "derived_from": "interventions: camizestrant, tamoxifen, anastrozole, letrozole, exemestane, abemaciclib \u2014 all administered orally"
+      },
+      {
+        "id": "multi_arm_randomized_trial_capacity",
+        "dimension": "operational_capacity",
+        "criticality": "secondary",
+        "requirement": "Site must be able to operationally manage an open-label, multi-arm randomized design spanning five comparator regimens plus an optional abemaciclib add-on.",
+        "satisfies_if": "Physician or site self-reports prior experience running open-label randomized trials with multiple comparator arms, or is listed as investigator on a comparable multi-arm study in clinicaltrials.gov.",
+        "data_sources": [
+          "self_report",
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "study design: open-label randomized study comparing camizestrant vs standard endocrine therapy (AI or tamoxifen), with abemaciclib option"
+      },
+      {
+        "id": "phase3_breast_trial_experience",
+        "dimension": "trial_execution",
+        "criticality": "primary",
+        "requirement": "Investigator should have prior experience as site investigator on a Phase III (or other late-phase) breast cancer trial, given the scale and registrational nature of this study.",
+        "satisfies_if": "Physician is listed as PI or sub-investigator on at least one completed or ongoing Phase 2/3 breast cancer trial in clinicaltrials.gov.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "Phase III design, 5500 planned enrollment, 798 global sites"
+      },
+      {
+        "id": "industry_research_payment_history",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "A track record of receiving industry clinical research payments suggests established capacity to conduct sponsor-funded oncology trials.",
+        "satisfies_if": "Open Payments records show research-category payments to the physician from a pharmaceutical sponsor in oncology.",
+        "data_sources": [
+          "open_payments"
+        ],
+        "derived_from": "sponsor: AstraZeneca (INDUSTRY)"
+      },
+      {
+        "id": "large_industry_trial_gcp_track_record",
+        "dimension": "trial_execution",
+        "criticality": "secondary",
+        "requirement": "Demonstrated GCP-compliant conduct on prior large, industry-sponsored, multi-site oncology trials similar in scale to this 798-site study.",
+        "satisfies_if": "Physician is listed as an investigator on at least one completed industry-sponsored oncology trial registered on clinicaltrials.gov.",
+        "data_sources": [
+          "clinicaltrials_gov"
+        ],
+        "derived_from": "798 sites (148 US), industry sponsorship, large-scale multi-site design"
+      }
+    ],
+    "excluded_screening": [
+      "ECOG performance status \u22641 \u2014 a per-patient fitness check at enrollment, not a property of the physician's practice.",
+      "Adequate organ and bone marrow function \u2014 a per-patient lab eligibility threshold checked at screening, unrelated to site qualification.",
+      "Known LVEF <50% with heart failure NYHA Grade \u22652 (exclusion) \u2014 a per-patient cardiac safety exclusion applied at enrollment.",
+      "Currently pregnant or breastfeeding (exclusion) \u2014 a per-patient reproductive status check at enrollment, not a site-level criterion."
+    ]
+  },
+  "scoring": {
+    "weights": {
+      "primary": 3,
+      "secondary": 1
+    },
+    "max_score": 15,
+    "n_criteria": 10,
+    "hard_gates": [
+      "breast_onc_specialty"
+    ],
+    "by_dimension": {
+      "expertise": {
+        "n_criteria": 2,
+        "max_points": 1
+      },
+      "patient_population": {
+        "n_criteria": 2,
+        "max_points": 4
+      },
+      "operational_capacity": {
+        "n_criteria": 3,
+        "max_points": 5
+      },
+      "trial_execution": {
+        "n_criteria": 3,
+        "max_points": 5
+      }
+    },
+    "n_publicly_verifiable": 7,
+    "n_self_report_only": 3,
+    "public_coverage": 0.7
+  },
+  "provenance": {
+    "burden_source": "inferred",
+    "soa_confidence": null,
+    "soa_page": null,
+    "protocol_available": false,
+    "n_population_criteria": 4,
+    "n_screening_criteria": 4
+  },
+  "trace": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [],
+        "stop_reason": "end_turn"
+      }
+    ],
+    "usage": {
+      "input_tokens": 3530,
+      "output_tokens": 5375
+    },
+    "cost_usd": 0.0608
+  }
+}

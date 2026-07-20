@@ -1,0 +1,2337 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05599334",
+      "orgStudyIdInfo": {
+        "id": "NIS12501"
+      },
+      "organization": {
+        "fullName": "Pierre Fabre Medicament",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Retrospective Observational Study of Patients With Early-stage HER2-positive Breast Cancer, Treated With Neratinib",
+      "officialTitle": "A Retrospective Observational Study of Adult Patients With Early-stage HER2-positive Breast Cancer, Treated With Neratinib as Extended Adjuvant Therapy in the Context of the European Early Access Program (NEAR)",
+      "acronym": "NEAR"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-09",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-07-05",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2023-01-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-02-10",
+      "studyFirstSubmitQcDate": "2022-10-25",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-31",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2024-06-11",
+      "resultsFirstSubmitQcDate": "2025-09-12",
+      "resultsFirstPostDateStruct": {
+        "date": "2025-10-06",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-09-12",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-06",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pierre Fabre Medicament",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "IQVIA Pty Ltd",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to describe the demographic and clinical profiles of patients with early-stage HER2+ breast cancer treated with neratinib as an extended adjuvant therapy as part of the Early Access Program (EAP) in Europe.",
+      "detailedDescription": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the early access program conducted in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP. Patients were followed up until the end of the study observation period/study entry date (05 July 2022). As this study was retrospective, the decision to prescribe neratinib was taken prior to and independent of the proposal to select a patient for this study."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Adjuvant Therapy",
+        "HER2-positive Breast Cancer"
+      ],
+      "keywords": [
+        "HER2-positive Breast Cancer",
+        "Adjuvant therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE"
+      },
+      "enrollmentInfo": {
+        "count": 111,
+        "type": "ACTUAL"
+      }
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Description of Age",
+          "description": "Age will be assessed in years = neratinib initiation date - date of birth",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Description of Gender",
+          "description": "Gender will be described in percentage of Male and Female among patients",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Description of BMI",
+          "description": "BMI will be assessed in kg/m2",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Menopausal Status",
+          "description": "Menopausal status will be described in percentage of Premenopausal, Perimenopausal, Postmenopausal, Surgical/other reason for amenorrhea",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Comorbidities",
+          "description": "Comorbidities will be described in number and percentage of patients with at least one relevant comorbidity. Comorbidities were including but were not limited to: renal disease, liver disease, gastro-intestinal disorders, cardiovascular conditions, skin and subcutaneous disorders, diabetes (type I or II)",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "HER2 Overexpression/Amplification Testing",
+          "description": "HER2 overexpression/amplification testing will be assessed by Immunohistochemistry (IHC), Fluorescence in situ hybridization (FISH), Chromogenic in situ hybridization (CISH)",
+          "timeFrame": "At initial diagnosis"
+        },
+        {
+          "measure": "Hormone Receptor Status",
+          "description": "Hormone receptor status will be described in percentage of patients with Estrogen receptor (ER) positive, Progesterone receptor (PR) positive, ER and PR negative",
+          "timeFrame": "At initial diagnosis"
+        },
+        {
+          "measure": "Primary Tumor Location",
+          "description": "Primary tumor location will be described in percentage of patients with Left Breast cancer, Right Breast cancer",
+          "timeFrame": "At initial diagnosis"
+        },
+        {
+          "measure": "Primary Tumor Histology",
+          "description": "Primary tumor histology will be described in percentage of patients with Infiltrating ductal carcinoma, Infiltrating lobular carcinoma, Invasive carcinoma, Tubular, Other",
+          "timeFrame": "At initial diagnosis"
+        },
+        {
+          "measure": "Histological Grade",
+          "description": "Histological grade will be described in percentage of patients with G1 Well differentiated, G2 Moderately differentiated, G3 Poorly differentiated, G4 Undifferentiated",
+          "timeFrame": "At initial diagnosis"
+        },
+        {
+          "measure": "Pathologic Stage (AJCC Classification) of Breast Cancer",
+          "description": "Higher is the stage worse is the cancer.\n\nStage is defined as:\n\n1A: tumor (T) up to 2 cm + not spread outside the breast; no lymph nodes (LN).1B: Small clusters of cancer cells (CC) (0.2-2 mm) are found in LN, or T in the breast is \\< 2 cm and small clusters of CC are found in LN. 2A: No T in the breast, but cancer is in 1-3 axillary LN or in LN near the breastbone or T is 2 cm or smaller + has spread to 1-3 axillary LN or LN near the breastbone, or T is \\> 2 cm and \\< 5 cm and not spread to LN.2B: T is \\> 2 cm and \\< 5 cm and has spread to 1-3 axillary LN or LN near the breastbone, or T is \\> 5 cm and not spread to the LN. 3A: no T in the breast or the T is any size; cancer is found in 4-9 axillary LN or LN near the breastbone, or T is larger than 5 cm and small clusters of CC found in LN. 3B: T has spread to chest wall or breast skin + may have spread to up to 9 axillary LN. 3C: Cancer has spread to \u226510 axillary LN, LN near the collarbone, or LN near breastbone",
+          "timeFrame": "At initial diagnosis"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients will be eligible for inclusion if they fulfill all of the following criteria:\n\n  * Age \u2265 18 years at neratinib treatment initiation\n  * Having received at least one initial dose of neratinib as an extended adjuvant therapy for the treatment of early-stage HER2+ breast cancer, in the context of the EAP in Europe, and between August 01, 2017 and December 31, 2020\n  * Patients (or next of kin/legal representative, if applicable) who provide written informed consent or non-opposition.\n\nExclusion Criteria:\n\n* N/A",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "The study population will include all patients with early-stage HER2+ breast cancer having received at least one dose of neratinib as an extended adjuvant therapy in the context of the EAP in Europe between August 01, 2017 and December 31, 2020.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    },
+    "contactsLocationsModule": {
+      "overallOfficials": [
+        {
+          "name": "Jeanne Suissa",
+          "affiliation": "Pierre Fabre M\u00e9dicament",
+          "role": "STUDY_DIRECTOR"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "Clinique Saint-Luc Bouge",
+          "city": "Bouge",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.47193,
+            "lon": 4.89218
+          }
+        },
+        {
+          "facility": "Jessa Ziekenhuis - Campus Virga Jesse",
+          "city": "Hasselt",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.93106,
+            "lon": 5.33781
+          }
+        },
+        {
+          "facility": "Multidisciplinary Breast Unit of the University Hospital Leuven and Sint-Andries Hospital",
+          "city": "Leuven",
+          "zip": "3000",
+          "country": "Belgium",
+          "geoPoint": {
+            "lat": 50.87959,
+            "lon": 4.70093
+          }
+        },
+        {
+          "facility": "University Hospital Center Zagreb, Department of Oncology, Breast Unit",
+          "city": "Zagreb",
+          "zip": "10000",
+          "country": "Croatia",
+          "geoPoint": {
+            "lat": 45.81444,
+            "lon": 15.97798
+          }
+        },
+        {
+          "facility": "CHU Brest - H\u00f4pital Morvan",
+          "city": "Brest",
+          "country": "France",
+          "geoPoint": {
+            "lat": 48.39029,
+            "lon": -4.48628
+          }
+        },
+        {
+          "facility": "Centre Bourgogne",
+          "city": "Lille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Hopital Prive La Louviere",
+          "city": "Lille",
+          "country": "France",
+          "geoPoint": {
+            "lat": 50.63391,
+            "lon": 3.05512
+          }
+        },
+        {
+          "facility": "Ospedale San Donato- ASL 8 Arezzo",
+          "city": "Arezzo",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.46276,
+            "lon": 11.88068
+          }
+        },
+        {
+          "facility": "Ospedale Santa Croce",
+          "city": "Fano",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 43.84052,
+            "lon": 13.01665
+          }
+        },
+        {
+          "facility": "IRCCS Ospedale Policlinico San Martino",
+          "city": "Genova",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 45.21604,
+            "lon": 11.87211
+          }
+        },
+        {
+          "facility": "Istituto Nazionale Tumori Fondazione G. Pascale, Dipartimento di Senologia Via Mariano Semmola",
+          "city": "Naples",
+          "zip": "80131",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 40.85216,
+            "lon": 14.26811
+          }
+        },
+        {
+          "facility": "Azienda Ospedaliero Universitaria di Parma",
+          "city": "Parma",
+          "country": "Italy",
+          "geoPoint": {
+            "lat": 44.79935,
+            "lon": 10.32618
+          }
+        },
+        {
+          "facility": "Hospital Clinic Barcelona",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Quironsalud Barcelona",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Hospital Teknon Barcelona",
+          "city": "Barcelona",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.38879,
+            "lon": 2.15899
+          }
+        },
+        {
+          "facility": "Complejo Hospitalario de Ja\u00e9n",
+          "city": "Ja\u00e9n",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 37.76922,
+            "lon": -3.79028
+          }
+        },
+        {
+          "facility": "Hospital Universitari Arnau de Vilanova",
+          "city": "Lleida",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.61674,
+            "lon": 0.62218
+          }
+        },
+        {
+          "facility": "Hospital General Universitario Gregorio Mara\u00f1on",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Ruber Internacional",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital Universitario Clinico San Carlos",
+          "city": "Madrid",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 40.4165,
+            "lon": -3.70256
+          }
+        },
+        {
+          "facility": "Hospital General de Catalunya",
+          "city": "Sant Cugat del Vall\u00e8s",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 41.47063,
+            "lon": 2.08611
+          }
+        },
+        {
+          "facility": "Hospital Universitario Marqu\u00e9s de Valdecilla",
+          "city": "Santander",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 43.46589,
+            "lon": -3.80493
+          }
+        },
+        {
+          "facility": "Instituto Valenciano de Oncolog\u00eda IVO, Servicio de Oncolog\u00eda M\u00e9dica C/ Beltran Baguena",
+          "city": "Valencia",
+          "zip": "46009",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital General Universitario de Valencia",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        },
+        {
+          "facility": "Hospital LLu\u00eds Alcany\u00eds de X\u00e0tiva",
+          "city": "Valencia",
+          "country": "Spain",
+          "geoPoint": {
+            "lat": 39.47391,
+            "lon": -0.37966
+          }
+        }
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "41160302",
+          "type": "DERIVED",
+          "citation": "Krizic M, Silovski T, Hoste G, Dedic Plavetic N, Romano O, Gonzalez Farre X, Cano Jimenez A, Guerrero Zotano A, Suissa J, Beghdad F, Dialla O, Zivanov M, De Laurentiis M. A Retrospective Observational Study of Extended Adjuvant Neratinib for HER2-Positive Early-Stage Breast Cancer in a European Early Access Program. Oncol Ther. 2025 Dec;13(4):1205-1224. doi: 10.1007/s40487-025-00392-w. Epub 2025 Oct 29."
+        }
+      ]
+    }
+  },
+  "resultsSection": {
+    "participantFlowModule": {
+      "groups": [
+        {
+          "id": "FG000",
+          "title": "Neratinib Arm",
+          "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Belgium, Croatia, France, Italy and Spain between 01 August 2017 and 31 December 2020 (the patient identification period)."
+        }
+      ],
+      "periods": [
+        {
+          "title": "Overall Study",
+          "milestones": [
+            {
+              "type": "STARTED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "111"
+                }
+              ]
+            },
+            {
+              "type": "COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "108"
+                }
+              ]
+            },
+            {
+              "type": "NOT COMPLETED",
+              "achievements": [
+                {
+                  "groupId": "FG000",
+                  "numSubjects": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "baselineCharacteristicsModule": {
+      "populationDescription": "The baseline characteristics have been analysed in 108 patients corresponding to the number of patients analysed in the Full Analysis Set",
+      "groups": [
+        {
+          "id": "BG000",
+          "title": "Neratinib Arm",
+          "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+        }
+      ],
+      "denoms": [
+        {
+          "units": "Participants",
+          "counts": [
+            {
+              "groupId": "BG000",
+              "value": "111"
+            }
+          ]
+        }
+      ],
+      "measures": [
+        {
+          "title": "Age, Continuous",
+          "populationDescription": "111 in the number of enrolled patients and 108 is the number of analysed patients in the FAS",
+          "paramType": "MEAN",
+          "dispersionType": "STANDARD_DEVIATION",
+          "unitOfMeasure": "years",
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "108"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "49.2",
+                      "spread": "8.83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sex: Female, Male",
+          "populationDescription": "111 in the number of enrolled patients and 108 is the number of analysed patients",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "calculatePct": false,
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "108"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "Female",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "107"
+                    }
+                  ]
+                },
+                {
+                  "title": "Male",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Race (NIH/OMB)",
+          "populationDescription": "The details of participants by ethnicity was not collected",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "calculatePct": false,
+          "classes": [
+            {
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "title": "American Indian or Alaska Native",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Asian",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Native Hawaiian or Other Pacific Islander",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Black or African American",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "White",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "More than one race",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "title": "Unknown or Not Reported",
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Region of Enrollment",
+          "description": "The number of enrolled participants is 111 for which the region has been analysed. of note, the region has not been analysed in the 108 analysed participants from the FAS.",
+          "populationDescription": "The total number of participants of participants is 111 corresponding to the enrolled number of participants on which the disposition by country was analysed, as this was not analysed in the 108 patients corresponding to the FAS. Therefore, the distribution by region has been done out of 111 patients, and not out of 108 patients.",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "classes": [
+            {
+              "title": "Croatia",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "111"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "35"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Spain",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "111"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Italy",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "111"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Belgium",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "111"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "16"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "France",
+              "denoms": [
+                {
+                  "units": "Participants",
+                  "counts": [
+                    {
+                      "groupId": "BG000",
+                      "value": "111"
+                    }
+                  ]
+                }
+              ],
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "BG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+        {
+          "type": "PRIMARY",
+          "title": "Description of Age",
+          "description": "Age will be assessed in years = neratinib initiation date - date of birth",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "years",
+          "timeFrame": "At baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "49.2",
+                      "spread": "8.83"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Description of Gender",
+          "description": "Gender will be described in percentage of Male and Female among patients",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Female",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "107"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "male",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Description of BMI",
+          "description": "BMI will be assessed in kg/m2",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "MEAN",
+          "dispersionType": "Standard Deviation",
+          "unitOfMeasure": "Kg/m\u00b2",
+          "timeFrame": "At baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26.7",
+                      "spread": "5.36"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Menopausal Status",
+          "description": "Menopausal status will be described in percentage of Premenopausal, Perimenopausal, Postmenopausal, Surgical/other reason for amenorrhea",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "NUMBER",
+          "unitOfMeasure": "participants",
+          "timeFrame": "At baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "premenopausal",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "40"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "perimenopausal",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "postmenopausal",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "surgical/other reason for amenorrhea",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "11"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "unavailable",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Not applicable (Male)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Comorbidities",
+          "description": "Comorbidities will be described in number and percentage of patients with at least one relevant comorbidity. Comorbidities were including but were not limited to: renal disease, liver disease, gastro-intestinal disorders, cardiovascular conditions, skin and subcutaneous disorders, diabetes (type I or II)",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At baseline",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "26"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "HER2 Overexpression/Amplification Testing",
+          "description": "HER2 overexpression/amplification testing will be assessed by Immunohistochemistry (IHC), Fluorescence in situ hybridization (FISH), Chromogenic in situ hybridization (CISH)",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At initial diagnosis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "IHC 3+ (positive)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "81"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IHC 2+ (equivocal)",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "24"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IHC no",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unknown",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Hormone Receptor Status",
+          "description": "Hormone receptor status will be described in percentage of patients with Estrogen receptor (ER) positive, Progesterone receptor (PR) positive, ER and PR negative",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At initial diagnosis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Estrogen receptor (ER) positive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "91"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ER negative",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "progesterone receptor (PR) positive",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "74"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "PR negative",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Primary Tumor Location",
+          "description": "Primary tumor location will be described in percentage of patients with Left Breast cancer, Right Breast cancer",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At initial diagnosis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Left breast",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "47"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Right breast",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "62"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Primary Tumor Histology",
+          "description": "Primary tumor histology will be described in percentage of patients with Infiltrating ductal carcinoma, Infiltrating lobular carcinoma, Invasive carcinoma, Tubular, Other",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At initial diagnosis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "Infiltrating ductal carcinoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "56"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Infiltrating lobular carcinoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Invasive carcinoma",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "43"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Other",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Histological Grade",
+          "description": "Histological grade will be described in percentage of patients with G1 Well differentiated, G2 Moderately differentiated, G3 Poorly differentiated, G4 Undifferentiated",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At initial diagnosis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "G1 Well differentiated",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "G2 Moderately differentiated",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "34"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "G3 Poorly differentiated",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "54"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unavailable",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "15"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRIMARY",
+          "title": "Pathologic Stage (AJCC Classification) of Breast Cancer",
+          "description": "Higher is the stage worse is the cancer.\n\nStage is defined as:\n\n1A: tumor (T) up to 2 cm + not spread outside the breast; no lymph nodes (LN).1B: Small clusters of cancer cells (CC) (0.2-2 mm) are found in LN, or T in the breast is \\< 2 cm and small clusters of CC are found in LN. 2A: No T in the breast, but cancer is in 1-3 axillary LN or in LN near the breastbone or T is 2 cm or smaller + has spread to 1-3 axillary LN or LN near the breastbone, or T is \\> 2 cm and \\< 5 cm and not spread to LN.2B: T is \\> 2 cm and \\< 5 cm and has spread to 1-3 axillary LN or LN near the breastbone, or T is \\> 5 cm and not spread to the LN. 3A: no T in the breast or the T is any size; cancer is found in 4-9 axillary LN or LN near the breastbone, or T is larger than 5 cm and small clusters of CC found in LN. 3B: T has spread to chest wall or breast skin + may have spread to up to 9 axillary LN. 3C: Cancer has spread to \u226510 axillary LN, LN near the collarbone, or LN near breastbone",
+          "populationDescription": "FAS",
+          "reportingStatus": "POSTED",
+          "paramType": "COUNT_OF_PARTICIPANTS",
+          "unitOfMeasure": "Participants",
+          "timeFrame": "At initial diagnosis",
+          "groups": [
+            {
+              "id": "OG000",
+              "title": "Neratinib Arm",
+              "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP."
+            }
+          ],
+          "denoms": [
+            {
+              "units": "Participants",
+              "counts": [
+                {
+                  "groupId": "OG000",
+                  "value": "108"
+                }
+              ]
+            }
+          ],
+          "classes": [
+            {
+              "title": "I",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "21"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IIA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IIB",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "29"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IIIA",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "25"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IIIB",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IIIC",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Missing",
+              "categories": [
+                {
+                  "measurements": [
+                    {
+                      "groupId": "OG000",
+                      "value": "5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "timeFrame": "From the baseline to the study entry date",
+      "eventGroups": [
+        {
+          "id": "EG000",
+          "title": "Neratinib Arm",
+          "description": "Eligible patients were selected among those who had received at least one dose of neratinib in the context of the EAP in Europe between 01 August 2017 and 31 December 2020 (the patient identification period) and residing in one of the five target following countries: Belgium, Croatia, France, Italy and Spain, which were part of the EAP.",
+          "deathsNumAffected": 1,
+          "deathsNumAtRisk": 108,
+          "seriousNumAffected": 12,
+          "seriousNumAtRisk": 108,
+          "otherNumAffected": 10,
+          "otherNumAtRisk": 108
+        }
+      ],
+      "seriousEvents": [
+        {
+          "term": "Subarachnoid haemorrhage",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Infected seroma",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Death",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Chest pain",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hepatic enzymze increased",
+          "organSystem": "Investigations",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hypercalcaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Palpitations",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Dehydration",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hypokalaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hyperkalaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Atrial fibrillation",
+          "organSystem": "Cardiac disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        }
+      ],
+      "otherEvents": [
+        {
+          "term": "abdominal pain",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Abdominal pain upper",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "arthralgia",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Constipation",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Decreased apetite",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Depression",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Diarrhea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 10,
+              "numAffected": 10,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Dizziness",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "dry skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Enterovirus infection",
+          "organSystem": "Infections and infestations",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Epistaxis",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Fatigue",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 5,
+              "numAffected": 5,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Flatulence",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "headache",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hyperhydrosis",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hyperlipidaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Hyperuricaemia",
+          "organSystem": "Metabolism and nutrition disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Memory impairment",
+          "organSystem": "Nervous system disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Muscle spasm",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Musculoskeletal pain",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Nail disorder",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Nasal disorder",
+          "organSystem": "Respiratory, thoracic and mediastinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Nausea",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 4,
+              "numAffected": 4,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Oedema peripheral",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Pain in extremity",
+          "organSystem": "Musculoskeletal and connective tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Pyrexia",
+          "organSystem": "General disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "rash",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 2,
+              "numAffected": 2,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Skin disorders",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Skin fissures",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Strabismus",
+          "organSystem": "Eye disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Vomiting",
+          "organSystem": "Gastrointestinal disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 3,
+              "numAffected": 3,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Vulvovaginal dryness",
+          "organSystem": "Reproductive system and breast disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        },
+        {
+          "term": "Pain of skin",
+          "organSystem": "Skin and subcutaneous tissue disorders",
+          "sourceVocabulary": "MedDRA (24.1)",
+          "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+          "stats": [
+            {
+              "groupId": "EG000",
+              "numEvents": 1,
+              "numAffected": 1,
+              "numAtRisk": 108
+            }
+          ]
+        }
+      ]
+    },
+    "moreInfoModule": {
+      "certainAgreement": {
+        "piSponsorEmployee": false,
+        "restrictiveAgreement": false
+      },
+      "pointOfContact": {
+        "title": "Medical Director (Jeanne Suissa)",
+        "organization": "Pierre Fabre M\u00e9dicament",
+        "email": "jeanne.suissa@pierre-fabre.com",
+        "phone": "+33149108269"
+      }
+    }
+  },
+  "documentSection": {
+    "largeDocumentModule": {
+      "largeDocs": [
+        {
+          "typeAbbrev": "Prot",
+          "hasProtocol": true,
+          "hasSap": false,
+          "hasIcf": false,
+          "label": "Study Protocol",
+          "date": "2021-09-22",
+          "uploadDate": "2024-05-10T05:12",
+          "filename": "Prot_000.pdf",
+          "size": 511757
+        },
+        {
+          "typeAbbrev": "SAP",
+          "hasProtocol": false,
+          "hasSap": true,
+          "hasIcf": false,
+          "label": "Statistical Analysis Plan",
+          "date": "2023-09-22",
+          "uploadDate": "2024-05-10T05:18",
+          "filename": "SAP_001.pdf",
+          "size": 723941
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-07-17"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D001941",
+          "term": "Breast Diseases"
+        },
+        {
+          "id": "D012871",
+          "term": "Skin Diseases"
+        },
+        {
+          "id": "D017437",
+          "term": "Skin and Connective Tissue Diseases"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}
